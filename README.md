@@ -15,11 +15,15 @@ ________________________________________________________________________________
 CEGLAB-Buddhabhushan/
 │
 ├── CSF1R-Selection_analysis/                          # Selection analysis of CSF1R **Fig. 7**
-├── GC_content_of_IL34-LAPTM5-STAP1-TNIP2/             # GC content analysis of four focal genes
-├── IL34_assembly_verification/                        # Assembly verification for IL34
-├── Macrophage_related/                                # Genes and pathways involved in macrophage regulation
-│
-├── Missing_genes_in_squamates-BLASTn-Genome/          # BLASTn of missing genes against genome assemblies
+
+├── GC_content_of_IL34-LAPTM5-STAP1-TNIP2/             # GC content analysis **Fig. 3**
+
+├── IL34_assembly_verification/                        # Assembly verification for _IL34_ **Fig. 6**
+
+├── Macrophage_related/                                # Genes and pathways involved in macrophage regulation **Fig. 8**
+
+├── Missing_genes_in_squamates-BLASTn-Genome/          # BLASTn of missing genes against 365 squadmates genome assemblies, **Fig. 1** and **Fig. 3**
+
 ├── Missing_genes_in_squamates-BLASTn-RNA-seq_database/# BLASTn of missing genes against RNA-seq transcriptomes
 ├── Missing_genes_in_squamates-BioMart-Paralogs_of_missing_genes/ # Paralogs of missing genes from Ensembl BioMart
 ├── Missing_genes_in_squamates-GC_content_seq_divergence/         # GC content and sequence divergence analysis
