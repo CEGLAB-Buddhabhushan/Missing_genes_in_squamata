@@ -1,0 +1,70 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Pogona_vitticeps.RNA-seq.blastDB.fa
+           1,600,000,000 sequences; 160,000,000,000 total letters
+
+
+
+Query= Homo_sapiens_XM_054346456.1-IL5RA
+
+Length=1320
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR31361878.98605021 FP200009192L1C011R04004784404 length=100         159        3e-34
+SRR31361878.89408193 FP200009192L1C010R04300417916 length=100         82.4       2e-11
+SRR31361877.27219434 FP200009192L1C002R08305287724 length=100         61.7       6e-05
+
+
+
+Query_1    739   GCAGAGATTGAAGGAACTCGTCTCTCTATCCAATGGGAGAAACCAGTGTCTGCTTTTCCA  798
+398605020  100   ....................A....T........AT.......................T  41
+
+Query_1    799   ATCCATTGCTTTGATTATGAAGTAAAAATACACAATACAAGGAATGGATATTTGCAGATA  858
+398605020  40    ........................................                      1
+389408192  100             .................G.............................G..  51
+
+Query_1    859   GAAAAATTGATGACCAATGCATTCATCTCAATAATTGATGATCTTTCTAAGTACGATGTT  918
+
+Query_1    919   CAAGTGAGAGCAGCAGTGAGCTCCATGTGCAGAGAGGCAGGGCTCTGGAGTGAGTGGAGC  978
+
+Query_1    979   CAACCTATTTATGTGGGAAATGATGAACACAAGCCCTTGAGAGAGTGGTTTGTCATTGTG  1038
+
+Query_1    1039  ATTATGGCAACCATCTGCTTCATCTTGTTAATTCTCTCGCTTATCTGTAAAATATGTCAT  1098
+
+Query_1    1099  TTATGGATCAAGTTGTTTCCACCAATTCCAGCACCAAAAAGTAATATCAAAGATCTCTTT  1158
+
+Query_1    1159  GTAACCACTAACTATGAGGTCCTCTGCATTTTCATATACATCTTAGATTCAGCTGACAAT  1218
+27219433   1                                              .........G.........  19
+
+Query_1    1219  TTTCTACaaaaaaaGAAAGCTG  1240
+27219433   20    ...............GT.....  41
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127174400000000
+
+
+  Database: Pogona_vitticeps.RNA-seq.blastDB.fa
+    Posted date:  Apr 28, 2025  9:35 PM
+  Number of letters in database: 160,000,000,000
+  Number of sequences in database:  1,600,000,000
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

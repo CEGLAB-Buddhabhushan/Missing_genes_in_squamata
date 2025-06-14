@@ -1,0 +1,60 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Crotalus_tigris.RNA-seq.blastDB.fa
+           1,316,885,858 sequences; 198,369,663,945 total letters
+
+
+
+Query= Homo_sapiens_XM_054366876.1-ELOVL3
+
+Length=813
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR11524072.16821265 16821265 length=151                              68.0       4e-07
+SRR11524072.16821265 16821265 length=151                              57.2       7e-04
+SRR11524064.10438344 10438344 length=151                              51.8       0.030
+
+
+
+Query_1    421  CTCATCTTTATTCACTGGTACCACCACAGCACAGTGCTCGTGTACACAAGCTTTGGATAC  480
+962400570  146                                                           ...  144
+945241014  31   ........CC.C..T.....T.....T.TT.....A..GC.T..TT.TT.G.ACTCT...  90
+
+Query_1    481  AAGAACAAAGTGCCTGCAGGAGGCTGGTTCGTCACCATGAACTTTGGTGTTCATGCCATC  540
+962400570  143  ...G...TG...G...GT...........TA.G..........A...A..A.....AG..  84
+945241014  91   ...G...TG...G...GT...........TA.G..........A...A..A.....      146
+618136304  1                         ........TA............A...A..A.....AG..  39
+
+Query_1    541  ATGTACACCTACTA  554
+962400570  83   ........A..T..  70
+618136304  40   .A......A..T..  53
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 114954201039275
+
+
+  Database: Crotalus_tigris.RNA-seq.blastDB.fa
+    Posted date:  Apr 28, 2025  4:24 PM
+  Number of letters in database: 198,369,663,945
+  Number of sequences in database:  1,316,885,858
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
