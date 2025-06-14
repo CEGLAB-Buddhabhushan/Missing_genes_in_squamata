@@ -20,7 +20,7 @@ ________________________________________________________________________________
 
 ├── IL34_assembly_verification/                        # Assembly verification for _IL34_ **Fig. 6**
 
-├── Macrophage_related/                                # Genes and pathways involved in macrophage regulation **Fig. 8**
+├── Macrophage_related/                                # Genes involved in macrophage regulation **Fig. 8**
 
 ├── Missing_genes_in_squamates-BLASTn-Genome/          # BLASTn of missing genes against 365 squadmates genome assemblies, **Fig. 1** and **Fig. 3**
 
@@ -32,31 +32,31 @@ ________________________________________________________________________________
 
 ├── Missing_genes_in_squamates-Gene_status_in_tuatara/            # Gene presence/absence check in tuatara
 
-├── Missing_genes_in_squamates-NCBI_GDV-chicken_green_anole/      # Visualization in NCBI GDV for chicken and anole
+├── Missing_genes_in_squamates-NCBI_GDV-chicken_green_anole/      # Visualization in NCBI GDV for chicken vs anole
 
-├── Missing_genes_in_squamates-Pogona_vitticeps_synteny_of_13_genes/ # Synteny mapping of 13 genes in Pogona vitticeps
+├── Missing_genes_in_squamates-Pogona_vitticeps_synteny_of_13_genes/ # Synteny of 13 genes in Pogona vitticeps
 
 ├── Missing_genes_in_squamates-Screening/                         # Screening of candidate gene losses
 
-├── Missing_genes_in_squamates-pogona_vitticeps_assembly_verfication/ # Assembly assessment of Pogona vitticeps
+├── Missing_genes_in_squamates-pogona_vitticeps_assembly_verfication/ # Assembly verification of Pogona vitticeps
 
-├── Missing_genes_in_squamates-summary/                           # Summary files and results
+├── Missing_genes_in_squamates-summary/                           # Summary files and results **Fig. 3**
 
-├── Segmental_deletion-IL34-STAP1-LAPTM5/             # Evidence of segmental deletions involving _IL34_, _STAP1_, _LAPTM5_ **Fig. 5**
+├── Segmental_deletion-IL34-STAP1-LAPTM5/           # Evidence of segmental deletions: _IL34_, _STAP1_, _LAPTM5_ **Fig. 5**
 
-├── Synteny_of_IL34-LAPTM5-STAP1-TNIP2-CSF1R/         # Synteny maps of the focal gene cluster **Fig. 5** and **Fig. 8**
+├── Synteny_of_IL34-LAPTM5-STAP1-TNIP2-CSF1R/         # Synteny NCBI scrrenshots **Fig. 5** and **Fig. 8**
 
 ├── TNIP2-Interchromosomal_rearrangement/             # Rearrangement events of _TNIP2_ **Fig. 8**
 
 ├── Cross-species_RNA-seq_expression.7z               # RNA-seq expression analysis of _IL34_, _CSF1R_, _CSF1_, etc.
 
-├── Missing_genes_in_squamates-HybPiper.7z            # HybPiper output for missing gene analysis
+├── Missing_genes_in_squamates-HybPiper.7z            # HybPiper output for missing gene
 
 ├── Missing_genes_in_squamates-Pogona_vitticeps_RNA-seq_mapping.7z # Cross-species RNA-seq mapping 
 
 ├── Missing_genes_in_squamates-Segmental_deleltion.7z # Archive with segmental deletion evidence
 
-├── Missing_genes_in_squamates-based_on_chain_files_of_chicken.7z  # Chain file–based alignments (chicken) **Fig. 1** and **Fig. 2**
+├── Missing_genes_in_squamates-based_on_chain_files_of_chicken.7z # Chain file–based unaligned regions (chicken) **Fig. 1** and **Fig. 2**
 
 ├── Missing_genes_in_squamates-based_on_chain_files_of_human.7z    # Chain file–based alignments (human)
 
