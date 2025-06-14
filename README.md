@@ -46,7 +46,7 @@ ________________________________________________________________________________
 ├── Synteny_of_IL34-LAPTM5-STAP1-TNIP2-CSF1R/         # Synteny maps of the focal gene cluster **Fig. 5** and **Fig. 8**
 
 ├── TNIP2-Interchromosomal_rearrangement/             # Rearrangement events of _TNIP2_ **Fig. 8**
-│
+
 ├── Cross-species_RNA-seq_expression.7z               # RNA-seq expression analysis of _IL34_, _CSF1R_, _CSF1_, etc.
 
 ├── Missing_genes_in_squamates-HybPiper.7z            # HybPiper output for missing gene analysis
