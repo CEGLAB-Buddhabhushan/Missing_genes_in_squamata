@@ -1,8 +1,5 @@
 
-# Missing Genes Analysis
-
-<span style="color:skyblue;"><b>Missing genes in squamata are highlighted in sky blue.</b></span>
-
+# Missing Genes Squamata
 
 This GitHub repository contains the data for the paper **"Gene loss through chromosomal rearrangements and segmental deletions in squamates"**
 
