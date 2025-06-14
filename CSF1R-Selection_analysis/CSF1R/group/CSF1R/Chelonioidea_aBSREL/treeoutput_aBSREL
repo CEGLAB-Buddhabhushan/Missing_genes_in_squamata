@@ -1,0 +1,232 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.1
+
+
+>code –> Universal
+
+>Loaded a multiple sequence alignment with **32** sequences, **955** codons, and **1** partitions from `/home/buddha/work/BMCBIO-EoI/Selection_analysis/CSF1R/group/CSF1R/aBSREL/CSF1R.aln`
+
+>branches –> fg
+
+
+### * Selected 2 branches for testing: `Caretta_caretta, Dermochelys_coriacea`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -60091.77, AIC-c = 120321.64 (69 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -56186.74, AIC-c = 112646.70 (136 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.30, and 95% of the weight in  0.08 -  0.72
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|               Node8               |   0.57   |    2     |   >1000 (17.94%)   |   -56128.42   |   112534.10   |    112534.10    |
+|               Node8               |   0.57   |    3     |  836.12 (17.88%)   |   -56128.43   |   112538.15   |    112534.10    |
+|            Danio_rerio            |   0.53   |    2     |  228.56 (11.24%)   |   -56082.34   |   112445.97   |    112445.97    |
+|            Danio_rerio            |   0.53   |    3     |  185.53 (11.23%)   |   -56082.34   |   112450.01   |    112445.97    |
+|        Xenopus_tropicalis         |   0.31   |    2     |   27.63 (16.83%)   |   -56020.64   |   112326.61   |    112326.61    |
+|        Xenopus_tropicalis         |   0.31   |    3     |  367.17 (14.45%)   |   -56019.98   |   112329.33   |    112326.61    |
+|              Node10               |   0.30   |    2     |    1.98 (20.21%)   |   -55992.21   |   112273.79   |    112273.79    |
+|              Node10               |   0.30   |    3     |   11.59 ( 6.51%)   |   -55992.10   |   112277.61   |    112273.79    |
+|        Latimeria_chalumnae        |   0.28   |    2     |    2.64 (20.36%)   |   -55958.34   |   112210.09   |    112210.09    |
+|        Latimeria_chalumnae        |   0.28   |    3     |   37.02 ( 6.45%)   |   -55957.40   |   112212.25   |    112210.09    |
+|              Node18               |   0.27   |    2     |    4.20 (15.04%)   |   -55918.55   |   112134.55   |    112134.55    |
+|              Node18               |   0.27   |    3     |  364.20 ( 9.43%)   |   -55918.12   |   112137.74   |    112134.55    |
+|      Phascolarctos_cinereus       |   0.26   |    2     |   >1000 ( 7.57%)   |   -55893.93   |   112089.36   |    112089.36    |
+|      Phascolarctos_cinereus       |   0.26   |    3     |  370.78 ( 4.28%)   |   -55891.58   |   112088.69   |    112088.69    |
+|      Phascolarctos_cinereus       |   0.26   |    4     |  396.86 ( 4.26%)   |   -55891.58   |   112092.73   |    112088.69    |
+|        Thamnophis_elegans         |   0.25   |    2     |    4.83 (14.14%)   |   -55847.14   |   112003.85   |    112003.85    |
+|        Thamnophis_elegans         |   0.25   |    3     |    5.01 (13.44%)   |   -55847.15   |   112007.91   |    112003.85    |
+|               Node2               |   0.24   |    2     |    0.97 (22.11%)   |   -55835.16   |   111983.93   |    111983.93    |
+|               Node2               |   0.24   |    3     |   22.77 ( 2.68%)   |   -55834.64   |   111986.94   |    111983.93    |
+|          Rana_temporaria          |   0.22   |    2     |    7.67 (10.12%)   |   -55807.67   |   111932.99   |    111932.99    |
+|          Rana_temporaria          |   0.22   |    3     |    8.94 ( 8.94%)   |   -55807.66   |   111937.01   |    111932.99    |
+|     Ornithorhynchus_anatinus      |   0.22   |    2     |    7.53 ( 9.76%)   |   -55778.31   |   111878.32   |    111878.32    |
+|     Ornithorhynchus_anatinus      |   0.22   |    3     |   54.83 ( 5.67%)   |   -55777.17   |   111880.09   |    111878.32    |
+|              Node21               |   0.21   |    2     |    3.60 (20.78%)   |   -55724.16   |   111774.07   |    111774.07    |
+|              Node21               |   0.21   |    3     |   76.29 ( 9.59%)   |   -55722.57   |   111774.92   |    111774.07    |
+|           Mus_musculus            |   0.20   |    2     |    9.31 ( 5.67%)   |   -55696.40   |   111722.58   |    111722.58    |
+|           Mus_musculus            |   0.20   |    3     |   52.19 ( 3.18%)   |   -55694.58   |   111722.99   |    111722.58    |
+|              Node50               |   0.18   |    2     |    1.85 (14.00%)   |   -55678.47   |   111690.77   |    111690.77    |
+|              Node50               |   0.18   |    3     |   >1000 ( 1.92%)   |   -55677.76   |   111693.39   |    111690.77    |
+|        Oryzias_melastigma         |   0.17   |    2     |    1.29 ( 6.71%)   |   -55670.48   |   111678.82   |    111678.82    |
+|        Oryzias_melastigma         |   0.17   |    3     |    1.86 ( 3.50%)   |   -55670.46   |   111682.83   |    111678.82    |
+|        Sphenodon_punctatus        |   0.17   |    2     |    2.89 (19.50%)   |   -55651.32   |   111644.55   |    111644.55    |
+|        Sphenodon_punctatus        |   0.17   |    3     |    3.07 (16.44%)   |   -55651.30   |   111648.56   |    111644.55    |
+|              Node37               |   0.17   |    2     |    5.15 (11.64%)   |   -55618.64   |   111583.24   |    111583.24    |
+|              Node37               |   0.17   |    3     |    5.42 (11.05%)   |   -55618.64   |   111587.28   |    111583.24    |
+|        Anolis_carolinensis        |   0.16   |    2     |    1.90 (27.37%)   |   -55591.81   |   111533.63   |    111533.63    |
+|        Anolis_carolinensis        |   0.16   |    3     |    1.91 (27.31%)   |   -55591.81   |   111537.68   |    111533.63    |
+|    Alligator_mississippiensis     |   0.16   |    2     |    1.39 (24.40%)   |   -55578.51   |   111511.07   |    111511.07    |
+|    Alligator_mississippiensis     |   0.16   |    3     |    1.48 (16.60%)   |   -55578.50   |   111515.10   |    111511.07    |
+|              Node12               |   0.15   |    2     |   14.97 (11.55%)   |   -55536.60   |   111431.29   |    111431.29    |
+|              Node12               |   0.15   |    3     |   14.99 (11.56%)   |   -55536.60   |   111435.34   |    111431.29    |
+|        Varanus_komodoensis        |   0.15   |    2     |    2.54 (32.28%)   |   -55510.26   |   111382.67   |    111382.67    |
+|        Varanus_komodoensis        |   0.15   |    3     |    2.55 (32.22%)   |   -55510.26   |   111386.72   |    111382.67    |
+|               Node9               |   0.14   |    2     |   82.39 ( 7.97%)   |   -55492.37   |   111350.94   |    111350.94    |
+|               Node9               |   0.14   |    3     |   81.23 ( 7.91%)   |   -55492.37   |   111354.99   |    111350.94    |
+|         Pogona_vitticeps          |   0.13   |    2     |    4.23 ( 7.31%)   |   -55481.23   |   111332.71   |    111332.71    |
+|         Pogona_vitticeps          |   0.13   |    3     |    4.62 ( 6.60%)   |   -55481.23   |   111336.75   |    111332.71    |
+|               Node4               |   0.12   |    2     |    0.43 (25.37%)   |   -55480.01   |   111334.32   |    111332.71    |
+|             Bufo_bufo             |   0.11   |    2     |   20.38 ( 3.44%)   |   -55468.65   |   111311.60   |    111311.60    |
+|             Bufo_bufo             |   0.11   |    3     |   21.71 ( 3.25%)   |   -55468.61   |   111315.56   |    111311.60    |
+|            Hyla_sarda             |   0.11   |    2     |    3.01 (15.09%)   |   -55455.87   |   111290.07   |    111290.07    |
+|            Hyla_sarda             |   0.11   |    3     |    3.21 (12.20%)   |   -55455.86   |   111294.10   |    111290.07    |
+|              Node17               |   0.10   |    2     |   13.02 ( 9.84%)   |   -55435.01   |   111252.42   |    111252.42    |
+|              Node17               |   0.10   |    3     |   >1000 ( 6.88%)   |   -55434.70   |   111255.83   |    111252.42    |
+|              Node11               |   0.10   |    2     |   27.15 ( 4.44%)   |   -55424.60   |   111235.64   |    111235.64    |
+|              Node11               |   0.10   |    3     |   26.85 ( 4.46%)   |   -55424.60   |   111239.69   |    111235.64    |
+|              Node59               |   0.10   |    2     |    5.97 ( 6.01%)   |   -55413.12   |   111216.73   |    111216.73    |
+|              Node59               |   0.10   |    3     |   13.24 ( 2.48%)   |   -55412.83   |   111220.20   |    111216.73    |
+|        Taeniopygia_guttata        |   0.10   |    2     |   30.14 ( 1.43%)   |   -55407.40   |   111209.35   |    111209.35    |
+|        Taeniopygia_guttata        |   0.10   |    3     |   >1000 ( 0.67%)   |   -55406.31   |   111211.21   |    111209.35    |
+|           Gallus_gallus           |   0.09   |    2     |   >1000 ( 1.90%)   |   -55393.68   |   111185.95   |    111185.95    |
+|           Gallus_gallus           |   0.09   |    3     |   >1000 ( 1.48%)   |   -55392.68   |   111188.01   |    111185.95    |
+|     Rhinolophus_ferrumequinum     |   0.09   |    2     |    1.65 (25.56%)   |   -55383.33   |   111169.32   |    111169.32    |
+|     Rhinolophus_ferrumequinum     |   0.09   |    3     |    1.64 (25.72%)   |   -55383.33   |   111173.37   |    111169.32    |
+|        Loxodonta_africana         |   0.09   |    2     |    2.52 (20.80%)   |   -55369.44   |   111145.57   |    111145.57    |
+|        Loxodonta_africana         |   0.09   |    3     |    2.55 (20.63%)   |   -55369.44   |   111149.63   |    111145.57    |
+|            Canis_lupus            |   0.09   |    2     |    0.83 (24.52%)   |   -55365.95   |   111142.66   |    111142.66    |
+|            Canis_lupus            |   0.09   |    3     |    0.89 ( 0.00%)   |   -55365.95   |   111146.71   |    111142.66    |
+|        Rhineura_floridana         |   0.09   |    2     |   >1000 ( 3.88%)   |   -55341.46   |   111097.74   |    111097.74    |
+|        Rhineura_floridana         |   0.09   |    3     |   >1000 ( 3.86%)   |   -55341.46   |   111101.78   |    111097.74    |
+|              Node35               |   0.08   |    2     |   15.75 ( 9.41%)   |   -55320.27   |   111059.41   |    111059.41    |
+|              Node35               |   0.08   |    3     |   16.38 ( 8.98%)   |   -55320.24   |   111063.41   |    111059.41    |
+|           Homo_sapiens            |   0.07   |    2     |   11.29 ( 2.27%)   |   -55308.21   |   111039.35   |    111039.35    |
+|           Homo_sapiens            |   0.07   |    3     |   13.22 ( 2.00%)   |   -55308.21   |   111043.39   |    111039.35    |
+|           Orcinus_orca            |   0.07   |    2     |    0.92 (28.02%)   |   -55306.75   |   111040.49   |    111039.35    |
+|          Equus_caballus           |   0.06   |    2     |    0.87 (25.28%)   |   -55307.06   |   111041.10   |    111039.35    |
+|           Calypte_anna            |   0.05   |    2     |    1.95 (14.61%)   |   -55302.00   |   111030.97   |    111030.97    |
+|           Calypte_anna            |   0.05   |    3     |    1.99 (14.37%)   |   -55302.00   |   111035.03   |    111030.97    |
+|              Node19               |   0.05   |    2     |   35.41 (11.85%)   |   -55281.26   |   110993.56   |    110993.56    |
+|              Node19               |   0.05   |    3     |  108.59 (11.73%)   |   -55281.11   |   110997.30   |    110993.56    |
+|            Cygnus_olor            |   0.05   |    2     |    3.86 (12.75%)   |   -55265.00   |   110965.08   |    110965.08    |
+|            Cygnus_olor            |   0.05   |    3     |    3.88 (12.75%)   |   -55265.00   |   110969.14   |    110965.08    |
+|              Node36               |   0.05   |    2     |   >1000 ( 2.29%)   |   -55251.35   |   110941.84   |    110941.84    |
+|              Node36               |   0.05   |    3     |   >1000 ( 2.28%)   |   -55251.35   |   110945.90   |    110941.84    |
+|              Node48               |   0.05   |    2     |    5.42 (12.65%)   |   -55245.44   |   110934.08   |    110934.08    |
+|              Node48               |   0.05   |    3     |    5.49 (12.61%)   |   -55245.44   |   110938.14   |    110934.08    |
+|         Rissa_tridactyla          |   0.04   |    2     |   16.56 ( 0.75%)   |   -55240.39   |   110928.04   |    110928.04    |
+|         Rissa_tridactyla          |   0.04   |    3     |   19.23 ( 0.65%)   |   -55240.38   |   110932.07   |    110928.04    |
+|              Node42               |   0.03   |    2     |   10.41 ( 5.40%)   |   -55233.77   |   110918.87   |    110918.87    |
+|              Node42               |   0.03   |    3     |   10.63 ( 5.30%)   |   -55233.77   |   110922.92   |    110918.87    |
+|              Node47               |   0.03   |    2     |    7.32 ( 4.54%)   |   -55233.27   |   110921.93   |    110918.87    |
+|          Caretta_caretta          |   0.03   |    2     |    0.94 (11.86%)   |   -55233.75   |   110922.89   |    110918.87    |
+|              Node38               |   0.02   |    2     |    6.84 ( 8.30%)   |   -55230.67   |   110916.73   |    110916.73    |
+|              Node38               |   0.02   |    3     |    6.81 ( 8.35%)   |   -55230.67   |   110920.79   |    110916.73    |
+|              Node22               |   0.02   |    2     |   >1000 ( 0.45%)   |   -55228.52   |   110916.48   |    110916.48    |
+|              Node22               |   0.02   |    3     |   >1000 ( 0.45%)   |   -55228.52   |   110920.55   |    110916.48    |
+|              Node51               |   0.02   |    2     |    6.32 ( 6.73%)   |   -55226.99   |   110917.48   |    110916.48    |
+|              Node23               |   0.02   |    2     |    0.23 (46.25%)   |   -55228.50   |   110920.51   |    110916.48    |
+|              Node56               |   0.01   |    2     |    9.21 ( 3.90%)   |   -55225.95   |   110915.41   |    110915.41    |
+|              Node56               |   0.01   |    3     |    9.01 ( 3.97%)   |   -55225.95   |   110919.47   |    110915.41    |
+|         Poecilia_formosa          |   0.01   |    2     |    0.23 (28.49%)   |   -55225.95   |   110919.47   |    110915.41    |
+|       Dermochelys_coriacea        |   0.01   |    2     |   11.09 ( 5.02%)   |   -55224.52   |   110916.61   |    110915.41    |
+|              Node30               |   0.01   |    2     |    0.40 (49.85%)   |   -55225.89   |   110919.34   |    110915.41    |
+|        Poecilia_reticulata        |   0.01   |    2     |    0.39 (35.05%)   |   -55225.95   |   110919.47   |    110915.41    |
+|              Node40               |   0.01   |    2     |  388.65 ( 0.55%)   |   -55223.76   |   110915.08   |    110915.08    |
+|              Node40               |   0.01   |    3     |  391.42 ( 0.57%)   |   -55223.76   |   110919.14   |    110915.08    |
+|              Node53               |   0.01   |    2     |    0.23 (28.08%)   |   -55223.76   |   110919.15   |    110915.08    |
+|              Node24               |   0.01   |    2     |    0.42 (15.02%)   |   -55223.73   |   110919.08   |    110915.08    |
+|              Node25               |   0.00   |    2     |    0.49 (11.35%)   |   -55223.76   |   110919.15   |    110915.08    |
+
+### Rate class analyses summary
+*  46 branches with **2** rate classes
+*  1 branches with **3** rate classes
+*  14 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -55170.91, AIC-c = 110809.38 (232 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|               Node8               |     2    |   74.26 (15.44%)   |    Not selected    |    for testing     |
+|            Danio_rerio            |     2    |   81.49 ( 9.18%)   |    Not selected    |    for testing     |
+|        Xenopus_tropicalis         |     2    |   17.59 (14.24%)   |    Not selected    |    for testing     |
+|              Node10               |     2    |    1.24 (22.95%)   |    Not selected    |    for testing     |
+|        Latimeria_chalumnae        |     2    |    1.32 (25.53%)   |    Not selected    |    for testing     |
+|              Node18               |     2    |    5.09 (10.00%)   |    Not selected    |    for testing     |
+|      Phascolarctos_cinereus       |     3    |   >1000 ( 3.19%)   |    Not selected    |    for testing     |
+|        Thamnophis_elegans         |     2    |    4.08 (14.50%)   |    Not selected    |    for testing     |
+|               Node2               |     2    |    1.89 (12.80%)   |    Not selected    |    for testing     |
+|          Rana_temporaria          |     2    |    4.67 ( 8.32%)   |    Not selected    |    for testing     |
+|     Ornithorhynchus_anatinus      |     2    |   39.15 ( 6.80%)   |    Not selected    |    for testing     |
+|              Node21               |     2    |    4.48 (16.91%)   |    Not selected    |    for testing     |
+|           Mus_musculus            |     2    |   17.35 ( 4.99%)   |    Not selected    |    for testing     |
+|              Node50               |     2    |    2.14 (10.07%)   |    Not selected    |    for testing     |
+|        Oryzias_melastigma         |     2    |    1.46 ( 6.57%)   |    Not selected    |    for testing     |
+|        Sphenodon_punctatus        |     2    |    2.45 (20.67%)   |    Not selected    |    for testing     |
+|              Node37               |     2    |    5.07 ( 9.48%)   |    Not selected    |    for testing     |
+|        Anolis_carolinensis        |     2    |    1.69 (29.04%)   |    Not selected    |    for testing     |
+|    Alligator_mississippiensis     |     2    |    1.19 (26.69%)   |    Not selected    |    for testing     |
+|              Node12               |     2    |   15.28 (10.20%)   |    Not selected    |    for testing     |
+|        Varanus_komodoensis        |     2    |    2.42 (32.55%)   |    Not selected    |    for testing     |
+|               Node9               |     2    |  138.34 ( 5.92%)   |    Not selected    |    for testing     |
+|         Pogona_vitticeps          |     2    |    5.47 ( 4.78%)   |    Not selected    |    for testing     |
+|               Node4               |     1    |   0.09 (100.00%)   |    Not selected    |    for testing     |
+|             Bufo_bufo             |     2    |   27.09 ( 2.30%)   |    Not selected    |    for testing     |
+|            Hyla_sarda             |     2    |    2.99 (15.38%)   |    Not selected    |    for testing     |
+|              Node17               |     2    |   12.70 ( 9.81%)   |    Not selected    |    for testing     |
+|              Node11               |     2    |   37.90 ( 5.45%)   |    Not selected    |    for testing     |
+|              Node59               |     2    |   10.80 ( 3.67%)   |    Not selected    |    for testing     |
+|        Taeniopygia_guttata        |     2    |   >1000 ( 1.17%)   |    Not selected    |    for testing     |
+|           Gallus_gallus           |     2    |   >1000 ( 1.84%)   |    Not selected    |    for testing     |
+|     Rhinolophus_ferrumequinum     |     2    |    1.52 (25.99%)   |    Not selected    |    for testing     |
+|        Loxodonta_africana         |     2    |    2.04 (22.37%)   |    Not selected    |    for testing     |
+|            Canis_lupus            |     2    |    0.71 (30.30%)   |    Not selected    |    for testing     |
+|        Rhineura_floridana         |     2    |   >1000 ( 3.60%)   |    Not selected    |    for testing     |
+|              Node35               |     2    |   12.78 (10.85%)   |    Not selected    |    for testing     |
+|           Homo_sapiens            |     2    |   10.52 ( 2.29%)   |    Not selected    |    for testing     |
+|           Orcinus_orca            |     1    |   0.29 (100.00%)   |    Not selected    |    for testing     |
+|          Equus_caballus           |     1    |   0.22 (100.00%)   |    Not selected    |    for testing     |
+|           Calypte_anna            |     2    |    1.83 (15.13%)   |    Not selected    |    for testing     |
+|              Node19               |     2    |   59.85 (11.61%)   |    Not selected    |    for testing     |
+|            Cygnus_olor            |     2    |    3.46 (13.29%)   |    Not selected    |    for testing     |
+|              Node36               |     2    |   >1000 ( 2.21%)   |    Not selected    |    for testing     |
+|              Node48               |     2    |    4.87 (13.18%)   |    Not selected    |    for testing     |
+|         Rissa_tridactyla          |     2    |   17.43 ( 0.66%)   |    Not selected    |    for testing     |
+|              Node42               |     2    |    8.03 ( 5.92%)   |    Not selected    |    for testing     |
+|              Node47               |     1    |   0.55 (100.00%)   |    Not selected    |    for testing     |
+|          Caretta_caretta          |     1    |   0.44 (100.00%)   |        0.00        |       1.00000      |
+|              Node38               |     2    |    6.73 ( 9.04%)   |    Not selected    |    for testing     |
+|              Node22               |     2    |   >1000 ( 0.51%)   |    Not selected    |    for testing     |
+|              Node51               |     1    |   0.33 (100.00%)   |    Not selected    |    for testing     |
+|              Node23               |     1    |   0.15 (100.00%)   |    Not selected    |    for testing     |
+|              Node56               |     2    |    8.31 ( 3.98%)   |    Not selected    |    for testing     |
+|         Poecilia_formosa          |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|       Dermochelys_coriacea        |     1    |   0.75 (100.00%)   |        0.00        |       1.00000      |
+|              Node30               |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|        Poecilia_reticulata        |     1    |   0.27 (100.00%)   |    Not selected    |    for testing     |
+|              Node40               |     2    |  343.01 ( 0.63%)   |    Not selected    |    for testing     |
+|              Node53               |     1    |   0.06 (100.00%)   |    Not selected    |    for testing     |
+|              Node24               |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|              Node25               |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **2** tested.
+
+
+

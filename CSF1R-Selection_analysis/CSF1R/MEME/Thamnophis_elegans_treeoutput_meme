@@ -1,0 +1,137 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. Version 3.0 adds a different format for
+ancestral state reconstruction, branch-site posterior storage, and
+site-level heterogeneity testing. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.0
+
+
+>code –> Universal
+/home/buddha/work/BMCBIO-EoI/Selection_analysis/CSF1R/MEME/Thamnophis_elegans_treeLabled.txt
+Thamnophis_elegans_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **32** sequences, **955** codons, and **1** partitions from `/home/buddha/work/BMCBIO-EoI/Selection_analysis/CSF1R/MEME/CSF1R.aln`
+
+>branches –> fg
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue –> 0.1
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample –> 10
+
+
+### Branches to include in the MEME analysis
+Selected 1 branches to include in the MEME analysis: `Thamnophis_elegans`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -58835.68, AIC-c = 117809.46 (69 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  5.921
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -56398.45, AIC-c = 112951.30 (77 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  6.613
+* non-synonymous/synonymous rate ratio for *background* =   0.3008
+* non-synonymous/synonymous rate ratio for *test* =   0.3336
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+
+>full-model –> Yes
+* Log(L) = -56259.48
+* non-synonymous/synonymous rate ratio for *background* =   0.2715
+* non-synonymous/synonymous rate ratio for *test* =   0.3944
+
+### For partition 1 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |   beta+    |     p+     |    LRT     |Episodic selection detected?| # branches |Most common codon substitutions at this site|
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:--------------------------:|:----------:|:------------------------------------------:|
+|     6      |     1      |    0.688   |  157.222   |    1.000   |    2.118   |      Yes, p =  0.0909      |     0      |[3]ctG>ctC|[2]Ctg>Ttg|[1]CTG>ACT,ctG>ctA,...|
+|     8      |     1      |    0.398   |    2.231   |    1.000   |    1.498   |      Yes, p =  0.0909      |     0      |[3]ctT>ctG|[2]ctT>ctC|[1]CtT>AtG,Ctt>Att,...|
+|     39     |     1      |    0.414   |    6.429   |    1.000   |    5.758   |      Yes, p =  0.0909      |     1      |[3]aAc>aCc|[2]ACc>CTc,caT>caG|[1]aAc>aGc,...|
+|     47     |     1      |    2.203   |  765.415   |    1.000   |    1.127   |      Yes, p =  0.0909      |     1      |[4]agC>agT|[2]ccT>ccA|[1]aCt>aAt,aGc>aCc,...|
+|     91     |     1      |    0.591   |  570.537   |    1.000   |    6.643   |      Yes, p =  0.0909      |     1      |[3]gcA>gcC|[2]Gcc>Acc|[1]GCA>AGT,gcA>gcG,...|
+|     95     |     1      |    1.046   |    2.279   |    1.000   |    0.380   |      Yes, p =  0.0909      |     0      |[2]ctC>ctG,gtG>gtC|[1]Ctc>Atc,ctC>ctA,Ctc...|
+|     96     |     1      |    0.501   |    5.658   |    1.000   |    4.196   |      Yes, p =  0.0909      |     1      |[3]tTt>tAt|[2]taT>taC,Ttt>Att|[1]tAT>tTC,...|
+|    109     |     1      |    0.789   |  126.333   |    1.000   |    2.666   |      Yes, p =  0.0909      |     1      |[2]aaG>aaC,Gag>Cag|[1]aAc>aCc,aAC>aTA,aAc...|
+|    111     |     1      |    0.599   |    4.769   |    1.000   |    3.236   |      Yes, p =  0.0909      |     1      |[2]Gtc>Atc,gtT>gtA,gtT>gtC|[1]Atc>Gtc,ATt...|
+|    114     |     1      |    1.032   |    4.003   |    1.000   |    1.411   |      Yes, p =  0.0909      |     1      |[1]aCa>aTa,ACa>GAa,aCC>aAG,acC>acA,acC>ac...|
+|    115     |     1      |    0.461   |   65.186   |    1.000   |    4.294   |      Yes, p =  0.0909      |     1      |  [3]gaA>gaG|[2]Gaa>Aaa|[1]GAA>AGG,gAg>gCg  |
+|    134     |     1      |    0.884   |  318.308   |    1.000   |    1.505   |      Yes, p =  0.0909      |     1      |[2]gtT>gtG|[1]Ctg>Gtg,CtG>TtC,Gta>Ata,gTG...|
+|    141     |     1      |    0.798   |  251.828   |    1.000   |    3.903   |      Yes, p =  0.0909      |     0      |[4]ggT>ggC|[2]gGt>gAt|[1]aAa>aGa,Aaa>Gaa,...|
+|    142     |     1      |    1.696   |  4303.054  |    1.000   |    1.945   |      Yes, p =  0.0909      |     0      |[2]TCC>AGG,tcC>tcT|[1]aaC>aaA,AAC>CGT,AaC...|
+|    165     |     1      |    1.269   |    6.005   |    1.000   |    1.192   |      Yes, p =  0.0909      |     0      |[2]ccG>ccC,tTc>tAc|[1]aAg>aTg,AAg>CTg,aGc...|
+|    170     |     1      |    1.508   |   43.053   |    1.000   |    3.042   |      Yes, p =  0.0909      |     1      |[2]gaC>gaT,tAt>tTt|[1]GAA>ATG,Gaa>Caa,gaA...|
+|    183     |     1      |    1.477   |  141.690   |    1.000   |    2.402   |      Yes, p =  0.0909      |     1      |[2]aAg>aGg,aCg>aAg,acG>acC|[1]aaG>aaA,aaG...|
+|    188     |     1      |    0.509   |  160.302   |    1.000   |    4.961   |      Yes, p =  0.0909      |     1      |[2]aGa>aAa,aGg>aAg,cGg>cAg,Cgg>Tgg|[1]aCg...|
+|    190     |     1      |    0.894   |  163.951   |    1.000   |    3.644   |      Yes, p =  0.0909      |     1      |[2]aaA>aaG,aTa>aAa,Att>Ctt,ATt>GCt|[1]aaC...|
+|    192     |     1      |    0.853   |  345.069   |    1.000   |    4.324   |      Yes, p =  0.0909      |     1      |[2]Aaa>Gaa,aaT>aaA|[1]aaA>aaT,aAa>aGa,AaA...|
+|    205     |     1      |    0.695   |    4.561   |    1.000   |    2.916   |      Yes, p =  0.0909      |     1      |[3]ccA>ccT|[1]aCa>aAa,aCA>aGG,ACa>CAa,Aca...|
+|    208     |     1      |    0.886   |   78.128   |    1.000   |    2.673   |      Yes, p =  0.0909      |     1      |[3]caT>caC|[2]Gat>Cat,gaT>gaA|[1]aaT>aaA,...|
+|    219     |     1      |    0.745   |    1.836   |    1.000   |    0.404   |      Yes, p =  0.0909      |     0      |[2]acC>acT,Acc>Tcc,gTg>gAg|[1]acC>acA,Acc...|
+|    223     |     1      |    0.824   |  264.968   |    1.000   |    4.570   |      Yes, p =  0.0909      |     1      |[2]aCt>aTt,agC>agT,aTt>aCt|[1]aAt>aCt,AaT...|
+|    225     |     1      |    0.766   |  177.271   |    1.000   |    3.870   |      Yes, p =  0.0909      |     1      |[1]aCT>aAA,aCt>aAt,ccA>ccC,ccA>ccT,Cct>Ac...|
+|    231     |     1      |    0.846   |    4.492   |    1.000   |    1.272   |      Yes, p =  0.0909      |     0      |[3]atC>atT|[2]ATc>GGc,Atc>Gtc|[1]aTC>aCA,...|
+|    240     |     1      |    0.943   |   56.002   |    1.000   |    1.221   |      Yes, p =  0.0909      |     0      |[2]ctC>ctG,gtC>gtG|[1]ccC>ccA,CCc>GTc,Gtc...|
+|    242     |     1      |    0.439   |   33.010   |    1.000   |    4.062   |      Yes, p =  0.0909      |     1      |[2]aGa>aCa,Atc>Gtc|[1]agT>agA,atA>atC,ATa...|
+|    244     |     1      |    0.332   |   10.536   |    1.000   |    5.030   |      Yes, p =  0.0909      |     0      |[2]aaA>aaT|[1]aAA>aCC,Aaa>Caa,AAa>GGa,AAa...|
+|    245     |     1      |    1.605   |   80.771   |    1.000   |    1.113   |      Yes, p =  0.0909      |     0      |[2]aaA>aaC,aAa>aCa,aAc>aCc|[1]aaA>aaG,AaA...|
+|    247     |     1      |    1.206   |  148.015   |    1.000   |    4.202   |      Yes, p =  0.0909      |     1      |[3]Aac>Gac|[2]Agc>Ggc|[1]aAC>aCT,aAc>aGc,...|
+|    248     |     1      |    1.682   |    7.460   |    1.000   |    1.676   |      Yes, p =  0.0909      |     1      |[2]ttT>ttC|[1]CAT>GTC,Tat>Cat,taT>taC,tAt...|
+|    249     |     1      |    0.405   |    4.381   |    1.000   |    3.383   |      Yes, p =  0.0909      |     1      |[2]caT>caA,gAa>gTa|[1]cAt>cGt,gAa>gCa,GaA...|
+|    252     |     1      |    1.073   |    7.555   |    1.000   |    3.138   |      Yes, p =  0.0909      |     1      |[1]aGa>aAa,agA>agC,aGT>aAC,agT>agG,Agt>Cg...|
+|    277     |     1      |    0.350   |    6.136   |    1.000   |    5.576   |      Yes, p =  0.0909      |     1      |[1]aAa>aGa,AaA>GaC,AAa>TCa,aaC>aaA,aAc>aC...|
+|    279     |     1      |    1.071   |  424.377   |    1.000   |    5.667   |      Yes, p =  0.0909      |     1      |[2]gAa>gCa,gCC>gTG,tcA>tcT|[1]Gaa>Aaa,GAA...|
+|    281     |     1      |    0.399   |    8.270   |    1.000   |    7.109   |      Yes, p =  0.0909      |     1      |[2]ggA>ggG|[1]Gaa>Aaa,Gaa>Caa,gAa>gGa,Gga...|
+|    283     |     1      |    0.641   |   95.837   |    1.000   |    4.171   |      Yes, p =  0.0909      |     1      |[2]aGc>aAc,agC>agT,cAc>cGc|[1]aaC>aaG,aAC...|
+|    285     |     1      |    0.609   |    5.802   |    1.000   |    4.012   |      Yes, p =  0.0909      |     1      |[2]Acc>Gcc,TcT>GcC|[1]Acc>Tcc,AcC>TcT,Gct...|
+|    322     |     1      |    0.365   |  410.816   |    1.000   |    3.634   |      Yes, p =  0.0909      |     1      |[2]gaG>gaT|[1]Gaa>Aaa,gaA>gaG,gaA>gaT,Gag...|
+|    343     |     1      |    0.689   |    2.139   |    1.000   |    0.527   |      Yes, p =  0.0909      |     0      |[2]Cac>Aac,gaG>gaA|[1]aaC>aaG,aaC>aaT,aAC...|
+|    353     |     1      |    0.332   |  242.281   |    1.000   |    3.432   |      Yes, p =  0.0909      |     0      |[2]AaC>CaT|[1]aaC>aaG,aAc>aCc,aAc>aGc,Aac...|
+|    354     |     1      |    0.177   |   43.436   |    1.000   |    5.915   |      Yes, p =  0.0909      |     1      |   [2]Aac>Tac|[1]aaC>aaT,AaC>CaG,Aac>Gac    |
+|    372     |     1      |    0.824   |    4.743   |    1.000   |    2.099   |      Yes, p =  0.0909      |     1      |[2]cGc>cAc,Ctc>Ttc|[1]acA>acC,AcA>TcC,atA...|
+|    381     |     1      |    0.602   |    1.617   |    1.000   |    0.419   |      Yes, p =  0.0909      |     0      |[2]gCa>gAa|[1]aAa>aGa,AaA>CaG,Aaa>Gaa,aaG...|
+|    387     |     1      |    0.809   |    6.150   |    1.000   |    2.925   |      Yes, p =  0.0909      |     1      |[3]acC>acT|[2]Act>Tct|[1]Aca>Tca,aCc>aAc,...|
+|    395     |     1      |    0.754   |    5.232   |    1.000   |    2.859   |      Yes, p =  0.0909      |     1      |[2]aaA>aaG|[1]aAa>aGa,AAa>CCa,CCa>AAa,ccA...|
+|    439     |     1      |    0.829   |   36.144   |    1.000   |    3.626   |      Yes, p =  0.0909      |     1      |[2]aCg>aGg,gTg>gAg|[1]acA>acG,Aca>Tca,acG...|
+|    441     |     1      |    1.104   |    7.054   |    1.000   |    2.158   |      Yes, p =  0.0909      |     0      |[4]Ctt>Att|[2]ctT>ctC|[1]Cta>Ata,ctA>ctG,...|
+|    456     |     1      |    0.868   |   33.655   |    1.000   |    2.506   |      Yes, p =  0.0909      |     0      |[2]ggA>ggC,ggA>ggG|[1]caA>caG,caA>caT,cAa...|
+|    491     |     1      |    2.645   |   13.024   |    1.000   |    0.734   |      Yes, p =  0.0909      |     0      |[2]caC>caT,Tgg>Agg|[1]cAa>cTa,caC>caA,CTA...|
+|    493     |     1      |    0.895   |   61.365   |    1.000   |    2.518   |      Yes, p =  0.0909      |     0      |[4]Atc>Gtc|[1]aCg>aTg,AcG>GcA,Acg>Tcg,aTg...|
+|    511     |     1      |    0.721   |    7.074   |    1.000   |    3.895   |      Yes, p =  0.0909      |     1      |[3]Ctg>Atg|[2]Ctg>Gtg|[1]atT>atA,AtT>GtG,...|
+|    512     |     1      |    2.124   |  174.569   |    1.000   |    0.505   |      Yes, p =  0.0909      |     0      |[2]atT>atA,gtC>gtG,tCc>tAc,tTc>tCc|[1]aGt...|
+|    673     |     1      |    1.026   |    3.390   |    1.000   |    1.242   |      Yes, p =  0.0909      |     1      |[2]tcT>tcC|[1]aCT>aAC,acT>acA,Act>Tct,Gat...|
+|    684     |     1      |    0.823   |    1.810   |    1.000   |    0.337   |      Yes, p =  0.0909      |     0      |[1]atC>atG,caC>caG,GAc>AGc,gaC>gaA,gaC>ga...|
+|    740     |     1      |    0.551   |    3.194   |    1.000   |    2.638   |      Yes, p =  0.0909      |     1      |[2]cgG>cgA,cgG>cgT,Cgg>Tgg,tGg>tTg|[1]caT...|
+|    742     |     1      |    0.947   |    1.367   |    1.000   |    0.107   |      Yes, p =  0.0909      |     0      |[2]ctG>ctC,Ctg>Ttg|[1]ctC>ctT,CtG>AtA,ctG...|
+|    782     |     1      |    0.666   |    8.464   |    1.000   |    3.348   |      Yes, p =  0.0909      |     0      |[2]cgA>cgG|[1]caA>caG,cAa>cGa,CAa>TTa,cAt...|
+|    799     |     1      |    0.549   |   30.798   |    1.000   |    3.712   |      Yes, p =  0.0909      |     1      |[2]tcA>tcC,tcC>tcA|[1]aCA>aGC,aCa>aTa,Aca...|
+|    851     |     1      |    0.257   |    1.243   |    1.000   |    0.923   |      Yes, p =  0.0909      |     0      |[2]atG>atC|[1]atG>atA,atG>atT,Atg>Gtg,Atg...|
+|    942     |     1      |    2.231   |   65.810   |    1.000   |    1.399   |      Yes, p =  0.0909      |     0      |[3]agC>agT|[2]atT>atC|[1]acC>acG,aCc>aGc,...|
+
+### ** Found _62_ sites under episodic diversifying positive selection at p <= 0.1**
+

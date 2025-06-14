@@ -1,0 +1,85 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.1.1
+
+
+>code –> Universal
+
+>Loaded a multiple sequence alignment with **32** sequences, **955** codons, and **1** partitions from `/home/buddha/work/BMCBIO-EoI/Selection_analysis/CSF1R/group/CSF1R/MEME/CSF1R.aln`
+
+>branches –> fg
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue –> 0.1
+
+
+### Branches to include in the MEME analysis
+Selected 4 branches to include in the MEME analysis: `Bufo_bufo, Hyla_sarda, Rana_temporaria, Xenopus_tropicalis`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -60091.77, AIC-c = 120321.64 (69 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -57670.58, AIC-c = 115495.56 (77 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.3024
+* non-synonymous/synonymous rate ratio for *test* =   0.3099
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -56263.73
+* non-synonymous/synonymous rate ratio for *background* =   0.2718
+* non-synonymous/synonymous rate ratio for *test* =   0.3126
+
+### For partition 1 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |   beta+    |     p+     |    LRT     |Episodic selection detected?| # branches |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:--------------------------:|:----------:|
+|     25     |     1      |    0.627   |  1350.997  |    0.267   |    4.425   |      Yes, p =  0.0507      |     1      |
+|     84     |     1      |    0.722   |   11.136   |    0.738   |    4.064   |      Yes, p =  0.0612      |     0      |
+|     87     |     1      |    0.418   |   12.260   |    0.334   |    4.270   |      Yes, p =  0.0550      |     0      |
+|    136     |     1      |    0.420   |    9.761   |    0.795   |    9.197   |      Yes, p =  0.0044      |     1      |
+|    141     |     1      |    0.770   |   62.452   |    0.662   |    6.711   |      Yes, p =  0.0157      |     0      |
+|    180     |     1      |    0.542   |   27.005   |    0.397   |    4.838   |      Yes, p =  0.0410      |     0      |
+|    184     |     1      |    0.601   |   10.148   |    0.358   |    3.623   |      Yes, p =  0.0770      |     1      |
+|    190     |     1      |    0.843   |  1870.066  |    0.879   |    4.194   |      Yes, p =  0.0572      |     0      |
+|    217     |     1      |    0.624   |  8527.415  |    0.375   |    3.416   |      Yes, p =  0.0858      |     0      |
+|    235     |     1      |    1.126   |  9190.500  |    0.356   |    3.507   |      Yes, p =  0.0818      |     1      |
+|    244     |     1      |    0.256   |    6.959   |    0.643   |    3.806   |      Yes, p =  0.0700      |     0      |
+|    248     |     1      |    1.355   |  901.638   |    0.299   |    3.837   |      Yes, p =  0.0689      |     1      |
+|    251     |     1      |    0.330   |  1999.200  |    0.667   |    7.951   |      Yes, p =  0.0083      |     0      |
+|    258     |     1      |    0.411   |   62.760   |    0.259   |    3.845   |      Yes, p =  0.0686      |     1      |
+|    267     |     1      |    0.330   |   31.996   |    0.514   |    5.887   |      Yes, p =  0.0239      |     1      |
+|    327     |     1      |    0.842   |  1948.909  |    0.270   |    3.702   |      Yes, p =  0.0739      |     1      |
+|    398     |     1      |    1.074   |  1999.200  |    0.564   |    4.928   |      Yes, p =  0.0391      |     1      |
+|    490     |     1      |    0.815   |   39.072   |    0.772   |    7.562   |      Yes, p =  0.0101      |     1      |
+|    516     |     1      |    0.794   |   47.589   |    0.606   |    3.499   |      Yes, p =  0.0822      |     0      |
+|    711     |     1      |    0.178   |   60.404   |    0.278   |    7.138   |      Yes, p =  0.0126      |     1      |
+|    713     |     1      |    0.363   |    6.859   |    0.273   |    3.939   |      Yes, p =  0.0653      |     1      |
+|    944     |     1      |    0.672   |   11.123   |    0.344   |    3.988   |      Yes, p =  0.0637      |     1      |
+
+### ** Found _22_ sites under episodic diversifying positive selection at p <= 0.1**
+
+

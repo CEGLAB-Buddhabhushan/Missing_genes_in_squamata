@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/HYPHY_PAML_gBGC/CSF1R/gBGC/`) 
+
+A tree was found in the data file:
+(((Oryzias_melastigma:84.82079000,(Poecilia_reticulata:9.33600000,Poecilia_formosa:9.33600000):75.48479000):139.19687000,Danio_rerio:224.01766000):204.98234000,(((((Bufo_bufo:72.60023000,Hyla_sarda:72.60023000):76.49435000,Rana_temporaria:149.09458000):53.23350000,Xenopus_tropicalis:202.32808000):149.35846000,(((Phascolarctos_cinereus:160.00000000,(((((Canis_lupus:74.32750000,Equus_caballus:74.25000000):1.75000000,Orcinus_orca:76.00000000):5.02605000,Rhinolophus_ferrumequinum:81.02605000):12.97395000,(Mus_musculus:87.20000000,Homo_sapiens:87.20000000):6.80000000):5.18870000,Loxodonta_africana:99.18870000):60.81130000):20.06610000,Ornithorhynchus_anatinus:180.06610000):138.88390000,((((Thamnophis_elegans:161.03541000,(Varanus_komodoensis:157.16052000,(Anolis_carolinensis:146.40000000,Pogona_vitticeps:146.40000000):10.76052000):3.87489000):5.85832000,Rhineura_floridana:166.89373000):77.00499000,Sphenodon_punctatus:243.89872000):35.93278000,((Alligator_mississippiensis:244.75907000,((Calypte_anna:76.25595000,(Rissa_tridactyla:75.10049000,Taeniopygia_guttata:75.10049000):1.15546000):14.58371000,(Cygnus_olor:83.37493000,Gallus_gallus:83.37493000):7.46473000):153.91941000):16.61093000,(Caretta_caretta:54.98732000,Dermochelys_coriacea:54.98732000):206.38268000):18.46150000):39.11850000):32.73654000):63.31346000,Latimeria_chalumnae:415.00000000):14.00000000)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :2865
+Synonymous  sites      :657.424710975861
+Nonsynonymous  sites   :2106.907101974624
+
+Total tree lengths:
+	E[syn]        : 4.157797503418435
+	E[non-syn]    : 2.903454180565546
+	dS            : 18.11932172371781
+	dN            : 3.948155198453776
+
+
+E[Syn subs/nucleotide site] tree: 
+	((Oryzias_melastigma:0.1364943496194198,(Poecilia_reticulata:0.006185340755765743,Poecilia_formosa:0.008179591532724188)Node4:0.09374082816130715)Node2:0.1491078214813196,Danio_rerio:0.3132174632936515,(((((Bufo_bufo:0.05453653136562319,Hyla_sarda:0.05489868741213168)Node12:0.06818524048285847,Rana_temporaria:0.1265631882135232)Node11:0.0428016299836216,Xenopus_tropicalis:0.1702288943525314)Node10:0.1890039641394117,(((Phascolarctos_cinereus:0.165826734488954,(((((Canis_lupus:0.0567167615491588,Equus_caballus:0.03782458442461797)Node25:0.001638913728988764,Orcinus_orca:0.03858393931075645)Node24:0.004614101896912378,Rhinolophus_ferrumequinum:0.04703951452683729)Node23:0.01149302389151877,(Mus_musculus:0.1177421346275724,Homo_sapiens:0.04318344177106321)Node30:0.00612373709637335)Node22:0.01258565477922134,Loxodonta_africana:0.04220882706286399)Node21:0.1199545762854722)Node19:0.002897740089737816,Ornithorhynchus_anatinus:0.1388977995656097)Node18:0.196447892536804,((((Thamnophis_elegans:0.1189258136772255,(Varanus_komodoensis:0.05885117253842206,(Anolis_carolinensis:0.08345590049055933,Pogona_vitticeps:0.06565072524776427)Node42:0.01580986856701785)Node40:0.006174296849567332)Node38:0.01026095442880425,Rhineura_floridana:0.03791549647291472)Node37:0.08865889615942101,Sphenodon_punctatus:0.08027393397608926)Node36:0.02469581675117436,((Alligator_mississippiensis:0.09577642135299413,((Calypte_anna:0.03401560454748068,(Rissa_tridactyla:0.02725908117483304,Taeniopygia_guttata:0.04695928678602845)Node53:0.006431995340003885)Node51:0.01037879656506056,(Cygnus_olor:0.02766675922362115,Gallus_gallus:0.04886348793089212)Node56:0.008655376450179325)Node50:0.1136325090028047)Node48:0.01969700263371578,(Caretta_caretta:0.01119278153990993,Dermochelys_coriacea:0.004642895822325166)Node59:0.05660189896387546)Node47:0.01431058516493113)Node35:0.02974465947252165)Node17:0.05717091597798096)Node9:0.05206547399807592,Latimeria_chalumnae:0.1741754103747603)Node8:0.2709607775111298)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((Oryzias_melastigma:0.03055626030787425,(Poecilia_reticulata:0.004297005437921472,Poecilia_formosa:0.00460540816861638)Node4:0.02677130569222375)Node2:0.06079039912953835,Danio_rerio:0.09530999325099647,(((((Bufo_bufo:0.05660525823366949,Hyla_sarda:0.05105565774581503)Node12:0.07944601355165685,Rana_temporaria:0.08500925082308998)Node11:0.05091484873907546,Xenopus_tropicalis:0.1349807332596103)Node10:0.08385660205096217,(((Phascolarctos_cinereus:0.09464949018524237,(((((Canis_lupus:0.03034683052222271,Equus_caballus:0.02237837592920315)Node25:0.001173960099354932,Orcinus_orca:0.02973774741313626)Node24:0.002123198413763312,Rhinolophus_ferrumequinum:0.04298796867063722)Node23:0.004398044862281109,(Mus_musculus:0.08778942576629084,Homo_sapiens:0.02938398212977976)Node30:0.005623154941617361)Node22:0.01113178369860734,Loxodonta_africana:0.04457231205422354)Node21:0.09366762347425996)Node19:0.04520488842414735,Ornithorhynchus_anatinus:0.08774305862479477)Node18:0.07236345910135654,((((Thamnophis_elegans:0.1275192679475191,(Varanus_komodoensis:0.08931059622203369,(Anolis_carolinensis:0.07787323443167732,Pogona_vitticeps:0.06475960238011101)Node42:0.01704167481146922)Node40:0.005263446420976943)Node38:0.01241199930643757,Rhineura_floridana:0.04783364674415385)Node37:0.07491146003285847,Sphenodon_punctatus:0.08758740318403883)Node36:0.02691764227655503,((Alligator_mississippiensis:0.06577680684761229,((Calypte_anna:0.0206567453470528,(Rissa_tridactyla:0.01160963701003658,Taeniopygia_guttata:0.05138492200671613)Node53:0.001100096476707114)Node51:0.009931950877285186,(Cygnus_olor:0.02634571946361234,Gallus_gallus:0.04477768307855765)Node56:0.005703390648648526)Node50:0.06099906451623242)Node48:0.02583514224103739,(Caretta_caretta:0.01413812023351241,Dermochelys_coriacea:0.008097751444277311)Node59:0.04369402470004388)Node47:0.02116465647232717)Node35:0.05137111267137554)Node17:0.04360748820840221)Node9:0.05805573836200876,Latimeria_chalumnae:0.1241909525479782)Node8:0.114109162952323)
+
+dS tree: 
+	((Oryzias_melastigma:0.5948305640643866,(Poecilia_reticulata:0.02695517976342012,Poecilia_formosa:0.03564595207635153)Node4:0.4085144172379704)Node2:0.6497989829282004,Danio_rerio:1.364974600672199,(((((Bufo_bufo:0.2376654843572611,Hyla_sarda:0.2392437290686695)Node12:0.2971453775952792,Rana_temporaria:0.5515514220533427)Node11:0.1865257996174993,Xenopus_tropicalis:0.741842790782943)Node10:0.8236629202082075,(((Phascolarctos_cinereus:0.7226585590396183,(((((Canis_lupus:0.2471667388302754,Equus_caballus:0.1648362657614029)Node25:0.007142244207071211,Orcinus_orca:0.1681454686442051)Node24:0.02010785678413501,Rhinolophus_ferrumequinum:0.204994133730299)Node23:0.05008560356717453,(Mus_musculus:0.5131100338581294,Homo_sapiens:0.1881897023469792)Node30:0.02668671634667812)Node22:0.05484719442466027,Loxodonta_africana:0.1839424157872056)Node21:0.5227516631489938)Node19:0.01262810055432138,Ornithorhynchus_anatinus:0.605304590946663)Node18:0.8561029160015995,((((Thamnophis_elegans:0.518268404726517,(Varanus_komodoensis:0.2564683172196278,(Anolis_carolinensis:0.3636935924579684,Pogona_vitticeps:0.2861001795257295)Node42:0.06889803910362789)Node40:0.02690705137589499)Node38:0.04471635146614316,Rhineura_floridana:0.1652324526007803)Node37:0.3863677973401698,Sphenodon_punctatus:0.3498268577402777)Node36:0.1076222323421494,((Alligator_mississippiensis:0.4173853562167112,((Calypte_anna:0.1482370610679866,(Rissa_tridactyla:0.118792716887644,Taeniopygia_guttata:0.2046445081783843)Node53:0.02803007909720593)Node51:0.04522989729844565,(Cygnus_olor:0.1205693425457277,Gallus_gallus:0.212942851987117)Node56:0.03771938157443899)Node50:0.4952006410130043)Node48:0.08583783299205455,(Caretta_caretta:0.04877717338041979,Dermochelys_coriacea:0.02023333821939348)Node59:0.2466661776232769)Node47:0.06236429177824607)Node35:0.1296246520187519)Node17:0.2491459045307008)Node9:0.2268968301831365,Latimeria_chalumnae:0.7590413660949396)Node8:1.180823620726193)
+
+dN tree: 
+	((Oryzias_melastigma:0.04155080482666393,(Poecilia_reticulata:0.005843124534587712,Poecilia_formosa:0.00626249462575728)Node4:0.03640397373777746)Node2:0.08266358461789695,Danio_rerio:0.129603782913915,(((((Bufo_bufo:0.07697257495950875,Hyla_sarda:0.06942615519434603)Node12:0.1080317345801221,Rana_temporaria:0.1155966978230283)Node11:0.06923468125421323,Xenopus_tropicalis:0.1835485771661903)Node10:0.1140293108561083,(((Phascolarctos_cinereus:0.1287056221541872,(((((Canis_lupus:0.04126601944845276,Equus_caballus:0.03043041004374536)Node25:0.001596366390098384,Orcinus_orca:0.04043778022238663)Node24:0.002887153140131736,Rhinolophus_ferrumequinum:0.05845560543507011)Node23:0.005980519273311149,(Mus_musculus:0.1193772162924023,Homo_sapiens:0.03995672553522626)Node30:0.007646440079220815)Node22:0.01513714594564699,Loxodonta_africana:0.06061001641489957)Node21:0.1273704668811672)Node19:0.06147020208617724,Ornithorhynchus_anatinus:0.119314165643296)Node18:0.09840078384618001,((((Thamnophis_elegans:0.1734023784566665,(Varanus_komodoensis:0.1214457238937193,(Anolis_carolinensis:0.105893048838108,Pogona_vitticeps:0.0880609594248986)Node42:0.02317349364340762)Node40:0.007157303699800509)Node38:0.01687799997428265,Rhineura_floridana:0.065044822238988)Node37:0.1018655890394946,Sphenodon_punctatus:0.119102503326838)Node36:0.03660296415065148,((Alligator_mississippiensis:0.08944416744420797,((Calypte_anna:0.02808931412488022,(Rissa_tridactyla:0.01578693716613397,Taeniopygia_guttata:0.0698738930687865)Node53:0.001495925664122538)Node51:0.01350559748778367,(Cygnus_olor:0.03582525598423772,Gallus_gallus:0.06088928263606604)Node56:0.007755545649385178)Node50:0.08294733055634779)Node48:0.03513096635879279,(Caretta_caretta:0.01922520192326017,Dermochelys_coriacea:0.0110114289643388)Node59:0.05941570971415969)Node47:0.02877997835613526)Node35:0.06985511495288678)Node17:0.0592980362541761)Node9:0.07894495692347731,Latimeria_chalumnae:0.1688764913823158)Node8:0.1551671412337111)
+
+Estimating pairwise dN/dS: total of 496 analyses
