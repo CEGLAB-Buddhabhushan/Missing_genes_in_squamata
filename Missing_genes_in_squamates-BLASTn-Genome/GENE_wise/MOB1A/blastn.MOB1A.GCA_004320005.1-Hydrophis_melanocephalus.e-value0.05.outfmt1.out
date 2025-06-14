@@ -1,0 +1,96 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004320005.1_hydMel_1.0_genomic.fna
+           122,022 sequences; 1,402,639,853 total letters
+
+
+
+Query= Homo_sapiens_NM_001317111.2-MOB1A
+
+Length=777
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BHFS01001267.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  160        7e-37
+BHFS01066242.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  150        4e-34
+BHFS01006967.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  81.5       6e-13
+BHFS01023832.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  66.2       1e-08
+BHFS01009103.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  59.0       2e-06
+BHFS01008227.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  46.4       0.011
+
+
+
+Query_1  145     AGCCGCTCTTCTAAAACATTCAAACCAAAGAAGAATATCCCTGAAGGATCTCATCAGTAT  204
+66241    239     .................T..T..............C..T..A.....C..C..C..A...  180
+8226     18632           ................G.......A.....                        18661
+
+Query_1  205     GAACTCTTAAAACATGCAGAAGCAACTCTAGGAAGTGGGAATCTGAGACAAGCTGTTATG  264
+66241    179     ..G..GC.G........C..G........T........C..CT.AC.GATG.........  120
+
+Query_1  265     TTGCCTGAGGGAGAGGATCTCAATGAATGGATTGCTGTGAACACTGTGGATTTCTTTAAC  324
+1266     262211                                             .......C..T......  262195
+66241    119     C....C..A..C..A...............G....C.......                   77
+6966     86843                      .......T........A...C..CTC.....C..T..C...  86883
+23831    14386               .....G..G..C..T...G.A.....TC.TGTG.....C.....C...  14339
+9102     46038            .....A.....A.....T...G.......TC..GTA..T..C..T..C..T  46088
+
+Query_1  325     CAGATCAACATGTTATATGGAACTATTACAGAATTCTGCACTGAAGCAAGCTGTCCAGTC  384
+1266     262194  ............C.T.....G..A........T........A..G.AG...........G  262135
+6966     86884   AG...A..TC.CA.T........C..AT.T...............AAG.....C..CA.T  86943
+23831    14338   .GC......C.CA.C.....G..A....GT..T.AT.....G...AA.TC...C......  14279
+9102     46089   AG.......C.AA.T...........CTGT..G..T.....A..GAG..C...C..TA.G  46148
+
+Query_1  385     ATGTCTGCAGGTCCGAGATATGAATATCACTGGGCAGATGGTACTAATATTAAAAAGCCA  444
+1266     261037                 ..............T...........G..A..C..C..G......  260993
+1266     262134  ...........G..A.AG..A...C....                                 262106
+6966     86944   .......GT....T..AG........                                    86969
+23831    14278   .......GC.....A.AG..C..G....                                  14251
+9102     46149   .....A.GT..G..T.AG........                                    46174
+
+Query_1  445     ATCAAATGTTCTGCACCAAAATACATTGACTATTTGATGACTTGGGTTCAAGATCAGCTT  504
+1266     260992  .....G..C..G........G.....C..T..CC.T.....C........G........G  260933
+
+Query_1  505     GATGATGAAACTCTTTTTCCTTCTAAGATTGGTGTCCCATTTCCCAAAAACTTTATGTCT  564
+1266     253687                                         .........G.A.........  253666
+                                                                       \     
+                                                                       |     
+                                                                       C
+1266     260932  ........G..G..G.....A..C..A..A...                             260900
+
+Query_1  565     GTGGCAAAGACTATTCTAAAGCGTCTGTTCAGGGTTTATGCCCATATTTATCACCAGCAC  624
+1266     253665  ..A..T.....C..CT.G........C.....A........T..C..A............  253606
+
+Query_1  625     TTTGATTCTGTGATGCAGCTGCAAGAGGAGGCCCACCTCAACACCTCCTTTAAGCACTTT  684
+1266     253605  ......C.G..T..C.....T.....A..A..A..T........G.....C.........  253546
+
+Query_1  685     ATTTTCTTTGTTCAGG  700
+1266     253545  ..C..T..........  253530
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1042057686005
+
+
+  Database: GCA_004320005.1_hydMel_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  7:47 AM
+  Number of letters in database: 1,402,639,853
+  Number of sequences in database:  122,022
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

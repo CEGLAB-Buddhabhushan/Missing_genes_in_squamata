@@ -1,0 +1,59 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_023333645.1_rSceOcc1.0.p_genomic.fna
+           608 sequences; 2,856,356,971 total letters
+
+
+
+Query= Homo_sapiens_XM_054366207.1-OLAH
+
+Length=957
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JALMGF010000154.1 Sceloporus occidentalis isolate IW3139 SCAF_154...  50.9       0.002
+JALMGF010000028.1 Sceloporus occidentalis isolate IW3139 SCAF_28,...  46.4       0.029
+
+
+
+Query_1  287      AAATTCTTGGTCTATTCTGGATTCTAAttttttttATGCACTCCTTAAGGCTTCCTGGAA  346
+153      1641279                                               ...............  1641265
+27       336165   .....G....C..............G..........                          336129
+                               \                                              
+                               |                                              
+                               T
+
+Query_1  347      GAGAAAGCAGAGTTGAAGAACCTCTTGAAAATGACATCTCCCAGTTAGTTGATGAAGTTG  406
+153      1641264  ....GTC.C.T.C.C......ACT...CCG.GA....GGA...AA.T.....G..G...A  1641205
+
+Query_1  407      TTTGTGCTCTGCAGCCAGTCATCCAGGATAAACCATTTGCATTTTTTGGCCACAG  461
+153      1641204  CCCA....T...TT...CAGC.T.G...G..GT.T....................  1641150
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2639255302068
+
+
+  Database: GCA_023333645.1_rSceOcc1.0.p_genomic.fna
+    Posted date:  Apr 27, 2025  4:24 AM
+  Number of letters in database: 2,856,356,971
+  Number of sequences in database:  608
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

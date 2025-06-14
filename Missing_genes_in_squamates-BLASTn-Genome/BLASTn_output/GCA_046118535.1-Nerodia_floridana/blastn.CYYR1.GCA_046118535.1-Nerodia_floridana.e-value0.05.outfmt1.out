@@ -1,0 +1,61 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046118535.1_ASM4611853v1_genomic.fna
+           1,555,755 sequences; 1,765,969,052 total letters
+
+
+
+Query= Homo_sapiens_XM_054324329.1-CYYR1
+
+Length=723
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBJNIF010867013.1 Nerodia floridana isolate UPRMGRS_1115_TJC_1028...  48.2       0.004
+JBJNIF010712698.1 Nerodia floridana isolate UPRMGRS_1115_TJC_1028...  48.2       0.004
+JBJNIF010325311.1 Nerodia floridana isolate UPRMGRS_1115_TJC_1028...  48.2       0.004
+
+
+
+Query_1  6      ATGTGAGCCTGGGTGGCCAAGGACGCCGGAGTGGCCGCCTTC  47
+867012   7998   ...G..............C...C...T.A.............  8040
+                                                      \   
+                                                      |   
+                                                      A
+712697   15434  ...G..............C...C.....AT............  15392
+                                                      \   
+                                                      |   
+                                                      A
+325310   2735   ...G..............C...C.....AT............  2693
+                                                      \   
+                                                      |   
+                                                      A
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1185883760372
+
+
+  Database: GCA_046118535.1_ASM4611853v1_genomic.fna
+    Posted date:  Apr 27, 2025  3:52 PM
+  Number of letters in database: 1,765,969,052
+  Number of sequences in database:  1,555,755
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

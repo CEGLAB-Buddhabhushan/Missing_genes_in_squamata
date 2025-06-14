@@ -1,0 +1,66 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_021292165.1_IOZ_Scro_1.0_genomic.fna
+           1,553 sequences; 2,189,995,079 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM037877.1 Shinisaurus crocodilurus isolate GXDGS128 ecotype Guan...  106        4e-20
+CM037878.1 Shinisaurus crocodilurus isolate GXDGS128 ecotype Guan...  48.2       0.010
+CM037879.1 Shinisaurus crocodilurus isolate GXDGS128 ecotype Guan...  47.3       0.035
+
+
+
+Query_1  165        GCCATGTCTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAA  224
+1        282951685  ...C..C..T.AC......C....G.GGG.....G.C........GGCC..G..T...C.  282951626
+
+Query_1  225        CGGGGAGGGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCC  284
+1        282951625  ...C...T....G.....CAGT............C.G..C..G..C..C......CAG..  282951566
+2        132878454                        ..............G...........T.GG..A.CG..  132878417
+3        80435542                                .............T..C..T..T........  80435575
+                                                                            \   
+                                                                            |   
+                                                                          ATG
+
+Query_1  285        CTGGTGCTATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGC  344
+1        282951565  ......T..CA.CT.G...A.......A..GA................C..T..C..CA.  282951506
+2        132878416  T.......                                                      132878409
+3        80435576   ..........                                                    80435585
+
+Query_1  345        TTGCCA  350
+1        282951505  C.....  282951500
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3166658778180
+
+
+  Database: GCA_021292165.1_IOZ_Scro_1.0_genomic.fna
+    Posted date:  Apr 26, 2025  11:52 PM
+  Number of letters in database: 2,189,995,079
+  Number of sequences in database:  1,553
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

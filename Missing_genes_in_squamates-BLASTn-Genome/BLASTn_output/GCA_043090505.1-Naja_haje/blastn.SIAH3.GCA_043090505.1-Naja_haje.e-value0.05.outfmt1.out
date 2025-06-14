@@ -1,0 +1,58 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_043090505.1_ASM4309050v1_genomic.fna
+           788,879 sequences; 1,366,997,453 total letters
+
+
+
+Query= Homo_sapiens_NM_198849.3-SIAH3
+
+Length=810
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBHLEZ010787785.1 Naja haje isolate UPRMGRS_828_TJC_355 787785, w...  91.5       3e-16
+JBHLEZ010000005.1 Naja haje isolate UPRMGRS_828_TJC_355 5, whole ...  80.6       6e-13
+
+
+
+Query_1  406      CTCCAGGGAGCCGAGATCGTCTTCCTGGCCACGGACATGCACCTCCCCGCGCCGGCTGAT  465
+787784   3827     ..T..A....AA..C..T........C.....A.....TA..T.G..G.GAG.T.T....  3768
+4        1847164  ..A.......AA..T..T..T.....C..T........TA.T..T....GAG.T.TC..C  1847223
+
+Query_1  466      TGGATCATCATGCACTCCTGCCTTGGCCACCACTTTCTGTTGGTGCTGAGGAAACAGGAG  525
+787784   3767     ...G.G..G.....G..A..TT.C.....T.....CA..C....TT..GA..........  3708
+4        1847224  ...G.T..G.....G..T...T.....TTT.....CA....A..A...GA..........  1847283
+
+Query_1  526      AGGCATGAAGGGCACCCCCAGTTCTTTGCCACCATGATGCTGATTGGGAC  575
+787784   3707     .A.T....G..C..T.AA.............TAG.CT....C.....C..  3658
+4        1847284  .AAT.C..T..C....AG...........                       1847312
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1043884086850
+
+
+  Database: GCA_043090505.1_ASM4309050v1_genomic.fna
+    Posted date:  Apr 27, 2025  6:11 PM
+  Number of letters in database: 1,366,997,453
+  Number of sequences in database:  788,879
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

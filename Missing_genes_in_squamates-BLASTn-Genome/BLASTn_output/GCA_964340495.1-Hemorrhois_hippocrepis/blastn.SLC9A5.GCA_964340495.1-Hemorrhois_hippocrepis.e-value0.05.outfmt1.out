@@ -1,0 +1,95 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_964340495.1_rHemHip1.1_genomic.fna
+           111 sequences; 1,806,530,730 total letters
+
+
+
+Query= Homo_sapiens_NM_004594.3-SLC9A5
+
+Length=2691
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OZ203526.1 Hemorrhois hippocrepis genome assembly, chromosome: 9      134        1e-28
+OZ203528.1 Hemorrhois hippocrepis genome assembly, chromosome: 11     97.8       3e-17
+OZ203520.1 Hemorrhois hippocrepis genome assembly, chromosome: 4      87.8       2e-14
+
+
+
+Query_1  318       CTTCTTCCTCTTCCTGCTGCCTCCTATTGTGTTGGACTCAGGCTATTTCATGCCTAGCAG  377
+8        16293834  ...............C..C..A..C..CA.CC.....G.T.....C...T.....T..-.  16293893
+                                                                         \     
+                                                                         |     
+                                                                         C
+10       11277580  ...........AT..C.....C..C..C..C.....TG................A..TC.  11277639
+3        96538715               ..T..T.....A.....CC.C..TG.T..T.....T.....A.CAC.  96538761
+
+Query_1  378       GCTGTTCTTTGACAACTTGGGTGCCATCCTCACCTATGCCGTGGTAGGCACACTCTGGAA  437
+8        16293894  C.A....AC...G...G....CA.....T.G.TT.TC......A.T..G...T.A.....  16293953
+10       11277640  C.C...T.....G...A.C..AA.......TTTG...........G..A..GA.......  11277699
+3        96538762  C..C........G.....T..CA....TT.TTGG.....T..T..G..............  96538821
+
+Query_1  438       TGCCTTCACAACAGGCGCTGCCCTCTGGGGCTTGCAGCAGGCTGGACTTGTAGCCCCTAG  497
+8        16293954  ...T...TTCGT...GT..CT.A.G.AT.C.G..T-----..C...TAG..G......TT  16294009
+                                                                           \   
+                                                                           |   
+                                                                           T
+10       11277700  ..T...                                                        11277705
+3        96538822  .T.T..TGGC.TT...AT.T......TT.C.....--...AT...G.C.T.G.T.T-...  96538881
+                                                  \            \               
+                                                  |            |               
+                                                 AT            A
+
+Query_1  498       GGTGCAGGCTGGCTTACTGGACTTCCTGCTGTTTGGGAGCCTCATCTCGGCGGTGGACCC  557
+8        16294010  TA.-...A.....C.CT.....AA......C.....C...A.......C...........  16294070
+                            \                                                  
+                            |                                                  
+                           AT
+10       11277806                                                   ..T..T..T..  11277816
+3        96538882  T.A-..---.CA.......C.GAG......T........TT.G..T..A..C.....T..  96538938
+                                 \                                             
+                                 |                                             
+                                 C
+
+Query_1  558       CGTGGCCGTGCTAGCTGTCTTTGAGGAGGTGCACGTCAATGAGACTCTCTTTATCATCGT  617
+8        16294071  T...........G.....A.........A.T...A....C..-...---......T.G..  16294130
+                                                                       \       
+                                                                       |       
+                                                                    GCAC
+10       11277817  A..T..T..T..CT.A............A.C..T.....C..A.AG..TCAC..TT.G..  11277876
+3        96538939  T.....T...T.G...........AA.TA.T..T.....C...CAG..G.AC...T.A..  96538998
+
+Query_1  618       CTTTGGCGAGTCCCTGCTCAACGATGCTGTCACCGTGGT  656
+8        16294131  G...........GT....G..T..C..C..T........  16294169
+10       11277877  A..C..G..A..T..C..............G.....T..  11277915
+3        96538999  T.....G..A..T..CT.G..T........A..T.....  96539037
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4799942122092
+
+
+  Database: GCA_964340495.1_rHemHip1.1_genomic.fna
+    Posted date:  Apr 27, 2025  2:39 AM
+  Number of letters in database: 1,806,530,730
+  Number of sequences in database:  111
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,66 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_047301725.1_DTU_Vamm_2.0_genomic.fna
+           24 sequences; 1,545,746,728 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM104264.1 Vipera ammodytes isolate VAMM-2024 chromosome Z, whole...  97.8       2e-17
+CM104247.1 Vipera ammodytes isolate VAMM-2024 chromosome 1, whole...  47.3       0.025
+
+
+
+Query_1  112        AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+17       113006356  .....A..T......C.....CTG......A.A..T..G.CTGG.TC.........T..C  113006294
+                                                                     \          
+                                                                     |          
+                                                                   CTG
+
+Query_1  172        CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+17       113006293  ..C.AC......C....ACGAG.A...G.C........GGCC..G..T.....T..C...  113006234
+
+Query_1  232        GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+17       113006233  T....G..C..CAGT.....T..C...C..........C..T..T..ACAG..T......  113006174
+0        271591484              ...G.A..T..C...............C.T..T.....T.........  271591434
+                                                                     \          
+                                                                     |          
+                                                                   AAG
+
+Query_1  292        TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+17       113006173  ..CA.CT.....A.T..A..A..GA.............T.....C..C..AA.C.....  113006115
+0        271591433  ...                                                          271591431
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2235148623456
+
+
+  Database: GCA_047301725.1_DTU_Vamm_2.0_genomic.fna
+    Posted date:  Apr 27, 2025  2:58 AM
+  Number of letters in database: 1,545,746,728
+  Number of sequences in database:  24
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

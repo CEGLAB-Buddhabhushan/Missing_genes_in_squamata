@@ -1,0 +1,63 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003402635.1_HabAm_1.0_genomic.fna
+           84,502 sequences; 1,413,200,976 total letters
+
+
+
+Query= Homo_sapiens_NM_014485.3-HPGDS
+
+Length=600
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BFFQ01003759.1 Protobothrops flavoviridis DNA, habu1_scaffold5416...  46.4       0.009
+BFFQ01001010.1 Protobothrops flavoviridis DNA, habu1_scaffold1427...  46.4       0.009
+BFFQ01006571.1 Protobothrops flavoviridis DNA, habu1_scaffold1197...  44.6       0.031
+BFFQ01001927.1 Protobothrops flavoviridis DNA, habu1_scaffold2598...  44.6       0.031
+
+
+
+Query_1  136      CTCCCATTTGGAAAAATCCCCATTTTGGAAGTTGATGGACTTACTCTTCACCAGAGCCTA  195
+3758     371161   ....A.....C.............C...G......                           371195
+1009     81316           ............T.....A.--....T..TATA..TT....TC..C.......  81266
+6570     43590       ............-...........A......                            43561
+
+Query_1  196      GCAATAGCAAGATATTTGACCAAAAACACAGATTTGGCTGGAAACACAGAAATGGAACAA  255
+1009     81265    ...T......T......                                             81248
+                         \                                                    
+                         |                                                    
+                         T
+1926     3252696                  ...G.T......A.A.........T..-..T.C...........  3252654
+
+Query_1  256      TG  257
+1926     3252653  ..  3252652
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 802620824566
+
+
+  Database: GCA_003402635.1_HabAm_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  7:21 AM
+  Number of letters in database: 1,413,200,976
+  Number of sequences in database:  84,502
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

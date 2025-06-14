@@ -1,0 +1,60 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_042902815.1_ASM4290281v1_genomic.fna
+           821,969 sequences; 1,441,227,104 total letters
+
+
+
+Query= Homo_sapiens_XM_054326836.1-GPR82
+
+Length=1011
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBHNWA010086609.1 Causus rhombeatus isolate UPRMGRS_1020_TJC_546 ...  50.0       0.001
+JBHNWA010079003.1 Causus rhombeatus isolate UPRMGRS_1020_TJC_546 ...  49.1       0.004
+
+
+
+Query_1  698   CCTGTACGTCCATTATGGAGAAAGATTTGACTTACAGTTCTGTGAAAAGACATCTTTTGG  757
+86608    9758  .......T...C.GG.................A..........                   9801
+                       \                                                   
+                       |                                                   
+                       C
+
+Query_1  758   TCATCCAGATTCTACTAATAGTTTGCTTCCTTCCTTATAGTATTTTTAAACCCATTTTTT  817
+
+Query_1  818   ATGTTCTACACCAAAGAGATAACTGTCAGCAATTGAATTATTTAATAGAAACAA  871
+79002    1766                         ...............................  1798
+                                                    \                
+                                                    |                
+                                                   AT
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1385210689984
+
+
+  Database: GCA_042902815.1_ASM4290281v1_genomic.fna
+    Posted date:  Apr 27, 2025  1:28 PM
+  Number of letters in database: 1,441,227,104
+  Number of sequences in database:  821,969
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

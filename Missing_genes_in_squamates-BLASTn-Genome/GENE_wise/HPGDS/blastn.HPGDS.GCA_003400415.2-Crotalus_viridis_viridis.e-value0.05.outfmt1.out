@@ -1,0 +1,57 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003400415.2_UTA_CroVir_3.0_genomic.fna
+           7,043 sequences; 1,340,198,908 total letters
+
+
+
+Query= Homo_sapiens_NM_014485.3-HPGDS
+
+Length=600
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM012307.1 Crotalus viridis viridis chromosome 2, whole genome sh...  47.3       0.008
+CM012306.1 Crotalus viridis viridis chromosome 1, whole genome sh...  47.3       0.008
+
+
+
+Query_1  99         AATAGAACAAGCTGACTGGCCTGAAATCAAATCAACTCTCCCATTTGGAAAAATCCCCAT  158
+1        32110475   .....T...........-............G....                           32110442
+
+Query_1  159        TTTGGAAGTTGATGGACTTACTCTTCACCAGAGCCTAGCAATAGCAAGATATTTGACCAA  218
+
+Query_1  219        AAACACAGATTTGGCTGGAAACACAGAAATGGAACAATGTCATGTTGATGCT  270
+0        119808313                    .....AT...........................  119808347
+                                                              \         
+                                                              |         
+                                                              T
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 762448947175
+
+
+  Database: GCA_003400415.2_UTA_CroVir_3.0_genomic.fna
+    Posted date:  Apr 26, 2025  11:56 PM
+  Number of letters in database: 1,340,198,908
+  Number of sequences in database:  7,043
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

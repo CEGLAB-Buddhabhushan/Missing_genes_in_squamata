@@ -1,0 +1,175 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046524025.1_ASM4652402v1_genomic.fna
+           222 sequences; 1,632,742,855 total letters
+
+
+
+Query= Homo_sapiens_NM_001052.4-SSTR4
+
+Length=1167
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM101926.1 Cerastes gasperettii isolate CG1 chromosome 1, whole g...  581        4e-163
+CM101927.1 Cerastes gasperettii isolate CG1 chromosome 2, whole g...  99.6       4e-18 
+CM101928.1 Cerastes gasperettii isolate CG1 chromosome 3, whole g...  69.8       2e-09 
+JAZHBS010000048.1 Cerastes gasperettii isolate CG1 scaffold_146, ...  59.9       3e-06 
+CM101939.1 Cerastes gasperettii isolate CG1 chromosome 14, whole ...  59.9       3e-06 
+CM101931.1 Cerastes gasperettii isolate CG1 chromosome 6, whole g...  58.1       1e-05 
+CM101938.1 Cerastes gasperettii isolate CG1 chromosome 13, whole ...  57.2       1e-05 
+CM101932.1 Cerastes gasperettii isolate CG1 chromosome 7, whole g...  51.8       5e-04 
+CM101934.1 Cerastes gasperettii isolate CG1 chromosome 9, whole g...  50.9       0.002 
+CM101944.1 Cerastes gasperettii isolate CG1 chromosome Z, whole g...  47.3       0.020 
+
+
+
+Query_1  86         cggcggaggcggaggaggcggtggcggggcccggggacgcgcgggcggcgggcATGGTCG  145
+0        54045843   ......C.....C..C..G..........GTG.C..T...-.....A......GCCA..C  54045782
+                                                       \               \        
+                                                       |               |        
+                                                       A              CA
+
+Query_1  146        CTATCCAGTGCATCTACGCGCTGGTGTGCCTGGTGGGGCTGGTGGGCAACGCCCTGGTCA  205
+0        54045781   TC...TCC.T.......T.CG................T...TGC..G...T..A......  54045722
+1        153250262                       ........A.T.....C..CTGT..A..TA.T..A....  153250300
+1        175323793                                ..C....T.............G........  175323822
+2        5587168                                                           .....  5587164
+
+Query_1  206        TCTTCGTGATCCTTCGCTACGCCAAGATGAAGACGGCTACCAACATCTACCTGCTCAACC  265
+0        54045721   .T.AT........G........G...........C..C............A.A.......  54045662
+1        153250301  ...AT..C........A..T..............CAT......T......A.C..T..TT  153250360
+1        175323823  ...AT..C...                                                   175323833
+2        5587163    ...AT........GA...C.--...A..........TC..G.....G.T.A.C..G...T  5587104
+                                   \                                            
+                                   |                                            
+                                  AG
+2        5538596                         ................C............A.CT......  5538634
+13       2287061                                           ..G...C....A.CGG.....  2287041
+
+Query_1  266        TGGCCGTAGCCGACGAGCTCTTCATGCTGAGCGTGCCCTTCGTGGCCTCGTCGGCCGCCC  325
+0        54045661   .....A.T..G........GC.G..............T...C.......CA..-.T..T.  54045600
+                                                                 \              
+                                                                 |              
+                                                               TTA
+1        153250361  ....TA....T..T..A..G..T...T..G..T....T...C....TGT.CA..TG..TT  153250420
+2        5587103    .A...A.T..G..T..C.......CC...GT.T.....A..AA--.A.T.C..AA.A..T  5587046
+2        5538635    .....T....T...                                                5538648
+13       2287040    ....GC.G......CT.GC....G..G...CGC....GC.GTG....G.C.ACA.G..G.  2286981
+
+Query_1  326        TGCGCCACTGGCCCTTCGGCTCCGTGCTGTGCCGCGCGGTGCTCAGCGTCGACGGCCTCA  385
+0        54045599   --.A...............G..GC....C......CT............G....C.G...  54045542
+1        153250421  ..GTT...........T..GAAA..CA.C.....GATC..CA.G.CA..G..T..AA...  153250480
+2        5587043    ...A.T.............AG....C..T...AAGATCA.C...TC...T...CATTA..  5586984
+                    \                                                           
+                    |                                                           
+                    GT
+2        5538753                                                              ..  5538754
+13       2286980    ......................G.C...C...AA------.......AG.T.........  2286918
+                         \                                               \ \    
+                         |                                               | |    
+                       TTC                                              CT TGCT
+12       15877308                                                          .....  15877312
+8        12841761                                                             ..  12841760
+18       120571841                                         ........C.A...CT.....  120571861
+
+Query_1  386        ACATGTTCACCAGCGTCTTCTGTCTCACCGTGCTCAGCGTGGACCGCTACGTGGCCGTGG  445
+0        54045541   ..............A...A...C..G........................A.T.......  54045482
+1        153250481  .TCA......T...A....T..C.....A..CA.G...A....                   153250523
+2        5586983    .T..C...T.....A.T.AT.TC.........A.G...A.T.....G...T...        5586930
+2        5538755    ..............AC....ACC..G..TA..A.G...............A.C...      5538810
+13       2286917    ........G..TCG.C......C..GGG.TGC..GG..T.C..G......C.....A.C.  2286858
+5        26962922                    .....C.........A.G...A.T........TC.A..T....  26962880
+12       15877313   ........G...........CTC..G.....CA.....C.......                15877358
+8        12841759   ..............A.....ACC.....GA..A.G.....A.....G...A.T..T..    12841702
+8        24545509                                         ............C.........  24545530
+18       120571862  CT...CATG.....A......TG..G..TC..A.G...TGT..G.....T.C...T....  120571921
+
+Query_1  446        TGCACCCTCTGCGCGCGGCGACCTACCGGCGGCCCAGCGTGGCCAAGCTCATCAACCTGG  505
+0        54045481   .T.......AAG..ATC....--.....C.......CG.........A.GG.T.......  54045422
+                           \                                                    
+                           |                                                    
+                          CA
+13       2286857    .....G.C........                                              2286841
+                               \                                                
+                               |                                                
+                               C
+5        26962879   ........G..                                                   26962869
+8        24545531   CA.....C.....                                                 24545543
+18       120571922  .......                                                       120571928
+
+Query_1  506        GCGTGTGGCTGGCATCCCTGTTGGTCACTCTCCCCATCGCCATCTTCGCAGACACCAGAC  565
+0        54045421   C....G......---....CG.CA...T...G......CT...T...T.CCGG.....G.  54045361
+                        \                                                   \   
+                        |                                                   |   
+                      CTG                                                   G
+
+Query_1  566        CGGCTCGCGGCGGCCAGGCCGTGGCCTGCAACCTGCAGTGGCCACACCCGGCCTGGTCGG  625
+0        54045360   .AA.A..-.A....---A.G............A..AT.AT...CG.A.....G...CT..  54045299
+                                                                      \ \       
+                                                                      | |       
+                                                                     AA AGAA
+
+Query_1  626        CAGTCTTCGTGGTCTACACTTTCCTGCTGGGCTTCCTGCTGCCCGTGCTGGCCATTGGCC  685
+0        54045298   TG.......................CA..........CT.C......G........A.T.  54045239
+
+Query_1  686        TGTGCTACCTGCTCATCGTGGGCAAGATGCGCGCCGTGGCCCTGCGCGCTGGCTGGCAGC  745
+0        54045238   .C..T...A.C......A.T.C...........TG.....G..CAAG..C........A.  54045179
+
+Query_1  746        AGCGCAGGCGCTCGGAGAAGAAAATCACCAGGCTGGTGCTGATGGTCGTGGTCGTCTTTG  805
+0        54045178   ......A......C..ACG...G.....GCTCA....C..C.....G..CAC......C.  54045119
+
+Query_1  806        TGCTCTGCTGGATGCCTTTCTACGTGGTGCAGCTGCTGAACCTCTTCGTGACCAGCCTTG  865
+0        54045118   .CA......................C......T..G.C...........--.G....AC.  54045059
+                                                                             \  
+                                                                             |  
+                                                                            CG
+
+Query_1  866        ATGCCACCGTCAACCACGTGTCCCTTATCCTTAGCTATGCCAACAGCTGCGCCAACCCCA  925
+0        54045058   .C......A...G...GC.T...G.C.....GG....C........T.............  54044999
+2        5542679                                     ....CA...........CTG......G  5542705
+47       53960                                         ..C...........T.....T....  53984
+5        26962413                                     ............T...A....T..T.  26962388
+6        72478302                                           ......TA...T......A.  72478321
+
+Query_1  926        TTCTCTATGGCTTCCTCTCCGACAACTTCCGCCGATTCTTCCAGCGGGTTCTCTGCCTGC  985
+0        54044998   .C.....C...........G..T......AAG..C.C.......A..C.C..G.....TA  54044939
+2        5542706    .......C.CA......GA...G......                                 5542734
+47       53985      .C..T.....A..T..T..G..A......A..A..-G...T...AA...C........    54042
+                                                 \                              
+                                                 |                              
+                                                 A
+5        26962387   .CA.................T..                                       26962365
+6        72478322   .CA...........T..AA...G..T.....T...GG......                   72478364
+
+Query_1  986        GCTG  989
+0        54044938   ....  54044935
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1851522089886
+
+
+  Database: GCA_046524025.1_ASM4652402v1_genomic.fna
+    Posted date:  Apr 27, 2025  2:45 AM
+  Number of letters in database: 1,632,742,855
+  Number of sequences in database:  222
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

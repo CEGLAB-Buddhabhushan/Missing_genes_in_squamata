@@ -1,0 +1,97 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_032467955.1_ASM3246795v1_genomic.fna
+           338,712 sequences; 1,354,374,879 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JANHFT010007139.1 Pseudoxenodon macrops voucher FMNH:255568 7139,...  76.1       5e-11
+JANHFT010002926.1 Pseudoxenodon macrops voucher FMNH:255568 2926,...  66.2       2e-08
+JANHFT010003525.1 Pseudoxenodon macrops voucher FMNH:255568 3525,...  57.2       1e-05
+JANHFT010008845.1 Pseudoxenodon macrops voucher FMNH:255568 8845,...  52.7       5e-04
+JANHFT010004392.1 Pseudoxenodon macrops voucher FMNH:255568 4392,...  51.8       5e-04
+JANHFT010038284.1 Pseudoxenodon macrops voucher FMNH:255568 38284...  48.2       0.006
+JANHFT010007253.1 Pseudoxenodon macrops voucher FMNH:255568 7253,...  47.3       0.022
+JANHFT010006855.1 Pseudoxenodon macrops voucher FMNH:255568 6855,...  47.3       0.022
+JANHFT010063881.1 Pseudoxenodon macrops voucher FMNH:255568 63881...  46.4       0.022
+JANHFT010005272.1 Pseudoxenodon macrops voucher FMNH:255568 5272,...  46.4       0.022
+
+
+
+Query_1  1005    GCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGGC  1064
+7138     2322    ...G.....G.GA.C.....C..........TC....CTCT.C..C........TT....  2381
+3524     867              ...A.C.....CT...T....AGC...C..CT.C..T.....G...T....  917
+8844     123388                                            ...C.....A........  123405
+38283    550                                                   .....G..TT....  537
+
+Query_1  1065    CGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGGC  1124
+7138     2382    .....................C.....T.---AT......A.TG....T..C......    2439
+                              \                                              
+                              |                                              
+                            CTT
+3524     918     A...A.G..TG.GT.......G......AACA.T..T..A...........C..A...A.  977
+8844     123406  T...........T......A...-CA..........A.......--..T.....A..     123462
+                                    \              \     \                   
+                                    |              |     |                   
+                                    A              T     T
+38283    536     ....A.A...G........A.G..A...AAT...ATG...A.-..............A..  477
+                                                               \             
+                                                               |             
+                                                               T
+
+Query_1  1125    CAAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCGA  1184
+3524     978     A....                                                         982
+4391     25804                                    .......A..CGC....T.C.C.....  25778
+38283    476     ..G..                                                         472
+5271     8316                                         ..A..G...........A..G..  8294
+
+Query_1  1185    GGCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGCT  1244
+2925     76177              ..C............CAG..AGT...........C.....A..AA.T..  76129
+4391     25777   .AGCA..CTCT..C.C..........C.G..AGC..CA................CG.C..  25718
+7252     269232                                    .................CA.TG.CA.  269207
+6854     5492                            ...A....--..................A.C.....  5459
+63880    129                                                   ..............  142
+5271     8293    A...GC..TCT..CA..C..A.T..CC...A........T...TCC.AC...A.C.....  8234
+
+Query_1  1245    CTGGGAGGTCTTCTCATATGGACGGGCTCCGTACCC  1280
+2925     76128   .......A.....A........                76107
+4391     25717   T......A.....A.C..C..                 25697
+7252     269206  G........G..T.........                269185
+6854     5458    G.....                                5453
+63880    143     G......A.....A.T.TG...G..T....C..T..  178
+5271     8233    ..AC........                          8222
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2006736890202
+
+
+  Database: GCA_032467955.1_ASM3246795v1_genomic.fna
+    Posted date:  Apr 27, 2025  1:19 PM
+  Number of letters in database: 1,354,374,879
+  Number of sequences in database:  338,712
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

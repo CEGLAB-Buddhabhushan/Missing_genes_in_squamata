@@ -1,0 +1,151 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_042902835.1_ASM4290283v1_genomic.fna
+           1,097,201 sequences; 1,959,412,682 total letters
+
+
+
+Query= Homo_sapiens_NM_004594.3-SLC9A5
+
+Length=2691
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBHZFW010270746.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  115        1e-22
+JBHZFW010528612.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  104        2e-19
+JBHZFW010105507.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  97.8       4e-17
+JBHZFW010549241.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  96.9       4e-17
+JBHZFW010234806.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  94.2       4e-16
+JBHZFW010300820.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  91.5       2e-15
+JBHZFW010432642.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  69.8       5e-09
+JBHZFW010250538.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  69.8       5e-09
+JBHZFW010206248.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  66.2       6e-08
+JBHZFW010207096.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  51.8       0.001
+JBHZFW010324314.1 Hemidactylus brookii isolate UPRMGRS_1063_TJC_5...  50.0       0.005
+
+
+
+Query_1  220    GTCCCTGAGAGCTGCCTGCTGATTTTGCTGGGCCTGGTGCTAGGGGGAATTGTTTTGGCT  279
+105506   10412  ..G..A...........C..C...C..G.T..AT.AC.T.....T......A.G..T.GA  10471
+
+Query_1  280    GTGGCCAAGAAAGCTGAGTACCAGCTGGAGCCAGGCACCTTCTTCCTCTTCCTGCTGCCT  339
+270745   6565                                      ..T.........T..T..T..C..A  6589
+105506   10472  ...--..G....AG.CTCC.....T..A..AGT.A.GTT..T...T.G.A...T..T..C  10531
+                                          \                                 
+                                          |                                 
+                                         AT
+234805   786                                       ..T...........A...C.....G  810
+300819   9326                                          ......T...A.........C  9346
+
+Query_1  340    CCTATTGTGTTGGACTCAGGCTATTTCATGCCTAGCAGGCTGTTCTTTGACAACTTGGGT  399
+270745   6590   ..C..AA.CC....TG.T.....C...C.....T..-.C.A...TACA..G...G....C  6649
+                                                \                           
+                                                |                           
+                                                C
+105506   10532  ..G.....CC.C..TG.T.....C..T.....A.CAC.C..C........G.....T..C  10591
+234805   811    ..C.....C.....TG.G..............C..TC.C.CT........G...A.C..G  870
+300819   9347   ..C..C..C.....TG.T..A..C........A.A.C............G....C....C  9406
+
+Query_1  400    GCCATCCTCACCTATGCCGTGGTAGGCACACTCTGGAATGCCTTCACAACAGGCGCTGCC  459
+270745   6650   A.......G.TA.T...A...A....G..T..G............                 6694
+105506   10592  A.A..TT..TGG.....A..CA....G..G.........T.A..TGGC.TT...ATCT..  10651
+234805   871    A.G......TTG.....T.....T..G..CA.G.......T...                  914
+300819   9407   A.A..T...CTG..C..T..CA.C..A..CA..........AGC..........        9460
+
+Query_1  460    CTCTGGGGCTTGCAGCAGGCTGGACTTGTAGCCCCTAGGGTGCAGGCTGGCTTACTGGAC  519
+105506   10652  ....-----.....AT.T.TCA..T..C.-...T..T.A......T...-----...C.A  10708
+                                                  \       \                 
+                                                  |       |                 
+                                               TTGG    ATAT
+549240   361                                                          ......  366
+206247   6523                                                      .....T...  6515
+
+Query_1  520    TTCCTGCTGTTTGGGAGCCTCATCTCGGCGGTGGACCCCGTGGCCGTGCTAGCTGTCTTT  579
+270745   6769     ...A..T.....T...A..........T........T.....T.....G.....G...  6826
+105506   10709  .G...C..C.....C...T.G..T..A..T.....T..T.....A.....G.....T...  10768
+549240   367    .....CT....C..C...T.G..TG.T..A.....T.....C..T..A..G..G..G...  426
+206247   6514   AG............C...A.G.....A..T........A.CAT.A..CT.G.....T...  6455
+
+Query_1  580    GAGGAGGTGCACGTCAATGAGACTCTCTTTATCATCGTCTTTGGCGAGTCCCTGCTCAAC  639
+270745   6827   ......A.C...A........---.....GCA......G.....A..A..GT....G..T  6886
+                                                    \                       
+                                                    |                       
+                                                  TTG
+105506   10769  ..AA.TA.T..T........ACAG..G.AC...C.T..T............T....G..T  10828
+549240   427    .....A..C..T.....C..AGTC...........T..T..C..A..A..G.....T..T  486
+206247   6454   ......A..TCT..T.....ACAG..T.A...G..GA.A.....G..A..TT..T.A..T  6395
+
+Query_1  640    GATGCTGTCACCGTGGTGCTGTACAAGGTCTGCAACTCCTTTGTGGAGATGGGCTCTGCC  699
+270745   6887   ...........T.....                                             6903
+105506   10829  ........A..A.....                                             10845
+549240   487    .....G..G..T.....                                             503
+206247   6394   ....GAA.A..T.....                                             6378
+
+Query_1  700    AATGTGCAGGCCACTGACTACCTGAAGGGAGTCGCCTCCCTGTTTGTGGTCAGTCTGGGC  759
+
+Query_1  760    GGGGCAGCCGTGGGCTTAGTCTTTGCCTTCCTCCTGGCCCTGACCACACGCTTCACCAAG  819
+432641   529                        ......G.....G..CT....CGT...T..T.....G...  490
+207095   2941                                       ...T.T.....T............  2918
+
+Query_1  820    CGGGTCCGCATCATCGAGCCGCTGCTGGTCTTCCTCCTCGCCTACGCAGCCTACCTCACT  879
+432641   489    .AC....AA............GGAT.T..G..TG..A..T.....CTCT.T.....G...  430
+207095   2917   AATA...TTG.G........C..TT.C..A......TA.AGT...CT.T..........A  2858
+
+Query_1  880    GCTGAAATGGCCTCGCTCTCCGCCATTCTTGCGGTGACCATGTGTGGCCTGGGCTGTAAG  939
+432641   429    .....G...CTT..T..T..T.....C......                             397
+207095   2857   ..A......                                                     2849
+
+Query_1  940    AAGTACGTGGAGGCCAACATCTCCCATAAGTCACGCACAACTGTCAAATATACAATGAAG  999
+324313   705       .......................C..A..C.A...C..CA....G..            751
+
+Query_1  1000   ACTCTAGCCAGCTGTGCTGAGACCGTGATCTTCATGCTGCTTGGCATCTCAGCCGTGGAC  1059
+
+Query_1  1060   TCTTCTAAGTGGGCCTGGGATTCTGGGCTGGTGCTGGGCACCCTCATCTTCATCCTGTTC  1119
+
+Query_1  1120   TTCCGAGCCCTCGGCGTAGTCCTGCAGACCTGGGTGCTGAATCAGTTCCGGCTAGTCCCT  1179
+528611   474                .....C..T..A.........C.C.....CT.T.A...CA.G.....G  427
+
+Query_1  1180   CTGGACAAGATTGACCAAGTGGTGATGTCCTATGGGGGCCTGCGGGGGGCTGTGGCCTTT  1239
+528611   426    ....GA.TC..C.................G..C..T.....C..T.....G..T..T...  367
+
+Query_1  1240   GCTCTCGTCATCCTACTGGATAGGACCAAGGTCCCTGCCAAGGACTACTTTGTAGCCACC  1299
+528611   366    ...T.G..GG.G..........AA.A...A..GAAA.AA..AA..CTG.....CAG...G  307
+
+Query_1  1300   ACTATTGTAGTGGTCTTCTTCACAGTCATCGTGCAGGGCTTGACCATCAAGCCACTGGTC  1359
+528611   306    .....CA.T..T..G..T..T.........A.C....                         270
+250537   2495                                    .....T..............TT....G  2469
+
+Query_1  1360   AAATGGCTGAAGGTGAAGAGGAGTGAGCATCACAAACCCACCCTGAACCAGGAGCTGCA  1418
+250537   2468   C.G...T............A...C.....-..G..G....AG......G..A....C..  2410
+                                                  \                        
+                                                  |                        
+                                                  G
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5107040552136
+
+
+  Database: GCA_042902835.1_ASM4290283v1_genomic.fna
+    Posted date:  Apr 27, 2025  3:46 PM
+  Number of letters in database: 1,959,412,682
+  Number of sequences in database:  1,097,201
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

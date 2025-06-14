@@ -1,0 +1,68 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_031021105.1_rEryReg1.hap1_genomic.fna
+           400 sequences; 1,964,049,041 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_091963.1 Erythrolamprus reginae isolate rEryReg1 chromosome Z,...  111        9e-22
+NW_027248462.1 Erythrolamprus reginae isolate rEryReg1 unplaced g...  106        4e-20
+
+
+
+Query_1  112        AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+39       127377659  .....A..T......C.....CTG......A....T..C.CTGG.TC.........T...  127377597
+                                                                     \          
+                                                                     |          
+                                                                   CTG
+40       1326298    .....A..T......C.C...CTG......A....T..C.CTGG.TC.........T...  1326360
+                                                                     \          
+                                                                     |          
+                                                                   CTG
+
+Query_1  172        CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+39       127377596  ..C.AC.....TC....CCGAG.A...G.C........GGCC.....T.....T..C...  127377537
+40       1326361    ..C.AC.....TC....CCGAG.A...G.C........GGCC.....T........C...  1326420
+
+Query_1  232        GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+39       127377536  T....G.....CAGC.....T......C.G........C..T..T..ACAG.........  127377477
+40       1326421    T....G.....CAGC.....T......C.G........C..T..T..ACAG.........  1326480
+
+Query_1  292        TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+39       127377476  ..CA.CT.G...A.T..A..A..GA.T...........T.....C..C..AA.......  127377418
+40       1326481    ..CA.CT.G...A.T..A..A..GA.T...........T.....C..C..AA.C.....  1326539
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2839995826086
+
+
+  Database: GCF_031021105.1_rEryReg1.hap1_genomic.fna
+    Posted date:  Apr 27, 2025  2:03 AM
+  Number of letters in database: 1,964,049,041
+  Number of sequences in database:  400
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

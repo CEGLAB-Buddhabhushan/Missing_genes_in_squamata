@@ -1,0 +1,83 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003400415.2_UTA_CroVir_3.0_genomic.fna
+           7,043 sequences; 1,340,198,908 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PDHV02000071.1 Crotalus viridis viridis voucher SPM297 scaffold-u...  81.5       1e-12
+CM012315.1 Crotalus viridis viridis chromosome 11, whole genome s...  70.7       2e-09
+PDHV02000020.1 Crotalus viridis viridis voucher SPM297 scaffold-u...  59.0       3e-06
+CM012306.1 Crotalus viridis viridis chromosome 1, whole genome sh...  54.5       1e-04
+CM012307.1 Crotalus viridis viridis chromosome 2, whole genome sh...  47.3       0.022
+CM012319.1 Crotalus viridis viridis chromosome 15, whole genome s...  46.4       0.022
+CM012316.1 Crotalus viridis viridis chromosome 12, whole genome s...  46.4       0.022
+
+
+
+Query_1  1006       CACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGGCC  1065
+5790     85131      ..G.......G..C.....CT.........TC....CTCT.C..C.....G..T......  85072
+129      805056                                               ............T.....  805039
+
+Query_1  1066       GCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGGCC  1125
+5790     85071      .....G..............C.......---AT.....AA..G.......C.....      85016
+                                \                                               
+                                |                                               
+                              CTG
+129      805038     .....T............A...-TA.......TTG...A..TTC......C..G...     804982
+                                      \                                         
+                                      |                                         
+                                      A
+
+Query_1  1126       AAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCGAG  1185
+
+Query_1  1186       GCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGCTC  1245
+9        10824477             ..C............CAG..AGC.................A..AA.T...  10824526
+9        16198605                          ...A....--...........C........C.....G  16198571
+0        4014555                 .......TT.A......AGT.............A.......ACTA.G  4014509
+1        148288699                                   .................CA.CG.CA.G  148288673
+10       9567712                   .......G......A............GC......            9567746
+
+Query_1  1246       TGGGAGGTCTTCTCATATGGACGGGCTCCGTACCCTAAAATGTCACTGAAAGAGGTGTCG  1305
+9        10824527   ......A.....A........                                         10824547
+9        16198570   .....                                                         16198566
+0        4014508    .......C...T..T.....                                          4014489
+1        148288672  ........G..T.........                                         148288652
+
+Query_1  1306       GAGGCCGTGGAGAAGGGGTACCGCATGGAACCCCCCGAGGGCTGTCC  1352
+13       6601999           .........AC..T........G.G...G...........  6602038
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2001909934566
+
+
+  Database: GCA_003400415.2_UTA_CroVir_3.0_genomic.fna
+    Posted date:  Apr 26, 2025  11:56 PM
+  Number of letters in database: 1,340,198,908
+  Number of sequences in database:  7,043
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,57 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030867105.1_rLiaOli1.hap1_genomic.fna
+           43 sequences; 1,486,119,866 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM061360.1 Liasis olivaceus isolate rLiaOli1 chromosome 13, whole...  61.7       4e-07
+CM061349.1 Liasis olivaceus isolate rLiaOli1 chromosome 2, whole ...  57.2       5e-06
+
+
+
+Query_1  47        TGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCACC  106
+12       23184059  .....C.....T.A..TG.T..T........A..CA....G............CTGGG..  23184000
+1        19259136  .....C.T...T....TG.A..............CA....G.....A........T..--  19259196
+                                                                       \       
+                                                                       |       
+                                                                     GCT
+
+Query_1  107       AGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAG  147
+12       23183999  .A.CC..CACC...A.C........G..C............  23183959
+1        19259197  ...-A..CACA...A.C..A.....G........T.....   19259235
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 832226378480
+
+
+  Database: GCA_030867105.1_rLiaOli1.hap1_genomic.fna
+    Posted date:  Apr 27, 2025  1:17 AM
+  Number of letters in database: 1,486,119,866
+  Number of sequences in database:  43
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

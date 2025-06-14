@@ -1,0 +1,67 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_032468155.1_ASM3246815v1_genomic.fna
+           245,550 sequences; 1,266,969,297 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JANHFL010004106.1 Oxyrhabdium leporinum voucher FMNH:278897 4106,...  111        6e-22
+
+
+
+Query_1  112     AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+4105     167797  .....A..T......C.....CTG......A.A..T..T.CTGG.TC.........T...  167859
+                                                                 \           
+                                                                 |           
+                                                               CCT
+4105     169715  .....A..T......T.....CTG......ACA..T....CTGG..TT........T...  169777
+                                                              \              
+                                                              |              
+                                                            TCT
+
+Query_1  172     CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+4105     167860  ..C.AC.....TC....ACGAG.A...G.C........GGCC.....T.....T..C...  167919
+4105     169778  ..CGAC......C....ACAAG.A...G.C........AGCC.....T...G.T..C...  169837
+
+Query_1  232     GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+4105     167920  T....G.....CAGT.....T..C...C..........C..T..T..ACAG.........  167979
+4105     169838  T....G.....CAGT.....T..C...CA......G..C.TT..T..ACAG.........  169897
+
+Query_1  292     TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+4105     167980  ..CA.CT.....A....A..A..GA.A...........T.....C..C..AA.C.....  168038
+4105     169898  ..CA.CT.....A..A.A..A..GA.............T.....T..              169944
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1821934625559
+
+
+  Database: GCA_032468155.1_ASM3246815v1_genomic.fna
+    Posted date:  Apr 27, 2025  11:15 AM
+  Number of letters in database: 1,266,969,297
+  Number of sequences in database:  245,550
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

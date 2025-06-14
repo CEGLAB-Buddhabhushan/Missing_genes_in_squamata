@@ -1,0 +1,62 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_044335465.1_ASM4433546v1_genomic.fna
+           907,883 sequences; 1,529,890,299 total letters
+
+
+
+Query= Homo_sapiens_NM_145286.3-STOML3
+
+Length=876
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBIELD010907258.1 Psammophis sibilans isolate UPRMGRS_855_TJC_382...  100        7e-19
+JBIELD010167414.1 Psammophis sibilans isolate UPRMGRS_855_TJC_382...  60.8       6e-07
+
+
+
+Query_1  526   GATGATGCCACCGAACTGTGGGGGATCCGGGTGGCCCGAGTGGAAATCAAAGATGTTCGG  585
+167413   1022  ..C........G..TGAC.....C...AAA....AG..G...........G.....CAA.  963
+
+Query_1  586   ATTCCCGTGCAGTTGCAGAGATCCATGGCAGCCGAGGCTGAGGCCACCCGGGAAGCGAGA  645
+167413   962   T.A..T..C...C.T..A..GG.......G..T..A..G..A..TG.TA.A.....C...  903
+
+Query_1  646   GCCAAGGTCCTTGCAGCTGAAGGAGAAATGAATGCTTCCAAATCCCTGAAGTCAGCCTCC  705
+907257   464       .....A.C..G..G..G..T........C......CGGG.G..T...GA...G..G  519
+167413   902   ..T.....                                                      895
+
+Query_1  706   ATGGTGCTGGCTGAGTCTCCCATAGCTCTCCAGCTGCGCTACCTGCAGACCTTGAGCACG  765
+907257   520   ..C..CA.TA.G.........GCC..C........C...............C.C.C...C  579
+
+Query_1  766   GTAGCCACCGAGAAGAATTCTACGATTGTGTTTCCTCTGCCCAT  809
+907257   580   A.T...G....A........C..C.....C..C..CT.......  623
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1266707308292
+
+
+  Database: GCA_044335465.1_ASM4433546v1_genomic.fna
+    Posted date:  Apr 27, 2025  1:38 PM
+  Number of letters in database: 1,529,890,299
+  Number of sequences in database:  907,883
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

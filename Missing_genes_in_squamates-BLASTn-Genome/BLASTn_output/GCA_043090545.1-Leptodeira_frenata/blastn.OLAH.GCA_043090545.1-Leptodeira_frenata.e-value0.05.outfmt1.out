@@ -1,0 +1,60 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_043090545.1_ASM4309054v1_genomic.fna
+           855,023 sequences; 1,498,896,549 total letters
+
+
+
+Query= Homo_sapiens_XM_054366207.1-OLAH
+
+Length=957
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBHNVY010354218.1 Leptodeira frenata isolate UPRMGRS_1270_TJC_643...  79.7       3e-12
+JBHNVY010447206.1 Leptodeira frenata isolate UPRMGRS_1270_TJC_643...  59.0       2e-06
+JBHNVY010578740.1 Leptodeira frenata isolate UPRMGRS_1270_TJC_643...  48.2       0.004
+
+
+
+Query_1  158  TGGAAGAGACAGCATCTCACCATGTTGCCAAGGCTGGTCTCAAACTCCGGCGCTCAAGTG  217
+354217   570  ...T........GG.T..G........T.C..................T.G.......CA  629
+447205   129      ......G.GG.T..G.T......G.C...G..............T.AC...TG...  74
+578739   794                                            ......T.A.........  777
+
+Query_1  218  ATCCTCCTGCTTCAGCCTACCCATGTGCTGGCGTGAGCCACCGTAGGCGTGAGCCACCGT  277
+354217   630  G..TG.....C..G....C..A.A.......                               660
+447205   73   ...TG..AATC.......C..TCA.......G..T.-------C...............C  21
+578739   776  .......A..C.......                                            759
+
+Query_1  278  GCCTGGCCAA  287
+447205   20   A..CA.....  11
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1361170627025
+
+
+  Database: GCA_043090545.1_ASM4309054v1_genomic.fna
+    Posted date:  Apr 27, 2025  4:56 PM
+  Number of letters in database: 1,498,896,549
+  Number of sequences in database:  855,023
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

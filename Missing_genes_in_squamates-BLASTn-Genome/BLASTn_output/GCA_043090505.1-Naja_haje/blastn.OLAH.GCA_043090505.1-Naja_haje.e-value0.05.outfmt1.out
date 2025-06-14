@@ -1,0 +1,63 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_043090505.1_ASM4309050v1_genomic.fna
+           788,879 sequences; 1,366,997,453 total letters
+
+
+
+Query= Homo_sapiens_XM_054366207.1-OLAH
+
+Length=957
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBHLEZ010587907.1 Naja haje isolate UPRMGRS_828_TJC_355 587907, w...  67.1       1e-08
+JBHLEZ010706940.1 Naja haje isolate UPRMGRS_828_TJC_355 706940, w...  53.6       9e-05
+JBHLEZ010010433.1 Naja haje isolate UPRMGRS_828_TJC_355 10433, wh...  44.6       0.048
+
+
+
+Query_1  164  AGACAGCATCTCACCATGTTGCCAAGGCTGGTCTCAAACTCCGGCGCTCAAGTGATCCTC  223
+587906   9    ...T..G..T..........TG.C...........G.G....T.A.A...G.......A.  68
+706939   193               ........ATG..................T.GC...........     236
+10432    143            .............C.....A....TG..G...T.A.....G.CA....G.  90
+                                                                      \   
+                                                                      |   
+                                                                   CTGC
+
+Query_1  224  CTGCTTCAGCCTACCCATGTGCTGGCGTGAGCCACCGTAGGCGTGAGCCACCGTGCCTGG  283
+587906   69   .CA.C..G....C..G.A.......GA.T.-------C...T..........A....CA.  121
+10432    89   ..TGG.TG....C..A.A.......GA.T.-------C.............G.C...C..  37
+
+Query_1  284  CCA  286
+587906   122  ...  124
+10432    36   ..   35
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1241121825625
+
+
+  Database: GCA_043090505.1_ASM4309050v1_genomic.fna
+    Posted date:  Apr 27, 2025  6:11 PM
+  Number of letters in database: 1,366,997,453
+  Number of sequences in database:  788,879
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

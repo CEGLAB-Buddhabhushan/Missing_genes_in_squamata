@@ -1,0 +1,71 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_035047345.1_BraVen1.1_genomic.fna
+           113 sequences; 2,373,187,502 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAWDJE010000006.1 Bradypodion ventrale isolate JTBG20232 scaffold...  102        6e-19
+JAWDJE010000005.1 Bradypodion ventrale isolate JTBG20232 scaffold...  48.2       0.011
+
+
+
+Query_1  97         GAGTGTTTCACAGCCAATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAA  156
+70       16522205   ..A.....T..G.TG.....G..T......C....C..G......A.A..TT....GGGG  16522264
+
+Query_1  157        GGCGGGAAGCCATGTCTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAA  216
+70       16522265   A..T...C.T.C..C..T.A.......C....CCGGG.A...G..........GGCA..G  16522327
+                      \       \                                                 
+                      |       |                                                 
+                     TT       T
+
+Query_1  217        TACCCCAACGGGGAGGGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGAC  276
+70       16522328   ...T.G..T..T..AT....G..A..CAGC........C...C.T.....G.....G...  16522387
+59       160607241                                   .....C...C................G  160607215
+
+Query_1  277        GTGAGCCCCTGGTGCTATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAG  336
+70       16522388   ...CAA..T........CA.TT.G...A.T..A..A..GA...................C  16522447
+59       160607214  .A..AA........                                                160607201
+
+Query_1  337        ATACCTGCTTGCCAGATGCCTGGAAACCTTGGCTGCTACAAGGATCATGGAAACCCACCT  396
+70       16522448   ..C..CA.A.....                                                16522461
+
+Query_1  397        CCTCTAACTGGCACCAGTAAAACGTCCAACAAACTCACCATACAAACTTGCATCAGTTTT  456
+
+Query_1  457        TGTCGGAGTCAGAGGTTCAAGTTTGCTGGGATGGAGTCAGGCTATGCTTGCTTCTGTGG  515
+70       16530722                   .............AT.A..AG.T..T.................  16530764
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3431623735758
+
+
+  Database: GCA_035047345.1_BraVen1.1_genomic.fna
+    Posted date:  Apr 27, 2025  8:47 AM
+  Number of letters in database: 2,373,187,502
+  Number of sequences in database:  113
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

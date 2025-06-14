@@ -1,0 +1,62 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_964106915.2_rPodGai1.hap1.2_genomic.fna
+           211 sequences; 1,514,643,635 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OZ066926.1 Podarcis gaigeae genome assembly, chromosome: 13           118        5e-24
+OZ066914.1 Podarcis gaigeae genome assembly, chromosome: 1            46.4       0.024
+
+
+
+Query_1  112       AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+24       22210771  .....A..T.....CC....G.........A....--.T..C.CG..A...CG...C..C  22210833
+                                                                    \          
+                                                                    |          
+                                                                CACGG
+
+Query_1  172       CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+24       22210834  ..C.AC......C....GCGAG.....G.C........CGCC..G...........C..A  22210893
+0        21927826              ..T....C........-.....T..............             21927791
+
+Query_1  232       GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+24       22210894  T..........CAGC...........TC.C..C..G..C..G.....ACAG.........  22210953
+
+Query_1  292       TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+24       22210954  ..CA.CT.G...A.......A..CA.............T.....C..C..GA.C.....  22211012
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2190164627712
+
+
+  Database: GCA_964106915.2_rPodGai1.hap1.2_genomic.fna
+    Posted date:  Apr 27, 2025  3:34 AM
+  Number of letters in database: 1,514,643,635
+  Number of sequences in database:  211
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

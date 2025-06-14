@@ -1,0 +1,98 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004320005.1_hydMel_1.0_genomic.fna
+           122,022 sequences; 1,402,639,853 total letters
+
+
+
+Query= Homo_sapiens_XM_054373687.1-YBX3
+
+Length=1119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BHFS01000741.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  132        5e-28
+BHFS01026650.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  68.0       5e-09
+BHFS01002140.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  47.3       0.017
+BHFS01001120.1 Hydrophis melanocephalus KUZ<JPN_:R72403 DNA, scaf...  46.4       0.017
+
+
+
+Query_1  262    GCCACCAAAGTCCTTGGCACTGTCAAATGGTTCAACGTCAGAAATGGATATGGATTTATA  321
+26649    24873  ......C.G..T.AG.....G..G...............C.C.....C............  24814
+
+Query_1  322    AATCGAAATGACACCAAAGAAGATGTATTTGTACATCAGACTGCCATCAAGAAGAATAAC  381
+740      60752                                     .........T...............  60776
+26649    24813  ..                                                            24812
+
+Query_1  382    CCACGGAAATATCTGCGCAGTGTAGGAGATGGAGAAACTGTAGAGTTTGATGTGGTTGAA  441
+740      60777  ..CA.......C..C.....C....................G..................  60836
+
+Query_1  442    GGAGAGAAGGGTGCAGAAGCTGCCAATGTGACTGGCCCGGATGGAGTTCCTGTGGAAGGG  501
+740      60837  ..C..A....                                                    60846
+
+Query_1  502    AGTCGTTACGCTGCAGATCGGCGCCGTTACAGACGTGGCTACTATGGAAGGCGCCGTGGC  561
+1119     7585                                                             ..  7586
+
+Query_1  562    CCTCCCCGGAATTACGCTGGGGAGGAGGAGGAGGAAGGGAGCGGCAGCAGTGAAGGATTT  621
+2139     63302                 ....A...............T.........C.A.......       63343
+                                                   \                        
+                                                   |                        
+                                                  GG
+1119     7587   ..A......CC..C.C.-..A..............G......A........           7637
+                                                     \                      
+                                                     |                      
+                                                     A
+
+Query_1  622    GACCCCCCTGCCACTGATAGGCAGTTCTCTGGGGCCCGGAATCAGCTGCGCCGCCCCCAG  681
+
+Query_1  682    TATCGCCCTCAGTACCGGCAGCGGCGGTTCCCGCCTTACCACGTGGGACAGACCTTTGAC  741
+
+Query_1  742    CGTCGCTCACGGGTCTTACCCCATCCCAACAGAATACAGGCTGGTGAGATTGGAGAGATG  801
+
+Query_1  802    AAGGATGGAGTCCCAGAGGGAGCACAACTTCAGGGACCGGTTCATCGAAATCCAACTTAC  861
+
+Query_1  862    CGCCCAAGGTACCGTAGCAGGGGACCTCCTCGCCCACGACCTGCCCCAGCAGTTGGAGAG  921
+
+Query_1  922    GCTGAAGATAAAGAAAATCAGCAAGCCACCAGTGGTCCAAACCAGCCGTCTGTTCGCCGT  981
+
+Query_1  982    GGATACCGGCGTCCCTACAATTACCGGCGTCGCCCGCGTCCTCCTAACGCTCCTTCACAA  1041
+740      61882                                                         .....  61886
+
+Query_1  1042   GATGGCAAAGAGGCCAAGGCAGGTGAAGCACCAACTGAGAACCCTGCTCCACCCACCCAG  1101
+740      61887  ............A.........CC...C..T..G........T.C.....CGAGG..G..  61949
+                                                          \                 
+                                                          |                 
+                                                        ACG
+
+Query_1  1102   CAGAGCAGTGCTGAGTAA  1119
+740      61950  ...G..G.G.........  61967
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1520425106963
+
+
+  Database: GCA_004320005.1_hydMel_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  7:47 AM
+  Number of letters in database: 1,402,639,853
+  Number of sequences in database:  122,022
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

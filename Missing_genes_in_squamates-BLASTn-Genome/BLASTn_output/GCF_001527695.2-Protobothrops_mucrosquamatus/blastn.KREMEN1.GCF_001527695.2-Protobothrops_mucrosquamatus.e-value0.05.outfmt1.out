@@ -1,0 +1,65 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001527695.2_P.Mucros_1.0_genomic.fna
+           52,280 sequences; 1,673,876,332 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_015386395.1 Protobothrops mucrosquamatus isolate PMUCROS unpla...  106        3e-20
+NW_015390619.1 Protobothrops mucrosquamatus isolate PMUCROS unpla...  97.8       2e-17
+
+
+
+Query_1  112      AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+318      3667555  .....A..T......C.....TTG......A.A..T....CTGG.TC.........T..C  3667617
+                                                                   \          
+                                                                   |          
+                                                                 CTG
+4542     2598                                                     ........T..C  2609
+
+Query_1  172      CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+318      3667618  ..C.AC......C....ACGAG.A...G.C........GGCC..G..T.....T..C...  3667677
+4542     2610     ..C.AC......C....ACGAG.A...G.C........GGCC..G..T.....T..C...  2669
+
+Query_1  232      GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+318      3667678  T....G.....CAGT.....T..C...C.......G..C..T..T..ACAG..T......  3667737
+4542     2670     T....G.....CAGT.....T..C...C.......G..C..T..T..ACAG..T......  2729
+
+Query_1  292      TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+318      3667738  ..CA.CT.....A....A..A..GA.............T.....C..T..AA.C.....  3667796
+4542     2730     ..CA.CT.....A....A..A..GA.............T.....C..C..AA.C.....  2788
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2417930479032
+
+
+  Database: GCF_001527695.2_P.Mucros_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  4:33 AM
+  Number of letters in database: 1,673,876,332
+  Number of sequences in database:  52,280
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

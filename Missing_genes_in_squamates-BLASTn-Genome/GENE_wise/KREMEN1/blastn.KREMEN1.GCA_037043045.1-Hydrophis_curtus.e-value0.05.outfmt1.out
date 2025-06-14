@@ -1,0 +1,62 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_037043045.1_ASM3704304v1_genomic.fna
+           809 sequences; 1,925,084,451 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAWKAS010000005.1 Hydrophis curtus isolate ss_UAE728 HiC_scaffold...  120        2e-24
+JAWKAS010000004.1 Hydrophis curtus isolate ss_UAE728 HiC_scaffold...  46.4       0.031
+
+
+
+Query_1  112        AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+444      153087729  .....A..T......C.....CTG......A.A..T..T.CTGG.TC.........T...  153087791
+                                                                     \          
+                                                                     |          
+                                                                   CTG
+
+Query_1  172        CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+444      153087792  ..C.AC......C....ACGAG.A...G.C..T.....GGCC.....T.....T..C...  153087851
+
+Query_1  232        GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+444      153087852  T....G.....CAGT.....T..C...C..........C..T..T..ACAA.........  153087911
+333      100611996   ....A..A..AA.C..............G...........                     100612035
+
+Query_1  292        TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+444      153087912  ...A.CT.G...A....A..A..GA...................T..C..AA.C.....  153087970
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2783633512284
+
+
+  Database: GCA_037043045.1_ASM3704304v1_genomic.fna
+    Posted date:  Apr 27, 2025  5:34 AM
+  Number of letters in database: 1,925,084,451
+  Number of sequences in database:  809
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,62 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_031021105.1_rEryReg1.hap1_genomic.fna
+           400 sequences; 1,964,049,041 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_091960.1 Erythrolamprus reginae isolate rEryReg1 chromosome 11...  84.2       5e-14
+NC_091963.1 Erythrolamprus reginae isolate rEryReg1 chromosome Z,...  48.2       0.003
+NC_091950.1 Erythrolamprus reginae isolate rEryReg1 chromosome 1,...  48.2       0.003
+
+
+
+Query_1  46         GTGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCAC  105
+18       2196479     .....C.....T.....G.C..C...........CA.................CTGGG.  2196537
+39       38775251   .....CT....G.......GT..C...........CG....C..TCG.T..C..TT.A..  38775310
+39       113778996           ..G.....T..T..T..A........T..T..C............AC.A..  113779046
+0        221319910  ..C...C....T.....T..T..T.....A......G.A..C....G...T..ATT.A..  221319969
+
+Query_1  106        CAGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAG  147
+18       2196538    ....C...CACC...A.C.....C..G..C............  2196579
+39       38775311   G.AT.C..CA.C..TG........AAA.........AC....  38775352
+39       113779051  ..A..----TTC...A.C........G..C........A...  113779088
+                    \                                         
+                    |                                         
+                    GAAA
+0        221319970  G.AT.T..CA.C..GG....T..CA...........        221320005
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1097896258719
+
+
+  Database: GCF_031021105.1_rEryReg1.hap1_genomic.fna
+    Posted date:  Apr 27, 2025  2:03 AM
+  Number of letters in database: 1,964,049,041
+  Number of sequences in database:  400
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

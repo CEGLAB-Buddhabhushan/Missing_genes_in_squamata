@@ -1,0 +1,64 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_964270895.1_rPodFil1.hap1.1_genomic.fna
+           349 sequences; 1,506,966,124 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OZ185435.1 Podarcis filfolensis genome assembly, chromosome: 1        79.7       2e-12
+OZ185442.1 Podarcis filfolensis genome assembly, chromosome: 8        63.5       1e-07
+OZ185446.1 Podarcis filfolensis genome assembly, chromosome: 12       48.2       0.003
+
+
+
+Query_1  46         GTGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCAC  105
+0        5627789    ..C...C.....T................A......G.G..G...CG...C..ATT.A..  5627848
+0        133202427   .....C...........G................CA....G.....A......CTGGG.  133202369
+7        83802476      ...C.....T.A..TG.C..C...........CA....C........A...TTGGG.  83802532
+11       28127964   .....CC....G.......GC..C............G....C...CG....           28127914
+
+Query_1  106        CAGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAGCCTCTGAAAGCTCCTGGG  165
+0        5627849    G..T.C..CA.C..GG.......CA.C..C......AC....                    5627890
+0        133202368  ...GC...CACC..GA.C.....C..G..C............                    133202327
+7        83802533   ....C....ACC..TA.C........G..C............A.GG......AA.G.---  83802594
+                                                                     \          
+                                                                     |          
+                                                                 CCTAC
+
+Query_1  166        CACGTGTCACTGACTCTCTGGGACGTTGGGGG  197
+7        83802595   ..A..-...A..--...GG.............  83802623
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 842387820404
+
+
+  Database: GCA_964270895.1_rPodFil1.hap1.1_genomic.fna
+    Posted date:  Apr 27, 2025  3:25 AM
+  Number of letters in database: 1,506,966,124
+  Number of sequences in database:  349
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

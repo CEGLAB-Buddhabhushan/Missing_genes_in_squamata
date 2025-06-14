@@ -1,0 +1,75 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_019457695.2_c.ornata.1_genomic.fna
+           1,119,673 sequences; 1,334,282,448 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAHWGE010964143.1 Chrysopelea ornata isolate DD17 jcf718000761842...  105        2e-20
+JAHWGE010029423.1 Chrysopelea ornata isolate DD17 jcf718000776082...  74.3       1e-10
+
+
+
+Query_1  665   CTGGTACTCCCATCTATGAATGCAACTCAAGGTGTCAGTGTGGTCCTGATTGTCCCAATA  724
+964142   930   ....C.TG...........G.....T..TC.C..-.........AT......C..A..CC  989
+                                                     \                     
+                                                     |                     
+                                                     C
+
+Query_1  725   GGATTGTACAAAAAGGCACACAGTATTCGCTTTGCATCTTTCGAACTAGCAATGGACGTG  784
+964142   990   .TG.A.....G.GG....TT.GT...GAC........T..C..G..AGAT..........  1049
+
+Query_1  785   GCTGGGGTGTAAAGACCCTTGTGAAGATTAAAAGAATGAGTTTTGTCATGGAATATGTTG  844
+964142   1050  ...........CGT..AT.G.A.......GC...C.-C..C...................  1109
+                                            \                              
+                                            |                              
+                                            C
+
+Query_1  845   GAGAGGTAATCACAAGTGAAGAAGCTGAAAGACGAGGACAGTTCTATGACAACAAGGGAA  904
+964142   1110  .........                                                     1118
+
+Query_1  905   TCACGTATCTCTTTGATCTGGACTATGAGTCTGATGAATTCACAGTGGATGCGGCTCGAT  964
+
+Query_1  965   ACGGCAATGTGTCTCATTTTGTGAATCACAGCTGTGACCCAAATCTTCAGGTGTTCAATG  1024
+29422    1043                                      ....C.....A.......AT....  1066
+
+Query_1  1025  TTTTCATTGATAACCTCGATACTCGTCTTCCCCGAATAGCATTGTTTTCCACAAGAACCA  1084
+29422    1067  ..........A..TT.G...GAA..A..G..A..C..T..T..C...G.T..TC..C.T.  1126
+
+Query_1  1085  TAAATGCTGGAGAAGAGCTGACTTTTGATTATCAAATGAAAGGT  1128
+29422    1127  .C.GA.T...G........C..C.....C...A.T...C.....  1170
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1559441947312
+
+
+  Database: GCA_019457695.2_c.ornata.1_genomic.fna
+    Posted date:  Apr 27, 2025  8:17 AM
+  Number of letters in database: 1,334,282,448
+  Number of sequences in database:  1,119,673
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

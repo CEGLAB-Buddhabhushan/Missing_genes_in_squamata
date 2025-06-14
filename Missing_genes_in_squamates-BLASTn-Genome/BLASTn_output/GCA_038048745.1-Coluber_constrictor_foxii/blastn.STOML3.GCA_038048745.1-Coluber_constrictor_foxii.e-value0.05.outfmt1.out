@@ -1,0 +1,104 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_038048745.1_rColCon1_p1.0_genomic.fna
+           273 sequences; 1,829,145,047 total letters
+
+
+
+Query= Homo_sapiens_NM_145286.3-STOML3
+
+Length=876
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM075968.1 Coluber constrictor foxii isolate BlueRacer01 chromoso...  113        1e-22
+
+
+
+Query_1  299       TTCCTCCACAAGAGATCCTCACCAGAGACTCCGTAACTACTCAGGTAGATGGAGTTGTCT  358
+10       11502149  ......-..T.-............A.........G..GGTCA.C..G........A..T.  11502092
+10       11225141  ......-..T.-............A.........G..GGTCA.C..G........A..T.  11225084
+
+Query_1  359       ATTACAGAATCTATAGTGCTGTCTCAGCAGTGGCTAATGTCAACGATGTCCATCAAGCAA  418
+10       11502091  .C...C..G.GC.G.AC..CA....-..C..A..C..CA...C.A...C.G.CTC...T.  11502032
+                                        \                                      
+                                        |                                      
+                                        C
+10       11225083  .C...C..G.GC.G.AC..CA....-..C..A..C..CA...C.A.C.C.G.CTCG..T.  11225024
+                                        \                                      
+                                        |                                      
+                                        C
+
+Query_1  419       CATTTCTGCTGGCTCAAACCACTCTGAGAAATGTCTTAGGGACACAGACCTTGTCCCAGA  478
+10       11502031  .TCGG..............T.....C..G.....GC.G.....CA...A.C.T.......  11501972
+10       11225023  .TCGG..............T.....C..G.....AC.G.....CA...A.C.T.......  11224964
+10       11212200       ..C..............CT.........C...G..A..CA..GA.C..G.T....  11212146
+10       11489130       ..C..............CT.........C...G..A..CA..GA.C..G.T....  11489076
+
+Query_1  479       TCTTAGCTGGACGAGAAGAGATCGCCCATAGCATCCAGACTTTACTTGATGATGCCACCG  538
+10       11501971  ..C.TT.C.AC..G.....A..T..T..C.....G...                        11501934
+10       11224963  ..C.TT.C.AC..G.....A..T..T..C.....G...                        11224926
+10       11224192                                                 ...........A.  11224180
+10       11501200                                                 ...........A.  11501188
+10       11212145  .TC.CT.C.AC.....G...........A.A...G...                        11212108
+10       11489075  .TC.CT.C.AC.....G...........A.A...G...                        11489038
+
+Query_1  539       AACTGTGGGGGATCCGGGTGGCCCGAGTGGAAATCAAAGATGTTCGGATTCCCGTGCAGT  598
+10       11224179  .CGAC.....C..AAAA....AA..G...........G.....GAA.T.A..G..C...C  11224120
+10       11501187  .TGAC.....C..AAAA....AA..G...........G.....GAA.T.A..G..C...C  11501128
+
+Query_1  599       TGCAGAGATCCATGGCAGCCGAGGCTGAGGCCACCCGGGAAGCGAGAGCCAAGGTCCTTG  658
+10       11223045                                                     .....A...  11223037
+10       11500011                                                     .....A...  11500003
+10       11224119  .T..A..GG.......G..T..A..C..A.....T..A.....C..G..A.....       11224065
+10       11501127  .T..A..GG.......G..T..A..C..A.....T..A.....C..G..A.....       11501073
+10       11209921                                                     ....GA.C.  11209913
+
+Query_1  659       CAGCTGAAGGAGAAATGAATGCTTCCAAATCCCTGAAGTCAGCCTCCATGGTGCTGGCTG  718
+10       11223036  .T..C..G..C...............CGGG.A..A...GA......A..A..CA.TT.G.  11222977
+10       11500002  .T..C..G..T........C......CGGG.G..A...GA......A..A..CA.TT.G.  11499943
+10       11209912  ....G..G..............C..GCGGG.T......G.C...G.G..CA.-...--..  11209853
+                                                      \                        
+                                                      |                        
+                                                    CAA
+
+Query_1  719       AGTCTCCCATAGCTCTCCAGCTGCGCTACCTGCAGACCTTGAGCACGGTAGCCACCGAGA  778
+10       11222976  ........GCC..C........C..............TC.C.C...CA.C...G......  11222917
+10       11499942  ........GCC..C........C..............TC.C.C...CA.C...G......  11499883
+10       11209852  ..AAC..TGCC..C........C..............GC.C.C.G.CA.C...G......  11209793
+10       11487213             ..C........C..............GC.C.C.G.CA.C...G......  11487165
+
+Query_1  779       AGAATTCTACGATTGTGTTTCCTCTGCCCAT  809
+10       11222916  .......C..C..C..C..C..C........  11222886
+10       11499882  .......C..C..C..C..C..C........  11499852
+10       11209792  .......C..C..CA.C..C.....T..     11209765
+10       11487164  .......C..C..CA.C..C.....T..     11487137
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1543791046484
+
+
+  Database: GCA_038048745.1_rColCon1_p1.0_genomic.fna
+    Posted date:  Apr 27, 2025  12:29 AM
+  Number of letters in database: 1,829,145,047
+  Number of sequences in database:  273
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

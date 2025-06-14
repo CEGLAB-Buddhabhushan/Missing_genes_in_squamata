@@ -1,0 +1,64 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_044758725.1_ASM4475872v1_genomic.fna
+           869,906 sequences; 1,876,020,895 total letters
+
+
+
+Query= Homo_sapiens_NM_001306135.2-DLEU7
+
+Length=666
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBINKK010622226.1 Chamaeleo gracilis isolate UPRMGRS_687_TJC_214 ...  46.4       0.013
+JBINKK010044179.1 Chamaeleo gracilis isolate UPRMGRS_687_TJC_214 ...  45.5       0.045
+
+
+
+Query_1  32    TCAGCCACCAAATGGTGGCTCTGCAGACCTTGCAGCTGCTGCAGCAGGAGTGGGGCTGGG  91
+44178    9717  ....G.......G.T.................                              9748
+
+Query_1  92    GGGACGGTCCAGTCGCCCCCGGGAACCCGCGGGACCCAGACCACGTGTCCACCGCTCCAG  151
+
+Query_1  152   CCCGTCGCTCAggcccgccgcgggcccggccggggcccgggcgcgaggagcggggcgggg  211
+
+Query_1  212   gcgtggggaccaggagtcggcggaccgcggcgcgggcgAACTCCCCAGAGGAGGAGGTAG  271
+
+Query_1  272   TGCGAGGCGCTGAGGGGGGCGCCGAGTTGCTGCCCTTCCCCCGGGACCGCGGGCCCTGCA  331
+622225   139                                                    ......GC.T.  149
+
+Query_1  332   CCCTGGCCCAGATGGCGATGCGCAGCGCGC  361
+622225   150   ...........C......C...........  180
+                              \              
+                              |              
+                              A
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1171748594502
+
+
+  Database: GCA_044758725.1_ASM4475872v1_genomic.fna
+    Posted date:  Apr 27, 2025  11:52 AM
+  Number of letters in database: 1,876,020,895
+  Number of sequences in database:  869,906
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

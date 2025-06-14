@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_003118565.2_Ppicta_v2.0_genomic.fna
+           4,871 sequences; 1,562,175,643 total letters
+
+
+
+Query= Homo_sapiens_NM_001317111.2-MOB1A
+
+Length=777
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BDOT02000010.1 Paroedura picta DNA, hic_parpi00000010, whole geno...  168        2e-39
+BDOT02000004.1 Paroedura picta DNA, hic_parpi00000004, whole geno...  71.6       3e-10
+BDOT02000171.1 Paroedura picta DNA, hic_parpi00000171, whole geno...  59.0       2e-06
+
+
+
+Query_1  127       TTCTCTTGTCCTCGCAGCAGCCGCTCTTCTAAAACATTCAAACCAAAGAAGAATATCCCT  186
+9        68115665  ..T....C....T................G.....C..T.....T..A...........C  68115729
+                              \      \                                         
+                              |      |                                         
+                             CT    GGT
+
+Query_1  187       GAAGGATCTCATCAGTATGAACTCTTAAAACATGCAGAAGCAACTCTAGGAAGTGGGAAT  246
+9        68115730  .....C..C..C........G..GC.G..G........G..C..A..G.....C..C..C  68115789
+
+Query_1  247       CTGAGACAAGCTGTTATGTTGCCTGAGGGAGAGGATCTCAATGAATGGATTGCTGTGAAC  306
+9        68115790  ...C.CATG.....C...C.C........C..A..C..G..C......G.C..A.....   68115848
+3        57208750                                       .......T............C.T  57208728
+170      8401                                 .....A.....A.....C...G.A..C..TC.T  8369
+
+Query_1  307       ACTGTGGATTTCTTTAACCAGATCAACATGTTATATGGAACTATTACAGAATTCTGCACT  366
+9        68121409     .....C.....C..T............C.T.....G..G........T........A  68121465
+3        57208727  GT......C.....C...AGA..A...C.TA.C.....C..C..GT....GG....T...  57208668
+170      8368      GTG..T..C..T..C...AGA......C.CA.C...........CTGT...........A  8309
+
+Query_1  367       GAAGCAAGCTGTCCAGTCATGTCTGCAGGTCCGAGATATGAATATCACTGGGCAGATGGT  426
+9        68124313                                   .....C..G..C...........C..A  68124339
+9        68121466  ..G.AG.....C..G..G..............A.AG..A....                   68121508
+3        57208667  ...AAG..T.....CA.......G.GT..G.TC.AG..........                57208622
+170      8308      ..GAGG.C...C..G..G.....A.GT..C..A.A.........                  8265
+
+Query_1  427       ACTAATATTAAAAAGCCAATCAAATGTTCTGCACCAAAATACATTGACTATTTGATGACT  486
+9        68124340  ..G..C..A..G...........G..C...........G.....A..T..CC.T.....C  68124399
+
+Query_1  487       TGGGTTCAAGATCAGCTTGATGATGAAACTCTTTTTCCTTCTAAGATTGGTGTCCCATTT  546
+9        68126059                                                  ........-...  68126069
+9        68124400  .................G........G..A..A.....A..C..A..A...           68124450
+
+Query_1  547       CCCAAAAACTTTATGTCTGTGGCAAAGACTATTCTAAAGCGTCTGTTCAGGGTTTATGCC  606
+9        68126070  ...........C.....A.....C.....C..CT.......C..C.....A.....C..T  68126130
+                         \                                                     
+                         |                                                     
+                         G
+
+Query_1  607       CATATTTATCACCAGCACTTTGATTCTGTGATGCAGCTGCAAGAGGAGGCCCACCTCAAC  666
+9        68126131  ..C..C.................CC.C..C..T...........A.....A..T..G...  68126190
+
+Query_1  667       ACCTCCTTTAAGCACTTTATTTTCTTTGTTCAGG  700
+9        68126191  ..A..T..C..............T..........  68126224
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1163704729395
+
+
+  Database: GCA_003118565.2_Ppicta_v2.0_genomic.fna
+    Posted date:  Apr 27, 2025  3:58 AM
+  Number of letters in database: 1,562,175,643
+  Number of sequences in database:  4,871
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

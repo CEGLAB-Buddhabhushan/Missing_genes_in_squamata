@@ -1,0 +1,54 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001077635.1_Thamnophis_sirtalis-6.0_genomic.fna
+           7,930 sequences; 1,424,897,867 total letters
+
+
+
+Query= Homo_sapiens_XM_054364927.1-TMEM273
+
+Length=570
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_013658009.1 Thamnophis sirtalis isolate EDBJR-23777 unplaced g...  44.6       0.029
+
+
+
+Query_1  15      CAGCATGCTGAGGATCCTCTTCCTCCTGGATGTAGGAGGAGCTCAAGTGCTGGCAACAGG  74
+329      537719  .................CT.........C...........CT....A.-.......A.T.  537784
+                               \                  \   \                      
+                               |                  |   |                      
+                             ATT                 GG  GT
+
+Query_1  75      CAA  77
+329      537785  ...  537787
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 767887447943
+
+
+  Database: GCF_001077635.1_Thamnophis_sirtalis-6.0_genomic.fna
+    Posted date:  Apr 27, 2025  4:17 AM
+  Number of letters in database: 1,424,897,867
+  Number of sequences in database:  7,930
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

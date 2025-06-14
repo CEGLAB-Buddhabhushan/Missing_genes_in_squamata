@@ -1,0 +1,64 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_018340635.1_Ibu_BjarHA_1.0_genomic.fna
+           27,698 sequences; 1,672,323,932 total letters
+
+
+
+Query= Homo_sapiens_XM_054347355.1-PLAAT1
+
+Length=717
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAGTXL010027294.1 Bothrops jararaca isolate BSP84406 BJARHA_00273...  58.1       7e-06
+JAGTXL010026138.1 Bothrops jararaca isolate BSP84406 BJARHA_00261...  58.1       7e-06
+
+
+
+Query_1  256    TGCCCAGGGGACTTGATCGAAGTGTTCCGTCCTGGCTATCAGCACTGGGCCCTGTACTTG  315
+27293    20700  .....-...........T..GA.C.....GAAG..A..C............G.C..TG..  20642
+27293    6660         ...........A...A.C.....-.T......C............A.C...G..  6607
+                                                    \                       
+                                                    |                       
+                                                    C
+26137    9275   .....-...........T..GA.C.....GAAG..A..C............G.C..TG..  9333
+26137    23086        ...........A...A.C.....-.T......C............A.C...G..  23139
+                                                   \                        
+                                                   |                        
+                                                   C
+
+Query_1  316    GGTGATGGTTACGTTATC  333
+27293    20641  ...TTG...G........  20624
+27293    6606   ..GA....C..T..G...  6589
+26137    9334   ...TTG...G........  9351
+26137    23140  ..GA....C..T..G...  23157
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1144934753260
+
+
+  Database: GCA_018340635.1_Ibu_BjarHA_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  6:05 AM
+  Number of letters in database: 1,672,323,932
+  Number of sequences in database:  27,698
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

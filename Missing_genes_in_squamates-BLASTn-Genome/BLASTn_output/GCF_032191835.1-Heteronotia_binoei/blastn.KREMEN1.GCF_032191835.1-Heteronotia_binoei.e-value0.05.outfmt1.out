@@ -1,0 +1,79 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_032191835.1_APGP_CSIRO_Hbin_v1_genomic.fna
+           661 sequences; 2,633,472,656 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_083237.1 Heteronotia binoei isolate CCM8104 ecotype False Entr...  106        5e-20
+NC_083240.1 Heteronotia binoei isolate CCM8104 ecotype False Entr...  50.9       0.003
+NC_083226.1 Heteronotia binoei isolate CCM8104 ecotype False Entr...  47.3       0.042
+
+
+
+Query_1  35         ccgccgcggcgctcacgctggcggcccggcccgcgccTAGCCCCGGCCTCGGCCCCGGAC  94
+17       45851248   ......-.A.....C....CC..C.........-....G...............T.C...  45851306
+                                              \                                 
+                                              |                                 
+                                              T
+
+Query_1  95         CCGAGTGTTTCACAGCCAATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTAC  154
+14       30772824                    .....G..T......C.T..G.........C....TT.T...G  30772866
+
+Query_1  155        AAGGCGGGAAGCCATGTCTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGA  214
+14       30772867   .GA.....CGT..C.....C.AC......C....ACGGG.A...GTT........GGCC.  30772929
+                         \                                                      
+                         |                                                      
+                       ACT
+
+Query_1  215        AATACCCCAACGGGGAGGGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAG  274
+14       30772930   .G.....T..T..C...T....AT....CAGC..T.....C...C.G..C.....C..T.  30772989
+
+Query_1  275        ACGTGAGCCCCTGGTGCTATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTG  334
+14       30772990   .T...CAG..A........CA.CT.T...A.......A..GA....T.............  30773049
+
+Query_1  335        AGATACCTGCTTGCCAGATGCCTGGAAACCTTGGCTGCTACAAGGATCATGGAAACCCAC  394
+14       30773050   .C..C...A.C.....                                              30773065
+
+Query_1  395        CTCCTCTAACTGGCACCAGTAAAACGTCCAACAAACTCACCATACAAACTTGCATCAGTT  454
+
+Query_1  455        TTTGTCGGAGTCAGAGGTTCAAGTTTGCTGGGATGGAGTCAGGCTATGCTTGCTTCTGTG  514
+3        120371991                ....C...A...T..................G.C.A.C.A.....A  120372036
+
+Query_1  515        GA  516
+3        120372037  ..  120372038
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3807969918978
+
+
+  Database: GCF_032191835.1_APGP_CSIRO_Hbin_v1_genomic.fna
+    Posted date:  Apr 27, 2025  1:45 AM
+  Number of letters in database: 2,633,472,656
+  Number of sequences in database:  661
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

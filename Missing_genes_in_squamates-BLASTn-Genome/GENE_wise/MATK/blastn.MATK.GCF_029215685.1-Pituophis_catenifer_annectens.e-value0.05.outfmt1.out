@@ -1,0 +1,92 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_029215685.1_rPitCat1.0.hap2_genomic.fna
+           649 sequences; 1,682,881,129 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_027256895.1 Pituophis catenifer annectens isolate HBS135680 un...  77.9       2e-11
+NW_027256894.1 Pituophis catenifer annectens isolate HBS135680 un...  66.2       3e-08
+NW_027256890.1 Pituophis catenifer annectens isolate HBS135680 un...  55.4       5e-05
+NW_027256886.1 Pituophis catenifer annectens isolate HBS135680 un...  55.4       5e-05
+NW_027256897.1 Pituophis catenifer annectens isolate HBS135680 un...  54.5       2e-04
+NW_027256881.1 Pituophis catenifer annectens isolate HBS135680 un...  54.5       2e-04
+NW_027256882.1 Pituophis catenifer annectens isolate HBS135680 un...  50.9       0.002
+NW_027256884.1 Pituophis catenifer annectens isolate HBS135680 un...  46.4       0.028
+
+
+
+Query_1  1004       TGCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGG  1063
+14       1302849    ....G.....G.G..C.....CT.........TC....CTCT.C..C.....G..T....  1302790
+14       943570                                                 ..T.........T...  943585
+5        6289562                                                ..C.....G.......  6289547
+1        210271995                                        ...T..........G.......  210272016
+
+Query_1  1064       CCGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGG  1123
+14       1302789    .......T..............C.......---AC......A.TG....T..C......   1302731
+                                  \                                             
+                                  |                                             
+                                CTG
+14       943586     .A.....G............A...-TA.......TTG...A..TTC......C..G...   943644
+                                        \                                       
+                                        |                                       
+                                        A
+5        6289546    .T..................A...-CA..........A.......--..T.....A..    6289489
+                                        \              \     \                  
+                                        |              |     |                  
+                                        A              T     T
+1        210272017  ..A..A.A...TGTT.....GG...AA..A......TT..AA.TGC............    210272074
+
+Query_1  1124       CCAAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCG  1183
+
+Query_1  1184       AGGCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGC  1243
+13       12231184               ..C....A.......CAG..AGT.................A..AA.T.  12231137
+9        17308232                    ..........C.G..AGC..CA.............C...G.C.  17308190
+0        336462445                 .......TT.A......AGT.............A.......ACTA  336462489
+1        194567540                                     .................CA.TG.CA  194567516
+3        965871                                                    .............  965883
+
+Query_1  1244       TCTGGGAGGTCTTCTCATATGGACGGGCTCCGTACCCTAAAATGTCACTGAAAGAGGTGT  1303
+13       12231136   ........A.....A........                                       12231114
+9        17308189   ........A.....A.C..C..                                        17308168
+0        336462490  .G.......C...T..T.....                                        336462511
+1        194567515  .G........G..T.........                                       194567493
+3        965884     .G......A.....A.T.TA...G..T....T..T..                         965920
+
+Query_1  1304       CGGAGGCCGTGGAGAAGGGGTACCGCATGGAACCCCCCGAGGGCTGTCCAG  1354
+16       1829475             .........AC...........G.GT................  1829516
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2514192409728
+
+
+  Database: GCF_029215685.1_rPitCat1.0.hap2_genomic.fna
+    Posted date:  Apr 27, 2025  6:47 AM
+  Number of letters in database: 1,682,881,129
+  Number of sequences in database:  649
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

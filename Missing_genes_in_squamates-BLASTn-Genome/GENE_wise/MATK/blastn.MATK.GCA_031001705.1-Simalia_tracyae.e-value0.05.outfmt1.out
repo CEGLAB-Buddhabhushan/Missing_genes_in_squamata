@@ -1,0 +1,87 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_031001705.1_ASM3100170v1_genomic.fna
+           67,984 sequences; 1,468,689,395 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JARFOB010060189.1 Simalia tracyae voucher IRGN:6EWDE7KRG7 60189, ...  63.5       3e-07
+JARFOB010000047.1 Simalia tracyae voucher IRGN:6EWDE7KRG7 47, who...  61.7       1e-06
+JARFOB010046623.1 Simalia tracyae voucher IRGN:6EWDE7KRG7 46623, ...  53.6       2e-04
+JARFOB010000080.1 Simalia tracyae voucher IRGN:6EWDE7KRG7 80, who...  49.1       0.007
+JARFOB010000002.1 Simalia tracyae voucher IRGN:6EWDE7KRG7 2, whol...  48.2       0.007
+JARFOB010000141.1 Simalia tracyae voucher IRGN:6EWDE7KRG7 141, wh...  47.3       0.024
+
+
+
+Query_1  1006      CACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGGCC  1065
+60188    6457      ..G..C..G.G..C.....CC.........GC....CTCT.C..C..T..G........T  6516
+46622    1582                  .......CC.........TC....C-....C.C.....G.........  1535
+                                                              \                
+                                                              |                
+                                                              A
+79       75387473                                                         ....A  75387469
+79       75453325                                           .........A..T.....T  75453307
+1        56609861                                            ........G........T  56609878
+
+Query_1  1066      GCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGGCC  1125
+60188    6517      ....................C.....---.CAC......A.TG.A..T........      6572
+                             \                                                 
+                             |                                                 
+                           TTC
+46622    1534      ..T..A........                                                1521
+79       75387468  ..A..G...G.G..A..GG.T..T.GA..A.........A..T.T...............  75387409
+79       75453306  ..AA.A...G.A...A...GT.....A......---...A..T.T...........A...  75453247
+                                            \                                  
+                                            |                                  
+                                          GGA
+1        56609879  ...........T..T...                                            56609896
+
+Query_1  1126      AAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCGAG  1185
+79       75387408  .G..                                                          75387405
+79       75453246  .G..                                                          75453243
+
+Query_1  1186      GCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGCTC  1245
+46       10210194            ..C....A.....A.CAG..AGC....................AA.T...  10210243
+46       18511948                         ...A....--...........C......A.C......  18511982
+140      35365286                                   .................CA.TG.CA.G  35365260
+
+Query_1  1246      TGGGAGGTCTTCTCATATGGA  1266
+46       10210244  ......A.....A....C...  10210264
+46       18511983  .....                  18511987
+140      35365259  ........G..T.........  35365239
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2190870208962
+
+
+  Database: GCA_031001705.1_ASM3100170v1_genomic.fna
+    Posted date:  Apr 27, 2025  9:49 AM
+  Number of letters in database: 1,468,689,395
+  Number of sequences in database:  67,984
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

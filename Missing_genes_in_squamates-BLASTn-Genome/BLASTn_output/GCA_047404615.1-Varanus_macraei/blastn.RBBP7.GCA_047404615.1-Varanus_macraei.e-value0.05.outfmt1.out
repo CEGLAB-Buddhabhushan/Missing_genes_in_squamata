@@ -1,0 +1,57 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_047404615.1_ASM4740461v1_genomic.fna
+           971,245 sequences; 951,943,030 total letters
+
+
+
+Query= Homo_sapiens_XM_054327469.1-RBBP7
+
+Length=1545
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBKOKC010665019.1 Varanus macraei isolate KGYV6RTTXK 665020, whol...  52.7       4e-04
+JBKOKC010342342.1 Varanus macraei isolate KGYV6RTTXK 342343, whol...  52.7       4e-04
+JBKOKC010016556.1 Varanus macraei isolate KGYV6RTTXK 16556, whole...  52.7       4e-04
+
+
+
+Query_1  174   TGTCATCAATGAAGAATATAAAATCTGGAAGAAGAATACACCGTTTCTATATGACCTGGT  233
+665018   1416  ..C...T..G.....G..C...GCA............G....A.....C.....TT.AA.  1475
+342341   1417  ..C...T..G.....G..C...GCA............G....A.....C.....TT.AA.  1476
+16555    1418  ..C...T..G.....G..C...GCA............G....A.....C.....TT.AA.  1477
+
+Query_1  234   TATGACCCATGCTCTTCAGTGGCCCAGTCTTACCGTTCAGTGGCTTCCTGA  284
+665018   1476  .G.T..AA...T....G.CCA.GT.TCC..C......G.....T.C.....  1526
+342341   1477  .G.T..AA...T....G.CCA.GT.TCC..C......G.....T.C.....  1527
+16555    1478  .G.T..AA...T....G.CCA.GT.TCC..C......G.....T.C.....  1528
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1393266006470
+
+
+  Database: GCA_047404615.1_ASM4740461v1_genomic.fna
+    Posted date:  Apr 27, 2025  8:35 PM
+  Number of letters in database: 951,943,030
+  Number of sequences in database:  971,245
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

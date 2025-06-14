@@ -1,0 +1,109 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_041107755.1_ASM4110775v1_genomic.fna
+           290,614 sequences; 1,672,404,947 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBFTWW010289168.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  76.1       6e-11
+JBFTWW010000273.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  67.1       3e-08
+JBFTWW010000060.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  66.2       3e-08
+JBFTWW010000171.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  63.5       4e-07
+JBFTWW010000050.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  59.9       4e-06
+JBFTWW010000001.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  55.4       5e-05
+JBFTWW010009319.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  51.8       6e-04
+JBFTWW010000200.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  50.9       0.002
+JBFTWW010000096.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  50.9       0.002
+JBFTWW010000078.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  50.0       0.002
+JBFTWW010290582.1 Leptophis mexicanus isolate UPRM_GenResCol_1274...  46.4       0.027
+
+
+
+Query_1  1005       GCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGGC  1064
+289167   2108       ...G.....G.G..C.....CT.........TC....CTCT.C..C.....G..T.....  2167
+170      8600                    .......CC.........TC....C-....C.C.....G..T.....  8646
+                                                                \               
+                                                                |               
+                                                                A
+49       1099175                 ......A.........C.GA..T...CTA...C..............  1099129
+9318     1449                   ...T...A.A......T....-.T...CTAC..C.....G........  1402
+                                                 \                              
+                                                 |                              
+                                                 C
+199      54589055                                        ...T..........G........  54589077
+77       106243400                                             ..T.........T....  106243416
+
+Query_1  1065       CGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGGC  1124
+289167   2168       ......T..............C.......---AC......A.TG....T..C......    2225
+                               \                                                
+                               |                                                
+                             TCC
+170      8647       ......G..........G...CA.T........---....A..G.A.....C.....     8703
+                                    \   \                                       
+                                    |   |                                       
+                                   CT   G
+49       1099128    G..A........TT....                                            1099111
+9318     1401       T...........T......A...-CA..........A.......--..T.....A..     1345
+                                       \              \     \                   
+                                       |              |     |                   
+                                       A              T     T
+199      54589078   .A..A.A...TGTT.....GG...AA..A......TT..AA.TGC............     54589134
+77       106243417  A.....G............A...-TA.......TTG...A..TTC......C..G...    106243474
+                                       \                                        
+                                       |                                        
+                                       A
+
+Query_1  1125       CAAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCGA  1184
+272      90432058                                        ...A.............C.....  90432080
+
+Query_1  1185       GGCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGCT  1244
+272      90432081   A..GA....TT....CTCC.......TA...........G...TCC..C...A.CT....  90432140
+59       11807747              ..C............CAG..AGT...........C.....A..AA.T..  11807795
+0        161910449             ..C.......TT.A......AGT.............A.......ACTA.  161910497
+95       52139                      ..........C.G..AGC..CA.............C...G.C..  52182
+290581   3338                                                     ..............  3325
+
+Query_1  1245       CTGGGAGGTCTTCTCATATGGACGGGCTCCGTACCCTAAAATGTCACTGAAAGAGGTGTC  1304
+272      90432141   GAT....A..A..A.C..C..G.A.A.......T..                          90432176
+59       11807796   .......A.....A........                                        11807817
+0        161910498  G.......C...T..T.....                                         161910518
+95       52183      T......A.....A.C..C..                                         52203
+290581   3324       G......A.....A.T.TA...G..T....C..T..                          3289
+
+Query_1  1305       GGAGGCCGTGGAGAAGGGGTACCGCATGGAACCCCCCGAGGGCTGTCCAG  1354
+59       32251736           .........AC...........G.GT...........C....  32251777
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2484245139390
+
+
+  Database: GCA_041107755.1_ASM4110775v1_genomic.fna
+    Posted date:  Apr 27, 2025  1:43 PM
+  Number of letters in database: 1,672,404,947
+  Number of sequences in database:  290,614
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

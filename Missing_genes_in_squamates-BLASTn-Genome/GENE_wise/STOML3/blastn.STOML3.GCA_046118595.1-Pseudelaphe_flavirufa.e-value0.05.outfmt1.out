@@ -1,0 +1,91 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046118595.1_ASM4611859v1_genomic.fna
+           1,709,459 sequences; 1,841,508,851 total letters
+
+
+
+Query= Homo_sapiens_NM_145286.3-STOML3
+
+Length=876
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBJNIH011011930.1 Pseudelaphe flavirufa isolate UPRMGRS_1482_TJC_...  100        9e-19
+JBJNIH010000563.1 Pseudelaphe flavirufa isolate UPRMGRS_1482_TJC_...  84.2       7e-14
+JBJNIH010719559.1 Pseudelaphe flavirufa isolate UPRMGRS_1482_TJC_...  83.3       2e-13
+JBJNIH011082782.1 Pseudelaphe flavirufa isolate UPRMGRS_1482_TJC_...  60.8       8e-07
+JBJNIH010932102.1 Pseudelaphe flavirufa isolate UPRMGRS_1482_TJC_...  60.8       8e-07
+JBJNIH010980213.1 Pseudelaphe flavirufa isolate UPRMGRS_1482_TJC_...  59.0       3e-06
+
+
+
+Query_1  299   TTCCTCCACAAGAGATCCTCACCAGAGACTCCGTAACTACTCAGGTAGATGGAGTTGTCT  358
+719558   1426  ......-..T.-............A.........G..-.G...A..G........A....  1483
+                                                           \               
+                                                           |               
+                                                           C
+
+Query_1  359   ATTACAGAATCTATAGTGCTGTCTCAGCAGTGGCTAATGTCAACGATGTCCATCAAGCAA  418
+719558   1484  .C...C..G.GC.G.A...CA....-..T..A..G..CA...C.A...CTG.CTCG..T.  1543
+                                    \                                      
+                                    |                                      
+                                    C
+
+Query_1  419   CATTTCTGCTGGCTCAAACCACTCTGAGAAATGTCTTAGGGACACAGACCTTGTCCCAGA  478
+719558   1544  .TCGG..............T........G..C..GC.G..A..CA...A.C.T.......  1603
+932101   499        ..C..............CT.........C...G..A..CA...A.C..G.T....  553
+
+Query_1  479   TCTTAGCTGGACGAGAAGAGATCGCCCATAGCATCCAGACTTTACTTGATGATGCCACCG  538
+719558   1604  ..C.TT.C.AC..G.....A..T..T..C.....G...                        1641
+932101   554   .TC.CT.C.ACA....G...........A.A...G...                        591
+
+Query_1  539   AACTGTGGGGGATCCGGGTGGCCCGAGTGGAAATCAAAGATGTTCGGATTCCCGTGCAGT  598
+1082781  169                    ....AA..G...........G.....GAA.T.A....CC...C  211
+
+Query_1  599   TGCAGAGATCCATGGCAGCCGAGGCTGAGGCCACCCGGGAAGCGAGAGCCAAGGTCCTTG  658
+1011929  279                                                      .....A.C.  287
+1082781  212   .T..C...G.......G..A..A..C..A...G.T..A.....C.AG........       266
+
+Query_1  659   CAGCTGAAGGAGAAATGAATGCTTCCAAATCCCTGAAGTCAGCCTCCATGGTGCTGGCTG  718
+1011929  288   .T..C..G..C........C......CGGG.G..A...GA......A..T..CA.TT.G.  347
+562      2                         ..C....G.G........GA...T........TA.CA.A.  41
+
+Query_1  719   AGTCTCCCATAGCTCTCCAGCTGCGCTACCTGCAGACCTTGAGCACGGTAGCCACCGAGA  778
+1011929  348   ........GCC..C........C..............TC.C.C...CA.C...G......  407
+562      42    .......TGCG..C.....A..C...............C.C.CT..CA.C..TG......  101
+980212   387              ..C........C..............AC.C.C.T.CA.C...G......  435
+
+Query_1  779   AGAATTCTACGATTGTGTTTCCTCTGCCCATGAATATACTAGAGGGCATTG  829
+1011929  408   .......C..C..C..C..C..C.....T..                      438
+562      102   ....C..C..C..C..C..C..GT.......AG..T.G..GC.A.......  152
+980212   436   .......C..C..CA.C..C.....T..                         463
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1508064401572
+
+
+  Database: GCA_046118595.1_ASM4611859v1_genomic.fna
+    Posted date:  Apr 27, 2025  4:49 PM
+  Number of letters in database: 1,841,508,851
+  Number of sequences in database:  1,709,459
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

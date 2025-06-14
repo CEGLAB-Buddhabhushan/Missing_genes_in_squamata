@@ -1,0 +1,71 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_027560375.1_ASM2756037v1_genomic.fna
+           605,251 sequences; 1,385,158,126 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JANHGD010003675.1 Imantodes cenchoa voucher FMNH:282648 3675, who...  113        1e-22
+JANHGD010074320.1 Imantodes cenchoa voucher FMNH:282648 74320, wh...  48.2       0.005
+
+
+
+Query_1  629     TGGCTTATAATAAAAACCAACAAATTAAAATCCCACCTGGTACTCCCATCTATGAATGCA  688
+3674     122930                                      ....C.TG................  122953
+74319    229     ................A..T.C.............A...A..                    271
+                                                \                            
+                                                |                            
+                                                G
+
+Query_1  689     ACTCAAGGTGTCAGTGTGGTCCTGATTGTCCCAATAGGATTGTACAAAAAGGCACACAGT  748
+3674     122954  .T..TC.C..-.........AT......C..A..CC.TG.G.....G.GG....TT.GT.  123013
+                               \                                             
+                               |                                             
+                               T
+
+Query_1  749     ATTCGCTTTGCATCTTTCGAACTAGCAATGGACGTGGCTGGGGTGTAAAGACCCTTGTGA  808
+3674     123014  ..GAC........T..C..G..-........................CGT..AT.G.A..  123073
+                                           \                                 
+                                           |                                 
+                                           T
+
+Query_1  809     AGATTAAAAGAATGAGTTTTGTCATGGAATATGTTGGAGAGGTAA  853
+3674     123074  .....GC...C.-C..C............................  123118
+                      \                                       
+                      |                                       
+                      C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1640313902894
+
+
+  Database: GCA_027560375.1_ASM2756037v1_genomic.fna
+    Posted date:  Apr 27, 2025  8:10 AM
+  Number of letters in database: 1,385,158,126
+  Number of sequences in database:  605,251
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

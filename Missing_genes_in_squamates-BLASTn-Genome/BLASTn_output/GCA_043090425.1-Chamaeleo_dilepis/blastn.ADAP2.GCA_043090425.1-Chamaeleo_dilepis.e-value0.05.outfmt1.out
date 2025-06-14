@@ -1,0 +1,58 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_043090425.1_ASM4309042v1_genomic.fna
+           476,822 sequences; 1,786,175,575 total letters
+
+
+
+Query= Homo_sapiens_NM_001346712.2-ADAP2
+
+Length=1164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBHLFC010193851.1 Chamaeleo dilepis isolate UPRM_GenResCol_1049_T...  62.6       3e-07
+JBHLFC010067904.1 Chamaeleo dilepis isolate UPRM_GenResCol_1049_T...  60.8       1e-06
+
+
+
+Query_1  568   AATGCCACCTTCCAGACAGAGAAGATAGGGCACCCCCATGGGCTGCAGATCACCTACAGG  627
+67903    221   .......TG.....AC....A..A.C...A.....GA....C...............CTT  280
+
+Query_1  628   AGAGATGGCCACACCAGGAACCTGTTTGTGTATCATGAAAGTGGGAAGGAGATAGTGGAC  687
+193850   2758                                                ....A..G......  2745
+67903    281   .AG..CAA.A.G..TC.C...A.....C.T..C.....GGA........             329
+67903    2010                                                ....A.........  2023
+
+Query_1  688   TGGTTCAATGCCCTCCGTGCAGCCCGTCTGCAGTACCTAAAAATGGCCTTTCCTG  742
+193850   2744  ............A.......T..T..AT.C..C...T..C.GG....A.......  2690
+67903    2024  ...........AA.........TG.AGT.C..C..T..G..GG...........   2077
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2002368147819
+
+
+  Database: GCA_043090425.1_ASM4309042v1_genomic.fna
+    Posted date:  Apr 27, 2025  7:37 AM
+  Number of letters in database: 1,786,175,575
+  Number of sequences in database:  476,822
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

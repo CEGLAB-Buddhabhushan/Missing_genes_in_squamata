@@ -1,0 +1,61 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046269805.1_ASM4626980v1_genomic.fna
+           442,709 sequences; 1,361,440,344 total letters
+
+
+
+Query= Homo_sapiens_XM_054365033.1-ZNF438
+
+Length=2520
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBJJOL010027858.1 Hydrophis schistosus isolate RAP0487 27858, who...  48.2       0.011
+JBJJOL010026197.1 Hydrophis schistosus isolate RAP0487 26197, who...  48.2       0.011
+JBJJOL010422063.1 Hydrophis schistosus isolate RAP0487 422063, wh...  47.3       0.037
+
+
+
+Query_1  1149   AACAAAACTGAACAGTGGAGCAGCAAAGAGAAAAGGAAGAAAACGGAAGGTACCAGATGA  1208
+27857    13650  ..A....GG......AA...A..G................G...A.....G.A....     13593
+                                                   \                        
+                                                   |                        
+                                                   A
+422062   3521                           ...................A......A.GG...A..  3556
+
+Query_1  1209   AATTTTGGCATTTCAGGGAAAAAGGAGGAAATATATCATTAATAAGTGTAGAGATGGTAA  1268
+26196    1539                                                           ....  1542
+422062   3557   ..                                                            3558
+
+Query_1  1269   AGAAAGAGTAAAAAATGATCCCCAAGAAT  1297
+26196    1543   .......A.......-.............  1570
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3349568565189
+
+
+  Database: GCA_046269805.1_ASM4626980v1_genomic.fna
+    Posted date:  Apr 27, 2025  12:06 PM
+  Number of letters in database: 1,361,440,344
+  Number of sequences in database:  442,709
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

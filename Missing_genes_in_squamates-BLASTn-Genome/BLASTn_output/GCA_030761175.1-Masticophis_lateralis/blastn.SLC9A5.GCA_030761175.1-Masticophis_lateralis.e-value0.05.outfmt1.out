@@ -1,0 +1,92 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030761175.1_rMasLat1.0.hap2_genomic.fna
+           120 sequences; 1,504,000,112 total letters
+
+
+
+Query= Homo_sapiens_NM_004594.3-SLC9A5
+
+Length=2691
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAUDYJ010000009.1 Masticophis lateralis isolate HBS 135920 SCAF_9...  131        1e-27
+JAUDYJ010000011.1 Masticophis lateralis isolate HBS 135920 SCAF_1...  97.8       3e-17
+JAUDYJ010000004.1 Masticophis lateralis isolate HBS 135920 SCAF_4...  86.9       5e-14
+
+
+
+Query_1  318       CTTCTTCCTCTTCCTGCTGCCTCCTATTGTGTTGGACTCAGGCTATTTCATGCCTAGCAG  377
+109      13547734  ...............T..C..A..C..CA.C......G.T..T..C...T....CTTAC.  13547675
+12       15306885  ...........AT..C.....C..C..C..CC....TG.......C........A..TC.  15306826
+54       94075037               ..T..T.....A.....CC.T..TG.T..T.....T.....A.CAC.  94075083
+
+Query_1  378       GCTGTTCTTTGACAACTTGGGTGCCATCCTCACCTATGCCGTGGTAGGCACACTCTGGAA  437
+109      13547674  C.A....AC...G...G....CA.....T.G.TT.TC..G...A.T..G...T.A.....  13547615
+12       15306825  C.C...T.....G...A.C..AA........TTG...........G..A...A.......  15306766
+54       94075084  C..C........G.....T..CA....TT.TTGG.....T..T..G..............  94075143
+
+Query_1  438       TGCCTTCACAACAGGCGCTGCCCTCTGGGGCTTGCAGCAGGCTGGACTTGTAGCCCCTAG  497
+109      13547614  ...T...TTCGT...GT..-----...AT.TA...C.TGT..C...TAG..G......TT  13547559
+                                                                           \   
+                                                                           |   
+                                                                           T
+12       15306765  ..T...                                                        15306760
+54       94075144  .T.T..TGGC.TT...AT.T......TT.C.....--...AT...G.C.T.G.T.T---.  94075201
+                                                  \            \               
+                                                  |            |               
+                                                 AT            A
+
+Query_1  498       GGTGCAGGCTGGCTTACTGGACTTCCTGCTGTTTGGGAGCCTCATCTCGGCGGTGGACCC  557
+109      13547558  TA.-...A.....C.CT.....AA......C.....C...A.......T...........  13547498
+                            \                                                  
+                            |                                                  
+                           AT
+12       15306659                                                   ..T..T.....  15306649
+54       94075202  A.....---.CA.......C.GAG......T........TT.G..T..A..T.....T..  94075260
+                       \         \                                             
+                       |         |                                             
+                       A         C
+
+Query_1  558       CGTGGCCGTGCTAGCTGTCTTTGAGGAGGTGCACGTCAATGAGACTCTCTTTATCATCGT  617
+109      13547497  T...........G.....A.........A.T..TA.......-...---......T.G..  13547438
+                                                                       \       
+                                                                       |       
+                                                                    GCAC
+12       15306648  A..T..T..T..CT.A............A.C..T........A.AG..TCAC..TT.G..  15306589
+54       94075261  T.....T...T.G...........AA.TA.T..T.....C...CAG..G.AC...T.A..  94075320
+
+Query_1  618       CTTTGGCGAGTCCCTGCTCAACGATGCTGTCACCGTGGT  656
+109      13547437  G...........GT....G..T.....C..T..T.....  13547399
+12       15306588  A.....G..A..T..C..............G...       15306555
+54       94075321  T.....G..A..T..CT.G..T........A..T.....  94075359
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3997621772016
+
+
+  Database: GCA_030761175.1_rMasLat1.0.hap2_genomic.fna
+    Posted date:  Apr 27, 2025  5:12 AM
+  Number of letters in database: 1,504,000,112
+  Number of sequences in database:  120
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

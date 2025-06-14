@@ -1,0 +1,54 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_027244095.1_rHemCap1.1.pri_genomic.fna
+           44 sequences; 2,294,751,221 total letters
+
+
+
+Query= Homo_sapiens_NM_002351.5-SH2D1A
+
+Length=387
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_069659.1 Hemicordylus capensis ecotype Gifberg chromosome 3, r...  58.1       5e-06
+
+
+
+Query_1  58       CTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACAGCGAGAGCGTGCCAGGC  117
+2        2641530  .....C.....C..C.G...C.......TC...G..C.C...............G.C...  2641468
+                            \                                                 
+                            |                                                 
+                          GAG
+
+Query_1  118      GTGTACTGCCTATGTGTGCTGT  139
+2        2641467  .CC...GC...G.....C....  2641446
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 816930949092
+
+
+  Database: GCF_027244095.1_rHemCap1.1.pri_genomic.fna
+    Posted date:  Apr 27, 2025  12:57 AM
+  Number of letters in database: 2,294,751,221
+  Number of sequences in database:  44
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

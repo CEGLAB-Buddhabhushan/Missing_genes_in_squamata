@@ -1,0 +1,62 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_044628595.1_ASM4462859v1_genomic.fna
+           1,036,177 sequences; 1,828,609,873 total letters
+
+
+
+Query= Homo_sapiens_NM_001330219.3-HSD17B1
+
+Length=990
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBIELW010099017.1 Varanus niloticus isolate UPRMGRS_854_TJC_381 9...  50.9       0.002
+JBIELW010446270.1 Varanus niloticus isolate UPRMGRS_854_TJC_381 4...  46.4       0.019
+JBIELW010275216.1 Varanus niloticus isolate UPRMGRS_854_TJC_381 2...  46.4       0.019
+
+
+
+Query_1  141    GGAGGCGGCCCGGGCCCTGGCATGCCCTCCGGGATCCCTGGAGACGTTGCAGCTGGACGT  200
+275215   11662  .........T...........C.....G.G.....                           11628
+
+Query_1  201    AAGGGACTCAAAATCCGTGGCCGCTGCCCGGGAACGCGTGACTGAGGGCCGCGTGGACGT  260
+
+Query_1  261    GCTGGTGTGTAACGCAGGCCTGGGCCTGCTGGGGCCGCTGGAGGCGCTGGGGGAGGACGC  320
+99016    916                                         .......................  938
+446269   962                ......--....--..................G...........      922
+                                                                 \          
+                                                                 |          
+                                                                 T
+
+Query_1  321    CGTGGCC  327
+99016    939    .C.....  945
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1720043216222
+
+
+  Database: GCA_044628595.1_ASM4462859v1_genomic.fna
+    Posted date:  Apr 27, 2025  6:29 AM
+  Number of letters in database: 1,828,609,873
+  Number of sequences in database:  1,036,177
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

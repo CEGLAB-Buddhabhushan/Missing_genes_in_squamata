@@ -1,0 +1,96 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_020711275.1_ASM2071127v1_genomic.fna
+           1,818,006 sequences; 1,334,025,125 total letters
+
+
+
+Query= Homo_sapiens_XM_054373687.1-YBX3
+
+Length=1119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAIOUR010788761.1 Calotes versicolor isolate BHU-M1 flattened_lin...  74.3       1e-10
+JAIOUR011596022.1 Calotes versicolor isolate BHU-M1 flattened_lin...  63.5       2e-07
+JAIOUR011053160.1 Calotes versicolor isolate BHU-M1 flattened_lin...  63.5       2e-07
+JAIOUR010396784.1 Calotes versicolor isolate BHU-M1 flattened_lin...  63.5       2e-07
+JAIOUR010315979.1 Calotes versicolor isolate BHU-M1 flattened_lin...  63.5       2e-07
+JAIOUR011403040.1 Calotes versicolor isolate BHU-M1 flattened_lin...  55.4       3e-05
+JAIOUR011524784.1 Calotes versicolor isolate BHU-M1 flattened_lin...  48.2       0.004
+JAIOUR010778491.1 Calotes versicolor isolate BHU-M1 flattened_lin...  48.2       0.004
+
+
+
+Query_1  105   ggtgggcagcggtgcgccccaggccgcggccccggcgcccgccgcccACGTCGCAGGAAA  164
+1403039  995                                                       ....C...  1002
+778490   264   .....C.T....C.......G...G...A.....A.-...T.....GC..C...C.CCGC  202
+                          \         \                                      
+                          |         |                                      
+                          C       CCC
+
+Query_1  165   CCCCGGTGGGGACGCGGCCCCCGCAGCCACGGGCACCGCGGCCGCCGCCTCTTTAGCCAC  224
+1403039  1004  .....C..C..C...C...G....G.....A....................           1057
+               \                                     \                     
+               |                                     |                     
+               G                                   TGG
+778490   201   .G....A.....G.A....G....C...G.......-..C...........GCCC...G.  139
+                        \      \             \                             
+                        |      |             |                             
+                        A      A            CC
+
+Query_1  225   CGCCGCCGGCAGCGAAGACGCGGAGAAAAAAGTTCTCGCCACCAAAGTCCTTGGCACTGT  284
+1596021  29                                         ......C.G..G.AA.....G..  51
+1053159  185                                        ......C.G..G.AA.....G..  207
+396783   269                                        ......C.G..G.AA.....G..  291
+315978   171                                        ......C.G..G.AA.....G..  149
+778490   138   ........                                                      131
+
+Query_1  285   CAAATGGTTCAACGTCAGAAATGGATATGGATTTATAAATCGAAATGACACCAAAGAAGA  344
+1596021  52    G...............C.C.....C........C.....                       90
+1053159  208   G...............C.C.....C........C.....                       246
+396783   292   G...............C.C.....C........C.....                       330
+315978   148   G...............C.C.....C........C.....                       110
+
+Query_1  345   TGTATTTGTACATCAGACTGCCATCAAGAAGAATAACCCACGGAAATATCTGCGCAGTGT  404
+788760   166                 ....G..A..A....GA..C..T..C..T....TC..A.....C..  211
+
+Query_1  405   AGGAGATGGAGAAACTGTAGAGTTTGATGTGGTTGAAGGAGAGAAGGGTGCAGAAGCTGC  464
+788760   212   C..C..C..G.....G..G...........T..G.............               258
+
+Query_1  465   CAATGTGACTGGCCCGGATGGAGTTCCTGTGGAAGGGAGTCGTTACGCTGCAGATCGGCG  524
+
+Query_1  525   CCGTTACAGACGTGGCTACTATGGAAGGCGCCGTGGCCCTCCCCGGAATTACGCTGGGGA  584
+1524783  927                                                             ..  928
+
+Query_1  585   GGAGGAGGAGGAAGGGAGCGGCAGCAGTGAAGGA  618
+1524783  929   ...............C......G..G...G....  962
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1386847790171
+
+
+  Database: GCA_020711275.1_ASM2071127v1_genomic.fna
+    Posted date:  Apr 27, 2025  8:22 AM
+  Number of letters in database: 1,334,025,125
+  Number of sequences in database:  1,818,006
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

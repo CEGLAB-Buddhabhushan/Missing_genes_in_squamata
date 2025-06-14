@@ -1,0 +1,75 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_039797435.1_Cadamanteus_3dDNAHiC_1.2_genomic.fna
+           27 sequences; 1,696,190,989 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM077936.1 Crotalus adamanteus isolate DRR0105 chromosome Z, whol...  106        3e-20
+CM077935.1 Crotalus adamanteus isolate DRR0105 chromosome W, whol...  104        1e-19
+
+
+
+Query_1  112        AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+18       120632135  .....A..T......C.....TTG......A.A..T..G.CTGG.TC.........T..C  120632073
+                                                                     \          
+                                                                     |          
+                                                                   CTG
+17       4502878    .....A..T......C.....TTG......A.A..T.---.G..T..A........T..C  4502816
+                                                                    \           
+                                                                    |           
+                                                               TCCGCT
+17       3637745    .....A..T......C.....TTG......A.A..T.---.G..T..A........T..C  3637683
+                                                                    \           
+                                                                    |           
+                                                               TCTGCT
+
+Query_1  172        CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+18       120632072  ..T.AC......C....ACGAG.A...G.C........AGCC..G..T.....T..C...  120632013
+17       4502815    ..C.AC......C....ACGAG.A...G.C........GGCC..G..T.....T..C...  4502756
+17       3637682    ..C.AC......C....ACGAG.A...G.C.......TGGCC..G..T.....T..C...  3637623
+
+Query_1  232        GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+18       120632012  T....G.....CAGT.....T..C...C.......G..C..T..T..ACAG..T......  120631953
+17       4502755    T....G.....CAGT.....T..C...C.......G.....T..T..ACAG..T......  4502696
+17       3637622    T....G.....CAGT.....T..C...C.......G..C..T..T..ACAG..T......  3637563
+
+Query_1  292        TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+18       120631952  ...A.CT.....A....A..A..GA.............T.....C..T..AA.C.....  120631894
+17       4502695    ..CA.CT.....A....A..A..GA.............T.....C..C..AA.C.....  4502637
+17       3637562    ..CA.CT.....A....A..A..GA.............T.....C..C..AA.C.....  3637504
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2452690881708
+
+
+  Database: GCA_039797435.1_Cadamanteus_3dDNAHiC_1.2_genomic.fna
+    Posted date:  Apr 27, 2025  1:08 AM
+  Number of letters in database: 1,696,190,989
+  Number of sequences in database:  27
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

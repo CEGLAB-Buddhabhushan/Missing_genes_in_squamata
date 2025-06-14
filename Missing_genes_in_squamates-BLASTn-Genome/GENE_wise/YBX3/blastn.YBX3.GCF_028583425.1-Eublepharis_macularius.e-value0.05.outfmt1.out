@@ -1,0 +1,111 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_028583425.1_MPM_Emac_v1.0_genomic.fna
+           76 sequences; 2,237,397,408 total letters
+
+
+
+Query= Homo_sapiens_XM_054373687.1-YBX3
+
+Length=1119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_072806.1 Eublepharis macularius isolate TG4126 chromosome 17, ...  117        2e-23
+NC_072801.1 Eublepharis macularius isolate TG4126 chromosome 12, ...  105        3e-20
+NC_072790.1 Eublepharis macularius isolate TG4126 chromosome 1, M...  64.4       1e-07
+NC_072804.1 Eublepharis macularius isolate TG4126 chromosome 15, ...  50.9       0.002
+NC_072805.1 Eublepharis macularius isolate TG4126 chromosome 16, ...  46.4       0.027
+
+
+
+Query_1  262       GCCACCAAAGTCCTTGGCACTGTCAAATGGTTCAACGTCAGAAATGGATATGGATTTATA  321
+11       79126362  ......C.G..G.AG.....A..G..............TC.T.....C............  79126303
+
+Query_1  322       AATCGAAATGACACCAAAGAAGATGTATTTGTACATCAGACTGCCATCAAGAAGAATAAC  381
+16       14164094                                   ...T.......T..A............  14164068
+11       79123896                                       ....G..T.......G...C...  79123874
+11       79126302  ..                                                            79126301
+
+Query_1  382       CCACGGAAATATCTGCGCAGTGTAGGAGATGGAGAAACTGTAGAGTTTGATGTGGTTGAA  441
+16       14164067  ..CA....G..C..T.....C..............G.....G..A...............  14164008
+11       79123873  ..C..T....T...C........T..............C..G...........T..G...  79123814
+
+Query_1  442       GGAGAGAAGGGTGCAGAAGCTGCCAATGTGACTGGCCCGGATGGAGTTCCTGTGGAAGGG  501
+16       14164007  .....A....                                                    14163998
+11       79123813  .....A....                                                    79123804
+
+Query_1  502       AGTCGTTACGCTGCAGATCGGCGCCGTTACAGACGTGGCTACTATGGAAGGCGCCGTGGC  561
+
+Query_1  562       CCTCCCCGGAATTACGCTGGGGAGGAGGAGGAGGAAGGGAGCGGCAGCAGTGAAGGATTT  621
+11       15564791                      ..................CG..........            15564820
+11       75226193                      ...............G..C...........            75226164
+14       58604590                    ....................C.........              58604619
+15       28574742                      ..................C...A..........T..      28574706
+                                                        \                      
+                                                        |                      
+                                                        A
+
+Query_1  622       GACCCCCCTGCCACTGATAGGCAGTTCTCTGGGGCCCGGAATCAGCTGCGCCGCCCCCAG  681
+
+Query_1  682       TATCGCCCTCAGTACCGGCAGCGGCGGTTCCCGCCTTACCACGTGGGACAGACCTTTGAC  741
+
+Query_1  742       CGTCGCTCACGGGTCTTACCCCATCCCAACAGAATACAGGCTGGTGAGATTGGAGAGATG  801
+
+Query_1  802       AAGGATGGAGTCCCAGAGGGAGCACAACTTCAGGGACCGGTTCATCGAAATCCAACTTAC  861
+
+Query_1  862       CGCCCAAGGTACCGTAGCAGGGGACCTCCTCGCCCACGACCTGCCCCAGCAGTTGGAGAG  921
+
+Query_1  922       GCTGAAGATAAAGAAAATCAGCAAGCCACCAGTGGTCCAAACCAGCCGTCTGTTCGCCGT  981
+
+Query_1  982       GGATACCGGCGTCCCTACAATTACCGGCGTCGCCCGCGTCCTCCTAACGCTCCTTCACAA  1041
+16       14162565                                                         .....  14162561
+16       11412750                                                ...A...A......  11412763
+0        13296871                                                         .....  13296875
+
+Query_1  1042      GATGGCAAAGAGGCCAAGGCAGGTGAAGCACCAACTGAGAACCCTGCTCCACCCACCCAG  1101
+16       14162560  ............A.A.......CC...C.....G........T.C.....CGAGG..G..  14162498
+                                                             \                 
+                                                             |                 
+                                                           ACG
+16       11412764  .T.......C.A....................C......GC...CC....            11412817
+                        \                      \      \                        
+                        |                      |      |                        
+                        A                      C     GG
+0        13296876  ............A.A.......CC...C.....G........T.C.....CGAGG..G..  13296938
+                                                             \                 
+                                                             |                 
+                                                           ACG
+
+Query_1  1102      CAGAGCAGTGCTGAGTAA  1119
+16       14162497  ...G..G.G.........  14162480
+0        13296939  ...G..G.G.........  13296956
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2429810861400
+
+
+  Database: GCF_028583425.1_MPM_Emac_v1.0_genomic.fna
+    Posted date:  Apr 26, 2025  11:48 PM
+  Number of letters in database: 2,237,397,408
+  Number of sequences in database:  76
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

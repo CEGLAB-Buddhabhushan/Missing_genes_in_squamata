@@ -1,0 +1,69 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_023333525.1_rAspTig1.0.p_genomic.fna
+           74 sequences; 1,335,668,279 total letters
+
+
+
+Query= Homo_sapiens_NM_033337.3-CAV3
+
+Length=456
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JALMGA010000005.1 Aspidoscelis tigris stejnegeri voucher HBS 1356...  163        3e-38
+
+
+
+Query_1  113       AGGTGGATTTTGAAGACGTGATCGCAGAGCCTGTGGGCACCTACAGCTTTGACGGCGTGT  172
+4        64176369       ..C........T.....T..C..A....AA..A...C....T.....T..G..T.  64176423
+4        64120610  ..C...GA.....G..T...........A..---..C.T.....TC...C...A.A....  64120669
+                                                             \                 
+                                                             |                 
+                                                           CTC
+
+Query_1  173       GGAAGGTGAGCTACACCACCTTCACTGTCTCCAAGTACTGGTGCTACCGTCTGTTGTCCA  232
+4        64176424  ....A.CC....T............C..GA.A..A.......TT..T..CT.A.....T.  64176483
+4        64120670  ...TTTGC...C..G.GCT....GAG...AG...........-....AAG..C...A.TC  64120729
+                                                        \                      
+                                                        |                      
+                                                        C
+
+Query_1  233       CGCTGCTGGGCGTCCCACTGGCCCTGCTCTGGGGCTTCCTGTTCGCCTGCATCTCCTTCT  292
+4        64176484  .AA.CT.T...A.T..CA....T..CA........A..TAC..T...ATTC.G..T...C  64176543
+4        64120730  TC..C..A.C......G.........G.TGC....A....T..T..                64120775
+
+Query_1  293       GCCACATCTGGGCGGTGGTGCCATGCATTAAGAGCTACCTGATCGAGATCCAGTGCATCA  352
+4        64176544  T............A........T.....C.G...T...T....T........A......G  64176603
+
+Query_1  353       GCCACATCTACTCACTCTGCATCCGCACCTTCTGCAACCCACTCT  397
+4        64176604  ...GAG.T..T..TA....T....A......T...G.T..T....  64176648
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 567658043625
+
+
+  Database: GCA_023333525.1_rAspTig1.0.p_genomic.fna
+    Posted date:  Apr 27, 2025  8:31 AM
+  Number of letters in database: 1,335,668,279
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

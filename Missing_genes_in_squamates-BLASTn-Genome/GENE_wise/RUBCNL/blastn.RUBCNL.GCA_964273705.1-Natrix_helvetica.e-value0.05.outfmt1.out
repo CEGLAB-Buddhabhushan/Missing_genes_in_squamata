@@ -1,0 +1,74 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_964273705.1_rNatHel1.hap1.1_genomic.fna
+           487 sequences; 1,777,516,490 total letters
+
+
+
+Query= Homo_sapiens_NM_025113.5-RUBCNL
+
+Length=1989
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OZ187406.1 Natrix helvetica genome assembly, chromosome: 5            92.4       1e-15
+OZ187405.1 Natrix helvetica genome assembly, chromosome: 4            51.8       9e-04
+OZ187404.1 Natrix helvetica genome assembly, chromosome: 3            49.1       0.011
+
+
+
+Query_1  1147       GACTTTGAATCCAGTATGAATGTAGTACAGGAAATTAAATTTAAGTCTAGGATCAGAGGG  1206
+2        18219714   ..........A......A...A............GA..........                18219667
+                            \                            \                      
+                            |                            |                      
+                            T                            G
+
+Query_1  1207       ACTGAAGACTGGGCTCCTCCTAGATTTCAAATCATATTTAATATTCATCCACCACTCAAG  1266
+
+Query_1  1267       AGGGACCTTGTGGTGGCAGCCCAGAATTTTTTCTGTGCCGGCTGTGGAACTCCAGTAGAG  1326
+
+Query_1  1327       CCTAAGTTTGTGAAGCGGCTCCGGTACTGCGAATACCTAGGGAAGTATTTCTGTGACTGC  1386
+4        3313557                ........G..C........G.....G..C..A..C.....CC.G...  3313510
+
+Query_1  1387       TGCCACTCATATGCAGAGTCGTGCATCCCTGCCCGAATCCTGATGATGTGGGACTTCAAG  1446
+4        3313509    .....TGAGA....CC..AT.GT...T..CAG...C.....CCGC.G..........GGC  3313450
+3        105331881                                                       .......  105331874
+                                                                              \ 
+                                                                              | 
+                                                                              G
+
+Query_1  1447       AAGTACTACGTCAGCAATTTCTCCAAACAGCTGCTCGACAGCATATGGCACCAGCCCATT  1506
+4        3313449    ..A..............C........GG.C.....GC...AG..C...A..G.T...C.C  3313390
+3        105331873  ..........G................                                   105331847
+
+Query_1  1507       TTCAA  1511
+4        3313389    .....  3313385
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3476790819564
+
+
+  Database: GCA_964273705.1_rNatHel1.hap1.1_genomic.fna
+    Posted date:  Apr 27, 2025  3:44 AM
+  Number of letters in database: 1,777,516,490
+  Number of sequences in database:  487
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

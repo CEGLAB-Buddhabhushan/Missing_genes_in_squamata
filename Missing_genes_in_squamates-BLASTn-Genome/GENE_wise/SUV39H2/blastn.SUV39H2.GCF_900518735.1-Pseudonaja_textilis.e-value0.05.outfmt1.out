@@ -1,0 +1,67 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900518735.1_EBS10Xv2-PRI_genomic.fna
+           28,550 sequences; 1,590,035,073 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020769360.1 Pseudonaja textilis unplaced genomic scaffold, EBS...  102        3e-19
+
+
+
+Query_1  665      CTGGTACTCCCATCTATGAATGCAACTCAAGGTGTCAGTGTGGTCCTGATTGTCCCAATA  724
+52       6440301  ....C.TG...........G.....T..TC.C...AGC......AT......C..A..CC  6440360
+
+Query_1  725      GGATTGTACAAAAAGGCACACAGTATTCGCTTTGCATCTTTCGAACTAGCAATGGACGTG  784
+52       6440361  .TG.A.....G.GG....TT.GT...GAC........T..C..G..AGAT......T...  6440420
+
+Query_1  785      GCTGGGGTGTAAAGACCCTTGTGAAGATTAAAAGAATGAGTTTTGTCATGGAATATGTTG  844
+52       6440421  ...........CGT..AT.G.A.......GC...C.-C........T.............  6440480
+                                               \                              
+                                               |                              
+                                               C
+
+Query_1  845      GAGAGGTAATCACAAGTGAAGAAGCTGAAAGACGAGGACAGTTCTATGACAACAAGGGAA  904
+52       6440481  .........                                                     6440489
+52       6441800          ......TCA..G........G.....G..T...G........CGAC....TG  6441851
+
+Query_1  905      TCACGTATCTCTTTGATCTGGACTATGAGTCTGATGAATTCACAGTGGATGCGGCTCGAT  964
+52       6441852  C...T.....A..............C.TAGAA....T..A......A.....T..CTAT.  6441911
+
+Query_1  965      ACGGCAATGTGTCTCATTTTGTGAATCACAG  995
+52       6441912  .T.....CA.A..A........T........  6441942
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1906911507600
+
+
+  Database: GCF_900518735.1_EBS10Xv2-PRI_genomic.fna
+    Posted date:  Apr 27, 2025  7:18 AM
+  Number of letters in database: 1,590,035,073
+  Number of sequences in database:  28,550
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

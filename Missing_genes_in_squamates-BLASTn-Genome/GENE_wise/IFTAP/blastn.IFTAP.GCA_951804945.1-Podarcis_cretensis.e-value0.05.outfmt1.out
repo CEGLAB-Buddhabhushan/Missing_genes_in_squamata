@@ -1,0 +1,60 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_951804945.1_rPodCre2.1_genomic.fna
+           51 sequences; 1,507,627,055 total letters
+
+
+
+Query= Homo_sapiens_XM_054367619.1-IFTAP
+
+Length=666
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OX638165.1 Podarcis cretensis genome assembly, chromosome: 16         46.4       0.011
+OX638156.1 Podarcis cretensis genome assembly, chromosome: 8          45.5       0.037
+
+
+
+Query_1  473      AAAGAATGGACAAACAGACGGAAGAGATACTTGGAGATGAAGTTCAACTTTTTTCACTTG  532
+15       6667282  .....C.....TG.A...AT................-....C..-.C.........G...  6667224
+                            \                                                 
+                            |                                                 
+                            A
+
+Query_1  533      ATGAAGAATTTGATTATGACAATGTGATGCTAACCTCCAAGTTTAGTCCTGCAGAGATAG  592
+
+Query_1  593      AGAACATCAAAGAGCTATGCAAGCAGCAGAAGAGAAAGGACACCAGCCCAGA  644
+7        2029305           .......CA.A...........C......C........A....  2029348
+                                                             \        
+                                                             |        
+                                                             A
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 955834518182
+
+
+  Database: GCA_951804945.1_rPodCre2.1_genomic.fna
+    Posted date:  Apr 27, 2025  1:13 AM
+  Number of letters in database: 1,507,627,055
+  Number of sequences in database:  51
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

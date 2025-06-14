@@ -1,0 +1,108 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000737285.1_CrotMitch1.0_genomic.fna
+           473,380 sequences; 1,126,791,715 total letters
+
+
+
+Query= Homo_sapiens_XM_054373687.1-YBX3
+
+Length=1119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JPMF01187284.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_18...  130        1e-27
+JPMF01392026.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_39...  92.4       4e-16
+JPMF01305962.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_30...  46.4       0.013
+JPMF01388146.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_39...  45.5       0.046
+JPMF01292789.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_29...  45.5       0.046
+JPMF01224988.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_22...  44.6       0.046
+JPMF01098081.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_98...  44.6       0.046
+JPMF01093743.1 Crotalus pyrrhus voucher UTA:R-60292 CMI_contig_94...  44.6       0.046
+
+
+
+Query_1  358   CAGACTGCCATCAAGAAGAATAACCCACGGAAATATCTGCGCAGTGTAGGAGATGGAGAA  417
+187283   5440  ........T.................CA.......C..T.....................  5381
+392025   131    ....G..G.......GA..C..T..T..C....TC.....A.....T........G...  189
+
+Query_1  418   ACTGTAGAGTTTGATGTGGTTGAAGGAGAGAAGGGTGCAGAAGCTGCCAATGTGACTGGC  477
+187283   5380  .....G........C...........T..A....                            5347
+392025   190   ..G..G..............G.....C.......                            223
+
+Query_1  478   CCGGATGGAGTTCCTGTGGAAGGGAGTCGTTACGCTGCAGATCGGCGCCGTTACAGACGT  537
+
+Query_1  538   GGCTACTATGGAAGGCGCCGTGGCCCTCCCCGGAATTACGCTGGGGAGGAGGAGGAGGAA  597
+305961   2679                                          ...A................  2698
+388145   418                                           ...A................  437
+292788   837                                            ..A................  819
+224987   704                                               ................  720
+                                                                          \
+                                                                          |
+                                                                          G
+98080    2874                                 .......T.GA...............T..  2846
+93742    552                                                ...............  538
+
+Query_1  598   GGGAGCGGCAGCAGTGAAGGATTTGACCCCCCTGCCACTGATAGGCAGTTCTCTGGGGCC  657
+305961   2699  .....G..A..A..A......                                         2720
+                 \                                                         
+                 |                                                         
+                 T
+388145   438   -.C...........                                                450
+292788   818   ..A...A..............                                         795
+                \            \                                             
+                |            |                                             
+               GA            C
+224987   721   ......A.......                                                734
+98080    2845  .....                                                         2841
+93742    537   ..C....T......                                                524
+
+Query_1  658   CGGAATCAGCTGCGCCGCCCCCAGTATCGCCCTCAGTACCGGCAGCGGCGGTTCCCGCCT  717
+
+Query_1  718   TACCACGTGGGACAGACCTTTGACCGTCGCTCACGGGTCTTACCCCATCCCAACAGAATA  777
+
+Query_1  778   CAGGCTGGTGAGATTGGAGAGATGAAGGATGGAGTCCCAGAGGGAGCACAACTTCAGGGA  837
+
+Query_1  838   CCGGTTCATCGAAATCCAACTTACCGCCCAAGGTACCGTAGCAGGGGACCTCCTCGCCCA  897
+
+Query_1  898   CGACCTGCCCCAGCAGTTGGAGAGGCTGAAGATAAAGAAAATCAGCAAGCCACCAGTGGT  957
+
+Query_1  958   CCAAACCAGCCGTCTGTTCGCCGTGGATACCGGCGTCCCTACAATTACCGGCGTCGCCCG  1017
+
+Query_1  1018  CGTCCTCCTAACGCTCCTTCACAAGATGGCAAAGAGGCCAAGGCAGGTGAAGCACCAACT  1077
+187283   4305                     .................A.........CC...C..T..G..  4265
+
+Query_1  1078  GAGAACCCTGCTCCACCCACCCAGCAGAGCAGTGCTGAGTAA  1119
+187283   4264  ......T.C.....CGAGG..G.....G..G.G.........  4220
+                     \                                   
+                     |                                   
+                   ACG
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1208356544285
+
+
+  Database: GCA_000737285.1_CrotMitch1.0_genomic.fna
+    Posted date:  Apr 27, 2025  4:06 PM
+  Number of letters in database: 1,126,791,715
+  Number of sequences in database:  473,380
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

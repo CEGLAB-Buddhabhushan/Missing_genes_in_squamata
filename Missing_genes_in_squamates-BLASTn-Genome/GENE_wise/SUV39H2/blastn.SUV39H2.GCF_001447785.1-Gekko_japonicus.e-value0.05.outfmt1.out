@@ -1,0 +1,60 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001447785.1_Gekko_japonicus_V1.1_genomic.fna
+           191,500 sequences; 2,490,274,461 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_015167624.1 Gekko japonicus isolate JY-2015 unplaced genomic s...  76.1       7e-11
+
+
+
+Query_1  673    CCCATCTATGAATGCAACTCAAGGTGTCAGTGTGGTCCTGATTGTCCCAATAGGATTGTA  732
+7913     23605  ...........G.....T..CC.C..-........GAGC..C..C.....CC.TG.G..G  23664
+                                              \                             
+                                              |                             
+                                              C
+
+Query_1  733    CAAAAAGGCACACAGTATTCGCTTTGCATCTTTCGAACTAGCAATGGACGTGGCTGGGGT  792
+7913     23665  ..G.......TT.GT...GAC..C.....T..C..G..AGAT..C..G............  23724
+
+Query_1  793    GTAAAGACCCTTGTGAAGATTAAAAGAATGAGTTTTGTCATGGAATATGTTGGAGAGGTA  852
+7913     23725  ..GCGC..G..G.A......CGC.....-C..C..............C..A.........  23784
+                                    \                                       
+                                    |                                       
+                                    C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2980745953200
+
+
+  Database: GCF_001447785.1_Gekko_japonicus_V1.1_genomic.fna
+    Posted date:  Apr 27, 2025  6:19 AM
+  Number of letters in database: 2,490,274,461
+  Number of sequences in database:  191,500
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

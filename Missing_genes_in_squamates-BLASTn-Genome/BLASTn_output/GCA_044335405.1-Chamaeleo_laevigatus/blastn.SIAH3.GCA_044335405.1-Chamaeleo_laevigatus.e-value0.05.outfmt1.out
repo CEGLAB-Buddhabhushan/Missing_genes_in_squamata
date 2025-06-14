@@ -1,0 +1,92 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_044335405.1_ASM4433540v1_genomic.fna
+           889,497 sequences; 1,910,558,459 total letters
+
+
+
+Query= Homo_sapiens_NM_198849.3-SIAH3
+
+Length=810
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBIELG010000024.1 Chamaeleo laevigatus isolate UPRMGRS_801_TJC_32...  135        4e-29
+JBIELG010000005.1 Chamaeleo laevigatus isolate UPRMGRS_801_TJC_32...  91.5       4e-16
+
+
+
+Query_1  328       CCCTTGTTCTCCTGCCAGTGGGAAGGCCGCCTGGAGGTGGTGGTGCCCCACCTGCGGCAG  387
+4        4904171   ....G..G.......A.....C.....TC...A..T.CC..CA.......T..TAT...C  4904231
+                             \                                                 
+                             |                                                 
+                             T
+
+Query_1  388       ATCCATAGGGTTGACATCCTCCAGGGAGCCGAGATCGTCTTCCTGGCCACGGACATGCAC  447
+23       74859523                   ......A....AA..C..T........C.....A..T..TA..  74859481
+4        4904232   CAG....A.TC.A...A...A.....G.AA..T.....T.....T.....A.....TA.T  4904294
+                              \      \                                         
+                              |      |                                         
+                             AA      G
+
+Query_1  448       CTCCCCGCGCCGGCTGATTGGATCATCATGCACTCCTGCCTTGGCCACCACTTTCTGTTG  507
+23       74859480  T.G..G.G.G.C.T...C...G....G.....G..A...T....T..T.....CA..C..  74859421
+4        4904295   ..T....GTG.T.TG..C...G.T..G.....G.....TT.....TTT.....CA..C.A  4904354
+
+Query_1  508       GTGCTGAGGAAACAGGAGAGGCATGAAGGGCACCCCCAGTTCTTTGCCACCATGATGCTG  567
+23       74859420  ..-..T..A..........A.T.......C....AA.............TTG.CT....C  74859361
+                               \                                               
+                               |                                               
+                               A
+4        4904355   ...T..GA...........AAT....T..T....AG........C..T.TTG.TCA....  4904414
+
+Query_1  568       ATTGGGACCCCCACCCAGGCCGACTGCTTCACCTATCGCCTGGAGCTCAACAGAAACCAT  627
+23       74859360  .....C..T.G..AA..A..G..GAA...TG.A..CA.A..T..A.....TG.C....GA  74859301
+4        4904415   ..A..A..A.GG.AG..A..T..AAAT..TG.T..C.....T........TG.---....  4904471
+
+Query_1  628       CGGCGCCTCAAGTGGGAGGCCACGCCCCGGTCTGTTCTTGAGTGCGTGGACTCGGTGATT  687
+23       74859300  ..AA.G....CT...........A..A..C..CA...AC..TG......CA..A.CC..C  74859241
+4        4904475   .....AT.G.CT.....A..A..T..T..A..GA...A....G.AA.T.CGA.C.CC...  4904534
+                   \                                                           
+                   |                                                           
+                   AGG
+
+Query_1  688       ACGGACGGGGACTGCCTCGTCCTCAACACCTCGCTGGCACAGCTCTTCTCTGACAACGGC  747
+23       74859240  CT.A..A.T.....T..T..TT.TG....TG.CA.A.....C.....TG.A.....T..G  74859181
+4        4904535   .T.A..A.T.....T..A...T.TG...-..A...T........T..TG.A..G..T...  4904594
+                                                     \                         
+                                                     |                         
+                                                     A
+
+Query_1  748       AGCCTTG  754
+23       74859180  .A.....  74859174
+4        4904595   .        4904595
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1464269563790
+
+
+  Database: GCA_044335405.1_ASM4433540v1_genomic.fna
+    Posted date:  Apr 27, 2025  11:19 AM
+  Number of letters in database: 1,910,558,459
+  Number of sequences in database:  889,497
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

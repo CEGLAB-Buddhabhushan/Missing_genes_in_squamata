@@ -1,0 +1,63 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000516915.1_OphHan1.0_genomic.fna
+           296,399 sequences; 1,594,074,654 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+AZIM01001530.1 Ophiophagus hannah scaffold1531.1, whole genome sh...  96.9       1e-17
+
+
+
+Query_1  665     CTGGTACTCCCATCTATGAATGCAACTCAAGGTGTCAGTGTGGTCCTGATTGTCCCAATA  724
+1529     183595  ....C.TG...........G.....T..TC.C..-.........AT......CT.A..CC  183536
+                                                       \                     
+                                                       |                     
+                                                       C
+
+Query_1  725     GGATTGTACAAAAAGGCACACAGTATTCGCTTTGCATCTTTCGAACTAGCAATGGACGTG  784
+1529     183535  .TG.A.....G.GG....TT.GT...GAC........T..C..G..AGAT......T...  183476
+
+Query_1  785     GCTGGGGTGTAAAGACCCTTGTGAAGATTAAAAGAATGAGTTTTGTCATGGAATATGTTG  844
+1529     183475  ...........CGT..AT.G.A.......CG...C.C-........T.............  183416
+                                                \                            
+                                                |                            
+                                                C
+
+Query_1  845     GAGAGGTAA  853
+1529     183415  .........  183407
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1901152184400
+
+
+  Database: GCA_000516915.1_OphHan1.0_genomic.fna
+    Posted date:  Apr 27, 2025  4:11 AM
+  Number of letters in database: 1,594,074,654
+  Number of sequences in database:  296,399
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

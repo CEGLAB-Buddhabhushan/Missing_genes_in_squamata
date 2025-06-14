@@ -1,0 +1,115 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_032468015.1_ASM3246801v1_genomic.fna
+           710,676 sequences; 1,477,391,700 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JANHFR010264972.1 Mimophis mahfalensis voucher FMNH:259984 264972...  87.8       8e-15
+JANHFR010230759.1 Mimophis mahfalensis voucher FMNH:259984 230759...  66.2       3e-08
+JANHFR010005674.1 Mimophis mahfalensis voucher FMNH:259984 5674, ...  63.5       3e-07
+JANHFR010003651.1 Mimophis mahfalensis voucher FMNH:259984 3651, ...  60.8       1e-06
+JANHFR010006071.1 Mimophis mahfalensis voucher FMNH:259984 6071, ...  54.5       2e-04
+JANHFR010201542.1 Mimophis mahfalensis voucher FMNH:259984 201542...  51.8       6e-04
+JANHFR010002160.1 Mimophis mahfalensis voucher FMNH:259984 2160, ...  51.8       6e-04
+JANHFR010008982.1 Mimophis mahfalensis voucher FMNH:259984 8982, ...  50.9       0.002
+JANHFR010007397.1 Mimophis mahfalensis voucher FMNH:259984 7397, ...  46.4       0.024
+JANHFR010007216.1 Mimophis mahfalensis voucher FMNH:259984 7216, ...  46.4       0.024
+JANHFR010000750.1 Mimophis mahfalensis voucher FMNH:259984 750, w...  46.4       0.024
+
+
+
+Query_1  1001    CTCTGCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACC  1060
+264971   128     ..G....G.....G.G..C.....CT.........TC....CTCT.C..C.....G..T.  187
+5673     1834                     .......CC.........TC....C-....C.C.....G..T.  1876
+                                                                 \           
+                                                                 |           
+                                                                 A
+3650     7784                       .....CC...T....AGC...C..CT....C..T..G...T  7824
+6070     1167                    .......A.........CCGA..T...CTAC............T  1210
+8981     120977                  .......A.A.....CT....-.T...CTAC..C.....A....  121020
+                                                  \                          
+                                                  |                          
+                                                  C
+7396     232563                                                ...A.....T..T.  232550
+7215     209924                                           ...T..........G....  209906
+
+Query_1  1061    TGGCCGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCC  1120
+264971   188     .........................G.......---AC......A..G....T..C....  247
+                                  \                                          
+                                  |                                          
+                                CTG
+5673     1877    ..........G.........C.GG.G..C........---....A..G.A.....C....  1936
+                                            \                                
+                                            |                                
+                                          CCA
+3650     7825    ....A..GA.G...G.GT..............AATA.T..T..A...........C....  7884
+6070     1211    .A..G..A........TT....AA...-CA........TG...A..TTC.........G.  1270
+                                       \                                     
+                                       |                                     
+                                       G
+8981     121021  ....T...........T.....-.A.C..A..........A........             121071
+                                              \        \     \               
+                                              |        |     |               
+                                              C        T     T
+7396     232549  .A..T..A..............A...C.CAC...TCA.TG.......TC...T.....T.  232490
+7215     209905  .....A....A...TGTT....AGG...AA..A......TT..AA.TGCT..........  209846
+
+Query_1  1121    TGGCCAAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGC  1180
+264971   248     ..                                                            249
+5673     1937    .                                                             1937
+3650     7885    ..                                                            7886
+6070     1271    .                                                             1271
+2159     101488                                                 ..A.....A..C.  101500
+7396     232489  .                                                             232489
+7215     209845  .                                                             209845
+
+Query_1  1181    CCGAGGCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGC  1240
+230758   308                    ..C............CAG..AGT...........C.....A..AA  352
+201541   576                                                      .........CT  566
+2159     101501  .G.....CA.T..TT.T..A.CA.......T...A............TCA......A.T.  101560
+749      73752                                                     ..........  73761
+
+Query_1  1241    TGCTCTGGGAGGTCTTCTCATATGGACGGGCTCCGTACCCTAAAATGTCACTGAAAGAGG  1300
+230758   353     .T.........A.....A........                                    378
+201541   565     ....T.....AA.TGC.A.C..C..CAT.T.C.........GGG..CGAC...TC.C...  506
+2159     101561  .A..GACT...A..A..A.T.....C...ATC..T.....                      101600
+749      73762   ....G......A.....A.T.TG...G..T.C..C.....                      73801
+
+Query_1  1301    TGTCGGAGGCCGTGGAGAAGGGGTACCGCATGGAACCCCCCGAGGGCTGTCC  1352
+201541   505     ...AC..ACTTT.........AC.............G...G........C..  454
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2172185451648
+
+
+  Database: GCA_032468015.1_ASM3246801v1_genomic.fna
+    Posted date:  Apr 27, 2025  5:28 PM
+  Number of letters in database: 1,477,391,700
+  Number of sequences in database:  710,676
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

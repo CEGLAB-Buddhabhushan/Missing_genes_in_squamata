@@ -1,0 +1,228 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_044758885.1_ASM4475888v1_genomic.fna
+           1,398,263 sequences; 2,174,424,381 total letters
+
+
+
+Query= Homo_sapiens_NM_001052.4-SSTR4
+
+Length=1167
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBINKJ010000001.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  651        0.0  
+JBINKJ011366207.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  152        2e-34
+JBINKJ010000016.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  135        7e-29
+JBINKJ010000037.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  71.6       7e-10
+JBINKJ011371611.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  68.0       8e-09
+JBINKJ010968058.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  63.5       3e-07
+JBINKJ010000006.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  59.0       4e-06
+JBINKJ010373854.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  57.2       1e-05
+JBINKJ010681980.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  56.3       5e-05
+JBINKJ010534845.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  53.6       2e-04
+JBINKJ010650944.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  51.8       6e-04
+JBINKJ010550642.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  51.8       6e-04
+JBINKJ010000024.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  51.8       6e-04
+JBINKJ010000043.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  50.9       0.002
+JBINKJ010594310.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  49.1       0.008
+JBINKJ010000033.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  49.1       0.008
+JBINKJ010683494.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  48.2       0.008
+JBINKJ011118091.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  47.3       0.027
+JBINKJ010649481.1 Bachia flavescens isolate UPRMGRS_1137_TJC_1059...  46.4       0.027
+
+
+
+Query_1  86        cggcggaggcggaggaggcggtggcggggcccggggacgcgcgggcggcgggcATGGTCG  145
+0        55930957  .....C......C.C......C.C....A....A..GG.............-..G---..  55931015
+                                                  \          \                 
+                                                  |          |                 
+                                                 AG          C
+
+Query_1  146       CTATCCAGTGCATCTACGCGCTGGTGTGCCTGGTGGGGCTGGTGGGCAACGCCCTGGTCA  205
+0        55931016  .C....T..T.......T..G....................TGC......T..A......  55931081
+                           \                                                   
+                           |                                                   
+                      ATCTCC
+1366206  713                                                   ..T...A..T......  728
+15       20481022            .......TTTG........A.T.....C...TGT......A.T.....T.  20480973
+1371610  2615                              .....--......T...ACA......A.GGCT....  2648
+534844   1724             ....GC.............G---.T....C.G....C........GG....GG  1672
+                                       \                                       
+                                       |                                       
+                                     GGG
+650943   16                                        ....C.G....C........GG....GG  43
+550641   442                                     .............C......T.G..A..G.  413
+42       623482                .....AT...C..C.T.G..C....C...TC........G........  623529
+
+Query_1  206       TCTTCGTGATCCTTCGCTACGCCAAGATGAAGACGGCTACCAACATCTACCTGCTCAACC  265
+0        55931082  ...A.........G.......................C............A.C..G....  55931141
+1366206  729       ...A....G...........A....C........C.TC........T...A.T..G...T  788
+15       20480972  ...A...C..T..C..T..T...........A..CATC...........TA.C......T  20480913
+36       24416902                                        ............A.CT......  24416923
+1371610  2649      ...A.........-.AAAG.T.............C.TG..G.....G.T.A.CT.A....  2708
+                                          \                                    
+                                          |                                    
+                                          T
+5        1188886                    ...A.............A..C............A.CT......  1188928
+681979   580                            ................G............A.CT.T...T  542
+534844   1671      .G.GG......G.G...AC..T.G-....CGC..T.TC......C...T...........  1612
+                                 \                                             
+                                 |                                             
+                                 G
+650943   44        .G.GG......G.G...AC..T.G-....CGC..C.TC......C...T...........  103
+                                 \                                             
+                                 |                                             
+                                 G
+550641   412       .T.A.....----.T....A..............A.TG......T.....            363
+                                         \   \                                 
+                                         |   |                                 
+                                         A CAA
+23       231121                                          ....C.......A..T.G....  231142
+42       623530    .....ACCG..TGG...-G....GTCGG.C.AG....GG..G...CG...A.CGG.....  623592
+                                                       \                       
+                                                       |                       
+                                                    CGCT
+32       9248791                          ...........T.TC.....T....T.A.C......T  9248755
+683493   872                        ...A.T...........T..............TA.TT....T.  914
+
+Query_1  266       TGGCCGTAGCCGACGAGCTCTTCATGCTGAGCGTGCCCTTCGTGGCCTCGTCGGCCGCCC  325
+0        55931142  .....A.C...........GC.G..................C...T.A.C..CA.GCTG.  55931201
+1366206  789       .A.....G.....T.TT...........TG..T....A..TC.....A.TCA.AAT.T.A  848
+15       20480912  ....TA....T..T..A..T.........G.GT....G...C.....AT.CA..TG....  20480853
+36       24416924  ....AT....A.....A...........TG..C.A..T...T....TG.ACAAAAT..AT  24416983
+1371610  2709      .....A.C........C.......C...                                  2736
+5        1188929   ....                                                          1188932
+681979   541       .A..TC....T...                                                528
+534844   1611      ......GG.....                                                 1599
+650943   104       ......GG.....                                                 116
+23       231143    ..............CT.....                                         231163
+42       623593    ....GC.G......CT.GC....G..G...CGC....GC.GTG...GG.C.ACA.G..G.  623652
+32       9248754   ....TA.C..T..T........                                        9248733
+683493   915       .T...C.G..G..                                                 927
+
+Query_1  326       TGCGCCACTGGCCCTTCGGCTCCGTGCTGTGCCGCGCGGTGCTCAGCGTCGACGGCCTCA  385
+0        55931202  ...A..................GC....C......CT............G..T.C.G...  55931261
+1366206  849       .CTCTT..........T..GAGGT.CT........TT....ACGGC.T........A...  908
+15       20480852  .CATG........G..T..GAAA.CCA.C..T..G.TC..CA.G.CG..G..T..GA...  20480793
+36       24416984  ..TC.T.T.....A..T..T..AT.CA.......GCTT...A.GG.G..G..T.C.ACA.  24417043
+968057   1572                                                              ....  1575
+5        1189047                                                             ..  1189048
+681979   423                                                                 ..  422
+23       37404756                                                          ....  37404753
+42       623653    ......................GC.C..C...------AA.......AG.T....G....  623715
+                       \                                                \ \    
+                       |                                                | |    
+                     CTT                                               CT TGCT
+1118090  135                                                              ...T.  131
+
+Query_1  386       ACATGTTCACCAGCGTCTTCTGTCTCACCGTGCTCAGCGTGGACCGCTACGTGGCCGTGG  445
+0        55931262  ..............A...A...C..G..G.....G.........................  55931321
+1366206  909       ..CA......A...A....T..C..G.....TA.G...C...........A.T.....C.  968
+15       20480792  .TCA..........A....T..C.....A...A.G...A.C..T..G...C.C.....A.  20480733
+36       24417044  ..CAA.....G..TA.T......T.G..T..AA.G..T..T..T......C....T....  24417103
+968057   1576      ........G............TC..G....CCA.....C..........T..CCA....A  1635
+5        1189049   ..............A.....ACC.....AA..A.G...........G...A.A..T..    1189106
+5        100639                                          ............C.A.......  100618
+681979   421       ..............AC....ACC..G...A..A.G...............A.T...      366
+23       37404752  ......A.G.....A.T.A..TC....T-...................T.C.A..TA.C.  37404693
+                                                    \                          
+                                                    |                          
+                                                    A
+42       623716    ......A.G..TC..C......C..GGG.TGC......T.C..G......C.....A.CT  623775
+1118090  130       .......TG...........CTA........CA.....A.C..T....              83
+
+Query_1  446       TGCACCCTCTGCGCGCGGCGACCTACCGGCGGCCCAGCGTGGCCAAGCTCATCAACCTGG  505
+0        55931322  .......CA.CAAG..CT..CG......C..C....C..........A.GG.........  55931381
+1366206  969       .C......                                                      976
+15       20480732  .C.....                                                       20480726
+36       24417104  .A.....                                                       24417110
+968057   1636      .C..T...                                                      1643
+5        100617    C......A......                                                100604
+23       37404692  .......                                                       37404686
+42       623776    ..T..G.C............-..GT.G........                           623813
+                              \    \                                           
+                              |    |                                           
+                              C  TCG
+
+Query_1  506       GCGTGTGGCTGGCATCCCTGTTGGTCACTCTCCCCATCGCCATCTTCGCAGACACCAGAC  565
+0        55931382  C...C............----.CA...TC..G......AT.......T.-----..G...  55931436
+                           \   \                                               
+                           |   |                                               
+                         GGC   C
+
+Query_1  566       CGGCTCGCGGCGGCCAGGCCGTGGCCTGCAACCTGCAGTGGCCACACCCGGCCTGGTCGG  625
+0        55931437  G..G..A.C.AT.G..--.G............A..AT......CA.G.A.AAG...CT..  55931504
+                     \  \                                \ \                   
+                     |  |                                | |                   
+                     A CAA                               A CCCGA
+
+Query_1  626       CAGTCTTCGTGGTCTACACTTTCCTGCTGGGCTTCCTGCTGCCCGTGCTGGCCATTGGCC  685
+0        55931505  TG.................C.....CA....................G.A.....CA...  55931564
+373853   90          .....T..CC.T.....C...T..A.......T........AA..GCT.....CT..T  147
+594309   1029                              ..G.................C.CT.CCT...C...G  1064
+
+Query_1  686       TGTGCTACCTGCTCATCGTGGGCAAGATGCGCGCCGTGGCCCTGCGCGCTGGCTGGCAGC  745
+0        55931565  ........A.C......A.A.C..........ATG.....G..CAAG..C..........  55931624
+373853   148       .A.....TA.A......A.CACA..A...A.A.TT.....G..CAAA..C..........  207
+594309   1065      .........C...G....                                            1082
+
+Query_1  746       AGCGCAGGCGCTCGGAGAAGAAAATCACCAGGCTGGTGCTGATGGTCGTGGTCGTCTTTG  805
+0        55931625  ......A......C..ACG...G......CTCA....CA..........CA.G.....C.  55931684
+36       24417404  ......A...T..C...C....GG....AC.AA.....G..GCC..G....CT.......  24417463
+373853   208       .A...C.CA.G..T...CGT...C....                                  235
+
+Query_1  806       TGCTCTGCTGGATGCCTTTCTACGTGGTGCAGCTGCTGAACCTCTTCGTGACCAGCCTTG  865
+0        55931685  .CA.............C......A.C.........G.C............--G....AC.  55931744
+                                                                            \  
+                                                                            |  
+                                                                           CG
+36       24417464  ...........C.A..G.....T..                                     24417488
+
+Query_1  866       ATGCCACCGTCAACCACGTGTCCCTTATCCTTAGCTATGCCAACAGCTGCGCCAACCCCA  925
+0        55931745  .C......A...G...GC.C..GG.C.....AG....C......................  55931804
+36       24417570                                    ...............T..........  24417595
+649480   3792                                       .............T...CT.......T  3818
+
+Query_1  926       TTCTCTATGGCTTCCTCTCCGACAACTTCCGCCGATTCTTCCAGCGGGTTCTCTGCCTGC  985
+0        55931805  .C.....C...........G.........AAG..G.C.......A..C.G..G.....CA  55931864
+36       24417596  .CA................                                           24417614
+649480   3819      ........                                                      3826
+
+Query_1  986       GCTGCTGCCTCCTGGAAGGTGCTGGAGGTGCTGAGGAGGAGCCCCTGGACTACTATGCCA  1045
+0        55931865  ....----------------.A....AAC..CAC..........G.C........C....  55931909
+                                             \                                 
+                                             |                                 
+                                             C
+
+Query_1  1046      CTGCTCTCAAGAGCA  1060
+0        55931910  .G..G..........  55931924
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2413471450068
+
+
+  Database: GCA_044758885.1_ASM4475888v1_genomic.fna
+    Posted date:  Apr 27, 2025  6:35 PM
+  Number of letters in database: 2,174,424,381
+  Number of sequences in database:  1,398,263
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

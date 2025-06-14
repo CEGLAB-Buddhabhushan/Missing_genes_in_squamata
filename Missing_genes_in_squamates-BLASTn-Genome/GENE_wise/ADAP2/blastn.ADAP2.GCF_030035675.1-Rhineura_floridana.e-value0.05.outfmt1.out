@@ -1,0 +1,101 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_030035675.1_rRhiFlo1.hap2_genomic.fna
+           76 sequences; 2,307,419,594 total letters
+
+
+
+Query= Homo_sapiens_NM_001346712.2-ADAP2
+
+Length=1164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_084494.1 Rhineura floridana isolate rRhiFlo1 chromosome 15, rR...  117        2e-23
+NC_084487.1 Rhineura floridana isolate rRhiFlo1 chromosome 8, rRh...  67.1       3e-08
+NC_084496.1 Rhineura floridana isolate rRhiFlo1 chromosome 17, rR...  52.7       7e-04
+NC_084489.1 Rhineura floridana isolate rRhiFlo1 chromosome 10, rR...  47.3       0.029
+
+
+
+Query_1  93        AGATCCCGACTGGGCCTCTTACAAGCTGGGGATCTTCATCTGTCTCAACTGCTGCGGCGT  152
+7        43286351  ......T...........C..T.CTT....TG.....C....CT.A.G.....CA..GA.  43286292
+16       20380057  ......A........A...C.T.CTT.A..AG.G........CT.A..T..T.CA..GA.  20379998
+
+Query_1  153       CCACCGTAACTTCCCTGACATCAGCAGAGTTAAATCTGTGCGACTTGACTTCTGGGACGA  212
+7        43286291  T..T..C...A...............A.A.C.....                          43286256
+16       20379997  ...T..C...A....--.........A............C..                    20379956
+                                        \                                      
+                                        |                                      
+                                       GC
+
+Query_1  213       CAGTATTGTGGAGGTTGCTGTTGTCTTGCAGTTTATGATCCACAATGGAAACCTCCGTGT  272
+
+Query_1  273       GAAGGCCAAGTTCGAAGCCAGAGTCCCAGCTTTCTACTACATCCCCCAGGCCAACGACTG  332
+
+Query_1  333       CCTGGTCTTAAAGGAACAATGGATTCGAGCTAAGTATGAGAGACGGGAATTTATGGCTGA  392
+
+Query_1  393       TGGGGAAACCATCTCGCTCCCAGGTAACCGAGAAGGATTCCTGTGGAAGCGAGGAAGGGA  452
+14       9436550                         ....C.A..-.......T..T......A.T..CT.T..  9436586
+
+Query_1  453       CAACTCACAGTTTCTGAGAAGGAAGTTTGTACTTCTGGCAAGAGAAGGCCTCCTGAAGTA  512
+14       9436587   ...A.G......CT....C.....AC....G...TCA.A.T.G......AC...A.....  9436646
+
+Query_1  513       CTTCACAAAGGAACAGGGTAAAAGCCCCAAAGCTGTCATCAGCATTAAGGACTTGAATGC  572
+14       9436650   .........--..TGAT.C.....A........AA.T..G......-------....C..  9436710
+                   \   \                    \              \                   
+                   |   |                    |              |                   
+                   ATA GTTGTAAT             A              G
+7        43280500                                                         .....  43280496
+
+Query_1  573       CACCTTCCAGACAGAGAAGATAGGGCACCCCCATGGGCTGCAGATCACCTACAGGAGAGA  632
+14       9436711   ...T......C.T.CC..A..CA..A....G.....A....T......A...TT..A...  9436770
+7        43280495  ...G......C.........C....A....AA....C..A...........TCTT.A...  43280436
+
+Query_1  633       TGGCCACACCAGGAACCTGTTTGTGTATCATGAAAGTGGGAAGGAGATAGTGGACTGGTT  692
+14       9436771   CAA.AG...A..C...A.C.A...T..C......GA...C.....A..G...........  9436830
+7        43280435  .AA.A.G..TC.C...A.C..CC.T..C.....GGA........                  43280392
+7        43279881                                           ....A..T...A.......  43279863
+16       20312542                                           ....A..G...........  20312524
+9        76613912                              .......C..........T.G...........  76613881
+
+Query_1  693       CAATGCCCTCCGTGCAGCCCGTCTGCAGTACCTAAAAATGGCCTTTCCTGAACTCCCAGA  752
+14       9436831   .......A.T.ACA....T.AGT.C..T......C..G....A..CT.....          9436882
+7        43279862  .......A.T.......TA.AAT.C..C..T..G...G............            43279813
+16       20312523  T..C...A.......C..T..AT.C..T...T..C..G....A..C..              20312476
+9        76613880  .                                                             76613880
+
+Query_1  753       GTCTGAGCTCGTGCCATTCCTCACCAGGAACTACCTCAAACAAGGCTTCATGGAAAAGAC  812
+7        43278912                            ....T.T...G...G......A......G.....  43278879
+
+Query_1  813       TGGGCC  818
+7        43278878  ......  43278873
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2609688724266
+
+
+  Database: GCF_030035675.1_rRhiFlo1.hap2_genomic.fna
+    Posted date:  Apr 27, 2025  1:40 AM
+  Number of letters in database: 2,307,419,594
+  Number of sequences in database:  76
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

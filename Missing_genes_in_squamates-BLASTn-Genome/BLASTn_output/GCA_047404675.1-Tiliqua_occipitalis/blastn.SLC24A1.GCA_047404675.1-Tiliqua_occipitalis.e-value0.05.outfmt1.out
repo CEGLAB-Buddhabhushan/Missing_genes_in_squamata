@@ -1,0 +1,62 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_047404675.1_ASM4740467v1_genomic.fna
+           1,190,381 sequences; 1,072,607,371 total letters
+
+
+
+Query= Homo_sapiens_XM_054379193.1-SLC24A1
+
+Length=3300
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBKOKD010709880.1 Tiliqua occipitalis isolate WF1DI642YZ 709880, ...  53.6       3e-04
+JBKOKD010412755.1 Tiliqua occipitalis isolate WF1DI642YZ 412755, ...  53.6       3e-04
+JBKOKD010114434.1 Tiliqua occipitalis isolate WF1DI642YZ 114434, ...  53.6       3e-04
+
+
+
+Query_1  2293  GGTGAAGGTGAAACTGAAGAGAAAAGTGGAGGTGAAACTCAACCagaaggtgaaggtgaa  2352
+709879   252   ...........TGG......A...---.A.......---G..GG....AA...---....  302
+412754   253   ...........TGG......A...---.A.......---G..GG....AA...---....  303
+114433   254   ...........TGG......A...---.A.......---G..GG....AA...---....  304
+
+Query_1  2353  actgaaacacaaggaaaaggagaagaatgtgaagatgaaaatgaagcagaaggaaaagga  2412
+709879   303   GA.A..G.TG...A...T.A...T...GA............GA...A...T.A.....A.  362
+412754   304   GA.A..G.TG...A...T.A...T...GA............GA...A...T.A.....A.  363
+114433   305   GA.A..G.TG...A...T.A...T...GA............GA...A...T.A.....A.  364
+
+Query_1  2413  gacaatgaaggtgaagatgaGG  2434
+709879   363   ..TG.AA...AA.....G....  384
+412754   364   ..TG.AA...AA.....G....  385
+114433   365   ..TG.AA...AA.....G....  386
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3375872115066
+
+
+  Database: GCA_047404675.1_ASM4740467v1_genomic.fna
+    Posted date:  Apr 27, 2025  8:42 PM
+  Number of letters in database: 1,072,607,371
+  Number of sequences in database:  1,190,381
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

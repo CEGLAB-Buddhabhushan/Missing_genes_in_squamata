@@ -1,0 +1,96 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030412105.1_rCycPin1.hap1_genomic.fna
+           30 sequences; 1,983,631,412 total letters
+
+
+
+Query= Homo_sapiens_NM_001346712.2-ADAP2
+
+Length=1164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM059609.1 Cyclura pinguis isolate rCycPin1 chromosome 12, whole ...  77.0       1e-11
+CM059603.1 Cyclura pinguis isolate rCycPin1 chromosome 5, whole g...  65.3       9e-08
+
+
+
+Query_1  92        CAGATCCCGACTGGGCCTCTTACAAGCTGGGGATCTTCATCTGTCTCAACTGCTGCGGCG  151
+4        38039927  .......T...........C..T.CT.....T......C....CT.AG....-.....GA  38039868
+                                                                           \   
+                                                                           |   
+                                                                           A
+
+Query_1  152       TCCACCGTAACTTCCCTGACATCAGCAGAGTTAAATCTGTGCGACTTGACTTCTGGGACG  211
+4        38039867  .T..T..C..GA.....AG........A......G..AA.AA.GA.G....G......G.  38039808
+
+Query_1  212       ACAGTATTGTGGAGGTTGCTGTTGTCTTGCAGTTTATGATCCACAATGGAAACCTCCGTG  271
+4        38039807  .                                                             38039807
+
+Query_1  272       TGAAGGCCAAGTTCGAAGCCAGAGTCCCAGCTTTCTACTACATCCCCCAGGCCAACGACT  331
+
+Query_1  332       GCCTGGTCTTAAAGGAACAATGGATTCGAGCTAAGTATGAGAGACGGGAATTTATGGCTG  391
+
+Query_1  392       ATGGGGAAACCATCTCGCTCCCAGGTAACCGAGAAGGATTCCTGTGGAAGCGAGGAAGGG  451
+11       7244560                              ....G...........T......A....CC.T.  7244592
+
+Query_1  452       ACAACTCACAGTTTCTGAGAAGGAAGTTTGTACTTCTGGCAAGAGAAGGCCTCCTGAAGT  511
+11       7244593   .....GG......C....CCC....A.....C...TC..A.C.G......GC........  7244652
+
+Query_1  512       ACTTCACAAAGGAACAGGGTAAAAGCCCCAAAGCTGTCATCAGCATTAAGGACTTGAATG  571
+11       7244653   .T.A......                                                    7244663
+                        \                                                      
+                        |                                                      
+                        A
+4        38029013                                                          ....  38029010
+
+Query_1  572       CCACCTTCCAGACAGAGAAGATAGGGCACCCCCATGGGCTGCAGATCACCTACAGGAGAG  631
+4        38029009  ..GTG......C.T..A....C....A.....A.C..C...............CTT.A..  38028950
+
+Query_1  632       ATGGCCACACCAGGAACCTGTTTGTGTATCATGAAAGTGGGAAGGAGATAGTGGACTGGT  691
+11       7251984                                             ....A..G..........  7252001
+4        38028949  ..AA.A.G..TC.C...A.C..CC.T.....C..GGA........                 38028905
+4        38027552                                            ....A.............  38027535
+
+Query_1  692       TCAATGCCCTCCGTGCAGCCCGTCTGCAGTACCTAAAAATGGCCTTTCCTGAACTCCCAG  751
+11       7252002   ....C...A....A..T.....GT.C..T......C..G....A.......           7252052
+4        38027534  .......AG.......T.TA.AGT.C..C..T..G..GG....T.......           38027484
+
+Query_1  752       AGTCTGAGCTCGTGCCATTCCTCACCAGGAACTACCTCAAACAAGGCTTCATGGAAAAGA  811
+11       7253050                             ...........G..GG....T.A.........A.  7253083
+4        38026835                             ....T.T.T.A...G......A...........  38026803
+
+Query_1  812       CTGGGCCAAAGCAGAAAGAACCTTTCAAGAAAAGGTGGTTCGCCCTGGA  860
+11       7253084   .A.........                                        7253094
+4        38026802  .........                                          38026794
+4        38024676           .......G...G...........C.C......A.T.....  38024637
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2243486007282
+
+
+  Database: GCA_030412105.1_rCycPin1.hap1_genomic.fna
+    Posted date:  Apr 27, 2025  1:03 AM
+  Number of letters in database: 1,983,631,412
+  Number of sequences in database:  30
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

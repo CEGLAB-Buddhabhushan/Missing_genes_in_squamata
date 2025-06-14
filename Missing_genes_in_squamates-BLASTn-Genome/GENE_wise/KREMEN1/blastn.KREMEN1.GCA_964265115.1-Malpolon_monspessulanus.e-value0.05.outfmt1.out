@@ -1,0 +1,76 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_964265115.1_rMalMon1.1_genomic.fna
+           61 sequences; 1,752,167,081 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OZ184076.1 Malpolon monspessulanus genome assembly, chromosome: Z     115        7e-23
+OZ184078.1 Malpolon monspessulanus genome assembly, chromosome: W     68.9       9e-09
+OZ184092.1 Malpolon monspessulanus genome assembly, chromosome: 18    63.5       4e-07
+
+
+
+Query_1  5         cgccgccagccgcccgcctcgccctgctctccgccgcggcgctcacgctggcggcccggc  64
+17       13938405  .......CC.G..G.C..-.....G..C.--...........C.C...C.C......T..  13938346
+                                                                        \    \ 
+                                                                        |    | 
+                                                                       CC    C
+
+Query_1  65        ccgcgccTAGCCCCGGCCTCGGCCCCGGACCCGAGTGTTTCACAGCCAATGGTGCGGATT  124
+43       32411979                                                 .....A..T....  32411991
+17       13938345  .......G-...................C....                             13938314
+
+Query_1  125       ATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGTCTGTTTTGGAACG  184
+43       32411992  ..C.....CTG......A.A..T..T.CTGG.TC.........T.....C.AC......C  32412054
+                                                       \                       
+                                                       |                       
+                                                     CTG
+21       11241930                                      ..G....T.....C.AC......C  11241953
+
+Query_1  185       AGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAGGGGGGCCTGGGTG  244
+43       32412055  ....ACGAG.A...G.C........GGCC.....T.....T..C...T....G.....CA  32412114
+21       11241954  ....ACAAG.....G.C.......TGGCC.G...T...G.T..C...T..........AA  11242013
+
+Query_1  245       AGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGCTATGTGGCAGAGC  304
+43       32412115  GC.....T..C...C..........C..T..T..ACAG...........CA.CT.....A  32412174
+21       11242014  GT.....T..C...CA.........CA.T..T..ACTG...........CA.CC.....A  11242073
+
+Query_1  305       ACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+43       32412175  .T..A..A..GA.............T.....C..C..AA.C.....  32412220
+21       11242074  ..C.A..A..GAA........                           11242094
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2533630688328
+
+
+  Database: GCA_964265115.1_rMalMon1.1_genomic.fna
+    Posted date:  Apr 27, 2025  3:09 AM
+  Number of letters in database: 1,752,167,081
+  Number of sequences in database:  61
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

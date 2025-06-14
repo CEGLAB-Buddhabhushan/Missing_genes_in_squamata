@@ -1,0 +1,60 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_047292495.1_ASM4729249v1_genomic.fna
+           685,492 sequences; 1,525,133,817 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBKIKE010000015.1 Coniophanes schmidti isolate UPRM_GenResCol_126...  112        6e-22
+
+
+
+Query_1  649       CAAATTAAAATCCCACCTGGTACTCCCATCTATGAATGCAACTCAAGGTGTCAGTGTGGT  708
+14       21489530  ...G.A..G...AA.G....C.TG.................T..TC.C..CA.C......  21489471
+
+Query_1  709       CCTGATTGTCCCAATAGGATTGTACAAAAAGGCACACAGTATTCGCTTTGCATCTTTCGA  768
+14       21489470  AT......C..A..CC.TG.A.....G.GG....TT.GT...GAC........T..C..G  21489411
+
+Query_1  769       ACTAGCAATGGACGTGGCTGGGGTGTAAAGACCCTTGTGAAGATTAAAAGAATGAGTTTT  828
+14       21489410  ..-........................CGT..AT.G.AA......GG...C.-C..C...  21489351
+                         \                                      \              
+                         |                                      |              
+                         T                                      C
+
+Query_1  829       GTCATGGAATATGTTGGAGAGGTAA  853
+14       21489350  .........................  21489326
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1805340885673
+
+
+  Database: GCA_047292495.1_ASM4729249v1_genomic.fna
+    Posted date:  Apr 27, 2025  6:48 PM
+  Number of letters in database: 1,525,133,817
+  Number of sequences in database:  685,492
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

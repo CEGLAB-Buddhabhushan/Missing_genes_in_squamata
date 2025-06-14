@@ -1,0 +1,66 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_023053635.1_rElgMul1.1.pri_genomic.fna
+           34 sequences; 1,790,500,004 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_086181.1 Elgaria multicarinata webbii isolate HBS135686 ecotyp...  111        8e-22
+NC_086176.1 Elgaria multicarinata webbii isolate HBS135686 ecotyp...  57.2       2e-05
+
+
+
+Query_1  95        CCGAGTGTTTCACAGCCAATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTAC  154
+10       27432986  ....A.....T.TG.TG.....A..C.....CC....CT........A....TT.G.C..  27432920
+                                                                             \ 
+                                                                             | 
+                                                                       GGGGAGC
+
+Query_1  155       AAGGCGGGAAGCCATGTCTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGA  214
+10       27432919  .G.....----..T..C..C.AC......C....GCGGG.....G.C........GGCC.  27432864
+
+Query_1  215       AATACCCCAACGGGGAGGGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAG  274
+10       27432863  .G..T...C........T....G.....CAGT............C.G..C..G..C..C.  27432804
+5        897555                                    ..........................T.  897582
+
+Query_1  275       ACGTGAGCCCCTGGTGCTATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTG  334
+10       27432803  ....TCAG........T..CA.CT.G...A.......A..GA................C.  27432744
+5        897583    GG..A.C...T.......                                            897600
+
+Query_1  335       AGATACCTGCTTGCCA  350
+10       27432743  .C..C..CA.C.....  27432728
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2589061383372
+
+
+  Database: GCF_023053635.1_rElgMul1.1.pri_genomic.fna
+    Posted date:  Apr 27, 2025  12:23 AM
+  Number of letters in database: 1,790,500,004
+  Number of sequences in database:  34
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

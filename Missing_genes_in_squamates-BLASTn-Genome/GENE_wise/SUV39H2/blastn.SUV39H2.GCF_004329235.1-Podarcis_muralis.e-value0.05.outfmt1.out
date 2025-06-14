@@ -1,0 +1,81 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_004329235.1_PodMur_1.0_genomic.fna
+           2,161 sequences; 1,511,020,169 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_041328.1 Podarcis muralis ecotype yellow chromosome 17, PodMur...  86.0       2e-14
+NC_041315.1 Podarcis muralis ecotype yellow chromosome 4, PodMur_...  48.2       0.006
+
+
+
+Query_1  634       TATAATAAAAACCAACAAATTAAAATCCCACCTGGTACTCCCATCTATGAATGCAACTCA  693
+16       36998277                                 ....C.TG...........G.....T..T  36998249
+3        65208295  ..........-..T................G........                       65208333
+                                             \                                 
+                                             |                                 
+                                             A
+
+Query_1  694       AGGTGTCAGTGTGGTCCTGATTGTCCCAATAGGATTGTACAAAAAGGCACACAGTATTCG  753
+16       36998248  C.C..-........GAT...C..CT.T..CC.TG.G..G..G.......TT.GT...GAT  36998189
+                            \                                                  
+                            |                                                  
+                            C
+
+Query_1  754       CTTTGCATCTTTCGAACTAGCAATGGACGTGGCTGGGGTGTAAAGACCCTTGTGAAGATT  813
+16       36998188  ........T..C..G..AGAT....................GCGC..A..G.A......C  36998129
+
+Query_1  814       AAAAGAATGAGTTTTGTCATGGAATATGTTGGAGAGGTAATCACAAGTGAAGAAGCTGAA  873
+16       36998128  CG.....C-..C...........G.....A.........                       36998090
+                     \                                                         
+                     |                                                         
+                     C
+16       36995352                                    ..A........TCA..G..G......  36995327
+
+Query_1  874       AGACGAGGACAGTTCTATGACAACAAGGGAATCACGTATCTCTTTGATCTGGACTATGAG  933
+16       36995326  C....G..T...A........G...-...TGC...T..C........C..T..T....TA  36995267
+                                       \                                       
+                                       |                                       
+                                       T
+
+Query_1  934       TCTGATGAATTCACAGTGGATGCGGCTCGATACGGCAATGTGTCTCATTTTGTGAATCAC  993
+16       36995266  GAA....T..A............C..ATAC..T.....CA.T..A........C..C..T  36995207
+
+Query_1  994       AG  995
+16       36995206  ..  36995205
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1814652171417
+
+
+  Database: GCF_004329235.1_PodMur_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  12:15 AM
+  Number of letters in database: 1,511,020,169
+  Number of sequences in database:  2,161
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

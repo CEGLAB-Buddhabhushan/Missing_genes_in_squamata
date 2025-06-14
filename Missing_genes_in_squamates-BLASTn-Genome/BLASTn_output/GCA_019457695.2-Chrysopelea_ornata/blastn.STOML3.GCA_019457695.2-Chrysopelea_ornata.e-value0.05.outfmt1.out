@@ -1,0 +1,97 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_019457695.2_c.ornata.1_genomic.fna
+           1,119,673 sequences; 1,334,282,448 total letters
+
+
+
+Query= Homo_sapiens_NM_145286.3-STOML3
+
+Length=876
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAHWGE010888851.1 Chrysopelea ornata isolate DD17 jcf718000766690...  118        2e-24
+JAHWGE010818956.1 Chrysopelea ornata isolate DD17 jcf718000830808...  98.7       2e-18
+JAHWGE010489848.1 Chrysopelea ornata isolate DD17 jcf718000764645...  78.8       2e-12
+JAHWGE010177872.1 Chrysopelea ornata isolate DD17 jcf718000791019...  69.8       1e-09
+JAHWGE010295370.1 Chrysopelea ornata isolate DD17 jcf718000847488...  68.0       4e-09
+JAHWGE010027454.1 Chrysopelea ornata isolate DD17 jcf718000803039...  61.7       5e-07
+JAHWGE010633272.1 Chrysopelea ornata isolate DD17 jcf718000771841...  60.8       5e-07
+
+
+
+Query_1  299   TTCCTCCACAAGAGATCCTCACCAGAGACTCCGTAACTACTCAGGTAGATGGAGTTGTCT  358
+27453    663   .......CT....--.........A.........G..GGTCA.C..G........A....  606
+
+Query_1  359   ATTACAGAATCTATAGTGCTGTCTCAGCAGTGGCTAATGTCAACGATGTCCATCAAGCAA  418
+27453    605   .C...C..G.GC.G.AC..ACG...-..C..A..C..CA...C.A.C.CGG.CTCG..T.  546
+                                 \                                         
+                                 |                                         
+                                 C
+
+Query_1  419   CATTTCTGCTGGCTCAAACCACTCTGAGAAATGTCTTAGGGACACAGACCTTGTCCCAGA  478
+818955   1661       ..C..............CT.........C...G..A..CA.....C..G.T....  1715
+177871   399        ..C..............CT.........C...G..A..CA...A.C..G.T....  345
+27453    545   .TCGG........C.....T.....C..G..C..GC.G.....CA...ATC.T.......  486
+
+Query_1  479   TCTTAGCTGGACGAGAAGAGATCGCCCATAGCATCCAGACTTTACTTGATGATGCCACCG  538
+818955   1716  .TC.CT.C.AC.....G..A...A....A.AT..G...G--.C...G..CA.G.....A.  1775
+                                                            \              
+                                                            |              
+                                                           CA
+489847   1024                                                 ...........G.  1012
+177871   344   .TC.CT.C.AC.....G...........A.....G...                        307
+27453    485   ..C.TT.C.AT..G........T..G..C.....G...                        448
+
+Query_1  539   AACTGTGGGGGATCCGGGTGGCCCGAGTGGAAATCAAAGATGTTCGGATTCCCGTGCAGT  598
+818955   1776  .TAAC.....C...AAA....AG.TT.....G.....GA....GAA.T.G..T..C...C  1835
+489847   1011  .CGAC.....C...AAA....AA..G.................GAA.T.A.....C...C  952
+
+Query_1  599   TGCAGAGATCCATGGCAGCCGAGGCTGAGGCCACCCGGGAAGCGAGAGCCAAGGTCCTTG  658
+888850   404                                                      .....A...  412
+818955   1836  .T..T...G.......G..A..A..C..A..AG.T..A.....C..G.TG.....GA.C.  1895
+489847   951   .C..A..GG..........T..A..C..A..TG.T..A.....C..G..G.....       897
+
+Query_1  659   CAGCTGAAGGAGAAATGAATGCTTCCAAATCCCTGAAGTCAGCCTCCATGGTGCTGGCTG  718
+888850   413   .T..G..G..C........C......CGCG.G..C...GA......G..C..CA.TA.A.  472
+818955   1896  ....G..G..C...........C..                                     1920
+
+Query_1  719   AGTCTCCCATAGCTCTCCAGCTGCGCTACCTGCAGACCTTGAGCACGGTAGCCACCGAGA  778
+888850   473   ........GCC..C........C...............C...C...CA.C...G......  532
+295369   779              ..C........C..............GC...C...CA.C...G......  827
+633271   781        ....CC..C........C..............GC...C..GCA.C...G..A...  727
+
+Query_1  779   AGAATTCTACGATTGTGTTTCCTCTGCCCAT  809
+888850   533   .......C..C..C..C..C..G........  563
+295369   828   .......C..C..CA.C..C.....C..     855
+633271   726   .......C..C..CA.C..C.....C..     699
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1095894257728
+
+
+  Database: GCA_019457695.2_c.ornata.1_genomic.fna
+    Posted date:  Apr 27, 2025  8:17 AM
+  Number of letters in database: 1,334,282,448
+  Number of sequences in database:  1,119,673
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,68 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_030035675.1_rRhiFlo1.hap2_genomic.fna
+           76 sequences; 2,307,419,594 total letters
+
+
+
+Query= Homo_sapiens_NM_001193424.2-SUV39H2
+
+Length=1233
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_084482.1 Rhineura floridana isolate rRhiFlo1 chromosome 3, rRh...  99.6       5e-18
+NC_084487.1 Rhineura floridana isolate rRhiFlo1 chromosome 8, rRh...  46.4       0.030
+
+
+
+Query_1  633       TTATAATAAAAACCAACAAATTAAAATCCCACCTGGTACTCCCATCTATGAATGCAACTC  692
+2        9389223                                   ....C.TG...........G.....T..  9389250
+7        42817495  ..T...A.....................A........                         42817457
+                                   \                                           
+                                   |                                           
+                                  TC
+
+Query_1  693       AAGGTGTCAGTGTGGTCCTGATTGTCCCAATAGGATTGTACAAAAAGGCACACAGTATTC  752
+2        9389251   TC.C..-........GAT...C..C.....CC.TG.G..G..G.......TT.GT..CGA  9389310
+                             \                                                 
+                             |                                                 
+                             C
+
+Query_1  753       GCTTTGCATCTTTCGAACTAGCAATGGACGTGGCTGGGGTGTAAAGACCCTTGTGAAGAT  812
+2        9389311   C........T..C..G...GAT....................GCGC..A..G.A......  9389370
+
+Query_1  813       TAAAAGAATGAGTTTTGTCATGGAATATGTTGGAGAGGTA  852
+2        9389372   CGC.....-C..C.................A.........  9389410
+                   \                                       
+                   |                                       
+                   C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2768900503200
+
+
+  Database: GCF_030035675.1_rRhiFlo1.hap2_genomic.fna
+    Posted date:  Apr 27, 2025  1:40 AM
+  Number of letters in database: 2,307,419,594
+  Number of sequences in database:  76
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

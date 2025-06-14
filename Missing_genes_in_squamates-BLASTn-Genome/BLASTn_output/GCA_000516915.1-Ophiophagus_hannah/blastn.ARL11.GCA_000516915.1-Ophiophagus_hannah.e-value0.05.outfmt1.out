@@ -1,0 +1,56 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000516915.1_OphHan1.0_genomic.fna
+           296,399 sequences; 1,594,074,654 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+AZIM01005937.1 Ophiophagus hannah scaffold5941.1, whole genome sh...  70.7       9e-10
+AZIM01000094.1 Ophiophagus hannah scaffold94.1, whole genome shot...  52.7       2e-04
+AZIM01000025.1 Ophiophagus hannah scaffold25.1, whole genome shot...  45.5       0.034
+
+
+
+Query_1  46      GTGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCAC  105
+5936     11396    .....T.....T.....G.C..C.....A.....CA.A...............CTGGG.  11454
+93       686993  ..C...C....T.....T..T..A.....A......G....C....G...T..ATT.A..  687052
+24       461037         ..........TG.T..T..A..A..A..T.....C............        461083
+
+Query_1  106     CAGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAG  147
+5936     11455   ....CC..CACC...A.C.....C..G..G............  11496
+93       687053  G.AT.T..CA.C..GG....T..CA...........        687088
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 885785746274
+
+
+  Database: GCA_000516915.1_OphHan1.0_genomic.fna
+    Posted date:  Apr 27, 2025  4:11 AM
+  Number of letters in database: 1,594,074,654
+  Number of sequences in database:  296,399
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

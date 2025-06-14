@@ -1,0 +1,106 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_044474425.1_ASM4447442v1_genomic.fna
+           862,336 sequences; 1,639,623,190 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBIDEK010568024.1 Drymobius margaritiferus isolate UPRM_GenResCol...  76.1       5e-11
+JBIDEK010299580.1 Drymobius margaritiferus isolate UPRM_GenResCol...  70.7       2e-09
+JBIDEK010000020.1 Drymobius margaritiferus isolate UPRM_GenResCol...  63.5       3e-07
+JBIDEK010445057.1 Drymobius margaritiferus isolate UPRM_GenResCol...  58.1       1e-05
+JBIDEK010009963.1 Drymobius margaritiferus isolate UPRM_GenResCol...  54.5       2e-04
+JBIDEK010064932.1 Drymobius margaritiferus isolate UPRM_GenResCol...  50.9       0.002
+JBIDEK010203837.1 Drymobius margaritiferus isolate UPRM_GenResCol...  50.0       0.002
+JBIDEK010000013.1 Drymobius margaritiferus isolate UPRM_GenResCol...  47.3       0.026
+JBIDEK010819656.1 Drymobius margaritiferus isolate UPRM_GenResCol...  46.4       0.026
+JBIDEK010435006.1 Drymobius margaritiferus isolate UPRM_GenResCol...  46.4       0.026
+JBIDEK010043887.1 Drymobius margaritiferus isolate UPRM_GenResCol...  46.4       0.026
+
+
+
+Query_1  1005      GCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGGC  1064
+568023   3803      ...G.....G.G..C.....CT.........TC....TTCT.C..C.....G..T.....  3744
+19       35127207                                             ..C.....G........  35127223
+19       35247219               .......CC.........TC....C-....C.C.....G..T.....  35247173
+                                                               \               
+                                                               |               
+                                                               A
+445056   764                                                               ....  761
+9962     2596                                                 ..T.........T....  2580
+435005   9094                                           ...T.C........G........  9072
+
+Query_1  1065      CGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGGC  1124
+568023   3743      ......T..............C.......---AC......A.TG....T..C......    3686
+                              \                                                
+                              |                                                
+                            TCC
+19       35127224  T...........T......A...-CA..........A.......--..T.....A..     35127280
+                                      \              \     \                   
+                                      |              |     |                   
+                                      A              T     T
+19       35247172  ......G..........G...CA.T........---....A..G.A.....C.....     35247116
+                                   \   \                                       
+                                   |   |                                       
+                                  CT   G
+445056   760       A..A..G.....A..A..GG....T.GA............A..T.T........G.....  701
+9962     2579      ......G............A...-TA.......TTG...A..TTC......C..G...    2522
+                                      \                                        
+                                      |                                        
+                                      A
+435005   9071      .A..A.A...TGTT.....GG...AA..A......TT..AA.TGC............     9015
+
+Query_1  1125      CAAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCGA  1184
+445056   700       ..G..                                                         696
+
+Query_1  1185      GGCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGCT  1244
+299579   396                  ..C............CAG..AGT.................A..AA.T..  348
+64931    5127                      ..........C.G..AGC..CA.............C...G.C..  5170
+12       28127780                                    .................CA.TG.CA.  28127805
+819655   11723                                                   ..............  11710
+43886    2083                 ..C....A..TT.A......AGT.............A.......ACTA.  2035
+
+Query_1  1245      CTGGGAGGTCTTCTCATATGGACGGGCTCCGTACCCTAAAATGTCACTGAAAGAGGTGTC  1304
+299579   347       .......A.....A........                                        326
+64931    5171      T......A.....A.C..C..                                         5191
+12       28127806  G........G..T.........                                        28127827
+819655   11709     G......A.....A.T.TA...G..T....C..T..                          11674
+43886    2034      G.......C...T..T..C..                                         2014
+
+Query_1  1305      GGAGGCCGTGGAGAAGGGGTACCGCATGGAACCCCCCGAGGGCTGTCCAG  1354
+203836   907               .........AC...........G.GT...........C....  948
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2407082156388
+
+
+  Database: GCA_044474425.1_ASM4447442v1_genomic.fna
+    Posted date:  Apr 27, 2025  4:39 PM
+  Number of letters in database: 1,639,623,190
+  Number of sequences in database:  862,336
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

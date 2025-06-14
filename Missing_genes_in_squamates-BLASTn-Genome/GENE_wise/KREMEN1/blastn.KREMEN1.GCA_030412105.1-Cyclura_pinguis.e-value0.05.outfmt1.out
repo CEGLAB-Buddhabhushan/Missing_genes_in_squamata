@@ -1,0 +1,66 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030412105.1_rCycPin1.hap1_genomic.fna
+           30 sequences; 1,983,631,412 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM059604.1 Cyclura pinguis isolate rCycPin1 chromosome 6, whole g...  138        6e-30
+CM059603.1 Cyclura pinguis isolate rCycPin1 chromosome 5, whole g...  46.4       0.032
+CM059599.1 Cyclura pinguis isolate rCycPin1 chromosome 1, whole g...  46.4       0.032
+
+
+
+Query_1  112        AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+5        18763743   .....A..T......C....TT........A....CT....TGGGA..A...C.T.C..C  18763805
+                                                                     \     \    
+                                                                     |     |    
+                                                                    CC     G
+
+Query_1  172        CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+5        18763806   ..C.AC.....TC....ACG.G.....G.T........AGCC...........T..C...  18763865
+
+Query_1  232        GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+5        18763866   T....T.....AAGT............C.G...........T..T...CAG.........  18763925
+4        117528369                         ...T.............A.....A...A..A.....T  117528333
+0        80529785                     .....C....................TAGAC.A........T  80529826
+
+Query_1  292        TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+5        18763926   ..CA.TT.....A.......A..GA................C..C..C..AA.C.....  18763984
+4        117528332  ...                                                          117528330
+0        80529827   ...                                                          80529829
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2868329590212
+
+
+  Database: GCA_030412105.1_rCycPin1.hap1_genomic.fna
+    Posted date:  Apr 27, 2025  1:03 AM
+  Number of letters in database: 1,983,631,412
+  Number of sequences in database:  30
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,74 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_964194415.1_rVipBer3.hap1.1_genomic.fna
+           479 sequences; 1,695,017,208 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OZ077560.1 Vipera berus genome assembly, chromosome: Z                111        8e-22
+OZ077565.1 Vipera berus genome assembly, chromosome: W                111        8e-22
+OZ077557.1 Vipera berus genome assembly, chromosome: 1                47.3       0.027
+
+
+
+Query_1  112        AATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTACAAGGCGGGAAGCCATGT  171
+18       21594391   .....A..T......C.....CTG......A.A..T..G.CTGG.TC.........T..C  21594453
+                                                                     \          
+                                                                     |          
+                                                                   CTG
+17       58275633   .....A..T......C.....CTG......A.A..T..G.CTGG.TC.........T..C  58275695
+                                                                     \          
+                                                                     |          
+                                                                   CTG
+
+Query_1  172        CTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGAAATACCCCAACGGGGAG  231
+18       21594454   ..C.AC......C....ACGAG.A...G.T........GG.C..G..T.....T..C...  21594513
+17       58275696   ..C.AC......C....ACGAG.A...G.T........GG.C..G..T.....T..C...  58275755
+
+Query_1  232        GGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAGACGTGAGCCCCTGGTGC  291
+18       21594514   T....G.....CAGT.....T..C...C..........C..T..T..ACAG..T......  21594573
+17       58275756   T....G.....CAGT.....T..C...C..........C..T..T..ACAG..T......  58275815
+0        279347922              ...G.A..T..C...............C.T..T.....T.........  279347872
+                                                                     \          
+                                                                     |          
+                                                                   AAG
+
+Query_1  292        TATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTGAGATACCTGCTTGCCA  350
+18       21594574   ..CA.CT.....A....A..A..GA.............T.....C..C..AA.C.....  21594632
+17       58275816   ..CA.CT.....A....A..A..GA.............T.....C..C..AA.C.....  58275874
+0        279347871  ...                                                          279347869
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2450972025846
+
+
+  Database: GCA_964194415.1_rVipBer3.hap1.1_genomic.fna
+    Posted date:  Apr 27, 2025  12:52 AM
+  Number of letters in database: 1,695,017,208
+  Number of sequences in database:  479
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

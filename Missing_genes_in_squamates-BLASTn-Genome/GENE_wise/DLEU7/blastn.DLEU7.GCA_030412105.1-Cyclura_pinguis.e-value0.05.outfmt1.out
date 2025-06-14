@@ -1,0 +1,57 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030412105.1_rCycPin1.hap1_genomic.fna
+           30 sequences; 1,983,631,412 total letters
+
+
+
+Query= Homo_sapiens_NM_001306135.2-DLEU7
+
+Length=666
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM059609.1 Cyclura pinguis isolate rCycPin1 chromosome 12, whole ...  46.4       0.014
+
+
+
+Query_1  167     cgccgcgggcccggccggggcccgggcgcgaggagcggggcgggggcgtggggaccagga  226
+11       138317  ....T..C......T-.C...G..A.A.A.-...C..C........-.A.A..C.G....  138373
+
+Query_1  227     gtcggcggaccgcggcgcgggcgAACTCCCCAGAGGAGGAGGTAGTGCGAGGCGCTGAGG  286
+11       138374  .GG.AG..GG........A.C.---......G......A......A.....C.AACCG..  138434
+                              \                         \                    
+                              |                         |                    
+                             CG                        GA
+
+Query_1  287     GGGGCGCCGAGTTGCTGCCCTTCCCCC  313
+11       138435  .........---......G..C.....  138458
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1257621706568
+
+
+  Database: GCA_030412105.1_rCycPin1.hap1_genomic.fna
+    Posted date:  Apr 27, 2025  1:03 AM
+  Number of letters in database: 1,983,631,412
+  Number of sequences in database:  30
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

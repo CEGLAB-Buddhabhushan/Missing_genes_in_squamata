@@ -1,0 +1,95 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046270865.1_ASM4627086v1_genomic.fna
+           624,685 sequences; 1,736,362,833 total letters
+
+
+
+Query= Homo_sapiens_NM_198849.3-SIAH3
+
+Length=810
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBJPGY010000026.1 Acanthocercus annectans isolate UPRMGRS_1743_TJ...  120        8e-25
+JBJPGY010000005.1 Acanthocercus annectans isolate UPRMGRS_1743_TJ...  79.7       2e-12
+
+
+
+Query_1  206       cccaccaccactgccaccaccgccaccaccaccacctccgccaccacgcccacccccacc  265
+25       43706018  ..G........G.........A......T........GG........-..GG...T....  43705954
+                                                           \                 \ 
+                                                           |                 | 
+                                                         GCC               AGG
+
+Query_1  266       accttcaccaccaGGAGGCGGGGCTGCACGCCAACCCGGTGACGCCCTGCCTGTGCATGT  325
+25       43705953  ....C...AG...C..A..C---....T...........A..                    43705911
+                    \                                                          
+                    |                                                          
+                   GCGC
+
+Query_1  326       GTCCCTTGTTCTCCTGCCAGTGGGAAGGCCGCCTGGAGGTGGTGGTGCCCCACCTGCGGC  385
+4        5172337     ....G..G..T....A.....C.....TC......T.CC..CA.......T..CAT..  5172395
+                                 \                                             
+                                 |                                             
+                                 G
+
+Query_1  386       AGATCCATAGGGTTGACATCCTCCAGGGAGCCGAGATCGTCTTCCTGGCCACGGACATGC  445
+25       90354640                      ..T..A....AA..C..T........T.....A..T..TA  90354601
+4        5172396   .CCAG....A..A.A...A...A.......AA..T..T..T.....T.....A.....TA  5172458
+                              \        \                                       
+                              |        |                                       
+                             TC        A
+
+Query_1  446       ACCTCCCCGCGCCGGCTGATTGGATCATCATGCACTCCTGCCTTGGCCACCACTTTCTGT  505
+25       90354600  ..T.G....G.G.C.TC..C...G....G.....G..T...T.C.....T..T..CA..C  90354541
+4        5172459   .T..T..T.GTG.T.TG..C...G.T..G.....G..T..TT....TTTT.....CA...  5172518
+
+Query_1  506       TGGTGCTGAGGAAACAGGAGAGGCATGAAGGGCACCCCCAGTTCTTTGCCACCATGATGC  565
+25       90354540  ....-..T..A..........A.T.......C....AG.............TTG.AT...  90354481
+                                 \                                             
+                                 |                                             
+                                 A
+4        5172519   .A..AT..GA...........AAT.C..T..T....AG...........T.T.G.TCA..  5172578
+
+Query_1  566       TGATTGGGACCCCCACCCAGGCCGACTGCTTCACCTATCGCCTGGAGCTCAACAGAAACC  625
+25       90354480  .C.....C..A.G..AA..A..A..GAA...TG.G..CA.A..C..A.....TG.C....  90354421
+4        5172579   ....A..A..A.GG.AG..A..T..AAAT..TG.T..C.....C........          5172630
+
+Query_1  626       ATCGGCGCCTCAAGTGGGAGGCCACGCCCCGGTCTGTTCTTGAGTGCGTGGACTCGGTGA  685
+25       90354420  GA...A.G..G.CT...........C..A..C..CA...A...TG.T....CGG.A.C..  90354361
+
+Query_1  686       TTACGGACGGGGACTGCCTCGTCCTCAACACCTCGCTGGCACAGCTCTTCTCTGACAACG  745
+25       90354360  .CCT.A..A.T.....T..T..TT.TG....TG.CA.A.....C..T..TG.A.....T.  90354301
+
+Query_1  746       GCAGCCTTG  754
+25       90354300  .G.A.....  90354292
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1335338126314
+
+
+  Database: GCA_046270865.1_ASM4627086v1_genomic.fna
+    Posted date:  Apr 27, 2025  10:14 AM
+  Number of letters in database: 1,736,362,833
+  Number of sequences in database:  624,685
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

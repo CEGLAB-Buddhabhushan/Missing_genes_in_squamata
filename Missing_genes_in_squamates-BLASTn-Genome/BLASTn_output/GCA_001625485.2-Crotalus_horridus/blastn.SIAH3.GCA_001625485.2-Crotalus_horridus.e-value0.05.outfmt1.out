@@ -1,0 +1,67 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_001625485.2_ASM162548v2_genomic.fna
+           5,707 sequences; 1,574,170,127 total letters
+
+
+
+Query= Homo_sapiens_NM_198849.3-SIAH3
+
+Length=810
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+LVCR02000156.1 Crotalus horridus isolate 016-059-111 contig_1292_...  96.0       3e-17
+LVCR02005676.1 Crotalus horridus isolate 016-059-111 scaffold_393...  68.9       4e-09
+
+
+
+Query_1  406      CTCCAGGGAGCCGAGATCGTCTTCCTGGCCACGGACATGCACCTCCCCGCGCCGGCTGAT  465
+155      5653973  ..T..A....AA..C..T........C.....A.....TA..T.G..G.GAG.C.T....  5654032
+5675     3559962  ..A.......AA..T..T..T.....T..T..A.....TA.T..T....GAG.T.TC..C  3559903
+
+Query_1  466      TGGATCATCATGCACTCCTGCCTTGGCCACCACTTTCTGTTGGTGCTGAGGAAACAGGAG  525
+155      5654033  ...G.G..G.....G..A...T.......T.....CA..C....T..AGA..........  5654092
+5675     3559902  ...G.T..G.....G..T..TT.....TTT.....CA....A..A...GA.........A  3559843
+
+Query_1  526      AGGCATGAAGGGCACCCCCAGTTCTTTGCCACCATGATGCTGATTGGGACCCCCACCCAG  585
+155      5654093  .A.T....G..C..T.AA.....T.......TAG.CT....A.....C..            5654142
+5675     3559842  .AAT.C..C..T....AG...........A.T.G.ACA.T....A..C..G.GG.AA..A  3559783
+
+Query_1  586      GCCGACTGCTTCACCTATCGCCTGGAGCTCAACAGAAACCATCGGCGCCTCAAGTGGGAG  645
+5675     3559782  ..T..AAAT..TG.T..C.....C.....G...G.---.........AT.G.CT.....A  3559723
+                                                            \                 
+                                                            |                 
+                                                          AGG
+
+Query_1  646      GCCACGCCCCGGTC  659
+5675     3559722  .....T..A..A..  3559709
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1224562277334
+
+
+  Database: GCA_001625485.2_ASM162548v2_genomic.fna
+    Posted date:  Apr 27, 2025  5:50 AM
+  Number of letters in database: 1,574,170,127
+  Number of sequences in database:  5,707
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

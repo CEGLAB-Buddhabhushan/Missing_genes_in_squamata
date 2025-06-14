@@ -1,0 +1,58 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046270525.1_ASM4627052v1_genomic.fna
+           1,132,798 sequences; 1,643,797,998 total letters
+
+
+
+Query= Homo_sapiens_NM_002351.5-SH2D1A
+
+Length=387
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBJPGS010221963.1 Dendrelaphis bifrenalis isolate RS-E 221963, wh...  46.4       0.006
+JBJPGS010785853.1 Dendrelaphis bifrenalis isolate RS-E 785853, wh...  44.6       0.022
+
+
+
+Query_1  70    GGGCTGGATGGCAGCTATTTGCTGAGGGACAGCGAGAGCGTGCCAGGCGTGTACTGCCTA  129
+221962   60    ....G...C.......TCC..G..C.A...............G.C..A.CC.T.GC...C  119
+
+Query_1  130   TGTGTGCTGTATCACGGTTACATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCT  189
+221962   120   ..C.......                                                    129
+
+Query_1  190   TGGAGTGCTGAGACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAATCTC  249
+785852   1744                                               ............G.A  1758
+
+Query_1  250   ATTTCAGCATTTCAGAAGC  268
+785852   1759  ..AA...............  1777
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 572690528560
+
+
+  Database: GCA_046270525.1_ASM4627052v1_genomic.fna
+    Posted date:  Apr 27, 2025  5:57 PM
+  Number of letters in database: 1,643,797,998
+  Number of sequences in database:  1,132,798
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

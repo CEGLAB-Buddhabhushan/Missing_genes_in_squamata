@@ -1,0 +1,100 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_004329235.1_PodMur_1.0_genomic.fna
+           2,161 sequences; 1,511,020,169 total letters
+
+
+
+Query= Homo_sapiens_NM_004594.3-SLC9A5
+
+Length=2691
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_041319.1 Podarcis muralis ecotype yellow chromosome 8, PodMur_...  86.0       5e-14
+NC_041330.1 Podarcis muralis ecotype yellow chromosome Z, PodMur_...  80.6       2e-12
+NC_041315.1 Podarcis muralis ecotype yellow chromosome 4, PodMur_...  78.8       7e-12
+NC_041324.1 Podarcis muralis ecotype yellow chromosome 13, PodMur...  50.0       0.004
+
+
+
+Query_1  119       AGTGGCACGAGGTGGAGGCGCCCTACCTGGTGGCCCTGTGGATCCTGGTGGCCAGTCTGG  178
+12       5237405   .......TC.T...C...........A.CA.C.T.........TT.C..C.....CG...  5237464
+
+Query_1  179       CCAAAATCGTGTTTCACCTGTCTCGGAAAGTAACATCTCTGGTCCCTGAGAGCTGCCTGC  238
+12       5237465   ....G..                                                       5237471
+
+Query_1  239       TGATTTTGCTGGGCCTGGTGCTAGGGGGAATTGTTTTGGCTGTGGCCAAGAAAGCTGAGT  298
+
+Query_1  299       ACCAGCTGGAGCCAGGCACCTTCTTCCTCTTCCTGCTGCCTCCTATTGTGTTGGACTCAG  358
+7        26061334       ..A...T...A.GT...T..............C..G..C..CA.C.....TG.C.  26061388
+18       28593991                  ..T...........A...C.....A..C.....CC....TG.T.  28594034
+
+Query_1  359       GCTATTTCATGCCTAGCAGGCTGTTCTTTGACAACTTGGGTGCCATCCTCACCTATGCCG  418
+7        26061389  ....C...C.C..CTTAC.C.A....ACA..G...C....CA.G...T.G.T..TC....  26061448
+18       28594035  .............C..TC.C.CC........G...A.T..GA.A......TTA.....T.  28594094
+
+Query_1  419       TGGTAGGCACACTCTGGAATGCCTTCACAACAGGCGCTGCCCTCTGGGGCTTGCAGCAGG  478
+7        26061449  ..C.G..G..GT.G.....C......TTTGTG.......--A.G.AC.C.G..-T..CA.  26061507
+                                                     \                         
+                                                     |                         
+                                                    CT
+18       28594095  .T..G..G..GA.A.....C.T...                                     28594119
+
+Query_1  479       CTGGACTTGTAGCCCCTAGGGTGCAGGCTGGCTTACTGGACTTCCTGCTGTTTGGGAGCC  538
+7        26061508  A.CA..-----.G.A.CG.TT.......C.AAC.C....C..G......T.....C...A  26061565
+                                              \                                
+                                              |                                
+                                            ACA
+3        77460058                                     ..T...AG............C...A  77460082
+
+Query_1  539       TCATCTCGGCGGTGGACCCCGTGGCCGTGCTAGCTGTCTTTGAGGAGGTGCACGTCAATG  598
+7        26061566  ..........A........T..T........G.....G.........A.C...A....C.  26061625
+3        77460083  .A........T.....T..TAC...T..CT.G..C..G.........A..TCT..G....  77460142
+
+Query_1  599       AGACTCTCTTTATCATCGTCTTTGGCGAGTCCCTGCTCAACGATGCTGTCACCGTGGTGC  658
+7        26061626  ..CTG..GCAC..TT.G..G..C........TT..T.G..T..C..G..G..T.....    26061683
+3        77460143  ..CAG..T.AC..G..GA....C..A.....TT....G.......GGA....T.....    77460200
+
+Query_1  659       TGTACAAGGTCTGCAACTCCTTTGTGGAGATGGGCTCTGCCAATGTGCAGGCCACTGACT  718
+
+Query_1  719       ACCTGAAGGGAGTCGCCTCCCTGTTTGTGGTCAGTCTGGGCGGGGCAGCCGTGGGCTTAG  778
+
+Query_1  779       TCTTTGCCTTCCTCCTGGCCCTGACCACACGCTTCACCAAGCGGGTCCGCATCATCGAGC  838
+
+Query_1  839       CGCTGCTGGTCTTCCTCCTCGCCTACGCAGCCTACCTCACTGCTGAAATGGCCTCGCTCT  898
+
+Query_1  899       CCGCCATTCTTGCGGTGACCATGTGTGGCCTGGGCTGTAAGAAGTACGTGGAGGCCAACA  958
+7        26073642                                              ........A.......  26073657
+
+Query_1  959       TCTCCCATAAGTCACGCACAACTGTCAAATA  989
+7        26073658  .............C.A...C..CA....G..  26073688
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4014585368615
+
+
+  Database: GCF_004329235.1_PodMur_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  12:15 AM
+  Number of letters in database: 1,511,020,169
+  Number of sequences in database:  2,161
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

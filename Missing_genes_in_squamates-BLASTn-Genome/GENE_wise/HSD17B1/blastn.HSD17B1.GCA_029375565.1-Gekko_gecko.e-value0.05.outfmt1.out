@@ -1,0 +1,72 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_029375565.1_UGM_Ggeck_1_genomic.fna
+           4,208 sequences; 2,741,107,181 total letters
+
+
+
+Query= Homo_sapiens_NM_001330219.3-HSD17B1
+
+Length=990
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAPDNY010000002.1 Gekko gecko isolate LN22022_2 scaffold_2, whole...  63.5       4e-07
+JAPDNY010000004.1 Gekko gecko isolate LN22022_2 scaffold_4, whole...  51.8       7e-04
+JAPDNY010000001.1 Gekko gecko isolate LN22022_2 scaffold_1, whole...  51.8       7e-04
+JAPDNY010000007.1 Gekko gecko isolate LN22022_2 scaffold_7, whole...  47.3       0.029
+JAPDNY010000014.1 Gekko gecko isolate LN22022_2 scaffold_14, whol...  47.3       0.029
+
+
+
+Query_1  14         TGGTGCTCATCACCGGCTGTTCCTCGGGCATCGGCCTGCACTTGGCCGTACGTCTGGCTT  73
+1111     259652988  .......G......AA...C............A.G....G.A.A.....G.AA.....    259653045
+1111     286716677   ......G...........C..............G....G.A.C.....G.AA.....    286716621
+3333     146568412  .......G...........C............A.G...                        146568449
+0        65449832   .......GT..........C...........T..G...TG.A.A...A.G.AA.....A.  65449773
+445      26852436   ....C..G...........C..T.T.........G....GTA.A.....G.CA.....    26852493
+
+Query_1  74         CAGATCCATCCCAGAGCTTCAAAGTGTATGCCACGTTGAGGGACCTGAAAACACAGGGCC  133
+0        65449772   AG......                                                      65449765
+
+Query_1  134        GGCTGTGGGAGGCGGCCCGGGCCCTGGCATGCCCTCCGGGATCCCTGGAGACGTTGCAGC  193
+
+Query_1  194        TGGACGTAAGGGACTCAAAATCCGTGGCCGCTGCCCGGGAACGCGTGACTGAGGGCCGCG  253
+
+Query_1  254        TGGACGTGCTGGTGTGTAACGCAGGCCTGGGCCTGCTGGGGCCGCTGGAGGCGCTGGGGG  313
+3875     178089683                                                ..G..T........  178089670
+
+Query_1  314        AGGACGCCGTGGCCTCTGTGCTGGA  338
+3875     178089669  ...GG....................  178089644
+                                      \      
+                                      |      
+                                      C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2623106679369
+
+
+  Database: GCA_029375565.1_UGM_Ggeck_1_genomic.fna
+    Posted date:  Apr 27, 2025  5:41 AM
+  Number of letters in database: 2,741,107,181
+  Number of sequences in database:  4,208
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

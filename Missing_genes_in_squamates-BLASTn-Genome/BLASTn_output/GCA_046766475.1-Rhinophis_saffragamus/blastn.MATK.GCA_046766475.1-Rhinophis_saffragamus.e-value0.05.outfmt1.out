@@ -1,0 +1,112 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046766475.1_ASM4676647v1_genomic.fna
+           329,086 sequences; 1,484,728,958 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBKOJP010187541.1 Rhinophis saffragamus isolate RS-140 187541, wh...  85.1       1e-13
+JBKOJP010183063.1 Rhinophis saffragamus isolate RS-140 183063, wh...  68.9       7e-09
+JBKOJP010000019.1 Rhinophis saffragamus isolate RS-140 19, whole ...  63.5       3e-07
+JBKOJP010082300.1 Rhinophis saffragamus isolate RS-140 82300, who...  60.8       1e-06
+JBKOJP010208459.1 Rhinophis saffragamus isolate RS-140 208459, wh...  53.6       2e-04
+JBKOJP010072224.1 Rhinophis saffragamus isolate RS-140 72224, who...  53.6       2e-04
+JBKOJP010224909.1 Rhinophis saffragamus isolate RS-140 224909, wh...  52.7       6e-04
+JBKOJP010000027.1 Rhinophis saffragamus isolate RS-140 27, whole ...  49.1       0.007
+JBKOJP010292351.1 Rhinophis saffragamus isolate RS-140 292351, wh...  47.3       0.024
+JBKOJP010000012.1 Rhinophis saffragamus isolate RS-140 12, whole ...  47.3       0.024
+
+
+
+Query_1  1004      TGCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGG  1063
+187540   751       ....G.......G..C.....CC..T......TC....CTCT....C.....G...T...  810
+18       43109962                .......CC.........TC....C-....C.C........T....  43109917
+                                                                \              
+                                                                |              
+                                                                A
+208458   8675                                                 ......T..A.......  8659
+72223    7465                                                               ...  7467
+224908   7921                    ......A.......C.CCGA..T...CTA...C.....T...T...  7966
+26       44957718                .......CC...G....A..G.T...CTAC..T...A.A.....CC  44957763
+
+Query_1  1064      CCGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGG  1123
+187540   811       ......................C.....---.CAC......A.TG.A...........    868
+                               \                                               
+                               |                                               
+                             TCC
+18       43109916  .......A........T.G..GCT..........---....A.TG..........G..    43109859
+                                   \         \                                 
+                                   |         |                                 
+                                  TC         T
+208458   8658      ....AA.A...G.A...A...GT.....A......---...A..T.T...........A.  8599
+                                              \                                
+                                              |                                
+                                            GGA
+72223    7468      .A..A..G...G....A..GG.T..T.GA..A.........A..T.T.............  7527
+224908   7967      .G..A...............                                          7986
+26       44957764  GA..TGC.........T..GGGG...A........TG...A..-................  44957823
+                                                                  \            
+                                                                  |            
+                                                                  T
+
+Query_1  1124      CCAAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCG  1183
+82299    7256                                                  ........A..C....  7271
+208458   8598      ...G..                                                        8593
+72223    7528      ...G..                                                        7533
+26       44957824  .                                                             44957824
+11       31052153                                                 .....A..C..A.  31052141
+
+Query_1  1184      AGGCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGC  1243
+183062   10135                 ..C....A........AG...--....................AA.T.  10182
+                                            \                                  
+                                            |                                  
+                                           AA
+82299    7272      ....CA....TT.T..A.CA.......T...A............TCC......A.T..A.  7331
+292350   3758                               ...A....--...........C........CT...  3726
+11       31385549                                     .................CA.TG.CA  31385573
+11       31052140  .....A..C.GT..C.C..A..T...CT.....--...........C.A...CA.TG..A  31052081
+                                            \                                  
+                                            |                                  
+                                           AT
+
+Query_1  1244      TCTGGGAGGTCTTCTCATATGGACGGGCTCCGTACCC  1280
+183062   10183     ........A.....A........                10205
+82299    7332      .GACC...A.AA..A.T.....C...ATC..T.....  7368
+292350   3725      .......                                3719
+11       31385574  .G........G..T.........                31385596
+11       31052080  .G.........A.G..C......                31052058
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2201960465280
+
+
+  Database: GCA_046766475.1_ASM4676647v1_genomic.fna
+    Posted date:  Apr 27, 2025  12:19 PM
+  Number of letters in database: 1,484,728,958
+  Number of sequences in database:  329,086
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

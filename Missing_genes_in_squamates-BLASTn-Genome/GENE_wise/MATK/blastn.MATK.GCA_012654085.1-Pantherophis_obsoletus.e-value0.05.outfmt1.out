@@ -1,0 +1,110 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_012654085.1_UNIGE_PanObs_1.0_genomic.fna
+           36,795 sequences; 1,692,461,844 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WJSR01034921.1 Pantherophis obsoletus isolate EOBS11 582345, whol...  77.9       2e-11
+WJSR01034913.1 Pantherophis obsoletus isolate EOBS11 582329, whol...  77.9       2e-11
+WJSR01000021.1 Pantherophis obsoletus isolate EOBS11 107, whole g...  70.7       2e-09
+WJSR01000090.1 Pantherophis obsoletus isolate EOBS11 225, whole g...  63.5       4e-07
+WJSR01000055.1 Pantherophis obsoletus isolate EOBS11 183, whole g...  58.1       2e-05
+WJSR01000530.1 Pantherophis obsoletus isolate EOBS11 670, whole g...  55.4       5e-05
+WJSR01000109.1 Pantherophis obsoletus isolate EOBS11 249, whole g...  54.5       2e-04
+WJSR01000081.1 Pantherophis obsoletus isolate EOBS11 216, whole g...  50.9       0.002
+WJSR01000052.1 Pantherophis obsoletus isolate EOBS11 180, whole g...  50.9       0.002
+WJSR01034627.1 Pantherophis obsoletus isolate EOBS11 579258, whol...  50.0       0.002
+WJSR01027074.1 Pantherophis obsoletus isolate EOBS11 228507, whol...  50.0       0.002
+WJSR01024359.1 Pantherophis obsoletus isolate EOBS11 152528, whol...  47.3       0.028
+
+
+
+Query_1  1004      TGCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGG  1063
+34920    1999      ....G.....G.G..C.....CT.........TC....CTCT.C..C.....G..T....  1940
+34912    13571     ....G.....G.G..C.....CT.........TC....CTCT.C..C.....G..T....  13512
+89       433976                  .......CC.........TC....C-....C.C.....G..T....  434021
+                                                                \              
+                                                                |              
+                                                                A
+80       6406057                                         ...T..........G.......  6406036
+51       232253                                                ..C.....G.......  232238
+34626    1925                                                  ..T.........T...  1940
+
+Query_1  1064      CCGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGG  1123
+34920    1939      .......T..............C.......---AT......A.TG....T..C......   1881
+                               \                                               
+                               |                                               
+                             TCC
+34912    13511     .......T..............C.......---AC......A.TG....T..C......   13453
+                               \                                               
+                               |                                               
+                             TCC
+89       434022    .......G..........G...CA.T........---....A..G.A.....C.....    434079
+                                    \   \                                      
+                                    |   |                                      
+                                   CT   G
+80       6406035   ..A..A.A...TGTT.....GG...AA..A......TT..AA.TGC............    6405978
+51       232237    .T...........T......A...-CA..........A.......--..T.....A..    232180
+                                       \              \     \                  
+                                       |              |     |                  
+                                       A              T     T
+34626    1941      .A.....G............A...-TA.......TTG...A..TTC......C..G...   1999
+                                       \                                       
+                                       |                                       
+                                       A
+
+Query_1  1124      CCAAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCG  1183
+54       550189                                          ...A..........T..C....  550210
+
+Query_1  1184      AGGCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGC  1243
+20       1678789               ..C............CAG..AGT.................A..AA.T.  1678836
+54       550211    .A..GA....TT....CTCC.......TA...........G...TCC..C...A.CT...  550270
+529      469689                     ..........C.G..AGC..CA.............C...G.C.  469647
+108      27100408                 .......TT.A......AGT.............A.......ACTA  27100452
+24358    783922                                       .................CA.TG.CA  783946
+
+Query_1  1244      TCTGGGAGGTCTTCTCATATGGACGGGCTCCGTACCCTAAAATGTCACTGAAAGAGGTGT  1303
+20       1678837   ........A.....A........                                       1678859
+54       550271    .GAT....A..A..A.C..C..G.ACA.......T..                         550307
+529      469646    ........A.....A.C..C..                                        469625
+108      27100453  .G.......C...T..T.....                                        27100474
+24358    783947    .G........G..T.........                                       783969
+
+Query_1  1304      CGGAGGCCGTGGAGAAGGGGTACCGCATGGAACCCCCCGAGGGCTGTCCAG  1354
+27073    6613               .........AC..T........G.GT................  6572
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2526723927846
+
+
+  Database: GCA_012654085.1_UNIGE_PanObs_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  9:25 AM
+  Number of letters in database: 1,692,461,844
+  Number of sequences in database:  36,795
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

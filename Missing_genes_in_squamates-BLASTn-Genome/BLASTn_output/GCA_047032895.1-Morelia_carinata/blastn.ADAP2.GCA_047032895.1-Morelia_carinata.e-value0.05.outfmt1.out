@@ -1,0 +1,61 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_047032895.1_ASM4703289v1_genomic.fna
+           115,909 sequences; 1,394,536,071 total letters
+
+
+
+Query= Homo_sapiens_NM_001346712.2-ADAP2
+
+Length=1164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBKKFD010074941.1 Morelia carinata isolate 6D85LG77VE 74941, whol...  98.7       3e-18
+JBKKFD010079889.1 Morelia carinata isolate 6D85LG77VE 79889, whol...  53.6       1e-04
+
+
+
+Query_1  538   CCCAAAGCTGTCATCAGCATTAAGGACTTGAATGCCACCTTCCAGACAGAGAAGATAGGG  597
+74940    4378  ........A..T..G.AA...G..C.TC.C...............C.G.....A..T..A  4319
+
+Query_1  598   CACCCCCATGGGCTGCAGATCACCTACAGGAGAGATGGCCACACCAGGAACCTGTTTGTG  657
+74940    4318  A.........................TTT..A...CAA.AG...A.....TA.C.....A  4259
+
+Query_1  658   TATCATGAAAGTGGGAAGGAGATAGTGGACTGGTTCAATGCCCTCCGTGCAGCCCGTCTG  717
+74940    4258  ..C......GA...C....                                           4240
+74940    797                   ....A..G..............C...A..........G..AT.C  754
+79888    4815                  ....A..T...............A.AA.......T.TAAAAT.C  4858
+
+Query_1  718   CAGTACCTAAAAATGGCCTTTCCTG  742
+74940    753   ..C...T.GC..G....A..C..    731
+79888    4859  ........G...G.T..........  4883
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1574416144756
+
+
+  Database: GCA_047032895.1_ASM4703289v1_genomic.fna
+    Posted date:  Apr 27, 2025  9:38 AM
+  Number of letters in database: 1,394,536,071
+  Number of sequences in database:  115,909
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

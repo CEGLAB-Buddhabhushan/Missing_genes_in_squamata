@@ -1,0 +1,57 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046270625.1_ASM4627062v1_genomic.fna
+           2,092,547 sequences; 2,642,981,604 total letters
+
+
+
+Query= Homo_sapiens_NM_145286.3-STOML3
+
+Length=876
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBJUSB011798114.1 Anolis sericeus isolate UPRMGRS_1265_TJC_638 17...  110        2e-21
+JBJUSB010000042.1 Anolis sericeus isolate UPRMGRS_1265_TJC_638 42...  46.4       0.024
+
+
+
+Query_1  650        AGGTCCTTGCAGCTGAAGGAGAAATGAATGCTTCCAAATCCCTGAAGTCAGCCTCCATGG  709
+1798113  349        ....AA....G..G..G..T........C..C....G.G........GAG...G......  408
+41       219609163                                             ......CCT........  219609147
+
+Query_1  710        TGCTGGCTGAGTCTCCCATAGCTCTCCAGCTGCGCTACCTGCAGACCTTGAGCACGGTAG  769
+1798113  409        .CA.CA.A........TGCG..C........C...............C.C.C...CA.C.  468
+41       219609146  .........G........                                            219609129
+
+Query_1  770        CCACCGAGAAGAATTCTACGATTGTGTTTCCTCTGCCCATGAATATACTAGAGGGCAT  827
+1798113  469        .TG..........C..C..C..C..C..C..G........AG.C..C..GC.A.....  526
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2169820927179
+
+
+  Database: GCA_046270625.1_ASM4627062v1_genomic.fna
+    Posted date:  Apr 27, 2025  7:50 PM
+  Number of letters in database: 2,642,981,604
+  Number of sequences in database:  2,092,547
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

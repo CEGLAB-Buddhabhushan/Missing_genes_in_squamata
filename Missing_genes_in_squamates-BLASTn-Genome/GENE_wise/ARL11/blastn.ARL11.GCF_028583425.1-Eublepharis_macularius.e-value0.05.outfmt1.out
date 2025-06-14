@@ -1,0 +1,63 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_028583425.1_MPM_Emac_v1.0_genomic.fna
+           76 sequences; 2,237,397,408 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_072791.1 Eublepharis macularius isolate TG4126 chromosome 2, M...  88.7       4e-15
+NC_072804.1 Eublepharis macularius isolate TG4126 chromosome 15, ...  68.0       4e-09
+NC_072800.1 Eublepharis macularius isolate TG4126 chromosome 11, ...  54.5       9e-05
+NC_072801.1 Eublepharis macularius isolate TG4126 chromosome 12, ...  46.4       0.014
+
+
+
+Query_1  46        GTGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCAC  105
+1        5492703    .....C...........G................CA..........A......CTGGG.  5492645
+14       55158496   .....C.....T....TG....C.....A.....CA.A...........C.....T..-  55158436
+                                                                        \      
+                                                                        |      
+                                                                      ATT
+10       56368188  .....CT....G.......GC..C............G....C...CG....C..TT.A..  56368129
+11       43954527         .....T.....G.T..T.....A.....T.....C..TCG.T.....CTGA.T  43954579
+
+Query_1  106       CAGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAG  147
+1        5492644   ...GC...CACC...A.C.....C..C..C............  5492603
+14       55158435  --..C....ACC...A.T.....G..G..C............  55158396
+10       56368128  G..T.C..CA.C...G.C.....CAAA..C......AC....  56368087
+11       43954580  G.AACC..A.T...TA.C........G..C............  43954621
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1250703791584
+
+
+  Database: GCF_028583425.1_MPM_Emac_v1.0_genomic.fna
+    Posted date:  Apr 26, 2025  11:48 PM
+  Number of letters in database: 2,237,397,408
+  Number of sequences in database:  76
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

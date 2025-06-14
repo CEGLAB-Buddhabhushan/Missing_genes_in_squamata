@@ -1,0 +1,64 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_046269805.1_ASM4626980v1_genomic.fna
+           442,709 sequences; 1,361,440,344 total letters
+
+
+
+Query= Homo_sapiens_NM_001330219.3-HSD17B1
+
+Length=990
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBJJOL010436505.1 Hydrophis schistosus isolate RAP0487 436505, wh...  50.0       0.001
+JBJJOL010028305.1 Hydrophis schistosus isolate RAP0487 28305, who...  46.4       0.014
+
+
+
+Query_1  16    GTGCTCATCACCGGCTGTTCCTCGGGCATCGGCCTGCACTTGGCCGTACGTCTGGCTTCA  75
+436504   2341  .....G........T..C..............G...TG.A....A..               2295
+
+Query_1  76    GATCCATCCCAGAGCTTCAAAGTGTATGCCACGTTGAGGGACCTGAAAACACAGGGCCGG  135
+
+Query_1  136   CTGTGGGAGGCGGCCCGGGCCCTGGCATGCCCTCCGGGATCCCTGGAGACGTTGCAGCTG  195
+
+Query_1  196   GACGTAAGGGACTCAAAATCCGTGGCCGCTGCCCGGGAACGCGTGACTGAGGGCCGCGTG  255
+
+Query_1  256   GACGTGCTGGTGTGTAACGCAGGCCTGGGCCTGCTGGGGCCGCTGGAGGCGCTGGGGGAG  315
+28304    1951                 ......C....A............A.TTG.....G..........  1996
+                                     \                                     
+                                     |                                     
+                                     A
+
+Query_1  316   G  316
+28304    1997  .  1997
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1290688162448
+
+
+  Database: GCA_046269805.1_ASM4626980v1_genomic.fna
+    Posted date:  Apr 27, 2025  12:06 PM
+  Number of letters in database: 1,361,440,344
+  Number of sequences in database:  442,709
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

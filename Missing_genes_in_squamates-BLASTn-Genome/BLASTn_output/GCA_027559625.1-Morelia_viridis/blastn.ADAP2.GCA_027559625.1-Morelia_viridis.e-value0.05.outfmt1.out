@@ -1,0 +1,61 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_027559625.1_ASM2755962v1_genomic.fna
+           110,412 sequences; 1,380,678,911 total letters
+
+
+
+Query= Homo_sapiens_NM_001346712.2-ADAP2
+
+Length=1164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JANHOE010007846.1 Morelia viridis voucher IRGN:N6CF72GX22 7846, w...  98.7       3e-18
+JANHOE010005068.1 Morelia viridis voucher IRGN:N6CF72GX22 5068, w...  53.6       1e-04
+
+
+
+Query_1  538    CCCAAAGCTGTCATCAGCATTAAGGACTTGAATGCCACCTTCCAGACAGAGAAGATAGGG  597
+7845     16622  ........A..T..G.AA...G..C.TC.C...............C.G.....A..T..A  16681
+
+Query_1  598    CACCCCCATGGGCTGCAGATCACCTACAGGAGAGATGGCCACACCAGGAACCTGTTTGTG  657
+7845     16682  A.........................TTT..A...CAA.AG...G.....TA.C.....A  16741
+
+Query_1  658    TATCATGAAAGTGGGAAGGAGATAGTGGACTGGTTCAATGCCCTCCGTGCAGCCCGTCTG  717
+7845     16742  ..C......GA...C....                                           16760
+7845     20283                  ....A..G..............C...A..........G..AT.C  20326
+5067     37874                  ....A..T...............A.AA.......T.TAAAAT.C  37917
+
+Query_1  718    CAGTACCTAAAAATGGCCTTTCCTG  742
+7845     20327  ..C...T.GC..G....A..C..    20349
+5067     37918  ........G...G.T..........  37942
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1558928962964
+
+
+  Database: GCA_027559625.1_ASM2755962v1_genomic.fna
+    Posted date:  Apr 27, 2025  10:29 AM
+  Number of letters in database: 1,380,678,911
+  Number of sequences in database:  110,412
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

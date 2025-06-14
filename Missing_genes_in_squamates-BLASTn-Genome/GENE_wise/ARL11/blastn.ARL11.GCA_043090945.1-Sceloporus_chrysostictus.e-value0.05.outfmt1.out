@@ -1,0 +1,58 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_043090945.1_ASM4309094v1_genomic.fna
+           378,652 sequences; 1,906,508,306 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBHLFM010000001.1 Sceloporus chrysostictus isolate UPRM_GenResCol...  88.7       4e-15
+JBHLFM010000006.1 Sceloporus chrysostictus isolate UPRM_GenResCol...  75.2       2e-11
+JBHLFM010000045.1 Sceloporus chrysostictus isolate UPRM_GenResCol...  46.4       0.012
+
+
+
+Query_1  46         GTGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCAC  105
+0        133446089  ......C.....T.......................G....C...CG.......TT.A..  133446030
+0        284364567   .....C...........G................CA....G............CTGGG.  284364509
+5        1699710     .....C..........TG....T..G........CA....C........C...TTGGG.  1699768
+44       61950407   .....CC............GC..C...........CG....C...                 61950363
+
+Query_1  106        CAGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAG  147
+0        133446029  G..T.C..CA.C..GG....A..CA.C..C......AC....  133445988
+0        284364508  ...GC...CACC...A.C.....C..G..C............  284364467
+5        1699769    ....CA...ACC...A.C.....C..G..C............  1699810
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1058964816078
+
+
+  Database: GCA_043090945.1_ASM4309094v1_genomic.fna
+    Posted date:  Apr 27, 2025  10:22 AM
+  Number of letters in database: 1,906,508,306
+  Number of sequences in database:  378,652
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

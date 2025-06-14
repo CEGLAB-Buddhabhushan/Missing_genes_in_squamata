@@ -1,0 +1,74 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_029204185.1_lerEdw1.0_genomic.fna
+           40,606 sequences; 1,740,840,159 total letters
+
+
+
+Query= Homo_sapiens_XM_054347355.1-PLAAT1
+
+Length=717
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JAJKFI010040218.1 Lerista edwardsae isolate Ler83 scaffold_374125...  54.5       9e-05
+JAJKFI010040217.1 Lerista edwardsae isolate Ler83 scaffold_374124...  54.5       9e-05
+JAJKFI010040221.1 Lerista edwardsae isolate Ler83 scaffold_374128...  46.4       0.013
+JAJKFI010040220.1 Lerista edwardsae isolate Ler83 scaffold_374127...  46.4       0.013
+JAJKFI010000001.1 Lerista edwardsae isolate Ler83 scaffold_1, who...  45.5       0.046
+JAJKFI010000053.1 Lerista edwardsae isolate Ler83 scaffold_77, wh...  44.6       0.046
+JAJKFI010000036.1 Lerista edwardsae isolate Ler83 scaffold_36, wh...  44.6       0.046
+
+
+
+Query_1  259       CCAGGGGACTTGATCGAAGTGTTCCGTCCTGGCTATCAGCACTGGGCCCTGTACTTGGGT  318
+40217    16391        ..A...C....T..GA.C......TT......C............A.T..TG.C..A  16335
+40216    16400        ..A...C....T..GA.C......TT......C............A.T..TG.C..A  16344
+40220    11223     ..C..A...C.......GA.C.....CT..T................GA.C...G.T..A  11164
+40219    11226     ..C..A...C.......GA.C.....CT..T................GA.C...G.T..A  11167
+
+Query_1  319       GATGGTTACGTTATCAACATAGCACCTGTAGATGGCATTCCTGCGTCCTTTACAAGCGCC  378
+40217    16334     .....C.....G...                                               16320
+40216    16343     .....C.....G...                                               16329
+40220    11163     ..G..                                                         11159
+40219    11166     ..G..                                                         11162
+
+Query_1  379       AAGTCTGTATTCAGCAGTAAGGCCCTGGTGAAAATGCAGCTCTTGAAGGATGTTGTGGGA  438
+35       6649913                                                              .  6649913
+
+Query_1  439       AATGACACATACAGAATAAACAATAAATACGATGAAAC  476
+0        57941886      .........T................-...G...  57941918
+52       4810019    ..T.........C................          4810047
+35       6649912   .............T................          6649881
+                       \                                 
+                       |                                 
+                      CT
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1191585425395
+
+
+  Database: GCA_029204185.1_lerEdw1.0_genomic.fna
+    Posted date:  Apr 27, 2025  9:32 AM
+  Number of letters in database: 1,740,840,159
+  Number of sequences in database:  40,606
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

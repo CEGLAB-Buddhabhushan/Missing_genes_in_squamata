@@ -1,0 +1,58 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_965112155.1_rPodLio1.hap1.1_genomic.fna
+           290 sequences; 1,574,020,868 total letters
+
+
+
+Query= Homo_sapiens_NM_002351.5-SH2D1A
+
+Length=387
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+OZ218101.1 Podarcis liolepis genome assembly, chromosome: 4           50.9       5e-04
+OZ218103.1 Podarcis liolepis genome assembly, chromosome: 6           45.5       0.021
+
+
+
+Query_1  70         GGGCTGGATGGCAGCTATTTGCTGAGGGACAGCGAGAGCGTGCCAGGCGTGTACTGCCTA  129
+3        101049581  ....GC..C.......TC...G..C.C...............G.C..A.CC...GC...G  101049640
+
+Query_1  130        TGTGTGCTGTATCACGGTTACATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCT  189
+3        101049641  ..C.......                                                    101049650
+
+Query_1  190        TGGAGTGCTGAGACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAATCTC  249
+5        61340888                                                ............A.G  61340902
+
+Query_1  250        ATTTCAGCATTTCAGAAGCCAGA  272
+5        61340903   .........---...........  61340922
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 560348228568
+
+
+  Database: GCA_965112155.1_rPodLio1.hap1.1_genomic.fna
+    Posted date:  Apr 27, 2025  3:32 AM
+  Number of letters in database: 1,574,020,868
+  Number of sequences in database:  290
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,69 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_027244095.1_rHemCap1.1.pri_genomic.fna
+           44 sequences; 2,294,751,221 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_069663.1 Hemicordylus capensis ecotype Gifberg chromosome 7, r...  79.7       2e-12
+NC_069657.1 Hemicordylus capensis ecotype Gifberg chromosome 1, r...  70.7       1e-09
+NC_069662.1 Hemicordylus capensis ecotype Gifberg chromosome 6, r...  50.9       0.001
+
+
+
+Query_1  47        TGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCACC  106
+6        26554126  .....T.....T.A..TG....T...........CA....C........C...CTGGG..  26554067
+0        5203402   .....C.......C..TG....A.....A.....CA....G.....A........G..--  5203342
+                                                                        \      
+                                                                        |      
+                                                                      CTG
+5        40348699     ..T....T.....TG.T..T.....A..G..T.....C...........          40348651
+
+Query_1  107       AGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAGCCTCTGAAAGCTCCTGGGC  166
+6        26554066  ...C....AC....A.C.....G..G..C............                     26554026
+0        5203341   ...-...CACC...A.C........A..............                      5203303
+
+Query_1  167       ACGTGTCACTGACTCTCTGGGACGTTGGGGGGCAGGCCCCGCTCAGAGCCAGCTGGAAGG  226
+
+Query_1  227       ACTATCTGGAAGGCACAGATATCCTCGTGTACGTGCTGGACAGCACAGATGAAGCCCGCT  286
+
+Query_1  287       TACCCGAGTCGGCGGCTGAGCTCACAGAAGTCCTGAACGACCCCAACATGGCTGGCGTCC  346
+5        57038813                                                       ..G....  57038819
+
+Query_1  347       CCTTCTTGGTGCTGGCCAACAAGCAGGA  374
+5        57038820  .TG.........................  57038847
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1282765145467
+
+
+  Database: GCF_027244095.1_rHemCap1.1.pri_genomic.fna
+    Posted date:  Apr 27, 2025  12:57 AM
+  Number of letters in database: 2,294,751,221
+  Number of sequences in database:  44
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

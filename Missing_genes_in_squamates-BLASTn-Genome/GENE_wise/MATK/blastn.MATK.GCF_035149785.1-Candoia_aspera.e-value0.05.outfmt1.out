@@ -1,0 +1,96 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_035149785.1_rCanAsp1.hap2_genomic.fna
+           149 sequences; 1,530,810,380 total letters
+
+
+
+Query= Homo_sapiens_NM_002378.4-MATK
+
+Length=1527
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_086156.1 Candoia aspera isolate rCanAsp1 chromosome 4, rCanAsp...  77.0       1e-11
+NC_086165.1 Candoia aspera isolate rCanAsp1 chromosome 13, rCanAs...  66.2       3e-08
+NC_086158.1 Candoia aspera isolate rCanAsp1 chromosome 6, rCanAsp...  63.5       3e-07
+NC_086170.1 Candoia aspera isolate rCanAsp1 chromosome 18, rCanAs...  54.5       2e-04
+NC_086154.1 Candoia aspera isolate rCanAsp1 chromosome 2, rCanAsp...  49.1       0.007
+
+
+
+Query_1  1006       CACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTGCACCGCGACCTGGCC  1065
+3        118075263  ..G.....A.G..C.....CC..T......TC....CTCT.C..C.....G.........  118075322
+3        118337989                                            ........G..TT.A..G  118337972
+5        2977271                .......CC.........TC....C-....C.C.....A.........  2977318
+                                                               \                
+                                                               |                
+                                                               A
+17       4532287          ....CT......A.A.....C.CTGA..T...CTAC..C.....T...T....G  4532234
+1        73113359                                            .........A..T.....T  73113377
+
+Query_1  1066       GCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGCCAAGGTCAGCGACTTTGGCCTGGCC  1125
+3        118075323  ....................C.....---.CAC......A..G.A..T........      118075378
+                              \                                                 
+                              |                                                 
+                            TTC
+3        118337971  .....T............A...-TA.......CTG...A..TTC.........G...T..  118337912
+                                      \                                         
+                                      |                                         
+                                      A
+5        2977319    .....A..........CTG.TA.T........---....A.TG..........G..      2977374
+                              \                                                 
+                              |                                                 
+                            TCC
+17       4532233    ..A...............A...-CA.......CTG.......TCT........G..      4532178
+                                      \                                         
+                                      |                                         
+                                      A
+1        73113378   ..AA.A...G.A...A...GC.....A......---...A..T.T...........A...  73113437
+                                             \                                  
+                                             |                                  
+                                           GGA
+
+Query_1  1126       AAAGCCGAGCGGAAGGGGCTAGACTCAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCGAG  1185
+1        165062179                                               .....A..T..A...  165062165
+1        73113438   .G..                                                          73113441
+
+Query_1  1186       GCTCTCAAACACGGGAAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGCTC  1245
+12       13935669             ..C....A.....A.CAG..AGC....................AA.T...  13935718
+1        165062164  ...A..C.GT..C.C..A..T...CT.....--...........C.A...CA.TG..A.G  165062105
+                                           \                                    
+                                           |                                    
+                                          AT
+
+Query_1  1246       TGGGAGGTCTTCTCATATGGA  1266
+12       13935719   ......A.....A........  13935739
+1        165062104  .........A.G..C......  165062084
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2287023361722
+
+
+  Database: GCF_035149785.1_rCanAsp1.hap2_genomic.fna
+    Posted date:  Apr 27, 2025  1:22 AM
+  Number of letters in database: 1,530,810,380
+  Number of sequences in database:  149
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

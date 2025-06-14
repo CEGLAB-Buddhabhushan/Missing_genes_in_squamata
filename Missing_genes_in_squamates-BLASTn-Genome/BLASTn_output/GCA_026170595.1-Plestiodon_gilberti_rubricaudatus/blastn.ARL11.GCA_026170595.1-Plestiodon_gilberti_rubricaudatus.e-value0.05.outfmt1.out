@@ -1,0 +1,65 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_026170595.1_rPleGil1.0.hap2_genomic.fna
+           39 sequences; 1,571,222,493 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JANXHW010000001.1 Plestiodon gilberti rubricaudatus isolate HBS 1...  66.2       1e-08
+JANXHW010000011.1 Plestiodon gilberti rubricaudatus isolate HBS 1...  61.7       4e-07
+JANXHW010000006.1 Plestiodon gilberti rubricaudatus isolate HBS 1...  46.4       0.010
+
+
+
+Query_1  47         TGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCACC  106
+0        307817531  .....C.......C..TG................CA.T..G.....A......CTGGGG.  307817590
+2        10608741   .....C....T.....TG....C.....A..A..CA....C........C...CTGGG..  10608682
+
+Query_1  107        AGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAGCCTCTGAAAGCTCCTGGGC  166
+0        307817591  ..GC...CACC...A.T..T.....G........T......                     307817631
+2        10608681   .A.CC...ACA...A.C.....G..G..C............                     10608641
+
+Query_1  167        ACGTGTCACTGACTCTCTGGGACGTTGGGGGGCAGGCCCCGCTCAGAGCCAGCTGGAAGG  226
+
+Query_1  227        ACTATCTGGAAGGCACAGATATCCTCGTGTACGTGCTGGACAGCACAGATGAAGCCCGCT  286
+
+Query_1  287        TACCCGAGTCGGCGGCTGAGCTCACAGAAGTCCTGAACGACCCCAACATGGCTGGCGTCC  346
+35       47220826                                                        ..T....  47220832
+
+Query_1  347        CCTTCTTGGTGCTGGCCAACAAGCAGGA  374
+35       47220833   ..G.T.................A.....  47220860
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 878312675955
+
+
+  Database: GCA_026170595.1_rPleGil1.0.hap2_genomic.fna
+    Posted date:  Apr 27, 2025  8:26 AM
+  Number of letters in database: 1,571,222,493
+  Number of sequences in database:  39
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

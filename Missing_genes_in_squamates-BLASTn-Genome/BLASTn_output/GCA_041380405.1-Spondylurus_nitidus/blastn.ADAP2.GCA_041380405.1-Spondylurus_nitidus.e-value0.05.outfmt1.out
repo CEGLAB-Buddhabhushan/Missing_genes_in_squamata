@@ -1,0 +1,71 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_041380405.1_SponNit_1.0_genomic.fna
+           21 sequences; 1,397,757,386 total letters
+
+
+
+Query= Homo_sapiens_NM_001346712.2-ADAP2
+
+Length=1164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM084227.1 Spondylurus nitidus strain Spon15 chromosome 13, whole...  68.0       5e-09
+
+
+
+Query_1  419      ACCGAGAAGGATTCCTGTGGAAGCGAGGAAGGGACAACTCACAGTTTCTGAGAAGGAAGT  478
+12       1247358  ....G........T..T......A....CC.T......GGG.....CT....C.....A.  1247299
+
+Query_1  479      TTGTACTTCTGGCAAGAGAAGGCCTCCTGAAGTACTTCACAAAGGAACAGGGTAAAAGCC  538
+12       1246993                                                    ..C.....AA  1246984
+12       1247298  .C..G......A-.C.G.....GG.G.............                       1247260
+                         \                                                    
+                         |                                                    
+                         C
+
+Query_1  539      CCAAAGCTGTCATCAGCATTAAGGACTTGAATGCCACCTTCCAGACAGAGAAGATAGGGC  598
+12       1246983  ..........G..G.AG...G.AC....A..C.....T......C...G...A.....AA  1246923
+                    \                                                         
+                    |                                                         
+                    T
+
+Query_1  599      ACCCCCATGGGCTGCAGATCACCTACAGGAGAGATGGCCACACCAGGAACCTGTTTGTGT  658
+12       1246922  .T..T..C..A...........G...CT..A...CAA.AGT..GC.....A.A..CA.A.  1246863
+
+Query_1  659      ATCATGAAAGTGGGAAGGAGATAGTGGACTGGTTCAATGCCCTCCGTGCAGCCCGTCTGC  718
+12       1246862  .C......GA...C....                                            1246845
+12       1244273                 ....A..G..............C..GA....C........GT.C.  1244229
+
+Query_1  719      AGTACCTAAAAATGGCCTTTCCTG  742
+12       1244228  .T..TT.GC..G....G..C....  1244205
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1582260600248
+
+
+  Database: GCA_041380405.1_SponNit_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  2:25 AM
+  Number of letters in database: 1,397,757,386
+  Number of sequences in database:  21
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

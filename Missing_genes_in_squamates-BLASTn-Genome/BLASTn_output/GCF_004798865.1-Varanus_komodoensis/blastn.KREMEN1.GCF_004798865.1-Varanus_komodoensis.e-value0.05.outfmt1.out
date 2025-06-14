@@ -1,0 +1,66 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_004798865.1_ASM479886v1_genomic.fna
+           1,411 sequences; 1,507,945,839 total letters
+
+
+
+Query= Homo_sapiens_NM_032045.5-KREMEN1
+
+Length=1479
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_025336126.1 Varanus komodoensis strain SLA01 unplaced genomic ...  119        5e-24
+
+
+
+Query_1  95       CCGAGTGTTTCACAGCCAATGGTGCGGATTATAGGGGAACACAGAACTGGACAGCACTAC  154
+858      5667272  ....A.....T.TG.TG.....A..T.....CC....CT.G......A....TT......  5667338
+                                                                            \ 
+                                                                            | 
+                                                                      GGGGAGC
+
+Query_1  155      AAGGCGGGAAGCCATGTCTGTTTTGGAACGAGACTTTCCAGCATCCATACAACACTCTGA  214
+858      5667339  .G.A...----..G..C..C.AC......C....ACGGG.....G.C........GGCC.  5667394
+
+Query_1  215      AATACCCCAACGGGGAGGGGGGCCTGGGTGAGCACAACTATTGCAGAAATCCAGATGGAG  274
+858      5667395  .G..T...C....C...T....T.....-...............C.G..C.....C..T.  5667454
+                                                   \                          
+                                                   |                          
+                                                   C
+
+Query_1  275      ACGTGAGCCCCTGGTGCTATGTGGCAGAGCACGAGGATGGTGTCTACTGGAAGTACTGTG  334
+858      5667455  .T...CAG........T..CA.CT.G...A.......A..GA..................  5667514
+
+Query_1  335      AGATACCTGCTTGCCA  350
+858      5667515  .T..T..CA.C.....  5667530
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2180422353096
+
+
+  Database: GCF_004798865.1_ASM479886v1_genomic.fna
+    Posted date:  Apr 27, 2025  6:00 AM
+  Number of letters in database: 1,507,945,839
+  Number of sequences in database:  1,411
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,64 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_047404595.1_ASM4740459v1_genomic.fna
+           1,003,289 sequences; 1,061,994,145 total letters
+
+
+
+Query= Homo_sapiens_NM_024309.4-TNIP2
+
+Length=1290
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JBKOPV010927916.1 Dendrelaphis tristis isolate RAP0526 927916, wh...  44.6       0.050
+JBKOPV010890577.1 Dendrelaphis tristis isolate RAP0526 890577, wh...  44.6       0.050
+JBKOPV010426280.1 Dendrelaphis tristis isolate RAP0526 426280, wh...  44.6       0.050
+JBKOPV010388939.1 Dendrelaphis tristis isolate RAP0526 388939, wh...  44.6       0.050
+
+
+
+Query_1  85    CAGCGGCTGCGCCGCCTGCAGGACCAGCTCGCTGCccgcgacgccctcatcgctcgcctc  144
+927915   440   ....A.................-.....C.A.....                          474
+426279   441   ....A.................-.....C.A.....                          475
+
+Query_1  145   cgcgcccgcctggccgcgctggagggggacgccgcgccgTCCCTAGTGGACGCGCTGCTG  204
+
+Query_1  205   GAGCAGGTTGCGCGCTTCCGGGAGCAGCTGCGAAGGCAGGAGGGCGGCGCCGCCGAGGCC  264
+
+Query_1  265   CAGATGCGCCAGGAAATTGAGAGGCTGACTGAGCGACTAGAAGAAAAAGAGAGGGAGATG  324
+890576   2061                                                  ....T.....A.  2050
+388938   2062                                                  ....T.....A.  2051
+
+Query_1  325   CAGCAGCTGCTGAGCCAGCCCC  346
+890576   2049  ................TC....  2028
+388938   2050  ................TC....  2029
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1295600232426
+
+
+  Database: GCA_047404595.1_ASM4740459v1_genomic.fna
+    Posted date:  Apr 27, 2025  8:31 PM
+  Number of letters in database: 1,061,994,145
+  Number of sequences in database:  1,003,289
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

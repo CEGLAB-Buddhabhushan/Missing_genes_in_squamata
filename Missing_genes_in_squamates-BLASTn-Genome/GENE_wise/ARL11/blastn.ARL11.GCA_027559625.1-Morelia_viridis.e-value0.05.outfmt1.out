@@ -1,0 +1,60 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_027559625.1_ASM2755962v1_genomic.fna
+           110,412 sequences; 1,380,678,911 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+JANHOE010012417.1 Morelia viridis voucher IRGN:N6CF72GX22 12417, ...  57.2       5e-06
+JANHOE010006801.1 Morelia viridis voucher IRGN:N6CF72GX22 6801, w...  55.4       2e-05
+
+
+
+Query_1  47      TGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCACC  106
+12416    91446   .....C.T...T....TG.A..............CA....G.....A........T..--  91506
+                                                                     \       
+                                                                     |       
+                                                                   GCT
+6800     106889  .....C.....T.A..TG.T..T........A..CA....G..T.........CTGGG..  106830
+
+Query_1  107     AGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAGCCTCTGAAAGCTCCTGGGC  166
+12416    91507   ...-A..CACA...A.C..A.....G........T.....                      91545
+6800     106829  .A.CC..CACC...A.C.....C..G..C............A.CG..--.C..A.-AA.A  106773
+
+Query_1  167     ACGTGTCACTGACTCTCTGGGACGTTGGGGGGCAGG  202
+6800     106772  ....CAAGT.C.ACG.....................  106737
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 771263437840
+
+
+  Database: GCA_027559625.1_ASM2755962v1_genomic.fna
+    Posted date:  Apr 27, 2025  10:29 AM
+  Number of letters in database: 1,380,678,911
+  Number of sequences in database:  110,412
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

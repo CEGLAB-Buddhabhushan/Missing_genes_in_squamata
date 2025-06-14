@@ -1,0 +1,72 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004319985.1_emyIji_1.0_genomic.fna
+           157,858 sequences; 1,625,199,642 total letters
+
+
+
+Query= Homo_sapiens_NM_138450.6-ARL11
+
+Length=591
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BHEV01134181.1 Emydocephalus ijimae DNA, scaffold184033, whole ge...  79.7       2e-12
+BHEV01112898.1 Emydocephalus ijimae DNA, scaffold152506, whole ge...  46.4       0.010
+BHEV01061009.1 Emydocephalus ijimae DNA, scaffold75567, whole gen...  45.5       0.035
+BHEV01053244.1 Emydocephalus ijimae DNA, scaffold65318, whole gen...  44.6       0.035
+
+
+
+Query_1  47    TGATGATGGGCCTGGACTCGGCGGGCAAGACCACGCTCCTTTACAAGCTGAAGGGCCACC  106
+134180   9807  .....T.....T.....G.C..T.....A.....CA.................TTGGG..  9866
+61008    4005        ..........TG.T..C..A..A..A..T......G...........         3959
+
+Query_1  107   AGCTGGTGGAGACCCTGCCCACTGTTGGTTTCAACGTGGAGCCTCTGAAAGCTCCTGGGC  166
+134180   9867  ...CC..CACC...A.C........G..G............                     9907
+
+Query_1  167   ACGTGTCACTGACTCTCTGGGACGTTGGGGGGCAGGCCCCGCTCAGAGCCAGCTGGAAGG  226
+
+Query_1  227   ACTATCTGGAAGGCACAGATATCCTCGTGTACGTGCTGGACAGCACAGATGAAGCCCGCT  286
+
+Query_1  287   TACCCGAGTCGGCGGCTGAGCTCACAGAAGTCCTGAACGACCCCAACATGGCTGGCGTCC  346
+
+Query_1  347   CCTTCTTGGTGCTGGCCAACAAGCAGGAGGCACCTGATGCACTTCCGCTGCTTAAGATCA  406
+112897   1579  ......G.........AC...............A........                    1536
+                                            \      \                       
+                                            |      |                       
+                                            T      C
+
+Query_1  407   GAAACAGGCTGAGTCTAGAGAGATTCCAGGACCACTGCTGGGAGCTCCGGGGCTGCAGTG  466
+
+Query_1  467   CCCTCACTGGGGAGGGGCTGCCCGAGGCCCTGCAGAGCCTGTGGAGCCT  515
+53243    2366                 ....T..A...A..............G.......  2399
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 905662835974
+
+
+  Database: GCA_004319985.1_emyIji_1.0_genomic.fna
+    Posted date:  Apr 27, 2025  7:26 AM
+  Number of letters in database: 1,625,199,642
+  Number of sequences in database:  157,858
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
