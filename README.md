@@ -1,5 +1,6 @@
 
-# Missing genes in squamata
+<h1 style="color:skyblue;">Missing genes in squamata</h1>
+
 This GitHub repository contains the data for the paper **"Gene loss through chromosomal rearrangements and segmental deletions in squamates"**
 
 Buddhabhushan Girish Salve, Sonal H, Nagarjun Vijay
