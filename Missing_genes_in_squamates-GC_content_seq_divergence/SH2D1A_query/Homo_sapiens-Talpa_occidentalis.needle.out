@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:39:05
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Talpa_occidentalis.fa
+#    -outfile Homo_sapiens-Talpa_occidentalis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Talpa_occidentalis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Talpa_occidentalis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 384
+# Identity:     345/384 (89.8%)
+# Similarity:   345/384 (89.8%)
+# Gaps:          12/384 ( 3.1%)
+# Score: 1592.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     |||||.||||||.|||||||||||||||||||||||.||||.||.||.||
+Talpa_occiden      1 ATGGATGCAGTGACTGTGTATCATGGCAAAATCAGCCGGGAGACTGGGGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     ||||||||||||.|||||.||.||||||||.||||||||||||||.||||
+Talpa_occiden     51 GAAGCTCCTGCTAGCCACGGGTCTGGATGGAAGCTATTTGCTGAGAGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCTGTATCACGGTTAC    150
+                     |.||||||.|.|||||||||||||||||.|||||.||||||||.||||||
+Talpa_occiden    101 GTGAGAGCATCCCAGGCGTGTACTGCCTCTGTGTTCTGTATCAAGGTTAC    150
+
+Homo_sapiens     151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Talpa_occiden    151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+
+Homo_sapiens     201 GACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAATCTCA    250
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+Talpa_occiden    201 GACAGCACCTGGGGTACATAAAAGATGTTTCCGGAAAATAAAAAATCTCA    250
+
+Homo_sapiens     251 TTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTCTGCAGTAT    300
+                     ||||||||||||||||||||||||||||.||||||||||||||||||||.
+Talpa_occiden    251 TTTCAGCATTTCAGAAGCCAGATCAAGGTATTGTAATACCTCTGCAGTAC    300
+
+Homo_sapiens     301 CCAGTTGAGAAGAAGTCCTCAGCTAGAAGTACACAAGGTACTACAGGGAT    350
+                     ||.||||||||||...|||||||||||   |||||         |||||.
+Talpa_occiden    301 CCTGTTGAGAAGACCACCTCAGCTAGA---ACACA---------AGGGAG    338
+
+Homo_sapiens     351 AAGAGAAGATCCTGATGTCTGCCTGAAAGCCCCA    384
+                     ||||||||||||||||||||.|||||||||.|||
+Talpa_occiden    339 AAGAGAAGATCCTGATGTCTTCCTGAAAGCACCA    372
+
+
+#---------------------------------------
+#---------------------------------------

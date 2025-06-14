@@ -1,0 +1,650 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:56:26
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Vidua_macroura.fa
+#    -outfile Homo_sapiens-Vidua_macroura.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Vidua_macroura.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Vidua_macroura
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7651
+# Identity:    5531/7651 (72.3%)
+# Similarity:  5531/7651 (72.3%)
+# Gaps:         596/7651 ( 7.8%)
+# Score: 19931.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT-GCCCGCCCTGCG----CCCCGCTCTGCTGTGGGCGCTGCTGGCGCT-     44
+                     || ||||||...|||    ||.|||||..|     |||||.||.||.|| 
+Vidua_macrour      1 ATGGCCCGCGGAGCGGGGCCCGCGCTCGCC-----GCGCTCCTCGCCCTG     45
+
+Homo_sapiens      45 ---CTGGCTGTGCTGCGCGGC------CCCCGCGCATGCATTGCAGTGTC     85
+                        |||||.|||||.|||.||      |||..||| .||..|||||||| 
+Vidua_macrour     46 GTGCTGGCCGTGCTCCGCCGCGCCGAGCCCGCCGC-CGCTCTGCAGTGT-     93
+
+Homo_sapiens      86 GAGATGG----CTATGAACCCTGTGTAAATGAAGGAATGTGTGTTACCTA    131
+                        ||||    ||...|.||.|||||.|||||.||||.|||.|||.|.||
+Vidua_macrour     94 ---ATGGACGACTCCAAGCCGTGTGTTAATGAGGGAAAGTGCGTTCCATA    140
+
+Homo_sapiens     132 CCACAATGGCACAGGATACTGCAAATGTCCAGAAGGC-TTCTTGGGGGAA    180
+                     .||.|||||.||||||||.|||||.||||.||||||| ||||| ||.||.
+Vidua_macrour    141 TCAGAATGGTACAGGATATTGCAAGTGTCGAGAAGGCTTTCTT-GGAGAC    189
+
+Homo_sapiens     181 TATTGTCAACATCGAGACCCCTGTGAGAAGAACCGCTGCCAGAATGGTGG    230
+                     ||.|||||..|.|||.||||||||||||..||...|||..|||||||.||
+Vidua_macrour    190 TACTGTCAGTACCGAAACCCCTGTGAGAGCAATACCTGTAAGAATGGGGG    239
+
+Homo_sapiens     231 GACTTGTGTGGC-CCAGGCCATGCTGGGGAAAGCCACGTGCCGATGTGCC    279
+                     .||.||||..|| .|| .||.||.|.||.|||.|.||.|||...||||||
+Vidua_macrour    240 AACCTGTGAAGCTGCA-TCCCTGATAGGAAAACCAACCTGCAAGTGTGCC    288
+
+Homo_sapiens     280 TCAGGGTTTACAGGAGAGGACTGCCAGTACTCAACATCTCATCCATGCTT    329
+                     .||||.||.||.||.|||||.||.|||||||||..||||||.|..||||.
+Vidua_macrour    289 CCAGGATTCACGGGGGAGGAATGTCAGTACTCAGAATCTCACCTCTGCTA    338
+
+Homo_sapiens     330 TGTGTCTCGACCCTGCCTGAATGGCGGCACATGCCATATGCTCAGCCGGG    379
+                     .|||||.|..|||||||||||.||.|||||.||.||....|.|.|||.||
+Vidua_macrour    339 CGTGTCCCAGCCCTGCCTGAACGGAGGCACTTGTCACCCCCACGGCCAGG    388
+
+Homo_sapiens     380 ATACCTATGAGTGCACCTGTCAAGT--CGGGTTT-ACAGGTAAGGAGTGC    426
+                     |.||.||.||||||..|||||   |  |.||||| |||||.|||||.|||
+Vidua_macrour    389 ACACGTACGAGTGCGTCTGTC---TTCCAGGTTTCACAGGAAAGGAATGC    435
+
+Homo_sapiens     427 CAATGGACGGATGCCTGCCTGTCTCATCCCTGTGCAAATGGAAGTACCTG    476
+                     ||.||||..|||||||||...|||||.||.|||||.|||||||||||.||
+Vidua_macrour    436 CAGTGGATTGATGCCTGCACATCTCAACCTTGTGCCAATGGAAGTACATG    485
+
+Homo_sapiens     477 TACCACTGTG---GCCAACCAGTTCTCCTGCAAATGCCTCACAGGCTTCA    523
+                        |||||||   |..||..||||||||||||..|||||..|.||||.||
+Vidua_macrour    486 ---CACTGTGTCTGGAAATAAGTTCTCCTGCACCTGCCTGGCGGGCTACA    532
+
+Homo_sapiens     524 CAGGGCAGAAATGTGAGACTGATGTCAATGAGTGTGACATTCCAGGACAC    573
+                     |.||.||||..||||||||.||.||.||.||.||||.||..||.||.|..
+Vidua_macrour    533 CTGGCCAGAGGTGTGAGACAGACGTGAACGAATGTGCCACGCCGGGCCTG    582
+
+Homo_sapiens     574 TGCCAGCATGGTGGCACCTGCCTCAACCTGCCTGGTTCCTACCAGTGCCA    623
+                     ||||||||.|||||||||||..||||||||||.||.|||||||.||||||
+Vidua_macrour    583 TGCCAGCACGGTGGCACCTGTGTCAACCTGCCCGGCTCCTACCGGTGCCA    632
+
+Homo_sapiens     624 GTGCCCTCAGGGCTTCACAGGCCAGTACTGTGACAGCCTGTATGTGCCCT    673
+                     ||||...|.|||||.|||.|||||...|||.||.||..|.||.|||||||
+Vidua_macrour    633 GTGCAAGCTGGGCTACACGGGCCACCGCTGCGAGAGAGTCTACGTGCCCT    682
+
+Homo_sapiens     674 GTGCACCCTCACCTTGTGTCAATGGAGGCACCTGTCGGCAGACTGGTGAC    723
+                     |..|.||.||.||.||..|.||.||.||||||||.|..||.||..|||||
+Vidua_macrour    683 GCTCCCCGTCCCCCTGCATGAACGGGGGCACCTGCCACCAAACCAGTGAC    732
+
+Homo_sapiens     724 TTCACTTTTGAGTGCAACTGCCTTCCAGGTTTTGAAGGGAGCACCTGTGA    773
+                     |||||.||.||||||||||||||.||.|||||.||.||||||    ||..
+Vidua_macrour    733 TTCACCTTCGAGTGCAACTGCCTGCCCGGTTTCGAGGGGAGC----GTCT    778
+
+Homo_sapiens     774 GAGG----AATATTGATGACTGCCCTAACCACAGGTGTCAGAATGGAGGG    819
+                     |.||    ||..|.||.||||||||.|||||||.|||.|.|||.||.||.
+Vidua_macrour    779 GCGGCCACAACGTGGACGACTGCCCGAACCACAAGTGCCTGAACGGGGGT    828
+
+Homo_sapiens     820 GTTTGTGTGGATGGGGTCAACACTTACAACTGCCGCTGTCCCCCACAATG    869
+                     |||||.|||||.|||||.|||||.||||||||||||||.||.||.||.||
+Vidua_macrour    829 GTTTGCGTGGACGGGGTGAACACCTACAACTGCCGCTGCCCGCCCCAGTG    878
+
+Homo_sapiens     870 GACAGGACAGTTCTGCACAGAGGATGTGGATGAATGCCTGCTGCAGCCCA    919
+                     ||||||.|||||.|||||.|||||||||||||||||||.|||.|||||||
+Vidua_macrour    879 GACAGGCCAGTTTTGCACCGAGGATGTGGATGAATGCCAGCTCCAGCCCA    928
+
+Homo_sapiens     920 ATGCCTGTCAAAATGGGGGCACCTGTGCCAACCGCAATGGAGGCTATGGC    969
+                     |||||||.||.||.|||||||||||..||||||.|||.||.|||||||.|
+Vidua_macrour    929 ATGCCTGCCAGAACGGGGGCACCTGCACCAACCACAACGGGGGCTATGCC    978
+
+Homo_sapiens     970 TGTGTATGTGTCAACGGCTGGAGTGGAGATGACTGCAGTGAGAACATTGA   1019
+                     |||||.||.||||||||||||||.||.||.||||||||..|||||||.||
+Vidua_macrour    979 TGTGTCTGCGTCAACGGCTGGAGCGGGGACGACTGCAGCAAGAACATCGA   1028
+
+Homo_sapiens    1020 TGATTGTGCCTTC---GCCTCCTGTACTCCA--GGCTCCACCTGCATCGA   1064
+                     .||.||   ||||   |||||||||  .|||  |||||||||||||||||
+Vidua_macrour   1029 CGACTG---CTTCACTGCCTCCTGT--GCCAACGGCTCCACCTGCATCGA   1073
+
+Homo_sapiens    1065 CCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAAGGCAGGTCTCC   1114
+                     |.|.|||||.||||||||.|||||.||.||||||||.|||||||||||.|
+Vidua_macrour   1074 CAGGGTGGCTTCCTTCTCCTGCATTTGTCCAGAGGGAAAGGCAGGTCTTC   1123
+
+Homo_sapiens    1115 TGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGCCACAAGGGGGCA   1164
+                     ||||.||..||||||||||.||..|.||||||||.|||||.||.||.||.
+Vidua_macrour   1124 TGTGCCACTTGGATGATGCCTGTGTTAGCAATCCGTGCCAAAAAGGTGCT   1173
+
+Homo_sapiens    1165 CTGTGTGACACCAACCCCCTAAATGGGCAATATATTTGCACCTGCCCACA   1214
+                     ||.||||||||||||||..|.|||||..|.||.||.||||||||.||.||
+Vidua_macrour   1174 CTTTGTGACACCAACCCTGTGAATGGAAACTACATCTGCACCTGTCCCCA   1223
+
+Homo_sapiens    1215 AGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGAATGTGCCATGG   1264
+                     .|||.|.||.||.||.||||||||.||.|||||||||||||||||.||||
+Vidua_macrour   1224 GGGCCATAAGGGAGCAGACTGCACTGAGGATGTGGATGAATGTGCAATGG   1273
+
+Homo_sapiens    1265 CCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAACACGGATGGC   1314
+                     |.||.||||||||.||.|||||.||.||.|||||.||.|||||.||.|||
+Vidua_macrour   1274 CAAACAGCAATCCGTGCGAGCACGCCGGGAAATGCGTCAACACCGAGGGC   1323
+
+Homo_sapiens    1315 GCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCTCGTTGTGAGAT   1364
+                     .|.|||||||||||||||||||||||.||..||||||||||.||||||||
+Vidua_macrour   1324 TCTTTCCACTGTGAGTGTCTGAAGGGCTACACAGGACCTCGCTGTGAGAT   1373
+
+Homo_sapiens    1365 GGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGATGCTACCTGTC   1414
+                     ||||||||||||||||||.|||.||||.||||||||.|||||.|||||.|
+Vidua_macrour   1374 GGACATCAATGAGTGCCACTCAAACCCGTGCCAGAACGATGCCACCTGCC   1423
+
+Homo_sapiens    1415 TGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAGGTTTCAAAGGT   1464
+                     |||||||.||.|||||.|||||.|||||.||.|||||||||||.|||||.
+Vidua_macrour   1424 TGGATAAAATCGGAGGATTCACGTGTCTCTGTATGCCAGGTTTTAAAGGA   1473
+
+Homo_sapiens    1465 GTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAACCCTTGTGTGAA   1514
+                     ||.||.||||||..|||.||..|||||||.|..||.||.||.||||||||
+Vidua_macrour   1474 GTTCACTGTGAAGAAGATATTGATGAATGCCTAAGTAATCCCTGTGTGAA   1523
+
+Homo_sapiens    1515 CAATGGGCAGTGTG--TGGATAAAGTCAATCGTTTCCAGTGCCTGTGTCC   1562
+                     ||||||  ||||||  |.|||||||||||.||.||||..||..|.|||||
+Vidua_macrour   1524 CAATGG--AGTGTGTCTTGATAAAGTCAACCGCTTCCTCTGTGTCTGTCC   1571
+
+Homo_sapiens    1563 TCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGACTGTTCCA   1612
+                     ||||||.||||.||||.|.||.|||||||||||.||.||.||||||||||
+Vidua_macrour   1572 TCCTGGATTCAGTGGGGCCGTGTGCCAGATTGACATAGACGACTGTTCCA   1621
+
+Homo_sapiens    1613 GTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCCGAATGGCTAT   1662
+                     ||||.||||||||.|||||.||.||.||.||.||.|||||.||||||||.
+Vidua_macrour   1622 GTACGCCGTGTCTCAATGGAGCCAAATGCATTGACCACCCCAATGGCTAC   1671
+
+Homo_sapiens    1663 GAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTGAGGAGAACAT   1712
+                     ||.||||||||||||||||||||.||.||.....||||||||||||||||
+Vidua_macrour   1672 GAGTGCCAGTGTGCCACAGGTTTTACCGGCCCTCTGTGTGAGGAGAACAT   1721
+
+Homo_sapiens    1713 TGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGTCAGGATGGTA   1762
+                     ..||||||||||.||||||||.||||||||.||..|.||.||||||||.|
+Vidua_macrour   1722 CAACAACTGTGATCCCGATCCCTGCCACCACGGGGAATGCCAGGATGGCA   1771
+
+Homo_sapiens    1763 TTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGGCGCCATCTGC   1812
+                     |||||||.|||||.|||||||||||.||.||.||||||||.|||||.|||
+Vidua_macrour   1772 TTGATTCGTACACGTGCATCTGCAACCCTGGCTACATGGGTGCCATATGC   1821
+
+Homo_sapiens    1813 AGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGAACGATGGTCG   1862
+                     ||.||.|||||.||.||.||..||||||..|||||||||.||.|.||.||
+Vidua_macrour   1822 AGCGAGCAGATCGACGAGTGCCACAGCAATCCTTGCCTGCACCAAGGGCG   1871
+
+Homo_sapiens    1863 CTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAGCCAGGCACGT   1912
+                     ||||||.||||||||||||||||||||||||||||||..||..|||||.|
+Vidua_macrour   1872 CTGCATCGACCTGGTCAATGGCTACCAGTGCAACTGCTTGCTGGGCACCT   1921
+
+Homo_sapiens    1913 CAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAGTAACCCTTGT   1962
+                     ||||.||.||.|||||.|.|||.||||||||||||||.||||||||.||.
+Vidua_macrour   1922 CAGGAGTAAACTGTGAGAATAACTTTGATGACTGTGCCAGTAACCCGTGC   1971
+
+Homo_sapiens    1963 ATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTTGTGTCTGCTC   2012
+                     ||.|||||...||||||.||||||||.||||||||||..||.|.||||..
+Vidua_macrour   1972 ATTCATGGGGACTGTATCGATGGCATCAATCGCTACAACTGCGCCTGCAA   2021
+
+Homo_sapiens    2013 ACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGATGAGTGTGCCT   2062
+                     |||.|||||.|||||.|...|.||||||...|||||.||.|||||..|.|
+Vidua_macrour   2022 ACCTGGATTTACAGGCCCCCGCTGTAACGCGGACATCGACGAGTGCACGT   2071
+
+Homo_sapiens    2063 CCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGTGAATGGTTTC   2112
+                     |||..|||||.|.|||.||.|..|||||.||.||||..|||||.||.||.
+Vidua_macrour   2072 CCAGCCCCTGCCACAACGGCGGCACATGCATAAACGAGGTGAACGGCTTT   2121
+
+Homo_sapiens    2113 CGCTGTATATGCCCCGAGGGACCCCATCACCCCAGCTGCTACTCACAGG-   2161
+                     ||.|||.|.|||||||||||...|||.||||||..||||.|.||.|||| 
+Vidua_macrour   2122 CGGTGTGTGTGCCCCGAGGGTTTCCACCACCCCCACTGCCAGTCCCAGGC   2171
+
+Homo_sapiens    2162 TGAACGAATGCCTGAGCAATCCCTGCATCCATGGAAACTGTAC------T   2205
+                     || |.|..|||||.|||||.|||||..|.|||||.|||||.||      |
+Vidua_macrour   2172 TG-ATGGCTGCCTCAGCAACCCCTGTGTGCATGGCAACTGCACACACATT   2220
+
+Homo_sapiens    2206 GGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGTTGG-CA   2254
+                     |      .||.|||.||.||||||.||||.||..||||||||.|.|| .|
+Vidua_macrour   2221 G------CCACTGGGTACAAGTGTGTCTGCGACCCAGGCTGGATAGGAGA   2264
+
+Homo_sapiens    2255 TCAACTGT------GAAGTGGACAAAAATGAATGCCTTTCGAATCCATGC   2298
+                     | .|||||      ||||.|      ||.|||||....||.||.||||||
+Vidua_macrour   2265 T-TACTGTTCAACAGAAGGG------AACGAATGTAAATCAAACCCATGC   2307
+
+Homo_sapiens    2299 CAGAATGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGTGTACTTG   2348
+                     ||||||||||||||||||||..|||||.|||||||||||||.|||||.||
+Vidua_macrour   2308 CAGAATGGAGGAACTTGTGAGGATCTGTTGAATGGATACAGATGTACCTG   2357
+
+Homo_sapiens    2349 CAAGAAGGGCTTTAAAGGCTAT-AACTGCCAGGTGAATATTGATGAATGT   2397
+                     .|.||||||.||.||||| |.| |||||||||||                
+Vidua_macrour   2358 TAGGAAGGGATTCAAAGG-TGTGAACTGCCAGGT----------------   2390
+
+Homo_sapiens    2398 GCCTCAAATCCATGCCTGAACCAAGGAACCTGCTTTGATGACATAAGTGG   2447
+                                                                  |||||
+Vidua_macrour   2391 ---------------------------------------------AGTGG   2395
+
+Homo_sapiens    2448 CTACACTTGCCACTGTGTGCTGCCATACACAGGCAAGAATTGTCAGACAG   2497
+                                                                       
+Vidua_macrour   2395 --------------------------------------------------   2395
+
+Homo_sapiens    2498 TATTGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGTTTGCAAA   2547
+                        |..||||.||||||||.||.|||||||||||..|.|...|.|||.||
+Vidua_macrour   2396 ---TTTCTCCTTGTTCCCCTAATCCTTGTGAGAACTCGGGAATCTGCCAA   2442
+
+Homo_sapiens    2548 GAGTCACCAAATTTTGAGAGTTATACTTGCTTGTGTGCTCCTGGCTGGCA   2597
+                     ||.||.||..|.|.|||..|.||.||.|||..||||||.|||||||||.|
+Vidua_macrour   2443 GAATCTCCTGACTCTGAAGGCTACACCTGCCAGTGTGCCCCTGGCTGGGA   2492
+
+Homo_sapiens    2598 AGGTCA-----GC--GGTGTACCATTGACATTGACGAGTGTATCTCCAAG   2640
+                     |||..|     ||  ||||       ||.|||||.||||||.||||||||
+Vidua_macrour   2493 AGGGGAAAGATGCATGGTG-------GATATTGATGAGTGTCTCTCCAAG   2535
+
+Homo_sapiens    2641 CCCTGCATGAACCATGGTCTCTGCCATAACACCCAGGGCAGCTACATGTG   2690
+                     |||||||.||||||||..||.|||||.||||.|||||||||.|||.||||
+Vidua_macrour   2536 CCCTGCAAGAACCATGCCCTGTGCCACAACATCCAGGGCAGTTACCTGTG   2585
+
+Homo_sapiens    2691 TGAATGTCCACCAGGCTTCAGTGGTATGGACTGTG--AGGAGGACATTGA   2738
+                     .||.||||..||.|||||||.|||...||||||||  ||.|  ||||.||
+Vidua_macrour   2586 CGAGTGTCGGCCTGGCTTCACTGGAGGGGACTGTGACAGCA--ACATCGA   2633
+
+Homo_sapiens    2739 TGACTGCCTTG-CCAATCCTTGCCAGAATGGAGGTTCCTGTATGGATGGA   2787
+                     |||||| |||| |.||.||.||||||||.||||..||.||..|||||||.
+Vidua_macrour   2634 TGACTG-CTTGTCAAACCCCTGCCAGAACGGAGCCTCGTGCGTGGATGGG   2682
+
+Homo_sapiens    2788 GTGAATACTTTCTCCTGCCTCTGCCT-TCCGGGTTTCACTGGGGATAAGT   2836
+                     .|.||..|.|||||.|||.||||||| .||||.|||||| ||||||||.|
+Vidua_macrour   2683 ATCAACTCCTTCTCGTGCATCTGCCTGCCCGGATTTCAC-GGGGATAAAT   2731
+
+Homo_sapiens    2837 GCCAGACAGACATGAATGAGTGTCTGAGTGAACCCTGTAAGAATGGAGGG   2886
+                     |.||||||||||..||.|||||.|||||.||.|||||.|.|||.||.||.
+Vidua_macrour   2732 GTCAGACAGACACCAACGAGTGCCTGAGCGAGCCCTGCAGGAACGGGGGC   2781
+
+Homo_sapiens    2887 ACCTGCTCTGACTACGTCAACAGTTACACTTGCAAGTGCCAGGCAGGATT   2936
+                     ||||||.|..|||||||||||||.|||||.||||||||||.|.|.||.||
+Vidua_macrour   2782 ACCTGCACCCACTACGTCAACAGCTACACCTGCAAGTGCCCGCCGGGCTT   2831
+
+Homo_sapiens    2937 TGATGGAGTCCATTGTGAGAACAACATCAATGAGTGCACTGAGAGCTCCT   2986
+                     .||.|||..|.|.||.||||.|||||||.|.|||||||||||.|||||||
+Vidua_macrour   2832 CGAGGGAACCAACTGCGAGAGCAACATCGACGAGTGCACTGACAGCTCCT   2881
+
+Homo_sapiens    2987 GTTTCAATGGTGGCACATGTGTTGATGGGATTAACTCCTTCTCTTGCTTG   3036
+                     ||||||||||.|||||.|||||.|||||.||.||.||||||.|.|||..|
+Vidua_macrour   2882 GTTTCAATGGAGGCACTTGTGTGGATGGAATCAATTCCTTCACCTGCCAG   2931
+
+Homo_sapiens    3037 TGCCCTGTGGGTTTCACTGGATCCTTCTGCCT-CCATGAGATCAATGAAT   3085
+                     |||||..||||.|||||.|||.|||||||||| .|| ||.|||||.||.|
+Vidua_macrour   2932 TGCCCCCTGGGCTTCACGGGAGCCTTCTGCCTGACA-GAAATCAACGAGT   2980
+
+Homo_sapiens    3086 GCAGCTCTCATCCATGCCTGAATGAGGGAACGTGTGTTGATGGCCTGGGT   3135
+                     |...|||.|||||.|||||.||...|||.||.|||||.||..|||||||.
+Vidua_macrour   2981 GTGACTCCCATCCCTGCCTCAACAGGGGCACCTGTGTGGACAGCCTGGGC   3030
+
+Homo_sapiens    3136 ACCTACCGCTGCAGCTGCCCCCTGGGCTACACTGGGAAAAACTGTCAGAC   3185
+                     ||.|||.|.||.|..||||||.||||||||||.||.||.|||||..||.|
+Vidua_macrour   3031 ACATACAGGTGTATATGCCCCTTGGGCTACACCGGCAAGAACTGCAAGTC   3080
+
+Homo_sapiens    3186 CCTGGTGAATCTCTGCAGTCGGTCTCCATGTAAAAACAAAGGTACTTGCG   3235
+                     .||.|||.||||.|||||...||||||.|||||.||||||||.||.||.|
+Vidua_macrour   3081 TCTCGTGGATCTGTGCAGCAAGTCTCCCTGTAAGAACAAAGGCACGTGTG   3130
+
+Homo_sapiens    3236 TTCAGAAAAAAGCAGA----GTCCCA------GTGCCTATGTCCATCTGG   3275
+                     |          |||||    |.||||      |||..|.||.||..|.||
+Vidua_macrour   3131 T----------GCAGACCCTGGCCCAGACTCGGTGTGTGTGCCCGCCCGG   3170
+
+Homo_sapiens    3276 ATGGGCTGGTGCCTATTGTGACGTGCCCAATGTCTCTTGTGACA--TAGC   3323
+                     .|||.|.||.|||||.||.|||||||||||.|||||  |||.||  |.||
+Vidua_macrour   3171 CTGGACCGGCGCCTACTGCGACGTGCCCAACGTCTC--GTGCCAGGTGGC   3218
+
+Homo_sapiens    3324 AGCCTC-CAGGAGAGGTGTGCTTGTTGAACACTTGTGCCAGCACTCAGGT   3372
+                     |||.|| || ||||||.||.|.|||.||.||..|||||||||||||.|||
+Vidua_macrour   3219 AGCTTCACA-GAGAGGAGTCCCTGTGGACCAGCTGTGCCAGCACTCTGGT   3267
+
+Homo_sapiens    3373 GTCTGCATCAATGCTGGCAACACGCATTACTGTCAGTGCCCCCTGGGCTA   3422
+                     ..||||.||||.|..||.|||||.||..||||.|||||||...||||.||
+Vidua_macrour   3268 CACTGCCTCAACGTGGGGAACACCCACCACTGCCAGTGCCAGGTGGGTTA   3317
+
+Homo_sapiens    3423 TACTGGGAGCTACTGTGAGGAGCAACTCGATGAGTGTGCGTCCAACCCCT   3472
+                     .||.||.||||||||.||||.|||.||.||||||||||..||||.|||.|
+Vidua_macrour   3318 CACGGGCAGCTACTGCGAGGTGCAGCTGGATGAGTGTGACTCCAGCCCTT   3367
+
+Homo_sapiens    3473 GCCAGCACGGGGCAACATGCAGTGACTTCATTGGTGGATA-CAGATGCGA   3521
+                     |||||.||||.||.||.|||.|.|||..|.|.||.||||| ||| |||||
+Vidua_macrour   3368 GCCAGAACGGAGCCACCTGCCGGGACCACCTGGGCGGATACCAG-TGCGA   3416
+
+Homo_sapiens    3522 GTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGT   3571
+                     ||||||..|.||.||.||||||||||||||.||||||||.||||||||||
+Vidua_macrour   3417 GTGTGTGGCTGGATACCAGGGTGTCAACTGCGAGTATGAGGTGGATGAGT   3466
+
+Homo_sapiens    3572 GCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAAC   3621
+                     |||||...||||||||||||||.|||||.|||||.||.|||||.||.||.
+Vidua_macrour   3467 GCCAGTTCCAGCCCTGCCAGAACGGAGGGACCTGCATCGACCTGGTCAAT   3516
+
+Homo_sapiens    3622 CATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGCCTACTCTGTGAAGA   3671
+                     ||.|||||||||||.|||||||||||.||||||||||...|||||||.||
+Vidua_macrour   3517 CACTTCAAGTGCTCCTGCCCACCAGGAACTCGGGGCCGCTTCTGTGAGGA   3566
+
+Homo_sapiens    3672 GAACATTGATGACTGTG-CCCGG--------GGTCCCCATTGCCTTAATG   3712
+                     ||||.|.||||||||.| |.|||        |.|||||..|||.|.||.|
+Vidua_macrour   3567 GAACGTGGATGACTGCGTCTCGGACTCGGGAGTTCCCCGCTGCTTCAACG   3616
+
+Homo_sapiens    3713 GTGGTCAGTGCATGGA-TAGGATTGGAGGCTACAGTTGTCGCTGCTTGCC   3761
+                     |.||.||||||||.|| .||| |.||.||||||||.||.|.|||  |.||
+Vidua_macrour   3617 GGGGGCAGTGCATTGACCAGG-TCGGGGGCTACAGCTGCCTCTG--TCCC   3663
+
+Homo_sapiens    3762 --TGGCTTTGCTGGGGAGCGTTGTGAGGGAGACATCAACGAGTGCCTCTC   3809
+                       .||||||||.||.|||||.||.|||||.||||||||||||||||||||
+Vidua_macrour   3664 CAGGGCTTTGCAGGAGAGCGCTGCGAGGGGGACATCAACGAGTGCCTCTC   3713
+
+Homo_sapiens    3810 CAACCCCTGCAGCTCT-GAGGGCAGCCTGGACTGTATACAGCTCACCAAT   3858
+                     |||||||||||.|.|| ||||| ||||||||||||.|.|||||.||.|||
+Vidua_macrour   3714 CAACCCCTGCAACCCTCGAGGG-AGCCTGGACTGTGTCCAGCTGACAAAT   3762
+
+Homo_sapiens    3859 GACTACCTGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCACTGTGAAAC   3908
+                     ||.||.|.|||..|.|||||||||||.||.||||||||.||||||||.|.
+Vidua_macrour   3763 GATTATCGGTGCATCTGCCGTAGTGCTTTCACTGGCCGTCACTGTGAGAG   3812
+
+Homo_sapiens    3909 CTTCGTCGATGTGTGTCCCCAGATGCCCTGCCTGAATGGAGGGACTTGTG   3958
+                     |.||.||||.||||||||||.||.|||.||||.|||.||.||.||.||.|
+Vidua_macrour   3813 CGTCATCGACGTGTGTCCCCGGAAGCCGTGCCAGAACGGCGGCACCTGCG   3862
+
+Homo_sapiens    3959 CTGTGGCCAGTAACATGCCTGATGGTTTCATTTGCCGTTGTCCCCCGGGA   4008
+                     ||||||||||.||||||||.|||||.|||||.||||..||.||||||||.
+Vidua_macrour   3863 CTGTGGCCAGCAACATGCCCGATGGCTTCATCTGCCAGTGCCCCCCGGGT   3912
+
+Homo_sapiens    4009 TTTTCCGGGGCA------------AGGTGCCAGAGCAGCTGTGGACAAGT   4046
+                     |.|||.||.|||            ||..||||.||||.||||||||||||
+Vidua_macrour   3913 TATTCTGGAGCAAAATGTGAGTTCAGCAGCCACAGCACCTGTGGACAAGT   3962
+
+Homo_sapiens    4047 GAAATGTAGGAAGGGGGAGCAGTGTGTGCACACCGCCTCTGGACCCCGCT   4096
+                     ||||||.|.|||||||||||||||..|.||.||..|.|||||.||.||.|
+Vidua_macrour   3963 GAAATGCAAGAAGGGGGAGCAGTGCATCCAGACGTCTTCTGGTCCGCGGT   4012
+
+Homo_sapiens    4097 GCTTCTGCCCCA----GTCCCCG-----GGACTGCGAG------TCAGGC   4131
+                     |||..|||||||    |||...|     |||.|||.||      .|||||
+Vidua_macrour   4013 GCTATTGCCCCAAGCTGTCTGTGGGAGAGGAATGCCAGACACACCCAGGC   4062
+
+Homo_sapiens    4132 TGTGCCAGTAGCCCCTGCCAGCACGGGGGCAGCTGCCACCCTCAGCGCCA   4181
+                     |||||||||..||||||||||.|.||||||||||||||||||||....||
+Vidua_macrour   4063 TGTGCCAGTGCCCCCTGCCAGAATGGGGGCAGCTGCCACCCTCATTCTCA   4112
+
+Homo_sapiens    4182 GCCTCCTTATTACTCCTGCCAGTGTGCCCCACCATTCTC-----GGGTAG   4226
+                     |||||||||.||.|.|||||||||     |.|.||||.|     |||.||
+Vidua_macrour   4113 GCCTCCTTACTATTACTGCCAGTG-----CCCTATTCACACCCAGGGCAG   4157
+
+Homo_sapiens    4227 CCGCTGTGAACTCTACACGGCACCCC-------CCAGCACC----CCTC-   4264
+                     ||.||||||          |||.|||       .|||| ||    |||| 
+Vidua_macrour   4158 CCACTGTGA----------GCAGCCCGTAACTTTCAGC-CCGGAGCCTCG   4196
+
+Homo_sapiens    4265 ---CTGCCACCTGTCTGA--GCCAGTATTGTGCCGACAAAGCTCGGGATG   4309
+                        .||   ||||   ||  .||||   |||||.||.|||||..||||||
+Vidua_macrour   4197 AAAATG---CCTG---GATTTCCAG---TGTGCAGAAAAAGCCAGGGATG   4237
+
+Homo_sapiens    4310 GCGTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCAGTGGGATGGGGGT   4359
+                     ||..|||||||||.|.|||.||||.||||||.||||||||||||||.||.
+Vidua_macrour   4238 GCTACTGTGATGAAGACTGTAACACCCATGCGTGCCAGTGGGATGGAGGC   4287
+
+Homo_sapiens    4360 GACTGTTCTCTCACCATGGAGAACCCCTGGGCCAACTGCTCCTCCCCACT   4409
+                     |||||.||.||.||..|||||.|.||.||||||||||||||||||.|.||
+Vidua_macrour   4288 GACTGCTCCCTGACAGTGGAGGATCCTTGGGCCAACTGCTCCTCCTCCCT   4337
+
+Homo_sapiens    4410 TCCCTGCTGGGAT-TATATCAACAACCAGTGTGATGAGCTGTGCAACACG   4458
+                     .||||||| |||| |.|.||||....||||||||||||.|.|||||||||
+Vidua_macrour   4338 GCCCTGCT-GGATGTTTTTCAATGGACAGTGTGATGAGTTCTGCAACACG   4386
+
+Homo_sapiens    4459 GTCGAGTGCCTGTTTGACAACTTTGAATGCCAGGGGAACAGCAAGACATG   4508
+                     ..||||||||||||||||||||||||.||.|||...||.||||.|||.||
+Vidua_macrour   4387 CCCGAGTGCCTGTTTGACAACTTTGAGTGTCAGCAAAATAGCAGGACGTG   4436
+
+Homo_sapiens    4509 CAAGTATGACAAATACTGTGCAGACCACTTCAAAGACAACCACTGTGACC   4558
+                     ||||||||||||.|||||||||||.||||.|..||||...|.|||.||||
+Vidua_macrour   4437 CAAGTATGACAAGTACTGTGCAGATCACTACGCAGACGGGCGCTGCGACC   4486
+
+Homo_sapiens    4559 AGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGCTGGACTGTGCTGCT   4608
+                     ||||.||||||||.||||||||.||.|||||.||.||||||||.||.|..
+Vidua_macrour   4487 AGGGCTGCAACAGCGAGGAGTGCGGCTGGGACGGCCTGGACTGCGCCGGC   4536
+
+Homo_sapiens    4609 GACCAACCTGAGAACCTGGCAGAAGGTACCCTGGTTATTGTGGTATTGAT   4658
+                     |||.|..|||||||.||||||||.||.||||||.|.||.|||||..||||
+Vidua_macrour   4537 GACAAGGCTGAGAAGCTGGCAGAGGGCACCCTGATCATCGTGGTCCTGAT   4586
+
+Homo_sapiens    4659 GCCACCTGAACAACTGCTCCAGGATGCTCGCAGCTTCTTGCGGGCACTGG   4708
+                     |||.|||||..|.|||||...|||.|..|||||||||.||||..|.||||
+Vidua_macrour   4587 GCCCCCTGACGAGCTGCTGGGGGACGTCCGCAGCTTCCTGCGCACCCTGG   4636
+
+Homo_sapiens    4709 GTACCCTGCTCCACACCAACCTGCGCATTAAGCGGGACTCCCAGGGGGAA   4758
+                     |.||.||.||.||||||||.|||.|.|||||||.||||||.|||||..|.
+Vidua_macrour   4637 GAACGCTCCTGCACACCAATCTGAGGATTAAGCTGGACTCTCAGGGAAAC   4686
+
+Homo_sapiens    4759 CTCATGGTGTACCCCTATTATGGTGAGAAGTCAGCTGCTATGAAGAAACA   4808
+                     |.||||||||.|||.||.||.||.|||||.||.||.|             
+Vidua_macrour   4687 CCCATGGTGTTCCCGTACTACGGGGAGAAATCGGCAG-------------   4723
+
+Homo_sapiens    4809 GAGGATGACACGCAGATCCCT-------TCCTGGTG---AACAAGAACAG   4848
+                               |||.||.||.|       ||.|||||   ..||||.||||
+Vidua_macrour   4724 ----------CGCGGAGCCGTCGGTCGCTCGTGGTGGTTCGCAAGCACAG   4763
+
+Homo_sapiens    4849 -------------GAGGTGGCTGGCTCTAAAGTCTTTCTGGAAATTGACA   4885
+                                  |||||...||||.|.||.||.||.|||||.||.||||
+Vidua_macrour   4764 AGAGCTGGAGCAAGAGGTCATTGGCACCAAGGTGTTCCTGGAGATCGACA   4813
+
+Homo_sapiens    4886 ACCGCCAGTGTGTTCAAGACTCAGACCACTGCTTCAAGAACACGGATGCA   4935
+                     ||||||||||||...|.||||||||.||.|||||..|.|||||.||.||.
+Vidua_macrour   4814 ACCGCCAGTGTGCAGAGGACTCAGAGCAATGCTTTCACAACACAGAAGCT   4863
+
+Homo_sapiens    4936 GCAGCAGCTCTCCTGGCCTCTCACGCCATACAGGGGACCCTGTCATACCC   4985
+                     ||.|||||||||.|.||..||||.|||||..||||.|...||.|.||.||
+Vidua_macrour   4864 GCTGCAGCTCTCTTAGCTGCTCAGGCCATCAAGGGCATGTTGCCCTATCC   4913
+
+Homo_sapiens    4986 TCTTGTGTCTGTCGTCAGTGAATCCCTGACTCCA-GAACGCACTCAGCTC   5034
+                     |.|||||||||||...|||||..||.||...||| .||.| ||.|||||.
+Vidua_macrour   4914 TTTTGTGTCTGTCCAAAGTGAGCCCTTGTTACCACCAAAG-ACCCAGCTG   4962
+
+Homo_sapiens    5035 CTCTATCTCCTTGCTGTTGCTGTTGTCATCATTCTGTTTATTATTCTGCT   5084
+                     ||.||.||.||||||||.||.|.|.|.|||||.|||.|.||..||||.||
+Vidua_macrour   4963 CTTTACCTGCTTGCTGTGGCAGCTTTGATCATCCTGCTGATCCTTCTCCT   5012
+
+Homo_sapiens    5085 GGGGGTAATCATGGCAAAACGAAAGCGTAAGCATGGCTCTCTCTGGCTGC   5134
+                     |||.||.||.|||||.||.||.|||||.|||||.||||||||.|||||.|
+Vidua_macrour   5013 GGGTGTGATGATGGCCAAGCGCAAGCGCAAGCACGGCTCTCTGTGGCTCC   5062
+
+Homo_sapiens    5135 CTGAAGGTTTCACTCTTCGCCGAGATGCAAGCAATCACAAGCGTCGTGAG   5184
+                     |.||.||.||||..||.|||.|.|||.|.|||||.|||||.||..|.|||
+Vidua_macrour   5063 CAGAGGGCTTCATCCTGCGCAGGGATCCCAGCAACCACAAACGCAGAGAG   5112
+
+Homo_sapiens    5185 CCAGTGGGACAGGATGCTGTGGGGCTGAAAAATCTCTCAGTGCAAGTCTC   5234
+                     ||.||.||..||||||||||.||.||.||||||||.|||||.||..|..|
+Vidua_macrour   5113 CCCGTTGGGGAGGATGCTGTTGGACTCAAAAATCTGTCAGTCCAGATACC   5162
+
+Homo_sapiens    5235 AGAAGCTAACCTAATTGG----TACTGGAACAAGTGAACACTGGGTCGAT   5280
+                     |||.|.|||||    |||    ..||||.||.|.|||.|||||||..|.|
+Vidua_macrour   5163 AGAGGGTAACC----TGGCCGAGCCTGGGACGACTGAGCACTGGGCAGGT   5208
+
+Homo_sapiens    5281 GATGAAGGGCCCCAGCCAAAGAAAGTAAAGGCTGAAGATGAGGCCTTACT   5330
+                     ||||..||.||.||||||||||.||..||||||||.||..|||||||.||
+Vidua_macrour   5209 GATGGTGGACCTCAGCCAAAGAGAGCTAAGGCTGAGGACCAGGCCTTGCT   5258
+
+Homo_sapiens    5331 CTCAGAAGAAGATGACCCCATTGATCGACGGCCA-TGGACACAGCAGCAC   5379
+                     ..||||||..||.||.|..||||| |.|..|||| |||||||||||||||
+Vidua_macrour   5259 GCCAGAAGGGGACGAGCAGATTGA-CCAGCGCCAGTGGACACAGCAGCAC   5307
+
+Homo_sapiens    5380 CTTGAAGCTGCAGACATCCGTAGGA-CACCATCGCTGGCTCTCACCCCTC   5428
+                     ||.||.||.|||||..||.||.|.| |||| ||.|||||.|||||.||||
+Vidua_macrour   5308 CTGGAGGCAGCAGATGTCTGTGGCAGCACC-TCCCTGGCCCTCACACCTC   5356
+
+Homo_sapiens    5429 CTCAGGCAGAGCAGGAGGTGGATGTGTTAGATGTGAATGTCCGTGGCCCA   5478
+                     ||||||||||.||.||.||||||||..|.|||||.||.|||.|.||.|||
+Vidua_macrour   5357 CTCAGGCAGACCAAGAAGTGGATGTTCTGGATGTCAACGTCAGAGGGCCA   5406
+
+Homo_sapiens    5479 GATGGCTGCACCCCATTGATGTTGGCTTCTCTCCGAGGAGGCAGCTCAGA   5528
+                     |||||||||||.||..||||||||||.|||||.||.|..|||.||||.||
+Vidua_macrour   5407 GATGGCTGCACTCCGCTGATGTTGGCATCTCTGCGTGCGGGCGGCTCCGA   5456
+
+Homo_sapiens    5529 TTTGAGTGATGAAGATGAAGATGCAGAGGACTCTTCTGCTAACATCATCA   5578
+                     ..|.||.||.||.|||||.||.|..||.|||||.||.||.||||||||||
+Vidua_macrour   5457 CATCAGCGAGGATGATGAGGACGGGGAAGACTCCTCAGCAAACATCATCA   5506
+
+Homo_sapiens    5579 CAGACTTGGTCTACCAGGGTGCCAGCCTCCAGGCCCAGACAGACCGGACT   5628
+                     |.||..||.||||||||||.||||.|||.|||||.|||||||||||.||.
+Vidua_macrour   5507 CGGATCTGATCTACCAGGGGGCCAACCTGCAGGCGCAGACAGACCGCACC   5556
+
+Homo_sapiens    5629 GGTGAGATGGCCCTGCACCTTGCAGCCCGCTACTCACGGGCTGATGCTGC   5678
+                     ||.||||||||.||||||||.||||||||.|||||..|.||.||.|||||
+Vidua_macrour   5557 GGGGAGATGGCTCTGCACCTGGCAGCCCGATACTCCAGAGCCGACGCTGC   5606
+
+Homo_sapiens    5679 CAAGCGTCTCCTGGATGCAGGTGCAGATGCCAATGCCCAGGACAACATGG   5728
+                     ||||||.|||||||||||.||.||.||||||||.||.|.|||||||||||
+Vidua_macrour   5607 CAAGCGGCTCCTGGATGCCGGGGCCGATGCCAACGCTCGGGACAACATGG   5656
+
+Homo_sapiens    5729 GCCGCTGTCCACTC--CATGCTGCAGTGGCAGCTGATGCCCAAGGTGTCT   5776
+                     |.||  |.||.|||  ||.||.||.|||||.|||||.|||||.||.||||
+Vidua_macrour   5657 GACG--GACCCCTCTGCACGCAGCCGTGGCTGCTGACGCCCAGGGCGTCT   5704
+
+Homo_sapiens    5777 TCCAGATTCTGATTCGCAACCGAGTAACTGATCTAGATGCCAGGATGAAT   5826
+                     |||||||.|||||.||.|||.||||.||.||..|.|||||..||||||||
+Vidua_macrour   5705 TCCAGATCCTGATCCGTAACAGAGTGACAGACTTGGATGCTCGGATGAAT   5754
+
+Homo_sapiens    5827 GATGGTACTACACCCCTGATCCTGGCTGCCCGCCTGGCTGTGGAGGGAAT   5876
+                     |||||.||.||.||..|.||.||||||||.||.|||||||||||.||.||
+Vidua_macrour   5755 GATGGGACGACCCCGTTAATTCTGGCTGCACGTCTGGCTGTGGAAGGGAT   5804
+
+Homo_sapiens    5877 GGTGGCAGAACTGATCAACTGCCAAGCGGATGTGAATGCAGTGGATGACC   5926
+                     ||||||.||.||.||.||||||||.||.||||||||.||.||||||||||
+Vidua_macrour   5805 GGTGGCTGAGCTCATTAACTGCCAGGCTGATGTGAACGCCGTGGATGACC   5854
+
+Homo_sapiens    5927 ATGGAAAATCTGCTCTTCACTGGGCAGCTGCTGTCAATAATGTGGAGGCA   5976
+                     |.||.||||||||||||||||||||.|||||||||||.||||||||.|||
+Vidua_macrour   5855 ACGGTAAATCTGCTCTTCACTGGGCTGCTGCTGTCAACAATGTGGAAGCA   5904
+
+Homo_sapiens    5977 ACTCTTTTGTTGTTGAAAAATGGGGCCAACCGAGACATGCAGGACAACAA   6026
+                     ||.||..||.||.||||||||||.||||||.|||||||||||||.|||||
+Vidua_macrour   5905 ACACTAGTGCTGCTGAAAAATGGAGCCAACAGAGACATGCAGGATAACAA   5954
+
+Homo_sapiens    6027 GGAAGAGACACCTCTGTTTCTTGCTGCCCGGGAGGGGAGCTATGAAGCAG   6076
+                     |||.|||||.||.||.||.||||||||.|||||.||.||||.||||||.|
+Vidua_macrour   5955 GGAGGAGACTCCACTCTTCCTTGCTGCTCGGGAAGGCAGCTTTGAAGCCG   6004
+
+Homo_sapiens    6077 CCAAGATCCTGTTAGACCATTTTGCCAATCGAGACATCACAGACCATATG   6126
+                     |.||.|||.||.|.||.|||||||||||.|||||||||||.|||||.|||
+Vidua_macrour   6005 CAAAAATCTTGCTGGATCATTTTGCCAACCGAGACATCACGGACCACATG   6054
+
+Homo_sapiens    6127 GATCGTCTTCCCCGGGATGTGGCTCGGGATCGCATGCACCATGACATTGT   6176
+                     ||.||.||.||||||||.|||||.|.|||.||.||||||||.|||||.||
+Vidua_macrour   6055 GACCGGCTGCCCCGGGACGTGGCCCAGGACCGGATGCACCACGACATCGT   6104
+
+Homo_sapiens    6177 GCGCCTTCTGGATGAATACAATGTGACCCCAAGCCCT-CCAGGCA-----   6220
+                     ||..||.||..|.||.|||||.|||.|||..|||||| ||.||||     
+Vidua_macrour   6105 GCAGCTCCTCAACGAGTACAACGTGGCCCACAGCCCTGCCGGGCACCCCG   6154
+
+Homo_sapiens    6221 ---CCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGGGCCCAACAGA   6267
+                        ||.||.|||..|||||.|||||.||.|||||||||||.||||||||.
+Vidua_macrour   6155 GGGCCATGCTGAACTCTGCCCTCTCCCCAGTCATCTGTGGCCCCAACAGG   6204
+
+Homo_sapiens    6268 TCTTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGTCTAGACGGCC   6317
+                     ||.|||||||.||||||.|||.|..|..|..||||||||||..||...||
+Vidua_macrour   6205 TCCTTCCTCAACCTGAAACACGCGTCGCTAAGCAAGAAGTCACGAAAACC   6254
+
+Homo_sapiens    6318 CAGTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTTGCCAAGGAGG   6367
+                     .|.||||||..|   ||||||.||.||||||         .||||.||.|
+Vidua_macrour   6255 GAATGCCAAAGG---CATGCCCACCAGCCTC---------ACCAAAGATG   6292
+
+Homo_sapiens    6368 CAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGTGAG----AA   6413
+                     |||||            ||.||.|||||||||||.||.||||||    ||
+Vidua_macrour   6293 CAAAG------------AGGAGAAGGAAGAAGTCCCTCAGTGAGGGCAAA   6330
+
+Homo_sapiens    6414 GGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGATTCCCTAG   6463
+                     || .||..|.||.|||||.||.||.||..|.||.||.||.||||||||.|
+Vidua_macrour   6331 GG-GCAGTTTTCAGAGAGCTCCGTGACCCTGTCACCGGTGGATTCCCTGG   6379
+
+Homo_sapiens    6464 AATCTCCTCACACGTATGTTTCCGACACC-ACATCCTCTCCAATGATTAC   6512
+                     |.|||||.||..|.|.||..||.|| ||| ||.||.|||||..||||..|
+Vidua_macrour   6380 AGTCTCCCCATGCTTTTGCATCTGA-ACCGACCTCTTCTCCTGTGATGCC   6428
+
+Homo_sapiens    6513 ATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGCCACTGCCG   6562
+                     .||.||.|||.|..|.||..|.||.||||.|.|..||.||.|..||    
+Vidua_macrour   6429 GTCACCGGGGGTGCTGCACTCGTCGCCCAGCTCGCTGCTGACGGCT----   6474
+
+Homo_sapiens    6563 CCCCTC--------CTGCCCCAGTCCATGCCCAGCATGCACTATCTTTTT   6604
+                      ||.||        ||||          ||.||.||||     ||.||.|
+Vidua_macrour   6475 -CCGTCGGTGCAGGCTGC----------GCACACCATG-----TCCTTCT   6508
+
+Homo_sapiens    6605 CTAACCTTCATGAAATGCAGCCTTTGGCACATGGGGCCAGCACTGTGCTT   6654
+                     |.|||||.||.||.||||||||..|||..|..|||.|||||||.|||||.
+Vidua_macrour   6509 CCAACCTCCACGAGATGCAGCCCCTGGGGCGCGGGTCCAGCACGGTGCTC   6558
+
+Homo_sapiens    6655 CCCTCAGTGAGCCAGTTGCTATCCCACC-----ACCACATTGTGTCTCCA   6699
+                     ||.||.||.||||||.||||.||.||.|     |||||     ..||||.
+Vidua_macrour   6559 CCGTCCGTCAGCCAGCTGCTCTCGCAGCACAGAACCAC-----CCCTCCC   6603
+
+Homo_sapiens    6700 GGCAGTGGCAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCAGTC-C   6748
+                     ..|||.||    |||.|        |.|||||.|..||||.|...||| |
+Vidua_macrour   6604 AACAGCGG----GCTCG--------GCAGGCTGCGGCCAGGCAACGTCTC   6641
+
+Homo_sapiens    6749 CAGCAGATTGGATGAACCGCATGGAGGTGAATGAGACCCAGTACAATGAG   6798
+                     |||| ||.||||||||||||||||||||.||.|||.||||||||||.|||
+Vidua_macrour   6642 CAGC-GAGTGGATGAACCGCATGGAGGTCAACGAGTCCCAGTACAACGAG   6690
+
+Homo_sapiens    6799 ATGTTTGGTATGGTCCTGGCTCCAGCTGAGGGCA--CCCATCCTGGCATA   6846
+                     ||||||||.|||||    ||.||||.||| .|||  ||||.||..||.|.
+Vidua_macrour   6691 ATGTTTGGCATGGT----GCCCCAGGTGA-TGCATTCCCACCCCAGCGTT   6735
+
+Homo_sapiens    6847 GCTCCCCAGAGCAGG-------CCACCTGAAGGGAAGCAC------ATAA   6883
+                     .|||..||||| .||       |.|.|.||.|.|||||||      .|..
+Vidua_macrour   6736 TCTCAGCAGAG-TGGCTTGGTTCAAGCGGACGCGAAGCACCTGGGGGTGT   6784
+
+Homo_sapiens    6884 CCACCCCTCGGGAGCCCTTGCCCCCCATTGTGACTTTCCAGCTCATCCCT   6933
+                     |||      |||||.|.|||||||||||..|||||||||||||..|.||.
+Vidua_macrour   6785 CCA------GGGAGTCTTTGCCCCCCATCATGACTTTCCAGCTGGTTCCC   6828
+
+Homo_sapiens    6934 AAAGGCAGTATTGCCCAACCAGCGGGGGCTCCC----CAGCCTCAGTCCA   6979
+                     ||.|||||.||    .|||||||..|..||.||    |||.|.|||||.|
+Vidua_macrour   6829 AAGGGCAGCAT----AAACCAGCAAGCACTGCCACAGCAGGCCCAGTCAA   6874
+
+Homo_sapiens    6980 CCTGCCCTC----CAGCTGTTGCGGGCCCCCTGCCCACCATGTACCAGAT   7025
+                     .||||.|||    ||    |.||.|||||.||...|.|||||||||||||
+Vidua_macrour   6875 ACTGCGCTCAGAACA----TGGCTGGCCCTCTTAGCTCCATGTACCAGAT   6920
+
+Homo_sapiens    7026 TCCAGAAATGGCCCGTTTGCCCAGTGTGGCTTTCCCCA---CTGCCATGA   7072
+                     .|||||..|.||||...|||||||.|...|.|||.|||   |||||||  
+Vidua_macrour   6921 CCCAGATCTAGCCCAGCTGCCCAGCGCCTCGTTCTCCATGGCTGCCAT--   6968
+
+Homo_sapiens    7073 TGCCC-CAGCAGGACGGGCAGGTAGCTCAGACCATTCTCCCAGCCTATCA   7121
+                       ||| |||||||||||.|||||.||||||||..|.|||||.|||||.||
+Vidua_macrour   6969 --CCCTCAGCAGGACGGCCAGGTGGCTCAGACGGTCCTCCCGGCCTACCA   7016
+
+Homo_sapiens    7122 TCCTTTCCCAG-CCTCTGTGGGCAAGTACCCCACACCCCCTTCACAGCAC   7170
+                      ||..|.|||| .|||..||||||||||||||||.||.||.||.||||||
+Vidua_macrour   7017 -CCAGTTCCAGAGCTCGATGGGCAAGTACCCCACGCCTCCCTCCCAGCAC   7065
+
+Homo_sapiens    7171 AGTTATGCT--TCCTCAAATGCTGCTGAGCGAACACCCAGTCACAGTGGT   7218
+                     ||  .||||  |||||   .||..|.||.||.||.||.||.||||...|.
+Vidua_macrour   7066 AG--CTGCTACTCCTC---GGCCACAGAACGGACTCCTAGCCACAACCGG   7110
+
+Homo_sapiens    7219 CACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCAGAGTCTCCTGA   7268
+                     |||.|.||.||.|||||.||.||||||||.||.||.||.||.|||||.||
+Vidua_macrour   7111 CACTTACAAGGGGAGCACCCGTACCTGACTCCGTCGCCCGAATCTCCAGA   7160
+
+Homo_sapiens    7269 CCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTGGTCAGATGTGA   7318
+                     ||||||||||||.||.||.||.||||||||.|||||||||||.||.|||.
+Vidua_macrour   7161 CCAGTGGTCAAGCTCTTCCCCACACTCTGCCTCTGACTGGTCTGACGTGG   7210
+
+Homo_sapiens    7319 CCACCAGCCC---TACC--CCTGGGGGTGCTGGAGGAGGTCAGCGGGGAC   7363
+                     |.|||||.||   ||.|  ||.|.|.|          ||.||||||...|
+Vidua_macrour   7211 CAACCAGTCCCAGTAACAACCAGCGCG----------GGCCAGCGGCCGC   7250
+
+Homo_sapiens    7364 CTGGGACACACATGTCTGAGCCACCA-CACAACAACATGCAGGTTTATGC   7412
+                     |       ||||||.|.||| ||.|| |..||||||||||||||.||.||
+Vidua_macrour   7251 C-------CACATGACGGAG-CAGCAGCGGAACAACATGCAGGTGTACGC   7292
+
+Homo_sapiens    7413 G   7413
+                     .
+Vidua_macrour   7293 C   7293
+
+
+#---------------------------------------
+#---------------------------------------

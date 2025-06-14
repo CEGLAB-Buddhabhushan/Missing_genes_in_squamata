@@ -1,0 +1,110 @@
+########################################
+# Program: needle
+# Rundate: Sat 19 Apr 2025 23:19:57
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Puma_concolor.fa
+#    -outfile Homo_sapiens-Puma_concolor.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Puma_concolor.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Puma_concolor
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 910
+# Identity:     553/910 (60.8%)
+# Similarity:   553/910 (60.8%)
+# Gaps:         272/910 (29.9%)
+# Score: 2163.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGAAATGTGAGCCTGGGTGGCCAAGGACGCCGGAGTGGCCGCCTTCCCC     50
+                     ||||||||||||||.||||||||.||||||||||||.|||.||||.||..
+Puma_concolor      1 ATGAAATGTGAGCCCGGGTGGCCCAGGACGCCGGAGCGGCTGCCTGCCTG     50
+
+Homo_sapiens      51 GCGCCTGAGCGCAGTGGGGCGAGACAAAGAGACCTGGGCCCCCAGCGCAG    100
+                     .|||||||||||.|.|||..|||||||||||||||.|| |||||||||||
+Puma_concolor     51 CCGCCTGAGCGCCGCGGGCAGAGACAAAGAGACCTCGG-CCCCAGCGCAG     99
+
+Homo_sapiens     101 CCCGTCTCGGGCCACGGGCGCCCCAGCTCCGCGGAGTCCCGCAGTCGCTG    150
+                     |||  |.||.|||||||                                 
+Puma_concolor    100 CCC--CGCGCGCCACGG---------------------------------    114
+
+Homo_sapiens     151 GCCCGGGACGCGCCCGGCCCGGGCTCCCTTGGAAG--GCTCCCTAGG-CA    197
+                                       |||||.||||.|.||||  ||||   ||| ||
+Puma_concolor    115 ------------------CCGGGTTCCCCTCGAAGACGCTC---AGGACA    143
+
+Homo_sapiens     198 ATGGCCGGGTCTCTGCTCCACCCGGCTCTCAGGAGCGCTGCTCTCTCCAT    247
+                     ||||||.||||.|.||.|.||||..|||||.||||||||||.||||||.|
+Puma_concolor    144 ATGGCCCGGTCCCCGCGCGACCCCCCTCTCGGGAGCGCTGCCCTCTCCCT    193
+
+Homo_sapiens     248 CTGATCGCCCTCC--ATCCTCCCCATTCCCTCCGGTTCCGGGCTCTCCCT    295
+                     ||||.|||.||||  .||||||.|          |..|||||||||||||
+Puma_concolor    194 CTGACCGCGCTCCGGCTCCTCCGC----------GGCCCGGGCTCTCCCT    233
+
+Homo_sapiens     296 ------------------TCGCTCCA------------------------    303
+                                       ||.|||||                        
+Puma_concolor    234 TCTTCCCCCCATCAGCCCTCTCTCCAGTCTGTGCGTCTGTCCGTCTGTCC    283
+
+Homo_sapiens     304 --------AGCCTCAGGCCACCGGCTTGGATGGACGCTCCGAGGCTACCC    345
+                             |.||||.||||||||||||||||||||||.|.||||||.|||
+Puma_concolor    284 TGGCGCGCAACCTCCGGCCACCGGCTTGGATGGACGCGCTGAGGCTGCCC    333
+
+Homo_sapiens     346 GTGCGTCCAGGGGTCTTGCTTCCGAAGTTGGTCCTGCTCTTTGTCTACGC    395
+                     |.|.|||||||..||||||||||||||.||||||||||||||||||||||
+Puma_concolor    334 GGGGGTCCAGGAATCTTGCTTCCGAAGCTGGTCCTGCTCTTTGTCTACGC    383
+
+Homo_sapiens     396 AGATGATTGCCTTGCTCAGTGTGGCAAAGATTGCAAATCTTACTGCTGTG    445
+                     |||.||||||||||||||||||||||||||.||||.||||||||||||.|
+Puma_concolor    384 AGAGGATTGCCTTGCTCAGTGTGGCAAAGACTGCAGATCTTACTGCTGCG    433
+
+Homo_sapiens     446 ATGGAACCACGCCCTACTGTTGCTCCTACTACGCTTATATTGGGAATATC    495
+                     ||||..||||||||||||||||.|||||||||||.|||||||||||||||
+Puma_concolor    434 ATGGGGCCACGCCCTACTGTTGTTCCTACTACGCCTATATTGGGAATATC    483
+
+Homo_sapiens     496 CTCTCGGGCACTGCAATTGCGGGCATTGTTTTTGGAATAGTATTTATCAT    545
+                     |||||||||||.||||||||.|||||.||.||||||||.|||||.|||||
+Puma_concolor    484 CTCTCGGGCACCGCAATTGCTGGCATCGTGTTTGGAATTGTATTCATCAT    533
+
+Homo_sapiens     546 GGGGGTCATTGCTGGGATTGCCATATGCATCTGCATGTGCATGAAGAACC    595
+                     ||||||||||||.||||||||||||||.|||||||||||||||||.|||.
+Puma_concolor    534 GGGGGTCATTGCGGGGATTGCCATATGTATCTGCATGTGCATGAAAAACA    583
+
+Homo_sapiens     596 ACAGGGCGACCCGCGTGGGCATCCTCAGGACGACTCACATCAACACCGTC    645
+                     ||.|.|.||||||.||||||.||.|||||||.||.||||||||..||.||
+Puma_concolor    584 ACCGTGGGACCCGGGTGGGCGTCATCAGGACCACCCACATCAATGCCATC    633
+
+Homo_sapiens     646 TCCTCCTATCCTG------------------AATATGAACTCCATGAG--    675
+                     ||||||||.||||                  ..|||||   |||||||  
+Puma_concolor    634 TCCTCCTACCCTGTGGCACCACCACCCTATAGTTATGA---CCATGAGAT    680
+
+Homo_sapiens     676 ----------GCAGAGATCTTG--GTCTATTTTGTTCAACACTCT-----    708
+                               ||.||   ||||  |.|        ||...|||||     
+Puma_concolor    681 GGAATACTGTGCCGA---CTTGCCGCC--------TCCCTACTCTCCGAC    719
+
+Homo_sapiens     709 --------ATTCCAAGCATG------------------------------    720
+                             .||||..||| |                              
+Puma_concolor    720 CCCACAGGCTTCCGCGCA-GCGTTCTCCACCCCCTCCTTATCCTGGAAAT    768
+
+Homo_sapiens     720 --------------------------------------------------    720
+                                                                       
+Puma_concolor    769 TCAAGAAAACAGTCCTTCTCCCAGAACAGAATATGTGCCAATCAGAGATC    818
+
+Homo_sapiens     720 ----------    720
+                               
+Puma_concolor    819 TTGCTTGGAA    828
+
+
+#---------------------------------------
+#---------------------------------------

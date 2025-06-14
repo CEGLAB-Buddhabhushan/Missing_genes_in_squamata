@@ -1,0 +1,426 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 05:59:44
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Odocoileus_virginianus.fa
+#    -outfile Homo_sapiens-Odocoileus_virginianus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Odocoileus_virginianus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Odocoileus_virginianus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4859
+# Identity:    4094/4859 (84.3%)
+# Similarity:  4094/4859 (84.3%)
+# Gaps:         148/4859 ( 3.0%)
+# Score: 17814.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+                     |||||.||.||||||||||||.|||||||||.|||||||||.||.|||||
+Odocoileus_vi      1 ATGGCCGAGCGCGGGTGCCCGTTGGAGGCGGTGCCGCTGCCCGCTGAGGT     50
+
+Homo_sapiens      51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+                     |||||||||||||||.||||||||||||||||||||||||||||||||||
+Odocoileus_vi     51 GCGGGAGAGCCTGGCCGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+
+Homo_sapiens     101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+                     |||||||||||||||||||||||||||||||||||||||||||.|.|.||
+Odocoileus_vi    101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGCTGTGTA    150
+
+Homo_sapiens     151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+                     ||.||.|||||||||.|||||||.||.|||||||..||||||.|.| |||
+Odocoileus_vi    151 CCCCTCATTCAAGGAGTAGACCCCTCCCTGCAAGTGGAGAATCGCA-TCC    199
+
+Homo_sapiens     201 T-GGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGTCTCGG    249
+                     | ||||||.|||||.||.|.|||.|.||.||||||||||..|||.|.|||
+Odocoileus_vi    200 TCGGGCCCGCACAAGCCTCAGCCCCCGCGCCCAAGCAGCCCAAGCCACGG    249
+
+Homo_sapiens     250 CCCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAGCCAAT    299
+                     ||||.|..|.|..||||||||||||||||||||                 
+Odocoileus_vi    250 CCCAGCAACGCCCGGGATGAGCGCTTCCGGTCA-----------------    282
+
+Homo_sapiens     300 GTTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTATTTGGA    349
+                                                                       
+Odocoileus_vi    282 --------------------------------------------------    282
+
+Homo_sapiens     350 CCCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCCACACT    399
+                                                           |||||.||||||
+Odocoileus_vi    283 --------------------------------------GATGTTCACACT    294
+
+Homo_sapiens     400 GAAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTAT    449
+                     ||.||||||||.|||||||||||||||||||||||||||||||||||.||
+Odocoileus_vi    295 GAGGCCGTGCAGGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCCAT    344
+
+Homo_sapiens     450 GCCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTACA    499
+                     |||.||.|||||.||.||||||||...||||.|.||||||||..||||||
+Odocoileus_vi    345 GCCATCCAAGAGGCGCTCTGTCCTCACGCATGCATCTGTGGAGGCCTACA    394
+
+Homo_sapiens     500 CCCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCGA    549
+                     |.||.|||||||||||.||||||||||||||||||||||||||||.|||.
+Odocoileus_vi    395 CACCCCCAGACACGTCATCTGCCTCAGAAGATGAGGGCTCTTTACAGCGC    444
+
+Homo_sapiens     550 CCCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGCC    599
+                     |||||||||||..|||||.|||||||.|||||||...|||||||||||||
+Odocoileus_vi    445 CCCGGGCGACTGGCCTCCGCTCCGCTGCAGAGCCGCCCCAGCGTCGAGCC    494
+
+Homo_sapiens     600 CTGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCCT    649
+                     |||||.|||.|.||.|||||||||||||||||||||.|||||.||.||||
+Odocoileus_vi    495 CTGGCCCGAGCCGGCCATTCAGGGCTCGTCCACCTCCTCCTCCGCGTCCT    544
+
+Homo_sapiens     650 CCACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGCA    699
+                     |||||||||||||||||||||||                 ||| .||||.
+Odocoileus_vi    545 CCACCTCATCTCACCCGGGAGGG-----------------CAG-CCTGCC    576
+
+Homo_sapiens     700 GCCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCCA    749
+                     ||||||||..|.||.||||      |||||||.||.||||.||.|||||.
+Odocoileus_vi    577 GCCACGCCCAGTGCTGCCG------CTGCACTTGCCGGCCCCGTGGCCCT    620
+
+Homo_sapiens     750 CACCCACATAGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGCCTCG    799
+                     |||||.|.||||||||||.|||||||||||||||||||||||||||||||
+Odocoileus_vi    621 CACCCGCGTAGATCTGCACTCTGCCCCTCCTGATGTCACCACGGGCCTCG    670
+
+Homo_sapiens     800 TGGAGCAT------TCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGA    843
+                     ||.|||||      .|.||||..||||||||.|||.||.|.|||||||||
+Odocoileus_vi    671 TGCAGCATCAGCACGCATACTGCGAGCGTCCGCAGATGACCTCTGTGAGA    720
+
+Homo_sapiens     844 AGTGTTCCTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGGTGT    893
+                     .|.||.||||||||.|||.|||||||..|.||.||.||.||||.||||||
+Odocoileus_vi    721 GGAGTCCCTCGGGGCTGCCGCGGGAGTGTCCTAGAGACGGCAGGTGGTGT    770
+
+Homo_sapiens     894 CCCTGTGAACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCC    943
+                     |||.||||.||||||.|||||||||||.|||||||||||.||||||||||
+Odocoileus_vi    771 CCCCGTGAGCAGCAGGGTGTCCTCCAAGATCCAGCAGCTCCTGAACACCC    820
+
+Homo_sapiens     944 TGAAGAGGCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTT    993
+                     ||||||||||||||||||||||.|||||.|||||||||||||||||..||
+Odocoileus_vi    821 TGAAGAGGCCAAAGCGCCCTCCCCTGAAAGAGTTCTTTGTGGATGACCTT    870
+
+Homo_sapiens     994 GAGGAATTGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGA   1043
+                     ||.||..||||||||||.|||||.||.|||||.||.||.||.|||||.||
+Odocoileus_vi    871 GAAGAGCTGTTGGAAGTGCAGCAGCCGGATCCGAACCAACCGAAGCCCGA    920
+
+Homo_sapiens    1044 GGGAAGCGAGACGAGTGTGCTGAGAGGGGAGCCTCTCACTGCAGGTGTCC   1093
+                     |||.|||.|.|.|...||||||.||||||||||.||   .||.|..|.|.
+Odocoileus_vi    921 GGGCAGCCAAATGGCGGTGCTGCGAGGGGAGCCGCT---GGCCGAGGGCT    967
+
+Homo_sapiens    1094 CCCGACCGCCGTCGCTGTTGGCCACCTTGCAGCGCTGGGGCACAACACAG   1143
+                     ||.|.|||||.||||||.|||||.|||||||||..|||||.||.||||||
+Odocoileus_vi    968 CCTGGCCGCCCTCGCTGCTGGCCGCCTTGCAGCAGTGGGGTACCACACAG   1017
+
+Homo_sapiens    1144 CCCAAATCCCCCTGTCTGACTGCCTTGGATACAACTGGGAAAGCCGTCTA   1193
+                     ||||||.|.||.||.|||||||||.||||.||..|.|||||.||||||||
+Odocoileus_vi   1018 CCCAAAGCTCCGTGCCTGACTGCCCTGGACACCGCCGGGAAGGCCGTCTA   1067
+
+Homo_sapiens    1194 CACTCTCACCTATGGTAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATA   1243
+                     |||.|||||||||||.||||||||||||||.|||||||||||||||||||
+Odocoileus_vi   1068 CACCCTCACCTATGGCAAACTTTGGAGTCGAAGTTTAAAACTAGCTTATA   1117
+
+Homo_sapiens    1244 CTCTACTTAATAAACTGACAAGTAAGAATGAACCTCTACTTAAACCTGGA   1293
+                     |.|||||||||||||||||.|.||||||.|||||.||.||||||||||||
+Odocoileus_vi   1118 CGCTACTTAATAAACTGACTAATAAGAACGAACCACTGCTTAAACCTGGA   1167
+
+Homo_sapiens    1294 GACAGAGTGGCGCTCGTGTTTCCGAATAGTGACCCTGTGATGTTCATGGT   1343
+                     ||||||||||||||.|||||.|||||.||||||||.||||||||||||||
+Odocoileus_vi   1168 GACAGAGTGGCGCTGGTGTTCCCGAACAGTGACCCAGTGATGTTCATGGT   1217
+
+Homo_sapiens    1344 TGCATTTTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAG   1393
+                     |||.||.||.||||||||||||||.||||||||||||||||||||.||||
+Odocoileus_vi   1218 TGCGTTCTACGGGTGTCTCCTGGCCGAGCTGGTTCCTGTCCCCATCGAAG   1267
+
+Homo_sapiens    1394 TGCCATTAACAAGAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTCTGCTG   1443
+                     ||||..|.||.|||||||||||.||||||||||||||.||||||||||||
+Odocoileus_vi   1268 TGCCGCTCACGAGAAAGGATGCTGGCAGCCAGCAGGTCGGGTTTCTGCTG   1317
+
+Homo_sapiens    1444 GGCAGCTGTGGAGTCTTCTTGGCCCTGACCACAGACGCTTGTCAGAAAGG   1493
+                     |||||||||||..|||.|.|||||||||||||||||||||||||||||||
+Odocoileus_vi   1318 GGCAGCTGTGGCATCTCCCTGGCCCTGACCACAGACGCTTGTCAGAAAGG   1367
+
+Homo_sapiens    1494 CCTCCCCAAGGCACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTGGCCCC   1543
+                     |||.||||||||.|||||.||||||||||...|.||||||||.|||||||
+Odocoileus_vi   1368 CCTGCCCAAGGCTCAGACCGGAGAGGTGGTGACCTTCAAAGGCTGGCCCC   1417
+
+Homo_sapiens    1544 CGCTCTCCTGGCTAGTGATTGATGGGAAGCATCTAGCCAAGCCCCCAAAG   1593
+                     |.|||.|||||||.|||||.|||||||||||.||..||||||||||.|||
+Odocoileus_vi   1418 CCCTCACCTGGCTGGTGATAGATGGGAAGCACCTGACCAAGCCCCCCAAG   1467
+
+Homo_sapiens    1594 GACTGGCACCCTCTGGC---CCAGGACACAGGGACTGGGACTGCCTACAT   1640
+                     |||||||||||   |||   .|||||..|.|||.|..||||.||||||||
+Odocoileus_vi   1468 GACTGGCACCC---GGCATTGCAGGATGCGGGGCCCCGGACCGCCTACAT   1514
+
+Homo_sapiens    1641 TGAGTATAAAACCAGCAAAGAAGGCAGTACGGTGGGGGTCACAGTGTCCC   1690
+                     .|||||.|||||||||||.||.||.|||||||||||.||..|.|||||.|
+Odocoileus_vi   1515 CGAGTACAAAACCAGCAAGGAGGGAAGTACGGTGGGAGTGGCGGTGTCGC   1564
+
+Homo_sapiens    1691 ACGCATCCCTGCTGGCACAGTGCCGGGCTCTGACCCAGGCGTGCGGGTAC   1740
+                     |.||.|||||||||||.|||||||.|.|||||||||||||||||||.|||
+Odocoileus_vi   1565 ATGCGTCCCTGCTGGCGCAGTGCCAGTCTCTGACCCAGGCGTGCGGCTAC   1614
+
+Homo_sapiens    1741 TCAGAAGCTGAAACATTAACAAACGTGCTGGATTTCAAAAGGGATGCTGG   1790
+                     ||.||||||||||||||||||||.|||||||||||||||||||||||.||
+Odocoileus_vi   1615 TCGGAAGCTGAAACATTAACAAATGTGCTGGATTTCAAAAGGGATGCCGG   1664
+
+Homo_sapiens    1791 TCTGTGGCATGGCGTGTTAACAAGCGTCATGAACAGGATGCACGTGGTCA   1840
+                     .|||||||||||.||||||||||||.||.||||||||||.||.|||||||
+Odocoileus_vi   1665 CCTGTGGCATGGAGTGTTAACAAGCATCCTGAACAGGATACATGTGGTCA   1714
+
+Homo_sapiens    1841 GCGTCCCCTACGCGCTGATGAAGGCGAACCCACTCTCCTGGATCCAGAAA   1890
+                     ||.||||.||.||||||||||||||||||||||||||||||||.||||||
+Odocoileus_vi   1715 GCATCCCGTATGCGCTGATGAAGGCGAACCCACTCTCCTGGATTCAGAAA   1764
+
+Homo_sapiens    1891 GTGTGCTTCTATAAAGCTCGGGCCGCGCTGGTGAAGTCGCGAGACATGCA   1940
+                     |||||..|.||||||||.|..||.||.|||||.|||||.||.||||||||
+Odocoileus_vi   1765 GTGTGTGTGTATAAAGCCCAAGCTGCACTGGTAAAGTCCCGCGACATGCA   1814
+
+Homo_sapiens    1941 CTGGTCTCTCCTAGCTCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTCAC   1990
+                     .|||||||||.|.||||||||.||.|||||||||||||||||||||||.|
+Odocoileus_vi   1815 TTGGTCTCTCTTGGCTCAGCGAGGTCAGAGGGACGTCAGCCTCAGCTCCC   1864
+
+Homo_sapiens    1991 TGCGCATGCTGATTGTGGCCGATGGTGCCAACCCGTGGTCGATCTCCTCC   2040
+                     |||||.|||||||.|||||.||||||||.|||||.|||||.||.||||||
+Odocoileus_vi   1865 TGCGCCTGCTGATCGTGGCTGATGGTGCAAACCCCTGGTCCATATCCTCC   1914
+
+Homo_sapiens    2041 TGTGACGCCTTCCTCAACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGT   2090
+                     |||||.||.||||||||||||||||||.|||||||.||||||||||||||
+Odocoileus_vi   1915 TGTGATGCATTCCTCAACGTCTTCCAGGCCAGAGGGCTGAGGCCAGAGGT   1964
+
+Homo_sapiens    2091 CATCTGTCCTTGTGCAAGTTCTCCTGAGGCGCTGACTGTCGCCATCCGCA   2140
+                     |||||||||.|||||.||.||.||.||||||||.||.||.||||||||||
+Odocoileus_vi   1965 CATCTGTCCCTGTGCCAGCTCACCGGAGGCGCTCACCGTGGCCATCCGCA   2014
+
+Homo_sapiens    2141 GGCCACCTGATCTGGGAGGACCACCTCCAAGAAAAGCAGTCCTGTCGATG   2190
+                     ||||.||||||.||||.||.||.||||||||||.|||.||.|||||.|||
+Odocoileus_vi   2015 GGCCGCCTGATATGGGGGGCCCTCCTCCAAGAAGAGCTGTGCTGTCCATG   2064
+
+Homo_sapiens    2191 AACGGTCTAAGTTATGGTGTTATCAGAGTGGATACTGAAGAAAAGTTGTC   2240
+                     |..||.||.|||.||||.||.|||||||||||..||||.||.|||.||||
+Odocoileus_vi   2065 AGTGGCCTCAGTCATGGGGTGATCAGAGTGGACGCTGAGGAGAAGCTGTC   2114
+
+Homo_sapiens    2241 AGTCCTTACTGTTCAGGACGTTGGTCAGGTGATGCCTGGAGCTAATGTAT   2290
+                     .|||||.||.||||||||.||.||.||||||||||||||||||||.||.|
+Odocoileus_vi   2115 GGTCCTCACAGTTCAGGATGTCGGCCAGGTGATGCCTGGAGCTAACGTGT   2164
+
+Homo_sapiens    2291 GTGTTGTGAAGTTAGAAGGTACCCCTTATCTTTGTAAAACTGATGAAGTG   2340
+                     |||||||||||.|.||.|||||||||.||||.||.||||||||||||||.
+Odocoileus_vi   2165 GTGTTGTGAAGGTGGAGGGTACCCCTCATCTCTGCAAAACTGATGAAGTT   2214
+
+Homo_sapiens    2341 GGAGAAATATGCGTCAGTTCCAGTGCAACTGGC-ACAGCGTACTATGGAT   2389
+                     |||||.||.||.||....||||||||.|| ||| |||||.||||||||..
+Odocoileus_vi   2215 GGAGAGATCTGTGTGGACTCCAGTGCGAC-GGCGACAGCATACTATGGGC   2263
+
+Homo_sapiens    2390 TGCTTGGAATCACGAAGAATGTGTTTGAGGCAGTTCCGGTCACCACAGGA   2439
+                     |||||||.|||||.||.||.||.||||||.|.||.||.|||||..|.||.
+Odocoileus_vi   2264 TGCTTGGGATCACCAAAAACGTCTTTGAGACTGTCCCTGTCACTGCTGGG   2313
+
+Homo_sapiens    2440 GGAGCACCCATCTTTGACAGGCCATTCACCAGGACAGGCCTGCTGGGCTT   2489
+                     ||.|||||..|||..|||.|.||.|||||||||||.||.||.||||||||
+Odocoileus_vi   2314 GGCGCACCTGTCTCGGACCGACCTTTCACCAGGACGGGGCTTCTGGGCTT   2363
+
+Homo_sapiens    2490 CATCGGGCCTGACAACCTGGTCTTCATCGTGGGCAAACTGGACGGGCTGA   2539
+                     ||||||||||||..|||||||||||.||||||||||.|||||||||||||
+Odocoileus_vi   2364 CATCGGGCCTGATGACCTGGTCTTCGTCGTGGGCAAGCTGGACGGGCTGA   2413
+
+Homo_sapiens    2540 TGGTCACTGGAGTTCGCAGACACAATGCAGATGACGTTGTGGCCACCGCA   2589
+                     ||||....|||.|||||||||||||.||.||||||||.||||||||.||.
+Odocoileus_vi   2414 TGGTGGTGGGATTTCGCAGACACAACGCGGATGACGTGGTGGCCACTGCG   2463
+
+Homo_sapiens    2590 CTGGCCGTGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTT   2639
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+Odocoileus_vi   2464 CTGGCCGTGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATTGCTGTGTT   2513
+
+Homo_sapiens    2640 CTCTGTGACCGTGCTGCACGACGACCGGATTGTCCTGGTGGCTGAGCAGC   2689
+                     |||.|||||.|||||.||.|||||||||||.||.||||||||.|||||||
+Odocoileus_vi   2514 CTCCGTGACAGTGCTCCATGACGACCGGATCGTGCTGGTGGCGGAGCAGC   2563
+
+Homo_sapiens    2690 GGCCGGATGCCTCGGAGGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTG   2739
+                     ||||.||.|||||.|||||||||||||||||||||||||||||.||||||
+Odocoileus_vi   2564 GGCCTGACGCCTCCGAGGAGGACAGCTTCCAGTGGATGAGCCGCGTGCTG   2613
+
+Homo_sapiens    2740 CAGGCCATTGATAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGT   2789
+                     ||||||||.||.||||||||||||||||||||||||||||||||||||||
+Odocoileus_vi   2614 CAGGCCATCGACAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGT   2663
+
+Homo_sapiens    2790 TCCTGCCAACACCTTGCCCAAGGCTCCTCTCGGAGGGATTCACATTTCTG   2839
+                     |||||||||||||||||||||||||||||||||.|||||||||.||||||
+Odocoileus_vi   2664 TCCTGCCAACACCTTGCCCAAGGCTCCTCTCGGTGGGATTCACGTTTCTG   2713
+
+Homo_sapiens    2840 AAACCAAACAGCGCTTTCTGGAAGGGACGCTGCACCCGTGTAATGTGCTG   2889
+                     |||||||.||||||||.|||||.||||.|||||||||.|||||||||.||
+Odocoileus_vi   2714 AAACCAAGCAGCGCTTCCTGGAGGGGATGCTGCACCCATGTAATGTGTTG   2763
+
+Homo_sapiens    2890 ATGTGCCCTCACACCTGTGTTACCAACCTCCCCAAACCTCGTCAGAAACA   2939
+                     ||||||||||||||.||||||||||||||.|||||.|||||.|||||.||
+Odocoileus_vi   2764 ATGTGCCCTCACACATGTGTTACCAACCTTCCCAAGCCTCGGCAGAAGCA   2813
+
+Homo_sapiens    2940 ACCAGAGGTTGGACCAGCCTCAATGATCGTGGGGAACCTGGTTGCTGGGA   2989
+                     .||||||||||||||.|||||.||||||||.|||||||||||.||.||||
+Odocoileus_vi   2814 GCCAGAGGTTGGACCTGCCTCCATGATCGTTGGGAACCTGGTCGCCGGGA   2863
+
+Homo_sapiens    2990 AGAGAATCGCTCAGGCTTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGC   3039
+                     |||||||.||||||||.||.|||||.|||||..|.||||||||||||||.
+Odocoileus_vi   2864 AGAGAATTGCTCAGGCCTCAGGGAGGGAGCTGTCTCACCTGGAGGACAGT   2913
+
+Homo_sapiens    3040 GACCAGGCACGGAAGTTCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGC   3089
+                     ||||||||..|||||||||||||||||.|.||.||||||||||||||.||
+Odocoileus_vi   2914 GACCAGGCGAGGAAGTTCCTGTTCCTGCCCGATGTGCTGCAGTGGCGGGC   2963
+
+Homo_sapiens    3090 CCACACCACTCCTGACCACCCGCTGTTCTTGCTGCTGAACGCCAAGGGCA   3139
+                     |||||||||.||.||.||||||||||||.|||||||.||.||||||||||
+Odocoileus_vi   2964 CCACACCACCCCCGAACACCCGCTGTTCCTGCTGCTCAATGCCAAGGGCA   3013
+
+Homo_sapiens    3140 CCGTCACAAGCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGA   3189
+                     |.|||||.|||||.||||||||.||||||||.|||||||.|||.|||.||
+Odocoileus_vi   3014 CAGTCACCAGCACGGCAACCTGCGTCCAGCTCCACAAAAAGGCCGAGCGA   3063
+
+Homo_sapiens    3190 GTGGCCGCGGCTCTGATGGAGAAGGGAAGACTGAGTGTTGGGGACCATGT   3239
+                     ||||||||.|||||||.||||||||.|||.||.||.|..||||.||||||
+Odocoileus_vi   3064 GTGGCCGCTGCTCTGACGGAGAAGGCAAGGCTCAGCGCCGGGGCCCATGT   3113
+
+Homo_sapiens    3240 GGCTCTGGTCTACCCACCAGGGGTGGACCTCATTGCCGCGTTCTATGGCT   3289
+                     |||.|||||||||||.||||||||||||||||||||.||.|||||.||||
+Odocoileus_vi   3114 GGCCCTGGTCTACCCTCCAGGGGTGGACCTCATTGCTGCCTTCTACGGCT   3163
+
+Homo_sapiens    3290 GCTTGTACTGTGGCTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAG   3339
+                     ||.|||||||.|||||||||||||||||||||||||||||.|||||.|||
+Odocoileus_vi   3164 GCCTGTACTGCGGCTGCGTGCCTGTCACCGTGCGGCCCCCACACCCCCAG   3213
+
+Homo_sapiens    3340 AACCTCGGCACCACACTGCCCACCGTCAAGATGATCGTGGAGGTCAGCAA   3389
+                     |||||||.|||||||||.||.||.|||||.|||||.||||||||||||||
+Odocoileus_vi   3214 AACCTCGCCACCACACTTCCTACTGTCAAAATGATTGTGGAGGTCAGCAA   3263
+
+Homo_sapiens    3390 GTCTGCATGCGTCCTCACCACGCAGGCTGTCACACGGCTGCTCAGGTCCA   3439
+                     ||||||.|||||.||||||||||||||..|||..||||||||||||||||
+Odocoileus_vi   3264 GTCTGCGTGCGTGCTCACCACGCAGGCCATCATGCGGCTGCTCAGGTCCA   3313
+
+Homo_sapiens    3440 AGGAGGCTGCTGCTGCCGTGGACATCAGGACCTGGCCCACCATCCTAGAC   3489
+                     |.||.||.||.||..||||||||..||||||||||||.|||||.||.|||
+Odocoileus_vi   3314 AAGAAGCAGCGGCCACCGTGGACGCCAGGACCTGGCCGACCATTCTGGAC   3363
+
+Homo_sapiens    3490 ACAGATGACATCCCAAAAAAGAAGATAGCAAGCGTTTTCAGGCCCCCCTC   3539
+                     |||||||||||.||.||.||||||.|.||.|||.|.|||||||||||.||
+Odocoileus_vi   3364 ACAGATGACATACCCAAGAAGAAGGTGGCCAGCATCTTCAGGCCCCCGTC   3413
+
+Homo_sapiens    3540 CCCCGATGTCCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGATAT   3589
+                     |||.|||||.|||||.|||||||||||||||||||||||.||.|||||..
+Odocoileus_vi   3414 CCCGGATGTGCTCGCGTACTTGGACTTCAGCGTGTCAACGACAGGGATCC   3463
+
+Homo_sapiens    3590 TAGCGGGAGTGAAGATGTCGCACGCGGCCACAAGCGCCTTATGCCGCTCC   3639
+                     |.||.||.||||||||||||||.||||||||.||.|||.|.|||||||||
+Odocoileus_vi   3464 TGGCAGGTGTGAAGATGTCGCATGCGGCCACCAGTGCCCTGTGCCGCTCC   3513
+
+Homo_sapiens    3640 ATAAAGCTGCAGTGTGAGCTGTACCCCTCGCGGCAGATCGCCATCTGCCT   3689
+                     ||.||||||||.||||||||||||||.||..|||||||||||||||||||
+Odocoileus_vi   3514 ATCAAGCTGCAATGTGAGCTGTACCCGTCCAGGCAGATCGCCATCTGCCT   3563
+
+Homo_sapiens    3690 CGACCCCTACTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCT   3739
+                     ||||||||||||||||||.||.||.||||||||||||||.|||||.||||
+Odocoileus_vi   3564 CGACCCCTACTGTGGCCTCGGCTTCGCCCTGTGGTGTCTCTGCAGCGTCT   3613
+
+Homo_sapiens    3740 ACTCGGGACACCAATCAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAAC   3789
+                     |||||||||||||.||.||.|||||||||||||.|||||||||||.||||
+Odocoileus_vi   3614 ACTCGGGACACCAGTCGGTACTGGTGCCCCCGCCGGAGCTGGAGACCAAC   3663
+
+Homo_sapiens    3790 GTGTCCCTGTGGCTGTCGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTT   3839
+                     ||||||||||||||||.|||||||||||||||||||||.|||||||||||
+Odocoileus_vi   3664 GTGTCCCTGTGGCTGTGGGCCGTCAGCCAGTACAAGGCGCGCGTCACCTT   3713
+
+Homo_sapiens    3840 CTGCTCCTACTCTGTGATGGAGATGTGCACCAAGGGCCTAGGCGCACAGA   3889
+                     ||||||||||||.|||||||||||||||.||..||||||.|||||.||||
+Odocoileus_vi   3714 CTGCTCCTACTCCGTGATGGAGATGTGCGCCCGGGGCCTGGGCGCGCAGA   3763
+
+Homo_sapiens    3890 CGGGTGTCCTCAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACGTGC   3939
+                     |||..|..|||||.||||||||.|||||||||||.|||||||||||.|||
+Odocoileus_vi   3764 CGGCGGCGCTCAGAATGAAGGGCGTGAACCTGTCGTGTGTGCGCACCTGC   3813
+
+Homo_sapiens    3940 ATGGTGGTCGCCGAGGAGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTC   3989
+                     ||||||||.||.||||||||||||||.||.|||||.||.|||||||||||
+Odocoileus_vi   3814 ATGGTGGTGGCTGAGGAGCGGCCCAGAATCGCGCTCACACAGTCCTTCTC   3863
+
+Homo_sapiens    3990 CAAGCTCTTCAAGGACCTGGGCCTGCCGGCCCGCGCCGTAAGCACCACGT   4039
+                     ||||||.||||..||||||||||||||.||.||||||||.||||||||||
+Odocoileus_vi   3864 CAAGCTGTTCAGAGACCTGGGCCTGCCCGCACGCGCCGTGAGCACCACGT   3913
+
+Homo_sapiens    4040 TCGGGTGCAGGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGA   4089
+                     ||||.|||||||||||||||||||||||||||||||||||||||||||||
+Odocoileus_vi   3914 TCGGCTGCAGGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGA   3963
+
+Homo_sapiens    4090 AAGCTGGCTGAGCAGGGCACAGCTGGCCCGGACCCCACAACCGTCTACGT   4139
+                     |||||||||||||||||||||||.|||||.|||||||||||.|||||.||
+Odocoileus_vi   3964 AAGCTGGCTGAGCAGGGCACAGCCGGCCCAGACCCCACAACTGTCTATGT   4013
+
+Homo_sapiens    4140 GGACATGCGGGCACTGCGCCATGACAGGGTTCGTTTGGTAGAACGGGGTT   4189
+                     ||||||||||||||||||||||||||||||.|||.||||.||||||||||
+Odocoileus_vi   4014 GGACATGCGGGCACTGCGCCATGACAGGGTACGTCTGGTGGAACGGGGTT   4063
+
+Homo_sapiens    4190 CTCCGCACAGCCTGCCATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTG   4239
+                     ||||||||||.||||||||||..||||||||||||||.|||||.||.|||
+Odocoileus_vi   4064 CTCCGCACAGTCTGCCATTGACTGAGTCTGGAAAGATTCTCCCGGGAGTG   4113
+
+Homo_sapiens    4240 AAGGTCATCATCGCACACACCGAGACCAAAGGACCCTTGGGAGACTCACA   4289
+                     ||||||||||||||.|||||.|||||||.|||.|||.||||||||||.||
+Odocoileus_vi   4114 AAGGTCATCATCGCCCACACGGAGACCAGAGGGCCCCTGGGAGACTCGCA   4163
+
+Homo_sapiens    4290 CCTGGGAGAGATCTGGGTAAGCAGCCCCCACAATGCCACCGGGTACTACA   4339
+                     ||||||.|||||||||||.||.||||||||||||||||||||||||||||
+Odocoileus_vi   4164 CCTGGGGGAGATCTGGGTGAGTAGCCCCCACAATGCCACCGGGTACTACA   4213
+
+Homo_sapiens    4340 CCGTTTACGGGGAGGAGGCGCTTCATGCCGACCACTTCAGTGCCCGGCTG   4389
+                     |.||.||||||||.||||.|||.|||||||||||||||||||||||||||
+Odocoileus_vi   4214 CAGTCTACGGGGAAGAGGGGCTCCATGCCGACCACTTCAGTGCCCGGCTG   4263
+
+Homo_sapiens    4390 AGTTTTGGAGACACACAGACCATCTGGGCAAGGACCGGCTACCTTGGCTT   4439
+                     |||||.||||||||.||||||.|.|||||.|||||.||||.|||.|||||
+Odocoileus_vi   4264 AGTTTCGGAGACACCCAGACCGTTTGGGCGAGGACTGGCTTCCTGGGCTT   4313
+
+Homo_sapiens    4440 CCTTCGGCGAACAGAGCTCACTGATGCCAGTGGAGGGCGGCACGATGCAC   4489
+                     ||||||..|.|||||||||||.||.||||||||||.|||.||.||.||.|
+Odocoileus_vi   4314 CCTTCGAAGGACAGAGCTCACCGACGCCAGTGGAGAGCGACATGACGCGC   4363
+
+Homo_sapiens    4490 TGTATGTGGTTGGGTCTCTGGATGAAACTCTGGAGCTCAGAGGCATGCGG   4539
+                     ||||.|||||.|||||.|||||.||.||.||||||||.||.||||||||.
+Odocoileus_vi   4364 TGTACGTGGTGGGGTCCCTGGACGAGACGCTGGAGCTGAGGGGCATGCGC   4413
+
+Homo_sapiens    4540 TACCACCCCATCGACATTGAGACCTCTGTCATCCGAGCACACAGGAGCAT   4589
+                     |||||||||||.|||||.|||||.||.||.|||||.||.|||||||||||
+Odocoileus_vi   4414 TACCACCCCATTGACATCGAGACGTCCGTGATCCGTGCGCACAGGAGCAT   4463
+
+Homo_sapiens    4590 CGCTGAGTGTGCCGTATTCACCTGGACCAACCTGCTGGTGGTGGTGGTGG   4639
+                     ||||||.||||||||.|||||.||||||||||||||||||||||||||||
+Odocoileus_vi   4464 CGCTGAATGTGCCGTGTTCACGTGGACCAACCTGCTGGTGGTGGTGGTGG   4513
+
+Homo_sapiens    4640 AGCTGGATGGGCTAGAGCAGGATGCCCTGGACCTGGTGGCCCTGGTGACC   4689
+                     |||||||||||||.||||||||.||.|||||.|||||||||||||||||.
+Odocoileus_vi   4514 AGCTGGATGGGCTGGAGCAGGACGCGCTGGATCTGGTGGCCCTGGTGACG   4563
+
+Homo_sapiens    4690 AACGTGGTGCTGGAGGAGCACTACCTGGTCGTGGGAGTGGTGGTCATCGT   4739
+                     |||||||||||||||||||||.|||||||.|||||.||||||||||||||
+Odocoileus_vi   4564 AACGTGGTGCTGGAGGAGCACCACCTGGTGGTGGGTGTGGTGGTCATCGT   4613
+
+Homo_sapiens    4740 GGACCCAGGGGTGATCCCTATCAACTCTCGGGGTGAGAAGCAGCGCATGC   4789
+                     |||.||.||.||.|||||.||||||||.||.||.||||||||||||||||
+Odocoileus_vi   4614 GGATCCGGGTGTCATCCCCATCAACTCCCGCGGGGAGAAGCAGCGCATGC   4663
+
+Homo_sapiens    4790 ACCTGCGGGACGGCTTCCTGGCTGACCAGCTGGACCCCATCTATGTCGCC   4839
+                     |||||||.||.||||||||.||.||||||||||||||||||||.||.|||
+Odocoileus_vi   4664 ACCTGCGTGATGGCTTCCTAGCCGACCAGCTGGACCCCATCTACGTGGCC   4713
+
+Homo_sapiens    4840 TACAACATG   4848
+                     |||||||||
+Odocoileus_vi   4714 TACAACATG   4722
+
+
+#---------------------------------------
+#---------------------------------------

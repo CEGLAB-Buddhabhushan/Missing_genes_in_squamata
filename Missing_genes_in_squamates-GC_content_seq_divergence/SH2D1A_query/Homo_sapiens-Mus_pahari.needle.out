@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:55
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Mus_pahari.fa
+#    -outfile Homo_sapiens-Mus_pahari.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Mus_pahari.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Mus_pahari
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 438
+# Identity:     333/438 (76.0%)
+# Similarity:   333/438 (76.0%)
+# Gaps:          60/438 (13.7%)
+# Score: 1426.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     |||||.||||||.|||||||.||.|||||||||||||||||.|||||.||
+Mus_pahari         1 ATGGATGCAGTGACTGTGTACCACGGCAAAATCAGCAGGGAGACCGGGGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     |||||||.|.||.||.||.|||||||||||.||||||.|||||.|.||||
+Mus_pahari        51 GAAGCTCTTACTCGCTACGGGGCTGGATGGAAGCTATCTGCTGCGAGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCT-------------    137
+                     |||||||.||.||.||||||||||||||.|||||.||             
+Mus_pahari       101 GCGAGAGTGTCCCTGGCGTGTACTGCCTGTGTGTTCTTGTGCATAGTGCC    150
+
+Homo_sapiens     138 -----------------------------------------GTATCACGG    146
+                                                              ||||||.||
+Mus_pahari       151 TTCCAGCACTATGTATTAGCCTATGTAGATGAAGCTACCAGGTATCAAGG    200
+
+Homo_sapiens     147 TTACATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTG    196
+                     ||||||.||||||||.||||||||||||||||||||||||||||||||||
+Mus_pahari       201 TTACATCTATACATATCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTG    250
+
+Homo_sapiens     197 CTGAGACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAAT    246
+                     ||||||||||||||||||||||||||||||.||||||||||.||||||||
+Mus_pahari       251 CTGAGACAGCACCTGGGGTACATAAAAGATTTTTCCGGAAAGTAAAAAAT    300
+
+Homo_sapiens     247 CTCATTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTCTGCA    296
+                     |||||||||||.|||||||||||||||||||||||.||||.|||||||||
+Mus_pahari       301 CTCATTTCAGCGTTTCAGAAGCCAGATCAAGGCATCGTAACACCTCTGCA    350
+
+Homo_sapiens     297 GTATCCAGTTGAGAAGAAGTCCTCAGCTAGAAGTACACAAGGTACTACAG    346
+                     |||||||||||   |.||||||||.||.||..|..|||.||.|.|.||||
+Mus_pahari       351 GTATCCAGTTG---AAAAGTCCTCTGCCAGGGGCCCACCAGCTCCCACAG    397
+
+Homo_sapiens     347 GGATAAGAGAAGATCCTGATGTCTGCCTGAAAGCCCCA    384
+                     |||.|||   ||||.|||||.|||||||.||.||.|||
+Mus_pahari       398 GGAGAAG---AGATTCTGATATCTGCCTTAATGCACCA    432
+
+
+#---------------------------------------
+#---------------------------------------

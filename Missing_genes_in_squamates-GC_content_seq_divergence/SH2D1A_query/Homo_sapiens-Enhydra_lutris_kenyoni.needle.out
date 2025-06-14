@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:48
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Enhydra_lutris_kenyoni.fa
+#    -outfile Homo_sapiens-Enhydra_lutris_kenyoni.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Enhydra_lutris_kenyoni.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Enhydra_lutris_kenyoni
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 465
+# Identity:     354/465 (76.1%)
+# Similarity:   354/465 (76.1%)
+# Gaps:          81/465 (17.4%)
+# Score: 1600.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     ||||||||||||||.|||||.||.||||||||||||.||||.||.||.||
+Enhydra_lutri      1 ATGGACGCAGTGGCCGTGTACCACGGCAAAATCAGCCGGGAGACGGGGGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     |||||||||.||||||||.||.|||||||||||||||||||||||.||||
+Enhydra_lutri     51 GAAGCTCCTACTTGCCACGGGTCTGGATGGCAGCTATTTGCTGAGAGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCTGTATCACGGTTAC    150
+                     |.||||.|||.||.||||||||||||||.||||||||||||||.||||||
+Enhydra_lutri    101 GTGAGACCGTCCCCGGCGTGTACTGCCTGTGTGTGCTGTATCAAGGTTAC    150
+
+Homo_sapiens     151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTG-    199
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+Enhydra_lutri    151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+
+Homo_sapiens     199 --------------------------------------------------    199
+                                                                       
+Enhydra_lutri    201 GGTAAGACTCCCAGCTGGGCCATGTGGAAAGGACACGGGCAGGCAGAATA    250
+
+Homo_sapiens     200 ------------------------------AGACAGCACCTGGGGTACAT    219
+                                                   |||||||.||||||||.|||
+Enhydra_lutri    251 AAATTAGAGGGAACATCGCAGTGGTTTTAAAGACAGCTCCTGGGGTTCAT    300
+
+Homo_sapiens     220 AAAAGATATTTCCGGAAAATAAAAAATCTCATTTCAGCATTTCAGAAGCC    269
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+Enhydra_lutri    301 AAAAGATTTTTCCGGAAAATAAAAAATCTCATTTCAGCATTTCAGAAGCC    350
+
+Homo_sapiens     270 AGATCAAGGCATTGTAATACCTCTGCAGTATCCAGTTGAGAAGAAGTCCT    319
+                     |||||||||.|||||||||||||||||||||||||||||||||||||..|
+Enhydra_lutri    351 AGATCAAGGTATTGTAATACCTCTGCAGTATCCAGTTGAGAAGAAGTGTT    400
+
+Homo_sapiens     320 CAGCTAGAAGTACACAAGGTACTACAGGGATAAGAGAAGATCCTGATGTC    369
+                     ||..|||||||.||||||||.|||||||||.|||||||||||||||||||
+Enhydra_lutri    401 CACTTAGAAGTGCACAAGGTGCTACAGGGAGAAGAGAAGATCCTGATGTC    450
+
+Homo_sapiens     370 TGCCTGAAAGCCCCA    384
+                     |.|||||||||.|||
+Enhydra_lutri    451 TTCCTGAAAGCACCA    465
+
+
+#---------------------------------------
+#---------------------------------------

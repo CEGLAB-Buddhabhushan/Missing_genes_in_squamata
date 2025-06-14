@@ -1,0 +1,818 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:37:54
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Gallus_gallus.fa
+#    -outfile Homo_sapiens-Gallus_gallus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Gallus_gallus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Gallus_gallus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9791
+# Identity:    7157/9791 (73.1%)
+# Similarity:  7157/9791 (73.1%)
+# Gaps:         571/9791 ( 5.8%)
+# Score: 25605.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                                                              |.|||    
+Gallus_gallus      1 -----------------------------------------ATGCA----      5
+
+Homo_sapiens      51 CACCAGC-TTTCAACCAGGACCGCCACCGCCGCC--CCGGC-TGCTGCTG     96
+                         ||| ||||...|.|..||||..|.||.|||  ||||| ||||||||
+Gallus_gallus      6 ----AGCTTTTCTCGCCGTGCCGCGGCGGCTGCCGGCCGGCTTGCTGCTG     51
+
+Homo_sapiens      97 CTG--CTGCTGCTTCT-CCTGTCACTGGTAAGCCGCGTCCCGGCACAGCC    143
+                     |||  |.|||||.|.| ||||     ||...|||| |.||||       |
+Gallus_gallus     52 CTGGCCGGCTGCGTGTGCCTG-----GGGCTGCCG-GACCCG-------C     88
+
+Homo_sapiens     144 CGCTGCCTTC-GGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTGCA    192
+                     |||||||..| |||||.||  .||.|||.|||.|  .||.||||.|    
+Gallus_gallus     89 CGCTGCCGCCGGGCAGAGC--CGCCGTCTCCTCG--CCGTGGGGAC----    130
+
+Homo_sapiens     193 GGGGTCCCTGCTGAGGAGG------CCATAGTGCTGGCGAACCGCGGACT    236
+                               |.||||.||      ||.|.|||.||||.||||||||.||
+Gallus_gallus    131 ----------CGGAGGCGGCGACCCCCGTCGTGGTGGCCAACCGCGGGCT    170
+
+Homo_sapiens     237 CCGGGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCT--GCATGACCT    284
+                     .||||||||..|.|||||....|.|||||||||  ||||  ||..|||||
+Gallus_gallus    171 GCGGGTGCCCCTGGGCCGCTCCGCCTGGCTGGA--CCCTACGCGGGACCT    218
+
+Homo_sapiens     285 GGTGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACA    334
+                     ||||.|||||||||||||.||.|||||.|||....|..|.||.||.|||.
+Gallus_gallus    219 GGTGCTGCAGGTGCAGCCGGGCGACCGGTGCCACCTCACCGTGCTGGACG    268
+
+Homo_sapiens     335 ACGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCG    384
+                     |.|||.|.|||...|||||.||||||||||||||.||||.|||||||||.
+Gallus_gallus    269 AGGACCCGCTGTGGCAGCGGCCGGGCCGCCTGAGCCCCAGGCGCTTCCCC    318
+
+Homo_sapiens     385 TGCGACTTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAG    434
+                     ||||||||.||.||..||||.|||||||||||.||||||||||..|||||
+Gallus_gallus    319 TGCGACTTCGGTCCCCGCGACGTGCGCTACTCACACCTGGGCGGCCGCAG    368
+
+Homo_sapiens     435 CCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAG    484
+                     |||..|.||||||||||||||.||||||||||||||.|||.|||||.|..
+Gallus_gallus    369 CCCCGCGCGGGACCGCGTCCGCCTGCAGCTGCGCTACGACTCGCCCAGCC    418
+
+Homo_sapiens     485 GGGCAGTAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAG    534
+                     |.||..|.|||||.||.|||||.|||||||||||||||.|||||||.|||
+Gallus_gallus    419 GCGCCCTGGTGCTGCCGCTGGTGCTGGAGGTGGAGGTGCTCTTCACTCAG    468
+
+Homo_sapiens     535 CTGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGG    584
+                     ||||||.|.||.||.||.|||.||||.||.|||||||||...||||.|||
+Gallus_gallus    469 CTGGAGATCGTCACCCGTAACCTGCCCCTCGTCGTGGAACGCCTGCGGGG    518
+
+Homo_sapiens     585 GACCAGCAATGCC--CTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCC    632
+                     .|||||||  |||  ||||||||.||.||||||||||||||||||.||||
+Gallus_gallus    519 TACCAGCA--GCCCGCTGGACGCCCGCAGCCTGGAGTTCGCCTTCGAGCC    566
+
+Homo_sapiens     633 CG--AGACAGAGGAGTGCCGCGTGGGCATCCTGTCC-GGCTTGGGCGCGC    679
+                     .|  .|.|||.|  .|||||.||||||.|.|||.|| .|| ||..||.||
+Gallus_gallus    567 GGGTCGGCAGCG--CTGCCGGGTGGGCCTGCTGCCCTCGC-TGACCGGGC    613
+
+Homo_sapiens     680 TGCCTCGCTATGGAGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCC    729
+                     ||||.|||||.|||||..|||||.||||||| ||.|.||.|||.|..|||
+Gallus_gallus    614 TGCCCCGCTACGGAGAGATCCTCAACTACCC-CACGGCCGTGGCGATGCC    662
+
+Homo_sapiens     730 ------AGAGAG---GGAGGC----------GCCCCGGAGAC--TCTCC-    757
+                           ||.|||   ||||||          |.|||||.|.|  .|||| 
+Gallus_gallus    663 GGTGGGAGGGAGCGTGGAGGCGGTGGGAGATGGCCCGGTGCCCGCCTCCA    712
+
+Homo_sapiens     758 TGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTATCGCCACACA    807
+                     ||..|||||||.|.|..||||.|...||.||..|||||||.||.|||||.
+Gallus_gallus    713 TGTGGGACTGCGAGGAGTTCCTGCGCCTCGGGTTGCGCTACCGGCACACG    762
+
+Homo_sapiens     808 GCCGCCAGTCGCTCACCAAACAGGGA-CTGGATACCCATGGTGGTGGAGC    856
+                     ||.|||.|..||||.||.|||.|.|| |||| ||||..||||||..||||
+Gallus_gallus    763 GCGGCCGGCAGCTCCCCCAACCGCGACCTGG-TACCGCTGGTGGCCGAGC    811
+
+Homo_sapiens     857 TGCGTTCACGAGG-GGCTCCTGTGGGCAGCC-----CTGCTTTGAAACGC    900
+                     ||.|    .|||| |||      ||||.|||     ||||  |.||.|||
+Gallus_gallus    812 TGTG----GGAGGCGGC------GGGCGGCCGGGCGCTGC--TCAAGCGC    849
+
+Homo_sapiens     901 GAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAACACTGC    950
+                     |||.||||||||||.||||||.||||.|||||.|||...||||||...||
+Gallus_gallus    850 GAGTACTTCCAGGTGCTGGTGCGGATTCGAGGCGGGATGGAGAACGTGGC    899
+
+Homo_sapiens     951 ACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGTTTG   1000
+                     .|||||.|||||.||..||||||||.||||||||||||||||||||||||
+Gallus_gallus    900 TCCCAAACCCAGCTTTATGGCCATGCTGATGATGGAGGTGGACCAGTTTG    949
+
+Homo_sapiens    1001 TACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTGAGTCT   1050
+                     |.||.||.|||||.||.||.||||||||||||||.||||||.|||||||.
+Gallus_gallus    950 TCCTCACCGCCCTCACGCCTGACATGCTGGCAGCTGAGGATACTGAGTCA    999
+
+Homo_sapiens    1051 CCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCTGGCCA   1100
+                     |||.|.||||||.||.|.|||||..|.||.||.||.|||...||.|||||
+Gallus_gallus   1000 CCCCCAGACCTGCTGCTGTTCAATATCACCTCGCCCTTCGGCCCGGGCCA   1049
+
+Homo_sapiens    1101 GGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTCCTCCTTCA   1150
+                     |||.|||.||||.|||||.|||||.||.|||.|||||.|.||||||||||
+Gallus_gallus   1050 GGGGTACATGGTCAGCACAGATGACCGGAGCTTGCCCATCTCCTCCTTCA   1099
+
+Homo_sapiens    1151 CTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCCCTTCTGAA   1200
+                     ..|||.|.|||.||.||...|||...||||||||||||||||||...||.
+Gallus_gallus   1100 GCCAGCGCGATGTGAGGGAGCTGCGCATTGCCTACCAGCCCCCTGTGGAG   1149
+
+Homo_sapiens    1201 GACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAGTGGATCT   1250
+                     |||||.||.|.||||||.||||||||.|||||..|||||||..||||.|.
+Gallus_gallus   1150 GACTCAGATCGGGAGCGACTCTTTGAGCTGGAGCTGGAGGTGCTGGACCC   1199
+
+Homo_sapiens    1251 AGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTGAAGCCCA   1300
+                     .||.||.||.||.|||||.||.||||||||..||.|.|||||||||||||
+Gallus_gallus   1200 TGAGGGCGCTGCATCAGAGCCCTTTGCCTTTGTGATTGTGGTGAAGCCCA   1249
+
+Homo_sapiens    1301 TGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTATTCTCTAT   1350
+                     ||||.||..||||.||.|||||.|||||.||.||.||.|||.|.||||||
+Gallus_gallus   1250 TGAATACCCTGGCGCCTGTGGTGACCCGCAACACTGGCCTTGTGCTCTAT   1299
+
+Homo_sapiens    1351 GAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGTCCGCA---   1397
+                     |||||.|||||.|||||.|||.|||.|||         |||||| ||   
+Gallus_gallus   1300 GAGGGGCAGTCACGGCCTCTCTCAGACCC---------TGGTCC-CAGCC   1339
+
+Homo_sapiens    1398 -AAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCA-GTGCGGCTAGA   1445
+                      .|||.||||.|||||.||||||||||||||.| |||| ||||.|.| ||
+Gallus_gallus   1340 CCAACCTGGTGATCAGTGATGAGGATGACCTTG-AGCAGGTGCAGGT-GA   1387
+
+Homo_sapiens    1446 G-GTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTG--GGTG---   1489
+                     | ||.|||||.||.||..|.|||||.||||   |||.||||  ||.|   
+Gallus_gallus   1388 GTGTTGTGGCAGGACTGAGACATGGCCACC---TCACTCTGCTGGAGGAC   1434
+
+Homo_sapiens    1490 --CTTCCAGTGGCAGCT-CTGCTCC-------CAAGAGCTTTACAGTGGC   1529
+                       |  |||   |||.|| |||||||       ||    |||.||||||||
+Gallus_gallus   1435 ACC--CCA---GCATCTGCTGCTCCTCGTAAACA----CTTCACAGTGGC   1475
+
+Homo_sapiens    1530 TGAGCTGGCAGCCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCT   1579
+                     ||||||||||||.||||.|||..|.|||||||||||||.|||.|| |.||
+Gallus_gallus   1476 TGAGCTGGCAGCAGGCCGGGTCATTTACCAGCATGATGGCAGTGA-GTCT   1524
+
+Homo_sapiens    1580 -CGCTGAGCGACAACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCA   1628
+                      |.||.||.||||||.|||||||.||..|||..|||||.||...|.|.||
+Gallus_gallus   1525 CCACTCAGTGACAACTTGGTGCTGCGGCTGGAAGATGGTGGCTCCCGACA   1574
+
+Homo_sapiens    1629 CCAGGTACAGTTTCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGC   1678
+                     .|..||..||||.||.|||||.||.|||.|.|||||....||.|||||||
+Gallus_gallus   1575 TCGTGTTGAGTTCCTTTTCCCAATTACCCTGGTGCCCACTGACGACCAGC   1624
+
+Homo_sapiens    1679 CACCTGTTCTCAATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAACA   1728
+                     ||||..|.||||||||.||.||.||||||.|..|.||.||||||||||||
+Gallus_gallus   1625 CACCCCTACTCAATGCTAATACAGGGCTGGCTATAGCTGAGGGTGAAACA   1674
+
+Homo_sapiens    1729 GTGCCCATCCTGCCCCT--TTCCCTGAGTGCAACTGACATGGATTCAGAT   1776
+                     |||||||||  .||.||  |.|.||.|||||.||||||||.||.|||.|.
+Gallus_gallus   1675 GTGCCCATC--ACCACTCGTGCTCTTAGTGCTACTGACATTGACTCACAG   1722
+
+Homo_sapiens    1777 GATTCTCTGCTGCTTTTTGTGC----TGGAGTC---ACCCTTCTTAACTA   1819
+                     |||.|..|.||.||.||    |    |||||||   .|||      |.|.
+Gallus_gallus   1723 GATGCCATCCTTCTCTT----CACAGTGGAGTCTGGCCCC------AGTG   1762
+
+Homo_sapiens    1820 CGGGGCATCTGCTTCTCCGCCAAACTCACCCTCCCC---------ATGAG   1860
+                     |.||.||.||.||.|||||.|||.|.||.||.||.|         |.|||
+Gallus_gallus   1763 CTGGCCAACTCCTCCTCCGGCAAGCACAGCCACCTCCTGGCTGGGAAGAG   1812
+
+Homo_sapiens    1861 AAGCAGGAACTTCTCAGAGGCCTT----TGGAGGAAGG-----------A   1895
+                     .||.|.|||..|    ||||..||    |||| |||||           |
+Gallus_gallus   1813 GAGGAAGAAGAT----GAGGGTTTTTCCTGGA-GAAGGGTGTCAGGTGTA   1857
+
+Homo_sapiens    1896 GGGGG--------CATTTTATGAGCGAA--CAGTGACAGAGTGGCAGCAG   1935
+                     |.|||        .|.|.|||||  |||  ||||||.||||||||.||||
+Gallus_gallus   1858 GTGGGGAGCTCACTAATCTATGA--GAAGCCAGTGAGAGAGTGGCTGCAG   1905
+
+Homo_sapiens    1936 CAGGACAT-----AACAGAGGGCAGGCTGT-TCTAT----AGACACTCTG   1975
+                     ||||||||     |    |||||     || |||||    | .||||.||
+Gallus_gallus   1906 CAGGACATTGTGGA----AGGGC-----GTCTCTATTACCA-CCACTTTG   1945
+
+Homo_sapiens    1976 GGCCCCATAGTCCTGGGCC------AGTCACAGACCAGTTCACATTTAGA   2019
+                     ||||.||.||.|||||.||      .||....|||||.||....|||||.
+Gallus_gallus   1946 GGCCACACAGCCCTGGCCCTGGGGTTGTGTTGGACCAATTTGTCTTTAGG   1995
+
+Homo_sapiens    2020 GTCCAGGATAACCATGACCCTCCTAATCAGTCCGGGCTACAGCGGTTTGT   2069
+                     |||||.|||.||.|||||||.||.||||..||.||.|..|||...|||||
+Gallus_gallus   1996 GTCCAAGATGACAATGACCCGCCCAATCGTTCTGGACCGCAGACCTTTGT   2045
+
+Homo_sapiens    2070 GATTCGTATCCATCCTGTGGA-----TCGCCTCCCTCCGGAGCTGGGCAG   2114
+                     |||.||..|.||||||||.||     |.|||     ||.||||||..|||
+Gallus_gallus   2046 GATCCGGGTGCATCCTGTAGACAGATTAGCC-----CCAGAGCTGCACAG   2090
+
+Homo_sapiens    2115 TGGCTG-----TCCCCTTCGTATGGTG--GTACAGGAATCCCAGCTCACA   2157
+                     ..||.|     |.|.|||..|| |.||  |.||||      |||.|.||.
+Gallus_gallus   2091 CAGCAGCAGCCTGCACTTAATA-GTTGCAGAACAG------CAGGTGACT   2133
+
+Homo_sapiens    2158 CCACTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGACACAGATGACCG   2207
+                     ||.|||.|||.||||....||.|.|||||.||||.|||..|||..|||||
+Gallus_gallus   2134 CCCCTGCGGAGGAAGCACTTGTGTTACACAGACCAGGATTCAGGGGACCG   2183
+
+Homo_sapiens    2208 AGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACAGACGAAAATC   2257
+                     .||.||.||.||||||||.||.||.||||||||.|||||.|||...||.|
+Gallus_gallus   2184 TGAGCTCCGCTACACAGTAACCCAACCCCCCACTGACACTGACTCTAACC   2233
+
+Homo_sapiens    2258 ACCTGCCAG-------------CCCCACTGGGTACCTTGGTCTTGACTGA   2294
+                     |||..||||             ||.|..|||.|.|||| ||..|||||||
+Gallus_gallus   2234 ACCCTCCAGATGAGCATGGAGCCCGCCTTGGATCCCTT-GTGCTGACTGA   2282
+
+Homo_sapiens    2295 CAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAACCATC   2344
+                     ..|.|.|||.||.|.|||.|||||.||.||.||||||||||||||.||||
+Gallus_gallus   2283 AGATCACTCTGTAGAGGTTACCCACTTCACGCAAGCCCAGATCAATCATC   2332
+
+Homo_sapiens    2345 ATAAAATTGCTTACAGACCCCC---GGGTCAAGAACTGGGCGTGGCTACT   2391
+                     |.||.||..|.|||.|.|||||   ||   ||||.|||||.||||||.||
+Gallus_gallus   2333 ACAAGATCTCCTACCGCCCCCCACAGG---AAGAGCTGGGAGTGGCTCCT   2379
+
+Homo_sapiens    2392 C----GAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATG   2437
+                     |    .|.|    |||||.||.|.|||.||||||||...||||||.||||
+Gallus_gallus   2380 CATTTAATT----CAGTTTCACTACCAAGTGGAAGATGCAGCTGGCAATG   2425
+
+Homo_sapiens    2438 TGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCA   2487
+                     ..|||...||.||.||.|||.|.|||.||||.||.||||||||||||||.
+Gallus_gallus   2426 CAGCTGAGGGGACTTTCACCATCTACCTGCAACCTGTGGACAACCAGCCT   2475
+
+Homo_sapiens    2488 CCTGAGATC-CTCAACACCGGCTTCACTATTCAGGAGAAGG-GTCA-CCA   2534
+                     |||||.||| || ||.||.|||||.|||.|.|..|||  || |.|| |||
+Gallus_gallus   2476 CCTGAAATCACT-AATACTGGCTTTACTTTGCCTGAG--GGAGGCAGCCA   2522
+
+Homo_sapiens    2535 CATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTGATGTTG   2584
+                     ..||||.||....||.|||.||.|.|..|.|||...||||||.||..|||
+Gallus_gallus   2523 TGTCCTTAGCCCAACTGAGCTGGATGCCAGTGACACAGACACAGAGCTTG   2572
+
+Homo_sapiens    2585 CCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCACATG-AG   2633
+                     |.|||.||...||.|..||.||.|||||.||.....|||||||..|| ||
+Gallus_gallus   2573 CTCATCTCCGGTTTATCCTGACCCAGGCTCCTCGTTATGGCCAGCTGCAG   2622
+
+Homo_sapiens    2634 AGTGTCTGG--ACA----GATCCTGCATGTAGGGGGTCTCTTCCACTTGG   2677
+                      .|.|||||  |||    |||||||      ||.|||..|||...|||||
+Gallus_gallus   2623 -CTTTCTGGGTACAGTTTGATCCTG------GGAGGTGCCTTTGGCTTGG   2665
+
+Homo_sapiens    2678 AGGACATAAAACAGGGCCGAGTTTCCTATGCCCATAATGGGGACAAGTCC   2727
+                     ||||.||.|.|||.||..|.||....||||..||.|.|||.|...||.||
+Gallus_gallus   2666 AGGATATCAGACAAGGAAGGGTGGTGTATGTACACAGTGGAGCTGAGACC   2715
+
+Homo_sapiens    2728 CTGACTGATAGCTGCTCCTTG-------GAAGTCAGTGACAGACATCATG   2770
+                     ...|.|||||       ||||       ||.||.||||||.|...|||||
+Gallus_gallus   2716 AACAGTGATA-------CTTGCAGGCTTGATGTGAGTGACGGGGTTCATG   2758
+
+Homo_sapiens    2771 TGGTGCCCATCACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGAAGTG   2820
+                     |.|||||||||||..|.|.|.|.|||||.|..|||||.||||||||..|.
+Gallus_gallus   2759 TTGTGCCCATCACATTAAAAATGAATGTGCACCCAGTTGATGATGAGATT   2808
+
+Homo_sapiens    2821 CCCATACTGAGCCATCCTA----------CTGGCACTCTGGAGTCCTATC   2860
+                     ||  ||||        |||          |.||||||.|.|..||.||.|
+Gallus_gallus   2809 CC--TACT--------CTACGCTTGGCCCCAGGCACTGTTGGTTCTTACC   2848
+
+Homo_sapiens    2861 TAGATGTCTTAGAAAATGGGGCTACTGAAATCACTGCCAATGTTATTAAG   2910
+                     |.|||||.||.||.|||||.|||.|||||||.|||||.|||||.|||.||
+Gallus_gallus   2849 TGGATGTATTGGAGAATGGTGCTGCTGAAATAACTGCTAATGTAATTCAG   2898
+
+Homo_sapiens    2911 GGGACCAATGAGGAAACTGATGACTTGATGTTGACTTTCCTCTTGGAAGA   2960
+                     ||.||..|||||||.||.|||||||||||||||||||||.|..|.||.||
+Gallus_gallus   2899 GGTACAGATGAGGATACGGATGACTTGATGTTGACTTTCATTGTAGAGGA   2948
+
+Homo_sapiens    2961 TCCACCTTTGTATGGGGAAATCTTGGTCAATGGCATTCCAGCAGAGCAG-   3009
+                     |||.|||..|.|||||...|||.|||||.|.||..|.||.|||||| || 
+Gallus_gallus   2949 TCCTCCTCAGCATGGGAGCATCCTGGTCCAAGGGGTGCCTGCAGAG-AGA   2997
+
+Homo_sapiens    3010 TTTACTCAAAGGGACATCTTGGAGGGCTCTGTTGTATATACCCACACCAG   3059
+                     |||.|.||.||.||..|.|||||.||..||||.||.|||.|.|||||.||
+Gallus_gallus   2998 TTTTCCCAGAGAGATGTGTTGGATGGTGCTGTGGTGTATGCTCACACTAG   3047
+
+Homo_sapiens    3060 TGGTGAGATAGGCCTATTGCCTAAAGCGGATTCTTTTAACCTGAGTCTGT   3109
+                     ||||||.||||||||..||||.||||..|||.||||.|||||.|...|||
+Gallus_gallus   3048 TGGTGAAATAGGCCTTCTGCCCAAAGAAGATACTTTCAACCTTACCTTGT   3097
+
+Homo_sapiens    3110 CAGATATGTCTCAAGAATGGAGAATTGGTGGCAATACTATCCAAGGAGTT   3159
+                     |.||..|||||.|.||.||||..||..|.||||||..|.|.||||||||.
+Gallus_gallus   3098 CTGACCTGTCTGAGGAGTGGAACATCAGGGGCAATGTTGTTCAAGGAGTG   3147
+
+Homo_sapiens    3160 ACTATATGGGTGACCATCCTGCCTGTTGATAGCCAGGCCCCAGAAATCTT   3209
+                     .|..|.|.||||||.||.||.||||||||.|...|.||||||||.||.||
+Gallus_gallus   3148 TCAGTCTTGGTGACTATTCTCCCTGTTGACAATAAAGCCCCAGAGATTTT   3197
+
+Homo_sapiens    3210 TGTAGGTGAACAGTTGATAGTAATGGAAGGTGATAAAAGTGTTATAACAT   3259
+                     |||.||.||.|||||.|.|||||||||||||||.|||.||||.||.||..
+Gallus_gallus   3198 TGTGGGGGAGCAGTTCAGAGTAATGGAAGGTGACAAACGTGTAATTACTC   3247
+
+Homo_sapiens    3260 CAGTGCATATAAGTGCTGAAGATGTCG--ACTCCCTGAATGATGACATCT   3307
+                     |.|..|||.||||.|||||||||||.|  |||||  .|..|||||.|||.
+Gallus_gallus   3248 CTGCTCATCTAAGGGCTGAAGATGTGGATACTCC--TAGCGATGATATCC   3295
+
+Homo_sapiens    3308 TGTGCACTATAGTTATTCAGCCTACTTCAGGTTATGTTGAAAACATTTCT   3357
+                     |.|||||.||.|||...||..|.||.||.||.|||||.||.|||||.|||
+Gallus_gallus   3296 TCTGCACCATTGTTGCCCAATCCACATCTGGGTATGTAGAGAACATCTCT   3345
+
+Homo_sapiens    3358 CCAGCACCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCATAAGTGCTTT   3407
+                     |||||.|||||.|||||.|||||.||||||||.||.||.||.||||||||
+Gallus_gallus   3346 CCAGCCCCAGGATCTGAAAAATCCAGAGCAGGTATAGCTATTAGTGCTTT   3395
+
+Homo_sapiens    3408 CAACTTGAAAGATCTCAGGCAGGGCCACATAAACTATGTCCAGAGTGTCC   3457
+                     .|.|||||||||.||..|.||..|.||.||....||||||||||||.|.|
+Gallus_gallus   3396 TACCTTGAAAGACCTTCGTCAAAGGCATATTTTTTATGTCCAGAGTATAC   3445
+
+Homo_sapiens    3458 ATAAAGGGGTGGAACCTGTGGAGGACCGATTTGTATTTCGTTGTTCTGAT   3507
+                     ||||.||.||.||||||||.||.|||.||||||..||.||.|||||||||
+Gallus_gallus   3446 ATAAGGGTGTAGAACCTGTTGAAGACAGATTTGCTTTCCGCTGTTCTGAT   3495
+
+Homo_sapiens    3508 GGCATTAACTTTTCAGAGAGACA-GTTCTTCCCCATTGTAATCATTCCCA   3556
+                     ||||||||||||||..|..|||| ||| |||||.|||||.||.||.||.|
+Gallus_gallus   3496 GGCATTAACTTTTCCCAACGACACGTT-TTCCCTATTGTCATTATGCCAA   3544
+
+Homo_sapiens    3557 CCAATGATGAACAGCCAGAGATGTTTATGAGAGAATTTATGGTGATGGAA   3606
+                     ..|||||||||.||||.||.||.|||||..||||.|||.|.|||||||||
+Gallus_gallus   3545 TGAATGATGAAGAGCCCGAAATCTTTATACGAGAGTTTGTTGTGATGGAA   3594
+
+Homo_sapiens    3607 GGCATGAGTCTGGTAATTGATACACCCATTCTCAATGCTGCTGATGCTGA   3656
+                     ||||||||.|||||.||||||||.||.||.|||||.||.|.|||||..||
+Gallus_gallus   3595 GGCATGAGCCTGGTTATTGATACCCCTATCCTCAACGCAGTTGATGGGGA   3644
+
+Homo_sapiens    3657 TGTTCCCCTG--GATGATTTAACTTTCACTATTACCCAATTCCCCACTCA   3704
+                     ..|  |||||  |||.|.|||||.||.||.||.|||....|.||||..||
+Gallus_gallus   3645 CAT--CCCTGCTGATAAGTTAACATTTACAATCACCAGGCTTCCCAGGCA   3692
+
+Homo_sapiens    3705 TGGTCACATCATGAATCAGCTGATAAATGGCACGGTTTTGGTCGAAAGCT   3754
+                     |||.|||||..||||.||||||||.|||||.||.||..|.|..|||||||
+Gallus_gallus   3693 TGGCCACATTGTGAACCAGCTGATCAATGGAACTGTACTAGCGGAAAGCT   3742
+
+Homo_sapiens    3755 TCACCTTGGATCAGATCATAGAGAGTTCCAGCATTATTTATGAGCATGAT   3804
+                     ||||||||||||||||.|.||||||.||||.|||..|.|||||.||||||
+Gallus_gallus   3743 TCACCTTGGATCAGATAACAGAGAGCTCCAACATACTCTATGAACATGAT   3792
+
+Homo_sapiens    3805 GACTCCGAGACCCAGGAAGACAGTTTTGTGATTAAACTAACAGATGGGAA   3854
+                     |||||.|||||...|||.||||.|||||.|.|.|||||..|||||||.||
+Gallus_gallus   3793 GACTCTGAGACAAGGGAGGACAATTTTGAGGTGAAACTCTCAGATGGTAA   3842
+
+Homo_sapiens    3855 GCA---CTCTGTGGAAAAGACGGTCCTCATTATAGTTATCCCTGTTGATG   3901
+                     .||   |.|.|||   ||.||..|..|||||||.|||||.|||||.||||
+Gallus_gallus   3843 ACATACCACAGTG---AAAACAATATTCATTATGGTTATTCCTGTAGATG   3889
+
+Homo_sapiens    3902 ATGAGACGCCCAGAATGACTATCAATAATGGACTAGAAATAGAAATTGGG   3951
+                     |||||||.|||||||||.||||||||.||||..|.||.||.|||||.|||
+Gallus_gallus   3890 ATGAGACACCCAGAATGGCTATCAATGATGGTTTGGAGATTGAAATAGGG   3939
+
+Homo_sapiens    3952 GATACCAAGATTATCAACAACAAAATATTAATGGCAACAGATTTAGATTC   4001
+                     ||.||.|.||.|||..|.||||.||||||.|..||.||.||..|||||||
+Gallus_gallus   3940 GAAACTAGGACTATTCATAACAGAATATTGAAAGCTACTGACCTAGATTC   3989
+
+Homo_sapiens    4002 AGAAGACAAATCTTTGGTTTATATTATTCGTTATGGGCCAGGACATGGCT   4051
+                     .|||||||||.|.|||...||.|||.|..|.|||||.||||||||.||..
+Gallus_gallus   3990 TGAAGACAAAACCTTGACATACATTGTAAGATATGGACCAGGACAAGGTC   4039
+
+Homo_sapiens    4052 TATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAATATCACACTGGGC   4101
+                     |.|||||||||..|||||||.|.||||...||||.||||||||.|||||.
+Gallus_gallus   4040 TCTTACAGAGATTAAAACCTTCAGGTGGAGTTGAGAATATCACTCTGGGG   4089
+
+Homo_sapiens    4102 ATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAATTCAGTATGTCCA   4151
+                     |||||.||.||.||.||.|||||.||.|||||.|||||||..|||.|.||
+Gallus_gallus   4090 ATGAACTTCACTCAAGACGAAGTGGATAGAAATTTAATTCGATATATGCA   4139
+
+Homo_sapiens    4152 TTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTTGATGTGACTGATG   4201
+                     .||.||.|.|||.||..||||.||.||.||.|||||||||||||||||||
+Gallus_gallus   4140 CTTTGGCCGAGAAGGTGTTCGTGATCTTATCAAATTTGATGTGACTGATG   4189
+
+Homo_sapiens    4202 GAATAAATCCCCTCATAGATCGTTACTTTTATGTGTCCATCGGGAGCATT   4251
+                     ||||||||||.|||||.||.||.|||||||||||..|..|.||.||||||
+Gallus_gallus   4190 GAATAAATCCTCTCATTGACCGCTACTTTTATGTCACAGTAGGTAGCATT   4239
+
+Homo_sapiens    4252 GACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAGAAGG   4301
+                     ||.||.||||||||.|||||.||.||.||.|||||.||.|||||.|||||
+Gallus_gallus   4240 GATATAGTCTTCCCAGATGTAATCAGCAAAGGAGTTTCTTTGAAGGAAGG   4289
+
+Homo_sapiens    4302 TGGCAAAGTCACTCTTACAACAGACCTACTAAGCACTAGTGACTTGAACA   4351
+                     .||.||.||.||.||||||||.||..|.||.|||||.|||||||||||.|
+Gallus_gallus   4290 AGGGAAGGTAACCCTTACAACTGATTTGCTTAGCACCAGTGACTTGAATA   4339
+
+Homo_sapiens    4352 GTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGCTCCCATGCGAGGT   4401
+                     ||||.|||||.|||.|.|||||.||.||.|||||.||.||..|.||.||.
+Gallus_gallus   4340 GTCCAGATGAGAACCTAGTTTTCACTATTACCAGAGCACCTGTTCGCGGC   4389
+
+Homo_sapiens    4402 CACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCACGTCTTTCACTCA   4451
+                     ||.||.||||||||.|||||||||||.|||.|||||.|..||||.|||||
+Gallus_gallus   4390 CATCTTGAATGCACAGATCAGCCTGGGGTGCCCATCTCCACTTTTACTCA   4439
+
+Homo_sapiens    4452 GCTGCAACTGGCTGGAAACAAAATCTACTACATCCACACAGCTGATGATG   4501
+                     |||.|.|.|.||.||.||.||||||||.|||||.|||||..|.||.||||
+Gallus_gallus   4440 GCTCCTATTAGCAGGCAATAAAATCTATTACATTCACACTTCAGAAGATG   4489
+
+Homo_sapiens    4502 AAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGATGGACGTAACCCT   4551
+                     |.||||||||||||||.|||||||||.|.||.||.|||||...|||||||
+Gallus_gallus   4490 AGGTGAAAATGGACAGCTTTGAGTTTGAGGTGACTGATGGTTATAACCCT   4539
+
+Homo_sapiens    4552 GTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGGACAATAAAAAGCC   4601
+                     ||.|||||.||.|||.|.||.||.||.||.||.|||||||||||.||.||
+Gallus_gallus   4540 GTGTTTCGTACTTTCAGAATTTCTATCAGTGACGTGGACAATAAGAAACC   4589
+
+Homo_sapiens    4602 AGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACAAGCTGA   4651
+                     ..|.|||||.|||||.||.|||||.||.|||||||.||||.||||.||.|
+Gallus_gallus   4590 TATTGTCACAATCCATAACCTGGTGGTGAGTGAAAATGAATACAAACTAA   4639
+
+Homo_sapiens    4652 TTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATACTCCTGA--CAAGC   4699
+                     |.||.||.|||||.||.|||||.||||||||||||||.|||||  ||  .
+Gallus_gallus   4640 TAACCCCATTTGAACTGACTGTAGAAGACAGAGATACACCTGATCCA--T   4687
+
+Homo_sapiens    4700 TCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCCATCTCCTATTC   4749
+                     |.||.|||||.|...||||.||..|.||..||||.||.||..||.|.|||
+Gallus_gallus   4688 TGCTAAAATTTATCGTCACTCAAATACCGGTTCACGGTCAGATCATGTTC   4737
+
+Homo_sapiens    4750 AACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGAATGAAAA   4799
+                     ||.||..|||.|||.||||.....||.||.||.|||||..|.||.||.||
+Gallus_gallus   4738 AATAACTCCAAACCAGTCACCACCTTCACTAAACAAGATCTCAACGAGAA   4787
+
+Homo_sapiens    4800 CTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGATAGCTTCT   4849
+                     ..|.||||||||||||||.||||||||.||.||...|||.||.|||||||
+Gallus_gallus   4788 TCTGATCAGCTACAAACACGATGGCACAGAATCTGTTGAGGACAGCTTCT   4837
+
+Homo_sapiens    4850 CCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTTTCCTGAT   4899
+                     |.|||||.||.||.||||||||.||.||.||.||||||||.||.|||.||
+Gallus_gallus   4838 CTTTCACTGTTACAGATGGCACTCACACTGATTTCTATGTCTTCCCTAAT   4887
+
+Homo_sapiens    4900 ACGGTGTTTGAAACAAGGAGACCCCA-AGTGATGAAGATCCAGGTCTTGG   4948
+                     ||.|||||||||||.|||||.||.|| |.| ||||||||.|||.|..|||
+Gallus_gallus   4888 ACTGTGTTTGAAACGAGGAGGCCTCAGACT-ATGAAGATTCAGATAATGG   4936
+
+Homo_sapiens    4949 CTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCTC-TAC   4997
+                     ||||.||||||||..|.||.||.||.|.|...||.||.||.| ||| .||
+Gallus_gallus   4937 CTGTGGACAACAGCATACCTCAGATTGTAACCAACAAAGGTG-CTCAGAC   4985
+
+Homo_sapiens    4998 ACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCACAAGCAAAA   5047
+                     .||.||.|.|||.|||||.||.||..|.|||||..||||.||.|..|||.
+Gallus_gallus   4986 TCTCCGTATTCTTGCCACAGGTCATGTAGGGTTTCTGATTACCAATAAAG   5035
+
+Homo_sapiens    5048 TATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCT-TAGAT--TT   5094
+                     |..|.||||||||.|||||.|||||.|||||.|||.|||| .||||  ..
+Gallus_gallus   5036 TGCTCAAAGTGGAAGACAGGGACAGTTTACATATTGCTCTGAAGATCAGA   5085
+
+Homo_sapiens    5095 ATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGGACAAAGG   5144
+                     |||   |||||||..||||..|||||||..||..||.||||||..||.||
+Gallus_gallus   5086 ATC---ACAGAGGGTCCTCGCCATGGATTCCTGATCCACCTGGGGAAGGG   5132
+
+Homo_sapiens    5145 CAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACATGAAAA   5194
+                     ||||||.|||||||..||||||||.||||||||.||||||||.|||||.|
+Gallus_gallus   5133 CAACCATAGCATCAGCCAGTTCACCCAAGCTGATATTGATGATATGAAGA   5182
+
+Homo_sapiens    5195 TATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATGTTCTAT   5244
+                     ||||||||||.|||.|||..||.|..||||||||.|||||.||.||..|.
+Gallus_gallus   5183 TATGCTATGTTTTACGAGCGGGTGACAATGCCACCAGTGACATTTTTCAC   5232
+
+Homo_sapiens    5245 TTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAATTTTCG   5294
+                     ||...|||||||||..||||.||.||.||..|.|.|.|.||..|||||||
+Gallus_gallus   5233 TTCATAGTTGAAGACAGTGGAGGCAATAAACTGAAGAATCAACATTTTCG   5282
+
+Homo_sapiens    5295 TCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGGTCAATG   5344
+                     |||.||.|||||||||||.|||||.||||||||||||||..|.||.||||
+Gallus_gallus   5283 TCTAAACTGGGCATGGATTTCCTTAGAAAAGGAATATTATTTAGTAAATG   5332
+
+Homo_sapiens    5345 AGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTACTTGGGA   5394
+                     |.||.|||||||.|||.|||||.|||||||||||.|||||||||.|.|||
+Gallus_gallus   5333 AAGATTCCAAATATCTGGATGTCGTTCTTAAACGGAGAGGTTACCTTGGA   5382
+
+Homo_sapiens    5395 GAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGAAAAAGA   5444
+                     |||||||||||||||||||||.||||.|||||..|.|||||..|.|||||
+Gallus_gallus   5383 GAAACTTCTTTTATAAGTATTAGCACCAGAGATGGTACTGCCAAGAAAGA   5432
+
+Homo_sapiens    5445 CAAAGACTTCA-AGGGCAAAGCACAGAAACAAGTGCAGTTCAACCCAGGC   5493
+                     .|||||||||| |||| |||||.|||||.||.||||||||.||.||.|||
+Gallus_gallus   5433 TAAAGACTTCAGAGGG-AAAGCCCAGAAGCAGGTGCAGTTTAATCCTGGC   5481
+
+Homo_sapiens    5494 CAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAGCATGA   5543
+                     ||.|||...||.|||||||||||.|||||..||||||||||.||.|||||
+Gallus_gallus   5482 CAAACCTTAGCTACATGGCGAGTACGGATTTTGAGTGATGGTGAACATGA   5531
+
+Homo_sapiens    5544 GCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGCTGCCT   5593
+                     .|.||||||..|||||||..|.||.||.||.|||||.||..||||.|...
+Gallus_gallus   5532 ACGGTCTGAGTCCTTTCAAATTGTTCTTTCTGAGCCTGTCATGGCAGTTC   5581
+
+Homo_sapiens    5594 TGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAGATGAG   5643
+                     |||||||.|||.|.||..||||.||.|||||..|.||||||||||||||.
+Gallus_gallus   5582 TGGAATTTCCCTCTGTATCCACAGTGGAGATTATCGATCCAGGAGATGAA   5631
+
+Homo_sapiens    5644 CCAACTGTGTTTATTCCCCAGTC--CAAATACTCCGTTGAAGAAGATGTT   5691
+                     .|||||||.||||||||.||.||  |..|||||  .||||||||||||||
+Gallus_gallus   5632 TCAACTGTCTTTATTCCTCAATCTACCTATACT--ATTGAAGAAGATGTT   5679
+
+Homo_sapiens    5692 GGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGAGTT   5741
+                     ||||||.||||.|||||..||||.||.||.||||||||||||||||||.|
+Gallus_gallus   5680 GGTGAGTTGTTTATTCCAGTCAGAAGAAGTGGAGATGTGAGCCAGGAGCT   5729
+
+Homo_sapiens    5742 GATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGCCGA   5791
+                     ||||.|..|||||||.||.|||||||||||||||||.||.||||..||.|
+Gallus_gallus   5730 GATGATTATCTGTTACACACAACAAGGAACAGCAACCGGCACTGCCCCAA   5779
+
+Homo_sapiens    5792 CTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCACACC   5841
+                     |.||.|||.|.|||||||||||.||||||||||||||||||||.||||.|
+Gallus_gallus   5780 CCTCTGTGCTTTCTTACTCTGACTACATATCCAGGCCTGAGGATCACAAC   5829
+
+Homo_sapiens    5842 AGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGATAGT   5891
+                     ||||||.||||.|||||||||||||||||.||.|||...|||||..|.||
+Gallus_gallus   5830 AGTGTTCTCCGTTTTGACAAAGATGAACGAGAAAAAACATGTCGAGTGGT   5879
+
+Homo_sapiens    5892 CATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCCTTC   5941
+                     .||.||.|||||.||.|||||.||.||||..||.|||||..||||..|.|
+Gallus_gallus   5880 GATCATAGATGATTCCTTGTATGAAGAGGCTGAGACCTTTGATGTTTTGC   5929
+
+Homo_sapiens    5942 TGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCTCAA   5991
+                     ||||.|||||.|||||.||||||||.||..||||.||..||.|..|||.|
+Gallus_gallus   5930 TGAGTATGCCAATGGGTGGAAGAATTGGTACAGAATTTGCAAGCACTCGA   5979
+
+Homo_sapiens    5992 GTTACAATCGTTCCTGACAAAGATGATGAACC--CATCTTTTACTTCGGT   6039
+                     .||||.||.||.||||||||.|||||||||||  ||  ||.|||||.||.
+Gallus_gallus   5980 ATTACCATTGTACCTGACAAGGATGATGAACCAGCA--TTCTACTTTGGA   6027
+
+Homo_sapiens    6040 GATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGGT   6089
+                     .|||..|||||||.|||.|||||||||||..|||||||.||.||.||.||
+Gallus_gallus   6028 AATGATGAATACTATGTTGATGAGAGTGCCAGCTATGTTGAGGTACATGT   6077
+
+Homo_sapiens    6090 GTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGAGGT   6139
+                     .|||||.||.||.|||||.|||||.||..||.|...|||.||||||||||
+Gallus_gallus   6078 TTGGAGGACAGGAACTGATCTGTCTAAAGCTGCGTCTGTAACAGTGAGGT   6127
+
+Homo_sapiens    6140 CTCGGAAAAC-------AGATCCTCCCTCTGCAGATGCTGGAACAGACTA   6182
+                     ||||.|||.|       |||       .|||||||.||||||..|||.||
+Gallus_gallus   6128 CTCGCAAATCTGAATCGAGA-------ACTGCAGAAGCTGGAGTAGATTA   6170
+
+Homo_sapiens    6183 TGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGC   6232
+                     |||.||.|||||.||||||||.||.|||||.||||||||||..||||||.
+Gallus_gallus   6171 TGTAGGTATCAGTCGTAATTTGGACTTTGCCCCTGGAGTCAGTATGCAGA   6220
+
+Homo_sapiens    6233 CTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGA   6282
+                     |..|||||||.||.|||||||||||||||||||||||.|.|.|.||.|||
+Gallus_gallus   6221 CATTTCGTGTAGTAATTCTGGATGACCTTGGACAACCGGTGTTAGAAGGA   6270
+
+Homo_sapiens    6283 ATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGG   6332
+                     ..||||||.|||||.||.|||||..|.|||||||||||.||.||||||||
+Gallus_gallus   6271 GCTGAGAAGTTTGAGCTTGTGCTAAGAATGCCTATGAATGCTGCCCTTGG   6320
+
+Homo_sapiens    6333 CGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGC   6382
+                     .||.||||||||.||.||..|.|.|||.||||||||.|||||.|||||||
+Gallus_gallus   6321 AGAACCCAGCAAGGCTACCATCTTCATCAATGACTCAGTCTCTGATTTGC   6370
+
+Homo_sapiens    6383 CTAAGATGCAATTCAAAGAAC--GAATATATACTGGCAGCGAAAGTGATG   6430
+                     ||||||||||.||.|||||||  |.||||.||  |.||..||||..||||
+Gallus_gallus   6371 CTAAGATGCAGTTTAAAGAACCTGTATATGTA--GTCAATGAAAACGATG   6418
+
+Homo_sapiens    6431 GGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCT   6480
+                     |.|||||...|.|.|||||..|.||||.|||.|||.||||.||||.|||.
+Gallus_gallus   6419 GACAGATTTCTGCCATGATATACAGGAGTGGAGATATCCAATACACATCA   6468
+
+Homo_sapiens    6481 TCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTT   6530
+                     .|.|||||||||||.||..||||.||.||.||.|||||.|||||.|||||
+Gallus_gallus   6469 ACTGTGAGATGCTATACAAGGCAAGGTTCAGCTCAGGTAATGATCGACTT   6518
+
+Homo_sapiens    6531 TGAAGAACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTG   6580
+                     |||||||||.||.||.|||||||..|||||||||||||||||.|||||||
+Gallus_gallus   6519 TGAAGAACGTCCTAATACTGATAGTTCCATCATCACATTCCTTCCTGGTG   6568
+
+Homo_sapiens    6581 AGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCT----A   6626
+                     ||||.||.|||||.||||..||.|.|||.|||||.||    |.||    |
+Gallus_gallus   6569 AGACTGAGAAGCCTTGCACACTAGTGCTTATGGATGA----CACTTTTCA   6614
+
+Homo_sapiens    6627 TGAGGAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACT   6676
+                     |||.||.|..||.||.||.||.|||||.||.|||||||||..|||..|.|
+Gallus_gallus   6615 TGAAGAAGATGAAGAACTACGTCTGGTTCTTGGCACTCCAAGAAGTGATT   6664
+
+Homo_sapiens    6677 CTCCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATC   6726
+                     |..||||.||.||..|..||||||||||||||||.||.|||||||.|||.
+Gallus_gallus   6665 CATCCTTCGGTGCCTCTATTGGTGAACAAAATGAGACCCTCATAAAGATT   6714
+
+Homo_sapiens    6727 CGAGATGATGCTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAG   6776
+                     |.||||||.||.||.|||.||.|||||||||||||.||.|||||||||||
+Gallus_gallus   6715 CAAGATGACGCAGACAAGGCTATTATTAAATTTGGTGAGACCAAATTTAG   6764
+
+Homo_sapiens    6777 TGTCACTGAACCCAAAGAAC-CTGGA-GAGTCGGTGGTTATAAGAATTCC   6824
+                     |||.|.|| |.||||||.|| |..|| .||| .|..|||.|||.|||.||
+Gallus_gallus   6765 TGTGAGTG-AGCCAAAGGACACAAGACAAGT-AGCAGTTGTAAAAATCCC   6812
+
+Homo_sapiens    6825 AGTGATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACA   6874
+                     |||||||||.|..||||||||.||.||||||||..||||||||||.||.|
+Gallus_gallus   6813 AGTGATTCGTCTGGGAGACACATCTAAGGTTTCTGTTGTGAGAGTTCATA   6862
+
+Homo_sapiens    6875 CCAAGGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAA   6924
+                     |.||||||||.||.||.|..||||||||.|||||.||||||.|.||||||
+Gallus_gallus   6863 CAAAGGATGGATCTGCTATTTCTGGAGAGGACTATCACCCTATATCAGAA   6912
+
+Homo_sapiens    6925 GAAATTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGT   6974
+                     ||||||||.||||||||.||.|||||.||||||.|.||.||.||.|||||
+Gallus_gallus   6913 GAAATTGAATTTAAGGAGGGTGAAACACAGCACTTTGTGGAGATTGAAGT   6962
+
+Homo_sapiens    6975 TACCTTTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAA   7024
+                     |..||||||.||.||.||.|||||||||||.|||||.||||||||.||.|
+Gallus_gallus   6963 TCTCTTTGATGGAGTTAGGGAGATGAGAGAAGCCTTTACTGTTCATCTGA   7012
+
+Homo_sapiens    7025 AACCTGATGAAAATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTG   7074
+                     ||||||||||.||.|||.|.||.||.||.|||....|.||.||||||||.
+Gallus_gallus   7013 AACCTGATGAGAACATGGTTGCTGAAATACAGACAGCCAAGGCCATTGTT   7062
+
+Homo_sapiens    7075 TACATAGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCC   7124
+                     |||||.||||||||||.||||||||||||||||||.||||||||||||||
+Gallus_gallus   7063 TACATTGAAGAAATGAACAGCATGGCAGATGTCACCTTTCCTTCTGTCCC   7112
+
+Homo_sapiens    7125 TCAAATTGTATCCCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGA   7174
+                     ||||.|||.||||||.|||||.|||||.||.|||||||.|||.||.||  
+Gallus_gallus   7113 TCAAGTTGCATCCCTTTTGATATATGATGATACTTCCAGAGCCAAAGA--   7160
+
+Homo_sapiens    7175 GTGCTGAACC---CATGT--CTGGCTATCCTGTCATCTGTATCACAGCTT   7219
+                        |.|||||   |.|||  |||||||||||||||||||.||.|||||||
+Gallus_gallus   7161 ---CAGAACCAGTCCTGTAGCTGGCTATCCTGTCATCTGCATTACAGCTT   7207
+
+Homo_sapiens    7220 GCAACCCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGTGCAAGT   7269
+                     ||||.||.|||||...|||||..|||||.||.||.||.||.|||||.|||
+Gallus_gallus   7208 GCAATCCTAAATACGAAGACTTTGATAAGACTGGTTCAATATGTGCTAGT   7257
+
+Homo_sapiens    7270 GAGAACATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGTGCACC   7319
+                     ||.|||||||||.|.|||.||||.|..||.||.|||||..|.||||||||
+Gallus_gallus   7258 GAAAACATCAATAATACTCTGACACAATATCGATGGCTTGTGAGTGCACC   7307
+
+Homo_sapiens    7320 TGCGGGCCCTGACGGTGTGACCAGCCCTATGAGAGAAGTGGACTTCGACA   7369
+                     ..|.||.|||||.||.||.||.|||||.||||..||.||.||||||||.|
+Gallus_gallus   7308 CACTGGTCCTGATGGCGTTACAAGCCCCATGAAGGAGGTTGACTTCGATA   7357
+
+Homo_sapiens    7370 CCTTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATATACTTTCAG   7419
+                     ||||.||.||.||||||||||||.|||||||.||||||||.||||||||.
+Gallus_gallus   7358 CCTTCTTCACTTCATCCAAGATGATCACACTCGACTCCATTTACTTTCAA   7407
+
+Homo_sapiens    7420 CCTGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAATGGGGA   7469
+                     .|||||||.||.||.||.||.||||||||||||||.||..|..|||||.|
+Gallus_gallus   7408 GCTGGCTCTCGTGTCCAATGTGCAGCTCGTGCTGTCAATTCAGATGGGAA   7457
+
+Homo_sapiens    7470 TGAAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGAAGAAG   7519
+                     |||.||.||.||.||.|||||.|||||||||||.||.||||.|..|||||
+Gallus_gallus   7458 TGAGGGTCTTGAACTTATGAGTCCTATTGTAACTATAAGCACATCAGAAG   7507
+
+Homo_sapiens    7520 GTCTTTGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCA   7569
+                     |||||||||||||.|||||..|.||.||||||||||||||.||.|||||.
+Gallus_gallus   7508 GTCTTTGTCAGCCTCGTGTGTCAGGAGTTGTTGGAGCAGAACCATTCTCT   7557
+
+Homo_sapiens    7570 GCTAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAAACCTTAT   7619
+                     ||.|||.|||||||.||||||||.||.|||.|||..||..|.||.||.||
+Gallus_gallus   7558 GCCAAACTGCGCTATACAGGCCCAGAAGATCCAGCTTATGCCAATCTCAT   7607
+
+Homo_sapiens    7620 CAAGCTCACTGTCACAATGCCACACATAGATGGCATGCTCCCCGTGATCT   7669
+                     ||||||.||.|||||.|||||||||||.|||||||||||.||.||.||.|
+Gallus_gallus   7608 CAAGCTGACAGTCACGATGCCACACATTGATGGCATGCTGCCTGTTATTT   7657
+
+Homo_sapiens    7670 CCACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGCACA   7719
+                     |.||.||.|||||||||||.||||||||.||.||.|||||||||||.||.
+Gallus_gallus   7658 CTACAAGGGAGCTTTCCAATTTTGAGCTGACACTTAGCCCTGATGGAACT   7707
+
+Homo_sapiens    7720 AGAGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAAGTGAA   7769
+                     ||||||||||||||.||||||||||||||.||||||||.||.||||||||
+Gallus_gallus   7708 AGAGTTGGAAACCATAAGTGCTCCAACCTGCTGGATTACACAGAAGTGAA   7757
+
+Homo_sapiens    7770 GACTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAATAATTG   7819
+                     |||.||..|||||||||||||||||||||||||||||.||||..|.||||
+Gallus_gallus   7758 GACCCACCATGGTTTCTTGACTGATGCTACCAAAAATTCAGATGTGATTG   7807
+
+Homo_sapiens    7820 GAGAGA-CATATCCTTACCAGTACAGCTTGTCC----ATCAGAGGTTCCA   7864
+                     |||||| ||| |||.|||||.||||||    ||    ||||||||.|.||
+Gallus_gallus   7808 GAGAGACCAT-TCCCTACCAATACAGC----CCAGCAATCAGAGGCTTCA   7852
+
+Homo_sapiens    7865 CTACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCTGTTTATGGGAG   7914
+                     .||||||.||.||||||||.||.|||||.||.||.|||||||||||||||
+Gallus_gallus   7853 ATACCTTACGGTTCTACCGAAATCTGAATCTGGAAGCCTGTTTATGGGAG   7902
+
+Homo_sapiens    7915 TTCGTTAGCTACTATGACATGTCAGAACTCCTTGCTGACTGTGGTGGCAC   7964
+                     ||.||||||||||||||||||||.||.|||||..|.||.|||||.|||||
+Gallus_gallus   7903 TTTGTTAGCTACTATGACATGTCTGAGCTCCTCACAGATTGTGGAGGCAC   7952
+
+Homo_sapiens    7965 CATTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGTCCTATGTGACCC   8014
+                     ||||||.||||||||.|||||.||.|||||.||.||.||||||||.||.|
+Gallus_gallus   7953 CATTGGGACAGATGGGCAGGTTCTCAACCTCGTACAATCCTATGTCACAC   8002
+
+Homo_sapiens    8015 TTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCCCCCGTGGGGGTA   8064
+                     |..|.|||||..||||.||.|||||.||.|||||.||.||.|||||.|||
+Gallus_gallus   8003 TGAGGGTCCCCTTGTACGTCTCCTATGTTTTCCACTCTCCGGTGGGCGTA   8052
+
+Homo_sapiens    8065 GGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTCTAACTTTTGT   8114
+                     |||||.||||||||.||||||.||.||||.|||||.||.||.||||||||
+Gallus_gallus   8053 GGAGGTTGGCAGCACTTTGACCTGCAGTCTGAGCTCCGGCTGACTTTTGT   8102
+
+Homo_sapiens    8115 GTACGACACCGCCATCTTGTGGAATGATGGAATTGGCAGCCCCCCAGAGG   8164
+                     |||.|||||.||||||.|||||||.||.||.||.||.|||||.||.||||
+Gallus_gallus   8103 GTATGACACTGCCATCCTGTGGAAGGACGGCATCGGGAGCCCACCGGAGG   8152
+
+Homo_sapiens    8165 CTGAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGCATCGGTGATGAG   8214
+                     |.||.||.|||||||||||.||.||||||||||||||.||..||||.|||
+Gallus_gallus   8153 CAGAGCTCCAAGGTTCTCTGTACCCAACCAGCATGCGTATAAGTGAAGAG   8202
+
+Homo_sapiens    8215 GGGCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTTCCATGGCTTATT   8264
+                     ||.|||.|||..||..||||||||||.||.||.|.|||.||.||..|.||
+Gallus_gallus   8203 GGCCGCCTGGTTGTCAACTTCAAGACTGAAGCACGGTTTCACGGTCTGTT   8252
+
+Homo_sapiens    8265 TGTGCTGTCACATCCCGCATCCTTTACAAGCTCAGTGATCATGTCAGCTG   8314
+                     |||..||||.||.||.||.||.|.|..||..||..||.|.||||||||||
+Gallus_gallus   8253 TGTCATGTCCCACCCTGCTTCATCTCTAACTTCCATGGTTATGTCAGCTG   8302
+
+Homo_sapiens    8315 ATCATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGGAGTGAACCAACC   8364
+                     ||||.|||.||||.|||||...||||.|||||||..|.||.||.||.||.
+Gallus_gallus   8303 ATCACCCAAGCCTAACATTCAGCCTCAGCCTCATCCGAAGCGAGCCTACG   8352
+
+Homo_sapiens    8365 TATAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGACTTTGCCGTACG   8414
+                     ||.|||||||||||||||||||||||||||||.||.||.|||||.||.||
+Gallus_gallus   8353 TACAACCAGCCAGTACAGCAGTGGAGCTTTGTTTCAGATTTTGCGGTTCG   8402
+
+Homo_sapiens    8415 TGACTACTCAGGGACCTATACTGTGAAGCTGGTGCCATG---CACTGCCC   8461
+                     .|||||.||.||||||||||..||.||||||.|..|.||   ||||||.|
+Gallus_gallus   8403 AGACTATTCTGGGACCTATATGGTAAAGCTGATAGCTTGTACCACTGCTC   8452
+
+Homo_sapiens    8462 CATCACATCAGGAATACCGCCTGCCAGTCACCTGCAACCCCAGAGAACCT   8511
+                        ||||||||||.|||.||||.|||||.|.||||||.||.|||||.||.
+Gallus_gallus   8453 ---CACATCAGGAGTACAGCCTACCAGTGATCTGCAATCCTAGAGAGCCG   8499
+
+Homo_sapiens    8512 GTCACCTTTGACCTTGACATCCGATTCCAACAGGTCAGTGATCCAGTGGC   8561
+                     .||||.|||||.||.||.|||||||||||.|||||||||||.||.|||||
+Gallus_gallus   8500 ATCACATTTGATCTGGATATCCGATTCCAGCAGGTCAGTGACCCGGTGGC   8549
+
+Homo_sapiens    8562 TGCTGAGTTTAGCTTGAACACCCAAATGTACCTGCTCTCTAAGAAGAGTC   8611
+                     |||||||||.||||||||.|||||.||||.|||.|||||.||.||||..|
+Gallus_gallus   8550 TGCTGAGTTCAGCTTGAATACCCAGATGTTCCTTCTCTCCAAAAAGACAC   8599
+
+Homo_sapiens    8612 TCTGGTTGTCTGATGGATCCATGGGATTCGGGCAAGAGAGTGATGTTGCT   8661
+                     |||||.|.||.||.|||||.|||||.||.||.|||||.||||||||||||
+Gallus_gallus   8600 TCTGGCTATCAGACGGATCAATGGGCTTTGGACAAGAAAGTGATGTTGCT   8649
+
+Homo_sapiens    8662 TTTGCAGAAGGTGATATAATTTATGGTCGTGTCATGGTGGATCCTGTCCA   8711
+                     ||..|||||||||||.|.|||||||||||.||.|||||||||||.||.||
+Gallus_gallus   8650 TTCTCAGAAGGTGATGTCATTTATGGTCGAGTGATGGTGGATCCAGTGCA   8699
+
+Homo_sapiens    8712 GAATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAGGTGTTTCTATGCA   8761
+                     .|||||||||||.|||||.|||||.||||||||||||||.||.||.||.|
+Gallus_gallus   8700 AAATCTGGGTGATTCCTTCTACTGTAGCATTGAGAAGGTTTTCCTGTGTA   8749
+
+Homo_sapiens    8762 CTGGAGCTGATGGCTATGTTCCCAAGTATAGTCCAATGAATGCAGAATAT   8811
+                     |.|||||||||||.|||||.||||||||||.||||...||..|.||||||
+Gallus_gallus   8750 CAGGAGCTGATGGATATGTACCCAAGTATAATCCATCCAACACCGAATAT   8799
+
+Homo_sapiens    8812 GGCTG-CTTAGCCGACTCTCCTTCACTCTTATATAGATTTAAAATTGTGG   8860
+                     ||.|| ||| ||.||.|||||.||.||..|.||.||||||||.|||||||
+Gallus_gallus   8800 GGATGTCTT-GCTGATTCTCCATCCCTTCTGTACAGATTTAAGATTGTGG   8848
+
+Homo_sapiens    8861 ACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTTGGAAATGTCCTATTT   8910
+                     |.||||||||.||||||||||||||.||.||.||||||.||||.||.|||
+Gallus_gallus   8849 ATAAAGCTCAACCAGAGACACAAGCCACGAGCTTTGGAGATGTGCTTTTT   8898
+
+Homo_sapiens    8911 AATGCCAAACTAGCAGTGGATGACCCTGAAGCCATTCTC-TTAGTGAATC   8959
+                     |||||.|||||.|||.|.|||||.||||||||.||| || |||||.||.|
+Gallus_gallus   8899 AATGCAAAACTTGCAATAGATGATCCTGAAGCAATT-TCTTTAGTTAAAC   8947
+
+Homo_sapiens    8960 AGCCTGGATCTGATGGATTTAAAGTCGACTCAACACCACTCTTTCAGGTC   9009
+                     |.||.||.|||||||||||||||||.||||||||.||.||.||||||||.
+Gallus_gallus   8948 AACCAGGCTCTGATGGATTTAAAGTGGACTCAACTCCTCTGTTTCAGGTG   8997
+
+Homo_sapiens    9010 GCTCTAGGCCGAGAATGGTATATACATACGATCTATACAGTGAGATCGAA   9059
+                     .|..|.|||.|.||.||||||.|.|||||.|||||.||.||..||||.||
+Gallus_gallus   8998 TCATTGGGCAGGGAGTGGTATGTCCATACAATCTACACTGTACGATCAAA   9047
+
+Homo_sapiens    9060 AGACAATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG------AGTACC   9103
+                     .||.|||||.||.||.||.|||||||||||||||||||      ||||||
+Gallus_gallus   9048 GGAGAATGCTAACCGTGGAATTGGCAAAAGAAGTGTGGAGCAGCAGTACC   9097
+
+Homo_sapiens    9104 ATTCTCTGGTGAGTCAAGGAAAGCCC--CA--ATCCACCACCAAGAGCCG   9149
+                     |.||.||..|.|||..||| .|||||  ||  ||||| |||  ||||.||
+Gallus_gallus   9098 ACTCACTCTTTAGTGGAGG-TAGCCCAGCAGGATCCA-CAC--AGAGACG   9143
+
+Homo_sapiens    9150 GAAGAAGAGA-GAGAT-CAGGAGCACACCCTCA---CTGGCATGGGAGAT   9194
+                     ..|.|||||| |||.| ..|||||.|     ||   ||.|||.|.||.||
+Gallus_gallus   9144 TCATAAGAGAGGAGTTGTGGGAGCTC-----CAGAGCTTGCAAGAGACAT   9188
+
+Homo_sapiens    9195 TGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCACATTGCCCTGGACC   9244
+                     |||.|..|||||||..|||||.||||||||.||||||||.||.|||||.|
+Gallus_gallus   9189 TGGAGTAGAAAACAACCGAGGGACAAACATACAGCACATAGCACTGGATC   9238
+
+Homo_sapiens    9245 GCACCAAGAGG---CAGATCCC-CCATGGGAGAGCACCTCCAGATGGCAT   9290
+                     ||||||..|||   |||.|||| |.|.|||||....|...||| |||..|
+Gallus_gallus   9239 GCACCAGCAGGAAACAGGTCCCTCAAAGGGAGGTTGCGGTCAG-TGGTGT   9287
+
+Homo_sapiens    9291 CCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTCAGCCTGGTCACTG   9340
+                     .||||||.|.||.||.|||||||..|||||.|.|||||||.|.|||||..
+Gallus_gallus   9288 TCTCCCCAGAGAACTGAACAGCCAGAGCTCAGGAGTCAGCGTAGTCACAA   9337
+
+Homo_sapiens    9341 TGGTGGGAGGCACCACGGTAGGG-----------TTACTCACCATCTGC-   9378
+                     |.||           ||||.|.|           ||.||..|.|||||| 
+Gallus_gallus   9338 TCGT-----------CGGTGGAGCTGCTGCCATTTTCCTTGCTATCTGCT   9376
+
+Homo_sapiens    9379 --CTCACTGTCA-----TTGCAGTGCTGATGTGCAGGGGCAAGGAAAGTT   9421
+                       .|.||..|||     ||||  ||||||     ||.||  ||..||..|
+Gallus_gallus   9377 TAATTACAATCATCATTTTGC--TGCTGA-----AGCGG--AGACAAAAT   9417
+
+Homo_sapiens    9422 TCAG-GGGGAAGGATGCCCCGA--AAGGCTCCAGCAGCAGTGAGCCCATG   9468
+                     ||.| |..||||||.|||.|.|  |||  ||..||||||.|||.||.|||
+Gallus_gallus   9418 TCTGAGAAGAAGGAAGCCACAAAGAAG--TCAGGCAGCAATGAACCAATG   9465
+
+Homo_sapiens    9469 GTGC-CCCCACAGAGCCATCA-CAATGACAGCTCAGAAGTT   9507
+                     .||| .|||| |.|||.| || ||.|||||||||.||.|||
+Gallus_gallus   9466 ATGCTTCCCA-ATAGCTA-CACCAGTGACAGCTCCGAGGTT   9504
+
+
+#---------------------------------------
+#---------------------------------------

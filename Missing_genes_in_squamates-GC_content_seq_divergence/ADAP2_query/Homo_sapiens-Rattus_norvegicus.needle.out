@@ -1,0 +1,138 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 16:46:59
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Rattus_norvegicus.fa
+#    -outfile Homo_sapiens-Rattus_norvegicus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Rattus_norvegicus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Rattus_norvegicus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1258
+# Identity:     979/1258 (77.8%)
+# Similarity:   979/1258 (77.8%)
+# Gaps:         140/1258 (11.1%)
+# Score: 4175.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGGCGATCGCGAGCGCAACAAGAAGCGGCTGCTGGAGCTGCTGCGGGC     50
+                     ||||||||.||.||.|||||||||||||||.|||||||||||||||.|||
+Rattus_norveg      1 ATGGGCGACCGTGAACGCAACAAGAAGCGGTTGCTGGAGCTGCTGCAGGC     50
+
+Homo_sapiens      51 GCCGGACACAGGCAACGCGCACTGCGCCGACTGCGGGG------------     88
+                     ..|||.|||.|||||||.||||||||||||||||||||            
+Rattus_norveg     51 TGCGGGCACTGGCAACGGGCACTGCGCCGACTGCGGGGCAGCGGGCCCAG    100
+
+Homo_sapiens      88 --------------------------------------------------     88
+                                                                       
+Rattus_norveg    101 CCTGTCCCTGCACCCTAGTCCAGTCCTTGTCCAGCTCAGCGGAGATCCTG    150
+
+Homo_sapiens      89 ----------CGGCAGATCCCGACTGGGCCTCTTACAAGCTGGGGATCTT    128
+                               |.||||||||.||.|||||||||||||||||||||.|.||
+Rattus_norveg    151 CTCTTCCACCCCGCAGATCCTGATTGGGCCTCTTACAAGCTGGGGGTTTT    200
+
+Homo_sapiens     129 CATCTGTCTCAACTGCTGCGGCGTCCACCGTAACTTCCCTGACATCAGCA    178
+                     ||||||||||.||||||..||||||||.||.||||||||.||||||||||
+Rattus_norveg    201 CATCTGTCTCCACTGCTCTGGCGTCCATCGCAACTTCCCAGACATCAGCA    250
+
+Homo_sapiens     179 GAGTTAAATCTGTGCGACTTGACTTCTGGGACGACAGTATTGTGGAGGTT    228
+                     .|||||||||.|||.||||.||||||||||||||||||||.||||     
+Rattus_norveg    251 AAGTTAAATCCGTGAGACTGGACTTCTGGGACGACAGTATGGTGG-----    295
+
+Homo_sapiens     229 GCTGTTGTCTTGCAGTTTATGATCCACAATGGAAACCTCCGTGTGAAGGC    278
+                                  ||||.||||..||||||||.||||||.|||||||.||
+Rattus_norveg    296 -------------AGTTCATGACTCACAATGGGAACCTCAGTGTGAAAGC    332
+
+Homo_sapiens     279 CAAGTTCGAAGCCAGAGTCCCAGCTTTCTACTACATCCCCCAGGCCAACG    328
+                     ||||||.|||||.|||||||||.|||||||||||.||||.|||||||.||
+Rattus_norveg    333 CAAGTTTGAAGCTAGAGTCCCAACTTTCTACTACGTCCCTCAGGCCAGCG    382
+
+Homo_sapiens     329 ACTGCCTGGTCTTAAAGGAACAATGGATTCGAGCTAAGTATGAGAGACGG    378
+                     |||||||||||||||||||||||||||||||||||||||||||.||.|.|
+Rattus_norveg    383 ACTGCCTGGTCTTAAAGGAACAATGGATTCGAGCTAAGTATGAAAGGCAG    432
+
+Homo_sapiens     379 GAATTTATGGCTGATGGGGAAA-CCATCTCGCTCCCAGGTAACCGAGAAG    427
+                     ||.|||||||||||    |||| |..||||||.|||||||.|.|||||||
+Rattus_norveg    433 GAGTTTATGGCTGA----GAAAGCTGTCTCGCCCCCAGGTGATCGAGAAG    478
+
+Homo_sapiens     428 GATTCCTGTGGAAGCGAGGAAGGGACAACTCACAGTTTCTGAGAAGGAAG    477
+                     |.|||||||||||||||||||||||||||||.|||||.|||||.||.|.|
+Rattus_norveg    479 GCTTCCTGTGGAAGCGAGGAAGGGACAACTCCCAGTTCCTGAGGAGAAGG    528
+
+Homo_sapiens     478 TTTGTACTTCTGGCAAGAGAAGGCCTCCTGAAGTACTTCACAAAGGAACA    527
+                     |||||.||||||.||||.||||||||.||||||||||.|||.||||||.|
+Rattus_norveg    529 TTTGTCCTTCTGTCAAGGGAAGGCCTGCTGAAGTACTACACCAAGGAAGA    578
+
+Homo_sapiens     528 GGGTAAAAGCCCCAAA-GCTGTCATCAGCATTAAGGACTTGAATGCCACC    576
+                     |||||||| ||||||| |||.||||||.|||.||||||||.|||||||||
+Rattus_norveg    579 GGGTAAAA-CCCCAAAGGCTATCATCAACATCAAGGACTTAAATGCCACC    627
+
+Homo_sapiens     577 TTCCAGACAGAGAAGATAGGGCACCCCCATGGGCTGCAGATCACCTACAG    626
+                     |||||||||||||||||.||.||.|||||.|||||||||||.||||||||
+Rattus_norveg    628 TTCCAGACAGAGAAGATTGGACATCCCCACGGGCTGCAGATTACCTACAG    677
+
+Homo_sapiens     627 GAGAGATGGCCACACCAGGAACCTGTTTGTGTATCATGAAAGTGGGAAGG    676
+                     ||..||.|||||.|||||.||.||||||||.||||||||.|||||.||||
+Rattus_norveg    678 GAAGGAGGGCCAAACCAGAAATCTGTTTGTATATCATGACAGTGGAAAGG    727
+
+Homo_sapiens     677 AGATAGTGGACTGGTTCAATGCCCTCCGTGCAGCCCGTCTGCAGTACCTA    726
+                     ||||||||||.|||||||||||.||||||||||||||.|||||.||||||
+Rattus_norveg    728 AGATAGTGGATTGGTTCAATGCTCTCCGTGCAGCCCGCCTGCAATACCTA    777
+
+Homo_sapiens     727 AAAATGGCCTTTCCTGAACTCCCAGAGTCTGAGCTCGTGCCATTCCTCAC    776
+                     |||.|||||||||||||.|||||||||||||||||||||||..||.||||
+Rattus_norveg    778 AAATTGGCCTTTCCTGATCTCCCAGAGTCTGAGCTCGTGCCTCTCATCAC    827
+
+Homo_sapiens     777 CAGGAACTACCTCAAACAAGGCTTCATGGAAAAGACTGGGCCAAAGCAGA    826
+                     ||||||||||||||||||||||||||||||.||||||||.||||||||.|
+Rattus_norveg    828 CAGGAACTACCTCAAACAAGGCTTCATGGAGAAGACTGGTCCAAAGCATA    877
+
+Homo_sapiens     827 AAGAACCTTTCAAGAAAAGGTGGTTCGCCCTGGATTGCCATGAGCGGAGG    876
+                     .||||||.|||||||||||||||||.|||.|||||...||.|||||||||
+Rattus_norveg    878 GAGAACCCTTCAAGAAAAGGTGGTTTGCCTTGGATCCTCAGGAGCGGAGG    927
+
+Homo_sapiens     877 CTGCTCTATTACAAGAACCCACTGGATGCCTTCGAGCAGGGCCAGGTTTT    926
+                     |||||.|||||.||||||||.|||||.||.||.|||||||||||||||||
+Rattus_norveg    928 CTGCTGTATTATAAGAACCCCCTGGACGCTTTTGAGCAGGGCCAGGTTTT    977
+
+Homo_sapiens     927 TCTTGGGAA-CAAGGAGCAGGGATATGAAGCCTACGAAGACCTGCCCAAG    975
+                     || |||||| |||.||||||||||||||||..|..||||.|||||||.||
+Rattus_norveg    978 TC-TGGGAAGCAATGAGCAGGGATATGAAGTATGGGAAGGCCTGCCCCAG   1026
+
+Homo_sapiens     976 GGCATCCGAGGAAATCGCTGGAAAGCCGGACTCACCATTGTCACCCCAGA   1025
+                     |||||||||||.||.||||||||.|.|||||||||..|..||||.||.||
+Rattus_norveg   1027 GGCATCCGAGGGAACCGCTGGAAGGTCGGACTCACGGTCATCACTCCGGA   1076
+
+Homo_sapiens    1026 GCGGAGATTTGTCCTCACTTGCCCCAGTGAGAAGGAACAGCAGGAATGGC   1075
+                     |||||.|||.|||.||||.|||||||..||.|||||.||||.||||||||
+Rattus_norveg   1077 GCGGAAATTCGTCTTCACCTGCCCCACGGAAAAGGAGCAGCGGGAATGGC   1126
+
+Homo_sapiens    1076 TGGAAAGTTTGCGGGGTGTCCTGTCCAGCCCCTTGACGCCCCTCAACCGG   1125
+                     ||||.|||.|||||||||||||||||||.||||||.||||||||.|||..
+Rattus_norveg   1127 TGGAGAGTCTGCGGGGTGTCCTGTCCAGTCCCTTGTCGCCCCTCCACCTC   1176
+
+Homo_sapiens    1126 CTTACTGCATCAACAGAGAGTGGCCGCAGCAGCAGG--------------   1161
+                     ||.|.||       ||| |||||           ||              
+Rattus_norveg   1177 CTCAGTG-------AGA-AGTGG-----------GGGGTGGGTGGGGATT   1207
+
+Homo_sapiens    1161 --------   1161
+                             
+Rattus_norveg   1208 CCTTTGGG   1215
+
+
+#---------------------------------------
+#---------------------------------------

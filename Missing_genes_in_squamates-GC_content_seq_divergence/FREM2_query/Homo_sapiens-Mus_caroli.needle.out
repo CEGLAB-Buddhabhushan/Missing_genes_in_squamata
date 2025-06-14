@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:43:00
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Mus_caroli.fa
+#    -outfile Homo_sapiens-Mus_caroli.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Mus_caroli.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Mus_caroli
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9546
+# Identity:    7973/9546 (83.5%)
+# Similarity:  7973/9546 (83.5%)
+# Gaps:         111/9546 ( 1.2%)
+# Score: 33600.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT-GCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACT     49
+                     || ||   ||||||.|                |||||.||||||.|||.|
+Mus_caroli         1 ATGGC---CAGCCGTG----------------CGCGCAGGACAGCCAAGT     31
+
+Homo_sapiens      50 CCACCAGCTTTCAACCAGGAC-CGCCACCGCCGCCCCGGCTGCTGCTGCT     98
+                     .|.|||||||.||.||...|| || |||.|.||||..|||||||||||||
+Mus_caroli        32 TCTCCAGCTTCCAGCCGATACTCG-CACAGTCGCCTAGGCTGCTGCTGCT     80
+
+Homo_sapiens      99 GCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAGCCCGCTG    148
+                     |         ||||||||||||||||||||||||.|..||||..|.||||
+Mus_caroli        81 G---------CTCCTGTCACTGGTAAGCCGCGTCTCCACACAAGCTGCTG    121
+
+Homo_sapiens     149 CCTTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTGCAGGGGTC    198
+                     .|..|||....||..|.|.|||||..||||||.|.|||.||.|.||.|||
+Mus_caroli       122 GCCCCGGTGCCGCACTTCAGTCCCTGGGTCTCTCCGGGACTTCGGGAGTC    171
+
+Homo_sapiens     199 CCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGGGTGCCTTT    248
+                     |||.|.|||||.||.||||||.||||.||||||||.|||||.|||||.||
+Mus_caroli       172 CCTACAGAGGAAGCTATAGTGGTGGCAAACCGCGGGCTCCGTGTGCCCTT    221
+
+Homo_sapiens     249 CGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTTGCAGGTGC    298
+                     |||.||.|||||||||||||||||..|||.||||.|||||.|||||||||
+Mus_caroli       222 CGGTCGCGAAGTCTGGCTGGATCCGTTGCGTGACTTGGTGCTGCAGGTGC    271
+
+Homo_sapiens     299 AGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACGCACTGGCC    348
+                     ||||.||.|||||||||.|.||..|.||..|||||||||||||.||||||
+Mus_caroli       272 AGCCAGGAGACCGCTGCACAGTGACCGTGTTAGACAACGACGCGCTGGCC    321
+
+Homo_sapiens     349 CAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGACTTTGGCCC    398
+                     |||||.|||||||.|.|||||||||||||.||..|||||||||.||||||
+Mus_caroli       322 CAGCGGCCGGGCCACTTGAGTCCCAAGCGTTTTGCGTGCGACTATGGCCC    371
+
+Homo_sapiens     399 TGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTCTCGGGACC    448
+                     .||.||.|||||||||||.||||||||.||.||||||||.||.||.||||
+Mus_caroli       372 GGGTGAAGTGCGCTACTCGCACCTGGGTGCTCGCAGCCCTTCCCGCGACC    421
+
+Homo_sapiens     449 GCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCAGTAGTGCTA    498
+                     |||||||.||||||||||||||.||.||.||.||||||||..||||.||.
+Mus_caroli       422 GCGTCCGCCTGCAGCTGCGCTACGATGCTCCAGGAGGGGCGATAGTCCTG    471
+
+Homo_sapiens     499 CCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAGGTTGTGAC    548
+                     |||||||.|||.||||||||.|||||||||||||||||||||.|||||||
+Mus_caroli       472 CCACTGGCACTAGAGGTGGAAGTGGTCTTCACCCAGCTGGAGATTGTGAC    521
+
+Homo_sapiens     549 TCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCAGCAATGCCC    598
+                     ||||||.||.|||||||||||||||||.|||||.|||||||||||||||.
+Mus_caroli       522 TCGGAATTTACCTCTGGTCGTGGAAGAACTGCTAGGGACCAGCAATGCCT    571
+
+Homo_sapiens     599 TGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACAGAGGAGTGC    648
+                     ||||.||.||||||.|.||||||||||.||||||.|||||.|||||||||
+Mus_caroli       572 TGGATGCTCGGAGCTTAGAGTTCGCCTACCAGCCTGAGACCGAGGAGTGC    621
+
+Homo_sapiens     649 CGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTATGGAGAACT    698
+                     ||||||||||||.||||.||..||.||||..|||||||.||.||||||||
+Mus_caroli       622 CGCGTGGGCATCTTGTCAGGTCTGAGCGCTTTGCCTCGGTACGGAGAACT    671
+
+Homo_sapiens     699 CCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGGCGCCCCGG    748
+                     |||.||||||||.|||||||..|||||.|||.||||..||||..||.|.|
+Mus_caroli       672 CCTTCACTACCCACAGGTCCAGGGAGGGGCCGGAGACAGAGGGACCTCTG    721
+
+Homo_sapiens     749 AGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTAT    798
+                     ||||.||..||||||||||||||.|.||||||||.||.||.||.|||||.
+Mus_caroli       722 AGACCCTTTTGATGGACTGCAAAACATTCCAGGAGCTGGGAGTCCGCTAC    771
+
+Homo_sapiens     799 CGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATACCCATGGT    848
+                     ||||||||||||.||||.|||||.||.||||||||||||.|.||.|||||
+Mus_caroli       772 CGCCACACAGCCCCCAGCCGCTCGCCTAACAGGGACTGGCTGCCTATGGT    821
+
+Homo_sapiens     849 GGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTGCTTTGAAAC    898
+                     |||.|||||.|.|||.|||||||||||.|.|||||||||.|||||.||||
+Mus_caroli       822 GGTCGAGCTACATTCGCGAGGGGCTCCAGAGGGCAGCCCCGCTTTAAAAC    871
+
+Homo_sapiens     899 GCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAACACT    948
+                     ||||||||||||||||.||.|||||||||||.|||||.||.|||||||||
+Mus_caroli       872 GCGAGCACTTCCAGGTGCTTGTGAGGATCCGGGGAGGAGCGGAGAACACT    921
+
+Homo_sapiens     949 GCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGTT    998
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mus_caroli       922 GCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGTT    971
+
+Homo_sapiens     999 TGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTGAGT   1048
+                     |||||||||.||.||.||.|||||||||||.|||||||||||||||||.|
+Mus_caroli       972 TGTACTGACTGCTCTCACTCCAGACATGCTAGCAGCCGAGGATGCTGAAT   1021
+
+Homo_sapiens    1049 CTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCTGGC   1098
+                     |...|.|.|||||.|||||.||||||||.||.|||.|.|||||||||||.
+Mus_caroli      1022 CCGACCCAGACCTTTTGATTTTCAACCTCACCTCTGCCTTCCAGCCTGGG   1071
+
+Homo_sapiens    1099 CAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTCCTCCTT   1148
+                     |||||||||.||||||||||.|||||..|.||||||||.||.||||||||
+Mus_caroli      1072 CAGGGCTACCTGGTGAGCACTGATGACAGAAGCCTGCCTCTCTCCTCCTT   1121
+
+Homo_sapiens    1149 CACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCCCTTCTG   1198
+                     .||.|||.|||||.||||.||.||||||||||||||||||||.||.||||
+Mus_caroli      1122 TACACAGCGGGATTTGCGCCTGCTGAAGATTGCCTACCAGCCTCCCTCTG   1171
+
+Homo_sapiens    1199 AAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAGTGGAT   1248
+                     |||||||.||.|||||.||..|.||||||||.||..|||||.|||||||.
+Mus_caroli      1172 AAGACTCGGATCAGGAACGTTTGTTTGAACTAGAGCTGGAGATAGTGGAC   1221
+
+Homo_sapiens    1249 CTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTGAAGCC   1298
+                     |..|||||||||||.|||||||||||.|||||||||||.||||||||.||
+Mus_caroli      1222 CCTGAAGGAGCAGCCTCAGACCCTTTCGCCTTCATGGTGGTGGTGAAACC   1271
+
+Homo_sapiens    1299 CATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTATTCTCT   1348
+                     ||||||||||.|||||||.||||||||.||.||.||.||.||||||||||
+Mus_caroli      1272 CATGAACACACTGGCTCCCGTGGTCACACGAAACACTGGCCTTATTCTCT   1321
+
+Homo_sapiens    1349 ATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGTCCGCAA   1398
+                     ||||||||||.|.||||||.|||||.||.||.|.|||||||||.||.||.
+Mus_caroli      1322 ATGAGGGTCAATATCGGCCGCTCACGGGTCCCGTAGGCAGTGGACCCCAG   1371
+
+Homo_sapiens    1399 AACTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCGGCTAGAGGT   1448
+                     ||||||||||||||.|||||.||||||||||||||.|||.||||.|||||
+Mus_caroli      1372 AACTTGGTCATCAGTGATGAAGATGACCTAGAAGCTGTGAGGCTGGAGGT   1421
+
+Homo_sapiens    1449 GGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGCTTCCAGTG   1498
+                     |||||||||||||||.|||||.||||||||.|||||||||.||.|||||.
+Mus_caroli      1422 GGTGGCTGGGCTCCGTCATGGCCACCTTGTTATTCTGGGTTCTCCCAGTC   1471
+
+Homo_sapiens    1499 GCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTGGCAGCCGGCCAG   1548
+                     |...||||||||||||||.|||.||||||||.||||||||.||.||||||
+Mus_caroli      1472 GTGACTCTGCTCCCAAGACCTTCACAGTGGCGGAGCTGGCGGCTGGCCAG   1521
+
+Homo_sapiens    1549 GTGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGACAACCTGGT   1598
+                     ||.||.|||||||||||||||||||||||.||.|||||.||||||.||||
+Mus_caroli      1522 GTTGTGTACCAGCATGATGACAGAGACGGTTCACTGAGTGACAACTTGGT   1571
+
+Homo_sapiens    1599 GCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGTTTCTGTTCC   1648
+                     |||.||||||...|||||||||||||||||||||||.|||||.|||||||
+Mus_caroli      1572 GCTGCGCATGTCCGATGGAGGAGGCAGGCACCAGGTCCAGTTCCTGTTCC   1621
+
+Homo_sapiens    1649 CCATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTCAATGCCAAC   1698
+                     |.|||||.||||||||||||||||||||||||||.||.||.||.||||||
+Mus_caroli      1622 CTATCACTTTAGTGCCTGTGGATGACCAGCCACCCGTCCTGAACGCCAAC   1671
+
+Homo_sapiens    1699 ACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTGCCCCTTTC   1748
+                     ||.|||||||||.||||.|||||||||||.||||||||||..|||.|..|
+Mus_caroli      1672 ACTGGGCTGACAGTGGCTGAGGGTGAAACTGTGCCCATCCCACCCTTGAC   1721
+
+Homo_sapiens    1749 CCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGCTTTTTGTGC   1798
+                     .|||||||||||.||.||.|||||||||||.||||.||||.|||||||.|
+Mus_caroli      1722 TCTGAGTGCAACCGATATAGATTCAGATGACTCTCAGCTGGTTTTTGTCC   1771
+
+Homo_sapiens    1799 TGGAGTCACCCTTCTTAACTAC--GGGGCATCTGCTTCTCCGCCAAACTC   1846
+                     |||.|.|||||||||.||  ||  ||||||.||||||||||||||||..|
+Mus_caroli      1772 TGGTGCCACCCTTCTCAA--ACTTGGGGCACCTGCTTCTCCGCCAAAGGC   1819
+
+Homo_sapiens    1847 ACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTGGAGGAAGGAG   1896
+                     |....|||||.||..|||||            ||.||.|||..||||.|.
+Mus_caroli      1820 ATGTCCCCCAGGAAGAGCAG------------GGTCTGTGGCAGAAGCAA   1857
+
+Homo_sapiens    1897 GGGGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGGACATAAC   1946
+                     |||.||||||||||||||||.|||||||||||||.|||.|||||.|||||
+Mus_caroli      1858 GGGTCATTTTATGAGCGAACGGTGACAGAGTGGCGGCAACAGGATATAAC   1907
+
+Homo_sapiens    1947 AGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCTGGGCCAG   1996
+                     ||||||.|.|||.||||||||.||||||||||||||.||.||||||||||
+Mus_caroli      1908 AGAGGGGAAGCTCTTCTATAGGCACTCTGGGCCCCACAGCCCTGGGCCAG   1957
+
+Homo_sapiens    1997 TCACAGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCCTCCTAAT   2046
+                     |.|..||||||||||..|||||||||||.||.||.||||||||.|||||.
+Mus_caroli      1958 TGATGGACCAGTTCATGTTTAGAGTCCAAGACAATCATGACCCCCCTAAC   2007
+
+Homo_sapiens    2047 CAGTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGGATCGCCT   2096
+                     |||||.|||.|.|||..||||||.||.||.||.|||||||||||.||.||
+Mus_caroli      2008 CAGTCTGGGATCCAGAAGTTTGTAATACGCATTCATCCTGTGGACCGTCT   2057
+
+Homo_sapiens    2097 CCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTACAGGAAT   2146
+                     ||||||.||.|||||||||||||||||||||||.||||||||||||||||
+Mus_caroli      2058 CCCTCCAGAACTGGGCAGTGGCTGTCCCCTTCGGATGGTGGTACAGGAAT   2107
+
+Homo_sapiens    2147 CCCAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGAC   2196
+                     ||||||||||||||||||||||.|.||||||||.||||||||||||||||
+Mus_caroli      2108 CCCAGCTCACACCACTGAGGAAAAGGTGGCTGCACTACACTGACCTGGAC   2157
+
+Homo_sapiens    2197 ACAGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACAC   2246
+                     ||||||||||||||..|||..||||||||.||.|||||.|||||.|||||
+Mus_caroli      2158 ACAGATGACCGAGAGTTACAGTACACAGTAACCCAGCCTCCCACGGACAC   2207
+
+Homo_sapiens    2247 AGACGAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTGACTGACA   2296
+                     |||.||.||.|||.||||.||.||||||||.||.||||||||.|||||.|
+Mus_caroli      2208 AGATGAGAACCACTTGCCGGCTCCACTGGGCACTTTGGTCTTCACTGATA   2257
+
+Homo_sapiens    2297 ACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAACCATCAT   2346
+                     |.||||||||.|||||||.|||||||||||||||.|||.||||.||||||
+Mus_caroli      2258 ATCCCTCAGTGGTGGTGAGCCATTTTACCCAAGCTCAGGTCAATCATCAT   2307
+
+Homo_sapiens    2347 AAAATTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTACTCGAGT   2396
+                     ||||||||||||||.|||||.||.||.||.||.||.||.||..|.|||||
+Mus_caroli      2308 AAAATTGCTTACAGGCCCCCAGGGCAGGAGCTAGGAGTCGCAGCCCGAGT   2357
+
+Homo_sapiens    2397 GGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTGGCTCCAG   2446
+                     |||.||||||||||||||.||.||.|||||||||||||||||||||||.|
+Mus_caroli      2358 GGCTCAGTTCCAGTTCCAAGTAGAGGACCGAGCTGGGAATGTGGCTCCTG   2407
+
+Homo_sapiens    2447 GTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCTGAGATC   2496
+                     |.|||||.|||||||||.||||.||.|||||.||||||||.||.|||||.
+Mus_caroli      2408 GCACCTTCACCCTTTACCTGCAGCCTGTGGATAACCAGCCCCCCGAGATT   2457
+
+Homo_sapiens    2497 CTCAACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCCTGAGTGA   2546
+                     .|||||||.||||||||..||.||||.|||||.||||||||||||.||||
+Mus_caroli      2458 GTCAACACTGGCTTCACCGTTGAGGAAAAGGGACACCACATCCTGCGTGA   2507
+
+Homo_sapiens    2547 GACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATATCTCTT   2596
+                     |||.|||.||||.||||.||||||.|||||.|||||.|||||.|||||.|
+Mus_caroli      2508 GACGGAGCTGCATGTGAGTGATGTTGACACAGATGTGGCCCACATCTCGT   2557
+
+Homo_sapiens    2597 TCACTCTCACTCAGGCACCCAAACATGGCCACATGAGAGTGTCTGGACAG   2646
+                     ||||||||||.|||||.||||||||||||||||||..|.|.|||||||||
+Mus_caroli      2558 TCACTCTCACACAGGCCCCCAAACATGGCCACATGCAAATATCTGGACAG   2607
+
+Homo_sapiens    2647 ATCCTGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAACAGGGCCG   2696
+                     ...|||||||||||.||.|.|||||||||||||||||||||.||.|||.|
+Mus_caroli      2608 CCACTGCATGTAGGAGGACACTTCCACTTGGAGGACATAAAGCATGGCAG   2657
+
+Homo_sapiens    2697 AGTTTCCTA-TGCCCATAATGGGGACAAGTCCCTGACTGATAGCTGCTCC   2745
+                     |.||||||| || ..|||..|||||..||||..|||||||.|||||||||
+Mus_caroli      2658 AATTTCCTACTG-GAATAGCGGGGATGAGTCTTTGACTGACAGCTGCTCC   2706
+
+Homo_sapiens    2746 TTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAGAGTAAA   2795
+                     .||||.|||||.||||||||.||||||||.||.||.|||||||||||.||
+Mus_caroli      2707 CTGGAGGTCAGCGACAGACACCATGTGGTACCAATTACTCTCAGAGTGAA   2756
+
+Homo_sapiens    2796 TGTCCGGCCAGTGGATGATGAAGTGCCCATACTGAG-CCATCCTACTGGC   2844
+                     .||.|||||||.|||...|||||..||.|| .|.|| ||.||||.||||.
+Mus_caroli      2757 CGTTCGGCCAGGGGACCGTGAAGGTCCTAT-GTCAGTCCTTCCTGCTGGT   2805
+
+Homo_sapiens    2845 ACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGAAATCAC   2894
+                     ||||||||||||||||||||.||||||||.|||||||||||.|||.|.||
+Mus_caroli      2806 ACTCTGGAGTCCTATCTAGACGTCTTAGAGAATGGGGCTACCGAAGTTAC   2855
+
+Homo_sapiens    2895 TGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGATGTTGA   2944
+                     .||||||.|.|||||||||.||.||.||||.||.|||||.||||||.|||
+Mus_caroli      2856 CGCCAATATCATTAAGGGGGCCTATCAGGATACCGATGATTTGATGCTGA   2905
+
+Homo_sapiens    2945 CTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTCAATGGC   2994
+                     |||||||.|||||||.|||.||.||.||||||||||||.|.|||||.||.
+Mus_caroli      2906 CTTTCCTATTGGAAGGTCCGCCCTTCTATGGGGAAATCCTAGTCAACGGA   2955
+
+Homo_sapiens    2995 ATTCCAGCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCTCTGTTGT   3044
+                     ..||||||.||||||||.||.||.|||||||||.||||||||||||||||
+Mus_caroli      2956 GCTCCAGCTGAGCAGTTCACCCAGAGGGACATCCTGGAGGGCTCTGTTGT   3005
+
+Homo_sapiens    3045 ATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGGATTCTT   3094
+                     .||..|.|||||||||||||||||.|||||.|||||.|||||.||.||||
+Mus_caroli      3006 CTACGCTCACACCAGTGGTGAGATTGGCCTGTTGCCCAAAGCTGACTCTT   3055
+
+Homo_sapiens    3095 TTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGGTGGCAAT   3144
+                     |||||||||||||.||||.|||||||||||||||||||||.|||.|||..
+Mus_caroli      3056 TTAACCTGAGTCTATCAGCTATGTCTCAAGAATGGAGAATCGGTAGCAGC   3105
+
+Homo_sapiens    3145 ACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTGATAGCCA   3194
+                     |.|.|.|||||.||.|||.|.||||||||||||||.|||||.||.|||||
+Mus_caroli      3106 ATTGTTCAAGGCGTCACTGTGTGGGTGACCATCCTCCCTGTGGACAGCCA   3155
+
+Homo_sapiens    3195 GGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAAGGTGATA   3244
+                     .|||||.||.||.|.|.|.|||||||||||..||||..||||||||||.|
+Mus_caroli      3156 AGCCCCTGAGATTTCTCTCGGTGAACAGTTTGTAGTGCTGGAAGGTGACA   3205
+
+Homo_sapiens    3245 AAAGTGTTATAA--------CATCAGTGCATATAAGTGCTGAAGATGTCG   3286
+                     |.|||||.||||        ||.|        ||||||||||.||..|.|
+Mus_caroli      3206 AGAGTGTGATAAGCCTGACCCACC--------TAAGTGCTGAGGACATGG   3247
+
+Homo_sapiens    3287 ACTCCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACTTCA   3336
+                     ||||||||||.||||||.||||||||||.|||||.||||||||.||.|||
+Mus_caroli      3248 ACTCCCTGAAGGATGACCTCTTGTGCACAATAGTCATTCAGCCAACCTCA   3297
+
+Homo_sapiens    3337 GGTTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGC   3386
+                     ||.|||||.||.|||||||||||||||||||||||.||||||||||||||
+Mus_caroli      3298 GGCTATGTAGAGAACATTTCTCCAGCACCAGGCTCAGAGAAATCAAGAGC   3347
+
+Homo_sapiens    3387 AGGGATTGCCATAAGTGCTTTCAACTTGAAAGATCTCAGGCAGGGCCACA   3436
+                     .|||.|||||||||||||.||||...||||.|||||||||||.||.||||
+Mus_caroli      3348 CGGGGTTGCCATAAGTGCCTTCACGCTGAAGGATCTCAGGCAAGGACACA   3397
+
+Homo_sapiens    3437 TAAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGA   3486
+                     |.||||||||||||||||||||.|.|||.|||||.|||||.||.|||||.
+Mus_caroli      3398 TTAACTATGTCCAGAGTGTCCACAGAGGAGTGGAGCCTGTCGAAGACCGC   3447
+
+Homo_sapiens    3487 TTTGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTT   3536
+                     |||.||||.||||||||||||||.||||||||.||.|||||||||.|.||
+Mus_caroli      3448 TTTATATTCCGTTGTTCTGATGGTATTAACTTCTCTGAGAGACAGATTTT   3497
+
+Homo_sapiens    3537 CCCCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATGTTTATGA   3586
+                     |||||||||.||||||||.||||||||.||.||||||||.|||||.||||
+Mus_caroli      3498 CCCCATTGTTATCATTCCTACCAATGACGAGCAGCCAGAAATGTTCATGA   3547
+
+Homo_sapiens    3587 GAGAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATACACCCATT   3636
+                     |.|||||.||||||||||||||||||||||||||..|..|.|.||.|||.
+Mus_caroli      3548 GGGAATTCATGGTGATGGAAGGCATGAGTCTGGTGGTCAACAGACTCATC   3597
+
+Homo_sapiens    3637 CTCAATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACTTTCACTAT   3686
+                     |||||.||.||||||||.|||.||||||..||||||.||||.||.||.||
+Mus_caroli      3598 CTCAACGCGGCTGATGCGGATATTCCCCGCGATGATCTAACGTTTACCAT   3647
+
+Homo_sapiens    3687 TACCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGATAAATGGCA   3736
+                     |||||..||.||.|||||.|||||..|||||||.|||.|.||.|||||.|
+Mus_caroli      3648 TACCCGGTTTCCAACTCACGGTCATGTCATGAACCAGTTAATCAATGGTA   3697
+
+Homo_sapiens    3737 CGGTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGC   3786
+                     |.||.|||||.||||||||||||.||||.|||||.|||||||||||||||
+Mus_caroli      3698 CAGTGTTGGTTGAAAGCTTCACCCTGGACCAGATTATAGAGAGTTCCAGC   3747
+
+Homo_sapiens    3787 ATTATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGAT   3836
+                     ||||||||||||||.||||||||.|||||.||.||.||||||||||||||
+Mus_caroli      3748 ATTATTTATGAGCACGATGACTCTGAGACACAAGAGGACAGTTTTGTGAT   3797
+
+Homo_sapiens    3837 TAAACTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAG   3886
+                     |||.||.||||||||.||||||||||||||.||||.||||||||||.|.|
+Mus_caroli      3798 TAAGCTGACAGATGGCAAGCACTCTGTGGAGAAGATGGTCCTCATTGTGG   3847
+
+Homo_sapiens    3887 TTATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAATAATGGACTA   3936
+                     |.||||||||||||||.|||||||||||||||||.|||||||||||.|||
+Mus_caroli      3848 TCATCCCTGTTGATGACGAGACGCCCAGAATGACCATCAATAATGGGCTA   3897
+
+Homo_sapiens    3937 GAAATAGAAATTGGGGATACCAAGATTATCAACAACAAAATATTAATGGC   3986
+                     |||||||||||||||||.|||||..||||||||||||||.|..|||||||
+Mus_caroli      3898 GAAATAGAAATTGGGGAAACCAAAGTTATCAACAACAAAGTCCTAATGGC   3947
+
+Homo_sapiens    3987 AACAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATG   4036
+                     |||.||..||||.||.||.||||||||..|||||||||||||.|||||||
+Mus_caroli      3948 AACTGACCTAGACTCTGATGACAAATCACTGGTTTATATTATCCGTTATG   3997
+
+Homo_sapiens    4037 GGCCAGGACATGGCTTATTACAGAGACGAAAACCTACT-GGTGCCTTTGA   4085
+                     |.|||||.||||||||.||||||||||.||||||| || ||||.||||||
+Mus_caroli      3998 GACCAGGGCATGGCTTGTTACAGAGACAAAAACCT-CTAGGTGTCTTTGA   4046
+
+Homo_sapiens    4086 AAATATCACACTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACT   4135
+                     |||||||||..|.||||||||||||||||||||.|||||.|||||.||||
+Mus_caroli      4047 AAATATCACTTTAGGCATGAATTTTACCCAGGACGAAGTGGACAGGAACT   4096
+
+Homo_sapiens    4136 TAATTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAA   4185
+                     |.||||||||||||||.||.||||||||.||||||||.|||||.||||||
+Mus_caroli      4097 TGATTCAGTATGTCCACTTTGGGCAAGAAGGCATTCGAGACCTGATTAAA   4146
+
+Homo_sapiens    4186 TTTGATGTGACTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGT   4235
+                     ||.||.|||||.|||||||.||||.|.||.|||||.||.||||||||.||
+Mus_caroli      4147 TTCGACGTGACAGATGGAACAAATGCTCTTATAGACCGCTACTTTTACGT   4196
+
+Homo_sapiens    4236 GTCCATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAG   4285
+                     |.|.||.||.||..||||||||||||||||||||||..||||||||||.|
+Mus_caroli      4197 GACTATTGGAAGTGTTGACATTGTCTTCCCTGATGTAGTAAGTAAGGGCG   4246
+
+Homo_sapiens    4286 TGTCCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGC   4335
+                     |||||||||||||||||||||||||||||||.||.|||||.||.||.|||
+Mus_caroli      4247 TGTCCTTGAAAGAAGGTGGCAAAGTCACTCTGACTACAGATCTGCTGAGC   4296
+
+Homo_sapiens    4336 ACTAGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAG   4385
+                     ||.|||||||||||||||||||||||.|||||.|||||.|||||.|||||
+Mus_caroli      4297 ACAAGTGACTTGAACAGTCCTGATGAGAACTTAGTTTTCACCATTACCAG   4346
+
+Homo_sapiens    4386 GGCTCCCATGCGAGGTCACCTGGAATGCACGGATC--AGCCTGGTGTGTC   4433
+                     ||||||.|||.||||||||.||||.||||||||||  ||  .||..||||
+Mus_caroli      4347 GGCTCCTATGAGAGGTCACTTGGAGTGCACGGATCGAAG--GGGACTGTC   4394
+
+Homo_sapiens    4434 CATCACGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACA   4483
+                     ||||||.||.|||||||||||.||.||||||||.||||||||||||||||
+Mus_caroli      4395 CATCACTTCGTTCACTCAGCTCCAGCTGGCTGGTAACAAAATCTACTACA   4444
+
+Homo_sapiens    4484 TCCACACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTC   4533
+                     |.|||||.|||||.|||||.||.|||||||||||.|||||||||||||||
+Mus_caroli      4445 TACACACGGCTGAGGATGAGGTCAAAATGGACAGCTTTGAGTTTCAAGTC   4494
+
+Homo_sapiens    4534 ACCGATGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGA   4583
+                     ||||||||.||.|||||||||||.||.||.|||||.|||||.||.||.||
+Mus_caroli      4495 ACCGATGGGCGGAACCCTGTCTTCCGAACTTTCCGGATCTCAATCAGTGA   4544
+
+Homo_sapiens    4584 TGTGGACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTG   4633
+                     .||.|||||.||||||||||||||||||||||||||.|||||.|||||||
+Mus_caroli      4545 CGTAGACAACAAAAAGCCAGTGGTCACCATCCACAACCTGGTGGTCAGTG   4594
+
+Homo_sapiens    4634 AAAGTGAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGA   4683
+                     |||||||||..||.|||||.|||||.|||||.||||||||.||.||||||
+Mus_caroli      4595 AAAGTGAAAGTAAACTGATAACTCCCTTTGAACTCACTGTAGAGGACAGA   4644
+
+Homo_sapiens    4684 GATACTCCTGACAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCA   4733
+                     |||||.|||||||.||||||.|||||||.|.||||||||||.|||.||||
+Mus_caroli      4645 GATACCCCTGACAGGCTCCTAAAATTCATTGTCACCCAGGTCCCTGTTCA   4694
+
+Homo_sapiens    4734 TGGCCATCTCCTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGC   4783
+                     |||.||.|||||.|||||||||||||||.|||||||||||||.|||||||
+Mus_caroli      4695 TGGTCACCTCCTCTTCAACAATACCAGATCTGTCATGGTTTTCACCAAGC   4744
+
+Homo_sapiens    4784 AAGACTTGAATGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCA   4833
+                     ||||||||||||||||||||||||||||||||||.||||||||.||.|||
+Mus_caroli      4745 AAGACTTGAATGAAAACTTAATCAGCTACAAACACGATGGCACAGAATCA   4794
+
+Homo_sapiens    4834 AGTGAAGATAGCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTT   4883
+                     |..|||||.||||||||||||||.||||||||.||||||||..|.|||||
+Mus_caroli      4795 ACGGAAGACAGCTTCTCCTTCACCGTGACTGACGGCACCCACTCGGACTT   4844
+
+Homo_sapiens    4884 CTATGTTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGA   4933
+                     ||||||||||||||||||.|||||||||||.||||||||.||||||||||
+Mus_caroli      4845 CTATGTTTTTCCTGATACAGTGTTTGAAACCAGGAGACCTCAAGTGATGA   4894
+
+Homo_sapiens    4934 AGATCCAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAAT   4983
+                     |.||||||||.||..|||||||||||||||||||||||||.|..|||||.
+Mus_caroli      4895 AAATCCAGGTGTTACCTGTTGACAACAGTGTCCCCCAAATTGTGGTGAAC   4944
+
+Homo_sapiens    4984 AAGGGGGCCTCTACACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCAT   5033
+                     ||.||.||.|||||||||||.||.||.|||||||||||.||.||||||||
+Mus_caroli      4945 AAAGGAGCTTCTACACTTCGTACCCTGGCCACTGGCCATTTAGGGTTCAT   4994
+
+Homo_sapiens    5034 GATCACAAGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTT   5083
+                     ||||||||||||||||.|.||||||||.||||||||||||.|.|...|||
+Mus_caroli      4995 GATCACAAGCAAAATACTCAAAGTGGAAGACAGAGACAGCCTGCGTTTTT   5044
+
+Homo_sapiens    5084 CTCTTAGATTTATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAAC   5133
+                     ||||.||.||.||.||||||||.|||||.||||||||.||.|||||||||
+Mus_caroli      5045 CTCTCAGGTTCATTGTGACAGAAGCCCCCCAACATGGCTACCTTCTCAAC   5094
+
+Homo_sapiens    5134 CTGGACAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGA   5183
+                     ||||.|.||||.||||||||..||||.||||||||.||||||||||||||
+Mus_caroli      5095 CTGGGCCAAGGAAACCACAGTGTCACGCAGTTCACCCAAGCTGACATTGA   5144
+
+Homo_sapiens    5184 TGACATGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTG   5233
+                     ||||||||||||||||||||||||.|||||..|.||.|||||||||||||
+Mus_caroli      5145 TGACATGAAAATATGCTATGTCTTGAGAGAGAGAGCAAATGCCACAAGTG   5194
+
+Homo_sapiens    5234 ATATGTTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTAC   5283
+                     ||||||||.||||...|||.|||||||..||||||||||.||||||..||
+Mus_caroli      5195 ATATGTTCCATTTCATAGTGGAAGATGACGGTGGAAACAGGTTAACCAAC   5244
+
+Homo_sapiens    5284 CAGAATTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTA   5333
+                     |||.|.|||||.||||||||||..||||||||||||||||||||.|||||
+Mus_caroli      5245 CAGCAGTTTCGACTGAATTGGGGGTGGATCTCCTTTGAAAAGGACTATTA   5294
+
+Homo_sapiens    5334 CCTGGTCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAG   5383
+                     |.||.||||.||||||||||||||||||||..|||||||||||||.||||
+Mus_caroli      5295 CTTGATCAACGAGGACTCCAAATTTCTAGACATTGTTCTTAAACGCAGAG   5344
+
+Homo_sapiens    5384 GTTACTTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACT   5433
+                     |.|||||||||||||||||.|||||||||||.|||||.||.||..|.|||
+Mus_caroli      5345 GATACTTGGGAGAAACTTCATTTATAAGTATCGGCACCAGGGATGGGACT   5394
+
+Homo_sapiens    5434 GCAGAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTT   5483
+                     ||.||||||||||.||||||||||||.|||||.||||||||.||.|||||
+Mus_caroli      5395 GCGGAAAAAGACAGAGACTTCAAGGGTAAAGCTCAGAAACAGGTACAGTT   5444
+
+Homo_sapiens    5484 CAACCCAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATG   5533
+                     ||||||.|||||||||||||||.|.|||.|||||||.||||||||.||||
+Mus_caroli      5445 CAACCCCGGCCAGACCAGGGCCTCGTGGAGAGTGCGCATCCTGAGCGATG   5494
+
+Homo_sapiens    5534 GGGAGCATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTG   5583
+                     ||||.||.|||||.||.||.|||||.||.|||||.|||||||||||.|||
+Mus_caroli      5495 GGGAACACGAGCACTCGGAGACCTTCCAAGTGGTTCTCTCAGAGCCTGTG   5544
+
+Homo_sapiens    5584 CTGGCTGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCC   5633
+                     |||||.|.|.||||.|||||||||||..|.||.||.||||||.|.||.||
+Mus_caroli      5545 CTGGCAGTCCTGGAGTTCCCCACAGTGACTACAGTGGAGATCATCGACCC   5594
+
+Homo_sapiens    5634 AGGAGATGAGCCAACTGTGTTTATTCCCCAGTCCAAATACTCCGTTGAAG   5683
+                     |||.||.||..||.|.|||||.|||||||||||..|.|||||.|||||||
+Mus_caroli      5595 AGGCGACGAATCATCCGTGTTCATTCCCCAGTCTGAGTACTCAGTTGAAG   5644
+
+Homo_sapiens    5684 AAGATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGC   5733
+                     |||||||.|||||||||||||||||.||||||||.||.|||||..|.|||
+Mus_caroli      5645 AAGATGTGGGTGAGCTGTTCATTCCAATCAGGAGAAGTGGAGACATCAGC   5694
+
+Homo_sapiens    5734 CAGGAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAAC   5783
+                     |.||||.||||||||.||||.||.||.||.|||||.|||||.||..|.||
+Mus_caroli      5695 CGGGAGCTGATGGTGATCTGCTACACACAGCAAGGGACAGCCACCAGCAC   5744
+
+Homo_sapiens    5784 TGTGCCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGG   5833
+                     |||||.|||.||||||.|.|||||||||||.|||||.||||||||.||||
+Mus_caroli      5745 TGTGCGGACGTCCGTGCTCTCTTACTCTGACTACATCTCCAGGCCCGAGG   5794
+
+Homo_sapiens    5834 ACCACACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGT   5883
+                     ||||||.|||.||..||||||||||||||||||||||.||||||.|||||
+Mus_caroli      5795 ACCACAGCAGCGTGATCCGCTTTGACAAAGATGAACGTGAGAAAATGTGT   5844
+
+Homo_sapiens    5884 CGGATAGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCA   5933
+                     ||..|..|..|||||||||||||.||||||||.||||||||.||.|||||
+Mus_caroli      5845 CGTGTTTTGGTAATTGATGACTCCTTGTACGAAGAGGAGGAGACTTTCCA   5894
+
+Homo_sapiens    5934 TGTCCTTCTGAGCATGCCCATGGGGGGAAGAATCG--GATCAGAGTTCCC   5981
+                     .||||||.||||||||||||||||.||.||.||||  || || ||||.||
+Mus_caroli      5895 GGTCCTTTTGAGCATGCCCATGGGCGGGAGGATCGGCGA-CA-AGTTTCC   5942
+
+Homo_sapiens    5982 AGGGGCTCAA-GTTACAATCGTTCCTGACAAAGATGATGAACCCATCTTT   6030
+                     .||.|| ||| ||.||.|||.|..|.||||||||||||||.||...|||.
+Mus_caroli      5943 GGGAGC-CAATGTGACCATCCTCACAGACAAAGATGATGAGCCTGCCTTC   5991
+
+Homo_sapiens    6031 TACTTCGGTGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGA   6080
+                     |||||.||.||.....|.|||||.||||||||||||||.|||||.|||||
+Mus_caroli      5992 TACTTTGGGGACACCCAGTACTCCGTGGATGAGAGTGCCGGCTACGTGGA   6041
+
+Homo_sapiens    6081 AGTGCAGGTGTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCA   6130
+                     ..||||.||||||||.|||||.||||||||.||.|||.||||.|||||||
+Mus_caroli      6042 GCTGCAAGTGTGGAGGACGGGGACTGACCTCTCTAAGCCTTCCAGTGTCA   6091
+
+Homo_sapiens    6131 CAGTGAGGTCTCGGAAAACAG-ATCCTCCCTCTGCAGATGCTGGAACAGA   6179
+                     ||||||||||.|||||||||| |||| |.|||||||||||||||||||||
+Mus_caroli      6092 CAGTGAGGTCCCGGAAAACAGAATCC-CTCTCTGCAGATGCTGGAACAGA   6140
+
+Homo_sapiens    6180 CTATGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGC   6229
+                     |||||||||.|||||.||.||||||||||||||.|||||.||||||||||
+Mus_caroli      6141 CTATGTGGGAATCAGTCGCAATTTAGATTTTGCGCCTGGCGTCAACATGC   6190
+
+Homo_sapiens    6230 AGCCTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAG   6279
+                     ||.|||||||.||.||||||||||||||||||||||.||||...||||||
+Mus_caroli      6191 AGACTGTTCGAGTAGTCATTCTGGATGACCTTGGACGACCAATACTGGAG   6240
+
+Homo_sapiens    6280 GGAATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCT   6329
+                     |||||||||||.|||||||||||.|||||.||||||||||||||.|||||
+Mus_caroli      6241 GGAATTGAGAAGTTTGAACTGGTACTTCGAATGCCTATGAACGCTGCCCT   6290
+
+Homo_sapiens    6330 TGGCGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATT   6379
+                     |||.|||||||||||.|||||.|||||||||||||||||||.|||.||.|
+Mus_caroli      6291 TGGGGAGCCCAGCAAGGCCACCGTGTCCATAAATGACTCTGCCTCAGACT   6340
+
+Homo_sapiens    6380 TGCCTAAGATGCAATTCAAAGAACGAATATATACTGGCAGCGAAAGTGAT   6429
+                     |||||||.||||||||||||||..|..|.||.|||.||||.||.|.|||.
+Mus_caroli      6341 TGCCTAAAATGCAATTCAAAGAGAGGGTGTACACTTGCAGTGAGAATGAC   6390
+
+Homo_sapiens    6430 GGGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATC   6479
+                     ||||...||||..|.||||||.|.||||..||.||..|||||.|||..||
+Mus_caroli      6391 GGGCGTGTAGTGGCCATGATCTACAGGAGCGGCGACATCCAGCACAAGTC   6440
+
+Homo_sapiens    6480 TTCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACT   6529
+                     |||.||||||||||||||..|||||||||||||.||||||||||||||||
+Mus_caroli      6441 TTCCGTGAGATGCTACACGAGGCAGGGGTCTGCGCAGGTGATGATGGACT   6490
+
+Homo_sapiens    6530 TTGAAGAACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGT   6579
+                     ||||.|||||||||||.||.||....||||...|||||||||||||||||
+Mus_caroli      6491 TTGAGGAACGCCCAAATACCGACGTTTCCACTGTCACATTCCTCCCTGGT   6540
+
+Homo_sapiens    6580 GAGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATG-TGCTCTATG   6628
+                     |||||.||.|||||.||.||.||.|||||||||||.|||| || ||||||
+Mus_caroli      6541 GAGACGGAGAAGCCGTGTATCCTCGAGCTGATGGATGATGCTG-TCTATG   6589
+
+Homo_sapiens    6629 AGGAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCT   6678
+                     ||||.|||||||||||.|||||||||||.|||||.||.||..|||.||||
+Mus_caroli      6590 AGGATGTAGAGGAGCTGCGCCTGGTACTTGGCACGCCTCAGGGCAGCTCT   6639
+
+Homo_sapiens    6679 CCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCG   6728
+                     .|||||||.||||||||.||.|||||.||.|||||.||.||||.|||||.
+Mus_caroli      6640 GCCTTTGGAGCTGCAGTGGGCGAACAGAACGAAACCCTGATAAAGATCCA   6689
+
+Homo_sapiens    6729 AGATGATGCTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTG   6778
+                     .|||||||||||.||..|||||||.|||||||||||||||||||||||||
+Mus_caroli      6690 GGATGATGCTGACAAAGCTGTTATCAAATTTGGAGAAACCAAATTTAGTG   6739
+
+Homo_sapiens    6779 TCACTGAACCCAAAGAACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTG   6828
+                     |||||||.||||..|.|||.||||||||.||||||.|.|.|||.||.||.
+Mus_caroli      6740 TCACTGAGCCCAGCGGACCAGGAGAGTCAGTGGTTGTCAAAATCCCGGTC   6789
+
+Homo_sapiens    6829 ATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAA   6878
+                     ||.||.||||||||||||||||||||.|||||.|||||||||||||||||
+Mus_caroli      6790 ATCCGTCAAGGAGACACTTCAAAGGTCTCCATCGTGAGAGTCCACACCAA   6839
+
+Homo_sapiens    6879 GGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAA   6928
+                     ||||||||||||.|||||.|||||.||.||.|||||||||||||||||||
+Mus_caroli      6840 GGATGGCTCGGCTACCTCCGGAGAGGATTATCACCCTGTGTCAGAAGAAA   6889
+
+Homo_sapiens    6929 TTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACC   6978
+                     |.|||||||||||.||.||||||||.|||...||||||||.|||||.|.|
+Mus_caroli      6890 TCGAGTTTAAGGAGGGAGAAACCCAACACACTGTTGAAATTGAAGTAATC   6939
+
+Homo_sapiens    6979 TTTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACC   7028
+                     ||.||||||||||||||||||||.||||||||||||||||||||||||||
+Mus_caroli      6940 TTCGACGGGGTGAGAGAGATGAGGGAGGCCTTCACTGTTCACCTAAAACC   6989
+
+Homo_sapiens    7029 TGATGAAAATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACA   7078
+                     .||||||||||||.|.|||||||..|||...||.||.||||||||.||.|
+Mus_caroli      6990 AGATGAAAATATGGTGGCAGAGACACAGGCAACCAAGGCCATTGTATATA   7039
+
+Homo_sapiens    7079 TAGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAA   7128
+                     ||||||||||...||||||||||||||||||.|||||||||||||||||.
+Mus_caroli      7040 TAGAAGAAATCCACAGCATGGCAGATGTCACCTTTCCTTCTGTCCCTCAC   7089
+
+Homo_sapiens    7129 ATTGTATCCCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTG-   7177
+                     |||||.|||.||.||||.||.||.||..|.|||||||    |.||||.| 
+Mus_caroli      7090 ATTGTGTCCTTGCTGATATACGATGATGCCTCCAAAG----GCAGAGAGG   7135
+
+Homo_sapiens    7178 ---CTGAACCCATGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAAC   7224
+                        |||.|||..|||||||||||||.||..||||.||.||.||.||||||
+Mus_caroli      7136 ACACTGGACCTGTGTCTGGCTATCCGGTTGTCTGCATTACGGCCTGCAAC   7185
+
+Homo_sapiens    7225 CCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGAA   7274
+                     |||||||||.|||||||.||.||||||||||||||.|||||.||||||||
+Mus_caroli      7186 CCCAAATATCCAGACTATGAGAAAACAGGCTCTATTTGTGCCAGTGAGAA   7235
+
+Homo_sapiens    7275 CATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCGG   7324
+                     ||||||.|||||||||||.||.|||.|.||||||||.||.||.||.||.|
+Mus_caroli      7236 CATCAACGACACTTTGACCCGATACAGATGGCTGATCAGCGCTCCCGCTG   7285
+
+Homo_sapiens    7325 GCCCTGACGGTGTGACCAGCCCTATGAGAGAAGTGGACTTCGACACCTTT   7374
+                     ||||.|||||.|||||||||||.||||||||.||.||||||||||||||.
+Mus_caroli      7286 GCCCGGACGGGGTGACCAGCCCCATGAGAGAGGTCGACTTCGACACCTTC   7335
+
+Homo_sapiens    7375 TTTACGTCATCCAAGATGGTCACACTGGACTCCATATACTTTCAGCCTGG   7424
+                     ||.||.||||||||.|||.||||..|.|||||||||||||||||||||||
+Mus_caroli      7336 TTCACATCATCCAAAATGATCACGTTAGACTCCATATACTTTCAGCCTGG   7385
+
+Homo_sapiens    7425 CTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAATGGGGATGAAG   7474
+                     |||||||||.|||||.|||||.||.||.|||||||||||||||.||||||
+Mus_caroli      7386 CTCCCGGGTCCAGTGTGCAGCCCGAGCAGTGAACACCAATGGGAATGAAG   7435
+
+Homo_sapiens    7475 GCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGAAGAAGGTCTT   7524
+                     |||||||.||.||||||||.||..|.||||||.|||||||.||||||||.
+Mus_caroli      7436 GCCTGGAACTAATGAGCCCCATCATTACCATCGGCAGAGAGGAAGGTCTC   7485
+
+Homo_sapiens    7525 TGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAA   7574
+                     ||||||||||||||.||||||||.||.||.||||||||.|||||.|||||
+Mus_caroli      7486 TGTCAGCCCCGTGTGCCTGGGGTAGTGGGGGCAGAGCCATTCTCCGCTAA   7535
+
+Homo_sapiens    7575 ATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAAACCTTATCAAGC   7624
+                     .|||||||||||.|||||.|||||..||||||...|.|||||.|||||.|
+Mus_caroli      7536 GTTGCGCTACACTGGCCCAGAGGACCCAGACTTTGCCAACCTCATCAAAC   7585
+
+Homo_sapiens    7625 TCACTGTCACAATGCCACACATAGATGGCATGCTCCCCGTGATCTCCACT   7674
+                     ||||.|||||.|||||.||||||||.|||||||||||.|..||||||||.
+Mus_caroli      7586 TCACCGTCACTATGCCGCACATAGACGGCATGCTCCCTGCCATCTCCACG   7635
+
+Homo_sapiens    7675 AGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAGT   7724
+                     ||||||||.||||||||||||||.||||||||||||||.|||||.||.||
+Mus_caroli      7636 AGAGAGCTGTCCAACTTTGAGCTGACCCTCAGCCCTGACGGCACGAGGGT   7685
+
+Homo_sapiens    7725 TGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAAGTGAAGACTC   7774
+                     |||.||.|||||.|||||||||||.|||||.||.|.||||||||||||.|
+Mus_caroli      7686 TGGGAATCACAAATGCTCCAACCTGCTGGACTACAATGAAGTGAAGACCC   7735
+
+Homo_sapiens    7775 ATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAATAATTGGAGAG   7824
+                     |..||||.|||.||||..||||.||.|..||.||.||..|.||.||||||
+Mus_caroli      7736 ACCATGGCTTCCTGACCAATGCCACGAGGAACCCGGAGGTCATCGGAGAG   7785
+
+Homo_sapiens    7825 ACATATCCTTACCAGTACAGCTTGTCCATCAGAGGTTCCACTACCTTGCG   7874
+                     ||.|||||||||||||||||..||.|..||||.|||||||..|||||.||
+Mus_caroli      7786 ACCTATCCTTACCAGTACAGTGTGCCGGTCAGGGGTTCCAGCACCTTACG   7835
+
+Homo_sapiens    7875 CTTCTACCGGAACCTGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCT   7924
+                     |||||||||.|||||||||||.|||||||||.|.||||||||.||.||||
+Mus_caroli      7836 CTTCTACCGAAACCTGAACCTGGAGGCCTGTCTGTGGGAGTTTGTCAGCT   7885
+
+Homo_sapiens    7925 ACTATGACATGTCAGAACTCCTTGCTGACTGTGGTGGCACCATTGGAACA   7974
+                     |||||||||||.|.||.|||||.|||||||||||.||.|||||.||.||.
+Mus_caroli      7886 ACTATGACATGACGGAGCTCCTGGCTGACTGTGGAGGAACCATCGGGACC   7935
+
+Homo_sapiens    7975 GATGGACAGGTCCTAAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCC   8024
+                     |||||.||||||||.|||||.|||||||||||.||||||||||||||.||
+Mus_caroli      7936 GATGGCCAGGTCCTCAACCTCGTGCAGTCCTACGTGACCCTTCGAGTTCC   7985
+
+Homo_sapiens    8025 TCTGTATGTTTCCTACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGC   8074
+                     ||||||.|||||||||||||||||.|||||||||||.||.||.|||||||
+Mus_caroli      7986 TCTGTACGTTTCCTACGTGTTCCACTCCCCCGTGGGCGTGGGCGGCTGGC   8035
+
+Homo_sapiens    8075 AGCATTTTGACTTGAAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACC   8124
+                     |||||||.|||||||||||||||||.||.||.||.||.|||||||||||.
+Mus_caroli      8036 AGCATTTCGACTTGAAGTCAGAGCTCCGACTCACATTCGTGTACGACACT   8085
+
+Homo_sapiens    8125 GCCATCTTGTGGAATGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCA   8174
+                     ||||||||||||||..||||.||.|||||||||||.||.||||||||.||
+Mus_caroli      8086 GCCATCTTGTGGAACCATGGGATCGGCAGCCCCCCGGAAGCTGAACTGCA   8135
+
+Homo_sapiens    8175 AGGTTCTCTCTATCCAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGG   8224
+                     |||.||||||||.|||||||||||||||||.|||||.|||||.|||.|||
+Mus_caroli      8136 AGGCTCTCTCTACCCAACCAGCATGCGCATTGGTGAGGAGGGACGCCTGG   8185
+
+Homo_sapiens    8225 CCGTGCACTTCAAGACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCA   8274
+                     |.|||.||||||||||.||||||||||||||||||||.|||||||||||.
+Mus_caroli      8186 CTGTGAACTTCAAGACGGAGGCTCAGTTCCATGGCTTGTTTGTGCTGTCC   8235
+
+Homo_sapiens    8275 CATCCCGCATCCTTTACAAGCTCAGTGATCATGTCAGCTGATCATCCAGG   8324
+                     |||||.||.||||||||.||||||.||||..||||||||||.|||||.||
+Mus_caroli      8236 CATCCTGCTTCCTTTACCAGCTCACTGATTGTGTCAGCTGACCATCCGGG   8285
+
+Homo_sapiens    8325 CCTGACATTTTCCCTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGC   8374
+                     |||.|||||||||||||||||.|||.|||||||||||||||||||.||||
+Mus_caroli      8286 CCTCACATTTTCCCTCCGCCTTATACGGAGTGAACCAACCTATAATCAGC   8335
+
+Homo_sapiens    8375 CAGTACAGCAGTGGAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCA   8424
+                     ||||.|||||||||||.||.||.||.||||||||.||.|||||||||||.
+Mus_caroli      8336 CAGTCCAGCAGTGGAGTTTCGTGTCAGACTTTGCGGTCCGTGACTACTCG   8385
+
+Homo_sapiens    8425 GGGACCTATACTGTGAAGCTGGTGCCATGCACTGCCCCATCACATCAGGA   8474
+                     ||.|||||.||.||.|||.||||.||.|||||..|||||||..|.|||||
+Mus_caroli      8386 GGCACCTACACAGTAAAGTTGGTACCCTGCACCACCCCATCCAACCAGGA   8435
+
+Homo_sapiens    8475 ATACCGCCTGCCAGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACC   8524
+                     .|||||.|||||.||||||||||||||||||||.||||||||||||||||
+Mus_caroli      8436 GTACCGTCTGCCGGTCACCTGCAACCCCAGAGAGCCTGTCACCTTTGACC   8485
+
+Homo_sapiens    8525 TTGACATCCGATTCCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGC   8574
+                     |||||||.|||||||||||||||||.|||||.|||||..|||||||.|||
+Mus_caroli      8486 TTGACATTCGATTCCAACAGGTCAGCGATCCCGTGGCGACTGAGTTCAGC   8535
+
+Homo_sapiens    8575 TTGAACACCCAAATGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGA   8624
+                     .||||||||||.|||||.|||||.||||||||||.|||||||||||||||
+Mus_caroli      8536 CTGAACACCCACATGTATCTGCTGTCTAAGAAGAATCTCTGGTTGTCTGA   8585
+
+Homo_sapiens    8625 TGGATCCATGGGATTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTG   8674
+                     |||.|||||||||||.|||||.||.||.||.|||||||||||||||||.|
+Mus_caroli      8586 TGGGTCCATGGGATTTGGGCAGGAAAGCGACGTTGCTTTTGCAGAAGGGG   8635
+
+Homo_sapiens    8675 ATATAATTTATGGTCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGAC   8724
+                     ||.|.||||||||.||||||||||||||||||||||||||.||.||||||
+Mus_caroli      8636 ATGTGATTTATGGCCGTGTCATGGTGGATCCTGTCCAGAACCTCGGTGAC   8685
+
+Homo_sapiens    8725 TCCTTTTACTGCAGCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGG   8774
+                     |||||.|||||||||||||||||||||||..|||||||.||.|.||||||
+Mus_caroli      8686 TCCTTCTACTGCAGCATTGAGAAGGTGTTCTTATGCACGGGGGATGATGG   8735
+
+Homo_sapiens    8775 CTATGTTCCCAAGTATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCG   8824
+                     ||||||.||||||||.||.|||...|||||.||||||||||||.|.||.|
+Mus_caroli      8736 CTATGTGCCCAAGTACAGCCCAGCAAATGCGGAATATGGCTGCCTGGCTG   8785
+
+Homo_sapiens    8825 ACTCTCCTTCACTCTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCA   8874
+                     |.|||||||||||||||.|||||||.|||||||||||.||.|||||||||
+Mus_caroli      8786 ATTCTCCTTCACTCTTACATAGATTCAAAATTGTGGATAAGGCTCAGCCA   8835
+
+Homo_sapiens    8875 GAGACACAAGCGACCAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGC   8924
+                     |||||||||||.|||||.||||||.|||||||.|||||.||||||||.||
+Mus_caroli      8836 GAGACACAAGCCACCAGCTTTGGAGATGTCCTGTTTAACGCCAAACTGGC   8885
+
+Homo_sapiens    8925 AGTGGATGACCCTGAAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATG   8974
+                     ||||||||||||||||||..||||||||||||||||||||||||||||||
+Mus_caroli      8886 AGTGGATGACCCTGAAGCTGTTCTCTTAGTGAATCAGCCTGGATCTGATG   8935
+
+Homo_sapiens    8975 GATTTAAAGTCGACTCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAA   9024
+                     |.||||||||||||||||||||||||||||||||.||..|.||||||||.
+Mus_caroli      8936 GTTTTAAAGTCGACTCAACACCACTCTTTCAGGTTGCCTTGGGCCGAGAG   8985
+
+Homo_sapiens    9025 TGGTATATACATACGATCTATACAGTGAGATCGAAAGACAATGCCAATCG   9074
+                     |||||.|||||.||.||||||||.||.|..||.||.|||||..||.||||
+Mus_caroli      8986 TGGTACATACACACAATCTATACGGTAAAGTCTAAGGACAACACCCATCG   9035
+
+Homo_sapiens    9075 AGGTATTGGCAAAAGAAGTGTGGAGTACCATTCTC------TGGTGAGTC   9118
+                     |||.||||||||.||.||..||||||||||.|.||      |||||..||
+Mus_caroli      9036 AGGCATTGGCAAGAGGAGCCTGGAGTACCAGTATCACTCAGTGGTGCATC   9085
+
+Homo_sapiens    9119 AAGGAAAGCCCCAATCCACCACCAAGAGCCGGAAGAAGAGAG-AGATCAG   9167
+                     |.|||...|||||..|.||||||||||||.|||||||||||| || ||||
+Mus_caroli      9086 ATGGACCACCCCAGGCAACCACCAAGAGCTGGAAGAAGAGAGCAG-TCAG   9134
+
+Homo_sapiens    9168 GAGCACACCCTCACTGGCATGGGAGATTGGTGCTGAAAACAGTCGAGGAA   9217
+                     ||||||.|||||.||.|||.||||.||.||||||||.||||..||.||||
+Mus_caroli      9135 GAGCACGCCCTCCCTCGCAGGGGAAATCGGTGCTGAGAACAACCGGGGAA   9184
+
+Homo_sapiens    9218 CAAACATCCAGCACATTGCCCTGGACCGCAC----CAAGAGGCAGATCCC   9263
+                     ||||.|||||.||.||..|||||.||||| |    ||||||||||.||||
+Mus_caroli      9185 CAAATATCCAACATATCTCCCTGAACCGC-CATGGCAAGAGGCAGGTCCC   9233
+
+Homo_sapiens    9264 CCATGGGAGAGCACCTCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCC   9313
+                     |||.||.|||...|||||.||.||||||||.||||||||||||||.||.|
+Mus_caroli      9234 CCACGGAAGAATTCCTCCTGACGGCATCCTGCCCTGGGAGCTCAATAGTC   9283
+
+Homo_sapiens    9314 CCAGCTCTGCAGTCAGCCTGGTCACTGTGGTGGGAGGCACCACGGTAGGG   9363
+                     |||||||||.|||.|||||.||||||||..||||||||..|||.||.||.
+Mus_caroli      9284 CCAGCTCTGAAGTGAGCCTTGTCACTGTCCTGGGAGGCCTCACCGTGGGC   9333
+
+Homo_sapiens    9364 TTACTCACCATCTGCCTCACTGTCATTGCAGTGCTGATGTGCAGGGGCAA   9413
+                     ||.|||||..|||||||..||||...|||.|...|.|||||||||   ||
+Mus_caroli      9334 TTGCTCACAGTCTGCCTGGCTGTGGCTGCCGCCGTCATGTGCAGG---AA   9380
+
+Homo_sapiens    9414 --GGAAAGTTTCAGGGGGAAGGATGCCCCGAAAGGCTCCAGCAGCAGTGA   9461
+                       ||  ||..|||.|||.||||||.|.||.||.|||||..|.||||.|||
+Mus_caroli      9381 CCGG--AGCATCAAGGGCAAGGATACTCCAAAGGGCTCTGGAAGCACTGA   9428
+
+Homo_sapiens    9462 GCCCATGGTGCCCCCACAGAGCCATCACAATGACAGCTCAGAAGTT   9507
+                     |||||||.||.||||.||||||||..||||.||||||||.||.||.
+Mus_caroli      9429 GCCCATGATGTCCCCGCAGAGCCACTACAACGACAGCTCGGAGGTG   9474
+
+
+#---------------------------------------
+#---------------------------------------

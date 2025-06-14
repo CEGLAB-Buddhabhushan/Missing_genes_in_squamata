@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Sat 19 Apr 2025 23:19:41
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Fulmarus_glacialis.fa
+#    -outfile Homo_sapiens-Fulmarus_glacialis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Fulmarus_glacialis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Fulmarus_glacialis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 883
+# Identity:     382/883 (43.3%)
+# Similarity:   382/883 (43.3%)
+# Gaps:         398/883 (45.1%)
+# Score: 841.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGAAATGTGAGCCTGGGTGGCCAAGGACGCCGGAGTGGCCGCCTTCCCC     50
+                                                                       
+Fulmarus_glac      0 --------------------------------------------------      0
+
+Homo_sapiens      51 GCGCCTGAGCGCAGTGGGGCGAGACAAAGAGACCTGGGCCCCCAGCGCAG    100
+                                                                       
+Fulmarus_glac      0 --------------------------------------------------      0
+
+Homo_sapiens     101 CCCGTCTCGGGCCACGGGCGCCCCAGCTCCGCGGAGTCCCGCAGTCGCTG    150
+                                  |.|||   ..|||| |.||.|||   ||         
+Fulmarus_glac      1 -------------ATGGG---GACAGC-CAGCAGAG---CG---------     21
+
+Homo_sapiens     151 GCCCGGGACGCGCCCGGCCCGGGCTCCCTTGGAAGGCTCCCTAGGCAATG    200
+                       |||||..||.|||       |||||||..| ||||.||| |||    |
+Fulmarus_glac     22 --CCGGGCAGCACCC-------GCTCCCTCCG-AGGCACCC-AGG----G     56
+
+Homo_sapiens     201 GCC--GGGTCTCTGCTCC-------ACCCGGCTCTCAGGAGC--GC---T    236
+                     |||  |||| .|||| ||       ||.|||    .|||| |  ||   |
+Fulmarus_glac     57 GCCAGGGGT-ACTGC-CCGATGGGGACACGG----GAGGA-CATGCAAAT     99
+
+Homo_sapiens     237 GCTCTCTCCATCT-----GATCGCCCTCCATC-CTCCCCATTCCCTCCGG    280
+                     |....||.|||||     ||.|| .|.|||.| .|.||||.|        
+Fulmarus_glac    100 GGAAACTGCATCTTCGGAGAACG-GCACCAGCAGTGCCCAGT--------    140
+
+Homo_sapiens     281 TTCCGGGCTCTCCCTTCGCTCCAAGCCTCAGGCCACCGGCTTGGATGGAC    330
+                        .|||||.||||                |||               ||
+Fulmarus_glac    141 ---GGGGCTGTCCC----------------GGC---------------AC    156
+
+Homo_sapiens     331 GCTCCGAGGCTACCCGTGC-GTCCAGGGGTCTTGCTTCCGA--AGTTGGT    377
+                     .||  ||||    ..|||| ||..||.|.|.||||||..||  |||||  
+Fulmarus_glac    157 ACT--GAGG----AGGTGCAGTGGAGCGATATTGCTTTGGAGCAGTTG--    198
+
+Homo_sapiens     378 CCTGCTCTT--------------------------------------TGT    389
+                      |||.||.|                                      |||
+Fulmarus_glac    199 -CTGTTCATGCGGAAGGGAAGAGTGGGCTTTGGGTGTGAGTCTGGGGTGT    247
+
+Homo_sapiens     390 C---TACGCAGATGATTGCCTTGCTCAGTGTGGCAAAGATTGCAA---AT    433
+                     |   ||.|||         ||.||||| ||     ||||.|||||   ||
+Fulmarus_glac    248 CCGGTAGGCA---------CTGGCTCA-TG-----AAGAATGCAACCCAT    282
+
+Homo_sapiens     434 --CTTACTGCTG-TGATGGAACCACGCCCTACTGTTGCT--CC--TACT-    475
+                       ||.|..||.| |||.|||   |.|.|.| |||  |||  ||  |.|| 
+Fulmarus_glac    283 CGCTCAGGGCAGATGACGGA---ATGGCAT-CTG--GCTGACCATTTCTG    326
+
+Homo_sapiens     476 --ACGCTTATATTGGGA-ATAT---CCTCTCG-------GGCACTGCAAT    512
+                       ||     .|.||||| |.||   |||.|.|       |||||.||.||
+Fulmarus_glac    327 GAAC-----AAATGGGACACATTTGCCTGTGGAGACAGAGGCACAGCCAT    371
+
+Homo_sapiens     513 TGCGGGCATTGTTTTTGGAATAGTATTTATCATGGGGGTCATTGCTGGGA    562
+                     .||.||.|||||||||||.|||||||||||.|||||.||.||||||||||
+Fulmarus_glac    372 AGCTGGAATTGTTTTTGGTATAGTATTTATAATGGGAGTGATTGCTGGGA    421
+
+Homo_sapiens     563 TTGCCATATGCATCTGCATGTGCATGAAGAACCACAGGGCGACCCGCGTG    612
+                     |||||||.||.|||||||||||||||||||||.||.|.|.|||.||.||.
+Fulmarus_glac    422 TTGCCATCTGTATCTGCATGTGCATGAAGAACAACCGTGGGACTCGAGTA    471
+
+Homo_sapiens     613 GGCATCCTCAGGACGACTCACATCAAC-------------ACC----GTC    645
+                     ||..||.||.|.||.||.|||||||||             |||    |.|
+Fulmarus_glac    472 GGGGTCATCCGAACTACGCACATCAACGCTATCAGCACGTACCCAGTGGC    521
+
+Homo_sapiens     646 TCCTCCTATCCT--------GAATATGAACTCCATG----AGGCAG-AGA    682
+                     |||.|| |.|.|        |||||.|||    |||    |..||| .||
+Fulmarus_glac    522 TCCACC-ACCATACAGTTACGAATACGAA----ATGGAGTACCCAGCTGA    566
+
+Homo_sapiens     683 TCTTGGTCTA--TTTTGTTCAACACTCTA-----TTCCA---AGCATG--    720
+                     .||...||.|  ||.|..||.| ||||.|     |||.|   ||.||.  
+Fulmarus_glac    567 CCTACCTCCACCTTATACTCCA-ACTCCACAGACTTCGATACAGTATCCC    615
+
+Homo_sapiens     720 ---------------------------------    720
+                                                      
+Fulmarus_glac    616 CCACCCCCTCCTTACCCTGGATATTCAGGGAAA    648
+
+
+#---------------------------------------
+#---------------------------------------

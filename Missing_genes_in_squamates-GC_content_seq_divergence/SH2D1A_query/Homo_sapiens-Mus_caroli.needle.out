@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:55
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Mus_caroli.fa
+#    -outfile Homo_sapiens-Mus_caroli.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Mus_caroli.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Mus_caroli
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 384
+# Identity:     218/384 (56.8%)
+# Similarity:   218/384 (56.8%)
+# Gaps:         141/384 (36.7%)
+# Score: 968.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                                                                       
+Mus_caroli         0 --------------------------------------------------      0
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                                                                       
+Mus_caroli         0 --------------------------------------------------      0
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCTGTATCACGGTTAC    150
+                                                        .|||||||.||||||
+Mus_caroli         1 -----------------------------------ATGTATCAAGGTTAC     15
+
+Homo_sapiens     151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+                     ||.||||||||.||||||||||||||||||||||||||||||||||||||
+Mus_caroli        16 ATCTATACATATCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA     65
+
+Homo_sapiens     201 GACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAATCTCA    250
+                     |||||||||||||||||||||||||||||||||||||.||||||||||||
+Mus_caroli        66 GACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAGTAAAAAATCTCA    115
+
+Homo_sapiens     251 TTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTCTGCAGTAT    300
+                     |||||||.|||||||||||||||||||||||.||.|.|||||||||||||
+Mus_caroli       116 TTTCAGCGTTTCAGAAGCCAGATCAAGGCATCGTGACACCTCTGCAGTAT    165
+
+Homo_sapiens     301 CCAGTTGAGAAGAAGTCCTCAGCTAGAAGTACACAAGGTACTACAGGGAT    350
+                     |||||||   |.||||||||.||.||..|..||||||.|.|.|||||||.
+Mus_caroli       166 CCAGTTG---AAAAGTCCTCTGCCAGGGGCCCACAAGCTCCCACAGGGAG    212
+
+Homo_sapiens     351 AAGAGAAGATCCTGATGTCTGCCTGAAAGCCCCA    384
+                     |||   ||||.|||||.||||.|||||.||.|||
+Mus_caroli       213 AAG---AGATTCTGATATCTGTCTGAATGCACCA    243
+
+
+#---------------------------------------
+#---------------------------------------

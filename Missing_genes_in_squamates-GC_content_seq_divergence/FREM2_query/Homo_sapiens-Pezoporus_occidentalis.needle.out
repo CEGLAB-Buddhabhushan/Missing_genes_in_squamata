@@ -1,0 +1,818 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:46:50
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Pezoporus_occidentalis.fa
+#    -outfile Homo_sapiens-Pezoporus_occidentalis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Pezoporus_occidentalis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Pezoporus_occidentalis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9798
+# Identity:    7150/9798 (73.0%)
+# Similarity:  7150/9798 (73.0%)
+# Gaps:         588/9798 ( 6.0%)
+# Score: 25544.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGA-----CAGGC     45
+                                                            |     |||||
+Pezoporus_occ      1 ---------------------------------------ATGGTGCAGGC     11
+
+Homo_sapiens      46 AACTCCACCAGCTTTCAACCAGGACCGCCACCGCCGCCCCGGCTGC----     91
+                      .||||                  ||||| .|||.||..|||||||    
+Pezoporus_occ     12 -TCTCC------------------CCGCC-GCGCTGCGGCGGCTGCTGGC     41
+
+Homo_sapiens      92 -----TGCTGCTGCTG-----CTGCTTCT-------CCTGTCACTGGTAA    124
+                          |||||||||||     ||||.|||       ..||||   ||  |
+Pezoporus_occ     42 CGGCTTGCTGCTGCTGACCATCTGCGTCTGGGTCGGGTTGTC---GG--A     86
+
+Homo_sapiens     125 GCCGCGTCCCGGCACAGCCCGCTGCCTTCGGCAG-GGCGTTGCTGTCCCC    173
+                     |||||..||.||||..|||           |||| .||.|||     |||
+Pezoporus_occ     87 GCCGCCGCCAGGCAGTGCC-----------GCAGTCGCCTTG-----CCC    120
+
+Homo_sapiens     174 TGGTCTCGCGGGGGCTGCAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGG    223
+                     |||.|.| |||.|||                  |||..||.|.|||.|.|
+Pezoporus_occ    121 TGGGCGC-CGGAGGC------------------GGACCCCGTCGTGGTCG    151
+
+Homo_sapiens     224 CGAACCGCGGACTCCGGGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCC    273
+                     |.||||||||.||.||||||||..|.||||||...|.|||||||||.|||
+Pezoporus_occ    152 CCAACCGCGGGCTGCGGGTGCCCCTGGGCCGTTCTGCCTGGCTGGACCCC    201
+
+Homo_sapiens     274 CTGCATGACCTGGTGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTC    323
+                     ..||..|||||||||.|||||||||||||.||.|||||.|||....|..|
+Pezoporus_occ    202 ACGCGGGACCTGGTGCTGCAGGTGCAGCCAGGTGACCGGTGCCACCTCAC    251
+
+Homo_sapiens     324 GGTACTAGACAACGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCA    373
+                     .||.||.|||.|.|||.|.|||...|||||.||||||||.|||||.|||.
+Pezoporus_occ    252 CGTGCTGGACGAGGACCCGCTGTGGCAGCGCCCGGGCCGGCTGAGCCCCC    301
+
+Homo_sapiens     374 AGCGCTTCCCGTGCGACTT--TGGCCCTGGCGAGGTGCGCTACTCTCACC    421
+                     .|||||||||.||||||||  .|||||  |.|||||.|..|||||.||||
+Pezoporus_occ    302 GGCGCTTCCCCTGCGACTTCGGGGCCC--GTGAGGTACAGTACTCCCACC    349
+
+Homo_sapiens     422 TGGGCGCGCGCAGCCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTAT    471
+                     ||||||..||||||||..|.||||||||||||||.||||||.|||||||.
+Pezoporus_occ    350 TGGGCGGCCGCAGCCCTCCGCGGGACCGCGTCCGCCTGCAGTTGCGCTAC    399
+
+Homo_sapiens     472 GACGCGCCCGGAG--GGGCAGTAGTGCTACCACTGGTACTGGAGGTGGAG    519
+                     |||.||||  |||  |.||..|.|||||.||.|||||.||||||||||||
+Pezoporus_occ    400 GACTCGCC--GAGCCGCGCCCTGGTGCTGCCCCTGGTGCTGGAGGTGGAG    447
+
+Homo_sapiens     520 GTGGTCTTCACCCAGCTGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGT    569
+                     |||.|||||||||||||||||.|.||.||.||.|||.||||.||..||||
+Pezoporus_occ    448 GTGCTCTTCACCCAGCTGGAGATCGTCACCCGCAACCTGCCCCTCATCGT    497
+
+Homo_sapiens     570 GGAAGAG-CTGCTGGGGACCAGCAATGCCCTGGACGCGCGGAGCCTGGAG    618
+                     || ||.| ||||.|||.||||||||..|.||||||||.||.|||||||||
+Pezoporus_occ    498 GG-AGCGCCTGCGGGGCACCAGCAACCCGCTGGACGCCCGCAGCCTGGAG    546
+
+Homo_sapiens     619 TTCGCCTTCCAGCCCG--AGACAGAGGAGTGCCGCGTGGGCATCCTGTCC    666
+                     |||||||||.||||.|  .|.|||.|  .|||||.||||||.|.||| ||
+Pezoporus_occ    547 TTCGCCTTCGAGCCGGGCCGGCAGCG--CTGCCGGGTGGGCCTGCTG-CC    593
+
+Homo_sapiens     667 G--GCTTGGGCGCGCTGCCTCGCTATGGAGAACTCCTCCACTACCCGCAG    714
+                     |  || |||.||.||||||.|||||.|||||..|||||.|||||||.|||
+Pezoporus_occ    594 GCCGC-TGGCCGGGCTGCCCCGCTACGGAGAGATCCTCAACTACCCCCAG    642
+
+Homo_sapiens     715 G---------TCCCTGGAGG-------AGCCAGAGAGGGA--GGC-----    741
+                     |         |.|| |||||       .||..|.||||.|  |||     
+Pezoporus_occ    643 GCGGAGGTTTTGCC-GGAGGCGGCCGCCGCGGGTGAGGAACCGGCGGCGG    691
+
+Homo_sapiens     742 ---GCCCCGGAGACTCTCCT-GAT---GGACTGCAAAGCTTTCCAGGAAC    784
+                        ||||||  ..|.|.||| |||   |||||||.|.|..||||.|...|
+Pezoporus_occ    692 GCGGCCCCG--TTCCCGCCTCGATGTGGGACTGCGAGGAGTTCCTGCGCC    739
+
+Homo_sapiens     785 TAGGCGTGCGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGA-    833
+                     |.||..||||.||...||||||.||.||..|..||||.||.|||.|.|| 
+Pezoporus_occ    740 TGGGACTGCGTTACTTCCACACGGCAGCTGGCGGCTCTCCCAACCGTGAC    789
+
+Homo_sapiens     834 CTGGATACCCATGGTGGTGGAGCTGCGTTCACGAGG-GGCTCCT-GTGGG    881
+                     |||| |.||..||||||..||||||||    .|||| |||...| |||||
+Pezoporus_occ    790 CTGG-TGCCGCTGGTGGCAGAGCTGCG----GGAGGCGGCAGGTGGTGGG    834
+
+Homo_sapiens     882 CAGCCCTGCTTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAG    931
+                       ||.||||  ||||.||.|||.||||||||||.||||||.|||||| ||
+Pezoporus_occ    835 --GCACTGC--TGAAGCGTGAGTACTTCCAGGTGCTGGTGCGGATCC-AG    879
+
+Homo_sapiens     932 G-AGGGGCCGAGAACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGAT    980
+                     | .|||.|.|||||....||.|||||.|||||.|||.|.||||||.|.||
+Pezoporus_occ    880 GCCGGGACTGAGAATGTGGCCCCCAAACCCAGCTTCTTTGCCATGCTCAT    929
+
+Homo_sapiens     981 GATGGAGGTGGACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGG   1030
+                     |||||||||.|||||||||||.||.||.||.||.||.||.||||||||||
+Pezoporus_occ    930 GATGGAGGTTGACCAGTTTGTCCTCACTGCACTCACACCTGACATGCTGG    979
+
+Homo_sapiens    1031 CAGCCGAGGATGCTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACT   1080
+                     ||||.||||||||||||||.||..|.||||||||||||||||||.|.||.
+Pezoporus_occ    980 CAGCTGAGGATGCTGAGTCACCACCAGACCTGTTGATCTTCAACATCACC   1029
+
+Homo_sapiens    1081 TCTCCATTCCAGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAG   1130
+                     |||||.||....||||||||||||.||.||||.|||||.|||||..|.||
+Pezoporus_occ   1030 TCTCCCTTTGGCCCTGGCCAGGGCCACATGGTCAGCACAGATGACAGGAG   1079
+
+Homo_sapiens    1131 CCTGCCCCTTTCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAG-ATT   1179
+                     ||||||..|||..||.||||.||||||.|||.||.||...|| |.| |||
+Pezoporus_occ   1080 CCTGCCAGTTTTTTCTTTCAGTCAGAGAGATGTGAGGGAGCT-ACGCATT   1128
+
+Homo_sapiens    1180 GCCTACCAGCCCCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACT   1229
+                     ||||||||||||||....||.|||||.||.|||||.||.||||||||.||
+Pezoporus_occ   1129 GCCTACCAGCCCCCCATGGAGGACTCAGATCAGGAACGGCTCTTTGAGCT   1178
+
+Homo_sapiens    1230 GGAATTGGAGGTAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCT   1279
+                     .||..||||||||.||||.|.|||.||.||.||.|||||.||.||..|||
+Pezoporus_occ   1179 TGAGCTGGAGGTATTGGACCCAGAGGGTGCTGCCTCAGAGCCCTTCACCT   1228
+
+Homo_sapiens    1280 TCATGGTAGTGGTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGG   1329
+                     |..||.|.||||||||||||||||||||..||||.||.|||||.|||||.
+Pezoporus_occ   1229 TTGTGATTGTGGTGAAGCCCATGAACACCCTGGCACCTGTGGTGACCCGC   1278
+
+Homo_sapiens    1330 AATACCGGTCTTATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCC   1379
+                     ||.||.||.|||.|.|||||||||||.|||||.|||||.||..|||||||
+Pezoporus_occ   1279 AACACTGGCCTTGTGCTCTATGAGGGGCAGTCACGGCCTCTTTCAGGCCC   1328
+
+Homo_sapiens    1380 TGCAGGCAGTGGTCCGCAAAAC------TTGGTCATCAGCGATGAGGATG   1423
+                              ||||||   ||||      |||||.|||||.||||||||||
+Pezoporus_occ   1329 ---------TGGTCC---AAACCCCAATTTGGTGATCAGTGATGAGGATG   1366
+
+Homo_sapiens    1424 ACCTAGAAGCA-GTGCGGCTAGAG-GTGGTGGCTGGGCTCCGGCATGGTC   1471
+                     ||||.| |||| ||||.|.| ||| ||||||||.|||||..|||||||.|
+Pezoporus_occ   1367 ACCTTG-AGCAGGTGCAGGT-GAGTGTGGTGGCAGGGCTGAGGCATGGCC   1414
+
+Homo_sapiens    1472 ACCTTGTCATTCT------GGGTGCTTC--CAGTGGCAGCTCTGCTCCCA   1513
+                     |||   |||.|||      ||...||.|  ||...|||||.|  |||..|
+Pezoporus_occ   1415 ACC---TCACTCTCCTGGAGGACACTGCAGCACCTGCAGCCC--CTCGTA   1459
+
+Homo_sapiens    1514 AGAGCTTTACAGTGGCTGAGCTGGCAGCCGGCCAGGTGGTCTACCAGCAT   1563
+                     ||..|||.||||||||||||.|||||||.|||||.||..|.|||||||||
+Pezoporus_occ   1460 AGCACTTCACAGTGGCTGAGTTGGCAGCAGGCCACGTCATTTACCAGCAT   1509
+
+Homo_sapiens    1564 GATGACAGAGACGGCT-CGCTGAGCGACAACCTGGTGCTTCGCATGGTGG   1612
+                     ||.|.|||.|| |.|| |.||.|..||||||.|||||||.||..|||.||
+Pezoporus_occ   1510 GACGGCAGCGA-GTCTCCACTCAATGACAACTTGGTGCTGCGGCTGGAGG   1558
+
+Homo_sapiens    1613 ATGGAGGAGGCAGGCACCAGGTACAGTTTCTGTTCCCCATCACCTTAGTG   1662
+                     ||||.|||....|.||.|..||..||||.||.|||||.||.|||.|.|||
+Pezoporus_occ   1559 ATGGTGGATCTCGCCATCGTGTTGAGTTCCTTTTCCCTATTACCCTGGTG   1608
+
+Homo_sapiens    1663 CCTGTGGATGACCAGCCACCTGTTCTCAATGCCAACACGGGGCTGACACT   1712
+                     ||....||||||||||||||..|.||||||||.|||||.||||||.|..|
+Pezoporus_occ   1609 CCCACTGATGACCAGCCACCCCTACTCAATGCTAACACAGGGCTGGCCAT   1658
+
+Homo_sapiens    1713 GGCAGAGGGTGAAACAGTGCCCATC-CTGCCCCTTTCCCTGAGTGCAACT   1761
+                     |||.||||||||||||.|||||||| |.| |||.|.|.||.|||||.|||
+Pezoporus_occ   1659 GGCTGAGGGTGAAACAATGCCCATCACCG-CCCGTGCTCTTAGTGCCACT   1707
+
+Homo_sapiens    1762 GACATGGATTCAGATGATTCTCTGCTGCTTTTTGTGC----TGGAGTC--   1805
+                     |||||.||.||..|.|||.|..|.|||||.||    |    |||||||  
+Pezoporus_occ   1708 GACATTGACTCTCAGGATGCCATCCTGCTCTT----CACAGTGGAGTCTG   1753
+
+Homo_sapiens    1806 -ACCCTTCTTAACTACGGGGCATCTGCTTCTCCGCCAAACTCACCCTCCC   1854
+                      .|||      |||.|.|||||.||.||.|||||.|||.|.||.||.||.
+Pezoporus_occ   1754 GCCCC------ACTGCAGGGCAGCTTCTCCTCCGTCAAGCACAACCGCCT   1797
+
+Homo_sapiens    1855 C---------ATGAGAAGCAGGAACTTCTCAGAGGCCT----TTGGAGGA   1891
+                     |         |.|||.||.|.|||..|    ||||..|    ||||||||
+Pezoporus_occ   1798 CCTGGCTGGGAAGAGGAGGAAGAAGAT----GAGGGATTTTCTTGGAGGA   1843
+
+Homo_sapiens    1892 AGG----------AGGGG--------GCATTTTATGAGCGAACAGTGACA   1923
+                     .||          |||||        |.|.|.|||||....|||||||.|
+Pezoporus_occ   1844 GGGTGCCAGGTTTAGGGGGGAGCTCTGTAATCTATGAAAAGACAGTGAGA   1893
+
+Homo_sapiens    1924 GAGTGGCAGCAGCAGGACATAACAG-AGGGCAGGCTGT-TCTAT----AG   1967
+                     |||||||.||||||||||||.||.| |||||     || |||||    | 
+Pezoporus_occ   1894 GAGTGGCTGCAGCAGGACATTACTGAAGGGC-----GTCTCTATTACCA-   1937
+
+Homo_sapiens    1968 ACACTCTGGGCCCCATAGTCCTGGGCC------AGTCACAGACCAGTTCA   2011
+                     .||||..|||||.||.||.|||||.||      .||....||||||||..
+Pezoporus_occ   1938 CCACTTGGGGCCTCACAGCCCTGGCCCTGGGGTTGTATTGGACCAGTTTG   1987
+
+Homo_sapiens    2012 CATTTAGAGTCCAGGATAACCATGACCCTCCTAATCAGTCCGGGCTACAG   2061
+                     .||||||||||||||||.||.|||||||.||.||.|..||.||.|.||||
+Pezoporus_occ   1988 TATTTAGAGTCCAGGATGACAATGACCCACCCAACCGCTCTGGACCACAG   2037
+
+Homo_sapiens    2062 CGGTTTGTGATTCGTATCCATCCTGTGGA-----TCGCCTCCCTCCGGAG   2106
+                     ...||||||||.||..|.||.|||||.||     |.|||     ||.||.
+Pezoporus_occ   2038 ACATTTGTGATCCGGGTTCAACCTGTAGACAGATTAGCC-----CCTGAA   2082
+
+Homo_sapiens    2107 CTG---GGCAGTGGCTG--TCCCCTTCGTATGGTGGTACAGGAATCCCAG   2151
+                     |||   .||||..||.|  |.|.|||  .||.||.|.|.||.|   .|||
+Pezoporus_occ   2083 CTGCATAGCAGCAGCAGCCTGCACTT--AATAGTTGCAGAGCA---GCAG   2127
+
+Homo_sapiens    2152 CTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGACACAGA   2201
+                     .|.||.||.|||.|||.||||....||.|.|||||.||.|.|||..|||.
+Pezoporus_occ   2128 GTGACCCCCCTGCGGAGGAAGCACTTGTGTTACACAGATCAGGATTCAGG   2177
+
+Homo_sapiens    2202 TGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACAGACG   2251
+                     .||.||.|||||.||.||||||||.||||||||||||||.|||||.|||.
+Pezoporus_occ   2178 GGATCGTGAACTCCGCTACACAGTAACTCAGCCCCCCACTGACACTGACA   2227
+
+Homo_sapiens    2252 AAAATCACCTGCC------------AGCCCCACTGGGTACCTTGGTCTTG   2289
+                     ..||.||.|.|||            |||||..||.||..||.|.||..||
+Pezoporus_occ   2228 CTAACCATCCGCCAGATGGATATGGAGCCCGCCTTGGAGCCCTAGTGCTG   2277
+
+Homo_sapiens    2290 ACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAA   2339
+                     |||||..|.|.|||.||.|..||.|||||.||||||||||||||||||||
+Pezoporus_occ   2278 ACTGAGGATCACTCTGTGGAAGTTACCCACTTTACCCAAGCCCAGATCAA   2327
+
+Homo_sapiens    2340 CCATCATAAAATTGCTTACAGACCCCC---GGGTCAAGAACTGGGCGTGG   2386
+                     .|||||.||.||..|.|||.|.|||||   ||   ||||||||||.||||
+Pezoporus_occ   2328 TCATCACAAGATCTCATACCGTCCCCCACAGG---AAGAACTGGGGGTGG   2374
+
+Homo_sapiens    2387 CTACTC----GAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGG   2432
+                     ||.|||    ||.|    |||||.||||..||.|||.||||...||||||
+Pezoporus_occ   2375 CTCCTCATTTGATT----CAGTTTCAGTATCAAGTGCAAGATGCAGCTGG   2420
+
+Homo_sapiens    2433 GAATGTGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAACC   2482
+                     .||||..|||..|||.||.||.|||.|.||..||||.||.|||||.||.|
+Pezoporus_occ   2421 CAATGCAGCTGAAGGGACTTTCACCATCTATCTGCAACCTGTGGATAATC   2470
+
+Homo_sapiens    2483 AGCCACCTGAGATCCTCAACACCGGCTTCACTATTCAGGAGAAGG-GTCA   2531
+                     ||||.|||||.|||.|.||.||.|||||||||.|.|..|||  || |.||
+Pezoporus_occ   2471 AGCCTCCTGAAATCATTAATACTGGCTTCACTTTGCCTGAG--GGAGGCA   2518
+
+Homo_sapiens    2532 -CCACATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTGAT   2580
+                      |||..||||.|||...||.|||.||.|.|..|.|||....||||||||.
+Pezoporus_occ   2519 GCCATGTCCTTAGTCCAACTGAGCTGAATGCCAGTGACACGGACACTGAA   2568
+
+Homo_sapiens    2581 GTTGCCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCACAT   2630
+                     .||.|||||.||...||.|..||.||.|||||.|||....|||||||..|
+Pezoporus_occ   2569 CTTACCCATCTCAGATTTATCCTGACCCAGGCGCCCCGTTATGGCCAGTT   2618
+
+Homo_sapiens    2631 G-AGAGTGTCTGG--ACAGATCCTGCATGTAGGGGGTCTCTTCCACTTGG   2677
+                     | || .|.|||||  ||||.|  ||..|..|||.|||.||||...|.|||
+Pezoporus_occ   2619 GCAG-CTTTCTGGATACAGTT--TGATTCCAGGAGGTGTCTTTGGCCTGG   2665
+
+Homo_sapiens    2678 AGGACATAAAACAGGGCCGAGTTTCCTATGCCCATAATGGGGACAAGTCC   2727
+                     |.||.||.|.|||.||..|.||....||||..||...|||.|...||.||
+Pezoporus_occ   2666 ATGATATCAGACAAGGGAGGGTGGTGTATGTGCACGGTGGAGCTGAGACC   2715
+
+Homo_sapiens    2728 CTGACTGATAGCTGCT--CCTTGGAAGTCAGTGACAGACATCATGTGGTG   2775
+                     ...|.|||||.||| |  .||| ||.||.|||||..|...||||.|.|||
+Pezoporus_occ   2716 AACAGTGATACCTG-TAGGCTT-GATGTGAGTGATGGGGTTCATTTTGTG   2763
+
+Homo_sapiens    2776 CCCATCACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGAAGTGCCCAT   2825
+                     ||||||||.||.|.|.|.||.||.|..|||||.||||||||.||.||.|.
+Pezoporus_occ   2764 CCCATCACACTGAAAATGAACGTGCACCCAGTTGATGATGAGGTTCCTAC   2813
+
+Homo_sapiens    2826 ACTGA-----GCCATCCTACTGGCACTCTGGAGTCCTATCTAGATGTCTT   2870
+                     ||| |     |||  ||  |.||||||||.|..|||||.||.|||||..|
+Pezoporus_occ   2814 ACT-ACGGTTGCC--CC--CAGGCACTCTTGGTTCCTACCTGGATGTGCT   2858
+
+Homo_sapiens    2871 AGAAAATGGGGCTACTGAAATCACTGCCAATGTTATTAAGGGGACCAATG   2920
+                     .||.|||||.|||.|.|||||||||||.|||||.|||.||||.||..|||
+Pezoporus_occ   2859 GGAGAATGGTGCTGCAGAAATCACTGCTAATGTCATTCAGGGCACAGATG   2908
+
+Homo_sapiens    2921 AGGAAACTGATGACTTGATGTTGACTTTCCTCTTGGAAGATCCACCTTTG   2970
+                     ||||.||.||||||.|.|||.||||||||.|..|.||.|||||.|||...
+Pezoporus_occ   2909 AGGATACAGATGACCTAATGCTGACTTTCATTGTAGAGGATCCTCCTCAA   2958
+
+Homo_sapiens    2971 TATGGGGAAATCTTGGTCAATGGCATTCCAGCAGAGCAG-TTTACTCAAA   3019
+                     .||||..|.|||.|||||.|.||..|.||.|||||| || |||.|.||.|
+Pezoporus_occ   2959 CATGGAAACATCCTGGTCCAAGGAGTACCTGCAGAG-AGATTTTCCCAGA   3007
+
+Homo_sapiens    3020 GGGACATCT--TGGAGGGCTCTGTTGTATATACCCACACCAGTGGTGAGA   3067
+                     |||  ||||  ||||.||...|||.||||||.|.|||||..|||||||.|
+Pezoporus_occ   3008 GGG--ATCTGCTGGATGGTGTTGTGGTATATGCTCACACTGGTGGTGAAA   3055
+
+Homo_sapiens    3068 TAGGCCTATTGCCTAAAGCGGATTCTTTTAACCTGAGTCTGTCAGATATG   3117
+                     |||||||..||||.||||..|||.|.||.||.||.|...||||.||..||
+Pezoporus_occ   3056 TAGGCCTTCTGCCCAAAGTAGATACCTTCAATCTTACCTTGTCTGACCTG   3105
+
+Homo_sapiens    3118 TCTCAAGAATGGAGAATTG--------GTGGCAATACTATCCAAGGAGTT   3159
+                     |||        |||||.||        |.||||||..|.|.|||||||||
+Pezoporus_occ   3106 TCT--------GAGAAGTGGAACGTCAGGGGCAATGTTGTTCAAGGAGTT   3147
+
+Homo_sapiens    3160 ACTATATGGGTGACCATCCTGCCTGTTGATAGCCAGGCCCCAGAAATCTT   3209
+                     .|..|.|.|||||||||.||.||||||||.|..||.||||||||..|.||
+Pezoporus_occ   3148 TCAGTCTTGGTGACCATTCTTCCTGTTGACACTCAAGCCCCAGAGGTTTT   3197
+
+Homo_sapiens    3210 TGTAGGTGAACAGTTGATAGTAATGGAAGGTGATAAAAGTGTTATAACAT   3259
+                     ||||||.||.|||.|.||.||||..||||||||.|||.|.||.||.||..
+Pezoporus_occ   3198 TGTAGGAGAGCAGCTCATGGTAACAGAAGGTGACAAACGGGTCATTACTC   3247
+
+Homo_sapiens    3260 CAGTGCATATAAGTGCTGAAGATGTCG--ACTCCCTGAATGATGACAT-C   3306
+                     |.|..||..|.||.|||||||||||.|  |||||  .||||||||.|| |
+Pezoporus_occ   3248 CTGCTCACCTCAGGGCTGAAGATGTGGATACTCC--TAATGATGATATAC   3295
+
+Homo_sapiens    3307 TTGTGCACTATAGTTATTCAGCCTACTTCAGGTTATGTTGAAAACATTTC   3356
+                     || |||||.||.|||..|||||||.|.||.||.||.||.||.|||||.||
+Pezoporus_occ   3296 TT-TGCACCATTGTTGCTCAGCCTGCATCTGGGTACGTAGAGAACATATC   3344
+
+Homo_sapiens    3357 TCCAGCACCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCATAAGTGCTT   3406
+                     ||||||.|||||.|||||.|||||.||||||||..|.||.||||||||||
+Pezoporus_occ   3345 TCCAGCCCCAGGATCTGAAAAATCCAGAGCAGGTGTAGCTATAAGTGCTT   3394
+
+Homo_sapiens    3407 TCAACTTGAAAGATCTCAGGCAGGGCCACATAAACTATGTCCAGAGTGTC   3456
+                     |.|.|||||||||.|||.|.||.||.||.||....||||||||.|||.|.
+Pezoporus_occ   3395 TTACCTTGAAAGACCTCCGTCAAGGACATATTTTTTATGTCCAAAGTATA   3444
+
+Homo_sapiens    3457 CATAAAGGGGTGGAACCTGTGGAGGACCGATTTGTATTTCGTTGTTCTGA   3506
+                     |||||.||.||.||.|||||.||.|||.||||||..||.||.||||||||
+Pezoporus_occ   3445 CATAAGGGTGTTGAGCCTGTTGAAGACAGATTTGCTTTCCGCTGTTCTGA   3494
+
+Homo_sapiens    3507 TGGCATTAACTTTTCAG-AGAGACAGTTCTTCCCCATTGTAATCATTCCC   3555
+                     |||||||||||||||.| |.|| |..||.|||||||||||.||.||.||.
+Pezoporus_occ   3495 TGGCATTAACTTTTCTGCAAAG-CGTTTTTTCCCCATTGTTATTATGCCA   3543
+
+Homo_sapiens    3556 ACCAATGATGAACAGCCAGAGATGTTTATGAGAGAATTTATGGTGATGGA   3605
+                     ..||||||||||.||||.||.||.|||.||.||||.|||.|.||||||||
+Pezoporus_occ   3544 GTCAATGATGAAGAGCCTGAAATATTTGTGCGAGAGTTTGTTGTGATGGA   3593
+
+Homo_sapiens    3606 AGGCATGAGTCTGGTAATTGATACACCCATTCTCAATGCTGCTGATGCTG   3655
+                     |||||||||.|||||..|||||||.||.|||||||||||.||||||||.|
+Pezoporus_occ   3594 AGGCATGAGCCTGGTTGTTGATACTCCTATTCTCAATGCAGCTGATGCAG   3643
+
+Homo_sapiens    3656 ATGTTCCCCTG--GATGATTTAA--CTTTCACTATTACCCA--ATTCCCC   3699
+                     |..|  |||||  |||||.||||  .||.||.|..|   ||  .|| ||.
+Pezoporus_occ   3644 ACAT--CCCTGCTGATGAATTAATGTTTGCAGTCGT---CAGGCTT-CCT   3687
+
+Homo_sapiens    3700 ACTCATGGTCACATCATGAATCAGCTGATAAATGGCACGGTTTTGGTCGA   3749
+                     |..|||||.|||||..||||.||||||.|.|||.|.||.||..|.||.||
+Pezoporus_occ   3688 AGGCATGGCCACATTGTGAACCAGCTGGTGAATAGAACTGTCGTAGTGGA   3737
+
+Homo_sapiens    3750 AAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCATTATTTATGAGC   3799
+                     .||||||||.|||||||||||.|.||||||.||||.|||..|.|||||.|
+Pezoporus_occ   3738 GAGCTTCACTTTGGATCAGATAACAGAGAGCTCCAACATACTCTATGAAC   3787
+
+Homo_sapiens    3800 ATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATTAAACTAACAGAT   3849
+                     ||||||||||.|||||..||||.||||||||||.|.|.|.|||.||||||
+Pezoporus_occ   3788 ATGATGACTCTGAGACAAAGGAGGACAGTTTTGAGGTGACACTCACAGAT   3837
+
+Homo_sapiens    3850 GGGAAGC--ACTCTGTGGAAAAGACGGTCCTCATTATAGTTATCCCTGTT   3897
+                     ||.||.|  ||..|..|||||  ||.||.|||||.||..||||.|||||.
+Pezoporus_occ   3838 GGTAAACATACCATTAGGAAA--ACAGTACTCATCATGATTATTCCTGTA   3885
+
+Homo_sapiens    3898 GATGATGAGACGCCCAGAATGACTATCAATAATGGACTAGAAATAGAAAT   3947
+                     |||||||||||.|||||||||.|.||||||.||||..|.||.||.|||||
+Pezoporus_occ   3886 GATGATGAGACACCCAGAATGGCCATCAATGATGGTTTGGAGATTGAAAT   3935
+
+Homo_sapiens    3948 TGGGGATACCAAGATTATCAACAACAAAATATTAATGGCAACAGATTTAG   3997
+                     .||.||.||.|..|.|||..|.||||.||||||.|.|||.||.||..|.|
+Pezoporus_occ   3936 AGGAGAAACTAGAACTATTCATAACAGAATATTGAAGGCTACTGACCTGG   3985
+
+Homo_sapiens    3998 ATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGGGCCAGGACAT   4047
+                     ||||.|||||||||.|.|||...||.|||||..|.||||||||||||||.
+Pezoporus_occ   3986 ATTCTGAAGACAAAACCTTGACATACATTATAAGATATGGGCCAGGACAA   4035
+
+Homo_sapiens    4048 GGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAATATCACACT   4097
+                     |||.|..|.||||.|...||.|||.|.||||...||||.||||||||.||
+Pezoporus_occ   4036 GGCCTCCTGCAGAAAATCAAGCCTTCAGGTGGAGTTGAGAATATCACCCT   4085
+
+Homo_sapiens    4098 GGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAATTCAGTATG   4147
+                     |||.||||||||.|||||.||||||||.||.||||||||||||||.|||.
+Pezoporus_occ   4086 GGGGATGAATTTCACCCAAGATGAAGTGGATAGAAACTTAATTCAATATA   4135
+
+Homo_sapiens    4148 TCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTTGATGTGACT   4197
+                     |.|||||.||.||||..||..||||.||.||.||.||.|||||||||||.
+Pezoporus_occ   4136 TGCATTTTGGCCAAGGAGGAGTTCGTGATCTTATCAAGTTTGATGTGACA   4185
+
+Homo_sapiens    4198 GATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTCCATCGGGAG   4247
+                     ||||||||||||||.|||||.||.||.|||||||||||..|.||.||.||
+Pezoporus_occ   4186 GATGGAATAAATCCACTCATTGACCGCTACTTTTATGTCACGATAGGTAG   4235
+
+Homo_sapiens    4248 CATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAG   4297
+                     ||||||.|||||||||||.|||||..|.||.||.||.||.||.|||||||
+Pezoporus_occ   4236 CATTGATATTGTCTTCCCAGATGTAGTCAGCAAAGGGGTTTCTTTGAAAG   4285
+
+Homo_sapiens    4298 AAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACTAGTGACTTG   4347
+                     ||||.||.||.||.||.||.||.||.||..|.||.|||||.||||||.||
+Pezoporus_occ   4286 AAGGAGGGAAGGTAACCCTAACTACTGATTTGCTTAGCACCAGTGACCTG   4335
+
+Homo_sapiens    4348 AACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGCTCCCATGCG   4397
+                     ||.|||||.|||||.|||||.|||||.||.||.|||||.||.||..|.||
+Pezoporus_occ   4336 AATAGTCCAGATGAGAACTTAGTTTTCACTATTACCAGAGCACCTGTTCG   4385
+
+Homo_sapiens    4398 AGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCACGTCTTTCA   4447
+                     .|||||.||.||||||||.|||||||||||.||..|.|||.|..||||.|
+Pezoporus_occ   4386 TGGTCATCTTGAATGCACAGATCAGCCTGGGGTACCTATCTCAACTTTTA   4435
+
+Homo_sapiens    4448 CTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCACACAGCTGAT   4497
+                     ||||.||...|.|.||.||.||.|||.||||.|||||.|||||..|.||.
+Pezoporus_occ   4436 CTCAACTCTTATTAGCAGGCAATAAAGTCTATTACATTCACACTTCAGAA   4485
+
+Homo_sapiens    4498 GATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGATGGACGTAA   4547
+                     |||||.||||||||||||||.|||||||||.|.||.||.|||||...|||
+Pezoporus_occ   4486 GATGAGGTGAAAATGGACAGCTTTGAGTTTGAGGTGACTGATGGCTATAA   4535
+
+Homo_sapiens    4548 CCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGGACAATAAAA   4597
+                     ||||||.|||||.||.|||.|.||.||.||.|||||||||||||||||.|
+Pezoporus_occ   4536 CCCTGTATTTCGTACTTTCAGGATTTCTATCAGCGATGTGGACAATAAGA   4585
+
+Homo_sapiens    4598 AGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACAAG   4647
+                     |.||.||.|||||.|||.||||.|||||.||.|||||||.||||..|||.
+Pezoporus_occ   4586 AACCTGTCGTCACAATCAACAACCTGGTGGTGAGTGAAAATGAATGCAAA   4635
+
+Homo_sapiens    4648 CTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATACTCCTGA--C   4695
+                     |||||.||.||.|||||.||.||||..||||||||||||||.|||||  |
+Pezoporus_occ   4636 CTGATAACCCCATTTGAACTGACTGCAGAAGACAGAGATACACCTGATGC   4685
+
+Homo_sapiens    4696 AAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCCATCTCCT   4745
+                     |  .|.||.|||||.|..|||||.||..|.||..||||.||.||..||.|
+Pezoporus_occ   4686 A--TTGCTAAAATTTATCATCACTCAAATACCAGTTCACGGTCAGATCAT   4733
+
+Homo_sapiens    4746 ATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGAATG   4795
+                     .|||||.||..|||.|||.||||.....||.||.||||||||..|.||.|
+Pezoporus_occ   4734 GTTCAATAACTCCAAACCCGTCACCAGCTTCACTAAGCAAGATCTAAACG   4783
+
+Homo_sapiens    4796 AAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGATAGC   4845
+                     ||||..|||||||||||||||||||||||||.||.|||..|||.||||||
+Pezoporus_occ   4784 AAAATCTAATCAGCTACAAACATGATGGCACAGAATCAGTTGAGGATAGC   4833
+
+Homo_sapiens    4846 TTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTTTCC   4895
+                     |||||.|||||.||.||.||..||||.|||||.||.||||||||.||.||
+Pezoporus_occ   4834 TTCTCTTTCACTGTTACAGACAGCACTCATACTGATTTCTATGTCTTCCC   4883
+
+Homo_sapiens    4896 TGATACGGTGTTTGAAACAAGGAGACCCCA-AGTGATGAAGATCCAGGTC   4944
+                     ..|.||.||||||||||||||||.|||.|| |.| ||||||||.|...|.
+Pezoporus_occ   4884 CAACACTGTGTTTGAAACAAGGAAACCTCAGACT-ATGAAGATTCGAATA   4932
+
+Homo_sapiens    4945 TTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCTC   4994
+                     .|||||||.|||||||||||.||.|||||.|.|.|.||||||||.| |||
+Pezoporus_occ   4933 ATGGCTGTGGACAACAGTGTACCTCAAATTGTAATAAATAAGGGTG-CTC   4981
+
+Homo_sapiens    4995 -TACACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCACAAGC   5043
+                      .||.||.||..||||.|||||.||.|||.|.||.||..||||.||.|.|
+Pezoporus_occ   4982 AGACTCTCCGTGCTCTGGCCACAGGTCACATCGGATTTCTGATTACCAAC   5031
+
+Homo_sapiens    5044 AAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCTT-AGAT   5092
+                     |||.|..|.||||||||.|||||.|||||.|||||..||.||||| ||||
+Pezoporus_occ   5032 AAAGTGCTCAAAGTGGAAGACAGGGACAGTTTACATGTTACTCTTAAGAT   5081
+
+Homo_sapiens    5093 --TTATCGTGACAGAGGCCCCTCAACATGGATATCTTC----TCAACCTG   5136
+                       ..|||   |||||||..||.|..|||||    ||||    ||.|.|||
+Pezoporus_occ   5082 CAGAATC---ACAGAGGGTCCACGCCATGG----CTTCCTGATCCATCTG   5124
+
+Homo_sapiens    5137 GACAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGA   5186
+                     |..|||||||||||.|||||||..||||||||.||||||||.||||||||
+Pezoporus_occ   5125 GGGAAAGGCAACCATAGCATCAGCCAGTTCACCCAAGCTGATATTGATGA   5174
+
+Homo_sapiens    5187 CATGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATA   5236
+                     ||||||.|||||||||||.|||.|||..||.|..||||||||.|||||.|
+Pezoporus_occ   5175 CATGAAGATATGCTATGTTTTACGAGGGGGTGACAATGCCACCAGTGACA   5224
+
+Homo_sapiens    5237 TGTTCTATTTTGCA--GTTGAAGATGGTGGTGGAAACAAGTTAACGTACC   5284
+                     |.||..||||  ||  ||||||||.||.||.||.||.|||.|.|.|.|.|
+Pezoporus_occ   5225 TTTTTCATTT--CATGGTTGAAGACGGAGGAGGTAATAAGCTGAAGAATC   5272
+
+Homo_sapiens    5285 AGAATTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTAC   5334
+                     |..|||||||.||.||.|||||||||||||||||.||||||||.|||||.
+Pezoporus_occ   5273 AACATTTTCGCCTAAACTGGGCATGGATCTCCTTAGAAAAGGAGTATTAT   5322
+
+Homo_sapiens    5335 CTGGTCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGG   5384
+                     .|.||.|||||.||||||||.|.|||.|||||||||||||||||.|||||
+Pezoporus_occ   5323 TTAGTAAATGAAGACTCCAAGTATCTTGATGTTGTTCTTAAACGGAGAGG   5372
+
+Homo_sapiens    5385 TTACTTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTG   5434
+                     ||||.||||||||||.|||||||||||||||.||||.|.|||..|.||||
+Pezoporus_occ   5373 TTACCTGGGAGAAACGTCTTTTATAAGTATTAGCACCAAAGATGGCACTG   5422
+
+Homo_sapiens    5435 CAGAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTC   5484
+                     |..|.|||||.|.||||||||..||.|||||.||||||||.||||||||.
+Pezoporus_occ   5423 CCAAGAAAGATAGAGACTTCAGAGGAAAAGCTCAGAAACAGGTGCAGTTT   5472
+
+Homo_sapiens    5485 AACCCAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGG   5534
+                     ||.||.|||||.|||...||.|||||||||||.|||||..||||||||||
+Pezoporus_occ   5473 AATCCTGGCCAAACCTTAGCTACATGGCGAGTACGGATTTTGAGTGATGG   5522
+
+Homo_sapiens    5535 GGAGCATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGC   5584
+                     .||.|||||.|||||||||.||||.||..|.||.||.||.|||||.||..
+Pezoporus_occ   5523 TGAACATGAACAGTCTGAATCCTTCCAAATTGTTCTTTCTGAGCCTGTCA   5572
+
+Homo_sapiens    5585 TGGCTGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCA   5634
+                     ||||.|...|||||||.||..|.||..||||.||.||.||..|.||.|||
+Pezoporus_occ   5573 TGGCAGTTCTGGAATTTCCTGCTGTATCCACGGTGGAAATTATCGACCCA   5622
+
+Homo_sapiens    5635 GGAGATGAGCCAACTGTGTTTATTCCCCAGTCCA--AATACTCCGTTGAA   5682
+                     ||||||||..||||.||.|||.||||.|||||||  .|||||  .||.||
+Pezoporus_occ   5623 GGAGATGAATCAACAGTCTTTCTTCCTCAGTCCACCTATACT--ATTAAA   5670
+
+Homo_sapiens    5683 GAAGATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAG   5732
+                     |||||.||||||||..|.||.|||||..||||.||.||.|||||.|||||
+Pezoporus_occ   5671 GAAGACGTTGGTGAATTATTTATTCCAGTCAGAAGAAGTGGAGACGTGAG   5720
+
+Homo_sapiens    5733 CCAGGAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAA   5782
+                     ||||||..|||||||..||||.||.||.||||||||||||||||||||.|
+Pezoporus_occ   5721 CCAGGAACTGATGGTTATCTGCTACACACAACAAGGAACAGCAACTGGCA   5770
+
+Homo_sapiens    5783 CTGTGCCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAG   5832
+                     |||..||.||.||.||..|||||||||||||.||||||||||||||.|||
+Pezoporus_occ   5771 CTGCCCCAACCTCTGTACTGTCTTACTCTGACTACATATCCAGGCCCGAG   5820
+
+Homo_sapiens    5833 GACCACACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTG   5882
+                     ||.||||.|||..||.|.||.|||||||||||.|||||.||.|||.||||
+Pezoporus_occ   5821 GATCACAACAGCATTCTGCGTTTTGACAAAGACGAACGAGAAAAAATGTG   5870
+
+Homo_sapiens    5883 TCGGATAGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCC   5932
+                     ||||||.||.||.||.|||||.||.|||||.||.||||..||.|||||..
+Pezoporus_occ   5871 TCGGATTGTTATTATAGATGATTCCTTGTATGAAGAGGCTGAGACCTTTG   5920
+
+Homo_sapiens    5933 ATGTCCTTCTGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCA   5982
+                     ||||..|.|||||||||||.|||||.|||||||||||..||||.||||||
+Pezoporus_occ   5921 ATGTTATGCTGAGCATGCCAATGGGTGGAAGAATCGGTACAGAATTCCCA   5970
+
+Homo_sapiens    5983 GGGGCTCAAGTTACAATCGTTCCTGACAAAGATGATGAACCCATCTTTTA   6032
+                     .|..|||||.||||.||.||.||||||||.|||||||||||..|.||.||
+Pezoporus_occ   5971 AGCACTCAAATTACCATTGTACCTGACAAGGATGATGAACCAGTATTCTA   6020
+
+Homo_sapiens    6033 CTTCGGTGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAG   6082
+                     |||.||..|||..|||||.|..||.||||||||||||||||||.|.||.|
+Pezoporus_occ   6021 CTTTGGAAATGATGAATATTACGTTGATGAGAGTGCTGGCTATATTGAGG   6070
+
+Homo_sapiens    6083 TGCAGGTGTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACA   6132
+                     |..|.||.|||||.||.||.|||||.|||||.||..||.|...|||.|||
+Pezoporus_occ   6071 TAAATGTCTGGAGGACTGGAACTGATCTGTCTAAAGCTGCCTCTGTTACA   6120
+
+Homo_sapiens    6133 GTGAGGTCTCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAACAGACTA   6182
+                     |||||||||||.|||.|.||.||.....|||||||.||||||..|||.||
+Pezoporus_occ   6121 GTGAGGTCTCGCAAATCTGAACCAGTAACTGCAGAGGCTGGAGTAGATTA   6170
+
+Homo_sapiens    6183 TGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGC   6232
+                     |||.||||||||.||||||||.||||||.|.|||||||||||.||||||.
+Pezoporus_occ   6171 TGTAGGCATCAGTCGTAATTTGGATTTTTCCCCTGGAGTCAATATGCAGA   6220
+
+Homo_sapiens    6233 CTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGA   6282
+                     |..|||||||.||.|||.||||||||||||||||.||||.|.|.||.|||
+Pezoporus_occ   6221 CATTTCGTGTGGTAATTATGGATGACCTTGGACAGCCAGTGTTAGAAGGA   6270
+
+Homo_sapiens    6283 ATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGG   6332
+                     |.||||||.|||||.||.|||||..|.|||||.|||||.||.||||||||
+Pezoporus_occ   6271 ACTGAGAAGTTTGAGCTTGTGCTAAGGATGCCCATGAATGCTGCCCTTGG   6320
+
+Homo_sapiens    6333 CGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGC   6382
+                     .||.||||||||.|||||..|.|.|||.||||||||.||.||.||.||.|
+Pezoporus_occ   6321 AGAACCCAGCAAGGCCACCATCTTCATTAATGACTCAGTGTCTGACTTAC   6370
+
+Homo_sapiens    6383 CTAAGATGCAATTCAAAGAA--CGAATATATACTGGCAGCGAAAGTGATG   6430
+                     ||||||||||.||.||||||  .|.|||||||  ||||..||||.|||||
+Pezoporus_occ   6371 CTAAGATGCAGTTTAAAGAATCTGTATATATA--GGCAATGAAAATGATG   6418
+
+Homo_sapiens    6431 GGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCT   6480
+                     |.|||||...|.|.|||||..||||||.||||||..|||..||||.|||.
+Pezoporus_occ   6419 GACAGATTTCTGCCATGATATATAGGAGTGGGGACATCCGATACACATCC   6468
+
+Homo_sapiens    6481 TCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTT   6530
+                     .|.|||||||||||.||..||||.||.||.||.||.||.|||||||||||
+Pezoporus_occ   6469 ACTGTGAGATGCTATACAAGGCAAGGCTCAGCTCAAGTAATGATGGACTT   6518
+
+Homo_sapiens    6531 TGAAGAACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTG   6580
+                     ||.||||||.||.||.|||||.|..|||||||||||||||||.|||||||
+Pezoporus_occ   6519 TGTAGAACGTCCTAATACTGACAGTTCCATCATCACATTCCTTCCTGGTG   6568
+
+Homo_sapiens    6581 AGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCTATGAG   6630
+                     |.||.||.|||||.|||||..|.|.|||.|||||.|||....||.||||.
+Pezoporus_occ   6569 AAACTGAGAAGCCTTGCATATTGGTGCTTATGGATGATACTTTCCATGAA   6618
+
+Homo_sapiens    6631 GAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCC   6680
+                     ||.|..||.||.||.||..||||.||.|||||||||..|||..|.|||.|
+Pezoporus_occ   6619 GAAGAGGAAGAACTACGTTTGGTTCTTGGCACTCCAAGAAGTGATTCTTC   6668
+
+Homo_sapiens    6681 CTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAG   6730
+                     ||||||.||..|..||||||||||||||||.||.||.||||.|||.|..|
+Pezoporus_occ   6669 CTTTGGTGCCTCTATTGGTGAACAAAATGAGACGCTGATAAAGATTCAGG   6718
+
+Homo_sapiens    6731 ATGATGCTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTC   6780
+                     |||||||.||.|||.||.|||||||.|||||.||.||||||||||||||.
+Pezoporus_occ   6719 ATGATGCAGACAAGTCTATTATTAAGTTTGGTGAGACCAAATTTAGTGTG   6768
+
+Homo_sapiens    6781 ACTGAACCCAAAGA-ACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGA   6829
+                     |.||||||.||.|| ||..||..||| .|..|||.|||.|||.||||||.
+Pezoporus_occ   6769 AGTGAACCAAAGGACACAAGGCAAGT-AGCAGTTGTAAAAATCCCAGTGC   6817
+
+Homo_sapiens    6830 TTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAG   6879
+                     ||||.|..||||||||||||||||||||..||||.|||||.||.||.|||
+Pezoporus_occ   6818 TTCGTCTGGGAGACACTTCAAAGGTTTCTGTTGTAAGAGTTCATACAAAG   6867
+
+Homo_sapiens    6880 GATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAAT   6929
+                     |||||.||.||.||.||||||||||||||.||||||.|.|||||||||||
+Pezoporus_occ   6868 GATGGATCTGCTACTTCTGGAGAAGACTATCACCCTATATCAGAAGAAAT   6917
+
+Homo_sapiens    6930 TGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACCT   6979
+                     ||||||||||||.||.|||||.|||||..|.||.||.||.||||||..||
+Pezoporus_occ   6918 TGAGTTTAAGGAGGGTGAAACACAGCATTTTGTGGAGATTGAAGTTCTCT   6967
+
+Homo_sapiens    6980 TTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCT   7029
+                     ||||.||.|||||||||||||||||.|||||||||||||||||.||.|||
+Pezoporus_occ   6968 TTGATGGAGTGAGAGAGATGAGAGAAGCCTTCACTGTTCACCTGAAGCCT   7017
+
+Homo_sapiens    7030 GATGAAAATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACAT   7079
+                     |||||.||.|||.|.|||||.||.|||....|.||.||||||||.|||||
+Pezoporus_occ   7018 GATGAGAACATGGTTGCAGAAATACAGACAGCCAAGGCCATTGTTTACAT   7067
+
+Homo_sapiens    7080 AGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAA   7129
+                     .||||||||.|.||||||||||||||||||.|||||.||||||||||||.
+Pezoporus_occ   7068 TGAAGAAATAAACAGCATGGCAGATGTCACCTTTCCCTCTGTCCCTCAAG   7117
+
+Homo_sapiens    7130 TTGTATCCCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTGCT   7179
+                     |||.||||||.|||||.|||||.||.|||||.|.|||.||.||.|     
+Pezoporus_occ   7118 TTGCATCCCTTTTGATATATGATGATACTTCTAGAGCCAAAGACA-----   7162
+
+Homo_sapiens    7180 GAA------CCCATGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAA   7223
+                      ||      |||||..|.|||||||||||..||||||||||||||||.||
+Pezoporus_occ   7163 -AAACCAGTCCCATAGCCGGCTATCCTGTTGTCTGTATCACAGCTTGTAA   7211
+
+Homo_sapiens    7224 CCCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGA   7273
+                     .||.||||||..|||||..||.||.||.||.|||||.|||||.|||||||
+Pezoporus_occ   7212 TCCTAAATATGAAGACTTTGACAAGACTGGTTCTATATGTGCCAGTGAGA   7261
+
+Homo_sapiens    7274 ACATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCG   7323
+                     ||||||||.|.|||.||||.|..|||||||||||..|.||.|||||..|.
+Pezoporus_occ   7262 ACATCAATAATACTCTGACACAATACCGGTGGCTTGTAAGCGCACCCACT   7311
+
+Homo_sapiens    7324 GGCCCTGACGGTGTGACCAGCCCTATGA--GAGAAGTGGACTTCGACACC   7371
+                     ||.|||||.||||||||.|||||.||||  ||||  |.|||||.||.|||
+Pezoporus_occ   7312 GGTCCTGATGGTGTGACTAGCCCCATGAAGGAGA--TTGACTTTGATACC   7359
+
+Homo_sapiens    7372 TTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATATACTTTCAGCC   7421
+                     ||.|||||.||.|||||||||.|.|||||.||||||||.|||||.||..|
+Pezoporus_occ   7360 TTCTTTACTTCCTCCAAGATGATTACACTTGACTCCATTTACTTCCAAGC   7409
+
+Homo_sapiens    7422 TGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAATGGGGATG   7471
+                     |||.||.||.||.|||||.||.||||||||||||||..|..|||||.|||
+Pezoporus_occ   7410 TGGTTCTCGAGTCCAGTGTGCGGCTCGTGCTGTGAATTCAGATGGGAATG   7459
+
+Homo_sapiens    7472 AAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGAAGAAGGT   7521
+                     |.||.||.|||||.|||||||||||||||||.||.||||.|..|||||||
+Pezoporus_occ   7460 AGGGTCTTGAGCTTATGAGCCCTATTGTAACTATAAGCACATCAGAAGGT   7509
+
+Homo_sapiens    7522 CTTTGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGC   7571
+                     |||||||||||.|||||..|.||.||.|||||||||||.||.|||||.||
+Pezoporus_occ   7510 CTTTGTCAGCCTCGTGTGTCAGGAGTAGTTGGAGCAGAACCCTTCTCTGC   7559
+
+Homo_sapiens    7572 TAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAAACCTTATCA   7621
+                     .||||||||.||.||.|||||.||.|||.|   .||..|.|||.||||||
+Pezoporus_occ   7560 CAAATTGCGGTATACTGGCCCAGAAGATCC---TTATGCCAACTTTATCA   7606
+
+Homo_sapiens    7622 AGCTCACTGTCACAATGCCACACATAGATGGCATGCTCCCCGTGATCTCC   7671
+                     |..|.||.||||||||||||||.||.|||||||||||.||.||.||.||.
+Pezoporus_occ   7607 AATTGACAGTCACAATGCCACATATTGATGGCATGCTGCCTGTTATTTCT   7656
+
+Homo_sapiens    7672 ACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGCACAAG   7721
+                     ||.|||||.||.||||||||||||||.||.||.|||||||||||.||.||
+Pezoporus_occ   7657 ACAAGAGAACTCTCCAACTTTGAGCTGACACTTAGCCCTGATGGAACTAG   7706
+
+Homo_sapiens    7722 AGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAAGTGAAGA   7771
+                     |||.||||||||.||.|||||||||||..|||||||.||.||||||||||
+Pezoporus_occ   7707 AGTCGGAAACCATAAATGCTCCAACCTGTTGGATTACACAGAAGTGAAGA   7756
+
+Homo_sapiens    7772 CTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAATAATTGGA   7821
+                     |.||..||||||||||.|||||||||||||||||||||||..|.||||||
+Pezoporus_occ   7757 CCCACCATGGTTTCTTAACTGATGCTACCAAAAATCCAGATGTGATTGGA   7806
+
+Homo_sapiens    7822 GAGA-CATATCCTTACCAGTACAGCTTGTCC----ATCAGAGGTTCCACT   7866
+                     |||| ||| |||.||.|||||||||    ||    ||.|||||.|..|.|
+Pezoporus_occ   7807 GAGACCAT-TCCGTATCAGTACAGC----CCAATAATTAGAGGATTTAAT   7851
+
+Homo_sapiens    7867 ACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCTGTTTATGGGAGTT   7916
+                     |||||||||||||||||.||.|||||.||.||.|||||||||||||||||
+Pezoporus_occ   7852 ACCTTGCGCTTCTACCGCAATCTGAATCTGGAAGCCTGTTTATGGGAGTT   7901
+
+Homo_sapiens    7917 CGTTAGCTACTATGACATGTCAGAACTCCTTGCTGACTGTGGTGGCACCA   7966
+                     .||||||||.|||||||||||.||.|||||..|.||.|||||.|||||||
+Pezoporus_occ   7902 TGTTAGCTATTATGACATGTCTGAGCTCCTCACAGATTGTGGAGGCACCA   7951
+
+Homo_sapiens    7967 TTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGTCCTATGTGACCCTT   8016
+                     ||||.||||||||||||||.||.||.|||||.||||||||.||.||.||.
+Pezoporus_occ   7952 TTGGGACAGATGGACAGGTTCTCAATCTAGTACAGTCCTACGTCACGCTG   8001
+
+Homo_sapiens    8017 CGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCCCCCGTGGGGGTAGG   8066
+                     .||||||||.|||||||.||.||.||.|||||.|||||.|||||.|||||
+Pezoporus_occ   8002 AGAGTCCCTTTGTATGTCTCGTATGTTTTCCACTCCCCGGTGGGTGTAGG   8051
+
+Homo_sapiens    8067 AGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTCTAACTTTTGTGT   8116
+                     |||||||||||||||.|||||..|.|||||||||||.||.||||||||||
+Pezoporus_occ   8052 AGGCTGGCAGCATTTCGACTTACAATCAGAGCTTCGGCTGACTTTTGTGT   8101
+
+Homo_sapiens    8117 ACGACACCGCCATCTTGTGGAATGATGGAATTGGCAGCCCCCCAGAGGCT   8166
+                     |.|||||.||||||.|||||||.|||||.|||||.|||||.|||||.||.
+Pezoporus_occ   8102 ATGACACTGCCATCCTGTGGAAGGATGGGATTGGTAGCCCACCAGAAGCA   8151
+
+Homo_sapiens    8167 GAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGCATCGGTGATGAGGG   8216
+                     ||.||.||||||||.||.||.||||||||||||||..|..||||.|||||
+Pezoporus_occ   8152 GAGCTCCAAGGTTCCCTGTACCCAACCAGCATGCGTGTTAGTGAAGAGGG   8201
+
+Homo_sapiens    8217 GCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTTCCATGGCTTATTTG   8266
+                     ||||||||..||..||||||||||.||.||.|..||.|||||..|.||||
+Pezoporus_occ   8202 GCGCTTGGTTGTCAACTTCAAGACTGAAGCCCGATTTCATGGTCTGTTTG   8251
+
+Homo_sapiens    8267 TGCTGTCACATCCCGCATCCTTTACAAGCTCAGTGATCATGTCAGCTGAT   8316
+                     ||.||||.|||||.||.||.|.|..||..||..||.|.|||||.||||||
+Pezoporus_occ   8252 TGATGTCCCATCCTGCTTCATCTGTAACATCCATGGTTATGTCTGCTGAT   8301
+
+Homo_sapiens    8317 CATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGGAGTGAACCAACCTA   8366
+                     ||.|||||||||||||||..||||.|||||||..|.|||||.|||||.||
+Pezoporus_occ   8302 CACCCAGGCCTGACATTTAGCCTCAGCCTCATCCGAAGTGAGCCAACATA   8351
+
+Homo_sapiens    8367 TAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGACTTTGCCGTACGTG   8416
+                     .|||||||||||||||||||||||||||||.||.||.|||||.||.||.|
+Pezoporus_occ   8352 CAACCAGCCAGTACAGCAGTGGAGCTTTGTTTCAGATTTTGCGGTTCGAG   8401
+
+Homo_sapiens    8417 ACTACTCAGGGACCTATACTGTGAAGCTGGTGCCATG---CACTGCCCCA   8463
+                     ||||.||.||.||.||.||||||||||||.|..|.||   ||||.|.|  
+Pezoporus_occ   8402 ACTATTCTGGAACATACACTGTGAAGCTGATAGCTTGTACCACTACTC--   8449
+
+Homo_sapiens    8464 TCACATCAGGAATACCGCCTGCCAGTCACCTGCAACCCCAGAGAACCTGT   8513
+                      ||||||||||||||.||||.|||||.|..||||||||.|||||.|||.|
+Pezoporus_occ   8450 -CACATCAGGAATACAGCCTACCAGTGATATGCAACCCTAGAGACCCTAT   8498
+
+Homo_sapiens    8514 CACCTTTGACCTTGACATCCGATTCCAACAGGTCAGTGATCCAGTGGCTG   8563
+                     |||.|||||.||.||.|||||||||||.|||||||||||.||||||||||
+Pezoporus_occ   8499 CACATTTGATCTGGATATCCGATTCCAGCAGGTCAGTGACCCAGTGGCTG   8548
+
+Homo_sapiens    8564 CTGAGTTTAGCTTGAACACCCAAATGTACCTGCTCTCTAAGAAGAGTCTC   8613
+                     |.||.||.||.|||||||||||.||||.|||.|||||.||.||||..||.
+Pezoporus_occ   8549 CCGAATTCAGTTTGAACACCCAGATGTTCCTTCTCTCCAAAAAGACACTG   8598
+
+Homo_sapiens    8614 TGGTTGTCTGATGGATCCATGGGATTCGGGCAAGAGAGTGATGTTGCTTT   8663
+                     |||.|.||||||||.||.|||||.||.||||||||.||||||||||||||
+Pezoporus_occ   8599 TGGCTATCTGATGGCTCAATGGGTTTTGGGCAAGAAAGTGATGTTGCTTT   8648
+
+Homo_sapiens    8664 TGCAGAAGGTGATATAATTTATGGTCGTGTCATGGTGGATCCTGTCCAGA   8713
+                     ..|||||||||||||.||.|||||.||.||.|||||||||||.||.||||
+Pezoporus_occ   8649 CTCAGAAGGTGATATCATATATGGCCGGGTGATGGTGGATCCAGTGCAGA   8698
+
+Homo_sapiens    8714 ATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAGGTGTTTCTATGCACT   8763
+                     ||.|||||||.|||||.|||||.|||||.||||||||.||.||||||||.
+Pezoporus_occ   8699 ATTTGGGTGATTCCTTCTACTGTAGCATCGAGAAGGTTTTCCTATGCACA   8748
+
+Homo_sapiens    8764 GGAGCTGATGGCTATGTTCCCAAGTATAGTCCAATGAATGCAGAATATGG   8813
+                     |||||||||||.|||||.|||||.||||.||||...||..|.||||||||
+Pezoporus_occ   8749 GGAGCTGATGGATATGTACCCAAATATAATCCATCCAACACTGAATATGG   8798
+
+Homo_sapiens    8814 CTGCTTAGCCGACTCTCCTTCACTCTTATATAGATTTAAAATTGTGGACA   8863
+                     .|||.|.||.||.|||||.||.||..|.||.||.|||||.||||||||||
+Pezoporus_occ   8799 GTGCCTTGCTGATTCTCCATCCCTTCTGTACAGGTTTAAGATTGTGGACA   8848
+
+Homo_sapiens    8864 AAGCTCAGCCAGAGACACAAGCGACCAGTTTTGGAAATGTCCTATTTAAT   8913
+                     ||||||||||.|||||||||||.||.||.|||||||||||.||.||||||
+Pezoporus_occ   8849 AAGCTCAGCCGGAGACACAAGCCACAAGCTTTGGAAATGTGCTTTTTAAT   8898
+
+Homo_sapiens    8914 GCCAAACTAGCAGTGGATGACCCTGAAGCCATTCTCTTAGTGAATCAGCC   8963
+                     ||.|||||.|||.|.|||||.||||||||.||||...||||.||.|||||
+Pezoporus_occ   8899 GCAAAACTTGCAATAGATGATCCTGAAGCAATTCCACTAGTTAAACAGCC   8948
+
+Homo_sapiens    8964 TGGATCTGATGGATTTAAAGTCGACTCAACACCACTCTTTCAGGTCGCTC   9013
+                     .||.|||||||||||||||||.||||||||.||.||.||||||||..||.
+Pezoporus_occ   8949 AGGCTCTGATGGATTTAAAGTAGACTCAACTCCTCTATTTCAGGTGTCTT   8998
+
+Homo_sapiens    9014 TAGGCCGAGAATGGTATATACATACGATCTATACAGTGAGATCGAAAGAC   9063
+                     |.||..|.||.||||||.|.|||||.|||||.||.||..|.||.|||||.
+Pezoporus_occ   8999 TGGGTAGGGAGTGGTATGTCCATACAATCTACACTGTACGTTCAAAAGAG   9048
+
+Homo_sapiens    9064 AATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG------AGTACCATTC   9107
+                     |||||.||.||.||.|||||||||||.||.||||      |||||||.||
+Pezoporus_occ   9049 AATGCTAACCGCGGAATTGGCAAAAGGAGCGTGGAGCATCAGTACCACTC   9098
+
+Homo_sapiens    9108 TCTGGTGAGTCAAGGAAAGCCCCA-----ATCCACCACCAAGAGCCGGAA   9152
+                     .||..||||.|..||||  |..||     ||||| |||  |.||.||..|
+Pezoporus_occ   9099 GCTCTTGAGCCGTGGAA--CTTCAGGAATATCCA-CAC--ATAGACGTCA   9143
+
+Homo_sapiens    9153 GAAGA-GAGAGATCAGGAGCACACCCTC----ACTGGCATGGGAGATTGG   9197
+                     ||||| |.|||.||||.||.|     ||    .||.|||..|||.|||||
+Pezoporus_occ   9144 GAAGAGGGGAGTTCAGCAGGA-----TCGAGATCTTGCAAAGGACATTGG   9188
+
+Homo_sapiens    9198 TGCTGAAAACAGTCGAGGAACAAACATCCAGCACATTGCCCTGGACCG--   9245
+                     .|..|||||||..||||||||||||||.||||||||.||.||.||.||  
+Pezoporus_occ   9189 AGTAGAAAACAACCGAGGAACAAACATACAGCACATAGCACTAGATCGCG   9238
+
+Homo_sapiens    9246 -CACCAAGAGGCAGATCCC-CCATGGGAGAGCACCTCCAG---ATGGCAT   9290
+                      ||.|||||..|||.|||| |.|.|||||    ..|.|||   ||||..|
+Pezoporus_occ   9239 CCAGCAAGAAACAGGTCCCTCAAAGGGAG----GTTGCAGTCAATGGTGT   9284
+
+Homo_sapiens    9291 CCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTCAGCCTGGTCACTG   9340
+                     .||||||.|.||.||.||.|.||..||   |||||      .|||||.||
+Pezoporus_occ   9285 TCTCCCCAGAGAACTGAATAACCAAAG---TGCAG------GGGTCAGTG   9325
+
+Homo_sapiens    9341 TGGTGGGAGGCACCA----CGGTAGGGTTACT--CA---------CCATC   9375
+                     |      ||.|||.|    .|||.|.|||.||  ||         |||||
+Pezoporus_occ   9326 T------AGTCACAATCATTGGTGGAGTTGCTGCCATTTTCCTTGCCATC   9369
+
+Homo_sapiens    9376 TGCCTCACTG---TCATTGCAGTGCTG-----ATGTGCAGGGGCAAGGAA   9417
+                     |||.|.|.||   ||||||...|||||     ||       ||.||..||
+Pezoporus_occ   9370 TGCTTAATTGCAATCATTGTTTTGCTGCTAAAAT-------GGAAACAAA   9412
+
+Homo_sapiens    9418 AGTTTCAG-GGGGAAGGATGCCCCGAAAGGCTCCA-GCAGCAGTGAGCCC   9465
+                     |  |||.| |..||||||.| ||.||||||..||| ||||||.|||.||.
+Pezoporus_occ   9413 A--TTCTGAGAAGAAGGAAG-CCAGAAAGGAGCCAGGCAGCAATGAACCA   9459
+
+Homo_sapiens    9466 ATGGTGC--CCCCACAGA----GCCATCACAATGACAGCTCAGAAGTT   9507
+                     |||.|||  ||..||| |    ||||.|     |||||||||||.|||
+Pezoporus_occ   9460 ATGATGCTTCCGTACA-ATTACGCCAGC-----GACAGCTCAGAGGTT   9501
+
+
+#---------------------------------------
+#---------------------------------------

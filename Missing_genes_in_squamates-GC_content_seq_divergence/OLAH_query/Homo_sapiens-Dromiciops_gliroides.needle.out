@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 15:56:24
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Dromiciops_gliroides.fa
+#    -outfile Homo_sapiens-Dromiciops_gliroides.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Dromiciops_gliroides.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Dromiciops_gliroides
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1029
+# Identity:     500/1029 (48.6%)
+# Similarity:   500/1029 (48.6%)
+# Gaps:         375/1029 (36.4%)
+# Score: 1335.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGAGAGAGGAGACCAACCTAAGAGAACCAGGAATGAAAACATTTTCAA     50
+                                                                       
+Dromiciops_gl      0 --------------------------------------------------      0
+
+Homo_sapiens      51 CTGCTTATACAAAAACCCTGAGGCAACTTTTAAGCTGATTTGCTTTCCCT    100
+                                                                       
+Dromiciops_gl      0 --------------------------------------------------      0
+
+Homo_sapiens     101 GGATGGGAGGTGGCTCCACTCATTTTGCCAAATGGGGCCAAGATACTCAT    150
+                                                                     ||
+Dromiciops_gl      1 ------------------------------------------------AT      2
+
+Homo_sapiens     151 GATTTGCTG-GAAGAGACAGCATCTCACCATGTTGCCAAGGCTGGTCTCA    199
+                     ||    .|| |||| ||||                     |||||     
+Dromiciops_gl      3 GA----ATGTGAAG-GACA---------------------GCTGG-----     21
+
+Homo_sapiens     200 AACTCCGGCGCTCAAGTGATCC----TCCTGCTTCAGCCTACCCATGTGC    245
+                                 ||.|.|||||    ||     |||..|||     ||.|
+Dromiciops_gl     22 ------------CAGGAGATCCAGATTC-----TCATTCTA-----GTCC     49
+
+Homo_sapiens     246 TGGCGTGAGCCACCGTAGGCGTGAGCCACCGTGCCTGGCCAAAATTCT--    293
+                     ||         ||.|||                            |||  
+Dromiciops_gl     50 TG---------ACTGTA----------------------------TCTTA     62
+
+Homo_sapiens     294 -TGGTCTATTCTGGATTCTAATTTTTTTTATGCACTCCTTAAGGCTTCCT    342
+                      |||..|.||.|.||    |.|||         .|||..|||||||||||
+Dromiciops_gl     63 CTGGGATGTTGTTGA----AGTTT---------CCTCTATAAGGCTTCCT     99
+
+Homo_sapiens     343 GGAAGAGAAAGCAGAGTTGAAGAACCTCTTGAAA-----ATGACATCTCC    387
+                     |||||||||||..||..|.||||.||..|||.||     |||        
+Dromiciops_gl    100 GGAAGAGAAAGTCGATCTAAAGAGCCATTTGCAACAACCATG--------    141
+
+Homo_sapiens     388 CAGT---TAGTTGATGAAGTTGTTTG--TGCTCTGCAGCCAGTCATCCAG    432
+                     .|||   ||||||..|||.|  ||.|  ||||.|||.||||.|..|||||
+Dromiciops_gl    142 GAGTTTATAGTTGCGGAAAT--TTCGAATGCTTTGCTGCCAATACTCCAG    189
+
+Homo_sapiens     433 GATAAACCATTTGCATTTTTTGGCCACAGTATGGGATCCTACATTGCTTT    482
+                     ||||..||.||||||||.|||||.|||||.|||||.||.||..|||||||
+Dromiciops_gl    190 GATATGCCTTTTGCATTCTTTGGTCACAGCATGGGGTCATATGTTGCTTT    239
+
+Homo_sapiens     483 TAGGACTGCACTAGGTCTAAAAGAAAACAATCAACCAGAACCATTGCATT    532
+                     ||.|||.||.|||....||||||  .||||...||   |||||.|||| |
+Dromiciops_gl    240 TATGACAGCTCTACACTTAAAAG--TACAAGTTAC---AACCAGTGCA-T    283
+
+Homo_sapiens     533 TATTTTTGTCAAGTGCAACTCCT--GTACATTCAAAGGCC------TGGC    574
+                     |.||||||||||||||||.||||  .||   |.||||.||      ||||
+Dromiciops_gl    284 TGTTTTTGTCAAGTGCAAATCCTCCCTA---TAAAAGCCCCTTTTTTGGC    330
+
+Homo_sapiens     575 ATCGC--ATTCCCAAAGATGATGAATTGTCAGAAGAACAAATAAGTCATT    622
+                      ||.|  |||.|||        |.| |.||||||||.|||||....||||
+Dromiciops_gl    331 -TCACATATTTCCA--------GTA-TATCAGAAGAGCAAATGCTCCATT    370
+
+Homo_sapiens     623 ACCTTATGGAATTTGGA-GGCACCCCCAAG--------CATTTTGCTGAA    663
+                     ...|.|| ||||...|| |.|||..|||||        ||||   .|.||
+Dromiciops_gl    371 TTGTCAT-GAATAACGATGACACTTCCAAGGGCCCCTACATT---ATAAA    416
+
+Homo_sapiens     664 GC-CA-------AGGAATTTGTGAAAC---AATGTAG-TCCCA---TCAT    698
+                     || ||       ||  |.|..|..|||   |.||.|| |.|||   ||||
+Dromiciops_gl    417 GCACATACATACAG--ACTACTATAACCTTACTGCAGCTTCCAGATTCAT    464
+
+Homo_sapiens     699 --AAGGG----CAGATC----------TGAA--CATTGTTA--GAAGTTG    728
+                       |||||    ||.|||          ||.|  |||.||.|  |||  ||
+Dromiciops_gl    465 GGAAGGGGCCCCAAATCAAGACCAAGGTGGAGTCATAGTCACTGAA--TG    512
+
+Homo_sapiens     729 CACCTCTAACGTACCATCTAAGGCTGTTCTTTCCTGTGACTTGACATGTT    778
+                        ||.|..|..||||||.|||.||..||||||.|||||..|.|||||||
+Dromiciops_gl    513 ---CTTTGTCAAACCATCAAAGACTCCTCTTTCTTGTGATATTACATGTT    559
+
+Homo_sapiens     779 TTGTTGGATCTGAAGACATAGCAAAGGACATGGAAGCCTGGAAAGATGTA    828
+                     ||..|||..|||||||.||||.|.|.||.|||||||.||||||..|..||
+Dromiciops_gl    560 TTTCTGGGACTGAAGATATAGTATATGAAATGGAAGGCTGGAAGAACATA    609
+
+Homo_sapiens     829 ACCAGTGGAAATGCTAAAATTTACCAGCTTCCAGGGGGTCACTTTTATCT    878
+                     ||||||||.|.||.|.|.|.|.||.|||||||.|..||||||||||||||
+Dromiciops_gl    610 ACCAGTGGGAGTGTTGAGAGTCACAAGCTTCCTGAAGGTCACTTTTATCT    659
+
+Homo_sapiens     879 TCTGGATCCTGCGAACGAGAAATTAATCAAGAACTACATAATCAAGTGTC    928
+                     ..|..|.|||.|.||.||||..||.||||..|||.||||||.||..||.|
+Dromiciops_gl    660 CATTAACCCTTCCAATGAGACTTTCATCATAAACCACATAACCAGATGCC    709
+
+Homo_sapiens     929 TAGAAGTATCATCGATATCCAATTTT---    954
+                     |.|||.||||||         |.|||   
+Dromiciops_gl    710 TTGAAATATCAT---------ACTTTGCT    729
+
+
+#---------------------------------------
+#---------------------------------------

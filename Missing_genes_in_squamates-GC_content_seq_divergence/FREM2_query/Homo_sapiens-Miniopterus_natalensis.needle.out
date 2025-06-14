@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:42:22
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Miniopterus_natalensis.fa
+#    -outfile Homo_sapiens-Miniopterus_natalensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Miniopterus_natalensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Miniopterus_natalensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9540
+# Identity:    8370/9540 (87.7%)
+# Similarity:  8370/9540 (87.7%)
+# Gaps:          78/9540 ( 0.8%)
+# Score: 37226.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ---ATGCACTCAGCCGGGA----CTCCCGGGTTATCCTCGCGCCGGACAG     43
+                        |||||..|||||.|||    |||||       .||||||||||..||
+Miniopterus_n      1 ATGATGCATGCAGCCAGGATCGCCTCCC-------ACTCGCGCCGGGTAG     43
+
+Homo_sapiens      44 GCAACTCCACCAGCTTTCAACCAGGA-----CCGCCACCGCC---GCCCC     85
+                     .||||.|||||||.|||||.||  ||     |.|||.|||||   |.|||
+Miniopterus_n     44 CCAACCCCACCAGTTTTCAGCC--GATGCCTCTGCCTCCGCCACGGACCC     91
+
+Homo_sapiens      86 GGCTGCTGCTGCTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCG    135
+                     |||||||||||||||||||||||   ||||||.|||||||||||||.||.
+Miniopterus_n     92 GGCTGCTGCTGCTGCTGCTGCTT---CTGTCATTGGTAAGCCGCGTTCCA    138
+
+Homo_sapiens     136 GCACAGCCCGCTGCCTTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGG    185
+                     ||||||||||.||||..||||.||||.|||||||||.|||.||||..|||
+Miniopterus_n    139 GCACAGCCCGATGCCCCCGGCCGGGCTTTGCTGTCCTCTGATCTCCTGGG    188
+
+Homo_sapiens     186 GGCTGCAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGAC    235
+                     ||.||||||||||||.||.||||||||.|||||..||||||||||.||.|
+Miniopterus_n    189 GGTTGCAGGGGTCCCCGCAGAGGAGGCTATAGTAATGGCGAACCGTGGGC    238
+
+Homo_sapiens     236 TCCGGGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTG    285
+                     ||||||||||.||.||||||||.||||||||||||||.||||||||||||
+Miniopterus_n    239 TCCGGGTGCCCTTTGGCCGTGAGGTCTGGCTGGATCCACTGCATGACCTG    288
+
+Homo_sapiens     286 GTGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAA    335
+                     |||.||||||||..|||.||||||||.||||||||..|.||||||||||.
+Miniopterus_n    289 GTGCTGCAGGTGGGGCCAGGGGACCGTTGCGCGGTGACCGTACTAGACAC    338
+
+Homo_sapiens     336 CGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGT    385
+                     ||||||.|||||||||||.||.||||||||||.||||||.||||||||.|
+Miniopterus_n    339 CGACGCTCTGGCCCAGCGGCCCGGCCGCCTGAATCCCAAACGCTTCCCCT    388
+
+Homo_sapiens     386 GCGACTTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGC    435
+                     |||||||.||||||.|.||||||.||||||||||||||||.||.||||||
+Miniopterus_n    389 GCGACTTCGGCCCTAGAGAGGTGAGCTACTCTCACCTGGGGGCTCGCAGC    438
+
+Homo_sapiens     436 CCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGG    485
+                     |||||.||.||.|||||||.|||||||||||||||.|||.||.|.|||||
+Miniopterus_n    439 CCGTCGCGAGATCGCGTCCCGCTGCAGCTGCGCTACGACACGACGGGAGG    488
+
+Homo_sapiens     486 GGCAGTAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGC    535
+                     |.|.|.|||.||.||..||||.|||||||||||||||.|||||||.||||
+Miniopterus_n    489 GACTGCAGTTCTCCCCTTGGTGCTGGAGGTGGAGGTGATCTTCACTCAGC    538
+
+Homo_sapiens     536 TGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGG    585
+                     ||||.||||||||||||||||||||.|||||.||||||||||||||||||
+Miniopterus_n    539 TGGAAGTTGTGACTCGGAACTTGCCCCTGGTGGTGGAAGAGCTGCTGGGG    588
+
+Homo_sapiens     586 ACCAGCAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGA    635
+                     |||||||||||.|||||||||||||.||||||||||||||.||||.||||
+Miniopterus_n    589 ACCAGCAATGCTCTGGACGCGCGGAACCTGGAGTTCGCCTACCAGTCCGA    638
+
+Homo_sapiens     636 GACAGAGGAGTGCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTC    685
+                     |||.|||||.||.|..||||||||||||||.|||||||||.|.|||||||
+Miniopterus_n    639 GACCGAGGATTGTCTAGTGGGCATCCTGTCGGGCTTGGGCACACTGCCTC    688
+
+Homo_sapiens     686 GCTATGGAGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCA--GAG    733
+                     |||||||.|||||.||||||||||||||            |||||  || 
+Miniopterus_n    689 GCTATGGGGAACTTCTCCACTACCCGCA------------AGCCAACGA-    725
+
+Homo_sapiens     734 AGGGAGGCGCCCCGGAGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAA    783
+                     ||||| ..||||.|.||.|||||||||||||||||||||||||||||||.
+Miniopterus_n    726 AGGGA-ATGCCCAGAAGCCTCTCCTGATGGACTGCAAAGCTTTCCAGGAG    774
+
+Homo_sapiens     784 CTAGGCGTGCGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGA    833
+                     ||||||||||||||.||||||||.||..||.||||||||||||||||.||
+Miniopterus_n    775 CTAGGCGTGCGCTACCGCCACACGGCTCCCGGTCGCTCACCAAACAGAGA    824
+
+Homo_sapiens     834 CTGGATACCCATGGTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCA    883
+                     ||||.|.||||||||.||||||||||..|..||||||.||||||..||||
+Miniopterus_n    825 CTGGGTGCCCATGGTAGTGGAGCTGCACTTGCGAGGGTCTCCTGCTGGCA    874
+
+Homo_sapiens     884 GCCCTGCTTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGA    933
+                     |||||||||||||||..||||||||||||||.||||||||.||||||||.
+Miniopterus_n    875 GCCCTGCTTTGAAACAGGAGCACTTCCAGGTGCTGGTGAGAATCCGAGGG    924
+
+Homo_sapiens     934 GGGGCCGAGAACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGAT    983
+                     ||.|..|||||||||||.||||||||||||||.|||||||||||||||||
+Miniopterus_n    925 GGAGTTGAGAACACTGCTCCCAAGCCCAGTTTTGTGGCCATGATGATGAT    974
+
+Homo_sapiens     984 GGAGGTGGACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAG   1033
+                     ||||||||||||||||||||||||.||||||||.|||||||||.||||||
+Miniopterus_n    975 GGAGGTGGACCAGTTTGTACTGACCGCCCTGACGCCAGACATGTTGGCAG   1024
+
+Homo_sapiens    1034 CCGAGGATGCTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCT   1083
+                     |.|||||||||||.|||.||.|||||.||||||||||||||||.||.|||
+Miniopterus_n   1025 CTGAGGATGCTGAATCTACCCCTGACTTGTTGATCTTCAACCTCACCTCT   1074
+
+Homo_sapiens    1084 CCATTCCAGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCT   1133
+                     |.||||||||||||||||||||||.||||||||||.||||||||||||||
+Miniopterus_n   1075 CAATTCCAGCCTGGCCAGGGCTACCTGGTGAGCACTGATGATCGCAGCCT   1124
+
+Homo_sapiens    1134 GCCCCTTTCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCT   1183
+                     |||.||.||||||||.|||||.||.||||||||.||||||||||||||||
+Miniopterus_n   1125 GCCTCTCTCCTCCTTTACTCAAAGAGATCTGCGCCTCCTGAAGATTGCCT   1174
+
+Homo_sapiens    1184 ACCAGCCCCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAA   1233
+                     |||||||.||.|||||||||||||||||||||||.|||||||||||.||.
+Miniopterus_n   1175 ACCAGCCGCCCTCTGAAGACTCTGACCAGGAGCGTCTCTTTGAACTTGAG   1224
+
+Homo_sapiens    1234 TTGGAGGTAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCAT   1283
+                     .||||||||||.||.|.||||||||||||.|||||.||.|||||||||||
+Miniopterus_n   1225 CTGGAGGTAGTAGACCCAGAAGGAGCAGCCTCAGATCCCTTTGCCTTCAT   1274
+
+Homo_sapiens    1284 GGTAGTGGTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATA   1333
+                     |||.|||||.|||||||||||.|||.|||||||.|||||||||||.||.|
+Miniopterus_n   1275 GGTGGTGGTAAAGCCCATGAATACACTGGCTCCAGTGGTCACCCGCAACA   1324
+
+Homo_sapiens    1334 CCGGTCTTATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCA   1383
+                     |.||.||.||||||||||||||.|||||||||||||||||.||||||.||
+Miniopterus_n   1325 CTGGACTCATTCTCTATGAGGGCCAGTCTCGGCCCCTCACCGGCCCTACA   1374
+
+Homo_sapiens    1384 GGCAGTGGTCCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGC   1433
+                     ||||||||.||.|||||||||||||||||||||||.|||||||||||.||
+Miniopterus_n   1375 GGCAGTGGACCACAAAACTTGGTCATCAGCGATGAAGATGACCTAGAGGC   1424
+
+Homo_sapiens    1434 AGTGCGGCTAGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTC   1483
+                     |||...|||.||||||||.|||||||||||||||||||||||||.|.|||
+Miniopterus_n   1425 AGTAAAGCTGGAGGTGGTAGCTGGGCTCCGGCATGGTCACCTTGCCCTTC   1474
+
+Homo_sapiens    1484 TGGGTGCTTCCAGTGGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAG   1533
+                     ||||||..||||||||||.|||||||.|.||||..||||..||.||||||
+Miniopterus_n   1475 TGGGTGACTCCAGTGGCAACTCTGCTACTAAGACTTTTATGGTAGCTGAG   1524
+
+Homo_sapiens    1534 CTGGCAGCCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCTCGCT   1583
+                     ||..||||.||.||||||||||||||.||||||||||.|||.|||||.||
+Miniopterus_n   1525 CTAACAGCTGGTCAGGTGGTCTACCATCATGATGACAAAGATGGCTCACT   1574
+
+Homo_sapiens    1584 GAGCGACAACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGG   1633
+                     |||.||||||||||||||||..|||||.|||||||||..|||||||||||
+Miniopterus_n   1575 GAGTGACAACCTGGTGCTTCAAATGGTAGATGGAGGACACAGGCACCAGG   1624
+
+Homo_sapiens    1634 TACAGTTTCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCT   1683
+                     |.|||||.||||||||.||||||||||||||||||||||||||||||||.
+Miniopterus_n   1625 TGCAGTTCCTGTTCCCTATCACCTTAGTGCCTGTGGATGACCAGCCACCA   1674
+
+Homo_sapiens    1684 GTTCTCAATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCC   1733
+                     ||.||||||||||||||.|||||||||||||||||||||||||||.||||
+Miniopterus_n   1675 GTCCTCAATGCCAACACAGGGCTGACACTGGCAGAGGGTGAAACAATGCC   1724
+
+Homo_sapiens    1734 CATCCTGCCCCTTTCCCTGAGTGCAACTGACATGGATTCAGATGATTCTC   1783
+                     ||||||.|||.||.|.||.|||||||||||||||||.|||||||||||||
+Miniopterus_n   1725 CATCCTACCCTTTGCTCTAAGTGCAACTGACATGGACTCAGATGATTCTC   1774
+
+Homo_sapiens    1784 TGCTGCTTTTTGTGCTGGAGTCACCCTTCTTAACTACGGGGCATCTGCTT   1833
+                     |||||||||||.|.||||||||.||   ||.|||||..||.||||||.||
+Miniopterus_n   1775 TGCTGCTTTTTATTCTGGAGTCTCC---CTCAACTATAGGACATCTGATT   1821
+
+Homo_sapiens    1834 CTCCGCCAAACTCACCCTCCCCATGA----GAAGCAGGAACTTCTCAGAG   1879
+                     ||||||||||.|||.|||||.|||||    ||| |||   |||.|..|..
+Miniopterus_n   1822 CTCCGCCAAAATCATCCTCCACATGAGGTGGAA-CAG---CTTATTGGGA   1867
+
+Homo_sapiens    1880 GCCTTTGGAGGAAGGAGGGGGCATTTTATGAGCGAACAGTGACAGAGTGG   1929
+                     |||.|||||||||..||||..||||.|||||...||.|||.|||.|||||
+Miniopterus_n   1868 GCCCTTGGAGGAAACAGGGAACATTCTATGACAAAATAGTAACAAAGTGG   1917
+
+Homo_sapiens    1930 CAGCAGCAGGACATAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCC   1979
+                     ||||||||||||||||..|||||.|||||||||||||..||.||||||||
+Miniopterus_n   1918 CAGCAGCAGGACATAATGGAGGGGAGGCTGTTCTATATGCATTCTGGGCC   1967
+
+Homo_sapiens    1980 CCATAGTCCTGGGCCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATA   2029
+                     .||||.||||||||||||.|..||.||||||||||||.||||.|||||||
+Miniopterus_n   1968 TCATAATCCTGGGCCAGTGATGGATCAGTTCACATTTCGAGTTCAGGATA   2017
+
+Homo_sapiens    2030 ACCATGACCCTCCTAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATC   2079
+                     ||||||||||.|||||||||||.|||.|||||.|||||||.||.||.||.
+Miniopterus_n   2018 ACCATGACCCCCCTAATCAGTCTGGGTTACAGAGGTTTGTAATCCGCATT   2067
+
+Homo_sapiens    2080 CATCCTGTGGATCGCCTCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCG   2129
+                     |||||||||||||||||.|||||.|||.||||||||||||||||||||||
+Miniopterus_n   2068 CATCCTGTGGATCGCCTACCTCCAGAGTTGGGCAGTGGCTGTCCCCTTCG   2117
+
+Homo_sapiens    2130 TATGGTGGTACAGGAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTGC   2179
+                     .||||||||.||.||||||.||||.||||||||||.||||||||||||||
+Miniopterus_n   2118 AATGGTGGTGCAAGAATCCAAGCTTACACCACTGAAGAAGAAGTGGCTGC   2167
+
+Homo_sapiens    2180 GCTACACTGACCTGGACACAGATGACCGAGAACTACGTTACACAGTGACT   2229
+                     ||||||||||||||||||||||||||||||||||||.|||||||||||||
+Miniopterus_n   2168 GCTACACTGACCTGGACACAGATGACCGAGAACTACATTACACAGTGACT   2217
+
+Homo_sapiens    2230 CAGCCCCCCACAGACACAGACGAAAATCAC-CTGCCAGCCCCACTGGGTA   2278
+                     |||||.||.|..||||||||..||||.||| || |||||||||.|.||.|
+Miniopterus_n   2218 CAGCCTCCAATGGACACAGATAAAAACCACTCT-CCAGCCCCATTAGGGA   2266
+
+Homo_sapiens    2279 CCTTGGTCTTGACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAA   2328
+                     |.||||||.|||||||||||||.||..|.||||||.||||||||||||||
+Miniopterus_n   2267 CGTTGGTCCTGACTGACAACCCTTCCATTGTGGTGGCCCATTTTACCCAA   2316
+
+Homo_sapiens    2329 GCCCAGATCAACCATCATAAAATTGCTTACAGACCCCCGGGTCAAGAACT   2378
+                     |||||||||||||||||||||||||||||.|||||.||.|.|||||||||
+Miniopterus_n   2317 GCCCAGATCAACCATCATAAAATTGCTTATAGACCTCCAGATCAAGAACT   2366
+
+Homo_sapiens    2379 GGGCGTGGCTACTCGAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAG   2428
+                     |||.||||||.|.||||||||.||||||||||||||||||||.|||||||
+Miniopterus_n   2367 GGGAGTGGCTGCCCGAGTGGCTCAGTTCCAGTTCCAGGTGGAGGACCGAG   2416
+
+Homo_sapiens    2429 CTGGGAATGTGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGAC   2478
+                     ||||||||||.||||||||.||||||||||||||||||||.||.|.||||
+Miniopterus_n   2417 CTGGGAATGTAGCTCCAGGCACCTTTACCCTTTACTTGCAGCCAGAGGAC   2466
+
+Homo_sapiens    2479 AACCAGCCACCTGAGATCCTCAACACCGGCTTCACTATTCAGGAGAAGGG   2528
+                     ||||||||||||||||||||||||||.|||||.|||||||||||||..||
+Miniopterus_n   2467 AACCAGCCACCTGAGATCCTCAACACTGGCTTTACTATTCAGGAGAGAGG   2516
+
+Homo_sapiens    2529 TCACCACATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTG   2578
+                     .|||||.||||||||||||.|.||||||||.||||||||||||||.||||
+Miniopterus_n   2517 ACACCATATCCTGAGTGAGTCTGAGTTGCATGTGAATGATGTAGATACTG   2566
+
+Homo_sapiens    2579 ATGTTGCCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCAC   2628
+                     ||||.|||||.||||||||.||.||.||.||||.|||.||||||||..||
+Miniopterus_n   2567 ATGTAGCCCACATCTCTTTTACCCTAACACAGGTACCTAAACATGGTAAC   2616
+
+Homo_sapiens    2629 ATGAGAGTGTCTGGACAGATCCTGCATGTAGGGGGTCTCTTCCACTTGGA   2678
+                     ||.||..|.|||||||||||.||||.||||||.||..|.|||||..||||
+Miniopterus_n   2617 ATAAGGTTATCTGGACAGATACTGCCTGTAGGTGGGGTTTTCCATCTGGA   2666
+
+Homo_sapiens    2679 GGACATAAAACAGGGCCGAGTTTCCTATGCCCATAATGGGGACAAGTCCC   2728
+                     ||||||||||||.||.||..|||||||||.|||||||||.||..||||||
+Miniopterus_n   2667 GGACATAAAACACGGTCGGATTTCCTATGACCATAATGGAGATGAGTCCC   2716
+
+Homo_sapiens    2729 TGACTGATAGCTGCTCCTTGGAAGTCAGTGACAGACATCATGTGGTGCCC   2778
+                     |||||||||.||||||||||||.||||||||||||||.||||||||||||
+Miniopterus_n   2717 TGACTGATAACTGCTCCTTGGAGGTCAGTGACAGACACCATGTGGTGCCC   2766
+
+Homo_sapiens    2779 ATCACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGAAGTGCCCATACT   2828
+                     ||||||||||||||.|||||||.|||||||||||||||..|||||||.||
+Miniopterus_n   2767 ATCACTCTCAGAGTGAATGTCCAGCCAGTGGATGATGAGATGCCCATGCT   2816
+
+Homo_sapiens    2829 GAGCCATCCTACTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATG   2878
+                     ||.||.||||.|.||.|||||||.|||||||||||||||.||||||||||
+Miniopterus_n   2817 GAACCTTCCTGCAGGAACTCTGGGGTCCTATCTAGATGTTTTAGAAAATG   2866
+
+Homo_sapiens    2879 GGGCTACTGAAATCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACT   2928
+                     |||||||||||||.|||||||.||||||.||.|||||.|.||||||.|||
+Miniopterus_n   2867 GGGCTACTGAAATAACTGCCAGTGTTATCAAAGGGACTATTGAGGATACT   2916
+
+Homo_sapiens    2929 GATGACTTGATGTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGA   2978
+                     ||||.||||||||||||||||||||||||||||||.||.||.||.||.||
+Miniopterus_n   2917 GATGCCTTGATGTTGACTTTCCTCTTGGAAGATCCGCCCTTATACGGAGA   2966
+
+Homo_sapiens    2979 AATCTTGGTCAATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCT   3028
+                     ||||.||||||||||..|.|||||||||||||||||.||||||||||||.
+Miniopterus_n   2967 AATCCTGGTCAATGGAGTACCAGCAGAGCAGTTTACCCAAAGGGACATCC   3016
+
+Homo_sapiens    3029 TGGAGGGCTCTGTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTG   3078
+                     ||||||||||||||||.|||.|||||||||||||||||||||||||||.|
+Miniopterus_n   3017 TGGAGGGCTCTGTTGTCTATGCCCACACCAGTGGTGAGATAGGCCTATCG   3066
+
+Homo_sapiens    3079 CCTAAAGCGGATTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATG   3128
+                     ||.||.|.|||.||||||||||||||||||||||.||..|..|||.||.|
+Miniopterus_n   3067 CCCAAGGAGGACTCTTTTAACCTGAGTCTGTCAGCTACATTCCAAAAACG   3116
+
+Homo_sapiens    3129 GAGAATTGGTGGCAATACTATCCAAGGAGTTACTATATGGGTGACCATCC   3178
+                     ||||||.||..||||||||||||||.||.|||||.|.|||||||||||||
+Miniopterus_n   3117 GAGAATAGGCAGCAATACTATCCAAAGAATTACTGTGTGGGTGACCATCC   3166
+
+Homo_sapiens    3179 TGCCTGTTGATAGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATA   3228
+                     |.||||||||.|||||.|||||||||||.|.|.|||||||||||||.|||
+Miniopterus_n   3167 TTCCTGTTGACAGCCAAGCCCCAGAAATTTCTATAGGTGAACAGTTTATA   3216
+
+Homo_sapiens    3229 GTAATGGAAGGTGATAAAAGTGTTATAACATCAGTGCATATAAGTGCTGA   3278
+                     ||||..||||||||||||||||..|||||.||||||||||||||||||||
+Miniopterus_n   3217 GTAAGAGAAGGTGATAAAAGTGCCATAACCTCAGTGCATATAAGTGCTGA   3266
+
+Homo_sapiens    3279 AGATGTCGACTCCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGC   3328
+                     ||||.|.||.|||||.|||||||||||||||||||||||||||.||||.|
+Miniopterus_n   3267 AGATATTGATTCCCTAAATGATGACATCTTGTGCACTATAGTTGTTCAAC   3316
+
+Homo_sapiens    3329 CTACTTCAGGTTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAA   3378
+                     ||||||||||||||||||||||.||||||||||||||||||||.||.|||
+Miniopterus_n   3317 CTACTTCAGGTTATGTTGAAAATATTTCTCCAGCACCAGGCTCAGAAAAA   3366
+
+Homo_sapiens    3379 TCAAGAGCAGGGATTGCCATAAGTGCTTTCAACTTGAAAGATCTCAGGCA   3428
+                     ||||||||||||||||||||||||||.||||.|||.||||||||||||||
+Miniopterus_n   3367 TCAAGAGCAGGGATTGCCATAAGTGCCTTCACCTTTAAAGATCTCAGGCA   3416
+
+Homo_sapiens    3429 GGGCCACATAAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGG   3478
+                     .||.||.||.|||||||||||||||||.||||||||||||||||||||||
+Miniopterus_n   3417 AGGTCATATTAACTATGTCCAGAGTGTTCATAAAGGGGTGGAACCTGTGG   3466
+
+Homo_sapiens    3479 AGGACCGATTTGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGA   3528
+                     |.|||.|.|||.||||||||||||||||||||||||||||||||||.||.
+Miniopterus_n   3467 AAGACAGGTTTATATTTCGTTGTTCTGATGGCATTAACTTTTCAGAAAGG   3516
+
+Homo_sapiens    3529 CAGTTCTTCCCCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGAT   3578
+                     ||.||.|||.||||||||||||||||.||||||||||||||.|||||.||
+Miniopterus_n   3517 CATTTTTTCTCCATTGTAATCATTCCTACCAATGATGAACACCCAGAAAT   3566
+
+Homo_sapiens    3579 GTTTATGAGAGAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATA   3628
+                     .|||||||||||||||||||||||||||||||||||.|||||.|||||||
+Miniopterus_n   3567 ATTTATGAGAGAATTTATGGTGATGGAAGGCATGAGCCTGGTGATTGATA   3616
+
+Homo_sapiens    3629 CACCCATTCTCAATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACT   3678
+                     |.|||||.||||||||||||||||||||..|||||.|.||||||||||.|
+Miniopterus_n   3617 CGCCCATCCTCAATGCTGCTGATGCTGACATTCCCTTAGATGATTTAATT   3666
+
+Homo_sapiens    3679 TTCACTATTACCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGAT   3728
+                     ||||||.||||||||||.||.||.|||||||||||||||||.|||.||||
+Miniopterus_n   3667 TTCACTCTTACCCAATTTCCTACCCATGGTCACATCATGAACCAGGTGAT   3716
+
+Homo_sapiens    3729 AAATGGCACGGTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGA   3778
+                     |||||||||||||||||||.||||||||||||||||.|||||||||||||
+Miniopterus_n   3717 AAATGGCACGGTTTTGGTCAAAAGCTTCACCTTGGACCAGATCATAGAGA   3766
+
+Homo_sapiens    3779 GTTCCAGCATTATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGT   3828
+                     ||||.|.||||||||||||||||||||||||.||||||||||||||||||
+Miniopterus_n   3767 GTTCTACCATTATTTATGAGCATGATGACTCTGAGACCCAGGAAGACAGT   3816
+
+Homo_sapiens    3829 TTTGTGATTAAACTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCT   3878
+                     |||||||||||.|||||||||||.|||||||||||||||||||.|||.||
+Miniopterus_n   3817 TTTGTGATTAAGCTAACAGATGGTAAGCACTCTGTGGAAAAGATGGTTCT   3866
+
+Homo_sapiens    3879 CATTATAGTTATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAATA   3928
+                     ||||||..||||||||||||||||||||||.|||||||||.|.||.||||
+Miniopterus_n   3867 CATTATGATTATCCCTGTTGATGATGAGACCCCCAGAATGGCCATTAATA   3916
+
+Homo_sapiens    3929 ATGGACTAGAAATAGAAATTGGGGATACCAAGATTATCAACAACAAAATA   3978
+                     |||||||||||||||||||||||||.|||||.|||||.|||||.||||||
+Miniopterus_n   3917 ATGGACTAGAAATAGAAATTGGGGAAACCAAAATTATGAACAATAAAATA   3966
+
+Homo_sapiens    3979 TTAATGGCAACAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTAT   4028
+                     |||||||||||.|||||||||||.|||||||||||.||||||||||||||
+Miniopterus_n   3967 TTAATGGCAACTGATTTAGATTCTGAAGACAAATCCTTGGTTTATATTAT   4016
+
+Homo_sapiens    4029 TCGTTATGGGCCAGGACATGGCTTATTACAGAGACGAAAACCTACTG-GT   4077
+                     ||||.|||||||||.||||||.||||||||.||||.|||||||| || ||
+Miniopterus_n   4017 TCGTCATGGGCCAGAACATGGATTATTACAAAGACAAAAACCTA-TGCGT   4065
+
+Homo_sapiens    4078 GCCTTTGAAAATATCACACTGGGCATGAATTTTACCCAGGATGAAGTAGA   4127
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+Miniopterus_n   4066 GCCTTTGAAAATATCACACTGGGCATGAATTTTACCCAGGATGAAGTGGA   4115
+
+Homo_sapiens    4128 CAGAAACTTAATTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACC   4177
+                     |||.||.||||||||.||||||||||..|||||||||.||||||||||||
+Miniopterus_n   4116 CAGGAATTTAATTCAATATGTCCATTCTGGGCAAGAGAGCATTCGGGACC   4165
+
+Homo_sapiens    4178 TAATTAAATTTGATGTGACTGATGGAATAAATCCCCTCATAGATCGTTAC   4227
+                     |||||||||||||||||||||||||||.||||.|||||||.|||.|.|||
+Miniopterus_n   4166 TAATTAAATTTGATGTGACTGATGGAACAAATACCCTCATTGATTGCTAC   4215
+
+Homo_sapiens    4228 TTTTATGTGTCCATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAG   4277
+                     ||||||||.||..|.|||||||||||.|||||||||||||||||||||||
+Miniopterus_n   4216 TTTTATGTATCTGTTGGGAGCATTGATATTGTCTTCCCTGATGTGATAAG   4265
+
+Homo_sapiens    4278 TAAGGGAGTGTCCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACC   4327
+                     |||||||||||||||||||||||||||.|||||||..||.|||||||||.
+Miniopterus_n   4266 TAAGGGAGTGTCCTTGAAAGAAGGTGGTAAAGTCATCCTCACAACAGACT   4315
+
+Homo_sapiens    4328 TACTAAGCACTAGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACC   4377
+                     ||||||||||.|||||||||||||||||||||||||||||.|||||||||
+Miniopterus_n   4316 TACTAAGCACCAGTGACTTGAACAGTCCTGATGAAAACTTAGTTTTTACC   4365
+
+Homo_sapiens    4378 ATCACCAGGGCTCCCATGCGAGGTCACCTGGAATGCACGGATCAGCCTGG   4427
+                     |||||||.||||||..||.||||||.|.|.||||||||.|||||.|||||
+Miniopterus_n   4366 ATCACCAAGGCTCCTCTGAGAGGTCTCTTAGAATGCACAGATCAACCTGG   4415
+
+Homo_sapiens    4428 TGTGTCCATCACGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCT   4477
+                     ..||.|||||||.||||||||||||||.|||||||||||.||||||||||
+Miniopterus_n   4416 AATGCCCATCACATCTTTCACTCAGCTTCAACTGGCTGGCAACAAAATCT   4465
+
+Homo_sapiens    4478 ACTACATCCACACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTT   4527
+                     |||||||||||||||||||||||||.|||||.||||||||||||||||||
+Miniopterus_n   4466 ACTACATCCACACAGCTGATGATGAGGTGAAGATGGACAGTTTTGAGTTT   4515
+
+Homo_sapiens    4528 CAAGTCACCGATGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCAT   4577
+                     ||||||||.||||||||||||||||||||.||||||||||||||||||||
+Miniopterus_n   4516 CAAGTCACTGATGGACGTAACCCTGTCTTCCGGACATTCCGTATCTCCAT   4565
+
+Homo_sapiens    4578 TAGCGATGTGGACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTG   4627
+                     |||.|||||||||||.|||||||||||||||||||||||.||.|||.|||
+Miniopterus_n   4566 TAGTGATGTGGACAACAAAAAGCCAGTGGTCACCATCCATAACCTGATTG   4615
+
+Homo_sapiens    4628 TCAGTGAAAGTGAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAA   4677
+                     ||||||||.||||||||||||||||.|||||.|||||.||||||||.|||
+Miniopterus_n   4616 TCAGTGAAGGTGAAAACAAGCTGATCACTCCCTTTGAACTCACTGTTGAA   4665
+
+Homo_sapiens    4678 GACAGAGATACTCCTGACAAGCTCCTGAAATTCACTATCACCCAGGTGCC   4727
+                     ||||.|||||||||||||||.|||||.|||||||||.||||||||.||||
+Miniopterus_n   4666 GACAAAGATACTCCTGACAAACTCCTAAAATTCACTGTCACCCAGATGCC   4715
+
+Homo_sapiens    4728 TATTCATGGCCATCTCCTATTCAACAATACCAGACCTGTCATGGTTTTTA   4777
+                     |.||||.||.||.||||||.|.|||||||||||.||||.|||||||||||
+Miniopterus_n   4716 TGTTCACGGTCAACTCCTACTTAACAATACCAGGCCTGCCATGGTTTTTA   4765
+
+Homo_sapiens    4778 CCAAGCAAGACTTGAATGAAAACTTAATCAGCTACAAACATGATGGCACT   4827
+                     |||||||||||||.||||||||||||||||||||||..||||||||||||
+Miniopterus_n   4766 CCAAGCAAGACTTAAATGAAAACTTAATCAGCTACAGGCATGATGGCACT   4815
+
+Homo_sapiens    4828 GAGTCAAGTGAAGATAGCTTCTCCTTCACAGTGACTGATGGCACCCATAC   4877
+                     ||||||||||||||.||||||||||||||||||||||||||..|||||||
+Miniopterus_n   4816 GAGTCAAGTGAAGACAGCTTCTCCTTCACAGTGACTGATGGTTCCCATAC   4865
+
+Homo_sapiens    4878 AGACTTCTATGTTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAAG   4927
+                     |||.||||||||||||||||||||.|..||||||||.||.||||||||||
+Miniopterus_n   4866 AGAGTTCTATGTTTTTCCTGATACAGCATTTGAAACGAGAAGACCCCAAG   4915
+
+Homo_sapiens    4928 TGATGAAGATCCAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCA   4977
+                     |||||||||||||||||||.|||||||||||.||||||||||||.|..||
+Miniopterus_n   4916 TGATGAAGATCCAGGTCTTAGCTGTTGACAATAGTGTCCCCCAAGTTACA   4965
+
+Homo_sapiens    4978 GTGAATAAGGGGGCCTCTACACTTCGCACTCTAGCCACTGGCCACTTGGG   5027
+                     |||||.||.|||||..||||||||||||||.|.|||||.|||||||||||
+Miniopterus_n   4966 GTGAACAAAGGGGCTACTACACTTCGCACTTTGGCCACCGGCCACTTGGG   5015
+
+Homo_sapiens    5028 GTTCATGATCACAAGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTAC   5077
+                     .|||||||||||||||||||||||.|||||.|||||||||||||||.|||
+Miniopterus_n   5016 ATTCATGATCACAAGCAAAATATTAAAAGTTGAGGACAGAGACAGCCTAC   5065
+
+Homo_sapiens    5078 ACATTTCTCTTAGATTTATCGTGACAGAGGCCCCTCAACATGGATATCTT   5127
+                     |..||||||||||.|||||.||.|||||||||||||.|||||||||||||
+Miniopterus_n   5066 ATTTTTCTCTTAGGTTTATTGTTACAGAGGCCCCTCTACATGGATATCTT   5115
+
+Homo_sapiens    5128 CTCAACCTGGACAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGA   5177
+                     ||||||||||.|||||||||||||||..||||||||||.|||||||||||
+Miniopterus_n   5116 CTCAACCTGGGCAAAGGCAACCACAGTGTCACTCAGTTTACACAAGCTGA   5165
+
+Homo_sapiens    5178 CATTGATGACATGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCA   5227
+                     |||||||||||||||||||||.|||||.||||||||||||||||||||||
+Miniopterus_n   5166 CATTGATGACATGAAAATATGTTATGTTTTAAGAGAAGGGGCTAATGCCA   5215
+
+Homo_sapiens    5228 CAAGTGATATGTTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTA   5277
+                     ||||||||||.|||.|||||.||.||||||||||||||||||||||||||
+Miniopterus_n   5216 CAAGTGATATATTCCATTTTACAATTGAAGATGGTGGTGGAAACAAGTTA   5265
+
+Homo_sapiens    5278 ACGTACCAGAATTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGA   5327
+                     ||..|.|||.||||||..|||||||||||||||||||||||||||||.||
+Miniopterus_n   5266 ACCAAGCAGCATTTTCACCTGAATTGGGCATGGATCTCCTTTGAAAAAGA   5315
+
+Homo_sapiens    5328 ATATTACCTGGTCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAAC   5377
+                     .|||||||||.|||||||||||||||||||||||||||||||||||||||
+Miniopterus_n   5316 GTATTACCTGATCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAAC   5365
+
+Homo_sapiens    5378 GTAGAGGTTACTTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGAC   5427
+                     ||||||||||.||||||||.|||||.||||||||||||||||||||||| 
+Miniopterus_n   5366 GTAGAGGTTATTTGGGAGAGACTTCATTTATAAGTATTGGCACAAGAGA-   5414
+
+Homo_sapiens    5428 AGA-ACTGCAGAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAG   5476
+                     .|| ||||||||||||.|||||||||||||||||||||||||||||||||
+Miniopterus_n   5415 TGAGACTGCAGAAAAACACAAAGACTTCAAGGGCAAAGCACAGAAACAAG   5464
+
+Homo_sapiens    5477 TGCAGTTCAACCCAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTG   5526
+                     |||||||||||||||||||||||||||||...|||.|.||||..|||.||
+Miniopterus_n   5465 TGCAGTTCAACCCAGGCCAGACCAGGGCCTTGTGGAGGGTGCACATCATG   5514
+
+Homo_sapiens    5527 AGTGATGGGGAGCATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGA   5576
+                     |||||||.|||.||||||||||||||.|||||.||.|||||.||||||||
+Miniopterus_n   5515 AGTGATGAGGAACATGAGCAGTCTGAGACCTTCCAAGTGGTTCTCTCAGA   5564
+
+Homo_sapiens    5577 GCCCGTGCTGGCTGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCG   5626
+                     .||.||||||||||||.|||||||.||..||||..||||.||.||||||.
+Miniopterus_n   5565 ACCTGTGCTGGCTGCCCTGGAATTTCCTGCAGTGACCACAGTGGAGATCA   5614
+
+Homo_sapiens    5627 TTGATCCAGGAGATGAGCCAACTGTGTTTATTCCCCAGTCCAAATACTCC   5676
+                     ||||.|||||||||||..|||||||.||||||||||||||..||||||||
+Miniopterus_n   5615 TTGACCCAGGAGATGAATCAACTGTATTTATTCCCCAGTCTGAATACTCC   5664
+
+Homo_sapiens    5677 GTTGAAGAAGATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGA   5726
+                     .||||.||||||||||||||.||||||||||||||||||||.||.|||||
+Miniopterus_n   5665 ATTGAGGAAGATGTTGGTGAACTGTTCATTCCCATCAGGAGAAGTGGAGA   5714
+
+Homo_sapiens    5727 TGTGAGCCAGGAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAA   5776
+                     ||||||||||||.|||||||||..|||||||||.|||||||||||.||||
+Miniopterus_n   5715 TGTGAGCCAGGAATTGATGGTGACCTGTTATACACAACAAGGAACGGCAA   5764
+
+Homo_sapiens    5777 CTGGAACTGTGCCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGG   5826
+                     ..|||||||||||.||.||.|||.||||.||.||||||||||||||||||
+Miniopterus_n   5765 GCGGAACTGTGCCAACATCAGTGCTGTCCTATTCTGATTACATATCCAGG   5814
+
+Homo_sapiens    5827 CCTGAGGACCACACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAA   5876
+                     |||||||||||||||||||||||.||||||||.|||.||||..|||||||
+Miniopterus_n   5815 CCTGAGGACCACACCAGTGTTGTGCGCTTTGAGAAACATGAGAGGGAGAA   5864
+
+Homo_sapiens    5877 ACTGTGTCGGATAGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAA   5926
+                     |.|||||||.||.||..|.|||||||||||.|||||.||.||||||||||
+Miniopterus_n   5865 AGTGTGTCGTATTGTTGTTATTGATGACTCGTTGTATGAAGAGGAGGAAA   5914
+
+Homo_sapiens    5927 CCTTCCATGTCCTTCTGAGCATGCCCATGGGGGGAAGAATCGGATCAGAG   5976
+                     |.|||||||||||||||||||||||.|||||.||||||||.|||||||||
+Miniopterus_n   5915 CATTCCATGTCCTTCTGAGCATGCCTATGGGTGGAAGAATTGGATCAGAG   5964
+
+Homo_sapiens    5977 TTCCCAGGGGCTCAAGTTACAATCGTTCCTGACAAAGATGATGAACCCAT   6026
+                     ||||||||||||...|||||||||.|.||||||||.||||||||||||||
+Miniopterus_n   5965 TTCCCAGGGGCTTGTGTTACAATCATCCCTGACAAGGATGATGAACCCAT   6014
+
+Homo_sapiens    6027 CTTTTACTTCGGTGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATG   6076
+                     |||.|||||.||||||||.||.||.|||||||||||||||||.|||||||
+Miniopterus_n   6015 CTTCTACTTTGGTGATGTTGAGTATTCTGTGGATGAGAGTGCCGGCTATG   6064
+
+Homo_sapiens    6077 TGGAAGTGCAGGTGTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGT   6126
+                     |||||||||||||.||||||||.||||||||||||||||.||||||||||
+Miniopterus_n   6065 TGGAAGTGCAGGTATGGAGAACAGGCACTGACCTGTCCATGTCTTCTAGT   6114
+
+Homo_sapiens    6127 GTCACAGTGAGGTCTCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAAC   6176
+                     |||||..||||.||||.|||||||.|.|||||.|||||..||||||||||
+Miniopterus_n   6115 GTCACCTTGAGATCTCAGAAAACAAACCCTCCATCTGCCAATGCTGGAAC   6164
+
+Homo_sapiens    6177 AGACTATGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACA   6226
+                     |||.||||||||.||.||.|||||||||||||||||||||||||||||||
+Miniopterus_n   6165 AGATTATGTGGGAATTAGTCGTAATTTAGATTTTGCACCTGGAGTCAACA   6214
+
+Homo_sapiens    6227 TGCAGCCTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTG   6276
+                     |||||.||||||..|||.||||.||||||||.|||||||||||||.||||
+Miniopterus_n   6215 TGCAGACTGTTCCAGTTATCATCCTGGATGATCTTGGACAACCAGTGCTG   6264
+
+Homo_sapiens    6277 GAGGGAATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGC   6326
+                     |||||||||||||||.||||||||||||||||.|||||||||||.||.||
+Miniopterus_n   6265 GAGGGAATTGAGAAACTTGAACTGGTGCTTCGTATGCCTATGAATGCTGC   6314
+
+Homo_sapiens    6327 CCTTGGCGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCG   6376
+                     |.||||..|||||||||||.||||.|||||||||||||||||||||||.|
+Miniopterus_n   6315 CATTGGAAAGCCCAGCAAAACCACCGTGTCCATAAATGACTCTGTCTCAG   6364
+
+Homo_sapiens    6377 ATTTGCCTAAGATGCAATTCAAAGAACGAATATATACTGGCAGCGAAAGT   6426
+                     |||||||||||||||||||||||||||||.|||||||||.||..||||.|
+Miniopterus_n   6365 ATTTGCCTAAGATGCAATTCAAAGAACGAGTATATACTGTCAATGAAAAT   6414
+
+Homo_sapiens    6427 GATGGGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAG   6476
+                     ||..||.||||||||.||||||||||.||||.|||.|||.|||||||||.
+Miniopterus_n   6415 GACAGGAAGATAGTTGCAATGATCCAGAGGAGTGGAGATCTCCAGTACAA   6464
+
+Homo_sapiens    6477 ATCTTCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGG   6526
+                     .||.|||||||||||||||||.|||||||||||||||||.||||||||||
+Miniopterus_n   6465 GTCCTCAGTGAGATGCTACACACGGCAGGGGTCTGCACAAGTGATGATGG   6514
+
+Homo_sapiens    6527 ACTTTGAAGAACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCT   6576
+                     |||||||||||||||||||||||||||.|||||||||..|.||||||||.
+Miniopterus_n   6515 ACTTTGAAGAACGCCCAAACACTGATATCTCCATCATTGCGTTCCTCCCA   6564
+
+Homo_sapiens    6577 GGTGAGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCTA   6626
+                     ||.|||.|.||||||||.||.||.|||||||||||.||.||||..|||||
+Miniopterus_n   6565 GGCGAGGCTGAAAAGCCTTGTATCCTTGAGCTGATAGATGATGGACTCTA   6614
+
+Homo_sapiens    6627 TGAGGAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACT   6676
+                     |||.||.||||||||||||||.|||||.||.||||||||||||.|||.||
+Miniopterus_n   6615 TGAAGAAGTAGAGGAGCTCCGTCTGGTTCTTGGCACTCCACAAGGCACCT   6664
+
+Homo_sapiens    6677 CTCCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATC   6726
+                     ||||||||||||||||||||||||||||||||||||||||.|||||||||
+Miniopterus_n   6665 CTCCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTGATAAGGATC   6714
+
+Homo_sapiens    6727 CGAGATGATGCTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAG   6776
+                     |.||||||.||||||||||||.||||||||||||||||||||||||||||
+Miniopterus_n   6715 CAAGATGACGCTGATAAGACTATTATTAAATTTGGAGAAACCAAATTTAG   6764
+
+Homo_sapiens    6777 TGTCACTGAACCCAAAGAACCTGGAGAGTCGGTGGTTATAAGAATTCCAG   6826
+                     ..|.|.||||||.||||||||.|||.|||||||||||||||..|||||||
+Miniopterus_n   6765 CATAAGTGAACCTAAAGAACCAGGACAGTCGGTGGTTATAAAGATTCCAG   6814
+
+Homo_sapiens    6827 TGATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACC   6876
+                     ||||||||||||||||.|||||||||||||||||.||.||.|||||||||
+Miniopterus_n   6815 TGATTCGCCAAGGAGATACTTCAAAGGTTTCCATCGTCAGGGTCCACACC   6864
+
+Homo_sapiens    6877 AAGGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGA   6926
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+Miniopterus_n   6865 AAGGATGGCTCAGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGA   6914
+
+Homo_sapiens    6927 AATTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTA   6976
+                     |||||||||||||||.||.||||||||||||.|.||||||||.|||||.|
+Miniopterus_n   6915 AATTGAGTTTAAGGAGGGAGAAACCCAGCACATCGTTGAAATTGAAGTAA   6964
+
+Homo_sapiens    6977 CCTTTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAA   7026
+                     .||..||.|||||.||||||||||||||||||||||||||||||||||||
+Miniopterus_n   6965 TCTACGATGGGGTTAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAA   7014
+
+Homo_sapiens    7027 CCTGATGAAAATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTA   7076
+                     |||||||||||||||||||||||||..|.|.||||.|||||.||||||||
+Miniopterus_n   7015 CCTGATGAAAATATGATAGCAGAGACACGGGTGACCAAAGCTATTGTGTA   7064
+
+Homo_sapiens    7077 CATAGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTC   7126
+                     .||||||||.||||.|||||||||||||||||||||||||||||||||||
+Miniopterus_n   7065 TATAGAAGAGATGAACAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTC   7114
+
+Homo_sapiens    7127 AAATTGTATCCCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGT   7176
+                     |||||||.|||.|.|||||||||||.||||||||||.||||||.||||||
+Miniopterus_n   7115 AAATTGTGTCCTTATTGATGTATGATGACACTTCCAGAGCTAAAGAGAGT   7164
+
+Homo_sapiens    7177 GCTGAACCCATGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCC   7226
+                     |.||..||..||||||||||||||||||||||||||||||||||||||||
+Miniopterus_n   7165 GATGGGCCTGTGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCC   7214
+
+Homo_sapiens    7227 CAAATATTCAGACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGAACA   7276
+                     .|||||.|||.||||.||.|||||.||||||||.||||||||||||||||
+Miniopterus_n   7215 TAAATACTCAAACTATGACAAAACGGGCTCTATTTGTGCAAGTGAGAACA   7264
+
+Homo_sapiens    7277 TCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCGGGC   7326
+                     ||||||||||||||||.|..|||||.|||||.|||||||||||..|.|||
+Miniopterus_n   7265 TCAATGACACTTTGACTCTTTACCGATGGCTAATTAGTGCACCCACTGGC   7314
+
+Homo_sapiens    7327 CCTGACGGTGTGACCAGCCCTATGAGAGAAGTGGACTTCGACACCTTTTT   7376
+                     .|||||||.|||||||||||.|||||||||||||||||.|||||||.|||
+Miniopterus_n   7315 ACTGACGGCGTGACCAGCCCCATGAGAGAAGTGGACTTTGACACCTATTT   7364
+
+Homo_sapiens    7377 TACGTCATCCAAGATGGTCACACTGGACTCCATATACTTTCAGCCTGGCT   7426
+                     |||.||||||||||||.||||..|.|||||||||||||||||||||||||
+Miniopterus_n   7365 TACATCATCCAAGATGATCACTTTAGACTCCATATACTTTCAGCCTGGCT   7414
+
+Homo_sapiens    7427 CCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAATGGGGATGAAGGC   7476
+                     ||.||||.|||||.||.||.||.||||||||.|.||||||..|||.||||
+Miniopterus_n   7415 CCAGGGTGCAGTGTGCGGCCCGGGCTGTGAATAACAATGGCAATGCAGGC   7464
+
+Homo_sapiens    7477 CTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGAAGAAGGTCTTTG   7526
+                     ||||||||.||||||.|.|||||||||||||..|.|||||||||||||||
+Miniopterus_n   7465 CTGGAGCTGATGAGCTCCATTGTAACCATCAATAAAGAAGAAGGTCTTTG   7514
+
+Homo_sapiens    7527 TCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAAAT   7576
+                     ||||||.||.||.||.|||.|.||.|||||||||||||||||||||||.|
+Miniopterus_n   7515 TCAGCCTCGGGTGCCAGGGATAGTGGGAGCAGAGCCGTTCTCAGCTAAGT   7564
+
+Homo_sapiens    7577 TGCGCTACACAGGCCCTGAGGATGCAGACTACACAAACCTTATCAAGCTC   7626
+                     |.|||||||..|||||||||||..||||.||||||||||||||||.||||
+Miniopterus_n   7565 TACGCTACATGGGCCCTGAGGACCCAGAGTACACAAACCTTATCAGGCTC   7614
+
+Homo_sapiens    7627 ACTGTCACAATGCCACACATAGATGGCATGCTCCCCGTGATCTCCACTAG   7676
+                     ||.||||..||||||||||||||.||.||||||||.|||||||||||||.
+Miniopterus_n   7615 ACGGTCATGATGCCACACATAGACGGTATGCTCCCTGTGATCTCCACTAA   7664
+
+Homo_sapiens    7677 AGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAGTTG   7726
+                     |||.||||||||||||||||||||||||||||||||||||||||||.|||
+Miniopterus_n   7665 AGAACTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAATTG   7714
+
+Homo_sapiens    7727 GAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAAGTGAAGACTCAT   7776
+                     ||||||||||||||||.||.||||||||||||||||||||.|||||.|||
+Miniopterus_n   7715 GAAACCACAAGTGCTCAAATCTCCTGGATTATACTGAAGTAAAGACCCAT   7764
+
+Homo_sapiens    7777 TATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGAC   7826
+                     .|||||||.||||||||||||||.|||||||||||||||.|||||||.|.
+Miniopterus_n   7765 CATGGTTTTTTGACTGATGCTACAAAAAATCCAGAAATAGTTGGAGACAT   7814
+
+Homo_sapiens    7827 ATATCCTTACCAGTACAGCTTGTCCATCAGAGGTTCCACTACCTTGCGCT   7876
+                     .|||||||||||||||||||..||.||||||.||||||.||||||.||||
+Miniopterus_n   7815 GTATCCTTACCAGTACAGCTCATCTATCAGAAGTTCCAGTACCTTACGCT   7864
+
+Homo_sapiens    7877 TCTACCGGAACCTGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCTAC   7926
+                     |||||||.|.||||||.||||||||||||||.||||||||.|||||||||
+Miniopterus_n   7865 TCTACCGAAGCCTGAATCTAGAGGCCTGTTTGTGGGAGTTTGTTAGCTAC   7914
+
+Homo_sapiens    7927 TATGACATGTCAGAACTCCTTGCTGACTGTGGTGGCACCATTGGAACAGA   7976
+                     |||||||||||||||||.||..||||||||||.||||||.||||||||||
+Miniopterus_n   7915 TATGACATGTCAGAACTTCTCACTGACTGTGGAGGCACCGTTGGAACAGA   7964
+
+Homo_sapiens    7977 TGGACAGGTCCTAAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCCTC   8026
+                     ||||||||||.||||||||||||||||.||||||||.|||||||||||||
+Miniopterus_n   7965 TGGACAGGTCTTAAACCTAGTGCAGTCATATGTGACTCTTCGAGTCCCTC   8014
+
+Homo_sapiens    8027 TGTATGTTTCCTACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAG   8076
+                     |||.||||||||||||.|||||||||||.||.||.||||||||.||||||
+Miniopterus_n   8015 TGTTTGTTTCCTACGTCTTCCATTCCCCTGTTGGAGTAGGAGGTTGGCAG   8064
+
+Homo_sapiens    8077 CATTTTGACTTGAAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACCGC   8126
+                     ||||||||||||||||||||||||||.||||||||||||||.|||||.||
+Miniopterus_n   8065 CATTTTGACTTGAAGTCAGAGCTTCGACTAACTTTTGTGTATGACACTGC   8114
+
+Homo_sapiens    8127 CATCTTGTGGAATGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCAAG   8176
+                     |||||||||||||||.||||||.|||||||.|||||.||||||||..|||
+Miniopterus_n   8115 CATCTTGTGGAATGACGGAATTCGCAGCCCACCAGAAGCTGAACTCAAAG   8164
+
+Homo_sapiens    8177 GTTCTCTCTATCCAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGGCC   8226
+                     |||||||.|||||||||||||||||.||.|.|||.||.||..||||||..
+Miniopterus_n   8165 GTTCTCTGTATCCAACCAGCATGCGTATTGCTGAAGAAGGCTGCTTGGTT   8214
+
+Homo_sapiens    8227 GTGCACTTCAAGACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACA   8276
+                     |||.|||||||.|||||.|||.|.|||||||||||.||||||||||||||
+Miniopterus_n   8215 GTGAACTTCAAAACAGAAGCTAAATTCCATGGCTTGTTTGTGCTGTCACA   8264
+
+Homo_sapiens    8277 TCCCGCATCCTTTACAAGCTCAGTGATCATGTCAGCTGATCATCCAGGCC   8326
+                     .||.|.||||||.|.|||||||.||||||.||||||||||||||||||.|
+Miniopterus_n   8265 CCCTGGATCCTTCAAAAGCTCAATGATCACGTCAGCTGATCATCCAGGAC   8314
+
+Homo_sapiens    8327 TGACATTTTCCCTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCA   8376
+                     ||||.|||||.||.|||||.|||||.||||||||||||||||||||||||
+Miniopterus_n   8315 TGACTTTTTCTCTGCGCCTAATAAGAAGTGAACCAACCTATAACCAGCCA   8364
+
+Homo_sapiens    8377 GTACAGCAGTGGAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGG   8426
+                     ||.|||||.|||||||||||||||||.|||||.||.||||||||||||||
+Miniopterus_n   8365 GTCCAGCAATGGAGCTTTGTCTCTGATTTTGCAGTGCGTGACTACTCAGG   8414
+
+Homo_sapiens    8427 GACCTATACTGTGAAGCTGGTGCCATGCACTGCCCCATCACATCAGGAAT   8476
+                     .|||||||||||.||.||..|||||||||||.|.||||..||||||||.|
+Miniopterus_n   8415 AACCTATACTGTAAAACTACTGCCATGCACTACTCCATTGCATCAGGATT   8464
+
+Homo_sapiens    8477 ACCGCCTGCCAGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTT   8526
+                     |||||||||||||||||||||.|||||||||||||.||||||||||||||
+Miniopterus_n   8465 ACCGCCTGCCAGTCACCTGCAGCCCCAGAGAACCTATCACCTTTGACCTT   8514
+
+Homo_sapiens    8527 GACATCCGATTCCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCTT   8576
+                     |||||||||||||||||||||||||||||||||||.||||||||||||||
+Miniopterus_n   8515 GACATCCGATTCCAACAGGTCAGTGATCCAGTGGCGGCTGAGTTTAGCTT   8564
+
+Homo_sapiens    8577 GAACACCCAAATGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGATG   8626
+                     |||||||||||||||||||||.||.|||||||||||||||||||||||||
+Miniopterus_n   8565 GAACACCCAAATGTACCTGCTATCCAAGAAGAGTCTCTGGTTGTCTGATG   8614
+
+Homo_sapiens    8627 GATCCATGGGATTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGAT   8676
+                     ||||||||||.||.|||||.|||||||||||||||||||||||||||||.
+Miniopterus_n   8615 GATCCATGGGGTTTGGGCATGAGAGTGATGTTGCTTTTGCAGAAGGTGAC   8664
+
+Homo_sapiens    8677 ATAATTTATGGTCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACTC   8726
+                     ||.||||||||||||||||||||.|||||||||||||||||.||||..||
+Miniopterus_n   8665 ATTATTTATGGTCGTGTCATGGTAGATCCTGTCCAGAATCTAGGTGGTTC   8714
+
+Homo_sapiens    8727 CTTTTACTGCAGCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGCT   8776
+                     ||||||||||||.||||||||||||||.||||||||||||||||||||||
+Miniopterus_n   8715 CTTTTACTGCAGTATTGAGAAGGTGTTCCTATGCACTGGAGCTGATGGCT   8764
+
+Homo_sapiens    8777 ATGTTCCCAAGTATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCGAC   8826
+                     |||||||.|||||.|||||.|.||||||||||||||||||||||||.||.
+Miniopterus_n   8765 ATGTTCCAAAGTACAGTCCGAAGAATGCAGAATATGGCTGCTTAGCTGAT   8814
+
+Homo_sapiens    8827 TCTCCTTCACTCTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGA   8876
+                     |||.|||||||||||||.||||||||||||||||||||||||||||||||
+Miniopterus_n   8815 TCTACTTCACTCTTATACAGATTTAAAATTGTGGACAAAGCTCAGCCAGA   8864
+
+Homo_sapiens    8877 GACACAAGCGACCAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGCAG   8926
+                     |||||||.|.|||||||||||||||.||||.||||||||.|||||.||||
+Miniopterus_n   8865 GACACAAACCACCAGTTTTGGAAATATCCTGTTTAATGCTAAACTGGCAG   8914
+
+Homo_sapiens    8927 TGGATGACCCTGAAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATGGA   8976
+                     ||||||||||||||||.||||||||||||||||||||||||||.||||||
+Miniopterus_n   8915 TGGATGACCCTGAAGCTATTCTCTTAGTGAATCAGCCTGGATCAGATGGA   8964
+
+Homo_sapiens    8977 TTTAAAGTCGACTCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAATG   9026
+                     ||||||||.||||||||||||||||||||||||.||||.||.||||||||
+Miniopterus_n   8965 TTTAAAGTGGACTCAACACCACTCTTTCAGGTCCCTCTGGGGCGAGAATG   9014
+
+Homo_sapiens    9027 GTATATACATACGATCTATACAGTGAGATCGAAAGACAATGCCAATCGAG   9076
+                     |||.|||||.||.||.||.||.||.|||||.||||||||..|||||.|||
+Miniopterus_n   9015 GTACATACACACAATTTACACGGTAAGATCAAAAGACAACACCAATAGAG   9064
+
+Homo_sapiens    9077 GTATTGGCAAAAGAAGTGTGGAGTAC------CATTCTCTGGTGAGTCAA   9120
+                     |.||||||||||||||||||||||||      ||||||.|.||||||..|
+Miniopterus_n   9065 GCATTGGCAAAAGAAGTGTGGAGTACCAGTATCATTCTGTAGTGAGTTCA   9114
+
+Homo_sapiens    9121 GGAAAGCCCCAATCCACCACCAAGAGCCGGAAGAAGAGAGAGATCAGGAG   9170
+                     ||.||||||||..|.||.|||||||.|.|.||||||||..|.||||||||
+Miniopterus_n   9115 GGGAAGCCCCAGACAACTACCAAGAACAGAAAGAAGAGGAATATCAGGAG   9164
+
+Homo_sapiens    9171 CACACCCTCACTGGCATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAA   9220
+                     |||||||.|.||||.||||||.|||||.|||||||||||.||.|||||||
+Miniopterus_n   9165 CACACCCCCGCTGGTATGGGAAATTGGGGCTGAAAACAGCCGTGGAACAA   9214
+
+Homo_sapiens    9221 ACATCCAGCACATTGCCCTGGACCG---CACCAAGAGGCAGATCCCCCAT   9267
+                     ||||.|||||||||.||||||||||   ||.|||||.||||.|||||.|.
+Miniopterus_n   9215 ACATTCAGCACATTTCCCTGGACCGAACCAACAAGAAGCAGGTCCCCAAA   9264
+
+Homo_sapiens    9268 GGGAGAGCACCTCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAG   9317
+                     ||.||||..|||||.||..|||||.||||||||||.||||.|||.||||.
+Miniopterus_n   9265 GGAAGAGTTCCTCCTGACAGCATCATCCCCTGGGACCTCAGCAGTCCCAT   9314
+
+Homo_sapiens    9318 CTCTGCAGTCAGCCTGGTCACTGTGGTGGGAGGCACCACGGTAGGGTTAC   9367
+                     |||||..|||||||||||||..||..|||||.||..|.|.||.||.||||
+Miniopterus_n   9315 CTCTGAGGTCAGCCTGGTCATGGTCATGGGAAGCTTCGCAGTGGGATTAC   9364
+
+Homo_sapiens    9368 TCACCATCTGCCTCACTGTCATTGCAGTGCTGATGTGCAGGGGCAAGGAA   9417
+                     |||||.|..||||||.||.|||||.|||..|||||||||.|.|||||   
+Miniopterus_n   9365 TCACCCTTGGCCTCATTGCCATTGTAGTAATGATGTGCAAGAGCAAG---   9411
+
+Homo_sapiens    9418 AGTTTCAGGGGGAAGGATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCAT   9467
+                           |||.|||||||||||||.||.|||||..|||||||..||.||||
+Miniopterus_n   9412 ------AGGAGGAAGGATGCCCCAAAGGGCTCAGGCAGCAGCAAGTCCAT   9455
+
+Homo_sapiens    9468 GGTGCCCCCACAGAGCCATCACAATGACAGCTCAGAAGTT   9507
+                     ||||.||||.||||||.|.||||||||.||||||||.|||
+Miniopterus_n   9456 GGTGGCCCCGCAGAGCTACCACAATGATAGCTCAGAGGTT   9495
+
+
+#---------------------------------------
+#---------------------------------------

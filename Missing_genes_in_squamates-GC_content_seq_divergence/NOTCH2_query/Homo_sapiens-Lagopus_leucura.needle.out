@@ -1,0 +1,650 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:49:05
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Lagopus_leucura.fa
+#    -outfile Homo_sapiens-Lagopus_leucura.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Lagopus_leucura.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Lagopus_leucura
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7671
+# Identity:    5498/7671 (71.7%)
+# Similarity:  5498/7671 (71.7%)
+# Gaps:         633/7671 ( 8.3%)
+# Score: 19607.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT-GCCCGC-------------CCTGCGCCCCGCTCTGCTGTGGGCGCTG     36
+                     || ||||||             |.|.||||.|.||||.|.||     |||
+Lagopus_leucu      1 ATGGCCCGCGGAGCTGGGCAGGCGTTCGCCGCCCTCTTCGGT-----CTG     45
+
+Homo_sapiens      37 CTGGCGCTCTGGCTGTGCTG---CGCGGCC---CCCGCGCATGCATTGCA     80
+                     .||     |||||.||.|||   ||| |||   ||||||...||.||.||
+Lagopus_leucu     46 GTG-----CTGGCCGTACTGAGCCGC-GCCGAGCCCGCGGCCGCTTTACA     89
+
+Homo_sapiens      81 GTGTCGAGATGGCTATG------AACCCTGTGTAAATGAAGGAATGTGTG    124
+                     ||||    ||||  |||      |.||.|||||.||.||.||||.|||..
+Lagopus_leucu     90 GTGT----ATGG--ATGATTCCAAGCCTTGTGTTAACGAGGGAAAGTGCA    133
+
+Homo_sapiens     125 TTACCTACCACAATGGCACAGGATACTGCAAATGTCCAGAAGGCT-TCTT    173
+                     ||.|.||.||.|||||.||||||||.|||||.||||.|||||||| ||||
+Lagopus_leucu    134 TTCCTTATCAGAATGGTACAGGATATTGCAAGTGTCGAGAAGGCTATCTT    183
+
+Homo_sapiens     174 GGGGGAATATTGTCA--ACATCGAGACCCCTGTGAGAAG--AACCGCTGC    219
+                      ||.||.||.||.||  |||  |..|||||||||| |||  |..|| ||.
+Lagopus_leucu    184 -GGAGACTACTGCCAGTACA--GGAACCCCTGTGA-AAGCAATACG-TGT    228
+
+Homo_sapiens     220 CAGAATGGTGGGACTTGTGTGGCCCAGGCCATGCTGGGGAAAGCCACGTG    269
+                     .|||||||.||.||.||||...||..|.|..||.|.||.||.|||||.||
+Lagopus_leucu    229 AAGAATGGGGGAACCTGTGAAACCACGTCTCTGATAGGAAAGGCCACCTG    278
+
+Homo_sapiens     270 CCGATGTGCCTCAGGGTTTACAGGAGAGGACTGCCAGTACTC---AACAT    316
+                     |..||||||..|||||||.||||||||||||||.||.|||||   |.|| 
+Lagopus_leucu    279 CAAATGTGCTCCAGGGTTCACAGGAGAGGACTGTCAATACTCTGAATCA-    327
+
+Homo_sapiens     317 CTCATCCATGCTTTGTGTCTCGACCCTGCCTGAATGGCGGCACATGCCAT    366
+                     |.||||  ||||.||||||.|..|||||||||||.||.||.||.||.|||
+Lagopus_leucu    328 CACATC--TGCTATGTGTCCCAGCCCTGCCTGAACGGAGGAACGTGTCAT    375
+
+Homo_sapiens     367 ATGCTCAGCCGGGATACCTATGAGTGCACCTGTCAAGTC--GGGTTTACA    414
+                     ...|.|||||.|||.||.||.|||||...|||||  .||  ||.|..|||
+Lagopus_leucu    376 CCTCACAGCCAGGAAACGTACGAGTGTGTCTGTC--CTCCAGGTTACACA    423
+
+Homo_sapiens     415 GGTAAGGAGTGCCAATGGACGGATGCCTG--CCTGTCTCATCCCTGTGCA    462
+                     ||.|||||.||.||.||||..||||||||  ||  |||||.||.|||||.
+Lagopus_leucu    424 GGAAAGGACTGTCAGTGGATTGATGCCTGTACC--TCTCAACCTTGTGCC    471
+
+Homo_sapiens     463 AATGGAAGTACCTGTACC--ACTGTGGCCA-ACCAGTTCTCCTGCAAATG    509
+                     |||||||||||.||||||  | |.|||.|| |  |||||||.||||..||
+Lagopus_leucu    472 AATGGAAGTACGTGTACCGTA-TCTGGACATA--AGTTCTCTTGCATCTG    518
+
+Homo_sapiens     510 CCTCA--CAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCAATGAGTG    557
+                       |||  |.||||.|||.||.|||||.|||||||..|||||.||.||.||
+Lagopus_leucu    519 --TCAGTCTGGCTACACTGGCCAGAAGTGTGAGATAGATGTGAACGAATG    566
+
+Homo_sapiens     558 TGACATTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAACCTGCCTG    607
+                     ||.||...||||.|..||.||.||||||||.|||||..||||.||||.||
+Lagopus_leucu    567 TGCCACCTCAGGCCTTTGTCATCATGGTGGGACCTGTATCAATCTGCATG    616
+
+Homo_sapiens     608 GTTCCTACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTACTGTGAC    657
+                     ||||.|.||.||||||||||...|..||||..|||||.||...|||.||.
+Lagopus_leucu    617 GTTCATTCCGGTGCCAGTGCAAGCCAGGCTATACAGGGCATCGCTGCGAG    666
+
+Homo_sapiens     658 AGCCTGTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAGGCACCTG    707
+                     |||...||||||||.|||.|.||.|||||.|||.|.||||||||.||.||
+Lagopus_leucu    667 AGCACCTATGTGCCATGTTCTCCATCACCCTGTATGAATGGAGGAACTTG    716
+
+Homo_sapiens     708 TCGGCAGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCAGGTTTTG    757
+                     ||..||.||..||||||||||.||||||||||||||.||.||||||||.|
+Lagopus_leucu    717 TCACCAAACAAGTGACTTCACCTTTGAGTGCAACTGTCTGCCAGGTTTCG    766
+
+Homo_sapiens     758 AAGGGAGCACCTGTGAGAGGAATATTGATGACTGCCCTAACCACAGGTGT    807
+                     |.|||||||.||||||||.|||..|||||||||||||.||.||||..||.
+Lagopus_leucu    767 AGGGGAGCATCTGTGAGAAGAACGTTGATGACTGCCCAAATCACAATTGC    816
+
+Homo_sapiens     808 CAGAATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAACTGCCGCTG    857
+                     ||.|||||.||..|.||||||||.||.||.|||||.|||||.||||||||
+Lagopus_leucu    817 CAAAATGGGGGTATATGTGTGGACGGCGTGAACACCTACAATTGCCGCTG    866
+
+Homo_sapiens     858 TCCCCCACAATGGACAGGACAGTTCTGCACAGAGGATGTGGATGAATGCC    907
+                     .||.||.||.||||||||.|||||.|||||.||.|||||.||.|||||.|
+Lagopus_leucu    867 CCCACCGCAGTGGACAGGCCAGTTTTGCACTGAAGATGTTGACGAATGTC    916
+
+Homo_sapiens     908 TGCTGCAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAACCGCAAT    957
+                     .||||||||||||.||.|||||.||.||.||.|||||..||||||.||||
+Lagopus_leucu    917 AGCTGCAGCCCAACGCTTGTCAGAACGGAGGTACCTGCACCAACCACAAT    966
+
+Homo_sapiens     958 GGAGGCTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATGACTGCAG   1007
+                     ||||||||||.||||||.|||||.||.|||||||||||.|||||||||||
+Lagopus_leucu    967 GGAGGCTATGCCTGTGTCTGTGTGAATGGCTGGAGTGGGGATGACTGCAG   1016
+
+Homo_sapiens    1008 TGAGAACATTGATGATTGTGCCTTC---GCCTCCTGTACTCCAGGCTCCA   1054
+                     |.|||||||||||||.||   ||||   |||||||||.||...||.||||
+Lagopus_leucu   1017 TAAGAACATTGATGACTG---CTTCACGGCCTCCTGTGCTAATGGATCCA   1063
+
+Homo_sapiens    1055 CCTGCATCGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAAG   1104
+                     |.|||||.||.||.|||||.||.||.||||||||.||.|||||.||.|||
+Lagopus_leucu   1064 CTTGCATTGATCGAGTGGCTTCGTTTTCTTGCATTTGTCCAGAAGGAAAG   1113
+
+Homo_sapiens    1105 GCAGGTCTCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGCCA   1154
+                     ||||||||.|||||.||..||||||||||.||..|.||||||||.|||||
+Lagopus_leucu   1114 GCAGGTCTTCTGTGCCACTTGGATGATGCTTGTGTTAGCAATCCATGCCA   1163
+
+Homo_sapiens    1155 CAAGGGGGCACTGTGTGACACCAACCCCCTAAATGGGCAATATATTTGCA   1204
+                     .||.||.||.||||||||.|||||.||..|.|||||.||.|||||.||||
+Lagopus_leucu   1164 GAAAGGAGCCCTGTGTGATACCAATCCTGTGAATGGACACTATATCTGCA   1213
+
+Homo_sapiens    1205 CCTGCCCACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGAA   1254
+                     ||||.||.||||||.|.||.||.||.||||||||.||.||||||||||||
+Lagopus_leucu   1214 CCTGTCCTCAAGGCCATAAGGGAGCAGACTGCACTGAGGATGTGGATGAA   1263
+
+Homo_sapiens    1255 TGTGCCATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAA   1304
+                     |||||.|||||.||.||||||||.|||||.||.||.||.|||||||||||
+Lagopus_leucu   1264 TGTGCAATGGCAAACAGCAATCCGTGTGAACACGCTGGGAAATGTGTGAA   1313
+
+Homo_sapiens    1305 CACGGATGGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCTC   1354
+                     |||.||.|||.|.||.||||||||||||.|||||||.||..|||||||||
+Lagopus_leucu   1314 CACAGAAGGCTCTTTTCACTGTGAGTGTTTGAAGGGATACACAGGACCTC   1363
+
+Homo_sapiens    1355 GTTGTGAGATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGAT   1404
+                     |.|||||.|||||||||||.|||||||||||..|.||.|||||.||.|||
+Lagopus_leucu   1364 GCTGTGAAATGGACATCAACGAGTGCCATTCTAATCCGTGCCAAAACGAT   1413
+
+Homo_sapiens    1405 GCTACCTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAGG   1454
+                     ||.||||||||||||||.||||||||.|||||.|||||.||.||||||||
+Lagopus_leucu   1414 GCCACCTGTCTGGATAAAATTGGAGGATTCACGTGTCTCTGTATGCCAGG   1463
+
+Homo_sapiens    1455 TTTCAAAGGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAACC   1504
+                     |||.||||||||.||.|||||...|||.||..||||.||||..|||||.|
+Lagopus_leucu   1464 TTTTAAAGGTGTTCACTGTGAGGAAGATATTGATGAGTGTCTAAGCAATC   1513
+
+Homo_sapiens    1505 CTTGTGTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCAGTGC   1554
+                     |.||||||||||||||..|||||.|.||||||||.||.||.||||..||.
+Lagopus_leucu   1514 CCTGTGTGAACAATGGAGAGTGTCTTGATAAAGTAAACCGGTTCCTCTGT   1563
+
+Homo_sapiens    1555 CTGTGTCCTCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGA   1604
+                     .|.|||||||||||.||||.|||..||||.||.|||||||||||.|||||
+Lagopus_leucu   1564 GTCTGTCCTCCTGGATTCAGTGGTGCAGTGTGTCAGATTGATATAGATGA   1613
+
+Homo_sapiens    1605 CTGTTCCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCCGA   1654
+                     |||.||.||.||.|||||.||.|||||.||.|||||.|||||.||.||.|
+Lagopus_leucu   1614 CTGCTCTAGCACACCGTGCCTCAATGGAGCCAAGTGCATCGACCATCCCA   1663
+
+Homo_sapiens    1655 ATGGCTATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTGAG   1704
+                     |||||||.||.||||||||||||||||||||.||||||||.|||||||||
+Lagopus_leucu   1664 ATGGCTACGAGTGCCAGTGTGCCACAGGTTTTACTGGTGTTTTGTGTGAG   1713
+
+Homo_sapiens    1705 GAGAACATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGTCA   1754
+                     ||||||||..||||||||||.||.||||||||||||||||||.|.|||||
+Lagopus_leucu   1714 GAGAACATCAACAACTGTGATCCTGATCCTTGCCACCATGGTGAATGTCA   1763
+
+Homo_sapiens    1755 GGATGGTATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGGCG   1804
+                     .|||||.||.|||||.|||||.||.||.||||.|||.||.||||||||.|
+Lagopus_leucu   1764 AGATGGAATCGATTCATACACGTGTATATGCAGTCCTGGCTACATGGGTG   1813
+
+Homo_sapiens    1805 CCATCTGCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGAAC   1854
+                     ||||.||||||||.|||||..|||||||..||||||..||||||||..|.
+Lagopus_leucu   1814 CCATATGCAGTGAGCAGATCAATGAATGCCACAGCAATCCTTGCCTCCAT   1863
+
+Homo_sapiens    1855 GATGGTCGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAGCC   1904
+                     .|.||.||||||||||||.||||.||.||||||||.||||||||...||.
+Lagopus_leucu   1864 CAAGGGCGCTGCATTGACTTGGTGAACGGCTACCAATGCAACTGTTTGCT   1913
+
+Homo_sapiens    1905 AGGCACGTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAGTA   1954
+                     .|||||.|||||.||.||.|||||.|.|||.|||||||||||||||||||
+Lagopus_leucu   1914 GGGCACTTCAGGAGTGAACTGTGAGAATAACTTTGATGACTGTGCAAGTA   1963
+
+Homo_sapiens    1955 ACCCTTGTATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTTGT   2004
+                     ||||.|||.|.||.||...|||.||.|||||||||||||||||||..|||
+Lagopus_leucu   1964 ACCCGTGTGTTCACGGGGACTGCATTGATGGCATTAATCGCTACAACTGT   2013
+
+Homo_sapiens    2005 GTCTGCTCACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGATGA   2054
+                     |..|||..|||.|||||.|||||.|...|.||||||.|.||.|||||.||
+Lagopus_leucu   2014 GCTTGCAAACCTGGATTTACAGGCCCACGTTGTAACGTGGATATTGACGA   2063
+
+Homo_sapiens    2055 GTGTGCCTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGTGA   2104
+                     .|||||.||||..||||||...||.||||.|||||||||.||.|..||.|
+Lagopus_leucu   2064 ATGTGCATCCAGCCCCTGTAATAATGGTGGAACATGTATAAATGAAGTCA   2113
+
+Homo_sapiens    2105 ATGGTTTCCGCTGTATATGCCCCGAGGGACCCCATCA-CCCCAGCTGCTA   2153
+                     ||||.||.||.|||.||||.||.||.||...|||||| ||.|| |||..|
+Lagopus_leucu   2114 ATGGCTTTCGGTGTGTATGTCCTGAAGGTTACCATCATCCTCA-CTGTCA   2162
+
+Homo_sapiens    2154 CTCACAGGTGAACGAATGCCTG----AGCAATCCCTGCATCCATGGAAAC   2199
+                     .||.||||    |..|||.|||    ||.||||||||..|.|||||.|||
+Lagopus_leucu   2163 GTCGCAGG----CAGATGGCTGTCTTAGTAATCCCTGTGTACATGGCAAC   2208
+
+Homo_sapiens    2200 TGTAC------TGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAGG   2243
+                     ||.||      ||      |.|||||.||.||.|||.|||||||..||||
+Lagopus_leucu   2209 TGCACGCACATTG------TTAGTGGGTACAAATGTGTCTGTGACCCAGG   2252
+
+Homo_sapiens    2244 CTGGGTTGG-CATCAACTGT------GAAGTGGACAAAAATGAATGCCTT   2286
+                     ||||||.|| .|| .|||||      ||||.|      ||.|||||....
+Lagopus_leucu   2253 CTGGGTAGGAGAT-TACTGTTCAACAGAAGGG------AACGAATGTAAA   2295
+
+Homo_sapiens    2287 TCGAATCCATGCCAGAATGGAGGAACTTGTGACAATCTGGTGAATGGATA   2336
+                     ||.||.||||||||.|||||||||||||||||..|||||.||||.|||||
+Lagopus_leucu   2296 TCAAACCCATGCCAAAATGGAGGAACTTGTGAGGATCTGCTGAACGGATA   2345
+
+Homo_sapiens    2337 CAGGTGTACTTGCAAGAAGGGCTTTAAAGGCTAT-AACTGCCAGGTGAAT   2385
+                     .||.|||||.||||||||.||.||.||||| |.| |||||||||||    
+Lagopus_leucu   2346 TAGATGTACCTGCAAGAAAGGATTCAAAGG-TGTGAACTGCCAGGT----   2390
+
+Homo_sapiens    2386 ATTGATGAATGTGCCTCAAATCCATGCCTGAACCAAGGAACCTGCTTTGA   2435
+                                                                       
+Lagopus_leucu   2390 --------------------------------------------------   2390
+
+Homo_sapiens    2436 TGACATAAGTGGCTACACTTGCCACTGTGTGCTGCCATACACAGGCAAGA   2485
+                            |||||                                      
+Lagopus_leucu   2391 -------AGTGG--------------------------------------   2395
+
+Homo_sapiens    2486 ATTGTCAGACAGTATTGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCT   2535
+                                    |.||.||.||||||||..|||||||||||||..|.
+Lagopus_leucu   2396 ---------------TTGCACCGTGTTCCCCTGACCCTTGTGAGAACTCG   2430
+
+Homo_sapiens    2536 GCTGTTTGCAAAGAGTCACCAAATTTTGAGAGTTATACTTGCTTGTGTGC   2585
+                     |...|||||.||||.||.||..|||.|||..|.||.||.|||..||||||
+Lagopus_leucu   2431 GGAATTTGCCAAGAATCTCCTGATTCTGAAGGCTACACCTGCCAGTGTGC   2480
+
+Homo_sapiens    2586 TCCTGGCTGGCAAGGTCAGCGGTGTACCATTGACATTGACGAGTGTATCT   2635
+                     .|||||||||.||||..||.|.||||||.|.||.|||||.||.|||.|||
+Lagopus_leucu   2481 CCCTGGCTGGGAAGGGGAGAGATGTACCGTGGATATTGATGAATGTCTCT   2530
+
+Homo_sapiens    2636 CCAAGCCCTGCATGAACCATGGTCTCTGCCATAACACCCAGGGCAGCTAC   2685
+                     |.||||||||||..||.||.|.|.|.||.|||||.|..||.|||||.|||
+Lagopus_leucu   2531 CAAAGCCCTGCAAAAATCACGCTTTGTGTCATAATATTCAAGGCAGTTAC   2580
+
+Homo_sapiens    2686 ATGTGTGAATGTCCACCAGGCTTCAGTGGTATG-GACTGTG--AGGAGGA   2732
+                     .||||||||||||..||||||||||.||| |.| |||||||  ||.|  |
+Lagopus_leucu   2581 CTGTGTGAATGTCGTCCAGGCTTCACTGG-AGGAGACTGTGACAGTA--A   2627
+
+Homo_sapiens    2733 CATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGG   2782
+                     |||||||||||||||..|.|||||.|||||.|||||.|.|||.|||.|||
+Lagopus_leucu   2628 CATTGATGACTGCCTGTCTAATCCCTGCCAAAATGGGGCTTCGTGTGTGG   2677
+
+Homo_sapiens    2783 ATGGAGTGAATACTTTCTCCTGCCTCTGCCTTCC-GGGTTTCACTGGGGA   2831
+                     ||||..|.||..|||||||.|||.|||||||.|| ||.||||| |||.||
+Lagopus_leucu   2678 ATGGGATAAACTCTTTCTCATGCATCTGCCTACCTGGATTTCA-TGGAGA   2726
+
+Homo_sapiens    2832 TAAGTGCCAGACAGACATGAATGAGTGTCTGAGTGAACCCTGTAAGAATG   2881
+                     |||.||.||.|||||.|..|||||.||||||||||||||.||.|.|||.|
+Lagopus_leucu   2727 TAAATGTCAAACAGATACCAATGAATGTCTGAGTGAACCGTGCAGGAACG   2776
+
+Homo_sapiens    2882 GAGGGACCTGCTCTGACTACGTCAACAGTTACACTTGCAAGTGCCAGGCA   2931
+                     ||||.||.|||.|..||||.||||||||.||.||.||||||||.|||.|.
+Lagopus_leucu   2777 GAGGCACATGCACCCACTATGTCAACAGCTATACATGCAAGTGTCAGCCT   2826
+
+Homo_sapiens    2932 GGATTTGATGGAGTCCATTGTGAGAACAACATCAATGAGTGCACTGAGAG   2981
+                     ||||||||.|||..|.|.|||||||||||||||.||||.|||||.|||||
+Lagopus_leucu   2827 GGATTTGAGGGAACCAACTGTGAGAACAACATCGATGAATGCACAGAGAG   2876
+
+Homo_sapiens    2982 CTCCTGTTTCAATGGTGGCACATGTGTTGATGGGATTAACTCCTTCTCTT   3031
+                     |||.|||||||||||.||.||.||.||.||||||||.||.|||||..|.|
+Lagopus_leucu   2877 CTCTTGTTTCAATGGAGGGACCTGCGTGGATGGGATCAATTCCTTTACCT   2926
+
+Homo_sapiens    3032 GCTTGTGCCCTGTGGGTTTCACTGGATCCTTCTGCCTCCAT-GAGATCAA   3080
+                     ||..|||.||.|||||.||.||.||..|||||||||| ||| ||.|||||
+Lagopus_leucu   2927 GCCAGTGTCCAGTGGGCTTTACGGGGCCCTTCTGCCT-CATGGAAATCAA   2975
+
+Homo_sapiens    3081 TGAATGCAGCTCTCATCCATGCCTGAATGAGGGAACGTGTGTTGATGGCC   3130
+                     |||.||....||.|||||.|||.||||..|.||..|.|||||.||..|||
+Lagopus_leucu   2976 TGAGTGTGATTCACATCCTTGCTTGAACAAAGGGTCTTGTGTGGACAGCC   3025
+
+Homo_sapiens    3131 TGGGTACCTACCGCTGCAGCTGCCCCCTGGGCTACACTGGGAAAAACTGT   3180
+                     |.||.||.|||||.||||..||.||..||||.|||||.|||||.|||||.
+Lagopus_leucu   3026 TAGGCACATACCGATGCATATGTCCTTTGGGTTACACGGGGAAGAACTGC   3075
+
+Homo_sapiens    3181 CAGAC-CCTGGTGAATCTCTGCAGTCGGTCTCCATGTAAAAACAAAGGTA   3229
+                     ||||| ||| .||.||||.||||||..||||||.|||||.||||||||.|
+Lagopus_leucu   3076 CAGACACCT-ATGGATCTGTGCAGTAAGTCTCCCTGTAAGAACAAAGGCA   3124
+
+Homo_sapiens    3230 CTTGCGTTCAGAAAAAAGCAGAGTCCCA--------GTGCCTATGTCCAT   3271
+                     |.||..|.|     ||||..||| ||||        |||.|  |||||.|
+Lagopus_leucu   3125 CATGTTTCC-----AAAGTGGAG-CCCAGACTCGATGTGAC--TGTCCTT   3166
+
+Homo_sapiens    3272 CTGGATGGGCTGGTGCCTATTGTGACGTGCCCAATGTCTCTTGTGACATA   3321
+                     ||||.|||.||||.||.||.||.|||||||||||||||||.|||.|..|.
+Lagopus_leucu   3167 CTGGCTGGACTGGCGCTTACTGCGACGTGCCCAATGTCTCCTGTCAAGTG   3216
+
+Homo_sapiens    3322 GCAGCCTC---CAGGAGA-----GGTGTGCTTGTTGAACACTTGTGCCAG   3363
+                     |||||.||   .|||.||     .|||        ||.||.|||||||||
+Lagopus_leucu   3217 GCAGCTTCACAAAGGGGAATCACAGTG--------GACCAGTTGTGCCAG   3258
+
+Homo_sapiens    3364 CACTCAGGTGTCTGCATCAATGCTGGCAACACGCATTACTGTCAGTGCCC   3413
+                     |||||.|||...|||.||||||..||.||||||||...|||||||||||.
+Lagopus_leucu   3259 CACTCCGGTCATTGCCTCAATGTGGGAAACACGCACCGCTGTCAGTGCCG   3308
+
+Homo_sapiens    3414 CCTGGGCTATACTGGGAGCTACTGTGAGGAGCAACTCGATGAGTGTGCGT   3463
+                     ..||||.||.|||||.||||||||.||||||||.||.||||||||||..|
+Lagopus_leucu   3309 TGTGGGTTACACTGGCAGCTACTGCGAGGAGCAGCTGGATGAGTGTGACT   3358
+
+Homo_sapiens    3464 CCAACCCCTGCCAGCACGGGGCAACATGCAGTGACTTCA--TTGGTGGAT   3511
+                     |||.|||.||.|||.|.||.||.||.|||||.||  |||  |.|||||||
+Lagopus_leucu   3359 CCAGCCCATGTCAGAATGGTGCTACCTGCAGGGA--TCATCTGGGTGGAT   3406
+
+Homo_sapiens    3512 A-CAGATGCGAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGA   3560
+                     | ||| |||||||||||.||.||.||.|||||||||||||||||.|||||
+Lagopus_leucu   3407 ACCAG-TGCGAGTGTGTGCCTGGGTACCAGGGTGTCAACTGTGAATATGA   3455
+
+Homo_sapiens    3561 AGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTG   3610
+                     ||||||||||||||||..|||||||||||||||||||||.||.||.||.|
+Lagopus_leucu   3456 AGTGGATGAGTGCCAGTTTCAGCCCTGCCAGAATGGAGGAACATGCATAG   3505
+
+Homo_sapiens    3611 ACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGCCTA   3660
+                     |||||||.|||||||||||||||||.||.|||||||||||||||||.|..
+Lagopus_leucu   3506 ACCTTGTCAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGGGGTCGC   3555
+
+Homo_sapiens    3661 CTCTGTGAAGAGAACATTGATGACTGTG---------CCCGGGGTCCCCA   3701
+                     ||.|||||.||||||.|.||||||||||         |..|.||.||||.
+Lagopus_leucu   3556 CTGTGTGAGGAGAACGTGGATGACTGTGTTTCAGAGTCAGGAGGACCCCG   3605
+
+Homo_sapiens    3702 TTGCCTTAATGGTGGTCAGTGCATGGATAGGATTGGAGGCTACAGTTGTC   3751
+                     .|||.|||||||.||.||||||||.||...||||||.||.||.||.||||
+Lagopus_leucu   3606 CTGCTTTAATGGAGGACAGTGCATTGACCAGATTGGGGGTTATAGCTGTC   3655
+
+Homo_sapiens    3752 GCTGCTTGCCTGGCTTTGCTGGGGAGCGTTGTGAGGGAGACATCAACGAG   3801
+                     ..||..|.||.||||||||.||.|||||.||.|||||.||.|||||.||.
+Lagopus_leucu   3656 TTTGTCTCCCAGGCTTTGCAGGCGAGCGGTGCGAGGGGGATATCAATGAA   3705
+
+Homo_sapiens    3802 TGCCTCTCCAACCCCTGCAGCTCTGAGGGCAGCCTGGACTGTATACAGCT   3851
+                     ||||||||.||.||.||.|.|.||...||.||.|||||.||.||.|||||
+Lagopus_leucu   3706 TGCCTCTCTAATCCTTGTAACCCTCGTGGAAGTCTGGATTGCATTCAGCT   3755
+
+Homo_sapiens    3852 CACCAATGACTACCTGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCACT   3901
+                     .|..|||||.|||...|||||.||.||||||||.||||||||.||.||||
+Lagopus_leucu   3756 GATAAATGATTACACATGTGTCTGTCGTAGTGCTTTTACTGGTCGTCACT   3805
+
+Homo_sapiens    3902 GTGAAACCTTCGTCGATGTGTGTCCCCAGATGCCCTGCCTGAATGGAGGG   3951
+                     ||||.|...||.|.||||||||||||..||.||||||.|.|||||||||.
+Lagopus_leucu   3806 GTGAGAGTGTCATAGATGTGTGTCCCAGGAAGCCCTGTCAGAATGGAGGT   3855
+
+Homo_sapiens    3952 ACTTGTGCTGTGGCCAGTAACATGCCTGATGGTTTCATTTGCCGTTGTCC   4001
+                     ||.||||||||.|||||.||.|||||.|||||.|||||.||||..|||||
+Lagopus_leucu   3856 ACCTGTGCTGTTGCCAGCAATATGCCAGATGGGTTCATCTGCCAGTGTCC   3905
+
+Homo_sapiens    4002 CCCGGGATTTTCCGGGGCAAGGTGCCAG---AGCAGC---------TGTG   4039
+                     .|||||.|.|||||||||||..||..||   ||||||         ||.|
+Lagopus_leucu   3906 TCCGGGTTATTCCGGGGCAAAATGTGAGTTCAGCAGCCACAGTACTTGCG   3955
+
+Homo_sapiens    4040 GACAAGTGAAATGTAGGAAGGGGGAGCAGTGTGTGCACACCGCCTCTGGA   4089
+                     |.|||||.|||||.|.||||||.||||||||..|.||.||..|.|||||.
+Lagopus_leucu   3956 GGCAAGTAAAATGCAAGAAGGGTGAGCAGTGCATCCAGACATCTTCTGGT   4005
+
+Homo_sapiens    4090 CCCCGCTGCTTCTGCCCCAG--TCCCCG-------GGACTGCGAG-----   4125
+                     ||.||.||||..|||||.||  |..|.|       |||.|||.||     
+Lagopus_leucu   4006 CCGCGATGCTATTGCCCAAGGCTGGCTGTGGGAGAGGAATGCCAGACCAA   4055
+
+Homo_sapiens    4126 -TCAGGCTGTGCCAGTAGCCCCTGCCAGCACGGGGGCAGCTGCCACCCTC   4174
+                      .||||||||||||||..||||||||||.|.||.||.|||||||||||||
+Lagopus_leucu   4056 CGCAGGCTGTGCCAGTGCCCCCTGCCAGAATGGTGGGAGCTGCCACCCTC   4105
+
+Homo_sapiens    4175 AGCGC-CAGCCTCCTTATTACTCCTGCCAGTGTGCCC------CACC--A   4215
+                      |..| |||||||||||.||.|..||.||  ||||||      ||||  |
+Lagopus_leucu   4106 -GTTCTCAGCCTCCTTACTATTATTGTCA--GTGCCCTGATCACACCCAA   4152
+
+Homo_sapiens    4216 TTCTCGGGTAGCCGCTGTGAAC-TCTACACGGCACCCCCCAGC----ACC   4260
+                           ||.||||..||||||| .||    |..||..||||||    |.|
+Lagopus_leucu   4153 ------GGCAGCCAGTGTGAACAGCT----GATACATCCCAGCCAAGAGC   4192
+
+Homo_sapiens    4261 CCTCCTGCCACCTGTCTGAG------------CCAGTATTGTGCCGACAA   4298
+                     |             ||||.|            ||||   |||||.||.||
+Lagopus_leucu   4193 C-------------TCTGGGGTGTTTGGATTCCCAG---TGTGCAGAAAA   4226
+
+Homo_sapiens    4299 AGCTCGGGATGGCGTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCAGT   4348
+                     |||..|.||||||...||||||||||.|||.||||..||.||||||||||
+Lagopus_leucu   4227 AGCGAGAGATGGCTATTGTGATGAGGACTGTAACACTCACGCCTGCCAGT   4276
+
+Homo_sapiens    4349 GGGATGGGGGTGACTGTTCTCTCACCATGGAGAACCCCTGGGCCAACTGC   4398
+                     |||||||.|||||||||||.||.||.||||||.|.||.||||||||||||
+Lagopus_leucu   4277 GGGATGGAGGTGACTGTTCCCTGACAATGGAGGATCCTTGGGCCAACTGC   4326
+
+Homo_sapiens    4399 TCCTCCCCACTTCCCTGCTGG--GATTATATCAACAACCAGTGTGATGAG   4446
+                     |||||..|..|||.|||||||  |.|  |.||||....||||||||.|||
+Lagopus_leucu   4327 TCCTCTTCGTTTCGCTGCTGGATGCT--TTTCAATGGACAGTGTGACGAG   4374
+
+Homo_sapiens    4447 CTGTGCAACACGGTCGAGTGCCTGTTTGACAACTTTGAATGCCAGGGGAA   4496
+                     .|.||||||||....||||||.|||||||||||||||||||.|||..|||
+Lagopus_leucu   4375 TTCTGCAACACACCTGAGTGCTTGTTTGACAACTTTGAATGTCAGCAGAA   4424
+
+Homo_sapiens    4497 CAGCAAGACATGCAAGTATGACAAATACTGTGCAGACCACTTCAAAGACA   4546
+                     ..|||..|..||||||||||||||.||||||||.||.||||....||||.
+Lagopus_leucu   4425 TGGCAGAATGTGCAAGTATGACAAGTACTGTGCTGATCACTATGCAGACG   4474
+
+Homo_sapiens    4547 ACCACTGTGACCAGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGCTG   4596
+                     .||.||||||||||||.||.||.||.|||||||||||.|||||.||.||.
+Lagopus_leucu   4475 GCCGCTGTGACCAGGGCTGTAATAGCGAGGAGTGTGGCTGGGACGGTCTT   4524
+
+Homo_sapiens    4597 GACTGTGCTGCTGACCAACCTGAGAACCTGGCAGAAGGTACCCTGGTTAT   4646
+                     |||||.||||.||||.||.|||||||.||||||||.||.|||||..|.||
+Lagopus_leucu   4525 GACTGCGCTGGTGACAAAGCTGAGAAGCTGGCAGAGGGGACCCTAATAAT   4574
+
+Homo_sapiens    4647 TGTGGTATTGATGCCACCTGAACAACTGCTCCAGGATGCTCGCAGCTTCT   4696
+                     ||||||.|||||||..|||||..|.|||||.|..||.|.|||||||||||
+Lagopus_leucu   4575 TGTGGTCTTGATGCGCCCTGATGAGCTGCTGCGTGACGTTCGCAGCTTCT   4624
+
+Homo_sapiens    4697 TGCGGGCACTGGGTACCCTGCTCCACACCAACCTGCGCATTAAGCGGGAC   4746
+                     ||||..|..||||.||.||.||.||||||||.|||.|.|||||||.||||
+Lagopus_leucu   4625 TGCGTACGTTGGGAACTCTCCTTCACACCAATCTGAGAATTAAGCTGGAC   4674
+
+Homo_sapiens    4747 TCCCAGGGGGAACTCATGGTGTACCCCTATTATGGTGAGAAGTCAGCTGC   4796
+                     ||||||||..|.|.||||||.|.|||.||.|||||.|||||.||.||.||
+Lagopus_leucu   4675 TCCCAGGGAAATCCCATGGTATTCCCATACTATGGAGAGAAATCGGCAGC   4724
+
+Homo_sapiens    4797 TATGAAGAAACAGAGGATGACACGCAGATCCCTTCCTGGT----------   4836
+                              ||.|||      .||..|||||||| .||||          
+Lagopus_leucu   4725 ---------ACGGAG------TCGGCGATCCCTT-GTGGTTGTTCGCAAG   4758
+
+Homo_sapiens    4837 ------GAACAAGAACAGGAGGTGGCTGGCTCTAAAGTCTTTCTGGAAAT   4880
+                           ||||..||.||.|||||...||||.|.|..||.||.|||||.||
+Lagopus_leucu   4759 CACAGAGAACTGGAGCAAGAGGTCATTGGCACGAGGGTGTTCCTGGAGAT   4808
+
+Homo_sapiens    4881 TGACAACCGCCAGTGTGTTCAAGACTCAGACCACTGCTTCAAGAACACGG   4930
+                     |||||||||.|||||||...|.||.|||||.||.|||||..|.|||||.|
+Lagopus_leucu   4809 TGACAACCGTCAGTGTGCAGAGGATTCAGAACAGTGCTTTCACAACACAG   4858
+
+Homo_sapiens    4931 ATGCAGCAGCAGCTCTCCTGGCCTCTCACGCCATACAGGGGACCCTGTCA   4980
+                     |.||.||.|||||.|||.|.||..||||.||.||..||||.|...||.|.
+Lagopus_leucu   4859 AAGCTGCTGCAGCCCTCTTAGCAGCTCAGGCAATCAAGGGCATGTTGCCT   4908
+
+Homo_sapiens    4981 TACCCTCTTGTGTCTGTCGTCAGTGAATCCCTGACTCCA-GAACGCACTC   5029
+                     ||.|||.|||||||||||...||||||.||.||...||| .||.| ||.|
+Lagopus_leucu   4909 TATCCTTTTGTGTCTGTCCAAAGTGAACCCTTGTTACCACCAAAG-ACCC   4957
+
+Homo_sapiens    5030 AGCTCCTCTATCTCCTTGCTGTTGCTGTTGTCATCATTCTGTTTATTATT   5079
+                     ||.|.|||||.||.||||||||.||.|.|.|.|||||.||.||.||..||
+Lagopus_leucu   4958 AGTTGCTCTACCTACTTGCTGTGGCAGCTTTGATCATCCTCTTGATCCTT   5007
+
+Homo_sapiens    5080 CTGCTGGGGGTAATCATGGCAAAACGAAAGCGTAAGCATGGCTCTCTCTG   5129
+                     ||..||||.||.||.|||||||||||.|||||.||.|||||.||.||.||
+Lagopus_leucu   5008 CTCTTGGGTGTGATGATGGCAAAACGTAAGCGCAAACATGGTTCACTGTG   5057
+
+Homo_sapiens    5130 GCTGCCTGAAGGTTTCACTCTTCGCCGAGATGCAAGCAATCACAAGCGTC   5179
+                     |||.||.||.||.||.|.|||.|||.|.|||.|.||.|||||||||||..
+Lagopus_leucu   5058 GCTCCCAGAGGGCTTTATTCTGCGCAGGGATCCCAGTAATCACAAGCGCA   5107
+
+Homo_sapiens    5180 GTGAGCCAGTGGGACAGGATGCTGTGGGGCTGAAAAATCTCTCAGTGCAA   5229
+                     |.||||||||.|||.|.|||||.||.||.||.||||||||.|||||.||.
+Lagopus_leucu   5108 GGGAGCCAGTTGGAGAAGATGCAGTTGGACTCAAAAATCTATCAGTCCAG   5157
+
+Homo_sapiens    5230 GTCTCAGAAGCTAACCTAATTGG----TACTGGAACAAGTGAACACTGGG   5275
+                     .|..||||.|.||||    .|||    |.|||||.|||.|||||||||||
+Lagopus_leucu   5158 ATACCAGAGGGTAAC----ATGGCAGATTCTGGACCAACTGAACACTGGG   5203
+
+Homo_sapiens    5276 TCGATGATGAAGGGCCCCAGCCAAAGAAAGTAAAGGCTGAAGATGAGGCC   5325
+                     ..|.|||||..||.||.||||||||||.|||||||.||||.||..|||||
+Lagopus_leucu   5204 CAGGTGATGGTGGACCTCAGCCAAAGAGAGTAAAGACTGAGGACCAGGCC   5253
+
+Homo_sapiens    5326 TTACTCTCAGAAGAAGATGACCCCATTGATCGACGGCCA-TGGACACAGC   5374
+                     ||.|||.|.||||..||.||.|..||.|||| |..|||| ||||||||||
+Lagopus_leucu   5254 TTGCTCCCTGAAGCTGACGAGCAGATAGATC-AGCGCCAGTGGACACAGC   5302
+
+Homo_sapiens    5375 AGCACCTTGAAGCTGCAGACATCCGTAGGA--CACCATCGCTGGCTCTCA   5422
+                     |||||.|.|||||.|||||..||.|| |||  || ||||.||.||.||.|
+Lagopus_leucu   5303 AGCACTTGGAAGCAGCAGATGTCTGT-GGAAGCA-CATCACTAGCCCTTA   5350
+
+Homo_sapiens    5423 CCCCTCCTCAGGCAGAGCAGGAGGTGGATGTGTTAGATGTGAATGTCCGT   5472
+                     |.||.|||||.|||||.||.||.||.|||||..|.|||||.||||||.|.
+Lagopus_leucu   5351 CACCACCTCAAGCAGATCAAGAAGTAGATGTTCTGGATGTCAATGTCAGA   5400
+
+Homo_sapiens    5473 GGCCCAGATGGCTGCACCCCATTGATGTTGGCTTCTCTCCGAGGAGGCAG   5522
+                     ||.||||||||.||.||.|||.|.||||||||.|||||.||.|..|||.|
+Lagopus_leucu   5401 GGACCAGATGGATGTACTCCACTTATGTTGGCATCTCTGCGTGTGGGCGG   5450
+
+Homo_sapiens    5523 CTCAGATTTGAGTGATGAAGATGAAGATGCAGAGGACTCTTCTGCTAACA   5572
+                     .||.||..|.|||||.||.||||||||.|.|||.||.||.||.||.||||
+Lagopus_leucu   5451 TTCCGACATCAGTGAGGATGATGAAGACGGAGAAGATTCCTCAGCAAACA   5500
+
+Homo_sapiens    5573 TCATCACAGACTTGGTCTACCAGGGTGCCAGCCTCCAGGCCCAGACAGAC   5622
+                     |.||.|||||.|||.||||.||.|||||||.|||.||||||||.||||||
+Lagopus_leucu   5501 TAATAACAGATTTGATCTATCAAGGTGCCAACCTGCAGGCCCAAACAGAC   5550
+
+Homo_sapiens    5623 CGGACTGGTGAGATGGCCCTGCACCTTGCAGCCCGCTACTCACGGGCTGA   5672
+                     ||.|||||.|||||||||||||||.|.||.|||||.|||||..||||.||
+Lagopus_leucu   5551 CGCACTGGGGAGATGGCCCTGCACTTAGCTGCCCGTTACTCGAGGGCAGA   5600
+
+Homo_sapiens    5673 TGCTGCCAAGCGTCTCCTGGATGCAGGTGCAGATGCCAATGCCCAGGACA   5722
+                     ||||||.||.|||.|.||||||||.|||||||||||||||||.|.|||||
+Lagopus_leucu   5601 TGCTGCAAAACGTTTGCTGGATGCCGGTGCAGATGCCAATGCACGGGACA   5650
+
+Homo_sapiens    5723 ACATGGGCCGCTGTCCACTC--CATGCTGCAGTGGCAGCTGATGCCCAAG   5770
+                     |||||||.||  |.||.|||  |||||.||.||.||.|||||||||||.|
+Lagopus_leucu   5651 ACATGGGACG--GACCCCTCTGCATGCAGCTGTAGCTGCTGATGCCCAGG   5698
+
+Homo_sapiens    5771 GTGTCTTCCAGATTCTGATTCGCAACCGAGTAACTGATCTAGATGCCAGG   5820
+                     |.|||||.|||||..||||.||.|||.||||.||.||..|.|||||..|.
+Lagopus_leucu   5699 GAGTCTTTCAGATCTTGATCCGTAACAGAGTGACAGACTTGGATGCTCGC   5748
+
+Homo_sapiens    5821 ATGAATGATGGTACTACACCCCTGATCCTGGCTGCCCGCCTGGCTGTGGA   5870
+                     |||||||||||.||.||.||..|.|||||||||||..|.|||||||||||
+Lagopus_leucu   5749 ATGAATGATGGAACAACCCCTTTAATCCTGGCTGCAAGGCTGGCTGTGGA   5798
+
+Homo_sapiens    5871 GGGAATGGTGGCAGAACTGATCAACTGCCAAGCGGATGTGAATGCAGTGG   5920
+                     .||||||||||||||.||.||.||.||||||||.|||||||||||.||.|
+Lagopus_leucu   5799 AGGAATGGTGGCAGAGCTCATTAATTGCCAAGCAGATGTGAATGCTGTAG   5848
+
+Homo_sapiens    5921 ATGACCATGGAAAATCTGCTCTTCACTGGGCAGCTGCTGTCAATAATGTG   5970
+                     |||||||.||.||||||||||||||||||||.|||||||||||.||||||
+Lagopus_leucu   5849 ATGACCACGGTAAATCTGCTCTTCACTGGGCTGCTGCTGTCAACAATGTG   5898
+
+Homo_sapiens    5971 GAGGCAACTCTTTTGTTGTTGAAAAATGGGGCCAACCGAGACATGCAGGA   6020
+                     ||.|||||.||..||.|..||||||||||.||||||.|||||||||||||
+Lagopus_leucu   5899 GAAGCAACACTAGTGCTACTGAAAAATGGAGCCAACAGAGACATGCAGGA   5948
+
+Homo_sapiens    6021 CAACAAGGAAGAGACACCTCTGTTTCTTGCTGCCCGGGAGGGGAGCTATG   6070
+                     .||||||||.||||||||.||.||.|||||.||.|||||.||.||.|.||
+Lagopus_leucu   5949 TAACAAGGAGGAGACACCACTCTTCCTTGCCGCTCGGGAAGGCAGTTTTG   5998
+
+Homo_sapiens    6071 AAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCGAGACATCACAGAC   6120
+                     ||||||||||.|||.||.|.||||||||||||||.|||||||||||.|||
+Lagopus_leucu   5999 AAGCAGCCAAAATCTTGCTGGACCATTTTGCCAACCGAGACATCACGGAC   6048
+
+Homo_sapiens    6121 CATATGGATCGTCTTCCCCGGGATGTGGCTCGGGATCGCATGCACCATGA   6170
+                     ||.|||||||||||.|||||.||||||||.|.|||.||.||||||||.||
+Lagopus_leucu   6049 CACATGGATCGTCTGCCCCGAGATGTGGCCCAGGACCGGATGCACCACGA   6098
+
+Homo_sapiens    6171 CATTGTGCGCCTTCTGGATGAATACAATGTGACCCCA-AG-CCCTCCAGG   6218
+                     |||.||||..|||||..||||.||.||.|| |.|.|| || |||.|..||
+Lagopus_leucu   6099 CATCGTGCAGCTTCTCAATGAGTATAACGT-AGCACACAGTCCCACTGGG   6147
+
+Homo_sapiens    6219 CA--------CCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGGGCC   6260
+                     ||        ||.||.|||..|||||.|||||.||.|||||.|||||.||
+Lagopus_leucu   6148 CACCCCGGGGCCATGCTGAACTCTGCCCTCTCCCCGGTCATTTGTGGCCC   6197
+
+Homo_sapiens    6261 CAACAGATCTTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGTCTA   6310
+                     .||.|||||.||.||||..|||||||||.||.|..|..||||||||||..
+Lagopus_leucu   6198 AAATAGATCCTTTCTCAATCTGAAGCACGCCTCGTTAAGCAAGAAGTCAC   6247
+
+Homo_sapiens    6311 GACGGCCCAGTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTTGCC   6360
+                     ||...||.|.||||||..|.|.||||||.||.|..|||    |||     
+Lagopus_leucu   6248 GAAAACCGAATGCCAAAGGCATCATGCCCACAAATCTC----ACC-----   6288
+
+Homo_sapiens    6361 AAGGAGGCAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGTGA   6410
+                              ||.|||||.|||   ||.||.|||||||||||.||.|||||
+Lagopus_leucu   6289 ---------AAAGATGCGAAG---AGGAGAAGGAAGAAGTCCCTCAGTGA   6326
+
+Homo_sapiens    6411 G----AAGGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGAT   6456
+                     |    |||| .||..|.||.|||||.||.|||||..|.||.||.|||||.
+Lagopus_leucu   6327 GAGCAAAGG-GCAGTTTTCAGAGAGCTCGGTAACCCTGTCACCCGTTGAC   6375
+
+Homo_sapiens    6457 TCCCTAGAATCTCCTCACACGTATGTTTCCGACACC-ACATCCTCTCCAA   6505
+                     |||||.||||||||.||..|.|.||..||||| ||| ||.||.|||||..
+Lagopus_leucu   6376 TCCCTGGAATCTCCCCATGCTTTTGCATCCGA-ACCGACGTCGTCTCCTG   6424
+
+Homo_sapiens    6506 TGATTACATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGCC   6555
+                     ||||..||||.||.|||.|.|||||..|.|||||||.|.|..||.||.||
+Lagopus_leucu   6425 TGATGCCATCGCCAGGGGTGTTACACTCATCACCCAGCTCGCTGCTGACC   6474
+
+Homo_sapiens    6556 ACTGCCGCCCCTCCTGCCCCAGTCCATGCCCAGCATGCACTATCTTTTTC   6605
+                     .|| |||.|..|.|.|.|    |.||  |.|||||||     ||.||.||
+Lagopus_leucu   6475 GCT-CCGTCGGTGCAGGC----TGCA--CACAGCATG-----TCCTTCTC   6512
+
+Homo_sapiens    6606 TAACCTTCATGAAATGCAG-CCTTTGGCACATGGGGCCAGCACTGTGCTT   6654
+                     .|||||.||.||.|||||| ||||.||| |.|||..|||||||.|||||.
+Lagopus_leucu   6513 CAACCTCCACGAGATGCAGCCCTTAGGC-CGTGGCTCCAGCACCGTGCTC   6561
+
+Homo_sapiens    6655 CCCTCAGTGAGCCAGTTGCTATCCCACCAC-------CACATTGTGTCTC   6697
+                     ||.||.||.||||||.||||.||.||.|||       |.|       |||
+Lagopus_leucu   6562 CCATCGGTCAGCCAGCTGCTCTCACAGCACAGAACGACCC-------CTC   6604
+
+Homo_sapiens    6698 CAGGCAGTGGCAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCA---   6744
+                     ||..|||.||    |||.|        |.|||||||..||.|  |||   
+Lagopus_leucu   6605 CAAACAGCGG----GCTCG--------GCAGGCTCCGGCCGG--CCAACG   6640
+
+Homo_sapiens    6745 GTCCCAGCAGATTGGATGAACCGCATGGAGGTGAATGAGACCCAGTACAA   6794
+                     .|.||| |.||.||||||||.|||||||||.||||.||..||||||||||
+Lagopus_leucu   6641 TTTCCA-CCGAGTGGATGAATCGCATGGAGATGAACGAATCCCAGTACAA   6689
+
+Homo_sapiens    6795 TGAGATGTTTGGTATGGTCCTGGCTCCAGCTGAGGGCACCCATCCTGGCA   6844
+                     .||||||||.||.|||||.|.|.|         ||.||..|||       
+Lagopus_leucu   6690 CGAGATGTTCGGCATGGTGCCGCC---------GGTCATGCAT-------   6723
+
+Homo_sapiens    6845 TAGCTCCCCAG--------AGCAG---------------GCCACCTGAAG   6871
+                     |.||.||||||        |||||               |||    ||..
+Lagopus_leucu   6724 TCGCACCCCAGTGTTTCTCAGCAGAGCGGTTTGGTTCAAGCC----GATA   6769
+
+Homo_sapiens    6872 GGAAGCAC------ATAACCACCCCTCGGGAGCCCTTGCCCCCCATTGTG   6915
+                     .|||||||      .|..|||      |||||.|..|||||||.||..||
+Lagopus_leucu   6770 CGAAGCACCTGGGAGTGTCCA------GGGAGTCTCTGCCCCCTATCATG   6813
+
+Homo_sapiens    6916 ACTTTCCAGCTCATCCCTAAAGGCAGTATTGCCCAACCAGCGGGGGCTCC   6965
+                     |||||||||||..|.||.||.||..|.||    .|||||||..|.|||.|
+Lagopus_leucu   6814 ACTTTCCAGCTGGTTCCCAAGGGTGGCAT----AAACCAGCAAGCGCTGC   6859
+
+Homo_sapiens    6966 C----CAGCCTCAGTCCACCTGCCCTC----CAGCTGTTGCGGGCCCCCT   7007
+                     |    |||.|.|||||||.||||.|||    ||    |.||.|||||.||
+Lagopus_leucu   6860 CACAGCAGGCCCAGTCCAACTGCGCTCAGAACA----TGGCTGGCCCTCT   6905
+
+Homo_sapiens    7008 GCCCACCATGTACCAGATTCCAGAAATGGCCCGTTTGCCCAGTGTGGCTT   7057
+                     ...|.|||||||||||||..||||..|.||.|...|||||||.|...|.|
+Lagopus_leucu   6906 TAGCTCCATGTACCAGATATCAGATTTAGCTCAGCTGCCCAGCGCCTCGT   6955
+
+Homo_sapiens    7058 TCCCCA---CTGCCATGATGCCC-CAGCAGGACGGGCAGGTAGCTCAGAC   7103
+                     ||.|||   |||||||    ||| |||||||||||||||||..||||.||
+Lagopus_leucu   6956 TCTCCATGGCTGCCAT----CCCTCAGCAGGACGGGCAGGTGCCTCAAAC   7001
+
+Homo_sapiens    7104 CATTCTCCCAGCCTATCATCCTTTCCCAG-CCTCTGTGGGCAAGTACCCC   7152
+                     .||.||||||||.||.|| ||..|.|||| .|||..||||.|||||||||
+Lagopus_leucu   7002 AATCCTCCCAGCTTACCA-CCAGTTCCAGAGCTCGATGGGGAAGTACCCC   7050
+
+Homo_sapiens    7153 ACACCCCCTTCACAGCACAGTTATGCTTCCTCAAATGCTGCTGAGCGAAC   7202
+                     ||.||.||.||.||||||||.|.|...|||||   .||..|.||.|..||
+Lagopus_leucu   7051 ACGCCTCCGTCGCAGCACAGCTGTTACTCCTC---GGCCACAGAACAGAC   7097
+
+Homo_sapiens    7203 ACCCAGTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCAT   7252
+                     .||.||.||||...|.|||.|.||.||.|||||.||.||||||||.||||
+Lagopus_leucu   7098 TCCTAGCCACAACCGGCACTTACAAGGGGAGCACCCATACCTGACTCCAT   7147
+
+Homo_sapiens    7253 CCCCAGAGTCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCT   7302
+                     |.||.||.|||||.|||||||||||.||.||.||.||.||||||||||||
+Lagopus_leucu   7148 CGCCTGAATCTCCAGACCAGTGGTCCAGCTCTTCCCCACACTCTGCTTCT   7197
+
+Homo_sapiens    7303 GACTGGTCAGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGAGG   7352
+                     ||||||||.||.|||.|.|||||.|||                     ||
+Lagopus_leucu   7198 GACTGGTCTGACGTGGCAACCAGTCCT---------------------GG   7226
+
+Homo_sapiens    7353 T------CAGCGGGGACCTGGG---ACACACATGTCTGAGCCACCACA-C   7392
+                     |      |||||.||.||.|.|   .|.||||||.|.||| ||.||.| .
+Lagopus_leucu   7227 TAACAACCAGCGTGGGCCGGCGGCCGCTCACATGCCAGAG-CAGCAGAGG   7275
+
+Homo_sapiens    7393 AACAACATGCAGGTTTATGCG   7413
+                     ||||||||||||||.||.||.
+Lagopus_leucu   7276 AACAACATGCAGGTGTACGCC   7296
+
+
+#---------------------------------------
+#---------------------------------------

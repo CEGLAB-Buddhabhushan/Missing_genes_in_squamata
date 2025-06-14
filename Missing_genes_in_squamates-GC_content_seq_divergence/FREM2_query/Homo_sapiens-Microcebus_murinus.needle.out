@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:42:10
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Microcebus_murinus.fa
+#    -outfile Homo_sapiens-Microcebus_murinus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Microcebus_murinus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Microcebus_murinus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9512
+# Identity:    8617/9512 (90.6%)
+# Similarity:  8617/9512 (90.6%)
+# Gaps:           7/9512 ( 0.1%)
+# Score: 39482.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                     |||||||||||||||||...||||....|||||||||.|.|||.|..|||
+Microcebus_mu      1 ATGCACTCAGCCGGGACCTGCGGGACCGCCTCGCGCCAGCCAGCCGGCTC     50
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGACCGCCACCGCCGCCCCGGCTGCTGCTGCTGC    100
+                     ||||||||||||..||..|||.||.||||.||||||||||||||||||||
+Microcebus_mu     51 CACCAGCTTTCAGTCAATACCTCCGCCGCAGCCCCGGCTGCTGCTGCTGC    100
+
+Homo_sapiens     101 TGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAGCCCGCTGCC    150
+                     |||.|||.||||||||||||||||||||||||||||||||||||||||||
+Microcebus_mu    101 TGCCGCTGCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAGCCCGCTGCC    150
+
+Homo_sapiens     151 TTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTGCAGGGGTCCC    200
+                     ..||.|.||||||||||||||||.|||||||.||||||||||||||||||
+Microcebus_mu    151 CCCGTCCGGGCGTTGCTGTCCCCGGGTCTCGTGGGGGCTGCAGGGGTCCC    200
+
+Homo_sapiens     201 TGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGGGTGCCTTTCG    250
+                     |||.|||||||||||||||||||||||||||||||||.|||||||.||||
+Microcebus_mu    201 TGCCGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCAGGGTGCCCTTCG    250
+
+Homo_sapiens     251 GCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTTGCAGGTGCAG    300
+                     ||||||||||||||||||||||.||||..|||||||||||||||||||||
+Microcebus_mu    251 GCCGTGAAGTCTGGCTGGATCCGCTGCTCGACCTGGTGTTGCAGGTGCAG    300
+
+Homo_sapiens     301 CCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACGCACTGGCCCA    350
+                     ||.||.||||||||||||||.||.||.||||||||||||||.||||||||
+Microcebus_mu    301 CCGGGAGACCGCTGCGCGGTGTCCGTGCTAGACAACGACGCGCTGGCCCA    350
+
+Homo_sapiens     351 GCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGACTTTGGCCCTG    400
+                     |.|.||||||..||||||||||||||||||||||||||||||.|||||||
+Microcebus_mu    351 GTGGCCGGGCTACCTGAGTCCCAAGCGCTTCCCGTGCGACTTCGGCCCTG    400
+
+Homo_sapiens     401 GCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTCTCGGGACCGC    450
+                     ||||||||||||||||.||.||||||||||||||||||||.|||||||||
+Microcebus_mu    401 GCGAGGTGCGCTACTCGCATCTGGGCGCGCGCAGCCCGTCGCGGGACCGC    450
+
+Homo_sapiens     451 GTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCAGTAGTGCTACC    500
+                     ||||||||||||||||||||.||||||||.||||||||.||||||.||||
+Microcebus_mu    451 GTCCGGCTGCAGCTGCGCTACGACGCGCCGGGAGGGGCGGTAGTGTTACC    500
+
+Homo_sapiens     501 ACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAGGTTGTGACTC    550
+                     ..||||.|||||||||||||||||||||||||||||||||||||||||||
+Microcebus_mu    501 CTTGGTGCTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAGGTTGTGACTC    550
+
+Homo_sapiens     551 GGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCAGCAATGCCCTG    600
+                     ||||||||||.|||||.||||||||.|||.||||.||||||||.|||.||
+Microcebus_mu    551 GGAACTTGCCGCTGGTTGTGGAAGAACTGTTGGGTACCAGCAACGCCTTG    600
+
+Homo_sapiens     601 GACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACAGAGGAGTGCCG    650
+                     ||.||||||||||||||||||||||.||.|||||||||||||||||||||
+Microcebus_mu    601 GATGCGCGGAGCCTGGAGTTCGCCTACCTGCCCGAGACAGAGGAGTGCCG    650
+
+Homo_sapiens     651 CGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTATGGAGAACTCC    700
+                     ||||||||||||||||||.||||||||||||||.||||||||||||||||
+Microcebus_mu    651 CGTGGGCATCCTGTCCGGTTTGGGCGCGCTGCCCCGCTATGGAGAACTCC    700
+
+Homo_sapiens     701 TCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGGCGCCCCGGAG    750
+                     ||||||||||||||||||||||.|.||||||||||.|.||.||||||||.
+Microcebus_mu    701 TCCACTACCCGCAGGTCCCTGGGGAAGCCAGAGAGAGGGGTGCCCCGGAA    750
+
+Homo_sapiens     751 ACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTATCG    800
+                     .|||||||||||||||||||||||||||||||..|.|||||||||||.||
+Microcebus_mu    751 CCTCTCCTGATGGACTGCAAAGCTTTCCAGGAGTTGGGCGTGCGCTACCG    800
+
+Homo_sapiens     801 CCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATACCCATGGTGG    850
+                     ||||||||||.||||||||||.|||||||||||||||.|.||||||||||
+Microcebus_mu    801 CCACACAGCCCCCAGTCGCTCCCCAAACAGGGACTGGGTGCCCATGGTGG    850
+
+Homo_sapiens     851 TGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTGCTTTGAAACGC    900
+                     |||||||||||||||||||.||.|||||||||||||||||||||||||||
+Microcebus_mu    851 TGGAGCTGCGTTCACGAGGTGCACCTGTGGGCAGCCCTGCTTTGAAACGC    900
+
+Homo_sapiens     901 GAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAACACTGC    950
+                     ||||||||||||||.||||||||||||||.||||||||||||||||||||
+Microcebus_mu    901 GAGCACTTCCAGGTGCTGGTGAGGATCCGGGGAGGGGCCGAGAACACTGC    950
+
+Homo_sapiens     951 ACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGTTTG   1000
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+Microcebus_mu    951 GCCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGTTTG   1000
+
+Homo_sapiens    1001 TACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTGAGTCT   1050
+                     |||||||.||||||||||||||||||||||||||.|||||||||||||||
+Microcebus_mu   1001 TACTGACCGCCCTGACCCCAGACATGCTGGCAGCGGAGGATGCTGAGTCT   1050
+
+Homo_sapiens    1051 CCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCTGGCCA   1100
+                     .||.|.||.|||||||||||.|||||.||.|||||.||||||||.|||||
+Microcebus_mu   1051 GCCCCCGATCTGTTGATCTTTAACCTCACCTCTCCGTTCCAGCCCGGCCA   1100
+
+Homo_sapiens    1101 GGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTCCTCCTTCA   1150
+                     ||||||||||||||||||.|||||||||||||||||||||||.|||||||
+Microcebus_mu   1101 GGGCTACTTGGTGAGCACTGATGATCGCAGCCTGCCCCTTTCTTCCTTCA   1150
+
+Homo_sapiens    1151 CTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCCCTTCTGAA   1200
+                     ||||||||||||||||.|||||||||||.|||||||||||.||.||||||
+Microcebus_mu   1151 CTCAGAGGGATCTGCGCCTCCTGAAGATCGCCTACCAGCCGCCCTCTGAA   1200
+
+Homo_sapiens    1201 GACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAGTGGATCT   1250
+                     |||||.|||||.|||||.||||||||||||||..|||||||||||||.|.
+Microcebus_mu   1201 GACTCCGACCACGAGCGGCTCTTTGAACTGGAGCTGGAGGTAGTGGACCC   1250
+
+Homo_sapiens    1251 AGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTGAAGCCCA   1300
+                     .|||||||||||||||||||||||||||||||||||||||||.|||||||
+Microcebus_mu   1251 GGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTAAAGCCCA   1300
+
+Homo_sapiens    1301 TGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTATTCTCTAT   1350
+                     ||||||||.|||||||.|||||||||||||||||.|||||||||||||||
+Microcebus_mu   1301 TGAACACACTGGCTCCCGTGGTCACCCGGAATACTGGTCTTATTCTCTAT   1350
+
+Homo_sapiens    1351 GAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGTCCGCAAAA   1400
+                     ||||||||||||||.||||||||.||||||||.||||||||.||.|||||
+Microcebus_mu   1351 GAGGGTCAGTCTCGACCCCTCACGGGCCCTGCGGGCAGTGGCCCACAAAA   1400
+
+Homo_sapiens    1401 CTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCGGCTAGAGGTGG   1450
+                     ||||||||||||.|||||||||||||||||||||||||||||.|||||||
+Microcebus_mu   1401 CTTGGTCATCAGTGATGAGGATGACCTAGAAGCAGTGCGGCTGGAGGTGG   1450
+
+Homo_sapiens    1451 TGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGCTTCCAGTGGC   1500
+                     |||||||||||||||||||||||||..|||||||.||||.||||||||.|
+Microcebus_mu   1451 TGGCTGGGCTCCGGCATGGTCACCTCATCATTCTAGGTGATTCCAGTGAC   1500
+
+Homo_sapiens    1501 AGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTGGCAGCCGGCCAGGT   1550
+                     |.||||||.|||||.||||||||||||||||||||||||||.||||||||
+Microcebus_mu   1501 AACTCTGCCCCCAAAAGCTTTACAGTGGCTGAGCTGGCAGCAGGCCAGGT   1550
+
+Homo_sapiens    1551 GGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGACAACCTGGTGC   1600
+                     |.|.|||||||||||.||||.|||.|||||.|||||.||||||||||||.
+Microcebus_mu   1551 GATTTACCAGCATGACGACAAAGATGGCTCACTGAGTGACAACCTGGTGT   1600
+
+Homo_sapiens    1601 TTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGTTTCTGTTCCCC   1650
+                     ||||||||||||||||.|||||||||||||||||||||||||||||.|||
+Microcebus_mu   1601 TTCGCATGGTGGATGGGGGAGGCAGGCACCAGGTACAGTTTCTGTTTCCC   1650
+
+Homo_sapiens    1651 ATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTCAATGCCAACAC   1700
+                     |||||||||||||||||||||||||||||||||||.||||||||||||||
+Microcebus_mu   1651 ATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTCCTCAATGCCAACAC   1700
+
+Homo_sapiens    1701 GGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTGCCCCTTTCCC   1750
+                     .|||||||||||.||||||||.||||||||.|||||||||||||||.|.|
+Microcebus_mu   1701 AGGGCTGACACTAGCAGAGGGAGAAACAGTACCCATCCTGCCCCTTACTC   1750
+
+Homo_sapiens    1751 TGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGCTTTTTGTGCTG   1800
+                     |||||||.||||||||||||||||||||.|||||||||||.|||||||||
+Microcebus_mu   1751 TGAGTGCCACTGACATGGATTCAGATGACTCTCTGCTGCTGTTTGTGCTG   1800
+
+Homo_sapiens    1801 GAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTCCGCCAAACTCACCC   1850
+                     |||||||||||||.||||.|.|||||||||||||||||.|||||.|||||
+Microcebus_mu   1801 GAGTCACCCTTCTCAACTGCCGGGCATCTGCTTCTCCGTCAAACCCACCC   1850
+
+Homo_sapiens    1851 TCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTGGAGGAAGGAGGGGG   1900
+                     |||||.||||.|||||||.||||||.|.|||||||||||||||.||||.|
+Microcebus_mu   1851 TCCCCGTGAGGAGCAGGAGCTTCTCGGGGGCCTTTGGAGGAAGCAGGGTG   1900
+
+Homo_sapiens    1901 CATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGGACATAACAGAG   1950
+                     ||||.||.|||||.||||||||||||||||||||||.|||||||||||||
+Microcebus_mu   1901 CATTCTACGAGCGGACAGTGACAGAGTGGCAGCAGCGGGACATAACAGAG   1950
+
+Homo_sapiens    1951 GGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCTGGGCCAGTCAC   2000
+                     ||.|||||||||||.||.|||||||||||||||||||||||||||||||.
+Microcebus_mu   1951 GGTAGGCTGTTCTACAGGCACTCTGGGCCCCATAGTCCTGGGCCAGTCAT   2000
+
+Homo_sapiens    2001 AGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCCTCCTAATCAGT   2050
+                     .|||||||||||.||||||||||||||||||||.|||||.||.|||.|||
+Microcebus_mu   2001 GGACCAGTTCACGTTTAGAGTCCAGGATAACCACGACCCCCCGAATGAGT   2050
+
+Homo_sapiens    2051 CCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGGATCGCCTCCCT   2100
+                     |.|||||||||..|||||||||.||.||||||||.|||||||||||||||
+Microcebus_mu   2051 CTGGGCTACAGAAGTTTGTGATACGCATCCATCCCGTGGATCGCCTCCCT   2100
+
+Homo_sapiens    2101 CCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTACAGGAATCCCA   2150
+                     |||||||||||||||||||||||.||.||.||||||||.|||||||||||
+Microcebus_mu   2101 CCGGAGCTGGGCAGTGGCTGTCCTCTCCGGATGGTGGTGCAGGAATCCCA   2150
+
+Homo_sapiens    2151 GCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGACACAG   2200
+                     |||||||||.|||.||||||||||||||||.|||||||||||||||||||
+Microcebus_mu   2151 GCTCACACCCCTGCGGAAGAAGTGGCTGCGTTACACTGACCTGGACACAG   2200
+
+Homo_sapiens    2201 ATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACAGAC   2250
+                     |.||||||||.||.|||||||||||||||||||||||||..||||||||.
+Microcebus_mu   2201 ACGACCGAGAGCTGCGTTACACAGTGACTCAGCCCCCCATGGACACAGAT   2250
+
+Homo_sapiens    2251 GAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTGACTGACAACCC   2300
+                     |||||.|||..|||||||||||||||.|||||||||.||||.||.|.|||
+Microcebus_mu   2251 GAAAACCACTCGCCAGCCCCACTGGGCACCTTGGTCCTGACGGAGAGCCC   2300
+
+Homo_sapiens    2301 CTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAACCATCATAAAA   2350
+                     |||||||||||||.||||||||||||||||||||||||||||.||.||||
+Microcebus_mu   2301 CTCAGTCGTGGTGTCCCATTTTACCCAAGCCCAGATCAACCACCACAAAA   2350
+
+Homo_sapiens    2351 TTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTACTCGAGTGGCC   2400
+                     ||||||||||||||||.||||.|||||||||.||||||||||||||||||
+Microcebus_mu   2351 TTGCTTACAGACCCCCAGGTCGAGAACTGGGAGTGGCTACTCGAGTGGCC   2400
+
+Homo_sapiens    2401 CAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTGGCTCCAGGTAC   2450
+                     ||||||||||||||||||||.||||||||||||||||||||||||||.||
+Microcebus_mu   2401 CAGTTCCAGTTCCAGGTGGAGGACCGAGCTGGGAATGTGGCTCCAGGCAC   2450
+
+Homo_sapiens    2451 CTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCTGAGATCCTCA   2500
+                     |||.||||||||||||||.|||||||||||||||||.|||||||||||||
+Microcebus_mu   2451 CTTCACCCTTTACTTGCAGCCCGTGGACAACCAGCCCCCTGAGATCCTCA   2500
+
+Homo_sapiens    2501 ACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCCTGAGTGAGACA   2550
+                     ||||||||||||||||||||.|||||||.||||||||||||||.|||||.
+Microcebus_mu   2501 ACACCGGCTTCACTATTCAGCAGAAGGGCCACCACATCCTGAGCGAGACT   2550
+
+Homo_sapiens    2551 GAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATATCTCTTTCAC   2600
+                     |||.|||||||||.|||||||||||||||.||||||||.|||||||||||
+Microcebus_mu   2551 GAGCTGCACGTGAGTGATGTAGACACTGACGTTGCCCACATCTCTTTCAC   2600
+
+Homo_sapiens    2601 TCTCACTCAGGCACCCAAACATGGCCACATGAGAGTGTCTGGACAGATCC   2650
+                     ||||||.||||||||||.||||||||||.||.||.|||||||||||||.|
+Microcebus_mu   2601 TCTCACACAGGCACCCAGACATGGCCACGTGCGACTGTCTGGACAGATAC   2650
+
+Homo_sapiens    2651 TGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAACAGGGCCGAGTT   2700
+                     |.|||||||||||.||||||||||||||||||||||||||||||.||.||
+Microcebus_mu   2651 TACATGTAGGGGGGCTCTTCCACTTGGAGGACATAAAACAGGGCAGAATT   2700
+
+Homo_sapiens    2701 TCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAGCTGCTCCTTGGA   2750
+                     |||||..||||.||||||||..||||..|||||||.||||||||.||.||
+Microcebus_mu   2701 TCCTACTCCCACAATGGGGATGAGTCTTTGACTGACAGCTGCTCTTTAGA   2750
+
+Homo_sapiens    2751 AGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAGAGTAAATGTCC   2800
+                     |||||||||||||||.||.|||||||||||||||||.|||||.|||||||
+Microcebus_mu   2751 AGTCAGTGACAGACACCACGTGGTGCCCATCACTCTTAGAGTGAATGTCC   2800
+
+Homo_sapiens    2801 GGCCAGTGGATGATGAAGTGCCCATACTGAGCCATCCTACTGGCACTCTG   2850
+                     |||||||||||||.||.|||.||||.||||||||||||.||||||||.||
+Microcebus_mu   2801 GGCCAGTGGATGAAGAGGTGTCCATGCTGAGCCATCCTTCTGGCACTGTG   2850
+
+Homo_sapiens    2851 GAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGAAATCACTGCCAA   2900
+                     |||||||||||.||||||||||||||..||||||||||||||||||||.|
+Microcebus_mu   2851 GAGTCCTATCTTGATGTCTTAGAAAACAGGGCTACTGAAATCACTGCCCA   2900
+
+Homo_sapiens    2901 TGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGATGTTGACTTTCC   2950
+                     |.|||||||||||||...||||||.||||||||.||||||||||||||||
+Microcebus_mu   2901 TATTATTAAGGGGACTGCTGAGGACACTGATGATTTGATGTTGACTTTCC   2950
+
+Homo_sapiens    2951 TCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTCAATGGCATTCCA   3000
+                     ||||||||||||||||.||.||||||||||||||.||||||||...|||.
+Microcebus_mu   2951 TCTTGGAAGATCCACCCTTATATGGGGAAATCTTAGTCAATGGAGCTCCG   3000
+
+Homo_sapiens    3001 GCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCTCTGTTGTATATAC   3050
+                     ||||||||||||||.|||||||||||||||||||||||||||||.|||.|
+Microcebus_mu   3001 GCAGAGCAGTTTACCCAAAGGGACATCTTGGAGGGCTCTGTTGTCTATGC   3050
+
+Homo_sapiens    3051 CCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGGATTCTTTTAACC   3100
+                     ||||||||||||||||||||||||.|||||.||||||||.||||||||||
+Microcebus_mu   3051 CCACACCAGTGGTGAGATAGGCCTGTTGCCCAAAGCGGACTCTTTTAACC   3100
+
+Homo_sapiens    3101 TGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGGTGGCAATACTATC   3150
+                     |||||||||||||.||||||||||||||||||||..|.||||.||.||||
+Microcebus_mu   3101 TGAGTCTGTCAGAAATGTCTCAAGAATGGAGAATCAGAGGCAGTATTATC   3150
+
+Homo_sapiens    3151 CAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTGATAGCCAGGCCCC   3200
+                     ||.|||||||||.|.||||||||||||||.||||||||.|||||||||||
+Microcebus_mu   3151 CATGGAGTTACTGTGTGGGTGACCATCCTCCCTGTTGACAGCCAGGCCCC   3200
+
+Homo_sapiens    3201 AGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAAGGTGATAAAAGTG   3250
+                     ||||||.|.|||.||.||||||||.|||||||||||||||||||||||||
+Microcebus_mu   3201 AGAAATTTCTGTGGGAGAACAGTTCATAGTAATGGAAGGTGATAAAAGTG   3250
+
+Homo_sapiens    3251 TTATAACATCAGTGCATATAAGTGCTGAAGATGTCGACTCCCTGAATGAT   3300
+                     |||||||.|||.||||||||||||||||||||||.||.||||.|||.|||
+Microcebus_mu   3251 TTATAACTTCAATGCATATAAGTGCTGAAGATGTGGATTCCCAGAACGAT   3300
+
+Homo_sapiens    3301 GACATCTTGTGCACTATAGTTATTCAGCCTACTTCAGGTTATGTTGAAAA   3350
+                     ||||||||||||||||||||||||||||||||.||.||||||||||||||
+Microcebus_mu   3301 GACATCTTGTGCACTATAGTTATTCAGCCTACCTCCGGTTATGTTGAAAA   3350
+
+Homo_sapiens    3351 CATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCATAA   3400
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+Microcebus_mu   3351 CATTTCTCCAGCGCCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCATAA   3400
+
+Homo_sapiens    3401 GTGCTTTCAACT-TGAAAGATCTCAGGCAGGGCCACATAAACTATGTCCA   3449
+                     ||||||| .||| ||||.||||||||.||||..|||||.||.||||||||
+Microcebus_mu   3401 GTGCTTT-TACTCTGAAGGATCTCAGACAGGCTCACATTAATTATGTCCA   3449
+
+Homo_sapiens    3450 GAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGATTTGTATTTCGTT   3499
+                     |||||||||||||||||||||.||||||||.||.||||||.|||||||||
+Microcebus_mu   3450 GAGTGTCCATAAAGGGGTGGAGCCTGTGGAAGATCGATTTCTATTTCGTT   3499
+
+Homo_sapiens    3500 GTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTTCCCCATTGTAATC   3549
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+Microcebus_mu   3500 GTTCTGATGGCATTAACTTTTCAGAGAGACATTTCTTCCCCATTGTAATC   3549
+
+Homo_sapiens    3550 ATTCCCACCAATGATGAACAGCCAGAGATGTTTATGAGAGAATTTATGGT   3599
+                     |||||||||||.|||||||||||.||||||||.|||||||||||||||||
+Microcebus_mu   3550 ATTCCCACCAACGATGAACAGCCGGAGATGTTCATGAGAGAATTTATGGT   3599
+
+Homo_sapiens    3600 GATGGAAGGCATGAGTCTGGTAATTGATACACCCATTCTCAATGCTGCTG   3649
+                     |||||||||||||||||||||.|||||.||||||||||||||.|||||||
+Microcebus_mu   3600 GATGGAAGGCATGAGTCTGGTCATTGACACACCCATTCTCAACGCTGCTG   3649
+
+Homo_sapiens    3650 ATGCTGATGTTCCCCTGGATGATTTAACTTTCACTATTACCCAATTCCCC   3699
+                     |||||||..||||||..||||||||||||||||||||||||||||||||.
+Microcebus_mu   3650 ATGCTGACATTCCCCCAGATGATTTAACTTTCACTATTACCCAATTCCCT   3699
+
+Homo_sapiens    3700 ACTCATGGTCACATCATGAATCAGCTGATAAATGGCACGGTTTTGGTCGA   3749
+                     ||||||||||||.|||||||.|||.|||||||||||||||||||||||||
+Microcebus_mu   3700 ACTCATGGTCACGTCATGAACCAGATGATAAATGGCACGGTTTTGGTCGA   3749
+
+Homo_sapiens    3750 AAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCATTATTTATGAGC   3799
+                     |||||||||||||||.||||||||||||||||||||||||||.|||||||
+Microcebus_mu   3750 AAGCTTCACCTTGGACCAGATCATAGAGAGTTCCAGCATTATCTATGAGC   3799
+
+Homo_sapiens    3800 ATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATTAAACTAACAGAT   3849
+                     ||||||||||.||||||||||||||||||.|.||||||||||||||||||
+Microcebus_mu   3800 ATGATGACTCTGAGACCCAGGAAGACAGTCTGGTGATTAAACTAACAGAT   3849
+
+Homo_sapiens    3850 GGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGTTATCCCTGTTGA   3899
+                     ||.|||||||||||||||||||||||||||.||||.||.|||||||||||
+Microcebus_mu   3850 GGCAAGCACTCTGTGGAAAAGACGGTCCTCGTTATGGTCATCCCTGTTGA   3899
+
+Homo_sapiens    3900 TGATGAGACGCCCAGAATGACTATCAATAATGGACTAGAAATAGAAATTG   3949
+                     |||.|||||.|||||||||.|.||||||||||||||||||||||||||||
+Microcebus_mu   3900 TGACGAGACCCCCAGAATGGCCATCAATAATGGACTAGAAATAGAAATTG   3949
+
+Homo_sapiens    3950 GGGATACCAAGATTATCAACAACAAAATATTAATGGCAACAGATTTAGAT   3999
+                     ||||.|||||.|||||||||||||||||||||||||||||.||.|||||.
+Microcebus_mu   3950 GGGAAACCAAAATTATCAACAACAAAATATTAATGGCAACTGACTTAGAC   3999
+
+Homo_sapiens    4000 TCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGGGCCAGGACATGG   4049
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+Microcebus_mu   4000 TCAGAAGATAAATCTTTGGTTTATATTATTCGTTATGGGCCAGGACATGG   4049
+
+Homo_sapiens    4050 CTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAATATCACACTGG   4099
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+Microcebus_mu   4050 CTTATTACAGAGACGAAAACCTACGGGTGCCTTTGAAAATATCACACTGG   4099
+
+Homo_sapiens    4100 GCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAATTCAGTATGTC   4149
+                     |||||||||||||.||||||||.||.||||||||||||||||||||||||
+Microcebus_mu   4100 GCATGAATTTTACACAGGATGAGGTGGACAGAAACTTAATTCAGTATGTC   4149
+
+Homo_sapiens    4150 CATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTTGATGTGACTGA   4199
+                     |||.|.||||||||.|||||.||.|||||.|||||.||||||||||||||
+Microcebus_mu   4150 CATGTTGGGCAAGAAGGCATCCGAGACCTGATTAAGTTTGATGTGACTGA   4199
+
+Homo_sapiens    4200 TGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTCCATCGGGAGCA   4249
+                     |||||.||||.|||||||||||||.|||||.||.||||||||.|||||||
+Microcebus_mu   4200 TGGAACAAATGCCCTCATAGATCGCTACTTCTACGTGTCCATTGGGAGCA   4249
+
+Homo_sapiens    4250 TTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAGAA   4299
+                     |||||||||||||||||.||||||||||||||||||||||.||||.||||
+Microcebus_mu   4250 TTGACATTGTCTTCCCTAATGTGATAAGTAAGGGAGTGTCTTTGAGAGAA   4299
+
+Homo_sapiens    4300 GGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACTAGTGACTTGAA   4349
+                     |||||||..||||||||.||||||||||||||.|||||.|||||||||||
+Microcebus_mu   4300 GGTGGCAGGGTCACTCTCACAACAGACCTACTGAGCACCAGTGACTTGAA   4349
+
+Homo_sapiens    4350 CAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGCTCCCATGCGAG   4399
+                     ||||||||||||||||||.|||||.|||||||||||||||||||||||||
+Microcebus_mu   4350 CAGTCCTGATGAAAACTTAGTTTTCACCATCACCAGGGCTCCCATGCGAG   4399
+
+Homo_sapiens    4400 GTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCACGTCTTTCACT   4449
+                     |||||.|.||.|||||.||.||.|||||.|||||.|||||||||||||||
+Microcebus_mu   4400 GTCACTTAGAGTGCACAGACCAACCTGGAGTGTCTATCACGTCTTTCACT   4449
+
+Homo_sapiens    4450 CAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCACACAGCTGATGA   4499
+                     |||||.||.||||||||.|||||||||||.||||||||||||||.||.||
+Microcebus_mu   4450 CAGCTCCAGCTGGCTGGCAACAAAATCTATTACATCCACACAGCCGACGA   4499
+
+Homo_sapiens    4500 TGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGATGGACGTAACC   4549
+                     |||.|||||.|||||||||||||||||||||||||||||.||||||||||
+Microcebus_mu   4500 TGAGGTGAAGATGGACAGTTTTGAGTTTCAAGTCACCGACGGACGTAACC   4549
+
+Homo_sapiens    4550 CTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGGACAATAAAAAG   4599
+                     |||||||||||||||||||.|||||.|||||.||.||||||||.||||||
+Microcebus_mu   4550 CTGTCTTTCGGACATTCCGCATCTCAATTAGTGACGTGGACAACAAAAAG   4599
+
+Homo_sapiens    4600 CCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACAAGCT   4649
+                     ||.|||||.||.|||||||..|||||||||||||||||||||||.|||||
+Microcebus_mu   4600 CCGGTGGTGACAATCCACAGCCTGGTTGTCAGTGAAAGTGAAAATAAGCT   4649
+
+Homo_sapiens    4650 GATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATACTCCTGACAAGC   4699
+                     |||||||||.|||||.||||||||.|||||||||||||||||||||||.|
+Microcebus_mu   4650 GATTACTCCCTTTGAACTCACTGTTGAAGACAGAGATACTCCTGACAAAC   4699
+
+Homo_sapiens    4700 TCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCCATCTCCTATTC   4749
+                     ||||||||||||||.||||||||||.|||.|||||||||.||||||.|||
+Microcebus_mu   4700 TCCTGAAATTCACTGTCACCCAGGTACCTGTTCATGGCCGTCTCCTGTTC   4749
+
+Homo_sapiens    4750 AACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGAATGAAAA   4799
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+Microcebus_mu   4750 AACAATACCAGACCTGTCACGGTTTTTACCAAGCAAGACTTGAATGAAAA   4799
+
+Homo_sapiens    4800 CTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGATAGCTTCT   4849
+                     |||||||||||||||||||||.||||||||||||||||||||||||||||
+Microcebus_mu   4800 CTTAATCAGCTACAAACATGACGGCACTGAGTCAAGTGAAGATAGCTTCT   4849
+
+Homo_sapiens    4850 CCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTTTCCTGAT   4899
+                     |||||||||||||||||||||||||||||||||||||||||||.||..||
+Microcebus_mu   4850 CCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTTCCCGAAT   4899
+
+Homo_sapiens    4900 ACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGATCCAGGTCTTGGC   4949
+                     |||||.|||||||||||||||||||||||||||||||||||||||||.||
+Microcebus_mu   4900 ACGGTATTTGAAACAAGGAGACCCCAAGTGATGAAGATCCAGGTCTTAGC   4949
+
+Homo_sapiens    4950 TGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCTCTACAC   4999
+                     |||||||||.||||.|||||||||.|||||||||||.|||||||||||||
+Microcebus_mu   4950 TGTTGACAATAGTGCCCCCCAAATTGCAGTGAATAAAGGGGCCTCTACAC   4999
+
+Homo_sapiens    5000 TTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCACAAGCAAAATA   5049
+                     ||||||||||.|||||||||||||||||||||||||||||||||||.|||
+Microcebus_mu   5000 TTCGCACTCTGGCCACTGGCCACTTGGGGTTCATGATCACAAGCAAGATA   5049
+
+Homo_sapiens    5050 TTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCTTAGATTTATCGT   5099
+                     .|.|||||||||||||||||||||.||.||.||||||||||.|||||.||
+Microcebus_mu   5050 CTAAAAGTGGAGGACAGAGACAGCCTATACCTTTCTCTTAGGTTTATTGT   5099
+
+Homo_sapiens    5100 GACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGGACAAAGGCAACC   5149
+                     ||||||||||||||.||||||.||.|||||||||||||.||.||||||||
+Microcebus_mu   5100 GACAGAGGCCCCTCGACATGGGTACCTTCTCAACCTGGGCAGAGGCAACC   5149
+
+Homo_sapiens    5150 ACAGCATCACTCAGTTCACACAAGCTGACATTGATGACATGAAAATATGC   5199
+                     ||||||||||..||||.||.||||||||||||||.|||||||.|||||||
+Microcebus_mu   5150 ACAGCATCACCGAGTTTACCCAAGCTGACATTGACGACATGAGAATATGC   5199
+
+Homo_sapiens    5200 TATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATGTTCTATTTTGC   5249
+                     ||||||||||||||||||||.|||||||||||.|||||||||.|||||||
+Microcebus_mu   5200 TATGTCTTAAGAGAAGGGGCCAATGCCACAAGCGATATGTTCCATTTTGC   5249
+
+Homo_sapiens    5250 AGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAATTTTCGTCTGA   5299
+                     |||.||||||||.|||||||||||||||||..|||||.||||||||||||
+Microcebus_mu   5250 AGTAGAAGATGGCGGTGGAAACAAGTTAACCAACCAGCATTTTCGTCTGA   5299
+
+Homo_sapiens    5300 ATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGGTCAATGAGGAC   5349
+                     |.||||||||||||||||||||||||||||||||||||.|||||||||||
+Microcebus_mu   5300 ACTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGATCAATGAGGAC   5349
+
+Homo_sapiens    5350 TCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTACTTGGGAGAAAC   5399
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+Microcebus_mu   5350 TCCAAATTTCTAGATGTCGTTCTTAAACGTAGAGGTTACTTGGGAGAAAC   5399
+
+Homo_sapiens    5400 TTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGAAAAAGACAAAG   5449
+                     ||||||||||||||||||||||||||||.|.||||||.||||||||||||
+Microcebus_mu   5400 TTCTTTTATAAGTATTGGCACAAGAGACGGGACTGCAAAAAAAGACAAAG   5449
+
+Homo_sapiens    5450 ACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACCCAGGCCAGACC   5499
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+Microcebus_mu   5450 ACTTCAAGGGCAAAGCGCAGAAACAAGTGCAGTTCAACCCAGGCCAGACC   5499
+
+Homo_sapiens    5500 AGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAGCATGAGCAGTC   5549
+                     |..|||||.|||.|.||||||.||||||||||.||||||||.|||||.||
+Microcebus_mu   5500 AAAGCCACGTGGAGGGTGCGGCTCCTGAGTGACGGGGAGCACGAGCACTC   5549
+
+Homo_sapiens    5550 TGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGCTGCCTTGGAAT   5599
+                     |||.|||||.||||||||.|||||.|||||.||||||||..||.|.||||
+Microcebus_mu   5550 TGAGACCTTCCAGGTGGTTCTCTCCGAGCCGGTGCTGGCCACCCTAGAAT   5599
+
+Homo_sapiens    5600 TCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAGATGAGCCAACT   5649
+                     |||||.||||.|||||.||.||||||.||||.||||||||.||..|.|||
+Microcebus_mu   5600 TCCCCGCAGTGGCCACGGTGGAGATCATTGACCCAGGAGACGAATCTACT   5649
+
+Homo_sapiens    5650 GTGTTTATTCCCCAGTCCAAATACTCCGTTGAAGAAGATGTTGGTGAGCT   5699
+                     ||.||||||||||||||..||||||||.|||||||||||||||||||.||
+Microcebus_mu   5650 GTATTTATTCCCCAGTCTGAATACTCCATTGAAGAAGATGTTGGTGAACT   5699
+
+Homo_sapiens    5700 GTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGAGTTGATGGTGG   5749
+                     .|.||||||.||||||||.||.||||||||.|||||||||||.||||||.
+Microcebus_mu   5700 CTACATTCCTATCAGGAGAAGTGGAGATGTCAGCCAGGAGTTAATGGTGA   5749
+
+Homo_sapiens    5750 TCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGCCGACTTCCGTG   5799
+                     |||||||.||||||||||||||.|||||.|||||||||||.|||||.|||
+Microcebus_mu   5750 TCTGTTACACCCAACAAGGAACGGCAACCGGAACTGTGCCCACTTCAGTG   5799
+
+Homo_sapiens    5800 TTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCACACCAGTGTTGT   5849
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+Microcebus_mu   5800 TTGTCTTATTCTGATTACATATCCAGGCCTGAGGACCACACCAGTGTTGT   5849
+
+Homo_sapiens    5850 CCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGATAGTCATAATTG   5899
+                     |||||||||||.|||||||||.||||||.||||.||.|||||..|.||||
+Microcebus_mu   5850 CCGCTTTGACAGAGATGAACGAGAGAAAATGTGCCGCATAGTTGTTATTG   5899
+
+Homo_sapiens    5900 ATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCCTTCTGAGCATG   5949
+                     |.|||||..|||||||.||||||||.||||||||.|||||||||||||||
+Microcebus_mu   5900 ACGACTCCCTGTACGAAGAGGAGGAGACCTTCCAGGTCCTTCTGAGCATG   5949
+
+Homo_sapiens    5950 CCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCTCAAGTTACAAT   5999
+                     ||||||||.||.||.||||||.|||||||||||||||||||.|||||.||
+Microcebus_mu   5950 CCCATGGGCGGGAGGATCGGAGCAGAGTTCCCAGGGGCTCAGGTTACGAT   5999
+
+Homo_sapiens    6000 CGTTCCTGACAAAGATGATGAACCCATCTTTTACTTCGGTGATGTGGAAT   6049
+                     |.|.||||||||||||||||||||||||||.|||||.||.||.||||..|
+Microcebus_mu   6000 CATCCCTGACAAAGATGATGAACCCATCTTCTACTTTGGCGACGTGGCGT   6049
+
+Homo_sapiens    6050 ACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGGTGTGGAGAACG   6099
+                     ||||.|||||.||||||||.|||.|.||||||||||.|||||||||.|..
+Microcebus_mu   6050 ACTCCGTGGACGAGAGTGCCGGCCACGTGGAAGTGCGGGTGTGGAGGAGT   6099
+
+Homo_sapiens    6100 GGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGAGGTCTCGGAAAAC   6149
+                     |||||.||||||||||.|.|||||||||||||.||||||||||||||.||
+Microcebus_mu   6100 GGCACCGACCTGTCCAGGGCTTCTAGTGTCACCGTGAGGTCTCGGAAGAC   6149
+
+Homo_sapiens    6150 AGATCCTCCCTCTGCAGATGCTGGAACAGACTATGTGGGCATCAGCCGTA   6199
+                     .||||||||||||||.|||||||||||||||||||||||.|||||.||||
+Microcebus_mu   6150 GGATCCTCCCTCTGCGGATGCTGGAACAGACTATGTGGGAATCAGTCGTA   6199
+
+Homo_sapiens    6200 ATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTGTTCGTGTTGTCATT   6249
+                     ||||||||||||||||||||||||||||||||.|||||||||||||||||
+Microcebus_mu   6200 ATTTAGATTTTGCACCTGGAGTCAACATGCAGACTGTTCGTGTTGTCATT   6249
+
+Homo_sapiens    6250 CTGGATGACCTTGGACAACCAGCGCTGGAGGGAATTGAGAAATTTGAACT   6299
+                     |||||||||||.|||||.||||.|.||||||||||.||||.|||||||||
+Microcebus_mu   6250 CTGGATGACCTCGGACAGCCAGTGTTGGAGGGAATGGAGACATTTGAACT   6299
+
+Homo_sapiens    6300 GGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGAGCCCAGCAAAGCCA   6349
+                     .||||||||.||||||||||||||||||||.|||||||||||||||||||
+Microcebus_mu   6300 AGTGCTTCGGATGCCTATGAACGCAGCCCTCGGCGAGCCCAGCAAAGCCA   6349
+
+Homo_sapiens    6350 CAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTAAGATGCAATTCAAA   6399
+                     |||||||||||||||||||||.|||.||||||||.|||||||||||||||
+Microcebus_mu   6350 CAGTGTCCATAAATGACTCTGCCTCTGATTTGCCCAAGATGCAATTCAAA   6399
+
+Homo_sapiens    6400 GAACGAATATATACTGGCAGCGAAAGTGATGGGCAGATAGTTACAATGAT   6449
+                     ||||||.|||||||||||||.||.|.||||||||||.|.|||.|||||||
+Microcebus_mu   6400 GAACGAGTATATACTGGCAGTGAGAATGATGGGCAGGTGGTTGCAATGAT   6449
+
+Homo_sapiens    6450 CCATAGGACTGGGGATGTCCAGTACAGATCTTCAGTGAGATGCTACACCC   6499
+                     |||.||||.|||.||...|||||||||.|||||.||||||||||||||||
+Microcebus_mu   6450 CCACAGGAGTGGAGACAGCCAGTACAGGTCTTCGGTGAGATGCTACACCC   6499
+
+Homo_sapiens    6500 GGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGAACGCCCAAACACT   6549
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+Microcebus_mu   6500 GGCAGGGGTCTGCACAGGTGATGATGGACTTCGAAGAACGCCCAAACACT   6549
+
+Homo_sapiens    6550 GATACCTCCATCATCACATTCCTCCCTGGTGAGACAGAAAAGCCCTGCAT   6599
+                     |||..|||||.|||||||||.||||||||||||||.||||||||||||||
+Microcebus_mu   6550 GATGTCTCCACCATCACATTTCTCCCTGGTGAGACTGAAAAGCCCTGCAT   6599
+
+Homo_sapiens    6600 TCTTGAGCTGATGGACGATGTGCTCTATGAGGAGGTAGAGGAGCTCCGCC   6649
+                     .||.||||||||||||||.||.|||||.||||||||.|||||||||||||
+Microcebus_mu   6600 CCTCGAGCTGATGGACGACGTTCTCTACGAGGAGGTGGAGGAGCTCCGCC   6649
+
+Homo_sapiens    6650 TGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTGGGGCTGCAGTTGGT   6699
+                     |||||||.||||||||.||.||||.|||.|||||.|||||||||||||||
+Microcebus_mu   6650 TGGTACTGGGCACTCCGCAGAGCAGCTCCCCCTTCGGGGCTGCAGTTGGT   6699
+
+Homo_sapiens    6700 GAACAAAATGAAACTCTCATAAGGATCCGAGATGATGCTGATAAGACTGT   6749
+                     |||||||||||||||||.|||||||||||||||||.||||||||||||||
+Microcebus_mu   6700 GAACAAAATGAAACTCTGATAAGGATCCGAGATGACGCTGATAAGACTGT   6749
+
+Homo_sapiens    6750 TATTAAATTTGGAGAAACCAAATTTAGTGTCACTGAACCCAAAGAACCTG   6799
+                     ||||||.||||||||||||||||||||.||||||||||||||||||||||
+Microcebus_mu   6750 TATTAAGTTTGGAGAAACCAAATTTAGCGTCACTGAACCCAAAGAACCTG   6799
+
+Homo_sapiens    6800 GAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCCAAGGAGACACTTCA   6849
+                     |||||||.|||||..|.|.|||.||||||||.|||||||||||||||||.
+Microcebus_mu   6800 GAGAGTCCGTGGTCCTCACAATCCCAGTGATCCGCCAAGGAGACACTTCC   6849
+
+Homo_sapiens    6850 AAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCTCGGCCACCTCTGG   6899
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+Microcebus_mu   6850 AAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCTCGGCCACCTCCGG   6899
+
+Homo_sapiens    6900 AGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTTTAAGGAAGGGGAAA   6949
+                     |||||||||.|||||.|||||.|||||||||||||||||||||||.||||
+Microcebus_mu   6900 AGAAGACTATCACCCCGTGTCCGAAGAAATTGAGTTTAAGGAAGGAGAAA   6949
+
+Homo_sapiens    6950 CCCAGCAC-GTGGTTGAAATCGAAGTTACCTTTGACGGGGTGAGAGAGAT   6998
+                     |||||||| || ||||||||.|||||.|.||||||.|||||.||||||||
+Microcebus_mu   6950 CCCAGCACAGT-GTTGAAATTGAAGTCATCTTTGATGGGGTAAGAGAGAT   6998
+
+Homo_sapiens    6999 GAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAAATATGATAGCAG   7048
+                     |||||||||||||||.||||||||||||||.|||||||||||||||||||
+Microcebus_mu   6999 GAGAGAGGCCTTCACCGTTCACCTAAAACCCGATGAAAATATGATAGCAG   7048
+
+Homo_sapiens    7049 AGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAAATGAGCAGCATG   7098
+                     |||..|||..|||.||.|||||||||||.||||||||||.||.|||||||
+Microcebus_mu   7049 AGACTCAGGCGACCAAGGCCATTGTGTATATAGAAGAAACGAACAGCATG   7098
+
+Homo_sapiens    7099 GCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATCCCTGTTGATGTA   7148
+                     |||||||||||||||||.||.||.|||||.||..|.||||||||||||||
+Microcebus_mu   7099 GCAGATGTCACTTTTCCATCCGTTCCTCAGATCATGTCCCTGTTGATGTA   7148
+
+Homo_sapiens    7149 TGACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCCATGTCTGGCTATC   7198
+                     .||||||.|.||||.||||||||||||.||||.||||.||||||||||||
+Microcebus_mu   7149 CGACGACTCGTCCAGAGCTAAGGAGAGCGCTGGACCCGTGTCTGGCTATC   7198
+
+Homo_sapiens    7199 CTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCAGACTACGATAAA   7248
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+Microcebus_mu   7199 CTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCAGACTACGACAAA   7248
+
+Homo_sapiens    7249 ACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACACTTTGACGCGGTA   7298
+                     |||||||||||.|||||.||||||||.|||||||||||||||||||||||
+Microcebus_mu   7249 ACAGGCTCTATTTGTGCGAGTGAGAATATCAATGACACTTTGACGCGGTA   7298
+
+Homo_sapiens    7299 CCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTGTGACCAGCCCTA   7348
+                     |.|.||||||||.||.||||||||.|||||||||||.||.||||||||.|
+Microcebus_mu   7299 CAGATGGCTGATCAGCGCACCTGCCGGCCCTGACGGCGTAACCAGCCCCA   7348
+
+Homo_sapiens    7349 TGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATCCAAGATGGTCACA   7398
+                     ||||||||.|||||||||||||||||||.||.||.|||||||||.||||.
+Microcebus_mu   7349 TGAGAGAACTGGACTTCGACACCTTTTTCACATCGTCCAAGATGATCACG   7398
+
+Homo_sapiens    7399 CTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTACAGTGCGCAGCTCG   7448
+                     |||||||||||.|||||.|||||.|||||.|||||.||||||||.|||||
+Microcebus_mu   7399 CTGGACTCCATCTACTTCCAGCCCGGCTCGCGGGTGCAGTGCGCGGCTCG   7448
+
+Homo_sapiens    7449 TGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCATGAGCCCTATTG   7498
+                     ||||||||||.||.|||||||.||||||||||||||.||||||||.||||
+Microcebus_mu   7449 TGCTGTGAACGCCGATGGGGACGAAGGCCTGGAGCTGATGAGCCCCATTG   7498
+
+Homo_sapiens    7499 TAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGTGTACCTGGGGTT   7548
+                     |.|||||..|||||||.|||||||||||.||||||||.||.||||||||.
+Microcebus_mu   7499 TGACCATTGGCAGAGAGGAAGGTCTTTGCCAGCCCCGCGTGCCTGGGGTG   7548
+
+Homo_sapiens    7549 GTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACACAGGCCCTGAGGA   7598
+                     ||.||.|||||||||||||||||.|||.||||||||||.|||||||||||
+Microcebus_mu   7549 GTGGGGGCAGAGCCGTTCTCAGCGAAACTGCGCTACACGGGCCCTGAGGA   7598
+
+Homo_sapiens    7599 TGCAGACTACACAAACCTTATCAAGCTCACTGTCACAATGCCACACATAG   7648
+                     |||||||.||||||||||.|||||||||||||||||.|||||||||||||
+Microcebus_mu   7599 TGCAGACCACACAAACCTCATCAAGCTCACTGTCACGATGCCACACATAG   7648
+
+Homo_sapiens    7649 ATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCCAACTTTGAGCTC   7698
+                     |||||||||||||.||.|||||||||||||||||||||||||||||||||
+Microcebus_mu   7649 ATGGCATGCTCCCTGTCATCTCCACTAGAGAGCTTTCCAACTTTGAGCTC   7698
+
+Homo_sapiens    7699 ACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAAGTGCTCCAACCT   7748
+                     |||||.|||||.|||||||||||..|||||||||||||||||||||||||
+Microcebus_mu   7699 ACCCTGAGCCCCGATGGCACAAGGATTGGAAACCACAAGTGCTCCAACCT   7748
+
+Homo_sapiens    7749 CCTGGATTATACTGAAGTGAAGACTCATTATGGTTTCTTGACTGATGCTA   7798
+                     ||||||||||||.||||||||.||.||..|||||||||||||||||||||
+Microcebus_mu   7749 CCTGGATTATACCGAAGTGAAAACCCACCATGGTTTCTTGACTGATGCTA   7798
+
+Homo_sapiens    7799 CCAAAAATCCAGAAATAATTGGAGAGACATATCCTTACCAGTACAGCTTG   7848
+                     |.||||||||||||||.||||||||||||||||||||.||||.|||.|..
+Microcebus_mu   7799 CAAAAAATCCAGAAATCATTGGAGAGACATATCCTTATCAGTTCAGTTCA   7848
+
+Homo_sapiens    7849 TCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAACCTGAACCTAGA   7898
+                     ||.|||||||||||.|.||||||.|||||||||||.|||||||||||.||
+Microcebus_mu   7849 TCTATCAGAGGTTCTAGTACCTTACGCTTCTACCGCAACCTGAACCTGGA   7898
+
+Homo_sapiens    7899 GGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGTCAGAACTCCTTG   7948
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||..
+Microcebus_mu   7899 GGCCTGTTTATGGGAGTTTGTTAGCTACTATGACATGTCAGAACTCCTCA   7948
+
+Homo_sapiens    7949 CTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTCCTAAACCTAGTG   7998
+                     |.||||||||.|||||||||||||||||.|||||||||||||||||||||
+Microcebus_mu   7949 CCGACTGTGGAGGCACCATTGGAACAGACGGACAGGTCCTAAACCTAGTG   7998
+
+Homo_sapiens    7999 CAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCA   8048
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Microcebus_mu   7999 CAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCA   8048
+
+Homo_sapiens    8049 TTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGC   8098
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||||
+Microcebus_mu   8049 TTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTTGAAATCAGAGC   8098
+
+Homo_sapiens    8099 TTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGGAATGATGGAATT   8148
+                     |||||||.|||||||||||||||||.||||||||||||||.||.||.|||
+Microcebus_mu   8099 TTCGTCTGACTTTTGTGTACGACACTGCCATCTTGTGGAACGACGGGATT   8148
+
+Homo_sapiens    8149 GGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTATCCAACCAGCAT   8198
+                     |||||||||||.||.||.|||||.||||||||.|||||.|||||||||||
+Microcebus_mu   8149 GGCAGCCCCCCGGAAGCAGAACTCCAAGGTTCCCTCTACCCAACCAGCAT   8198
+
+Homo_sapiens    8199 GCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCAAGACAGAGGCTC   8248
+                     ||||||||||||.|||||||||.||||.||||||||||||||..||||||
+Microcebus_mu   8199 GCGCATCGGTGAGGAGGGGCGCCTGGCGGTGCACTTCAAGACCAAGGCTC   8248
+
+Homo_sapiens    8249 AGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCCTTTACAAGCTCA   8298
+                     |.|||||.|||||.|||||||||||||||||.||.|||||||||||||||
+Microcebus_mu   8249 ACTTCCACGGCTTGTTTGTGCTGTCACATCCGGCGTCCTTTACAAGCTCA   8298
+
+Homo_sapiens    8299 GTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTCCCTCCGCCTCAT   8348
+                     ||||||||||||.||.|||||||.||||||||.||.||||||||||||||
+Microcebus_mu   8299 GTGATCATGTCAACTAATCATCCGGGCCTGACGTTCTCCCTCCGCCTCAT   8348
+
+Homo_sapiens    8349 AAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGTGGAGCTTTGTCT   8398
+                     ||||||||||||.||||||||||||||.||||||||.||||||||.||||
+Microcebus_mu   8349 AAGGAGTGAACCGACCTATAACCAGCCGGTACAGCAATGGAGCTTCGTCT   8398
+
+Homo_sapiens    8399 CTGACTTTGCCGTACGTGACTACTCAGGGACCTATACTGTGAAGCTGGTG   8448
+                     ||||||||||.||.|||||||||||.|||||||||||.||.||.|||.||
+Microcebus_mu   8399 CTGACTTTGCAGTGCGTGACTACTCGGGGACCTATACAGTAAAACTGTTG   8448
+
+Homo_sapiens    8449 CCATGCACTGCCCCATCACATCAGGAATACCGCCTGCCAGTCACCTGCAA   8498
+                     |||||.||..|||||.|.||||||||..||||||||||.|||||||||||
+Microcebus_mu   8449 CCATGTACCACCCCACCCCATCAGGAGCACCGCCTGCCCGTCACCTGCAA   8498
+
+Homo_sapiens    8499 CCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGATTCCAACAGGTCA   8548
+                     |||||||||.|||||||||||||||||.||||||||.|||||||||||||
+Microcebus_mu   8499 CCCCAGAGAGCCTGTCACCTTTGACCTGGACATCCGCTTCCAACAGGTCA   8548
+
+Homo_sapiens    8549 GTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAAATGTACCTGCTC   8598
+                     |||||||||||||.||||||||||||||||||||||||||||||||.|||
+Microcebus_mu   8549 GTGATCCAGTGGCGGCTGAGTTTAGCTTGAACACCCAAATGTACCTACTC   8598
+
+Homo_sapiens    8599 TCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGATTCGGGCAAGA   8648
+                     ||.||||||||||||||||||||||||||||||||||||||.||||||||
+Microcebus_mu   8599 TCCAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGATTTGGGCAAGA   8648
+
+Homo_sapiens    8649 GAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTATGGTCGTGTCATGG   8698
+                     ||||||||||||||||||||||||||||||.||||||||.|||||.||||
+Microcebus_mu   8649 GAGTGATGTTGCTTTTGCAGAAGGTGATATCATTTATGGCCGTGTTATGG   8698
+
+Homo_sapiens    8699 TGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAG   8748
+                     ||||||||||||||||||||||.|||||||||.||||||||||.||||||
+Microcebus_mu   8699 TGGATCCTGTCCAGAATCTGGGGGACTCCTTTCACTGCAGCATAGAGAAG   8748
+
+Homo_sapiens    8749 GTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCAAGTATAGTCCAAT   8798
+                     |||||..|.|||||.||.||.||.||||||||.||||||||.||.||...
+Microcebus_mu   8749 GTGTTCTTGTGCACGGGCGCGGACGGCTATGTCCCCAAGTACAGCCCGGC   8798
+
+Homo_sapiens    8799 GAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTCACTCTTATATAGAT   8848
+                     |||||||||.||.||||||.|.||.|||||||||||||||||.|||.|||
+Microcebus_mu   8799 GAATGCAGAGTACGGCTGCCTGGCGGACTCTCCTTCACTCTTGTATCGAT   8848
+
+Homo_sapiens    8849 TTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTTGGA   8898
+                     |||||||||||||||||||.|||||||||||||||||.|||||.|||||.
+Microcebus_mu   8849 TTAAAATTGTGGACAAAGCCCAGCCAGAGACACAAGCCACCAGCTTTGGG   8898
+
+Homo_sapiens    8899 AATGTCCTATTTAATGCCAAACTAGCAGTGGATGACCCTGAAGCCATTCT   8948
+                     ||||||||.||||||||||||||.||.|..|||||||||||.||||||||
+Microcebus_mu   8899 AATGTCCTGTTTAATGCCAAACTGGCCGCAGATGACCCTGAGGCCATTCT   8948
+
+Homo_sapiens    8949 CTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGACTCAACACCAC   8998
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+Microcebus_mu   8949 CTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGACTCAACACCGC   8998
+
+Homo_sapiens    8999 TCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACATACGATCTATACA   9048
+                     ||||||||||.|||||.||||||||||||||||||||.||.|||||.||.
+Microcebus_mu   8999 TCTTTCAGGTTGCTCTGGGCCGAGAATGGTATATACACACAATCTACACG   9048
+
+Homo_sapiens    9049 GTGAGATCGAAAGACAATGCCAATCGAGGTATTGGCAAAAGAAGTGTGGA   9098
+                     ||.|..||.||||||||..|||||||||||||||||||.|||||.|||||
+Microcebus_mu   9049 GTAAAGTCAAAAGACAACACCAATCGAGGTATTGGCAAGAGAAGCGTGGA   9098
+
+Homo_sapiens    9099 GTACCATTCTCTGGTGAGTCAAGGAAAGCCCCAATCCACCACCAAGAGCC   9148
+                     ||||||.|||||||.|.|||||||.|||||||||.|||||||||||||||
+Microcebus_mu   9099 GTACCACTCTCTGGCGGGTCAAGGCAAGCCCCAAGCCACCACCAAGAGCC   9148
+
+Homo_sapiens    9149 GGAAGAAGAGAGAGATCAGGAGCACACCCTCACTGGCATGGGAGATTGGT   9198
+                     .|||||.|.|.||||||||||||...|||.|..||||.|||||.||||||
+Microcebus_mu   9149 AGAAGAGGCGGGAGATCAGGAGCGTGCCCCCGTTGGCGTGGGAAATTGGT   9198
+
+Homo_sapiens    9199 GCTGAAAACAGTCGAGGAACAAACATCCAGCACATTGCCCTGGACCGCAC   9248
+                     ||||||||||..||||||||.||||||||||||||||||||||||.||||
+Microcebus_mu   9199 GCTGAAAACAACCGAGGAACCAACATCCAGCACATTGCCCTGGACTGCAC   9248
+
+Homo_sapiens    9249 ---CAAGAGGCAGATCCCCCATGGGAGAGCACCTCCAGATGGCATCCTCC   9295
+                        |||||.||||.|||||||.|||||||..|||||.|||||||||||.|
+Microcebus_mu   9249 CGGCAAGAAGCAGGTCCCCCAGGGGAGAGTCCCTCCGGATGGCATCCTGC   9298
+
+Homo_sapiens    9296 CCTGGGAGCTCAACAGCCCCAGCTCTGCAGTCAGCCTGGTCACTGTGGTG   9345
+                     ||.||||||||.||||.|||.||||||..||||||||||||||..||.||
+Microcebus_mu   9299 CCCGGGAGCTCGACAGTCCCGGCTCTGAGGTCAGCCTGGTCACCTTGATG   9348
+
+Homo_sapiens    9346 GGAGGCACCACGGTAGGGTTACTCACCATCTGCCTCACTGTCATTGCAGT   9395
+                     |||||||.|.|.||.||.||||||..|.||||||||||..||||||||||
+Microcebus_mu   9349 GGAGGCATCGCAGTGGGATTACTCGGCGTCTGCCTCACCATCATTGCAGT   9398
+
+Homo_sapiens    9396 GCTGATGTGCAGGGGCAAGGAAAGTTTCAGGGGGAAGGATGCCCCGAAAG   9445
+                     |.|||||||||.|.|||||||..||||||||.|||||||..|.|.|||.|
+Microcebus_mu   9399 GATGATGTGCAAGAGCAAGGAGCGTTTCAGGAGGAAGGACACGCAGAAGG   9448
+
+Homo_sapiens    9446 GCTCCAGCAGCAGTGAGCCCATGGTGCCCCCACAGAGCCATCACAATGAC   9495
+                     ||||..|||||.|..||||||||.||||||||||||||||.||||.||||
+Microcebus_mu   9449 GCTCTGGCAGCGGCCAGCCCATGATGCCCCCACAGAGCCACCACAGTGAC   9498
+
+Homo_sapiens    9496 AGCTCAGAAGTT   9507
+                     ||||||||.|||
+Microcebus_mu   9499 AGCTCAGAGGTT   9510
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 01:00:46
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Pteropus_vampyrus.fa
+#    -outfile Homo_sapiens-Pteropus_vampyrus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Pteropus_vampyrus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Pteropus_vampyrus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 829
+# Identity:     593/829 (71.5%)
+# Similarity:   593/829 (71.5%)
+# Gaps:         128/829 (15.4%)
+# Score: 2470.0
+# 
+#
+#=======================================
+
+Homo_sapiens       0 --------------------------------------------------      0
+                                                                       
+Pteropus_vamp      1 ATGTGGTTTTTCCCTCTGTGTGCCTCTGCACCCTCTTCTCTTCCAATAAG     50
+
+Homo_sapiens       1 ---------------------------------------------ATGCC      5
+                                                                  |..||
+Pteropus_vamp     51 GACATCGGTCATTGGAACTAGGGTGGGCCTCCGTTACATCTGCACAGACC    100
+
+Homo_sapiens       6 CCGGGGCTTCACCTGGCTGCGCT-----ATCTTGGGATCTTCCTTGGCGT     50
+                     |||.||.|.||    ||||.|.|     ||||.||||||.||||||||.|
+Pteropus_vamp    101 CCGAGGTTACA----GCTGAGGTTCTGGATCTCGGGATCCTCCTTGGCAT    146
+
+Homo_sapiens      51 GGCCTTGGGGAATGAGCCTTTGGAGATGTGGCCCTTGACGCAGAATGAGG    100
+                     ||||||||||||..||..|||||||.|||||||||||||.|.||..||||
+Pteropus_vamp    147 GGCCTTGGGGAACCAGGGTTTGGAGGTGTGGCCCTTGACCCCGAGCGAGG    196
+
+Homo_sapiens     101 AGTGCACTGTCACGGGTTTTCTGCGGGACAAGCTGCAGTACAGGAGCCGA    150
+                     |||||.|..||||.||.||||||||.|||||||||||||||||||.|||.
+Pteropus_vamp    197 AGTGCGCCATCACCGGGTTTCTGCGAGACAAGCTGCAGTACAGGAACCGC    246
+
+Homo_sapiens     151 CTTCAGTACATGAAACACTACTTCCCCATCAACTACAAGATCAGTGTGCC    200
+                     ||||||||||||||||||||.||||||||||||||||.|.||||.|||||
+Pteropus_vamp    247 CTTCAGTACATGAAACACTATTTCCCCATCAACTACAGGGTCAGCGTGCC    296
+
+Homo_sapiens     201 TTACGAGGGGGTGTTCAGAATCGCCAACGTCACCAGGCTGCAGAGGGCCC    250
+                     |||.|||||||||.|||||...||||||.|||||||||||||.|||||||
+Pteropus_vamp    297 TTATGAGGGGGTGCTCAGAGCGGCCAACATCACCAGGCTGCAAAGGGCCC    346
+
+Homo_sapiens     251 AGGTGAGCGAGCGGGAGCTGCGGTATCTGTGGGTCTTGGTGAGCCTCAGT    300
+                     .|||.|||.|.|.|||||||||||||||||||||||.||||||.||||||
+Pteropus_vamp    347 GGGTTAGCCAACAGGAGCTGCGGTATCTGTGGGTCTGGGTGAGTCTCAGT    396
+
+Homo_sapiens     301 GCCACTGAGTCGGTGCAGGACGTGCTGCTCGAGGGCCACCCATCCTGGAA    350
+                     ||||||||||.|||||||||.||||||||.|||.|||||||.||||||||
+Pteropus_vamp    397 GCCACTGAGTTGGTGCAGGAGGTGCTGCTTGAGAGCCACCCGTCCTGGAA    446
+
+Homo_sapiens     351 GTACCTGCAGGAGGTGGAGACGCTGCTGCTGAATGTCCAGCAGGGCCTCA    400
+                     .||||||.||||.|||.|.||.||||||.|..||||||||||.|||||||
+Pteropus_vamp    447 ATACCTGGAGGATGTGCATACACTGCTGGTAGATGTCCAGCAAGGCCTCA    496
+
+Homo_sapiens     401 CGGATGTGGAGGTCAGCCCCAAGGTGGAATCCGTGTTGTCCCTCTTGAAT    450
+                     .||.|||||||||.|||||||||||||||.|.||||||||.|||.|||.|
+Pteropus_vamp    497 TGGGTGTGGAGGTGAGCCCCAAGGTGGAAGCGGTGTTGTCTCTCCTGAGT    546
+
+Homo_sapiens     451 GCCCCAGGGCCAAACCTGAAGCTGGTGCGGCCCAAAGCCCTGCTGGACAA    500
+                     |||||.||||..|.||||||||||||||||||||||||||||||||||||
+Pteropus_vamp    547 GCCCCGGGGCTGAGCCTGAAGCTGGTGCGGCCCAAAGCCCTGCTGGACAA    596
+
+Homo_sapiens     501 CTGCTTCCGGGTCATGGAGCTGCTGTACTGCTCCTGCTGTAAACAAAGCT    550
+                     ||||||||||||||||||||||||.||||||||.||||||||..||||||
+Pteropus_vamp    597 CTGCTTCCGGGTCATGGAGCTGCTATACTGCTCTTGCTGTAAGGAAAGCT    646
+
+Homo_sapiens     551 CCGTCCTAAACTGGCAGGACTGTGAGGTGCCAAGTCCTCAGTCTTGCAGC    600
+                     |.|||||||||||||||||||||||.||||.|||.||||||.|...||||
+Pteropus_vamp    647 CTGTCCTAAACTGGCAGGACTGTGAAGTGCGAAGCCCTCAGCCCCACAGC    696
+
+Homo_sapiens     601 CCAGAGCCCTCATTGCAGTATGCGGCCACCCAGCTGTACCCTCCGCCCCC    650
+                     ||.||||||||.|.|||||.||||..|||||||||||||||.|.|||||.
+Pteropus_vamp    697 CCGGAGCCCTCGTCGCAGTGTGCGAGCACCCAGCTGTACCCGCGGCCCCA    746
+
+Homo_sapiens     651 GTGGTCCCCCAGCTCCCCGCCTCACTCCACGGGCTCGGTGAGGCCGGTCA    700
+                     |..|..|||||.|||||.|||.||||||                    |.
+Pteropus_vamp    747 GCAGCTCCCCACCTCCCTGCCCCACTCC--------------------CT    776
+
+Homo_sapiens     701 GGG-CACAGGGCGAGGGCCTCTTGCCC--    726
+                     ||| |.||.||| .||.||.||||..|  
+Pteropus_vamp    777 GGGACCCAAGGC-TGGCCCCCTTGGGCAG    804
+
+
+#---------------------------------------
+#---------------------------------------

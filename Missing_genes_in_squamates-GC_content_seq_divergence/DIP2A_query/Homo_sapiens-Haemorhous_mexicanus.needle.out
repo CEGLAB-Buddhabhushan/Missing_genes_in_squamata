@@ -1,0 +1,426 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 05:58:13
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Haemorhous_mexicanus.fa
+#    -outfile Homo_sapiens-Haemorhous_mexicanus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Haemorhous_mexicanus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Haemorhous_mexicanus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4880
+# Identity:    3772/4880 (77.3%)
+# Similarity:  3772/4880 (77.3%)
+# Gaps:         199/4880 ( 4.1%)
+# Score: 14915.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT---GGCTGACCGCGGG---TGCCCGCTGGAGGCGGCGCCGCTGCCTGC     44
+                     ||   |||.||.||||||   |||.||||||||||.|.|||||||||..|
+Haemorhous_me      1 ATGGCGGCGGAGCGCGGGGGCTGCGCGCTGGAGGCCGTGCCGCTGCCGCC     50
+
+Homo_sapiens      45 CGAGGTGCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTG     94
+                     |||||||||.|||||||||||.|||||||||||||||||||||||.||.|
+Haemorhous_me     51 CGAGGTGCGCGAGAGCCTGGCCGAGCTGGAGCTGGAGCTGTCGGAGGGAG    100
+
+Homo_sapiens      95 ACATCACTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGT    144
+                     ||||||||||.|||||||||||||||||.||||||||||||.|.|||||.
+Haemorhous_me    101 ACATCACTCAGAAAGGATATGAAAAGAAGAGGGCAAAGCTGTTGGCACGG    150
+
+Homo_sapiens     145 TATATACCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAG    194
+                     ||.|||||.||.||||||||..|.||.|||||.||||||||||||||.||
+Haemorhous_me    151 TACATACCACTAATTCAAGGTGTGGATCCATCCCTGCAAGCAGAGAACAG    200
+
+Homo_sapiens     195 AATTCCTGGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGT    244
+                     |.|.||.||..|.|..|||.||.|.||.|..|.|.||||.||||||||.|
+Haemorhous_me    201 AGTCCCAGGCTCTTGCCAAGCCTCTGCTGGGGTATCCAAACAGCAGAAAT    250
+
+Homo_sapiens     245 CTCGGCCCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAG    294
+                     |.||..|||||..|||||||||.|||||||||||.||             
+Haemorhous_me    251 CCCGATCCACCAACTCGAGGGACGAGCGCTTCCGATC-------------    287
+
+Homo_sapiens     295 CCAATGTTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTAT    344
+                                                                       
+Haemorhous_me    287 --------------------------------------------------    287
+
+Homo_sapiens     345 TTGGACCCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCC    394
+                                                               .|||||||
+Haemorhous_me    288 ------------------------------------------CGATGTCC    295
+
+Homo_sapiens     395 ACACTGAAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATG    444
+                     ||||||||||.||.||||||||..|.||.|||||.|||||||||||||||
+Haemorhous_me    296 ACACTGAAGCAGTACAAGCAGCACTTGCAAAATATAAAGAGAGGAAGATG    345
+
+Homo_sapiens     445 CCTATGCCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAAC    494
+                     ||.|||||.||.||||||||.||||||||.|||||.||.||.||.||.||
+Haemorhous_me    346 CCCATGCCCTCCAAGAGACGCTCTGTCCTGGTGCACTCTTCAGTAGAGAC    395
+
+Homo_sapiens     495 CTACACCCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTAC    544
+                     ||||||||||||||||||.|||||.||.|||||||||||||||||.||.|
+Haemorhous_me    396 CTACACCCCTCCAGACACATCGTCAGCATCAGAAGATGAGGGCTCGTTGC    445
+
+Homo_sapiens     545 GGCGACCCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTC    594
+                     ||||.|..|||||.||||.||||||||||.||||||||||.||||.|||.
+Haemorhous_me    446 GGCGGCAAGGGCGGCTCAGCTCCACTCCGTTCCAGAGCCACTCCAACGTA    495
+
+Homo_sapiens     595 GAGCCCTGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGC    644
+                     |||||||||||..|||||||||||||||||||.|||||||||||||||||
+Haemorhous_me    496 GAGCCCTGGCTTAACCGGGTCATTCAGGGCTCCTCCACCTCATCCTCTGC    545
+
+Homo_sapiens     645 ATCCTCCACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGT-    693
+                     ||||||||||||||||||.||.|||||||.|||..|..|||||.|||.| 
+Haemorhous_me    546 ATCCTCCACCTCATCTCATCCTGGAGGGAAACCTGCTGCTGCTTCCAATA    595
+
+Homo_sapiens     694 --GCTGCAGCCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTC    741
+                       |||.|.||||         ||.|.|||.||||||..||.||||..|||
+Haemorhous_me    596 CAGCTCCTGCCA---------CCACTGCTGCCACTGTGCTTGCAGATCTC    636
+
+Homo_sapiens     742 GAGGCCCACACCCACATAGATCTGCATTCTGCCCCTCCTGATGTCACCAC    791
+                     ..|||.|||||.||.|||||....||.||||||||.|||||.||.|||||
+Haemorhous_me    637 ATGGCACACACGCAGATAGAGAACCACTCTGCCCCCCCTGACGTGACCAC    686
+
+Homo_sapiens     792 GGGCCTCGTGGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGA    841
+                     .|||||.||||||.|...|.||...|||||.||.|||||.||.||.|||.
+Haemorhous_me    687 TGGCCTGGTGGAGTACCTGCACCACGAGCGCCCGCAGGTCGCGTCCGTGC    736
+
+Homo_sapiens     842 GAAGTGTTCCTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGGT    891
+                     ||.|.||.||..|.||.|.||||.|.|||||.||||||||.|||||||||
+Haemorhous_me    737 GAGGAGTGCCCAGAGGCTACAGCAGCAGCATTCTGGAAACTGCAGATGGT    786
+
+Homo_sapiens     892 GTCCCTGTGAACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACAC    941
+                     |||||.||||||||||||||||||||.||||||||||||||.||.|||||
+Haemorhous_me    787 GTCCCAGTGAACAGCAGAGTGTCCTCTAAAATCCAGCAGCTGCTAAACAC    836
+
+Homo_sapiens     942 CCTGAAGAGGCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATT    991
+                     ..||||.||.||.||||||||.||.|||||||||||.|||||||||||||
+Haemorhous_me    837 TTTGAAAAGACCGAAGCGCCCACCTCTGAAGGAGTTTTTTGTGGATGATT    886
+
+Homo_sapiens     992 TTGAGGAATTGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCT   1041
+                     ||||.|||.||.|.|||||.||.||.||.||.||||||||||||||||||
+Haemorhous_me    887 TTGAAGAACTGCTTGAAGTGCAACAGCCTGACCCAAATCAGCCAAAGCCT    936
+
+Homo_sapiens    1042 GAGGGAAGCGAGACGAGTGTGCTGAGAGGG-GAGCC---------TCTCA   1081
+                     ||.||||.|.|...||.||||||.| |||| ||.||         |.|.|
+Haemorhous_me    937 GAAGGAAACCAAGTGAATGTGCTTA-AGGGAGAACCCCTGGGGGTTGTGA    985
+
+Homo_sapiens    1082 CTGCAGGTGTCCCCCGACCGCCGTCGCTGTTGGCCACCTTGCAGCGCTGG   1131
+                     |  |||.||.|||       ||.||.|||.||||..||.|||||||||||
+Haemorhous_me    986 C--CAGCTGGCCC-------CCCTCCCTGCTGGCTGCCCTGCAGCGCTGG   1026
+
+Homo_sapiens    1132 GGCACAACACAGCCCAAATCCCCCTGTCTGACTGCCTTGGATACAACTGG   1181
+                     ||.||.||.|||.|||||.||||.||||||||.||..|||||||..|.||
+Haemorhous_me   1027 GGAACCACCCAGTCCAAAGCCCCTTGTCTGACAGCGCTGGATACCGCGGG   1076
+
+Homo_sapiens    1182 GAAAGCCGTCTACACTCTCACCTATGGTAAACTTTGGAGTCGGAGTTTAA   1231
+                     |||||||.|.||.||.||.||||||||.||.||.||||||||.||.||.|
+Haemorhous_me   1077 GAAAGCCATTTATACCCTGACCTATGGCAAGCTGTGGAGTCGAAGCTTGA   1126
+
+Homo_sapiens    1232 AACTAGCTTATACTCTACTTAATAAACTGACAAGTAAGAATGAACCTCTA   1281
+                     |..||||.|||||.||.||.||.||.|||||.|.|||||||||.||.||.
+Haemorhous_me   1127 AGTTAGCCTATACCCTGCTAAACAAGCTGACCACTAAGAATGAGCCCCTG   1176
+
+Homo_sapiens    1282 CTTAAACCTGGAGACAGAGTGGCGCTCGTGTTTCCGAATAGTGACCCTGT   1331
+                     ||.||.|||||||||.|.||.||.|||||.|||||.||||||||.||.||
+Haemorhous_me   1177 CTGAAGCCTGGAGACCGGGTAGCTCTCGTATTTCCTAATAGTGATCCAGT   1226
+
+Homo_sapiens    1332 GATGTTCATGGTTGCATTTTATGGGTGTCTCCTGGCAGAGCTGGTTCCTG   1381
+                     .|||||.|||||.|||||||||||.||||||||||||||.||..||||||
+Haemorhous_me   1227 TATGTTTATGGTGGCATTTTATGGATGTCTCCTGGCAGAACTTATTCCTG   1276
+
+Homo_sapiens    1382 TCCCCATAGAAGTGCCATTAACAAGAAAGGATGCAGGCAGCCAGCAGGTT   1431
+                     ||||.||||||||.|||.|.||||||||||||||.|||||.||||||.||
+Haemorhous_me   1277 TCCCAATAGAAGTTCCACTGACAAGAAAGGATGCTGGCAGTCAGCAGATT   1326
+
+Homo_sapiens    1432 GGGTTTCTGCTGGGCAGCTGTGGAGTCTTCTTGGCCCTGACCACAGACGC   1481
+                     ||||||||..|||||||||||||||||...||.||..|.|||||.||.||
+Haemorhous_me   1327 GGGTTTCTTTTGGGCAGCTGTGGAGTCACGTTAGCTTTAACCACTGATGC   1376
+
+Homo_sapiens    1482 TTGTCAGAAAGGCCTCCCCAAGGCACAGACAGGAGAGGTGGCAGCTTTCA   1531
+                     .|||||||||||||||||.||.||.|||||.||.|||||||...|.||||
+Haemorhous_me   1377 CTGTCAGAAAGGCCTCCCAAAAGCTCAGACTGGCGAGGTGGTGACCTTCA   1426
+
+Homo_sapiens    1532 AAGGTTGGCCCCCGCTCTCCTGGCTAGTGATTGATGGGAAGCATCTAGCC   1581
+                     ||||.|||||.|..||....|||.|.||||||||||||||||||||.||.
+Haemorhous_me   1427 AAGGCTGGCCTCGTCTGATTTGGTTTGTGATTGATGGGAAGCATCTGGCA   1476
+
+Homo_sapiens    1582 AAGCCCCCAAAGGACTGGCACCCTCTGGCCCAGGAC-ACAGGGACTGGGA   1630
+                     |||||..|.|||||||||||.||.|.||.||.|||| .|||.| |.|.||
+Haemorhous_me   1477 AAGCCAGCCAAGGACTGGCAGCCCCAGGTCCGGGACGCCAGCG-CCGAGA   1525
+
+Homo_sapiens    1631 CTGCCTACATTGAGTATAAAACCAGCAAAGAAGGCAGTACGGTGGGGGTC   1680
+                     ..||.|||||.|||||.||||||||.|||||.|||||.||.|||||..|.
+Haemorhous_me   1526 TCGCTTACATCGAGTACAAAACCAGTAAAGAGGGCAGCACAGTGGGCATT   1575
+
+Homo_sapiens    1681 ACAGTGTCCCACGCATCCCTGCTGGCACAGTGCCGGGCTCTGACCCAGGC   1730
+                     ||.||.||.||.||.|||.||||||||||.||.|..||.|||||.|||||
+Haemorhous_me   1576 ACTGTATCTCATGCCTCCATGCTGGCACACTGTCATGCACTGACTCAGGC   1625
+
+Homo_sapiens    1731 GTGCGGGTACTCAGAAGCTGAAACATTAACAAACGTGCTGGATTTCAAAA   1780
+                     .||.||.||.|||||||||||||||.|||||||.||..||||||||||||
+Haemorhous_me   1626 CTGTGGTTATTCAGAAGCTGAAACACTAACAAATGTCTTGGATTTCAAAA   1675
+
+Homo_sapiens    1781 GGGATGCTGGTCTGTGGCATGGCGTGTTAACAAGCGTCATGAACAGGATG   1830
+                     |.||.|||||.||.||||||||.|||.|||||||.||.||||||||||||
+Haemorhous_me   1676 GAGAGGCTGGCCTTTGGCATGGAGTGCTAACAAGTGTTATGAACAGGATG   1725
+
+Homo_sapiens    1831 CACGTGGTCAGCGTCCCCTACGCGCTGATGAAGGCGAACCCACTCTCCTG   1880
+                     ||.||..||||..|.|||||.||..|.|||||||..||.|||||.|||||
+Haemorhous_me   1726 CATGTCATCAGTATTCCCTATGCATTAATGAAGGTTAATCCACTTTCCTG   1775
+
+Homo_sapiens    1881 GATCCAGAAAGTGTGCTTCTATAAAGCTCGGGCCGCGCTGGTGAAGTCGC   1930
+                     |||.||||||||.||||.|||.|||||.||.|..||..|||||||.||.|
+Haemorhous_me   1776 GATACAGAAAGTCTGCTCCTACAAAGCCCGTGTAGCAGTGGTGAAATCCC   1825
+
+Homo_sapiens    1931 GAGACATGCACTGGTCTCTCCTAGCTCAGCGGGGCCAGAGGGACGTCAGC   1980
+                     |.||.|||||||||||.||..|.||||||.|||..|||||||||||||||
+Haemorhous_me   1826 GTGATATGCACTGGTCACTTTTGGCTCAGAGGGATCAGAGGGACGTCAGC   1875
+
+Homo_sapiens    1981 CTCAGCTCACTGCGCATGCTGATTGTGGCCGATGGTGCCAACCCGTGGTC   2030
+                     ||.|||||.||.||.||||||||.|||||.|||||.|||||.||.|||||
+Haemorhous_me   1876 CTGAGCTCCCTACGGATGCTGATAGTGGCAGATGGAGCCAATCCATGGTC   1925
+
+Homo_sapiens    2031 GATCTCCTCCTGTGACGCCTTCCTCAACGTCTTCCAGTCCAGAGGTCTGA   2080
+                     .||.||.||||||||.||.|||||.||.||.||.||||||.|||||.|||
+Haemorhous_me   1926 AATATCTTCCTGTGATGCATTCCTGAATGTATTTCAGTCCCGAGGTTTGA   1975
+
+Homo_sapiens    2081 GGCCAGAGGTCATCTGTCCTTGTGCAAGTTCTCCTGAGGCGCTGACTGTC   2130
+                     |.|||||.||.||||||||.|||||.||||||.|.|||||.||.|||||.
+Haemorhous_me   1976 GACCAGAAGTAATCTGTCCCTGTGCTAGTTCTTCAGAGGCACTAACTGTT   2025
+
+Homo_sapiens    2131 GCCATCCGCAGGCCACCTGATCTGGGAGGACCACCTCCAAGAAAAGCAGT   2180
+                     ||.||.|||||.||..||||.|||||.||.||.||||||.||||||||||
+Haemorhous_me   2026 GCTATTCGCAGACCTTCTGAACTGGGTGGCCCCCCTCCAGGAAAAGCAGT   2075
+
+Homo_sapiens    2181 CCTGTCGATGAACGGTCTAAGTTATGGTGTTATCAGAGTGGATACTGAAG   2230
+                     ..|.||.||||||.|.||.||.|..||.||.|||||.|||||||||||.|
+Haemorhous_me   2076 GTTATCCATGAACTGCCTGAGCTTCGGCGTGATCAGGGTGGATACTGAGG   2125
+
+Homo_sapiens    2231 AAAAGTTGTCAGTCCTTACTGTTCAGGACGTTGGTCAGGTGATGCCTGGA   2280
+                     |.|||.|||||||..|.|||||.|||||.|||||.|||.|.|||||||||
+Haemorhous_me   2126 AGAAGCTGTCAGTGTTAACTGTGCAGGATGTTGGGCAGATTATGCCTGGA   2175
+
+Homo_sapiens    2281 GCTA--ATGTATGTGTTGTGAAGTTAGAAGGTACCCCTTATCTTTGTAAA   2328
+                     ||.|  |||  ||||||||.|||.|.||.||.||.|||||.||.||||||
+Haemorhous_me   2176 GCCAGCATG--TGTGTTGTAAAGGTGGATGGGACTCCTTACCTGTGTAAA   2223
+
+Homo_sapiens    2329 ACTGATGAAGTGGGAGAAATATGCGTCAGTTCCAGTGCAACTGGCACAGC   2378
+                     .|||||||.||.|||||||||||.||.|.|||..|.||||||||.|||||
+Haemorhous_me   2224 GCTGATGAGGTTGGAGAAATATGTGTGAATTCAGGAGCAACTGGGACAGC   2273
+
+Homo_sapiens    2379 GTACTATGGATTGCTTGGAATCACGAAGAATGTGTTTGAGGCAGTTCCGG   2428
+                     .||.|.|||..|.||.||||||||.||||||||.||||||||..|.||.|
+Haemorhous_me   2274 ATATTTTGGCCTCCTCGGAATCACCAAGAATGTATTTGAGGCCATCCCAG   2323
+
+Homo_sapiens    2429 TCACCACAGGAGGAGCACCCAT--CTTTGACAG----GCCATTCACCAGG   2472
+                     |.||..|||..||      |||  ||.||.|||    |||.|||||.||.
+Haemorhous_me   2324 TGACGGCAGCTGG------CATGCCTGTGTCAGACCAGCCCTTCACAAGA   2367
+
+Homo_sapiens    2473 ACAGGCCTGCTGGGCTTCATCGGGCCTGACAACCTGGTCTTCATCGTGGG   2522
+                     |||||..||||||||||..|.||.||||||.|..||||.||..|.|||||
+Haemorhous_me   2368 ACAGGATTGCTGGGCTTTGTGGGTCCTGACTATTTGGTGTTTGTGGTGGG   2417
+
+Homo_sapiens    2523 CAAACTGGACGGGCTGATG---GTCACTGGAGTTCGCAGACACAATGCAG   2569
+                     .||..||||.||..|||||   ||.|.|||   .|||||.||||||||||
+Haemorhous_me   2418 GAAGTTGGATGGCTTGATGACAGTGAGTGG---CCGCAGGCACAATGCAG   2464
+
+Homo_sapiens    2570 ATGACGTTGTGGCCACCGCACTGGCCGTGGAGCCCATGAAGTTTGTCTAC   2619
+                     ||||.||.|||||||||||..||||.||.||||||||||||||||||||.
+Haemorhous_me   2465 ATGATGTGGTGGCCACCGCCTTGGCAGTTGAGCCCATGAAGTTTGTCTAT   2514
+
+Homo_sapiens    2620 AGAGGCAGGATCGCTGTGTTCTCTGTGACCGTGCTGCACGACGACCGGAT   2669
+                     .|.||.|||||.||.|||||.||||||.||||.||||||||.||.|||||
+Haemorhous_me   2515 CGGGGAAGGATAGCAGTGTTTTCTGTGCCCGTCCTGCACGATGATCGGAT   2564
+
+Homo_sapiens    2670 TGTCCTGGTGGCTGAGCAGCGGCCGGATGCCTCGGAGGAGGACAGCTTCC   2719
+                     .||.||.|||||.||||||||.||.||.|||||.||||||||.||.||.|
+Haemorhous_me   2565 AGTGCTTGTGGCAGAGCAGCGCCCTGACGCCTCAGAGGAGGATAGTTTTC   2614
+
+Homo_sapiens    2720 AGTGGATGAGCCGTGTGCTGCAGGCCATTGATAGCATCCACCAGGTGGGC   2769
+                     |||||||||||.|.||.||.|||||.|||||||||||.|||||.||.||.
+Haemorhous_me   2615 AGTGGATGAGCAGGGTTCTACAGGCAATTGATAGCATTCACCAAGTAGGT   2664
+
+Homo_sapiens    2770 GTGTACTGTCTGGCCCTGGTTCCTGCCAACACCTTGCCCAAGGCTCCTCT   2819
+                     ||||||||.||.|||.||||.||.||||||||.|||||.||||||||.||
+Haemorhous_me   2665 GTGTACTGCCTTGCCTTGGTGCCAGCCAACACTTTGCCAAAGGCTCCACT   2714
+
+Homo_sapiens    2820 CGGAGGGATTCACATTTCTGAAACCAAACAGCGCTTTCTGGAAGGGACGC   2869
+                     ||||||.|||||.|||||.||||||||.|||||||||.||||.||..|.|
+Haemorhous_me   2715 CGGAGGAATTCATATTTCAGAAACCAAGCAGCGCTTTTTGGAGGGTGCTC   2764
+
+Homo_sapiens    2870 TGCACCCGTGTAATGTGCTGATGTGCCCTCACACCTGTGTTACCAACCTC   2919
+                     ||||.||.||.||.||.||||||||.||.|||||||||||.||||||||.
+Haemorhous_me   2765 TGCATCCTTGCAACGTCCTGATGTGTCCCCACACCTGTGTCACCAACCTG   2814
+
+Homo_sapiens    2920 CCCAAACCTCGTCAGAAACAACCAGAGGTTGGACCAGCCTCAATGATCGT   2969
+                     |||||.|||||.|||||.||.|||||.|||||.||.|||||.|||||.||
+Haemorhous_me   2815 CCCAAGCCTCGGCAGAAGCAGCCAGATGTTGGTCCTGCCTCCATGATTGT   2864
+
+Homo_sapiens    2970 GGGGAACCTGGTTGCTGGGAAGAGAATCGCTCAGGCTTCCGGGAGAGAGC   3019
+                     .||.||||||||.|||||.|||||.|||||.|||||.||.|||||.||..
+Haemorhous_me   2865 AGGAAACCTGGTAGCTGGCAAGAGGATCGCACAGGCCTCGGGGAGGGACG   2914
+
+Homo_sapiens    3020 TCGCCCACCTGGAGGACAGCGACCAGGCACGGAAGTTCCTGTTCCTGGCT   3069
+                     ||..|||.||||||||||..|||||||||.|.||||||||.|...|.||.
+Haemorhous_me   2915 TCAGCCAGCTGGAGGACAATGACCAGGCAAGAAAGTTCCTTTATTTAGCA   2964
+
+Homo_sapiens    3070 GACGTGCTGCAGTGGCGTGCCCACACCACTCCTGACCACCCGCTGTTCTT   3119
+                     ||.||.||.||||||||.||.||.||.|||||.||.||.||.||.|||.|
+Haemorhous_me   2965 GATGTTCTTCAGTGGCGAGCTCAGACAACTCCAGATCATCCCCTCTTCCT   3014
+
+Homo_sapiens    3120 GCTGCTGAACGCCAAGGGCACCGTCACAAGCACTGCAACCTGTGTCCAGC   3169
+                     .|||.||||..|||||||.||.||..|.||||||||..|.||..||||||
+Haemorhous_me   3015 TCTGTTGAATTCCAAGGGTACTGTAGCCAGCACTGCCTCGTGCATCCAGC   3064
+
+Homo_sapiens    3170 TGCACAAAAGGGCTGAGAGAGTGGCCGCGGCTCTGATGGAGAAGGGAAGA   3219
+                     |||||||.|||||.|||||||||||.|.|||.||||||||||||||..|.
+Haemorhous_me   3065 TGCACAAGAGGGCAGAGAGAGTGGCAGTGGCACTGATGGAGAAGGGGCGG   3114
+
+Homo_sapiens    3220 CTGAGTGTTGGGGACCATGTGGCTCTGGTCTACCCACCAGGGGTGGACCT   3269
+                     ||||..||.||.|||||.|||||.|||||.|||||.|||||.||.|||.|
+Haemorhous_me   3115 CTGAACGTCGGTGACCACGTGGCCCTGGTTTACCCTCCAGGAGTAGACTT   3164
+
+Homo_sapiens    3270 CATTGCCGCGTTCTATGGCTGCTTGTACTGTGGCTGCGTGCCTGTCACCG   3319
+                     .||.||..|.|||||||||||.||||||..|||||||||.||..||||||
+Haemorhous_me   3165 GATAGCAACTTTCTATGGCTGTTTGTACGCTGGCTGCGTTCCCATCACCG   3214
+
+Homo_sapiens    3320 TGCGGCCCCCGCACCCTCAGAACCTCGGCACCACACTGCCCACCGTCAAG   3369
+                     |.||.||.||.|||||.||||||||.|..|||||.||||||||.|||||.
+Haemorhous_me   3215 TCCGCCCGCCTCACCCACAGAACCTTGCTACCACTCTGCCCACTGTCAAA   3264
+
+Homo_sapiens    3370 ATGATCGTGGAGGTCAGCAAGTCTGCATGCGTCCTCACCACGCAGGCTGT   3419
+                     |||||.||.||||||||.||.||||||||..|..|.|||||.||.|||.|
+Haemorhous_me   3265 ATGATTGTAGAGGTCAGTAAATCTGCATGTATATTGACCACCCAAGCTAT   3314
+
+Homo_sapiens    3420 CACACGGCTGCTCAGGTCCAAGGAGGCTGCTGCTGCCGTGGACATCAGGA   3469
+                     .|.....|||||||||||||||||||||||.||.||.||.||.||.|..|
+Haemorhous_me   3315 AATGAAACTGCTCAGGTCCAAGGAGGCTGCAGCAGCTGTAGATATTAAAA   3364
+
+Homo_sapiens    3470 CCTGGCCCACCATCCTAGACACAGATGACATCCCAAAAAAGAAGATAGCA   3519
+                     |.||||||||.||..|.||.||||||||.||.||.|||||||||.|.||.
+Haemorhous_me   3365 CGTGGCCCACTATTTTGGATACAGATGATATGCCTAAAAAGAAGCTGGCT   3414
+
+Homo_sapiens    3520 AGCGTTTTCAGGCCCCCCTCCCCCGATGTCCTCGCATACTTGGACTTCAG   3569
+                     ||.||||||||.||..|.||.||.|||.|..|.|||||||||||||||||
+Haemorhous_me   3415 AGTGTTTTCAGACCTGCATCTCCAGATATGTTGGCATACTTGGACTTCAG   3464
+
+Homo_sapiens    3570 CGTGTCAACCACTGGGATATTAGCGGGAGTGAAGATGTCGCACGCGGCCA   3619
+                     ||||||.||.|||||.||||||||.|||||.||||||||.|||||.||||
+Haemorhous_me   3465 CGTGTCTACTACTGGTATATTAGCAGGAGTAAAGATGTCCCACGCAGCCA   3514
+
+Homo_sapiens    3620 CAAGCGCCTTATGCCGCTCCATAAAGCTGCAGTGTGAGCTGTACCCCTCG   3669
+                     ||||.||||||||.|||||.|||||||||||||||||||||||||||||.
+Haemorhous_me   3515 CAAGTGCCTTATGTCGCTCGATAAAGCTGCAGTGTGAGCTGTACCCCTCC   3564
+
+Homo_sapiens    3670 CGGCAGATCGCCATCTGCCTCGACCCCTACTGTGGCCTTGGTTTTGCCCT   3719
+                     ||.|||||.|||||||||||.|||||||||||||||.|.||.|||||.||
+Haemorhous_me   3565 CGACAGATTGCCATCTGCCTGGACCCCTACTGTGGCTTGGGCTTTGCACT   3614
+
+Homo_sapiens    3720 GTGGTGTCTGTGCAGTGTCTACTCGGGACACCAATCAGTGCTGGTGCCCC   3769
+                     .|||||..|||||||..|.||.||.||.|||||.||..|.||||||||.|
+Haemorhous_me   3615 CTGGTGCTTGTGCAGCATATATTCAGGCCACCAGTCCATCCTGGTGCCTC   3664
+
+Homo_sapiens    3770 CGCTGGAGCTGGAGAGCAACGTGTCCCTGTGGCTGTCGGCCGTCAGCCAG   3819
+                     |.|||||||||||||||||||||||.|||||||||||.||.|||||||||
+Haemorhous_me   3665 CTCTGGAGCTGGAGAGCAACGTGTCTCTGTGGCTGTCTGCTGTCAGCCAG   3714
+
+Homo_sapiens    3820 TACAAGGCCCGCGTCACCTTCTGCTCCTACTCTGTGATGGAGATGTGCAC   3869
+                     |||||.|..||.||||||||||||||||||||||||||||||||.|||||
+Haemorhous_me   3715 TACAAAGTGCGTGTCACCTTCTGCTCCTACTCTGTGATGGAGATCTGCAC   3764
+
+Homo_sapiens    3870 CAAGGGCCTAGGCGCACAGACGGGTGTCCTCAGGATGAAGGGGGTGAACC   3919
+                     |||.|||||.|||.|||||||.|.|||.|||.||||||||||||||||||
+Haemorhous_me   3765 CAAAGGCCTTGGCACACAGACTGATGTTCTCCGGATGAAGGGGGTGAACC   3814
+
+Homo_sapiens    3920 TGTCATGTGTGCGCACGTGCATGGTGGTCGCCGAGGAGCGGCCCAGGATT   3969
+                     ||||.||.||||||||.|||||||||||.|||||||||.|.||||||||.
+Haemorhous_me   3815 TGTCCTGCGTGCGCACCTGCATGGTGGTGGCCGAGGAGAGACCCAGGATC   3864
+
+Homo_sapiens    3970 GCGCTGACCCAGTCCTTCTCCAAGCTCTTCAAGGACCTGGGCCTGCCGGC   4019
+                     .|.||.|||||||||||||||||||||||||||||||||||||||.|.||
+Haemorhous_me   3865 ACCCTCACCCAGTCCTTCTCCAAGCTCTTCAAGGACCTGGGCCTGTCTGC   3914
+
+Homo_sapiens    4020 CCGCGCCGTAAGCACCACGTTCGGGTGCAGGGTCAACGTGGCCATCTGCC   4069
+                     .||.||.||.||||||||.||.||.|||||||||||||||||.||||||.
+Haemorhous_me   3915 TCGTGCAGTGAGCACCACCTTTGGCTGCAGGGTCAACGTGGCAATCTGCT   3964
+
+Homo_sapiens    4070 TCCAGCCCAACAGGCTGGGAAAGCTGGCTGAGCAGGGCACAGCTGGCCCG   4119
+                     |                              .|||||.|||||.||.||.
+Haemorhous_me   3965 T------------------------------ACAGGGAACAGCAGGACCA   3984
+
+Homo_sapiens    4120 GACCCCACAACCGTCTACGTGGACATGCGGGCACTGCGCCATGACAGGGT   4169
+                     |||||.|||||.|||||.||.||.|||.|.||.||.||.|||||||||||
+Haemorhous_me   3985 GACCCAACAACAGTCTATGTAGATATGAGAGCCCTTCGACATGACAGGGT   4034
+
+Homo_sapiens    4170 TCGTTTGGTAGAACGGGGTTCTCCGCACAGCCTGCCATTGATGGAGTCTG   4219
+                     .|||||||||||..|.||||||||.|||||.||||||.||||||||||||
+Haemorhous_me   4035 GCGTTTGGTAGAGAGAGGTTCTCCACACAGTCTGCCACTGATGGAGTCTG   4084
+
+Homo_sapiens    4220 GAAAGATCCTCCCCGGCGTGAAGGTCATCATCGCACACACCGAGACCAAA   4269
+                     |.|||||.||.||.||.||||||||||||||.||||||||.||.|||||.
+Haemorhous_me   4085 GGAAGATTCTTCCGGGAGTGAAGGTCATCATAGCACACACAGAAACCAAG   4134
+
+Homo_sapiens    4270 GGACCCTTGGGAGACTCACACCTGGGAGAGATCTGGGTAAGCAGCCCCCA   4319
+                     |||||..||||||||||.||..|.||||||||.|||||.|||||||||||
+Haemorhous_me   4135 GGACCTCTGGGAGACTCCCATTTAGGAGAGATATGGGTGAGCAGCCCCCA   4184
+
+Homo_sapiens    4320 CAATGCCACCGGGTACTACACCGTTTACGGGGAGGAGGCGCTTCATGCCG   4369
+                     |||||||||.||.||||||||.||.|||||.|||||.||.||.||.||||
+Haemorhous_me   4185 CAATGCCACGGGTTACTACACGGTGTACGGAGAGGAAGCCCTGCACGCCG   4234
+
+Homo_sapiens    4370 ACCACTTCAGTGCCCGGCTGAGTTTTGGAGACACACAGACCATCTGGGCA   4419
+                     |||||||||..|||||.|||||.||.||.|||||.|||||..|.|||||.
+Haemorhous_me   4235 ACCACTTCACGGCCCGCCTGAGCTTCGGGGACACGCAGACGCTGTGGGCC   4284
+
+Homo_sapiens    4420 AGGACCGGCTACCTTGGCTTCCTTCGGCGAACAGAGCTCACTGATGCCAG   4469
+                     .|.|||||||||||.||||||||.||..|.||..|||||||.||.|||||
+Haemorhous_me   4285 CGCACCGGCTACCTGGGCTTCCTGCGCAGGACCCAGCTCACCGACGCCAG   4334
+
+Homo_sapiens    4470 TGGAGGGCGGCACGATGCACTGTATGTGGTTGGGTCTCTGGATGAAACTC   4519
+                     .||||.|.|.||||||||..||||||||||.||.|||.||||||||||.|
+Haemorhous_me   4335 CGGAGAGAGACACGATGCCTTGTATGTGGTGGGCTCTTTGGATGAAACAC   4384
+
+Homo_sapiens    4520 TGGAGCTCAGAGGCATGCGGTACCACCCCATCGACATTGAGACCTCTGTC   4569
+                     |||||||||||||.|||.|||||||||||||||||||.||.||||||||.
+Haemorhous_me   4385 TGGAGCTCAGAGGAATGAGGTACCACCCCATCGACATAGAAACCTCTGTG   4434
+
+Homo_sapiens    4570 ATCCGAGCACACAGGAGCATCGCTGAGTGTGCCGTATTCACCTGGACCAA   4619
+                     |||.|.|||||||.||||||.||.||.|||||.||.||.||.|||||.||
+Haemorhous_me   4435 ATCAGGGCACACAAGAGCATTGCAGAATGTGCTGTGTTTACGTGGACAAA   4484
+
+Homo_sapiens    4620 CCTGCTGGTGGTGGTGGTGGAGCTGGATGGGCT-AGAGCAGGATGCCCTG   4668
+                     ||||||||||||||||||||||||||| .|||| |||||||||.||.|||
+Haemorhous_me   4485 CCTGCTGGTGGTGGTGGTGGAGCTGGA-AGGCTCAGAGCAGGAAGCACTG   4533
+
+Homo_sapiens    4669 GACCTGGTGGCCCTGGTGACCAACGTGGTGCTGGAGGAGCACTACCTGGT   4718
+                     |||||||||||.|||||||||||||||||.|||||.|||||.||.||..|
+Haemorhous_me   4534 GACCTGGTGGCACTGGTGACCAACGTGGTCCTGGAAGAGCATTATCTCAT   4583
+
+Homo_sapiens    4719 CGTGGGAGTGGTGGTCATCGTGGACCCAGGGGTGATCCCTATCAACTCTC   4768
+                     .||.||.|||||||||||||||||.||.|||||.||.||.||||||||.|
+Haemorhous_me   4584 TGTTGGTGTGGTGGTCATCGTGGATCCCGGGGTCATTCCCATCAACTCCC   4633
+
+Homo_sapiens    4769 GGGGTGAGAAGCAGCGCATGCACCTGCGGGACGGCTTCCTGGCTGACCAG   4818
+                     |.||.|||||.||.||.||||||.||.|.|||||.||..|.|||||.|||
+Haemorhous_me   4634 GTGGCGAGAAACAACGGATGCACTTGAGAGACGGATTTTTAGCTGATCAG   4683
+
+Homo_sapiens    4819 CTGGACCCCATCTATGTCGCCTACAACATG   4848
+                     .||||.||.||.|||||.||||||||||||
+Haemorhous_me   4684 TTGGATCCTATTTATGTTGCCTACAACATG   4713
+
+
+#---------------------------------------
+#---------------------------------------

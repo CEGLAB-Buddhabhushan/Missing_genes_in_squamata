@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:58
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Panthera_pardus.fa
+#    -outfile Homo_sapiens-Panthera_pardus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Panthera_pardus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Panthera_pardus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 459
+# Identity:     352/459 (76.7%)
+# Similarity:   352/459 (76.7%)
+# Gaps:          75/459 (16.3%)
+# Score: 1585.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     ||||||||.|||||.|||||.||.||||||||||||.||||.||.||.||
+Panthera_pard      1 ATGGACGCGGTGGCCGTGTACCACGGCAAAATCAGCCGGGAGACGGGGGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     ||||||||||||.|||||.||.|||||.|||||||||.||||||||||||
+Panthera_pard     51 GAAGCTCCTGCTGGCCACGGGTCTGGACGGCAGCTATCTGCTGAGGGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCT-------------    137
+                     |||||||.||.||.||||||||||||||.||||||||             
+Panthera_pard    101 GCGAGAGTGTCCCGGGCGTGTACTGCCTGTGTGTGCTCCATGCATGTGGT    150
+
+Homo_sapiens     137 --------------------------------------------------    137
+                                                                       
+Panthera_pard    151 AACTCTCGGGCCATGCTAAATACATTGATTCTACAGGCTTCAAGAGAAAT    200
+
+Homo_sapiens     138 ------------GTATCACGGTTACATTTATACATACCGAGTGTCCCAGA    175
+                                 ||||||.|||||||||||||||||||||||||||||||
+Panthera_pard    201 ACGTGGAAGCAGGTATCAAGGTTACATTTATACATACCGAGTGTCCCAGA    250
+
+Homo_sapiens     176 CAGAAACAGGTTCTTGGAGTGCTGAGACAGCACCTGGGGTACATAAAAGA    225
+                     ||||||||||||||||||||||||||||.||.||.|||||.|||||||||
+Panthera_pard    251 CAGAAACAGGTTCTTGGAGTGCTGAGACGGCCCCCGGGGTCCATAAAAGA    300
+
+Homo_sapiens     226 TATTTCCGGAAAATAAAAAATCTCATTTCAGCATTTCAGAAGCCAGATCA    275
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+Panthera_pard    301 TTTTTCCGGAAAATAAAAAATCTCATTTCAGCATTTCAGAAGCCAGATCA    350
+
+Homo_sapiens     276 AGGCATTGTAATACCTCTGCAGTATCCAGTTGAGAAGAAGTCCTCAGCTA    325
+                     |||.|||||||||||||||||||||||||||||||||||||.|||||.||
+Panthera_pard    351 AGGTATTGTAATACCTCTGCAGTATCCAGTTGAGAAGAAGTGCTCAGTTA    400
+
+Homo_sapiens     326 GAAGTACACAAGGTACTACAGGGATAAGAGAAGATCCTGATGTCTGCCTG    375
+                     ||||..|||||||||||.||||||.||||||||||||||||||||.||||
+Panthera_pard    401 GAAGCGCACAAGGTACTGCAGGGAGAAGAGAAGATCCTGATGTCTTCCTG    450
+
+Homo_sapiens     376 AAAGCCCCA    384
+                     |||||.|||
+Panthera_pard    451 AAAGCACCA    459
+
+
+#---------------------------------------
+#---------------------------------------

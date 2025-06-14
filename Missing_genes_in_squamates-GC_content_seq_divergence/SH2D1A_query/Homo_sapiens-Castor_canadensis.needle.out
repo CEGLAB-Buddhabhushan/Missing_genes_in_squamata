@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:43
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Castor_canadensis.fa
+#    -outfile Homo_sapiens-Castor_canadensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Castor_canadensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Castor_canadensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 384
+# Identity:     354/384 (92.2%)
+# Similarity:   354/384 (92.2%)
+# Gaps:           6/384 ( 1.6%)
+# Score: 1652.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     |||||.||||||.||||||||||||||||||||||||||||.|||||.||
+Castor_canade      1 ATGGATGCAGTGACTGTGTATCATGGCAAAATCAGCAGGGAGACCGGGGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     ||||||||||||.|||||.||.||||||||||||||||||||||||||||
+Castor_canade     51 GAAGCTCCTGCTCGCCACGGGACTGGATGGCAGCTATTTGCTGAGGGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCTGTATCACGGTTAC    150
+                     ||||||||||.|||||.|||||||||||.||.|||||||||||.||||||
+Castor_canade    101 GCGAGAGCGTCCCAGGGGTGTACTGCCTGTGCGTGCTGTATCAAGGTTAC    150
+
+Homo_sapiens     151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Castor_canade    151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+
+Homo_sapiens     201 GACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAATCTCA    250
+                     |||||||||.||||||||||||||||.|||||||||||||||||||||||
+Castor_canade    201 GACAGCACCCGGGGTACATAAAAGATTTTTCCGGAAAATAAAAAATCTCA    250
+
+Homo_sapiens     251 TTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTCTGCAGTAT    300
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+Castor_canade    251 TTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTTTGCAGTAT    300
+
+Homo_sapiens     301 CCAGTTGAGAAGAAGTCCTCAGCTAGAAGTACACAAGGTACTACAGGGAT    350
+                     |||||||   |||||||||||||.||||..|||||||||||||||||||.
+Castor_canade    301 CCAGTTG---AGAAGTCCTCAGCAAGAAACACACAAGGTACTACAGGGAG    347
+
+Homo_sapiens     351 AAGAGAAGATCCTGATGTCTGCCTGAAAGCCCCA    384
+                     |||   ||||.|||||||||.|.|||||.|.|||
+Castor_canade    348 AAG---AGATTCTGATGTCTTCTTGAAAACACCA    378
+
+
+#---------------------------------------
+#---------------------------------------

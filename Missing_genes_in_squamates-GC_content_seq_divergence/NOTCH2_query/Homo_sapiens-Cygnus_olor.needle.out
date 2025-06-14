@@ -1,0 +1,650 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:46:30
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Cygnus_olor.fa
+#    -outfile Homo_sapiens-Cygnus_olor.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Cygnus_olor.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Cygnus_olor
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7660
+# Identity:    5498/7660 (71.8%)
+# Similarity:  5498/7660 (71.8%)
+# Gaps:         611/7660 ( 8.0%)
+# Score: 19555.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT-GCCCGC---------CCTGCG--CCCCGCTCTGCTGTGGGCGCTGCT     38
+                     || ||||||         ||.|||  |.||||.||.||..|..||.||||
+Cygnus_olor        1 ATGGCCCGCGGAGCGGGGCCGGCGCTCGCCGCCCTCCTCGGCACGGTGCT     50
+
+Homo_sapiens      39 GGC-GCTCTGGCTGT---GCTGCGCGGCCCCCGCGCATGCATTGCAGTGT     84
+                     ||| |       |||   ||.||||.|..||.|||...||.||.||||||
+Cygnus_olor       51 GGCAG-------TGTTCAGCCGCGCCGAGCCGGCGGCCGCTTTACAGTGT     93
+
+Homo_sapiens      85 CGAGATGGCTATG------AACCCTGTGTAAATGAAGGAATGTGTGTTAC    128
+                         ||||  |||      |.||.|||||.|||||.||||.|||..||.|
+Cygnus_olor       94 ----ATGG--ATGATTCCAAGCCTTGTGTTAATGAGGGAAGGTGCATTCC    137
+
+Homo_sapiens     129 CTACCACAATGGCACAGGATACTGCAAATGTCCAGAAGGC-TTCTTGGGG    177
+                     .||.||.|||||.||||||||||||||.||||.||||||| ||||| ||.
+Cygnus_olor      138 TTATCAAAATGGTACAGGATACTGCAAGTGTCGAGAAGGCTTTCTT-GGA    186
+
+Homo_sapiens     178 GAATATTGTCA--ACATCGAGACCCCTGTGAGAAG-AACCGCTGCCAGAA    224
+                     ||.||.|||||  |||  ||.|||||||||| ||| ||...|||..||||
+Cygnus_olor      187 GACTACTGTCAGTACA--GAAACCCCTGTGA-AAGCAATACCTGTAAGAA    233
+
+Homo_sapiens     225 TGGTGGGACTTGTGTGGCCCAGGCCAT-GCTG---GGGAAAGCCACGTGC    270
+                     |||.||.||.||||    ..|.|.||| ||||   ||.||.||.||.|||
+Cygnus_olor      234 TGGGGGAACCTGTG----AAATGACATCGCTGATAGGAAAGGCTACCTGC    279
+
+Homo_sapiens     271 CGATGTGCCTCAGGGTTTACAGGAGAGGACTGCCAGTACTCAACATCTCA    320
+                     ...|||||..|||||||.||.|||||||||||.||||||||...|||.||
+Cygnus_olor      280 AAGTGTGCTCCAGGGTTCACGGGAGAGGACTGTCAGTACTCTGAATCGCA    329
+
+Homo_sapiens     321 TCCA--TGCTTTGTGTCTCGACCCTGCCTGAATGGCGGCACATGCCATAT    368
+                       ||  ||||.||||||.|..||||||||||||||.||.||.||.|||..
+Cygnus_olor      330 --CATCTGCTATGTGTCCCAGCCCTGCCTGAATGGAGGAACTTGTCATCC    377
+
+Homo_sapiens     369 GCTCAGCCGGGATACCTATGAGTGCACCTGTCAAGTC--GGGTTTACAGG    416
+                     .|.|||||.|||.||.||.|||||...|||||  .||  ||.|..|||||
+Cygnus_olor      378 CCACAGCCAGGAAACATACGAGTGTGTCTGTC--CTCCAGGTTACACAGG    425
+
+Homo_sapiens     417 TAAGGAGTGCCAATGGACGGATGCCTGCCTGTCTCATCCCTGTGCAAATG    466
+                     .||.||.||||||||||..||||||||....|||||.||.|||||.||.|
+Cygnus_olor      426 AAAAGACTGCCAATGGATCGATGCCTGTACATCTCAACCTTGTGCCAACG    475
+
+Homo_sapiens     467 GAAGTACCTGTACCA--CTGTGGCCAACCAGTTCTCCTGCAAATGCCTCA    514
+                     |||||||.|||| ||  .|.||| .||..||||||||||.|..||.||..
+Cygnus_olor      476 GAAGTACTTGTA-CAGTATCTGG-AAATAAGTTCTCCTGTATCTGTCTGT    523
+
+Homo_sapiens     515 CAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCAATGAGTGTGACATT    564
+                     |.||||.|||.||.|||||.|||||||..|||||.||.||.||||.||.|
+Cygnus_olor      524 CTGGCTACACTGGCCAGAAGTGTGAGATAGATGTGAACGAATGTGCCACT    573
+
+Homo_sapiens     565 CCAGGACACTGCCAGCATGGTGGCACCTGCCTCAACCTGCCTGGTTCCTA    614
+                     .||||.|..||.||.||||||||.|||||..|||||.||||||||||.||
+Cygnus_olor      574 TCAGGCCTTTGTCAACATGGTGGGACCTGTGTCAACGTGCCTGGTTCATA    623
+
+Homo_sapiens     615 CCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTACTGTGACAGCCTGT    664
+                     ||..|||||||||...|.|||||..|||||.||...||||||.|||..||
+Cygnus_olor      624 CCGATGCCAGTGCAAGCCGGGCTATACAGGGCATCGCTGTGAGAGCACGT    673
+
+Homo_sapiens     665 ATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAGGCACCTGTCGGCAG    714
+                     |||||||.|||.||||.|||||.|||.|.||.|||||.||.||||..||.
+Cygnus_olor      674 ATGTGCCATGTTCACCATCACCCTGTATGAACGGAGGAACTTGTCACCAA    723
+
+Homo_sapiens     715 ACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCAGGTTTTGAAGGGAG    764
+                     ||..||||||||||.||||||||||||||.||.||||||||.||.|||||
+Cygnus_olor      724 ACAAGTGACTTCACCTTTGAGTGCAACTGTCTGCCAGGTTTCGAGGGGAG    773
+
+Homo_sapiens     765 CACCTGTGAGAGGAATATTGATGACTGCCCTAACCACAGGTGTCAGAATG    814
+                     ||.|||.|||.||||..|||||||||||||.||.||||..||.||.||||
+Cygnus_olor      774 CATCTGCGAGCGGAACGTTGATGACTGCCCAAATCACAATTGCCAAAATG    823
+
+Homo_sapiens     815 GAGGGGTTTGTGTGGATGGGGTCAACACTTACAACTGCCGCTGTCCCCCA    864
+                     |.||..|.||.|||||.||.||.|||||.||||||||||||||.||.||.
+Cygnus_olor      824 GGGGTATATGCGTGGACGGTGTGAACACGTACAACTGCCGCTGCCCACCC    873
+
+Homo_sapiens     865 CAATGGACAGGACAGTTCTGCACAGAGGATGTGGATGAATGCCTGCTGCA    914
+                     ||.||||||||.|||||.|||||.||.|||||.||.|||||.|.|||.||
+Cygnus_olor      874 CAGTGGACAGGCCAGTTTTGCACTGAAGATGTTGACGAATGTCAGCTCCA    923
+
+Homo_sapiens     915 GCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAACCGCAATGGAGGCT    964
+                     ||||||.||.||.||.|||||.||.|||||..||||||.|||.|||||||
+Cygnus_olor      924 GCCCAACGCGTGCCAGAATGGAGGTACCTGCACCAACCACAACGGAGGCT    973
+
+Homo_sapiens     965 ATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATGACTGCAGTGAGAAC   1014
+                     |||.||||||.||.|||||.|||||||||||.|||||||||||..|||||
+Cygnus_olor      974 ATGCCTGTGTCTGCGTCAATGGCTGGAGTGGGGATGACTGCAGCAAGAAC   1023
+
+Homo_sapiens    1015 ATTGATGATTGTGCCTTC---GCCTCCTGTACTCCAGGCTCCACCTGCAT   1061
+                     ||||||||.||   ||||   |||||||||.||...||.||.||.|||||
+Cygnus_olor     1024 ATTGATGACTG---CTTCACGGCCTCCTGTGCTAACGGATCTACTTGCAT   1070
+
+Homo_sapiens    1062 CGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAAGGCAGGTC   1111
+                     .||.||.|||||.||.||.||.|||||.||.||.||.||.||.|||||||
+Cygnus_olor     1071 TGATCGAGTGGCTTCTTTTTCATGCATTTGTCCTGAAGGAAAAGCAGGTC   1120
+
+Homo_sapiens    1112 TCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGCCACAAGGGG   1161
+                     |.||||||||..||||||||||||||.|.||||||||.|||||.|||||.
+Cygnus_olor     1121 TTCTGTGTCACTTGGATGATGCATGCGTTAGCAATCCATGCCAGAAGGGT   1170
+
+Homo_sapiens    1162 GCACTGTGTGACACCAACCCCCTAAATGGGCAATATATTTGCACCTGCCC   1211
+                     ||.||||||||.||.||.||..|.|||||.||.|||||.||||||||.||
+Cygnus_olor     1171 GCTCTGTGTGATACAAATCCTGTGAATGGACACTATATCTGCACCTGTCC   1220
+
+Homo_sapiens    1212 ACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGAATGTGCCA   1261
+                     .||||||.|.||.||.||.||||||||.||.|||||||||||||||||.|
+Cygnus_olor     1221 TCAAGGCCATAAGGGAGCAGACTGCACTGAGGATGTGGATGAATGTGCAA   1270
+
+Homo_sapiens    1262 TGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAACACGGAT   1311
+                     ||||.|||||||||||.|||||.|||||.||.||.||.||.|||||.||.
+Cygnus_olor     1271 TGGCAAATAGCAATCCATGTGAACATGCTGGGAAGTGCGTAAACACAGAA   1320
+
+Homo_sapiens    1312 GGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCTCGTTGTGA   1361
+                     |||.|.|||||||||||||||.|||||||.||..|.||||||||.|||||
+Cygnus_olor     1321 GGCTCTTTCCACTGTGAGTGTTTGAAGGGCTACACGGGACCTCGCTGTGA   1370
+
+Homo_sapiens    1362 GATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGATGCTACCT   1411
+                     .|||||||||||.||.|||||||||.|.||.|||||.||.|||||.||||
+Cygnus_olor     1371 AATGGACATCAACGAATGCCATTCAAATCCGTGCCAAAACGATGCCACCT   1420
+
+Homo_sapiens    1412 GTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAGGTTTCAAA   1461
+                     ||||||||||.||||||||.|||||.|||||.||.|||||||||||.|||
+Cygnus_olor     1421 GTCTGGATAAAATTGGAGGATTCACGTGTCTATGTATGCCAGGTTTTAAA   1470
+
+Homo_sapiens    1462 GGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAACCCTTGTGT   1511
+                     |||||.||.||||||..|||.||..||||.||||..||.||.||.|||||
+Cygnus_olor     1471 GGTGTTCACTGTGAAGAAGATATTGATGAGTGTCTAAGTAATCCGTGTGT   1520
+
+Homo_sapiens    1512 GAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCAGTGCCTGTGTC   1561
+                     |||.|||||..|.|||.|.|||||||||||.||.||||..||..|.||||
+Cygnus_olor     1521 GAATAATGGAGAATGTCTTGATAAAGTCAACCGGTTCCTCTGTGTCTGTC   1570
+
+Homo_sapiens    1562 CTCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGACTGTTCC   1611
+                     |||||||.||||.|||..|.||.||.|||||||||||.||||||||.|||
+Cygnus_olor     1571 CTCCTGGATTCAGTGGTGCTGTGTGTCAGATTGATATAGATGACTGCTCC   1620
+
+Homo_sapiens    1612 AGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCCGAATGGCTA   1661
+                     ||.||.||||||||.|||||.||.||.|||||.||.||.||.||||||||
+Cygnus_olor     1621 AGCACGCCGTGTCTCAATGGAGCCAAATGTATTGACCATCCCAATGGCTA   1670
+
+Homo_sapiens    1662 TGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTGAGGAGAACA   1711
+                     |||.||||||||||||||||||||.|||||..|.||||||||||||||||
+Cygnus_olor     1671 TGAGTGCCAGTGTGCCACAGGTTTTACTGGCATTTTGTGTGAGGAGAACA   1720
+
+Homo_sapiens    1712 TTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGTCAGGATGGT   1761
+                     |..||||||||||.||.||||||||||||||||||.|.|||||.|||||.
+Cygnus_olor     1721 TCAACAACTGTGATCCTGATCCTTGCCACCATGGTGAATGTCAAGATGGA   1770
+
+Homo_sapiens    1762 ATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGGCGCCATCTG   1811
+                     ||||||||.|||||.||.||.||.|||||.||.||||||||.||||||||
+Cygnus_olor     1771 ATTGATTCATACACGTGTATATGTAATCCTGGCTACATGGGTGCCATCTG   1820
+
+Homo_sapiens    1812 CAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGAACGATGGTC   1861
+                     ||||||.|||||.||||||||..||||||..||||||||..|..|.||.|
+Cygnus_olor     1821 CAGTGAGCAGATAGATGAATGCCACAGCAATCCTTGCCTCCATCAAGGGC   1870
+
+Homo_sapiens    1862 GCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAGCCAGGCACG   1911
+                     ||||||||||..||||.||||||||||||||||||||...||..|||||.
+Cygnus_olor     1871 GCTGCATTGATTTGGTGAATGGCTACCAGTGCAACTGTTTGCTGGGCACT   1920
+
+Homo_sapiens    1912 TCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAGTAACCCTTG   1961
+                     |||||.||.||.||.||||..||.|||||||||||||||||||||||.||
+Cygnus_olor     1921 TCAGGAGTGAACTGCGAAAACAACTTTGATGACTGTGCAAGTAACCCATG   1970
+
+Homo_sapiens    1962 TATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTTGTGTCTGCT   2011
+                     ..|.|||||...||||||.|||||||||||||||||||.|||||..|||.
+Cygnus_olor     1971 CGTTCATGGGGACTGTATCGATGGCATTAATCGCTACAATTGTGCTTGCA   2020
+
+Homo_sapiens    2012 CACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGATGAGTGTGCC   2061
+                     .|||.||||..|||||.|...|.|||||..|.||.||||||||.|||||.
+Cygnus_olor     2021 AACCTGGATATACAGGCCCACGCTGTAATGTGGATATTGATGAATGTGCG   2070
+
+Homo_sapiens    2062 TCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGTGAATGGTTT   2111
+                     ||.||.||.||.|..||.||||.|||||||||.||||..||.|||||.||
+Cygnus_olor     2071 TCTAACCCTTGCCATAATGGTGGAACATGTATAAACGAAGTCAATGGCTT   2120
+
+Homo_sapiens    2112 CCGCTGTATATGCCCCGAGGGACCCCATCACCC-CAGCTGCTACTCACAG   2160
+                     .||.|||.||||.||.||.||...|||.||||| || ||||.|.||||||
+Cygnus_olor     2121 TCGGTGTGTATGTCCTGAAGGTTACCACCACCCTCA-CTGCCAGTCACAG   2169
+
+Homo_sapiens    2161 GTGAACGAATGCCTG----AGCAATCCCTGCATCCATGGAAACTGTAC--   2204
+                     |    |..|||.|||    ||.||||||||..|.||.||.|||||.||  
+Cygnus_olor     2170 G----CAGATGGCTGTCTTAGTAATCCCTGTGTGCACGGTAACTGCACGC   2215
+
+Homo_sapiens    2205 ----TGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGTT   2250
+                         ||      |.|||||.||.|||||..|||||||..||||.|||.|.
+Cygnus_olor     2216 ACATTG------TTAGTGGGTACAAGTGCGTCTGTGACCCAGGTTGGATA   2259
+
+Homo_sapiens    2251 GG-CATCAACTGTGAAGTGGACAAA----AATGAATGCCTTTCGAATCCA   2295
+                     || .|| .|||||    |.||||.|    ||.||.||....||.||.|||
+Cygnus_olor     2260 GGAGAT-TACTGT----TCGACAGAAGGGAACGAGTGTAAATCAAACCCA   2304
+
+Homo_sapiens    2296 TGCCAGAATGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGTGTAC   2345
+                     |||||||||||||||||||||||..|||||.||||||||||.||.|||||
+Cygnus_olor     2305 TGCCAGAATGGAGGAACTTGTGAGGATCTGTTGAATGGATATAGATGTAC   2354
+
+Homo_sapiens    2346 TTGCAAGAAGGGCTTTAAAGGCTAT-AACTGCCAGGTGAATATTGATGAA   2394
+                     .||.|.|||.||.||.||||| |.| |||||||||||             
+Cygnus_olor     2355 CTGTAGGAAAGGATTCAAAGG-TGTGAACTGCCAGGT-------------   2390
+
+Homo_sapiens    2395 TGTGCCTCAAATCCATGCCTGAACCAAGGAACCTGCTTTGATGACATAAG   2444
+                                                                     ||
+Cygnus_olor     2391 ------------------------------------------------AG   2392
+
+Homo_sapiens    2445 TGGCTACACTTGCCACTGTGTGCTGCCATACACAGGCAAGAATTGTCAGA   2494
+                     |||                                               
+Cygnus_olor     2393 TGG-----------------------------------------------   2395
+
+Homo_sapiens    2495 CAGTATTGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGTTTGC   2544
+                           |.|||||.||||||||..|.|||||||||||..|.|...|||||
+Cygnus_olor     2396 ------TTGCTCCTTGTTCCCCTGATCCTTGTGAGAACTCAGGAATTTGC   2439
+
+Homo_sapiens    2545 AAAGAGTCACCAAATTTTGAGAGTTATACTTGCTTGTGTGCTCCTGGCTG   2594
+                     .||||.||.||..|||.|||..|.||.||.|||..||||||.||||||||
+Cygnus_olor     2440 CAAGAATCTCCTGATTCTGAAGGCTACACCTGCCAGTGTGCCCCTGGCTG   2489
+
+Homo_sapiens    2595 GCAAGGTCAGCGGTGTACCATTGACATTGACGAGTGTATCTCCAAGCCCT   2644
+                     |.||||..||.|.|||||..|.||.||.||.||.|||.||||.|||||||
+Cygnus_olor     2490 GGAAGGGGAGAGATGTACAGTGGATATCGATGAATGTCTCTCGAAGCCCT   2539
+
+Homo_sapiens    2645 GCATGAACCATGGTCTCTGCCATAACACCCAGGGCAGCTACATGTGTGAA   2694
+                     |||..||.||||.|.|.||||||||.|..||.|||||.|||.||||||||
+Cygnus_olor     2540 GCAAAAATCATGCTTTGTGCCATAATATTCAAGGCAGTTACCTGTGTGAA   2589
+
+Homo_sapiens    2695 TGTCCACCAGGCTTCAGTGGTATG-GACTGTG--AGGAGGACATTGATGA   2741
+                     ||||..||||||||||.||| |.| |||||||  ||.|  |||||||.||
+Cygnus_olor     2590 TGTCGTCCAGGCTTCACTGG-AGGAGACTGTGACAGTA--ACATTGACGA   2636
+
+Homo_sapiens    2742 CTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGATGGAGTGA   2791
+                     ||||||..|.|||||.|||||.||.||||.|||.|||.|||||||..|.|
+Cygnus_olor     2637 CTGCCTGTCAAATCCCTGCCAAAACGGAGCTTCGTGTGTGGATGGGATAA   2686
+
+Homo_sapiens    2792 ATACTTTCTCCTGCCTCTGCCTTCC-GGGTTTCACTGGGGATAAGTGCCA   2840
+                     |..|||||||.|||.|||||||.|| ||.||||| |||.|||||.||.||
+Cygnus_olor     2687 ACTCTTTCTCATGCATCTGCCTACCTGGTTTTCA-TGGAGATAAATGTCA   2735
+
+Homo_sapiens    2841 GACAGACATGAATGAGTGTCTGAGTGAACCCTGTAAGAATGGAGGGACCT   2890
+                     ||||||.|..||.||.||||||||||||||.||.|.|||||||||.||.|
+Cygnus_olor     2736 GACAGATACCAACGAATGTCTGAGTGAACCATGCAGGAATGGAGGCACGT   2785
+
+Homo_sapiens    2891 GCTCTGACTACGTCAACAGTTACACTTGCAAGTGCCAGGCAGGATTTGAT   2940
+                     |..|..||||.||||||||.|||||.||||||||.|||.|.||.|||||.
+Cygnus_olor     2786 GTACCCACTATGTCAACAGCTACACATGCAAGTGTCAGCCTGGGTTTGAG   2835
+
+Homo_sapiens    2941 GGAGTCCATTGTGAGAACAACATCAATGAGTGCACTGAGAGCTCCTGTTT   2990
+                     |||..|.|.||||||||||||||..||||.||||||||||||||||||||
+Cygnus_olor     2836 GGAACCAACTGTGAGAACAACATTGATGAATGCACTGAGAGCTCCTGTTT   2885
+
+Homo_sapiens    2991 CAATGGTGGCACATGTGTTGATGGGATTAACTCCTTCTCTTGCTTGTGCC   3040
+                     |||||||||.||.||.||.|||||.||.||.||.||..|.|||..|||.|
+Cygnus_olor     2886 CAATGGTGGTACCTGCGTGGATGGCATCAATTCTTTTACCTGCCAGTGTC   2935
+
+Homo_sapiens    3041 CTGTGGGTTTCACTGGATCCTTCTGCCTCCAT-GAGATCAATGAATGCAG   3089
+                     |.|||||.||.||.|||.||||.||||| ||| ||.||.|||||.||...
+Cygnus_olor     2936 CAGTGGGATTTACGGGACCCTTTTGCCT-CATGGAAATTAATGAGTGTGA   2984
+
+Homo_sapiens    3090 CTCTCATCCATGCCTGAATGAGGGAACGTGTGTTGATGGCCTGGGTACCT   3139
+                     .||.|||||||||.||||..|.||..|.||.||.||..||||.||.||.|
+Cygnus_olor     2985 TTCACATCCATGCTTGAACAAAGGGTCTTGCGTGGACAGCCTAGGCACAT   3034
+
+Homo_sapiens    3140 ACCGCTGCAGCTGCCCCCTGGGCTACACTGGGAAAAACTGTCAGAC-CCT   3188
+                     ||||.||.|..||.||..||||.|||||||||||.||||||||||| |||
+Cygnus_olor     3035 ACCGATGTATATGTCCTTTGGGTTACACTGGGAAGAACTGTCAGACACCT   3084
+
+Homo_sapiens    3189 GGTGAATCTCTGCAGTCGGTCTCCATGTAAAAACAAAGGTACTTGCGTTC   3238
+                      .||.||||.|||||..|||||||.|||||.|||||.||.||.||   ||
+Cygnus_olor     3085 -ATGGATCTATGCAGCAGGTCTCCCTGTAAGAACAAGGGCACATG---TC   3130
+
+Homo_sapiens    3239 AGAAAAAAGCAGAGTCCCAG------TGCCTATGTCCATCTGGATGGGCT   3282
+                     ...|||..|.||   |||||      |||.|.||.||.|||||.|||.||
+Cygnus_olor     3131 TCCAAACTGGAG---CCCAGACTCGATGCGTCTGCCCTTCTGGCTGGACT   3177
+
+Homo_sapiens    3283 GGTGCCTATTGTGACGTGCCCAATGTCTCTTGTGACATAGCAGCCTC-CA   3331
+                     |||||.||.||.||.||||||||.|||||.|||.|..|.|||||.|| ||
+Cygnus_olor     3178 GGTGCTTACTGCGATGTGCCCAACGTCTCCTGTCAAGTGGCAGCTTCACA   3227
+
+Homo_sapiens    3332 GGAGAGGTGTGCTTGTTGAACACTTGTGCCAGCACTCAGGTGTCTGCATC   3381
+                      .||.||.||...|||.||.||.||||||||||||||.|||...|||.|.
+Cygnus_olor     3228 -AAGGGGAGTCACTGTGGATCAGTTGTGCCAGCACTCTGGTCATTGCCTG   3276
+
+Homo_sapiens    3382 AATGCTGGCAACACGCATTACTGTCAGTGCCCCCTGGGCTATACTGGGAG   3431
+                     ||||.|||.||||||||...|||||||||||...||||.||.||.||.||
+Cygnus_olor     3277 AATGTTGGAAACACGCACCGCTGTCAGTGCCGGGTGGGTTACACGGGCAG   3326
+
+Homo_sapiens    3432 CTACTGTGAGGAGCAACTCGATGAGTGTGCGTCCAACCCCTGCCAGCACG   3481
+                     ||||||.||||||||.||.|||||.||||..||||.|||.||||||.|||
+Cygnus_olor     3327 CTACTGCGAGGAGCAGCTGGATGAATGTGACTCCAGCCCATGCCAGAACG   3376
+
+Homo_sapiens    3482 GGGCAACATGCAGTGACTTCA--TTGGTGGATA-CAGATGCGAGTGTGTC   3528
+                     |.||.||.|||.|.||  |||  |.|||||||| ||| |||||||||||.
+Cygnus_olor     3377 GTGCCACCTGCCGGGA--TCACCTGGGTGGATACCAG-TGCGAGTGTGTG   3423
+
+Homo_sapiens    3529 CCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAA   3578
+                     ||.||.||.|||||||||||||||||.|||||||||||||||||||||..
+Cygnus_olor     3424 CCTGGATACCAGGGTGTCAACTGTGAATATGAAGTGGATGAGTGCCAGTT   3473
+
+Homo_sapiens    3579 TCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCA   3628
+                     |||||||||||||||||||||.||.|||||.|||||.||.||||||||||
+Cygnus_olor     3474 TCAGCCCTGCCAGAATGGAGGAACGTGTATAGACCTCGTCAACCATTTCA   3523
+
+Homo_sapiens    3629 AGTGCTCTTGCCCACCAGGCACTCGGGGCCTACTCTGTGAAGAGAACATT   3678
+                     |||||||.||.|||||||||||||||||.|...|||||||.||||||.|.
+Cygnus_olor     3524 AGTGCTCCTGTCCACCAGGCACTCGGGGTCGCTTCTGTGAGGAGAACGTG   3573
+
+Homo_sapiens    3679 GATGACTGTG-------CCCGGG-GT-CCCCATTGCCTTAATGGTGGTCA   3719
+                     ||||||||||       |.|||| || ||||..|||.||||.||.||.||
+Cygnus_olor     3574 GATGACTGTGTTTCAGACTCGGGAGTACCCCGCTGCTTTAACGGAGGGCA   3623
+
+Homo_sapiens    3720 GTGCATGGATAGGATTGGAGGCTACAGTTGTCGCTGCTTG----CCTGGC   3765
+                     ||||||.||...|||.||.|||||.||.||    ||.|||    ||.|||
+Cygnus_olor     3624 GTGCATTGACCAGATCGGGGGCTATAGCTG----TGTTTGTCTCCCAGGC   3669
+
+Homo_sapiens    3766 TTTGCTGGGGAGCGTTGTGAGGGAGACATCAACGAGTGCCTCTCCAACCC   3815
+                     |||||.||.|||||.||.|||||.||.|||||.||.||||||||.||.||
+Cygnus_olor     3670 TTTGCAGGCGAGCGATGCGAGGGGGATATCAATGAATGCCTCTCTAATCC   3719
+
+Homo_sapiens    3816 CTGCAGCTCTGAGGGCAGCCTGGACTGTATACAGCTCACCAATGACTACC   3865
+                     .||.|.|.||...||.||.|||||.|||.|.|||||.|..|||||.||..
+Cygnus_olor     3720 TTGTAACCCTCGTGGAAGTCTGGATTGTGTTCAGCTGATAAATGATTATA   3769
+
+Homo_sapiens    3866 TGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCACTGTGAAACCTTCGTC   3915
+                     .|||..|.||.||||||||.||||||||.||.|||||.||.|...|..|.
+Cygnus_olor     3770 CGTGCATCTGTCGTAGTGCTTTTACTGGTCGTCACTGCGAGAGTGTAATA   3819
+
+Homo_sapiens    3916 GATGTGTGTCCCCAGATGCCCTGCCTGAATGGAGGGACTTGTGCTGTGGC   3965
+                     |||||||||||.|.||.|||.||.|.|||.|||||.||.||||||||.||
+Cygnus_olor     3820 GATGTGTGTCCTCGGAAGCCTTGTCAGAACGGAGGTACCTGTGCTGTTGC   3869
+
+Homo_sapiens    3966 CAGTAACATGCCTGATGGTTTCATTTGCCGTTGTCCCCCGGGATTTTCCG   4015
+                     |||.||.|||||.||.||.|||||.||||..|||||.|||||.|..||.|
+Cygnus_olor     3870 CAGCAATATGCCAGACGGGTTCATCTGCCAGTGTCCTCCGGGTTACTCTG   3919
+
+Homo_sapiens    4016 GGGC--AAGGTGCCAG---AGCAGC---------TGTGGACAAGTGAAAT   4051
+                     ||||  ||.|||  ||   ||||||         |||||.||||||||||
+Cygnus_olor     3920 GGGCGAAATGTG--AGTTCAGCAGCCACAGTACTTGTGGGCAAGTGAAAT   3967
+
+Homo_sapiens    4052 GTAGGAAGGGGGAGCAGTGTGTGCACACCGCCTCTGGACCCCGCTGCTTC   4101
+                     |.|.|||.||.||||||||..|.||.||..|.|||||.||.||.||||.|
+Cygnus_olor     3968 GCAAGAAAGGCGAGCAGTGCATCCAGACATCATCTGGCCCACGGTGCTAC   4017
+
+Homo_sapiens    4102 TGCCCCA----GTCCCCG-----GGACTGCGAGTCA------GGCTGTGC   4136
+                     |||||||    |||...|     |||.|||.||.||      ||||||||
+Cygnus_olor     4018 TGCCCCAAGTTGTCTGTGGGAGAGGAATGCCAGACAAACACGGGCTGTGC   4067
+
+Homo_sapiens    4137 CAGTAGCCCCTGCCAGCACGGGGGCAGCTGCCACCCTCAGCGC-CAGCCT   4185
+                     ||||..||||||||||.||||.||.||||||||||||| |..| ||||||
+Cygnus_olor     4068 CAGTGCCCCCTGCCAGAACGGTGGAAGCTGCCACCCTC-GTTCTCAGCCT   4116
+
+Homo_sapiens    4186 CCTTATTACTCCTGCCAGTGT---------GCCCCACCATTCTCGGGTAG   4226
+                     |||||.||.|..||.||||||         ||||.|         ||.||
+Cygnus_olor     4117 CCTTACTATTATTGTCAGTGTCCTGATCACGCCCAA---------GGCAG   4157
+
+Homo_sapiens    4227 CCGCTGTGAACTCTACACGGCACCCCCCAGCACCCCTCCTGCCA----CC   4272
+                     ||..|||||          |||.|.|.|| ||.|   ||.||||    ||
+Cygnus_olor     4158 CCAGTGTGA----------GCAGCTCACA-CATC---CCAGCCAAGAGCC   4193
+
+Homo_sapiens    4273 -------TGTCTGAG----CCAGTATTGTGCCGACAAAGCTCGGGATGGC   4311
+                            |||.|| |    ||||   |||||.||.|||||....||||||
+Cygnus_olor     4194 TCTAGGATGTTTG-GATTCCCAG---TGTGCAGAAAAAGCAAAAGATGGC   4239
+
+Homo_sapiens    4312 GTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCAGTGGGATGGGGGTGA   4361
+                     ...||||||||.|.|||.||||..||||||||||||||||||||.||.||
+Cygnus_olor     4240 TATTGTGATGAAGACTGTAACACTCATGCCTGCCAGTGGGATGGAGGCGA   4289
+
+Homo_sapiens    4362 CTGTTCTCTCACCATGGAGAACCCCTGGGCCAACTGCTCCTCCCCACTTC   4411
+                     ||||||.||.||.|||||..|.||.|||||||||||||||||..||.|.|
+Cygnus_olor     4290 CTGTTCCCTGACAATGGAAGATCCTTGGGCCAACTGCTCCTCTTCATTGC   4339
+
+Homo_sapiens    4412 CCTGCTGG--GATTATATCAACAACCAGTGTGATGAGCTGTGCAACACGG   4459
+                     .|||||||  |.|  |.||||....||||||||.|||.|.||||||||..
+Cygnus_olor     4340 GCTGCTGGATGCT--TTTCAATGGACAGTGTGACGAGTTCTGCAACACAC   4387
+
+Homo_sapiens    4460 TCGAGTGCCTGTTTGACAACTTTGAATGCCAGGGGAACAGCAAGACATGC   4509
+                     .||||||.||||||||||||||||||||.|||...||.|||||.||||||
+Cygnus_olor     4388 CCGAGTGTCTGTTTGACAACTTTGAATGTCAGCAAAATAGCAAAACATGC   4437
+
+Homo_sapiens    4510 AAGTATGACAAATACTGTGCAGACCACTTCAAA----GACAACCACTGTG   4555
+                     |||||||||||.||.||||||||.||||    |    ||...||.|||||
+Cygnus_olor     4438 AAGTATGACAAGTATTGTGCAGATCACT----ATGCGGATGGCCGCTGTG   4483
+
+Homo_sapiens    4556 ACCAGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGCTGGACTGTGCT   4605
+                     |||||||.||.|||||||||||||||||.|||||.||.||.|||||.|||
+Cygnus_olor     4484 ACCAGGGCTGTAACAGTGAGGAGTGTGGCTGGGACGGTCTCGACTGCGCT   4533
+
+Homo_sapiens    4606 GCTGACCAACCTGAGAACCTGGCAGAAGGTACCCTGGTTATTGTGGTATT   4655
+                     |.||||.||.|||||||.||||||||.||.|||||..|.||||||||..|
+Cygnus_olor     4534 GGTGACAAAGCTGAGAAACTGGCAGAGGGGACCCTCATCATTGTGGTCCT   4583
+
+Homo_sapiens    4656 GATGCCACCTGAACAACTGCTCCAGGATGCTCGCAGCTTCTTGCGGGCAC   4705
+                     ||||||.|||||..|.|||||....||||.||||||||||.|||  ||||
+Cygnus_olor     4584 GATGCCCCCTGATGAGCTGCTGGGCGATGTTCGCAGCTTCCTGC--GCAC   4631
+
+Homo_sapiens    4706 --TGGGTACCCTGCTCCACACCAACCTGCGCATTAAGCGGGACTCCCAGG   4753
+                       ||||.||.||.||.||||||||.|||.|.||.||||.|||||||||||
+Cygnus_olor     4632 TTTGGGAACTCTCCTGCACACCAATCTGAGAATCAAGCTGGACTCCCAGG   4681
+
+Homo_sapiens    4754 GGGAACTCATGGTGTACCCCTATTATGGTGAGAAGTCAGCTGCTATGAAG   4803
+                     |..|.|.||||||.|.|||.||.|||||.|||||||||||.||       
+Cygnus_olor     4682 GAAACCCCATGGTATTCCCATACTATGGGGAGAAGTCAGCAGC-------   4724
+
+Homo_sapiens    4804 AAACAGAGGATGACACGCAGATCCCTTCCTGGT----------------G   4837
+                       ||.|||      .||..|||||||| .||||                |
+Cygnus_olor     4725 --ACGGAG------TCGGCGATCCCTT-GTGGTCATTCGCAAGCACAGAG   4765
+
+Homo_sapiens    4838 AACAAGAACAGGAGGTGGCTGGCTCTAAAGTCTTTCTGGAAATTGACAAC   4887
+                     ||..|||.||.|||||...||||.|.|..||.||.|||||.|||||||||
+Cygnus_olor     4766 AATTAGAGCAAGAGGTCATTGGCACCAGGGTGTTCCTGGAGATTGACAAC   4815
+
+Homo_sapiens    4888 CGCCAGTGTGTTCAAGACTCAGACCACTGCTTCAAGAACACGGATGCAGC   4937
+                     ||.|||||||...|.||.|||||.||.||.||..|||||||.||.||.||
+Cygnus_olor     4816 CGTCAGTGTGCAGAGGATTCAGAGCAATGTTTTCAGAACACAGAAGCTGC   4865
+
+Homo_sapiens    4938 AGCAGCTCTCCTGGCCTCTCACGCCATACAGGGGACCCTGTCATACCCTC   4987
+                     .|||||||||.|.||..||||.||.||..||||.|...||.|.||.|||.
+Cygnus_olor     4866 TGCAGCTCTCTTAGCTGCTCAAGCAATCAAGGGCATGTTGCCTTATCCTT   4915
+
+Homo_sapiens    4988 TTGTGTCTGTCGTCAGTGAATCCCTG--ACTCCAGAACGCACTCAGCTCC   5035
+                     |||||||||||...|||||..||.||  ||..|.|||  .||.|||.|.|
+Cygnus_olor     4916 TTGTGTCTGTCCAAAGTGAGCCCTTGTTACCACCGAA--GACCCAGTTGC   4963
+
+Homo_sapiens    5036 TCTATCTCCTTGCTGTTGCTGTTGTCATCATTCTGTTTATTATTCTGCTG   5085
+                     |.||.||.||||||||.||.|.|.|.|||||.||.||.||..||||..||
+Cygnus_olor     4964 TTTACCTACTTGCTGTGGCAGCTTTGATCATCCTCTTAATCCTTCTCTTG   5013
+
+Homo_sapiens    5086 GGGGTAATCATGGCAAAACGAAAGCGTAAGCATGGCTCTCTCTGGCTGCC   5135
+                     ||.||.||.|||||.||.||.|||||.||.||||||||.||.|||||.||
+Cygnus_olor     5014 GGCGTGATGATGGCGAAGCGTAAGCGCAAACATGGCTCACTGTGGCTCCC   5063
+
+Homo_sapiens    5136 TGAAGGTTTCACTCTTCGCCGAGATGCAAGCAATCACAAGCGTCGTGAGC   5185
+                     .||.||.||||.|||.|||.|.|||.|.||.|||||.|||||..|.||||
+Cygnus_olor     5064 AGAGGGCTTCATTCTGCGCAGGGATCCTAGTAATCATAAGCGCAGAGAGC   5113
+
+Homo_sapiens    5186 CAGTGGGACAGGATGCTGTGGGGCTGAAAAATCTCTCAGTGCAAGTCTCA   5235
+                     |.||.||..|.|||||.||.||.||.||||||||.|||||.||..||.||
+Cygnus_olor     5114 CGGTTGGGGAAGATGCAGTTGGACTCAAAAATCTTTCAGTCCAGATCCCA   5163
+
+Homo_sapiens    5236 GAAGCTAACCTAATTGG----TACTGGAACAAGTGAACACTGGGTCGATG   5281
+                     ||.|.|||||    |||    |.|||||.|||.|||||||||||..|.||
+Cygnus_olor     5164 GAGGGTAACC----TGGCGGATTCTGGACCAACTGAACACTGGGCGGGTG   5209
+
+Homo_sapiens    5282 ATGAAGGGCCCCAGCCAAAGAAAGTAAAGGCTGAAGATGAGGCCTTACTC   5331
+                     |||..||.||.||||||||||.||.|||||||||.||..|.|||||.|||
+Cygnus_olor     5210 ATGGTGGACCTCAGCCAAAGAGAGCAAAGGCTGAGGACCAAGCCTTGCTC   5259
+
+Homo_sapiens    5332 TCAGAAGAAGATGACCCCATTGATCGACGGCCA-TGGACACAGCAGCACC   5380
+                     .||||||..|||||.|..||.|| |.|..|||| |||||.|||||||||.
+Cygnus_olor     5260 CCAGAAGCTGATGAGCAGATAGA-CCAGCGCCAGTGGACGCAGCAGCACT   5308
+
+Homo_sapiens    5381 TTGAAGCTGCAGACATCCGTAGGA-CACCATCGCTGGCTCTCACCCCTCC   5429
+                     |.||.||.|||||..||.||.||| || |.|||||.||.||.||.||.||
+Cygnus_olor     5309 TGGAGGCAGCAGATGTCTGTGGGAGCA-CGTCGCTAGCCCTTACGCCACC   5357
+
+Homo_sapiens    5430 TCAGGCAGAGCAGGAGGTGGATGTGTTAGATGTGAATGTCCGTGGCCCAG   5479
+                     |||.|||||.||.||.||.|||||..|.|||||.||||||.|.||.||||
+Cygnus_olor     5358 TCAAGCAGATCAAGAAGTCGATGTTCTGGATGTCAATGTCAGAGGGCCAG   5407
+
+Homo_sapiens    5480 ATGGCTGCACCCCATTGATGTTGGCTTCTCTCCGAGGAGGCAGCTCAGAT   5529
+                     ||||.||.||.||..|.|||.||||.|||||.||.|..|||||.||.|||
+Cygnus_olor     5408 ATGGATGTACTCCTCTCATGCTGGCATCTCTGCGTGTGGGCAGTTCCGAT   5457
+
+Homo_sapiens    5530 TTGAGTGATGAAGATGAAGATGCAGAGGACTCTTCTGCTAACATCATCAC   5579
+                     .|.|||||.||.|||||.||||||||.|||||.||.||.||.||.||.||
+Cygnus_olor     5458 ATTAGTGAGGATGATGAGGATGCAGAAGACTCCTCAGCAAATATAATAAC   5507
+
+Homo_sapiens    5580 AGACTTGGTCTACCAGGGTGCCAGCCTCCAGGCCCAGACAGACCGGACTG   5629
+                     |||..||.||||.|||||.||||.|||.||||||||.||||||||.||||
+Cygnus_olor     5508 AGATCTGATCTATCAGGGCGCCAACCTGCAGGCCCAAACAGACCGCACTG   5557
+
+Homo_sapiens    5630 GTGAGATGGCCCTGCACCTTGCAGCCCGCTACTCACGGGCTGATGCTGCC   5679
+                     |.||||||||.||||||||.||||||||.||.|||.|.||.||||||||.
+Cygnus_olor     5558 GGGAGATGGCGCTGCACCTAGCAGCCCGTTATTCAAGAGCAGATGCTGCA   5607
+
+Homo_sapiens    5680 AAGCGTCTCCTGGATGCAGGTGCAGATGCCAATGCCCAGGACAACATGGG   5729
+                     ||.|||.|.||||||||.|||||.|||||||||||.|.||||||||||||
+Cygnus_olor     5608 AAACGTTTGCTGGATGCTGGTGCGGATGCCAATGCACGGGACAACATGGG   5657
+
+Homo_sapiens    5730 CCGCTGTCCACTCCATGCTGCAGTGGCAGCTGATGCCCAAGGTGTCTTCC   5779
+                     .||...|||.||.|||||.||.||.||.|||||||||||.||.|||||.|
+Cygnus_olor     5658 ACGGACTCCCCTGCATGCAGCTGTAGCTGCTGATGCCCAGGGCGTCTTTC   5707
+
+Homo_sapiens    5780 AGATTCTGATTCGCAACCGAGTAACTGATCTAGATGCCAGGATGAATGAT   5829
+                     ||||..||||.||.|||.||||.||.||..|.|||||..|.||||||||.
+Cygnus_olor     5708 AGATCTTGATCCGTAACAGAGTGACAGACTTGGATGCTCGCATGAATGAC   5757
+
+Homo_sapiens    5830 GGTACTACACCCCTGATCCTGGCTGCCCGCCTGGCTGTGGAGGGAATGGT   5879
+                     ||.||.||.||..|.||.||||||||.||.|||||||||||.||||||||
+Cygnus_olor     5758 GGAACAACCCCGTTAATTCTGGCTGCACGGCTGGCTGTGGAAGGAATGGT   5807
+
+Homo_sapiens    5880 GGCAGAACTGATCAACTGCCAAGCGGATGTGAATGCAGTGGATGACCATG   5929
+                     |||.||.|||||.||.||||||||.||||||||.||.||.||||||||||
+Cygnus_olor     5808 GGCTGAGCTGATAAATTGCCAAGCCGATGTGAACGCTGTAGATGACCATG   5857
+
+Homo_sapiens    5930 GAAAATCTGCTCTTCACTGGGCAGCTGCTGTCAATAATGTGGAGGCAACT   5979
+                     |.||||||||||||||||||||.|||||||||||.||.|||||.|||||.
+Cygnus_olor     5858 GTAAATCTGCTCTTCACTGGGCTGCTGCTGTCAACAACGTGGAAGCAACA   5907
+
+Homo_sapiens    5980 CTTTTGTTGTTGAAAAATGGGGCCAACCGAGACATGCAGGACAACAAGGA   6029
+                     ||..||.||.||||||||||.||||||.|.|||||||||||.||||||||
+Cygnus_olor     5908 CTAGTGCTGCTGAAAAATGGAGCCAACAGGGACATGCAGGATAACAAGGA   5957
+
+Homo_sapiens    6030 AGAGACACCTCTGTTTCTTGCTGCCCGGGAGGGGAGCTATGAAGCAGCCA   6079
+                     .|||||||||||.||.||||||||.|||||.||.||.|..||||||||.|
+Cygnus_olor     5958 GGAGACACCTCTCTTCCTTGCTGCTCGGGAAGGCAGTTTCGAAGCAGCAA   6007
+
+Homo_sapiens    6080 AGATCCTGTTAGACCATTTTGCCAATCGAGACATCACAGACCATATGGAT   6129
+                     |||||.||.|.||||||||||||||||||||||||||.|||||.||||||
+Cygnus_olor     6008 AGATCTTGCTGGACCATTTTGCCAATCGAGACATCACGGACCACATGGAT   6057
+
+Homo_sapiens    6130 CGTCTTCCCCGGGATGTGGCTCGGGATCGCATGCACCATGACATTGTGCG   6179
+                     |||||.||||||||.|||||.|.|||.||.||||||||.|||||.||||.
+Cygnus_olor     6058 CGTCTGCCCCGGGACGTGGCCCAGGACCGGATGCACCACGACATAGTGCA   6107
+
+Homo_sapiens    6180 CCTTCTGGATGAATACAATGTGACCCCA-AG-CCCTCCAGGCA-------   6220
+                     .|||||..|.||.|||||||| |.|.|| || |||.||.||||       
+Cygnus_olor     6108 GCTTCTCAACGAGTACAATGT-AGCGCACAGCCCCACCGGGCACCCCGGT   6156
+
+Homo_sapiens    6221 -CCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGGGCCCAACAGATC   6269
+                      ||.||.|||..|||||.|||||.||.|||||.|||||.||.||.|||||
+Cygnus_olor     6157 GCCATGCTGAACTCTGCCCTCTCCCCGGTCATTTGTGGCCCAAATAGATC   6206
+
+Homo_sapiens    6270 TTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGTCTAGACGGCCCA   6319
+                     .||.||||..|||||||||.|..|..|..||||||||||..||...||.|
+Cygnus_olor     6207 CTTTCTCAATCTGAAGCACGCTTCCTTAAGCAAGAAGTCGCGAAAACCGA   6256
+
+Homo_sapiens    6320 GTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTTGCCAAGGAGGCA   6369
+                     .||||||..|.|.||||||         |.|.|||||..||||.||.|||
+Cygnus_olor     6257 ATGCCAAAGGCATCATGCC---------CACAAACCTCACCAAAGATGCA   6297
+
+Homo_sapiens    6370 AAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGTGAG----AAGG   6415
+                     |||            ||.||.|||||||||||.||.||.|||    ||||
+Cygnus_olor     6298 AAG------------AGGAGAAGGAAGAAGTCCCTCAGCGAGAGCAAAGG   6335
+
+Homo_sapiens    6416 TCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGATTCCCTAGAA   6465
+                      .||..|.||.|||||.||||||||..|.||.||.||.||.|||||.|||
+Cygnus_olor     6336 -GCAGTTCTCAGAGAGCTCAGTAACCCTGTCACCAGTCGACTCCCTCGAA   6384
+
+Homo_sapiens    6466 TCTCCTCACACGTATGTTTCCGACACC-ACATCCTCTCCAATGATTACAT   6514
+                     ||.||.||..|.|.||..||||| ||| |||||.|||||..||||..|.|
+Cygnus_olor     6385 TCGCCCCATGCTTTTGCATCCGA-ACCAACATCGTCTCCTGTGATGCCGT   6433
+
+Homo_sapiens    6515 CCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGCCACTGCCGCC   6564
+                     |.||.|||.|.|||||..|.||.||||.|.|..||.||   ||||     
+Cygnus_olor     6434 CGCCAGGGGTGTTACACTCGTCGCCCAGCTCCCTGCTG---ACTG-----   6475
+
+Homo_sapiens    6565 CCTCCTGCCCCAGTCCATGCCCAGCATGCAC------TATCTTTTTCTAA   6608
+                      ||||       |||..||  |||..|||.|      |.||.||.||.||
+Cygnus_olor     6476 -CTCC-------GTCGGTG--CAGGCTGCGCACTCGATGTCCTTCTCCAA   6515
+
+Homo_sapiens    6609 CCTTCATGAAATGCAGCCTTTGGCACATGGGGCCAGCACTGTGCTTCCCT   6658
+                     |||.||.||.||||||||.||.|.||.|||..||.||||.|||||.||.|
+Cygnus_olor     6516 CCTCCACGAGATGCAGCCCTTAGGACGTGGATCCGGCACGGTGCTCCCGT   6565
+
+Homo_sapiens    6659 CAGTGAGCCAGTTGCTATCCCACCAC-------CACATTGTGTCTCCAGG   6701
+                     |.||.||||||.||||.||.||.|||       |.|       ||||...
+Cygnus_olor     6566 CTGTCAGCCAGCTGCTCTCACAGCACAGAACAACCC-------CTCCGAA   6608
+
+Homo_sapiens    6702 CAGTGGCAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCA---GTCC   6748
+                     |||.||           ||||| |.|||||.|..||||  |||   .|.|
+Cygnus_olor     6609 CAGCGG-----------GCTTG-GCAGGCTGCGGCCAG--CCAACGTTTC   6644
+
+Homo_sapiens    6749 CAGCAGATTGGATGAACCGCATGGAGGTGAATGAGACCCAGTACAATGAG   6798
+                     || |.||.||||||||.|||||||||.||||.|||.|.||||||||.|||
+Cygnus_olor     6645 CA-CCGAGTGGATGAATCGCATGGAGATGAACGAGTCTCAGTACAACGAG   6693
+
+Homo_sapiens    6799 ATGTTTGGTATGGTCCTGGCTCCAGCTGAGG-----GCA-CCCATCCTGG   6842
+                     ||||||||.|||||    ||..|||.|||.|     ||| ||||     |
+Cygnus_olor     6694 ATGTTTGGCATGGT----GCCGCAGGTGATGCATTCGCACCCCA-----G   6734
+
+Homo_sapiens    6843 CATAGCTCCCCAGAGCAGG-------CCACCTGAAGGGAAGCACA-----   6880
+                     |.|..|||..|||||| ||       |.|.|.||...||||||||     
+Cygnus_olor     6735 CGTTTCTCAGCAGAGC-GGCTTGGTCCAAGCAGATACGAAGCACATGGGA   6783
+
+Homo_sapiens    6881 -TAACCACCCCTCGGGAGCCCTTGCCCCCCATTGTGACTTTCCAGCTCAT   6929
+                      |..|||      |||||.|..|||||||.||..|||||||||||||..|
+Cygnus_olor     6784 GTGTCCA------GGGAGTCTCTGCCCCCTATCATGACTTTCCAGCTGGT   6827
+
+Homo_sapiens    6930 CCCTAAAGGCAGTATTGCCCAACCAGCGGGGGCTCCC----CAGCCTCAG   6975
+                     .||.||.||..|.||    .|||||||..|..||.||    |||.|.|||
+Cygnus_olor     6828 TCCCAAGGGTGGCAT----AAACCAGCAAGCACTGCCACAGCAGGCCCAG   6873
+
+Homo_sapiens    6976 TCCACCTGCCCTC----CAGCTGTTGCGGGCCCCCTGCCCACCATGTACC   7021
+                     ||.|.||||.|||    ||    |.||.||.||.||...|.|||||||||
+Cygnus_olor     6874 TCAAACTGCGCTCAGAACA----TGGCTGGTCCTCTCAGCTCCATGTACC   6919
+
+Homo_sapiens    7022 AGATTCCAGAAATGGCCCGTTTGCCCAGTGTGGCTTTCCCCA---CTGCC   7068
+                     ||||.||.||..|.||.|...|||||||.|...|.|||.|||   |||||
+Cygnus_olor     6920 AGATCCCGGATTTAGCTCAGCTGCCCAGCGCCTCCTTCTCCATGGCTGCC   6969
+
+Homo_sapiens    7069 ATGATGCCC-CAGCAGGACGGGCAGGTAGCTCAGACCATTCTCCCAGCCT   7117
+                     ||    ||| |||||||||||||||||.||||||||.||.||||||||||
+Cygnus_olor     6970 AT----CCCTCAGCAGGACGGGCAGGTGGCTCAGACAATCCTCCCAGCCT   7015
+
+Homo_sapiens    7118 ATCATCCTTTCCCAG-CCTCTGTGGGCAAGTACCCCACACCCCCTTCACA   7166
+                     |.|| ||..|.|||| .|||..||||.|||||||||||.||.||.|||||
+Cygnus_olor     7016 ACCA-CCAGTTCCAGAGCTCGATGGGGAAGTACCCCACGCCTCCGTCACA   7064
+
+Homo_sapiens    7167 GCACAGTTATGCT--TCCTCAAATGCTGCTGAGCGAACACCCAGTCACAG   7214
+                     ||||||  .||||  |||||   .||..|.||.||.||.||.||.||||.
+Cygnus_olor     7065 GCACAG--CTGCTACTCCTC---GGCCACAGAACGGACTCCTAGCCACAA   7109
+
+Homo_sapiens    7215 TGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCAGAGTCTC   7264
+                     ..|.|||.|.||.||.|||||.||.||||||||.||.||.||.||.||||
+Cygnus_olor     7110 CCGGCACTTACAAGGGGAGCACCCATACCTGACTCCGTCGCCCGAATCTC   7159
+
+Homo_sapiens    7265 CTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTGGTCAGAT   7314
+                     |.|||||||||||||||||.||.||.|||||.||.|||||||||||.|||
+Cygnus_olor     7160 CAGACCAGTGGTCAAGTTCCTCCCCACACTCAGCCTCTGACTGGTCTGAT   7209
+
+Homo_sapiens    7315 GTGACCACCAG-CCCTACCCCTGGGGGTGCTGGAGGAGGT------CAGC   7357
+                     |||.|.||||| |||                      |||      ||||
+Cygnus_olor     7210 GTGGCAACCAGTCCC----------------------GGTAACAACCAGC   7237
+
+Homo_sapiens    7358 GGGGACCTGGG---ACACACATGTCTGAGCCACCA-CACAACAACATGCA   7403
+                     |.||.||.|.|   .|.||||||||.||| ||.|| |..|||||||||||
+Cygnus_olor     7238 GCGGGCCGGCGGCCGCCCACATGTCAGAG-CAGCAGCGGAACAACATGCA   7286
+
+Homo_sapiens    7404 GGTTTATGCG   7413
+                     |||.||.||.
+Cygnus_olor     7287 GGTGTACGCC   7296
+
+
+#---------------------------------------
+#---------------------------------------

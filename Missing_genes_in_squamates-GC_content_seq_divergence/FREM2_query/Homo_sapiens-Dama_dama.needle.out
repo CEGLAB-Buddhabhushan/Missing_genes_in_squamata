@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:35:25
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Dama_dama.fa
+#    -outfile Homo_sapiens-Dama_dama.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Dama_dama.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Dama_dama
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9531
+# Identity:    8305/9531 (87.1%)
+# Similarity:  8305/9531 (87.1%)
+# Gaps:          39/9531 ( 0.4%)
+# Score: 36586.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGC-ACTCAGCCGGGACTCCCGGGTTATCCTCGCG--------CCGGAC     41
+                     |||| |..|| |||||||.||||||.|..||.||||        |||  |
+Dama_dama          1 ATGCGAGCCA-CCGGGACCCCCGGGGTCACCGCGCGCACGCGCCCCG--C     47
+
+Homo_sapiens      42 AGGCAACTCCACCAGCTTTCAACCAGGACCGCCACCGCCGC--CCCGGCT     89
+                     |||.|||.||||||..|.||.|||  || ||||.|||.|||  |||||  
+Dama_dama         48 AGGAAACCCCACCAAGTCTCCACC--GA-CGCCTCCGACGCCGCCCGG--     92
+
+Homo_sapiens      90 GCTGCTGCTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCAC    139
+                        ||||.||||||||||||||||||||||||||||||||||||.|||||
+Dama_dama         93 ---GCTGGTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCGGGCAC    139
+
+Homo_sapiens     140 AGCCCGCTGCCTTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCT    189
+                     ||||..|||.|..||||.||||.|||||||||||.|.|||||||||||.|
+Dama_dama        140 AGCCACCTGACCCCGGCCGGGCCTTGCTGTCCCCGGATCTCGCGGGGGTT    189
+
+Homo_sapiens     190 GCAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCG    239
+                     |||||||||||.||.||.||.|||||||||||||||||||||||.|||||
+Dama_dama        190 GCAGGGGTCCCCGCCGAAGAAGCCATAGTGCTGGCGAACCGCGGGCTCCG    239
+
+Homo_sapiens     240 GGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGT    289
+                     ||||||.|||||||||||.||||||||||||||..||||.|||||.|||.
+Dama_dama        240 GGTGCCCTTCGGCCGTGAGGTCTGGCTGGATCCGTTGCAGGACCTAGTGC    289
+
+Homo_sapiens     290 TGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGAC    339
+                     ||||||||||.||.|||||.||.||||||||..|.||.||||||||||||
+Dama_dama        290 TGCAGGTGCAACCGGGGGATCGGTGCGCGGTGACCGTGCTAGACAACGAC    339
+
+Homo_sapiens     340 GCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGA    389
+                     ||.||||||||||||||.|||||||||.||||||||||||||||.|||||
+Dama_dama        340 GCGCTGGCCCAGCGACCCGGCCGCCTGCGTCCCAAGCGCTTCCCCTGCGA    389
+
+Homo_sapiens     390 CTTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGT    439
+                     |||.|||.|.||.||||||||||||||.||||||||||||||||||||||
+Dama_dama        390 CTTCGGCGCGGGAGAGGTGCGCTACTCGCACCTGGGCGCGCGCAGCCCGT    439
+
+Homo_sapiens     440 CTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCA    489
+                     |.|||||.||.||||||||||||||||||||.||||||||.||||||||.
+Dama_dama        440 CGCGGGATCGAGTCCGGCTGCAGCTGCGCTACGACGCGCCGGGAGGGGCG    489
+
+Homo_sapiens     490 GTAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGA    539
+                     |..|||||.||..||||.||||||||||||||||||||||||||||||||
+Dama_dama        490 GCCGTGCTCCCCTTGGTGCTGGAGGTGGAGGTGGTCTTCACCCAGCTGGA    539
+
+Homo_sapiens     540 GGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCA    589
+                     |||||||||.||||||.||||.|||||||||||.||||||||||||||||
+Dama_dama        540 GGTTGTGACGCGGAACCTGCCCCTGGTCGTGGAGGAGCTGCTGGGGACCA    589
+
+Homo_sapiens     590 GCAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACA    639
+                     ||||||||||||||||||||||||||||.|||||||.||||||||||||.
+Dama_dama        590 GCAATGCCCTGGACGCGCGGAGCCTGGAATTCGCCTACCAGCCCGAGACC    639
+
+Homo_sapiens     640 GAGGAGTGCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTA    689
+                     ||||||||.|||||||||||||||||.||.||||||||||||||||||||
+Dama_dama        640 GAGGAGTGTCGCGTGGGCATCCTGTCTGGTTTGGGCGCGCTGCCTCGCTA    689
+
+Homo_sapiens     690 TGGAGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAG    739
+                     .||.|||||.||.|||||||||||||||||.||....|||||.|||||.|
+Dama_dama        690 CGGGGAACTACTTCACTACCCGCAGGTCCCGGGCCCGGCCAGCGAGGGGG    739
+
+Homo_sapiens     740 GCGCCCCGGAGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGC    789
+                     .|.|||.||||.|.||||||||||||||||.|||.|||||||||||.|||
+Dama_dama        740 ACACCCAGGAGCCCCTCCTGATGGACTGCAGAGCCTTCCAGGAACTGGGC    789
+
+Homo_sapiens     790 GTGCGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGAT    839
+                     ||||||||.||||||||.|||.|.|||||.||.||.||||||||||||.|
+Dama_dama        790 GTGCGCTACCGCCACACCGCCCCGAGTCGTTCTCCGAACAGGGACTGGGT    839
+
+Homo_sapiens     840 ACCCATGGTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTG    889
+                     .||||||||||||||||||||.||.|||||..||||||||||||||||.|
+Dama_dama        840 GCCCATGGTGGTGGAGCTGCGATCGCGAGGCTCTCCTGTGGGCAGCCCGG    889
+
+Homo_sapiens     890 CTTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCC    939
+                     |||||||.||||||||||||||.||.||||||||.||||||||||||||.
+Dama_dama        890 CTTTGAAGCGCGAGCACTTCCAAGTGCTGGTGAGAATCCGAGGAGGGGCT    939
+
+Homo_sapiens     940 GAGAACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGT    989
+                     ||||||||.||.|||||||||||.||.|||||||||||||||||||||||
+Dama_dama        940 GAGAACACCGCCCCCAAGCCCAGCTTTGTGGCCATGATGATGATGGAGGT    989
+
+Homo_sapiens     990 GGACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGG   1039
+                     ||||||||||||.|||||.|||||||||||||||||||||||.|||||||
+Dama_dama        990 GGACCAGTTTGTCCTGACCGCCCTGACCCCAGACATGCTGGCCGCCGAGG   1039
+
+Homo_sapiens    1040 ATGCTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTC   1089
+                     ||||.||||.|.||.|.|||.||.||||||||||.||.||.|||||||||
+Dama_dama       1040 ATGCGGAGTGTGCCCCAGACTTGCTGATCTTCAATCTCACCTCTCCATTC   1089
+
+Homo_sapiens    1090 CAGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCT   1139
+                     |||||.||||||||||.|.||||||||||.||.||.|||||.||||||||
+Dama_dama       1090 CAGCCCGGCCAGGGCTTCCTGGTGAGCACTGACGACCGCAGTCTGCCCCT   1139
+
+Homo_sapiens    1140 TTCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGC   1189
+                     .|||||||||||||||||||||.|||..|||||||||||||||||.||||
+Dama_dama       1140 CTCCTCCTTCACTCAGAGGGATTTGCACCTCCTGAAGATTGCCTATCAGC   1189
+
+Homo_sapiens    1190 CCCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAG   1239
+                     ||||.|||||||||||||||||||||||.|||||||||||.||..||||.
+Dama_dama       1190 CCCCCTCTGAAGACTCTGACCAGGAGCGTCTCTTTGAACTCGAGCTGGAA   1239
+
+Homo_sapiens    1240 GTAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGT   1289
+                     ||||||||.|.||||||.||.||.||.||.||||||.|||||||||||||
+Dama_dama       1240 GTAGTGGACCCAGAAGGCGCTGCCTCCGATCCTTTTTCCTTCATGGTAGT   1289
+
+Homo_sapiens    1290 GGTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTC   1339
+                     ||||||||||||||||||..|||||||.||||||||||||||.||.||||
+Dama_dama       1290 GGTGAAGCCCATGAACACGCTGGCTCCAGTGGTCACCCGGAACACTGGTC   1339
+
+Homo_sapiens    1340 TTATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGT   1389
+                     ||||||||||.|||||.||.||||||||||||||.|||||||||||||||
+Dama_dama       1340 TTATTCTCTACGAGGGCCAATCTCGGCCCCTCACTGGCCCTGCAGGCAGT   1389
+
+Homo_sapiens    1390 GGTCCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCG   1439
+                     ||.||.|||||||||||||||||.|||||.||.|||.|.||.||.||...
+Dama_dama       1390 GGACCACAAAACTTGGTCATCAGTGATGAAGACGACTTGGAGGCCGTAGA   1439
+
+Homo_sapiens    1440 GCTAGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTG   1489
+                     |||.|||||||||||.||||||||||||||||||||||||.|||||||||
+Dama_dama       1440 GCTGGAGGTGGTGGCCGGGCTCCGGCATGGTCACCTTGTCCTTCTGGGTG   1489
+
+Homo_sapiens    1490 CTTCCAGTGGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTGGCA   1539
+                     |.||||.|||||.||||||.||.||||.||||||.||.||||||||.|||
+Dama_dama       1490 CCTCCAATGGCAACTCTGCCCCTAAGACCTTTACTGTAGCTGAGCTAGCA   1539
+
+Homo_sapiens    1540 GCCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGA   1589
+                     ||.||||..|||||||||||.||.|||||||.||||||||||||.||.||
+Dama_dama       1540 GCTGGCCGAGTGGTCTACCATCACGATGACAAAGACGGCTCGCTAAGTGA   1589
+
+Homo_sapiens    1590 CAACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGT   1639
+                     ||||||.|||||.||.||||||||.||.|||.||||||||||||||||||
+Dama_dama       1590 CAACCTCGTGCTCCGAATGGTGGACGGGGGACGCAGGCACCAGGTACAGT   1639
+
+Homo_sapiens    1640 TTCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTC   1689
+                     ||||||||||||||||||||||||||||||||||||||||.||.||.|||
+Dama_dama       1640 TTCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCCCCAGTCCTC   1689
+
+Homo_sapiens    1690 AATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCT   1739
+                     ||||||||||||||||||||.|||||||||||.|||||.|||||||||||
+Dama_dama       1690 AATGCCAACACGGGGCTGACCCTGGCAGAGGGCGAAACTGTGCCCATCCT   1739
+
+Homo_sapiens    1740 GCCCCTTTCCCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGC   1789
+                     |||||...|.||||||||||||||||||||.|||||.||.||||||||||
+Dama_dama       1740 GCCCCAAGCTCTGAGTGCAACTGACATGGACTCAGAGGACTCTCTGCTGC   1789
+
+Homo_sapiens    1790 TTTTTGTGCTGGAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTCCGC   1839
+                     ||||||||||.||||||||||.||..|||.|.||||||||||||||||||
+Dama_dama       1790 TTTTTGTGCTCGAGTCACCCTCCTCCACTGCAGGGCATCTGCTTCTCCGC   1839
+
+Homo_sapiens    1840 CAAACTCACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTGGAG   1889
+                     ||.||.||.|.||||||.|.|.||.||...||||||.|..|||..|||||
+Dama_dama       1840 CAGACCCATCTTCCCCAGGGGGAGGAGATGCTTCTCGGGAGCCCCTGGAG   1889
+
+Homo_sapiens    1890 GAAGGAGGGGGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGG   1939
+                     .||..||||.|||||.||||||..|||||||||||||||||.||||||.|
+Dama_dama       1890 AAAACAGGGAGCATTCTATGAGAAAACAGTGACAGAGTGGCGGCAGCAAG   1939
+
+Homo_sapiens    1940 ACATAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCT   1989
+                     |||||||||||||.||.||.|||||.||.|||.||||||||||.||.|||
+Dama_dama       1940 ACATAACAGAGGGGAGACTTTTCTACAGGCACGCTGGGCCCCACAGCCCT   1989
+
+Homo_sapiens    1990 GGGCCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCC   2039
+                     ||||||||.|..|||||||||||||||.|.||||||||||||||.|||||
+Dama_dama       1990 GGGCCAGTGATTGACCAGTTCACATTTCGTGTCCAGGATAACCACGACCC   2039
+
+Homo_sapiens    2040 TCCTAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGG   2089
+                     .||||||.||||.|||||||||.||||..||||.||.||.|||||.||.|
+Dama_dama       2040 CCCTAATAAGTCTGGGCTACAGAGGTTCATGATACGCATTCATCCCGTAG   2089
+
+Homo_sapiens    2090 ATCGCCTCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTA   2139
+                     |.|||||||||||.|||||||||||.||||||||||||||.|||||||||
+Dama_dama       2090 ACCGCCTCCCTCCTGAGCTGGGCAGCGGCTGTCCCCTTCGGATGGTGGTA   2139
+
+Homo_sapiens    2140 CAGGAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGA   2189
+                     ||||||||||||||||||||.|||||||||||||||||.||||||||.||
+Dama_dama       2140 CAGGAATCCCAGCTCACACCTCTGAGGAAGAAGTGGCTACGCTACACGGA   2189
+
+Homo_sapiens    2190 CCTGGACACAGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCA   2239
+                     |||||||||.||||||||||||||.||||||||.|||||.||||||||.|
+Dama_dama       2190 CCTGGACACGGATGACCGAGAACTCCGTTACACGGTGACCCAGCCCCCAA   2239
+
+Homo_sapiens    2240 CAGACACAGACGAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTG   2289
+                     ..||||||||.|||||.|||...||||||||||||||.|||||||||.||
+Dama_dama       2240 TGGACACAGATGAAAACCACTCACCAGCCCCACTGGGCACCTTGGTCCTG   2289
+
+Homo_sapiens    2290 ACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAA   2339
+                     ||.|||.|.||.||.||.|||||..||||||||||||||||.|||.||||
+Dama_dama       2290 ACCGACGATCCTTCGGTGGTGGTCGCCCATTTTACCCAAGCGCAGGTCAA   2339
+
+Homo_sapiens    2340 CCATCATAAAATTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTA   2389
+                     |||.|||||||||||||||||.||.||.|.|||.||.|||||.|||||..
+Dama_dama       2340 CCACCATAAAATTGCTTACAGGCCTCCAGATCAGGAGCTGGGAGTGGCAG   2389
+
+Homo_sapiens    2390 CTCGAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTG   2439
+                     |.||||||||||||||.||.|||||||||||.||||||||||||||.|||
+Dama_dama       2390 CCCGAGTGGCCCAGTTTCAATTCCAGGTGGAGGACCGAGCTGGGAACGTG   2439
+
+Homo_sapiens    2440 GCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACC   2489
+                     ||||||||.|||||.|||.||||..||||.||.||||||||||||||.||
+Dama_dama       2440 GCTCCAGGCACCTTCACCTTTTATCTGCAGCCAGTGGACAACCAGCCGCC   2489
+
+Homo_sapiens    2490 TGAGATCCTCAACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCC   2539
+                     .||.|||||||||||.||||||||..|||||||||||||.||||||||||
+Dama_dama       2490 CGAAATCCTCAACACTGGCTTCACCGTTCAGGAGAAGGGCCACCACATCC   2539
+
+Homo_sapiens    2540 TGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCAT   2589
+                     ||||||||.|.||||||..||||..||||||.|||||||||||.|||||.
+Dama_dama       2540 TGAGTGAGGCTGAGTTGGGCGTGCGTGATGTGGACACTGATGTGGCCCAC   2589
+
+Homo_sapiens    2590 ATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCACATGAGAG-TGT   2638
+                     |||.|.|||||.||||..||||..||||||||||||||||||| || |||
+Dama_dama       2590 ATCACCTTCACGCTCATACAGGTGCCCAAACATGGCCACATGA-AGCTGT   2638
+
+Homo_sapiens    2639 CTGGACAGATCCTGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAA   2688
+                     ||||||||.|.||||||||.||.||..|.|||||||||||||||||||||
+Dama_dama       2639 CTGGACAGGTACTGCATGTCGGTGGGATTTTCCACTTGGAGGACATAAAA   2688
+
+Homo_sapiens    2689 CAGGGCCGAGTTTCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAG   2738
+                     ||||..||..|||||||.|||||||||||||...||||.|||||.||.||
+Dama_dama       2689 CAGGATCGGATTTCCTACGCCCATAATGGGGCTGAGTCTCTGACCGACAG   2738
+
+Homo_sapiens    2739 CTGCTCCTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCA   2788
+                     ||||||||||||.|||||||||||.||.||.||||||||..|||||||||
+Dama_dama       2739 CTGCTCCTTGGAGGTCAGTGACAGGCACCACGTGGTGCCTGTCACTCTCA   2788
+
+Homo_sapiens    2789 GAGTAAATGTCCGGCCAGTGGATGATGAAGTGCCCATACTGAGCCATCCT   2838
+                     ||||.|||||||||||||||||||..||.||||||||.|||||||.||||
+Dama_dama       2789 GAGTGAATGTCCGGCCAGTGGATGGGGAGGTGCCCATGCTGAGCCTTCCT   2838
+
+Homo_sapiens    2839 ACTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGA   2888
+                     .|.|||||.||||.|||||||||.||.||.||||||||.|||||||||||
+Dama_dama       2839 GCAGGCACGCTGGGGTCCTATCTGGACGTTTTAGAAAACGGGGCTACTGA   2888
+
+Homo_sapiens    2889 AATCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGA   2938
+                     |||||||||||.||||||.|..||||||||.|.|||..|||||||.||||
+Dama_dama       2889 AATCACTGCCAGTGTTATCAGAGGGACCAACGGGGATGCTGATGATTTGA   2938
+
+Homo_sapiens    2939 TGTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTC   2988
+                     |||||||||||||||||||||||||.||..|.|||||.||||||.|||||
+Dama_dama       2939 TGTTGACTTTCCTCTTGGAAGATCCGCCCCTATATGGAGAAATCCTGGTC   2988
+
+Homo_sapiens    2989 AATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCTC   3038
+                     |||||..|||||||||||||||||||.|||||.|||||||||||||||||
+Dama_dama       2989 AATGGAGTTCCAGCAGAGCAGTTTACCCAAAGAGACATCTTGGAGGGCTC   3038
+
+Homo_sapiens    3039 TGTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGG   3088
+                     |||.||.|||.|.|||||.|||||.||||||||.||.|||||.||||..|
+Dama_dama       3039 TGTCGTCTATGCTCACACAAGTGGGGAGATAGGTCTCTTGCCCAAAGAAG   3088
+
+Homo_sapiens    3089 ATTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGGT   3138
+                     |.|||||.||||||||||||||.|||||||||||||||||||||||.||.
+Dama_dama       3089 ACTCTTTCAACCTGAGTCTGTCGGATATGTCTCAAGAATGGAGAATAGGC   3138
+
+Homo_sapiens    3139 GGCAATACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTGA   3188
+                     ||.||.|||||||||||||||||..|.||||||||||||||.||||||||
+Dama_dama       3139 GGTAACACTATCCAAGGAGTTACCGTGTGGGTGACCATCCTCCCTGTTGA   3188
+
+Homo_sapiens    3189 TAGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAAG   3238
+                     .|||||||||||||||||.|.|||||||||||.|||.||.||..||||||
+Dama_dama       3189 CAGCCAGGCCCCAGAAATTTCTGTAGGTGAACGGTTTATCGTGCTGGAAG   3238
+
+Homo_sapiens    3239 GTGATAAAAGTGTTATAACATCAGTGCATATAAGTGCTGAAGATGTCGAC   3288
+                     |.||||||||.||||||||.|||.|||||||||||||||||||..||||.
+Dama_dama       3239 GCGATAAAAGCGTTATAACCTCAATGCATATAAGTGCTGAAGACATCGAT   3288
+
+Homo_sapiens    3289 TCCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACTTCAGG   3338
+                     ||.||.||||||||||||||||||||.||.||.|||||||||||.||.||
+Dama_dama       3289 TCTCTCAATGATGACATCTTGTGCACCATCGTCATTCAGCCTACCTCGGG   3338
+
+Homo_sapiens    3339 TTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCAG   3388
+                     ||||||.||.|||||.||||||||.||.||||||||.|||||.|||||||
+Dama_dama       3339 TTATGTGGAGAACATCTCTCCAGCCCCCGGCTCTGAAAAATCGAGAGCAG   3388
+
+Homo_sapiens    3389 GGATTGCCATAAGTGCTTTCAACT-TGAAAGATCTCAGGCAGGGCCACAT   3437
+                     |.|||||.||||||||||| .||| ||||||||||||||||.||.||.||
+Dama_dama       3389 GAATTGCTATAAGTGCTTT-TACTCTGAAAGATCTCAGGCAAGGTCATAT   3437
+
+Homo_sapiens    3438 AAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGAT   3487
+                     |||||||||||||||||||||||||||.||.|||||.|||||.|||.|||
+Dama_dama       3438 AAACTATGTCCAGAGTGTCCATAAAGGAGTAGAACCAGTGGAAGACAGAT   3487
+
+Homo_sapiens    3488 TTGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTTC   3537
+                     ||.|||||||.||||||||||||||||||||||||||||||||.||.|||
+Dama_dama       3488 TTATATTTCGCTGTTCTGATGGCATTAACTTTTCAGAGAGACATTTTTTC   3537
+
+Homo_sapiens    3538 CCCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATGTTTATGAG   3587
+                     |||||||||||||||||||||||.||||||||||||||.||.||.||.||
+Dama_dama       3538 CCCATTGTAATCATTCCCACCAACGATGAACAGCCAGAAATATTCATCAG   3587
+
+Homo_sapiens    3588 AGAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATACACCCATTC   3637
+                     .||||||||||||||||||||||||||||||||..|||||||||||||.|
+Dama_dama       3588 GGAATTTATGGTGATGGAAGGCATGAGTCTGGTGGTTGATACACCCATCC   3637
+
+Homo_sapiens    3638 TCAATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACTTTCACTATT   3687
+                     |||||||.|||||||||||||||||.|.||||||.|||||||||||||||
+Dama_dama       3638 TCAATGCCGCTGATGCTGATGTTCCTCCGGATGACTTAACTTTCACTATT   3687
+
+Homo_sapiens    3688 ACCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGATAAATGGCAC   3737
+                     |||...||.|||||.||.||||||||||||||.|||||||||||||||||
+Dama_dama       3688 ACCAGGTTTCCCACCCACGGTCACATCATGAACCAGCTGATAAATGGCAC   3737
+
+Homo_sapiens    3738 GGTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCA   3787
+                     ..|||||||.|||||||||||||||||.||||||||||||||||||||||
+Dama_dama       3738 CATTTTGGTGGAAAGCTTCACCTTGGACCAGATCATAGAGAGTTCCAGCA   3787
+
+Homo_sapiens    3788 TTATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATT   3837
+                     |.|||||||||||.||||||||.|||||.||||||||||||||.||||||
+Dama_dama       3788 TCATTTATGAGCACGATGACTCTGAGACTCAGGAAGACAGTTTCGTGATT   3837
+
+Homo_sapiens    3838 AAACTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGT   3887
+                     |||||.||||||||.|||||||||||||||||||.||||||||||||.||
+Dama_dama       3838 AAACTCACAGATGGTAAGCACTCTGTGGAAAAGATGGTCCTCATTATGGT   3887
+
+Homo_sapiens    3888 TATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAATAATGGACTAG   3937
+                     |||.|||||||||||.|||||.||.||.|||.|.||||||||||||||.|
+Dama_dama       3888 TATTCCTGTTGATGACGAGACCCCTAGGATGGCCATCAATAATGGACTGG   3937
+
+Homo_sapiens    3938 AAATAGAAATTGGGGATACCAAGATTATCAACAACAAAATATTAATGGCA   3987
+                     |.||||||||.|||||.||||..|||||||||||||.|||||||||||||
+Dama_dama       3938 ACATAGAAATCGGGGAAACCAGAATTATCAACAACAGAATATTAATGGCA   3987
+
+Homo_sapiens    3988 ACAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGG   4037
+                     ||.|||||||||||.|||||.|||||.||||||||.||||||||||||||
+Dama_dama       3988 ACTGATTTAGATTCTGAAGATAAATCCTTGGTTTACATTATTCGTTATGG   4037
+
+Homo_sapiens    4038 GCCAGGACATGGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAA   4087
+                     |||.||||||||||||||||||||||.|||||||.|.||||.||||||||
+Dama_dama       4038 GCCGGGACATGGCTTATTACAGAGACAAAAACCTGCGGGTGTCTTTGAAA   4087
+
+Homo_sapiens    4088 ATATCACACTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTA   4137
+                     |||||||..||||||||||||||||.||||||||||||||||||||.||.
+Dama_dama       4088 ATATCACGTTGGGCATGAATTTTACTCAGGATGAAGTAGACAGAAATTTG   4137
+
+Homo_sapiens    4138 ATTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATT   4187
+                     |||||||||||||||||.||||||||||||||||||||.|||||||||||
+Dama_dama       4138 ATTCAGTATGTCCATTTTGGGCAAGAGGGCATTCGGGATCTAATTAAATT   4187
+
+Homo_sapiens    4188 TGATGTGACTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGT   4237
+                     ||||||||||||||||||.|||.|||||||||||||.|||||||||||||
+Dama_dama       4188 TGATGTGACTGATGGAATCAATGCCCTCATAGATCGCTACTTTTATGTGT   4237
+
+Homo_sapiens    4238 CCATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTG   4287
+                     |..|.||.|||.||||||||||||||||.||||||||||||||.||||||
+Dama_dama       4238 CTGTTGGAAGCCTTGACATTGTCTTCCCCGATGTGATAAGTAAAGGAGTG   4287
+
+Homo_sapiens    4288 TCCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCAC   4337
+                     |||||||||||||||||.||.|||||.||.||||||||.|||||.|||||
+Dama_dama       4288 TCCTTGAAAGAAGGTGGTAAGGTCACCCTCACAACAGATCTACTGAGCAC   4337
+
+Homo_sapiens    4338 TAGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGG   4387
+                     |||||||.|||||||.||||||||||||||.|||||||||||||||||||
+Dama_dama       4338 TAGTGACCTGAACAGCCCTGATGAAAACTTAGTTTTTACCATCACCAGGG   4387
+
+Homo_sapiens    4388 CTCCCATGCGAGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATC   4437
+                     ||||||||.||||.|||.|.|||.||||.||.||.|||.|.|||||.|||
+Dama_dama       4388 CTCCCATGAGAGGCCACTTAGAAAGCACAGACCAACCTCGAGTGTCTATC   4437
+
+Homo_sapiens    4438 ACGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCA   4487
+                     |||||||||||||||||.|||||||||||.||||||||||||||.|||||
+Dama_dama       4438 ACGTCTTTCACTCAGCTCCAACTGGCTGGCAACAAAATCTACTATATCCA   4487
+
+Homo_sapiens    4488 CACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCG   4537
+                     |||||||||||||||.||.||.||||||||||||||||||||||||||.|
+Dama_dama       4488 CACAGCTGATGATGAGGTAAAGATGGACAGTTTTGAGTTTCAAGTCACTG   4537
+
+Homo_sapiens    4538 ATGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTG   4587
+                     ||||||||||||||||||||||||||||||||||||||||.|||||||||
+Dama_dama       4538 ATGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCATCAGCGATGTG   4587
+
+Homo_sapiens    4588 GACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAG   4637
+                     |||||.|||||||||||||||||||||||.||.|||||||||||||||.|
+Dama_dama       4588 GACAACAAAAAGCCAGTGGTCACCATCCATAACCTGGTTGTCAGTGAAGG   4637
+
+Homo_sapiens    4638 TGAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATA   4687
+                     ||||||.||||||||||||||.|||||.||||||||.||||||||.||||
+Dama_dama       4638 TGAAAAGAAGCTGATTACTCCCTTTGAACTCACTGTGGAAGACAGGGATA   4687
+
+Homo_sapiens    4688 CTCCTGACAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGC   4737
+                     ||||.|||||.|||.|||||||||||.||||||||||.|||.|||||||.
+Dama_dama       4688 CTCCAGACAAACTCTTGAAATTCACTGTCACCCAGGTACCTGTTCATGGT   4737
+
+Homo_sapiens    4738 CATCTCCTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGA   4787
+                     ||.|||||||||||||||||||||||.|.|.||||||||||||||||.||
+Dama_dama       4738 CAACTCCTATTCAACAATACCAGACCCGCCGTGGTTTTTACCAAGCAGGA   4787
+
+Homo_sapiens    4788 CTTGAATGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTG   4837
+                     ||||||||||||||||||||||||||.|||||||||.||.||||||||||
+Dama_dama       4788 CTTGAATGAAAACTTAATCAGCTACAGACATGATGGTACCGAGTCAAGTG   4837
+
+Homo_sapiens    4838 AAGATAGCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTAT   4887
+                     ||||.||||||||||||||||||||||||||..||||||||||.||||||
+Dama_dama       4838 AAGACAGCTTCTCCTTCACAGTGACTGATGGTTCCCATACAGAGTTCTAT   4887
+
+Homo_sapiens    4888 GTTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGAT   4937
+                     ||||||||||||||.||.|||||||||||.|||||||||||.||||||||
+Dama_dama       4888 GTTTTTCCTGATACAGTTTTTGAAACAAGAAGACCCCAAGTAATGAAGAT   4937
+
+Homo_sapiens    4938 CCAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGG   4987
+                     ||.|.||||.|||.||||||||||.|||||||||||.||||||||.||.|
+Dama_dama       4938 CCGGATCTTAGCTATTGACAACAGAGTCCCCCAAATTGCAGTGAACAAAG   4987
+
+Homo_sapiens    4988 GGGCCTCTACACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATC   5037
+                     ||||||||||||||||||||||.|||||.|||||||||||||||||||||
+Dama_dama       4988 GGGCCTCTACACTTCGCACTCTGGCCACAGGCCACTTGGGGTTCATGATC   5037
+
+Homo_sapiens    5038 ACAAGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCT   5087
+                     |||||.|||.|||||||||..||||||||||||||||||||..|||||||
+Dama_dama       5038 ACAAGTAAAGTATTGAAAGCAGAGGACAGAGACAGCTTACATGTTTCTCT   5087
+
+Homo_sapiens    5088 TAGATTTATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGG   5137
+                     ..|.|||||.|||||.||||||||||.||||||||||||.||||||||||
+Dama_dama       5088 CCGGTTTATTGTGACGGAGGCCCCTCGACATGGATATCTCCTCAACCTGG   5137
+
+Homo_sapiens    5138 ACAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGAC   5187
+                     .|.|||||||||||||..|.||||||||.||||||||||||||||||||.
+Dama_dama       5138 GCCAAGGCAACCACAGTGTGACTCAGTTTACACAAGCTGACATTGATGAT   5187
+
+Homo_sapiens    5188 ATGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATAT   5237
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+Dama_dama       5188 ATGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGACAT   5237
+
+Homo_sapiens    5238 GTTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGA   5287
+                     .|||.|.|||.|.|||||||||||.|||||||||||.|||||..|.|||.
+Dama_dama       5238 ATTCCACTTTACGGTTGAAGATGGGGGTGGAAACAAATTAACCAAGCAGC   5287
+
+Homo_sapiens    5288 ATTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTG   5337
+                     ||||||.||||||.|||||||||||||||||||||||||||||||||.||
+Dama_dama       5288 ATTTTCATCTGAACTGGGCATGGATCTCCTTTGAAAAGGAATATTACTTG   5337
+
+Homo_sapiens    5338 GTCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTA   5387
+                     .||.||||||||||||||||||||||||||||.|||||.|||||||||||
+Dama_dama       5338 ATCGATGAGGACTCCAAATTTCTAGATGTTGTGCTTAAGCGTAGAGGTTA   5387
+
+Homo_sapiens    5388 CTTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAG   5437
+                     .||||||||.|||||.|||||||||||||||||||||||..|.||||||.
+Dama_dama       5388 TTTGGGAGAGACTTCCTTTATAAGTATTGGCACAAGAGATGGGACTGCAA   5437
+
+Homo_sapiens    5438 AAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAAC   5487
+                     |.||||||||.|||||||||||||||||.|||||||||||||||||||||
+Dama_dama       5438 AGAAAGACAAGGACTTCAAGGGCAAAGCGCAGAAACAAGTGCAGTTCAAC   5487
+
+Homo_sapiens    5488 CCAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGA   5537
+                     ||||||||||||.|||||||.||||||||||||||.|||||.||.|||||
+Dama_dama       5488 CCAGGCCAGACCCGGGCCACGTGGCGAGTGCGGATTCTGAGCGACGGGGA   5537
+
+Homo_sapiens    5538 GCATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGG   5587
+                     |||.||||||||.||.|||||.||||||||.|||||||||||.|||||||
+Dama_dama       5538 GCACGAGCAGTCCGAGACCTTCCAGGTGGTTCTCTCAGAGCCTGTGCTGG   5587
+
+Homo_sapiens    5588 CTGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGA   5637
+                     |||||.||||.||||||.||||..||||.||.||||||||.||.||.|||
+Dama_dama       5588 CTGCCCTGGAGTTCCCCGCAGTGACCACAGTGGAGATCGTAGACCCCGGA   5637
+
+Homo_sapiens    5638 GATGAGCCAACTGTGTTTATTCCCCAGTCCAAATACTCCGTTGAAGAAGA   5687
+                     |||||..||||||||||.||.||||||||..||||||||.|.|||||.||
+Dama_dama       5638 GATGAATCAACTGTGTTCATCCCCCAGTCTGAATACTCCATCGAAGAGGA   5687
+
+Homo_sapiens    5688 TGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGG   5737
+                     .|||||.||.||||||||||||||||||||.||.|||||.||||||||||
+Dama_dama       5688 CGTTGGCGAACTGTTCATTCCCATCAGGAGAAGTGGAGACGTGAGCCAGG   5737
+
+Homo_sapiens    5738 AGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTG   5787
+                     |||||||||||.||||||||||.|..|||||||||||||..|||||.|||
+Dama_dama       5738 AGTTGATGGTGATCTGTTATACGCGGCAAGGAACAGCAAGAGGAACCGTG   5787
+
+Homo_sapiens    5788 CCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCA   5837
+                     ||.||.||.|||.|.||.||.|||||||||||||||.||||.||||||||
+Dama_dama       5788 CCTACGTCTGTGCTCTCCTATTCTGATTACATATCCCGGCCCGAGGACCA   5837
+
+Homo_sapiens    5838 CACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGA   5887
+                     ||||||||||.||||||||||.||||||||.|||||||...|||||.||.
+Dama_dama       5838 CACCAGTGTTATCCGCTTTGATAAAGATGAGCGGGAGAGGATGTGTAGGG   5887
+
+Homo_sapiens    5888 TAGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTC   5937
+                     |.||.||||||||||||||.|||||.||.|||||||||||.|||||.||.
+Dama_dama       5888 TCGTTATAATTGATGACTCCTTGTATGAAGAGGAGGAAACGTTCCACGTT   5937
+
+Homo_sapiens    5938 CTTCTGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGC   5987
+                     ||.|||||||||||.|||||.||.|||||.||||||||||||||||||||
+Dama_dama       5938 CTCCTGAGCATGCCGATGGGTGGGAGAATTGGATCAGAGTTCCCAGGGGC   5987
+
+Homo_sapiens    5988 TCAAGTTACAATCGTTCCTGACAAAGATGATGAACCCATCTTTTACTTCG   6037
+                     |||.|||||||||...||.||||||||.|||||||||.||||.|||||.|
+Dama_dama       5988 TCAGGTTACAATCAAACCCGACAAAGACGATGAACCCGTCTTCTACTTTG   6037
+
+Homo_sapiens    6038 GTGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAG   6087
+                     |.||.||.||.||||||||||||||||||||.||||..|||||.||||.|
+Dama_dama       6038 GCGACGTCGAGTACTCTGTGGATGAGAGTGCGGGCTTGGTGGAGGTGCGG   6087
+
+Homo_sapiens    6088 GTGTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGAG   6137
+                     ||||||||....|||||.|||||||||.||.||||.||||||||.||||.
+Dama_dama       6088 GTGTGGAGGGGCGGCACGGACCTGTCCCAGGCTTCCAGTGTCACCGTGAC   6137
+
+Homo_sapiens    6138 GTCTCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAACAGACTATGTGG   6187
+                     .||.|.|||||||||.|||||||||||.|||||.||||||||||||||||
+Dama_dama       6138 CTCGCAGAAAACAGACCCTCCCTCTGCTGATGCCGGAACAGACTATGTGG   6187
+
+Homo_sapiens    6188 GCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTGTT   6237
+                     |.|||||||||||||||||.|||||||||||||||||||||||..|.|||
+Dama_dama       6188 GAATCAGCCGTAATTTAGACTTTGCACCTGGAGTCAACATGCAAACCGTT   6237
+
+Homo_sapiens    6238 CGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAATTGA   6287
+                     ||||||.|||||.|||||||.||.||||||||||.|||||||||.|||||
+Dama_dama       6238 CGTGTTATCATTTTGGATGATCTCGGACAACCAGTGCTGGAGGGTATTGA   6287
+
+Homo_sapiens    6288 GAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGAGC   6337
+                     |.||||||||.|||||||.||.|||||||||||.|||||||||||..|.|
+Dama_dama       6288 GCAATTTGAATTGGTGCTCCGAATGCCTATGAATGCAGCCCTTGGGAACC   6337
+
+Homo_sapiens    6338 CCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTAAG   6387
+                     |||||||||||||.|||.||||||||||.||||||||.|||||.||||||
+Dama_dama       6338 CCAGCAAAGCCACGGTGACCATAAATGATTCTGTCTCAGATTTACCTAAG   6387
+
+Homo_sapiens    6388 ATGCAATTCAAAGAACGAATATATACTGGCAGCGAAAGTGATGGGCAGAT   6437
+                     ||||||||||||||||||.||||||||||||..||||.||||||||||||
+Dama_dama       6388 ATGCAATTCAAAGAACGAGTATATACTGGCAATGAAAATGATGGGCAGAT   6437
+
+Homo_sapiens    6438 AGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCTTCAGTGA   6487
+                     |||..|.||||||||..|||.|||||||.||||.|||.|.||||||||||
+Dama_dama       6438 AGTCGCCATGATCCACCGGAGTGGGGATATCCAATACCGGTCTTCAGTGA   6487
+
+Homo_sapiens    6488 GATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGAA   6537
+                     ||||||||||.||.|||||.||.||||||||||||||||||||||||||.
+Dama_dama       6488 GATGCTACACGCGACAGGGCTCCGCACAGGTGATGATGGACTTTGAAGAG   6537
+
+Homo_sapiens    6538 CGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTGAGACAGA   6587
+                     |||||.||||||||.|.||||||||||||||||||||||||.||||..||
+Dama_dama       6538 CGCCCCAACACTGACATCTCCATCATCACATTCCTCCCTGGGGAGATTGA   6587
+
+Homo_sapiens    6588 AAAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCTATGAGGAGGTAG   6637
+                     ||||||.|||||.||.|||||||||||.||.||..|.|||||||||||||
+Dama_dama       6588 AAAGCCTTGCATCCTGGAGCTGATGGATGACGTATTGTATGAGGAGGTAG   6637
+
+Homo_sapiens    6638 AGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTGGG   6687
+                     ||||||||||.|||||.||.|||||.|||||||||||||||||.|||||.
+Dama_dama       6638 AGGAGCTCCGACTGGTTCTTGGCACCCCACAAAGCAACTCTCCTTTTGGA   6687
+
+Homo_sapiens    6688 GCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAGATGATGC   6737
+                     |||||||||||.|||||||||||||||||.||||||||||||||.|||||
+Dama_dama       6688 GCTGCAGTTGGGGAACAAAATGAAACTCTGATAAGGATCCGAGACGATGC   6737
+
+Homo_sapiens    6738 TGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCACTGAAC   6787
+                     |||||||||.|||||||||||||||||.||||||||.||.||||.|||||
+Dama_dama       6738 TGATAAGACAGTTATTAAATTTGGAGAGACCAAATTCAGCGTCATTGAAC   6787
+
+Homo_sapiens    6788 CCAAAGAACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCCAA   6837
+                     ||||||||||.|||.||||..||.||||||.|||||||||||||||||||
+Dama_dama       6788 CCAAAGAACCAGGACAGTCAATGTTTATAAAAATTCCAGTGATTCGCCAA   6837
+
+Homo_sapiens    6838 GGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCTC   6887
+                     ||||||||||||||.||||||||.||||||||.|||||||||||||||||
+Dama_dama       6838 GGAGACACTTCAAAAGTTTCCATCGTGAGAGTTCACACCAAGGATGGCTC   6887
+
+Homo_sapiens    6888 GGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTTTA   6937
+                     ||||||.||||||||||||||.|||||||||||.||||||||||||||||
+Dama_dama       6888 GGCCACTTCTGGAGAAGACTATCACCCTGTGTCCGAAGAAATTGAGTTTA   6937
+
+Homo_sapiens    6938 AGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACCTTTGACGGG   6987
+                     ||||.||.||||||||||||.|.||||||||.|||.|.|..|||||.||.
+Dama_dama       6938 AGGAGGGAGAAACCCAGCACATTGTTGAAATTGAAATAATATTTGATGGC   6987
+
+Homo_sapiens    6988 GTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAAA   7037
+                     ||.||||||||||||||||||||||||||.||||||||||||||||||||
+Dama_dama       6988 GTAAGAGAGATGAGAGAGGCCTTCACTGTCCACCTAAAACCTGATGAAAA   7037
+
+Homo_sapiens    7038 TATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAAA   7087
+                     ||||||||||||||..|||..|||.||||||||||||||.||||||||||
+Dama_dama       7038 TATGATAGCAGAGACACAGGCGACCAAAGCCATTGTGTATATAGAAGAAA   7087
+
+Homo_sapiens    7088 TGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATCC   7137
+                     |||.|||||||||.|||||||||||||||||||||||||||.||||.|||
+Dama_dama       7088 TGAACAGCATGGCCGATGTCACTTTTCCTTCTGTCCCTCAAGTTGTGTCC   7137
+
+Homo_sapiens    7138 CTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCCAT   7187
+                     .||.||||.||.||.||||||||||..||.||.||||||||||.|||..|
+Dama_dama       7138 TTGCTGATCTACGATGACACTTCCAGGGCCAAAGAGAGTGCTGGACCTGT   7187
+
+Homo_sapiens    7188 GTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCAG   7237
+                     ||||||.|||||||||.||||||||||||||||||||||.||||||||||
+Dama_dama       7188 GTCTGGTTATCCTGTCGTCTGTATCACAGCTTGCAACCCTAAATATTCAG   7237
+
+Homo_sapiens    7238 ACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACACT   7287
+                     ||||.||.||||||||||||.|.|||||||||||||||||||||||||||
+Dama_dama       7238 ACTATGAAAAAACAGGCTCTCTTTGTGCAAGTGAGAACATCAATGACACT   7287
+
+Homo_sapiens    7288 TTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTGT   7337
+                     |||||.||||||||.||||||||.||.||.||.||||||||.|||||.||
+Dama_dama       7288 TTGACCCGGTACCGATGGCTGATCAGCGCCCCCGCGGGCCCCGACGGCGT   7337
+
+Homo_sapiens    7338 GACCAGCCCTATGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATCCA   7387
+                     |||||||||.|||||||||||||||||.|||||||||||.||.||.||||
+Dama_dama       7338 GACCAGCCCCATGAGAGAAGTGGACTTTGACACCTTTTTCACTTCGTCCA   7387
+
+Homo_sapiens    7388 AGATGGTCACACTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTACAG   7437
+                     |||||.||||..|.||||||||||||||.||||||||||||.|.||.|||
+Dama_dama       7388 AGATGATCACTTTAGACTCCATATACTTCCAGCCTGGCTCCAGAGTGCAG   7437
+
+Homo_sapiens    7438 TGCGCAGCTCGTGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCAT   7487
+                     ||.||||||||.||||||||..|..|.||...|||||||.|||||||.||
+Dama_dama       7438 TGTGCAGCTCGAGCTGTGAATGCTGACGGCAGTGAAGGCTTGGAGCTGAT   7487
+
+Homo_sapiens    7488 GAGCCCTATTGTAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGTG   7537
+                     |||.||||||||.||||||.|.|||||||||||||||||.||||||||.|
+Dama_dama       7488 GAGTCCTATTGTGACCATCGGTAGAGAAGAAGGTCTTTGCCAGCCCCGAG   7537
+
+Homo_sapiens    7538 TACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACACA   7587
+                     |.||||||.|.||.|||||||||||.||||||||||||.||||||||||.
+Dama_dama       7538 TGCCTGGGATAGTGGGAGCAGAGCCCTTCTCAGCTAAACTGCGCTACACG   7587
+
+Homo_sapiens    7588 GGCCCTGAGGATGCAGACTACACAAACCTTATCAAGCTCACTGTCACAAT   7637
+                     |||||.|||||..||||..||||.|||||.|||||.|||||||||||.||
+Dama_dama       7588 GGCCCCGAGGACCCAGAGCACACGAACCTCATCAAACTCACTGTCACGAT   7637
+
+Homo_sapiens    7638 GCCACACATAGATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCCA   7687
+                     |||.||||||||.||||||||||||.|.|||||.||.|.|||||||||||
+Dama_dama       7638 GCCTCACATAGACGGCATGCTCCCCATAATCTCTACCAAAGAGCTTTCCA   7687
+
+Homo_sapiens    7688 ACTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAAG   7737
+                     |||||||||||||.|||||||||||||||||..|.|||||||||||||||
+Dama_dama       7688 ACTTTGAGCTCACACTCAGCCCTGATGGCACCCGTGTTGGAAACCACAAG   7737
+
+Homo_sapiens    7738 TGCTCCAACCTCCTGGATTATACTGAAGTGAAGACTCATTATGGTTTCTT   7787
+                     ||||||||||||.|||||||.||.|||||.|||||.||..|.||||||||
+Dama_dama       7738 TGCTCCAACCTCTTGGATTACACCGAAGTAAAGACCCACCACGGTTTCTT   7787
+
+Homo_sapiens    7788 GACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGACATATCCTTACC   7837
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Dama_dama       7788 GACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGACATATCCTTACC   7837
+
+Homo_sapiens    7838 AGTACAGCTTGTCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAAC   7887
+                     |||||||||.|||.|||||||||||||.||||||.|||||||||||.|||
+Dama_dama       7838 AGTACAGCTCGTCTATCAGAGGTTCCAATACCTTACGCTTCTACCGAAAC   7887
+
+Homo_sapiens    7888 CTGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGTC   7937
+                     ||||||||.||||||||.|||||||||||.|||||||||||.||||||||
+Dama_dama       7888 CTGAACCTGGAGGCCTGCTTATGGGAGTTTGTTAGCTACTACGACATGTC   7937
+
+Homo_sapiens    7938 AGAACTCCTTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTCC   7987
+                     .||.||.||..||||||||||.||.|||||||||||.|||||||||||||
+Dama_dama       7938 CGAGCTGCTCACTGACTGTGGCGGGACCATTGGAACCGATGGACAGGTCC   7987
+
+Homo_sapiens    7988 TAAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCC   8037
+                     |||||||||||||||||||||||||.|||||.||||||||||||||.|||
+Dama_dama       7988 TAAACCTAGTGCAGTCCTATGTGACTCTTCGGGTCCCTCTGTATGTCTCC   8037
+
+Homo_sapiens    8038 TACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTT   8087
+                     |||||||||||.||||||||.|||||.|||||||||||||||||||||||
+Dama_dama       8038 TACGTGTTCCACTCCCCCGTTGGGGTTGGAGGCTGGCAGCATTTTGACTT   8087
+
+Homo_sapiens    8088 GAAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGGA   8137
+                     ||||||.||.||.|||||.||.||.|||||.|||||.|||||||||||||
+Dama_dama       8088 GAAGTCCGAACTCCGTCTGACATTCGTGTATGACACTGCCATCTTGTGGA   8137
+
+Homo_sapiens    8138 ATGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTAT   8187
+                     ..|||||||||||||||||||||||.||||||||.||||||||||||||.
+Dama_dama       8138 CCGATGGAATTGGCAGCCCCCCAGAAGCTGAACTCCAAGGTTCTCTCTAC   8187
+
+Homo_sapiens    8188 CCAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCAA   8237
+                     |||||||||||||||||||||||.||||||||.||||..|||.|||||||
+Dama_dama       8188 CCAACCAGCATGCGCATCGGTGAAGAGGGGCGTTTGGTTGTGAACTTCAA   8237
+
+Homo_sapiens    8238 GACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCCT   8287
+                     |||.||||||||||||||||||||||||||||||||||||||.|||||||
+Dama_dama       8238 GACGGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCTGCATCCT   8287
+
+Homo_sapiens    8288 TTACAAGCTCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTCC   8337
+                     |.|||||||||.|||||.||||||..|||||||||||.||.||.||||||
+Dama_dama       8288 TCACAAGCTCAATGATCGTGTCAGTAGATCATCCAGGTCTAACGTTTTCC   8337
+
+Homo_sapiens    8338 CTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGTG   8387
+                     ||.||.||||||||.||||||||||||||||||||||||||.||||||||
+Dama_dama       8338 CTGCGTCTCATAAGAAGTGAACCAACCTATAACCAGCCAGTCCAGCAGTG   8387
+
+Homo_sapiens    8388 GAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATACTG   8437
+                     ||||||..|.|||||||||||.||.|||||||||||.||||||||.||.|
+Dama_dama       8388 GAGCTTCATATCTGACTTTGCAGTCCGTGACTACTCGGGGACCTACACAG   8437
+
+Homo_sapiens    8438 TGAAGCTGGTGCCATGCACTGCCCCATCACATCAGGAATACCGCCTGCCA   8487
+                     |.||.|||.||||||||||..|.|||||.||||||||||||||||||||.
+Dama_dama       8438 TAAAACTGCTGCCATGCACCACTCCATCCCATCAGGAATACCGCCTGCCT   8487
+
+Homo_sapiens    8488 GTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGATT   8537
+                     ||||||||||||||||||||.|||.||||.|||||||||||||||||.||
+Dama_dama       8488 GTCACCTGCAACCCCAGAGAGCCTATCACTTTTGACCTTGACATCCGCTT   8537
+
+Homo_sapiens    8538 CCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAAA   8587
+                     |||||||||||||||.||||||||.|||||||||||||||||||||||.|
+Dama_dama       8538 CCAACAGGTCAGTGACCCAGTGGCGGCTGAGTTTAGCTTGAACACCCAGA   8587
+
+Homo_sapiens    8588 TGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGA   8637
+                     |||||||.|||||.||||||||.|||||||||||||||||||||||||||
+Dama_dama       8588 TGTACCTCCTCTCCAAGAAGAGCCTCTGGTTGTCTGATGGATCCATGGGA   8637
+
+Homo_sapiens    8638 TTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTATGG   8687
+                     ||.|||||.|||||.||.|||||.||.|||||||||||.||.||||||||
+Dama_dama       8638 TTTGGGCAGGAGAGCGACGTTGCCTTCGCAGAAGGTGACATCATTTATGG   8687
+
+Homo_sapiens    8688 TCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTGCA   8737
+                     |||.||||||||||||||.||.||||||||.|||||.|||||||||||||
+Dama_dama       8688 TCGGGTCATGGTGGATCCAGTGCAGAATCTAGGTGATTCCTTTTACTGCA   8737
+
+Homo_sapiens    8738 GCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCAAG   8787
+                     ||||.||||||||||||||.|||||.||.||.||.|||||.|||||||||
+Dama_dama       8738 GCATCGAGAAGGTGTTTCTGTGCACCGGGGCCGACGGCTACGTTCCCAAG   8787
+
+Homo_sapiens    8788 TATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTCACT   8837
+                     ||.|.|||||.||||||||||||.||||||||.||.||.||.||||||||
+Dama_dama       8788 TACAATCCAACGAATGCAGAATACGGCTGCTTGGCTGATTCGCCTTCACT   8837
+
+Homo_sapiens    8838 CTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCGA   8887
+                     |||||||||||||||||||||||||||||||||.||||||||||||||.|
+Dama_dama       8838 CTTATATAGATTTAAAATTGTGGACAAAGCTCAACCAGAGACACAAGCCA   8887
+
+Homo_sapiens    8888 CCAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGACCCT   8937
+                     ||||.||||||||||||||.||||||||||||||.||.||||||||||||
+Dama_dama       8888 CCAGCTTTGGAAATGTCCTGTTTAATGCCAAACTGGCGGTGGATGACCCT   8937
+
+Homo_sapiens    8938 GAAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGA   8987
+                     |||||.||.|||||||||||||||||||||||||||||||||||||||||
+Dama_dama       8938 GAAGCTATCCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGA   8987
+
+Homo_sapiens    8988 CTCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACATA   9037
+                     |||||||||||||||||||||||||||.||.|||||||||||.|||||.|
+Dama_dama       8988 CTCAACACCACTCTTTCAGGTCGCTCTGGGTCGAGAATGGTACATACACA   9037
+
+Homo_sapiens    9038 CGATCTATACAGTGAGATCGAAAGACAATGCCAATCGAGGTATTGGCAAA   9087
+                     |.|||||.|||||.||||||||||||||.|||||||||||.|||||||||
+Dama_dama       9038 CCATCTACACAGTAAGATCGAAAGACAACGCCAATCGAGGCATTGGCAAA   9087
+
+Homo_sapiens    9088 AGAAGTGTGGAGTA------CCATTCTCTGGTGAGTCAAGGAAAGCCCCA   9131
+                     .|.||.||||||||      |||.||||||.||||||||||.||||||||
+Dama_dama       9088 CGCAGCGTGGAGTACCGGTCCCACTCTCTGCTGAGTCAAGGGAAGCCCCA   9137
+
+Homo_sapiens    9132 ATCCACCACCAAGAGCCGGAAGAAGAGAGAGATCAGGAGCACACCCT-CA   9180
+                     ..|..|.||||||||||||||||||||.||||||||.|||| ||||| |.
+Dama_dama       9138 GGCAGCTACCAAGAGCCGGAAGAAGAGGGAGATCAGAAGCA-ACCCTCCG   9186
+
+Homo_sapiens    9181 CTGGCATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCA   9230
+                     |||||.|||||.||.||.|||||.||||..||.|||||||||||||||||
+Dama_dama       9187 CTGGCGTGGGAAATCGGGGCTGAGAACAACCGGGGAACAAACATCCAGCA   9236
+
+Homo_sapiens    9231 CATTGCCCTGGACC---GCACCAAGAGGCAGATCCCCCATGGGAGAG-CA   9276
+                     |||.||||||||||   |||.||.||.||||||||..||.|||||.| |.
+Dama_dama       9237 CATCGCCCTGGACCGCAGCAGCAGGAAGCAGATCCTTCACGGGAGGGTCT   9286
+
+Homo_sapiens    9277 CCTCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGT   9326
+                     || ||.||.|||.||||||||.||||||||.||||.||||||||||..||
+Dama_dama       9287 CC-CCTGACGGCGTCCTCCCCCGGGAGCTCGACAGTCCCAGCTCTGAGGT   9335
+
+Homo_sapiens    9327 CAGCCTGGTCACTGTGGTGGGAGGCACCACGGTAGGGTTACTCACCATCT   9376
+                     |||||||.||||.||||||||.|||..|.||||.||..|.||..||.||.
+Dama_dama       9336 CAGCCTGCTCACGGTGGTGGGGGGCGTCGCGGTGGGACTCCTGGCCGTCA   9385
+
+Homo_sapiens    9377 GCCTCACTGTCATTGCAGTGCTGATGTGCAGGGGCAAGGAAAGTTTCAGG   9426
+                     .||||||||.|.|.||.|||.|||||..|..|||||||.|..||..||||
+Dama_dama       9386 TCCTCACTGCCGTCGCCGTGATGATGCACCAGGGCAAGAAGGGTGCCAGG   9435
+
+Homo_sapiens    9427 GGGAAGGATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCCC   9476
+                     .|||||||.||.||.||.|.|.||.|||||.|||||||||||.|||||.|
+Dama_dama       9436 AGGAAGGACGCGCCCAAGGACCCCGGCAGCCGTGAGCCCATGATGCCCTC   9485
+
+Homo_sapiens    9477 ACAGAGCCATCACAATGACAGCTCAGAAGTT   9507
+                     ...|||||..||||..||||||||.||.|||
+Dama_dama       9486 GGTGAGCCCCCACAGCGACAGCTCGGAGGTT   9516
+
+
+#---------------------------------------
+#---------------------------------------

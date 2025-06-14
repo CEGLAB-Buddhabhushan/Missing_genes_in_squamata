@@ -1,0 +1,650 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:48:05
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Gavialis_gangeticus.fa
+#    -outfile Homo_sapiens-Gavialis_gangeticus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Gavialis_gangeticus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Gavialis_gangeticus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7660
+# Identity:    5515/7660 (72.0%)
+# Similarity:  5515/7660 (72.0%)
+# Gaps:         602/7660 ( 7.9%)
+# Score: 19601.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCCC--------------GCCCTGCGCCCCGCTCTGCTGTGGGCGCTG     36
+                     ||||||              |||  |.||||.||   |||..||||||||
+Gavialis_gang      1 ATGCCCCGGGGCACGTGGGGGCC--GGGCCCGGC---GCTCGGGGCGCTG     45
+
+Homo_sapiens      37 CTGGCGCT----CTG--GCTGTGCTGCGCGGCCCCCGC-GCATGCATTGC     79
+                     ||||||||    |||  ||||.||.|||.||.|||||| || |||.||.|
+Gavialis_gang     46 CTGGCGCTGGCACTGGCGCTGAGCCGCGGGGACCCCGCTGC-TGCCTTAC     94
+
+Homo_sapiens      80 AGTGTC--GAGATGGCTATGAACCCTGTGTAAATGAAGGAATGTGTGTTA    127
+                     |.||||  ||.||..|||  |.||.|||||.|||||.||||.|||..|..
+Gavialis_gang     95 AATGTCTGGATATTTCTA--AGCCTTGTGTCAATGAGGGAAAGTGCTTCT    142
+
+Homo_sapiens     128 CCTACCACAATGGCACAGGATACTGCAAATGTCCAGAAGG-CTTCTTGGG    176
+                     |.||.|.|||||||||.||||..||||.|||||||||||| .||||| ||
+Gavialis_gang    143 CATATCCCAATGGCACTGGATTTTGCAGATGTCCAGAAGGTTTTCTT-GG    191
+
+Homo_sapiens     177 GGAATATTGTCAACATCGAGACCCCTGTGAGAAGAACCG----CTGCCAG    222
+                     .||.||||||||.||..||.||||||||||    ||.||    |||.|||
+Gavialis_gang    192 AGACTATTGTCAGCACAGAAACCCCTGTGA----AAGCGGTACCTGTCAG    237
+
+Homo_sapiens     223 AATGGTGGGACTTGTGTGGCCCAGGCCATGCTGGGGAAAGCCACGTGCCG    272
+                     |||||.||.||.||||...||..|.|..||.|.||.||.|||||.|||..
+Gavialis_gang    238 AATGGAGGAACATGTGAAACCACGTCTGTGATAGGAAAGGCCACTTGCAA    287
+
+Homo_sapiens     273 ATGTGCCTCAGGGTTTACAGGAGAGGACTGCCAG-TACTCAACATCTCAT    321
+                     ||||||..|||||||.|.|||.|||||||| ||| ||.||....||||| 
+Gavialis_gang    288 ATGTGCTCCAGGGTTCAGAGGCGAGGACTG-CAGATATTCCGATTCTCA-    335
+
+Homo_sapiens     322 CCA--TGCTTTGTGTCTCGACCCTGCCTGAATGGCGGCACATGCCATATG    369
+                      ||  |||||||||||.|..||||||.|.|||||.||.||.|||||..||
+Gavialis_gang    336 -CATCTGCTTTGTGTCACACCCCTGCTTAAATGGAGGAACCTGCCAGCTG    384
+
+Homo_sapiens     370 CTCAGCCGGGATACCTATGAGTGCACCTGTCAAGTCGGGTT-TACAGGTA    418
+                     ||..|||..|||.|.|||||.||...|||| |.|.|.|||| .|||||.|
+Gavialis_gang    385 CTTGGCCCAGATGCATATGAATGTGTCTGT-AGGCCAGGTTACACAGGAA    433
+
+Homo_sapiens     419 AGGAGTGCCAATGGACGGATGCCTGCCTGTCTCATCCCTGTGCAAATGGA    468
+                     ||.|.||.||.||||..|||||.||..|||||||.||.|||||.||||||
+Gavialis_gang    434 AGAACTGTCAGTGGATTGATGCTTGTATGTCTCAGCCGTGTGCCAATGGA    483
+
+Homo_sapiens     469 AGTACCTGTA---CCACTGTGGCCAACCAG---TTCTCCTGCAAATGCCT    512
+                     |||||.||.|   |..|||.||      ||   ||.|||||.|.||||| 
+Gavialis_gang    484 AGTACTTGCATCGCATCTGGGG------AGAGATTTTCCTGTACATGCC-    526
+
+Homo_sapiens     513 CA-CAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCAATGAGTGTGAC    561
+                     || |.||.|.|||.||.||.||||||||...||||||.|||||.|||..|
+Gavialis_gang    527 CATCTGGTTACACTGGACAAAAATGTGAAGTTGATGTGAATGAATGTATC    576
+
+Homo_sapiens     562 ATTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAACCTGCCTGGTTC    611
+                     |..||||||||.||||||||||||||.|||||.|||||..|||||||.||
+Gavialis_gang    577 ACACCAGGACAATGCCAGCATGGTGGAACCTGTCTCAATGTGCCTGGCTC    626
+
+Homo_sapiens     612 CTACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTACTGTGACAGCC    661
+                     |||.|..||.||||||...|..|||||.||.|||||...||||||.|||.
+Gavialis_gang    627 CTATCGATGTCAGTGCAAGCCAGGCTTTACTGGCCACCGCTGTGAAAGCA    676
+
+Homo_sapiens     662 TGTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAGGCACCTGTCGG    711
+                     ..||||||||.|||.||||.|||||.|||.|.||||||||.||.||||..
+Gavialis_gang    677 CATATGTGCCATGTTCACCTTCACCGTGTATGAATGGAGGGACATGTCAT    726
+
+Homo_sapiens     712 CAGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCAGGTTTTGAAGG    761
+                     ||.||.|||||.|||...|.||||||||||||.||.|||||.|||||| |
+Gavialis_gang    727 CAAACCGGTGATTTCGTCTATGAGTGCAACTGTCTGCCAGGCTTTGAA-G    775
+
+Homo_sapiens     762 GAG-CACCTGTGAGAGGAATATTGATGACTGCCCTAACCACAGGTGTCAG    810
+                     ||| .|||||||||...||.||||||||||||||.|||||||..||.|||
+Gavialis_gang    776 GAGATACCTGTGAGCACAACATTGATGACTGCCCAAACCACAAATGCCAG    825
+
+Homo_sapiens     811 AATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAACTGCCGCTGTCC    860
+                     |||||.||.||.||.||||||||.||.||||||||||||||||||||.||
+Gavialis_gang    826 AATGGTGGTGTATGCGTGGATGGTGTAAACACTTACAACTGCCGCTGCCC    875
+
+Homo_sapiens     861 CCCACAATGGACAGGACAGTTCTGCACAGAGGATGTGGATGAATGCCTGC    910
+                     .|||||.||||||||.||.|||||.||.|||||||||||||||||.|.||
+Gavialis_gang    876 TCCACAGTGGACAGGTCAATTCTGTACTGAGGATGTGGATGAATGTCAGC    925
+
+Homo_sapiens     911 TGCAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAACCGCAATGGA    960
+                     |||||||||||||||||||||||||.||.|||||..||||||.||||||.
+Gavialis_gang    926 TGCAGCCCAATGCCTGTCAAAATGGAGGTACCTGCACCAACCACAATGGC    975
+
+Homo_sapiens     961 GGCTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATGACTGCAGTGA   1010
+                     |||||||.||||||.||||||||.|||||||||||.|||||.||||||.|
+Gavialis_gang    976 GGCTATGCCTGTGTCTGTGTCAATGGCTGGAGTGGGGATGATTGCAGTAA   1025
+
+Homo_sapiens    1011 GAACATTGATGATTGTGCCTT--CGCCTCCTGTACTCCA--GGCTCCACC   1056
+                     |||.||||||||.|||  |||  .||.||||||  .|||  ||.||.||.
+Gavialis_gang   1026 GAATATTGATGACTGT--CTTACGGCTTCCTGT--GCCAATGGATCTACT   1071
+
+Homo_sapiens    1057 TGCATCGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAAGGC   1106
+                     |||||.||.||||||||.||.||..|.|||||.||.|||||.||.|||||
+Gavialis_gang   1072 TGCATTGATCGTGTGGCTTCATTTGCATGCATCTGTCCAGAAGGAAAGGC   1121
+
+Homo_sapiens    1107 AGGTCTCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGCCACA   1156
+                     |||.||||||||||||||||||||||||||..|.|||||.||.|||||.|
+Gavialis_gang   1122 AGGCCTCCTGTGTCATCTGGATGATGCATGTGTTAGCAACCCCTGCCAGA   1171
+
+Homo_sapiens    1157 AGGGGGCACTGTGTGACACCAACCCCCTAAATGGGCAATATATTTGCACC   1206
+                     |||||||.||.|||||.||||||||..|.|||||.||.|||||.|||||.
+Gavialis_gang   1172 AGGGGGCTCTATGTGATACCAACCCTATGAATGGACACTATATCTGCACT   1221
+
+Homo_sapiens    1207 TGCCCACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGAATG   1256
+                     ||.||.||||||||||||||.||.|||||.||.||||||||.|||||.||
+Gavialis_gang   1222 TGTCCCCAAGGCTACAAAGGAGCAGACTGTACTGAAGATGTAGATGAGTG   1271
+
+Homo_sapiens    1257 TGCCATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAACA   1306
+                     |||.|||||.||.||||||||.|||||.|||||.||||||||||||||.|
+Gavialis_gang   1272 TGCTATGGCAAACAGCAATCCGTGTGAACATGCTGGAAAATGTGTGAATA   1321
+
+Homo_sapiens    1307 CGGATGGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCTCGT   1356
+                     |.||.|||.|||||||||||||||||||||||||.||..|||||||.||.
+Gavialis_gang   1322 CTGAAGGCTCCTTCCACTGTGAGTGTCTGAAGGGATACACAGGACCACGC   1371
+
+Homo_sapiens    1357 TGTGAGATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGATGC   1406
+                     |||||.||||||||.||||||||.|||||..|.||.||.||.||||||||
+Gavialis_gang   1372 TGTGAAATGGACATTAATGAGTGTCATTCCAATCCATGTCAAAATGATGC   1421
+
+Homo_sapiens    1407 TACCTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAGGTT   1456
+                     .||.||.||||||||.|||||.||.||||||||||||||.||||||||.|
+Gavialis_gang   1422 CACTTGCCTGGATAAAATTGGGGGATTCACATGTCTGTGTATGCCAGGGT   1471
+
+Homo_sapiens    1457 TCAAAGGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAACCCT   1506
+                     |.|||||..||||.||||||.|.||.||.||||||||.|..||.|..||.
+Gavialis_gang   1472 TTAAAGGCATGCACTGTGAACTGGAGATCAATGAATGCCTTAGTAGTCCC   1521
+
+Homo_sapiens    1507 TGTGTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCAGTGCCT   1556
+                     ||||||||||||||..|||||..||||||.|||||||..||.|.||||..
+Gavialis_gang   1522 TGTGTGAACAATGGAGAGTGTCAGGATAAGGTCAATCACTTTCTGTGCAA   1571
+
+Homo_sapiens    1557 GTGTCCTCCTGGTTTCACTGG-GCCAGTTTGCCAGATTGATATTGATGAC   1605
+                     .||.||.||||||||.||||| ||| ||.|||||||||||.|||||||||
+Gavialis_gang   1572 ATGCCCACCTGGTTTTACTGGAGCC-GTGTGCCAGATTGACATTGATGAC   1620
+
+Homo_sapiens    1606 TGTTCCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCCGAA   1655
+                     ||.|||||.||.||.||.||.|||||.||||||||.||.|||||.||.||
+Gavialis_gang   1621 TGCTCCAGCACACCTTGCCTAAATGGAGCAAAGTGCATTGATCATCCCAA   1670
+
+Homo_sapiens    1656 TGGCTATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTGAGG   1705
+                     |||||||||.||||||||||||||||||||.|||||..|.||||||||||
+Gavialis_gang   1671 TGGCTATGAGTGCCAGTGTGCCACAGGTTTTACTGGCATCTTGTGTGAGG   1720
+
+Homo_sapiens    1706 AGAACATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGTCAG   1755
+                     |.||.||..|.||.|||||.||.||.|||||||||||||||.|.||.||.
+Gavialis_gang   1721 AAAATATAAATAATTGTGATCCTGACCCTTGCCACCATGGTAAATGCCAA   1770
+
+Homo_sapiens    1756 GATGGTATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGGCGC   1805
+                     ||||||||||||||.|||||.||..||||||||||.||.||||||||.||
+Gavialis_gang   1771 GATGGTATTGATTCATACACATGTGTCTGCAATCCTGGATACATGGGTGC   1820
+
+Homo_sapiens    1806 CATCTGCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGAACG   1855
+                     |||.||.|||||.||||||||||||||.|||||||.|||.|||||.||..
+Gavialis_gang   1821 CATTTGTAGTGAACAGATTGATGAATGCTACAGCAACCCGTGCCTTAATC   1870
+
+Homo_sapiens    1856 ATGGTCGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAGCCA   1905
+                     |.||.||||||||||||.||||.|||||.|||||.||||||||....|||
+Gavialis_gang   1871 AAGGACGCTGCATTGACTTGGTGAATGGTTACCAATGCAACTGTTTACCA   1920
+
+Homo_sapiens    1906 GGCACGTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAGTAA   1955
+                     |||||.|||||.||.||.||.||.|.|||.||||||||||||||||.|||
+Gavialis_gang   1921 GGCACATCAGGAGTGAACTGCGAGAATAACTTTGATGACTGTGCAAATAA   1970
+
+Homo_sapiens    1956 CCCTTGTATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTTGTG   2005
+                     .||.||.||.|||||.|.||||||.|||||||||||.|..||||||||..
+Gavialis_gang   1971 ACCCTGCATTCATGGGACCTGTATAGATGGCATTAACCAGTACAGTTGCA   2020
+
+Homo_sapiens    2006 TCTGCTCACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGATGAG   2055
+                     |.|||...||||||.|.||.||.|..||||||||.|.|||.||||||||.
+Gavialis_gang   2021 TTTGCAACCCAGGAGTTACCGGTCCAAGATGTAATACTGATATTGATGAA   2070
+
+Homo_sapiens    2056 TGTGCCTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGTGAA   2105
+                     |||..|||...||||||||.|||.||||.|||||||.||||.|...||||
+Gavialis_gang   2071 TGTATCTCTGGTCCCTGTCACAATGGTGGAACATGTGTCAATGAAATGAA   2120
+
+Homo_sapiens    2106 TGGTTTCCGCTGTATATGCCCCGAGGGACCCCATCACCCCAGCTGCTACT   2155
+                     |||.||.||.||||||||.||.||.||...|||||||||||.|||..|||
+Gavialis_gang   2121 TGGATTTCGATGTATATGTCCTGAAGGCTACCATCACCCCACCTGTCACT   2170
+
+Homo_sapiens    2156 CACAGGTGAAC----GAATGCCTGAGCAATCCCTGCATCCATGGAAACTG   2201
+                     |||||    ||    |||||.||.|..|.|||.||..|.|||||.|||||
+Gavialis_gang   2171 CACAG----ACAGATGAATGTCTTAATAGTCCTTGTGTGCATGGCAACTG   2216
+
+Homo_sapiens    2202 TACTGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGTTG   2251
+                     .||....|.|.|||..||.|||..||||||||||||..||||.|||..||
+Gavialis_gang   2217 CACACATGATGTCAACGGGTATGTGTGTCTCTGTGACCCAGGTTGGACTG   2266
+
+Homo_sapiens    2252 GCATCAACTGTGAAGTGGACAAAAATGAATGCCTTTCGAATCCATGCCAG   2301
+                     |.||..||||||||||.||..|||||||.||....||.|||||.||||||
+Gavialis_gang   2267 GAATGGACTGTGAAGTAGAGGAAAATGAGTGTAGGTCAAATCCGTGCCAG   2316
+
+Homo_sapiens    2302 AATGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGTGTACTTGCAA   2351
+                     |||||||||||.|||||||||||||||||||||||.||.||.||.||||.
+Gavialis_gang   2317 AATGGAGGAACCTGTGACAATCTGGTGAATGGATATAGATGCACCTGCAG   2366
+
+Homo_sapiens    2352 GAAGGGCTTTAAAGGCTAT-AACTGCCAGGTGAATATTGATGAATGTGCC   2400
+                     ||..||.||.||||| |.| |||||||||    |||         |||| 
+Gavialis_gang   2367 GAGAGGATTCAAAGG-TGTGAACTGCCAG----ATA---------GTGC-   2401
+
+Homo_sapiens    2401 TCAAATCCATGCCTGAACCAAGGAACCTGCTTTGATGACATAAGTGGCTA   2450
+                                                                       
+Gavialis_gang   2401 --------------------------------------------------   2401
+
+Homo_sapiens    2451 CACTTGCCACTGTGTGCTGCCATACACAGGCAAGAATTGTCAGACAGTAT   2500
+                                                                       
+Gavialis_gang   2401 --------------------------------------------------   2401
+
+Homo_sapiens    2501 TGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGTTTGCAAAGAG   2550
+                     .||||||.||.|||||..|.||||||||||||.|||...|.|||.||||.
+Gavialis_gang   2402 AGGCTCCTTGCTCCCCTGATCCTTGTGAGAATTCTGGAATCTGCCAAGAA   2451
+
+Homo_sapiens    2551 TCACCAAATTTTGAGAGTTATACTTGCTTGTGTGCTCCTGGCTGGCAAGG   2600
+                     |||.|....|.|||..|.||||..||..|||||||||||||||||.||||
+Gavialis_gang   2452 TCATCCGGCTCTGATGGATATATCTGTCTGTGTGCTCCTGGCTGGGAAGG   2501
+
+Homo_sapiens    2601 TCAGCGGTGTACCATTGACATTGACGAGTGTATCTCCAAGCCCTGCATGA   2650
+                     ..||.|.|||||..|.||.|||||.|||||..|.||.||||||||||.||
+Gavialis_gang   2502 AGAGAGATGTACGGTGGATATTGATGAGTGCGTGTCAAAGCCCTGCAGGA   2551
+
+Homo_sapiens    2651 ACCATGGTCTCTGCCATAACACCCAGGGCAGCTACATGTGTGAATGTCCA   2700
+                     |.||||.|.|||||||.||||..||.|||||||||.||||||||||  ||
+Gavialis_gang   2552 ATCATGCTGTCTGCCACAACATTCAAGGCAGCTACCTGTGTGAATG--CA   2599
+
+Homo_sapiens    2701 --CCAGGCTTCAGTGGTATGGACTGTGAGGAGG--ACATTGATGACTGCC   2746
+                       ||||||||||.|||....|||||.||  |.|  |||||||||||||||
+Gavialis_gang   2600 ACCCAGGCTTCACTGGGGGAGACTGCGA--AAGCAACATTGATGACTGCC   2647
+
+Homo_sapiens    2747 TTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGATGGAGTGAATACT   2796
+                     ||.|.||.||.|||||||||||||.|||.|||.|||||||.|||||..||
+Gavialis_gang   2648 TTTCAAACCCCTGCCAGAATGGAGCTTCATGTGTGGATGGGGTGAACTCT   2697
+
+Homo_sapiens    2797 TTCTCCTGCCTCTGCCTTCC-GGGTTTCACTGGGGATAAGTGCCAGACAG   2845
+                     |||||.|||.||||.||.|| |||||.|| .|||||..||||.|||||||
+Gavialis_gang   2698 TTCTCATGCATCTGTCTGCCTGGGTTCCA-AGGGGAGCAGTGTCAGACAG   2746
+
+Homo_sapiens    2846 ACATGAATGAGTGTCTGAGTGAACCCTGTAAGAATGGAGGGACCTGCTCT   2895
+                     |.|..||||||||||||||||||||.||.|||||||||||.|||||||||
+Gavialis_gang   2747 ATACCAATGAGTGTCTGAGTGAACCATGCAAGAATGGAGGCACCTGCTCT   2796
+
+Homo_sapiens    2896 GACTACGTCAACAGTTACACTTGCAAGTGCCAGGCAGGATTTGATGGAGT   2945
+                     |||||.||||||||.|||||.||||||||||..||||||||||| ||.|.
+Gavialis_gang   2797 GACTATGTCAACAGCTACACATGCAAGTGCCCAGCAGGATTTGA-GGGGA   2845
+
+Homo_sapiens    2946 CC-ATTGTGAGAACAACATCAATGAGTGCACTGAGAGCTCCTGTTTCAAT   2994
+                     || ||||||||||||||||||||||.|||||||||||.||.|||||||||
+Gavialis_gang   2846 CCAATTGTGAGAACAACATCAATGAATGCACTGAGAGTTCGTGTTTCAAT   2895
+
+Homo_sapiens    2995 GGTGGCACATGTGTTGATGGGATTAACTCCTTCTCTTGCTTGTGCCCTGT   3044
+                     ||.|.|||.|||||.||||||||.||||||||..|.|||..||||||.||
+Gavialis_gang   2896 GGAGCCACTTGTGTGGATGGGATCAACTCCTTTACATGCCAGTGCCCGGT   2945
+
+Homo_sapiens    3045 GGGTTTCACTGGATCCTTCTGCCTCCAT-GAGATCAATGAATGCAGCTCT   3093
+                     .||.|||||.|||.||||.||.|| ||| ||.||.||||||||....||.
+Gavialis_gang   2946 TGGGTTCACGGGAACCTTTTGTCT-CATGGAAATTAATGAATGTGATTCA   2994
+
+Homo_sapiens    3094 CATCCATGCCTGAA-TGAGGGAACGTGTGTTGATGGCCTGGGTACCTACC   3142
+                     |||||.|||.|||| .||||| ||.|||||.|||.|||||||.|||||..
+Gavialis_gang   2995 CATCCTTGCTTGAACAGAGGG-ACTTGTGTGGATAGCCTGGGGACCTATA   3043
+
+Homo_sapiens    3143 GCTGCAGCTGCCCCCTGGGCTACACTGGGAAAAACTGTCAGACCCTGGTG   3192
+                     ..||....||.|||.||||.||||||||.||.||||||||||..||.|||
+Gavialis_gang   3044 ATTGTGTTTGTCCCATGGGTTACACTGGAAAGAACTGTCAGATACTTGTG   3093
+
+Homo_sapiens    3193 AATCTCTGCAGTCGGTCTCCATGTAAAAACAAAGGTACTTGCGTTCAGAA   3242
+                     .||||.||.||...||.|||.|||||.|||||||||||.||.||.|    
+Gavialis_gang   3094 GATCTGTGTAGCAAGTTTCCCTGTAAGAACAAAGGTACATGTGTCC----   3139
+
+Homo_sapiens    3243 AAAAGCAGAGTCC-------CAGTGCCTATGTCCATCTGGATGGGCTGGT   3285
+                        ||||||.|.|       ||.|||...|||.|..||||.|||..||||
+Gavialis_gang   3140 ---AGCAGAATACTCACTTTCATTGCAACTGTTCCCCTGGTTGGAGTGGT   3186
+
+Homo_sapiens    3286 GCCTATTGTGACGTGCCCAATGTCTCTTGTGACATAGCAGCCTC-CAGGA   3334
+                     |||||.|||||.||.|||||||||||.||..|..|.||.||.|| || ||
+Gavialis_gang   3187 GCCTACTGTGATGTTCCCAATGTCTCCTGCCAAGTGGCTGCTTCACA-GA   3235
+
+Homo_sapiens    3335 GAGGTGTGCTTGTTGAACACTTGTGCCAGCACTCAGGTGTCTGCATCAAT   3384
+                     |.||.||.|.|||.||.||.|||||.||||||||.||....|||.|.||.
+Gavialis_gang   3236 GGGGGGTCCCTGTAGACCAGTTGTGTCAGCACTCTGGCAATTGCCTTAAC   3285
+
+Homo_sapiens    3385 GCTGGCAACACGCATTACTGTCAGTGCCCCCTG----GGCTATACTGGGA   3430
+                     |.|||.||||..||....||.||.||||    |    |||||.|||||.|
+Gavialis_gang   3286 GTTGGAAACAGCCACCGTTGCCAATGCC----GGACAGGCTACACTGGTA   3331
+
+Homo_sapiens    3431 GCTACTGTGAGGAGCAACTCGATGAGTGTGCGTCCAACCCCTGCCAGCAC   3480
+                     ||||.|||||.|||||..|.|||||.||....||||..||.||.|||.|.
+Gavialis_gang   3332 GCTATTGTGAAGAGCAGGTGGATGAATGCATCTCCAGTCCTTGTCAGAAT   3381
+
+Homo_sapiens    3481 GGGGCAACATGCAGTGACT-TCATTGGTGGATACAGATGCGAGTGTGTCC   3529
+                     ||.||.||.|||||.|||| || ||||.|||||.|..||.||||||||.|
+Gavialis_gang   3382 GGCGCCACCTGCAGGGACTATC-TTGGAGGATATAACTGTGAGTGTGTGC   3430
+
+Homo_sapiens    3530 CAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAAT   3579
+                     ||||.||.|||||||||||||||||||||||||||.|||||||.|||...
+Gavialis_gang   3431 CAGGGTACCAGGGTGTCAACTGTGAGTATGAAGTGAATGAGTGTCAGTTC   3480
+
+Homo_sapiens    3580 CAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTTCAA   3629
+                     |||||||||||.||||||||.|||||.|||||.||..|.||.||.|||||
+Gavialis_gang   3481 CAGCCCTGCCAAAATGGAGGAACCTGCATTGATCTCATCAATCACTTCAA   3530
+
+Homo_sapiens    3630 GTGCTCTTGCCCACCAGGCACTCGGGGCCTACTCTGTGAAGAGAACATTG   3679
+                     .|||||.||.||||||||.|||||||||||.||.|||||.||||||||||
+Gavialis_gang   3531 ATGCTCCTGTCCACCAGGAACTCGGGGCCTTCTTTGTGAGGAGAACATTG   3580
+
+Homo_sapiens    3680 ATGACTG--TGCCCG--------GGGTCCCCATTGCCTTAATGGTGGTCA   3719
+                     |||||||  ||||.|        ||| ||.|..|||||||||||.||.||
+Gavialis_gang   3581 ATGACTGCATGCCAGATTCAGGAGGG-CCTCGCTGCCTTAATGGAGGACA   3629
+
+Homo_sapiens    3720 GTGCATGGATAGGATTGGAGGCTACAGTTGTCGCTG--CTTGCCTGGCTT   3767
+                     ||||||.||....|||||.|||.||||.||||..||  |||  |.|||||
+Gavialis_gang   3630 GTGCATAGACCAAATTGGGGGCCACAGCTGTCTTTGTCCTT--CAGGCTT   3677
+
+Homo_sapiens    3768 TGCTGGGGAGCGTTGTGAGGGAGACATCAACGAGTGCCTCTCCAACCCCT   3817
+                     .|..||..|||..||||||||.|||||.||.||.||||||||||||||.|
+Gavialis_gang   3678 CGGAGGCAAGCAGTGTGAGGGGGACATTAATGAATGCCTCTCCAACCCTT   3727
+
+Homo_sapiens    3818 GCAGCTCTGAGGGCAGCCTGGACTGTATACAGCTCACCAATGACTACCTG   3867
+                     |.|||.||...||.||||..||||||.|.|||||....|||.|.||....
+Gavialis_gang   3728 GTAGCCCTCGTGGTAGCCGAGACTGTGTTCAGCTGGTTAATAATTATACA   3777
+
+Homo_sapiens    3868 TGTGTTTGCCGTAGTGCCTTTACTGGCCGGCACTGTGAAACCTTCGTCGA   3917
+                     |||.|.|||||.|||||||||||||||||.|||||||||||..|..|.||
+Gavialis_gang   3778 TGTATCTGCCGCAGTGCCTTTACTGGCCGTCACTGTGAAACTGTGATAGA   3827
+
+Homo_sapiens    3918 TGTGTGTCCCCAGATGCCCTGCCTGAATGGAGGGACTTGTGCTGTGGCCA   3967
+                     |||||||||.||||.|||.||.|.|||||||||.|||||||||||.||||
+Gavialis_gang   3828 TGTGTGTCCTCAGAAGCCTTGTCAGAATGGAGGTACTTGTGCTGTTGCCA   3877
+
+Homo_sapiens    3968 GTAACATGCCTGATGGTTTCATTTGCCGTTGTCCCCCGGGATTTTCCGGG   4017
+                     ||||.|||||||||||.|||||.||||..|||||.||.||.|.|||.|||
+Gavialis_gang   3878 GTAATATGCCTGATGGATTCATCTGCCAGTGTCCTCCAGGTTATTCTGGG   3927
+
+Homo_sapiens    4018 GC--AAGGTGCCAGAGCAGC------TGTGGACAAGTGAAATGTAGGAAG   4059
+                     .|  ||.|||  |...||||      |||||.|||.|||..||.|.|||.
+Gavialis_gang   3928 TCTAAATGTG--AATTCAGCAATACTTGTGGGCAAATGAGGTGCAAGAAA   3975
+
+Homo_sapiens    4060 GGGGAGCAGTGTGTGCACACCGCCTCTGGACCCCGCTGCTTCTGCCC---   4106
+                     |||||.|.|||..|.||.||..||||.||.|||||.||.|.|||.||   
+Gavialis_gang   3976 GGGGAACTGTGCATCCAGACATCCTCAGGGCCCCGTTGTTACTGTCCAGA   4025
+
+Homo_sapiens    4107 ----------------CAGTCCCCGG-GACTGCGAGTCAGGCTGTGCCAG   4139
+                                     .|||.||.|| .||||||     ||||||.||||
+Gavialis_gang   4026 GCTCTTGGTGGGTGAGGAGTGCCAGGCTACTGCG-----GGCTGTACCAG   4070
+
+Homo_sapiens    4140 TAGC-CCCTGCCAGCACGGGGGCAGCTGCCACCCTCAGCGCCAGCCTCCT   4188
+                     | || |||||||||.|.|||||.||.|||||.|||..||..|||.|||||
+Gavialis_gang   4071 T-GCACCCTGCCAGAATGGGGGAAGTTGCCATCCTAGGCCTCAGGCTCCT   4119
+
+Homo_sapiens    4189 TATTACTCCTGCCAGTGTGCCCCA---CCATTCTCG--GGTAGCCGCTGT   4233
+                     |||||.|.||||||||||  ||||   .||.|   |  ||.||||..|||
+Gavialis_gang   4120 TATTATTACTGCCAGTGT--CCCAGTTACACT---GAAGGCAGCCAATGT   4164
+
+Homo_sapiens    4234 GA--ACTC--TACACGGCACCC--CCCAGCACCCCTCCTGCCACCTGTCT   4277
+                     ||  |.||  |||||    |||  ||.||.|     ||||.....|||||
+Gavialis_gang   4165 GAGCATTCAGTACAC----CCCAGCCGAGAA-----CCTGAAGGGTGTCT   4205
+
+Homo_sapiens    4278 GAGCCAGTATTG--TGCCGACAAAGCTCGGGATGGCGTCTGTGATGAGGC   4325
+                     |.|.||..|.||  ||  ||.|.|||....||.|||..|||||||||.|.
+Gavialis_gang   4206 GGGTCAACACTGCATG--GAAAGAGCAAAAGACGGCTACTGTGATGAAGA   4253
+
+Homo_sapiens    4326 CTGCAACAGCCATGCCTGCCAGTGGGATGGGGGTGACTGTTCTCTCACCA   4375
+                     ||||||||..||.||.||||||||||||||.||.||||||||.||.|..|
+Gavialis_gang   4254 CTGCAACACGCACGCGTGCCAGTGGGATGGAGGGGACTGTTCGCTGATGA   4303
+
+Homo_sapiens    4376 TGGAGAACCCCTGGGCCAACTGCTCCTCCCCACTTCCCTGCTGGGATTAT   4425
+                     |.||..|.||||||||||||||.||.||..||||.|.|||||||||..||
+Gavialis_gang   4304 TAGAAGATCCCTGGGCCAACTGTTCTTCGTCACTGCGCTGCTGGGAGCAT   4353
+
+Homo_sapiens    4426 ATCAACAACCAGTGTGATGAG--CTGTGCAACACGGTC-GAGTGCCTGTT   4472
+                     .||||...|..|||.||||||  ||||...||||   | ||||||.||||
+Gavialis_gang   4354 TTCAATGGCTTGTGCGATGAGGCCTGTAATACAC---CTGAGTGCTTGTT   4400
+
+Homo_sapiens    4473 TGACAACTTTGAATGCCAGGGGAACAGCAAGACATGCAAGTATGACAAAT   4522
+                     ||||||||||||.||.|||..||||...|||||.||||||||||..||||
+Gavialis_gang   4401 TGACAACTTTGAGTGTCAGCAGAACCCTAAGACGTGCAAGTATGGTAAAT   4450
+
+Homo_sapiens    4523 ACTGTGCAGACCACTTCAAAGACAA---CCACTGTGACCAGGGGTGCAAC   4569
+                     |.||||..||.||||   |.|..||   ||.|||||||.|.||.||.|||
+Gavialis_gang   4451 ATTGTGAGGATCACT---ATGCGAATGGCCTCTGTGACAAAGGATGTAAC   4497
+
+Homo_sapiens    4570 AGTGAGGAGTGTGGTTGGGATGGGCTGGACTGTGCTGCTGACCAACCTGA   4619
+                     |.|||||||||||||||||||||.|||||||||||||.||||.||.||||
+Gavialis_gang   4498 AATGAGGAGTGTGGTTGGGATGGTCTGGACTGTGCTGGTGACAAAGCTGA   4547
+
+Homo_sapiens    4620 GAACCTGGCAGAAGGTACCCTGGTTATTGTGGTATTGATGCCACCTGAAC   4669
+                     |||.|||||||||||||||||..|.||||||||..|.|||||.|||||.|
+Gavialis_gang   4548 GAAGCTGGCAGAAGGTACCCTTATAATTGTGGTGCTAATGCCCCCTGACC   4597
+
+Homo_sapiens    4670 AACTGC-TCCAGGATGCTCGCAGCTTCTTGCGGGCACTGGGTACCCTGCT   4718
+                     |.|||| |.|| ||||..|..||||||.|..||.|.||.||.|||||.||
+Gavialis_gang   4598 AGCTGCTTTCA-GATGTCCATAGCTTCCTATGGACTCTAGGAACCCTTCT   4646
+
+Homo_sapiens    4719 CCACACCAACCTGCGCATTAAGCGGGACTCCCAGGGGGAACTCATGGTGT   4768
+                     .||||||||||||.|.||.||.|||||.||||||||.||..|.|||||.|
+Gavialis_gang   4647 ACACACCAACCTGAGAATAAAACGGGATTCCCAGGGAGAGTTGATGGTAT   4696
+
+Homo_sapiens    4769 ACCCCTATTATGGTGAGAAGTCAGCTGCTATGAAGAAACAGAGGATGACA   4818
+                     ||||.||.|||||.||||||||||| .|||.|              ||..
+Gavialis_gang   4697 ACCCATACTATGGAGAGAAGTCAGC-ACTACG--------------GAGC   4731
+
+Homo_sapiens    4819 CGCAGATCCCT-----TCCT------GG----------TGAACAAGAACA   4847
+                     ||..|||||||     ||.|      ||          |||||||||   
+Gavialis_gang   4732 CGGCGATCCCTGTTGGTCATTCGTAAGGCCAGAGAGCTTGAACAAGA---   4778
+
+Homo_sapiens    4848 GGAGGTGGC---TGGCTCTAAAGTCTTTCTGGAAATTGACAACCGCCAGT   4894
+                           |||   ||||.|.||.||.||.||||||||||||||.||.||||
+Gavialis_gang   4779 ------GGCCATTGGCACAAAGGTGTTCCTGGAAATTGACAATCGACAGT   4822
+
+Homo_sapiens    4895 GTGTTCAAGACTCAGACCACTGCTTCAAGAACACGGATGCAGCAGCAGCT   4944
+                     |.|.|.||||.||||||||.|||||.||.||.||.||.||.|||||||||
+Gavialis_gang   4823 GCGCTGAAGAGTCAGACCAGTGCTTTAAAAATACAGAAGCTGCAGCAGCT   4872
+
+Homo_sapiens    4945 CTCCTGGCCTCTCACGCCATACAGGGGACCCTGTCATACCCTCTTGTGTC   4994
+                     ||..|.||..||||.|||||..||||.|...||.|.||.|||.|||||||
+Gavialis_gang   4873 CTTTTAGCAGCTCAGGCCATTAAGGGCATGGTGCCTTATCCTTTTGTGTC   4922
+
+Homo_sapiens    4995 TGTCGTCAGTGAATCCCTGACTCCA--GAACGCACTCAGCTCCTCTATCT   5042
+                     .||.|..||||||..|.|..|.|.|  |||  .||.|||.|.||.||.||
+Gavialis_gang   4923 GGTTGAAAGTGAACGCATATCACAAGGGAA--GACGCAGATGCTTTACCT   4970
+
+Homo_sapiens    5043 CCTTGCT---GTTGCTGTTGTCATCATTCTGTTTATTATTCTGCTGGGGG   5089
+                     .||||||   ||.|||.|.|||..|   ||..|.||..||||..||||.|
+Gavialis_gang   4971 GCTTGCTGTGGTAGCTTTGGTCGGC---CTTATAATCCTTCTTTTGGGTG   5017
+
+Homo_sapiens    5090 TAATCATGGCAAAACGAAAGCGTAAGCATGGCTCTCTCTGGCTGCCTGAA   5139
+                     |.||.||||||||.|||||.||.|||||||||||.||||||||.|||||.
+Gavialis_gang   5018 TGATGATGGCAAAGCGAAAACGGAAGCATGGCTCCCTCTGGCTCCCTGAG   5067
+
+Homo_sapiens    5140 GGTTTCACTCTTCGCCGAGATGCAAGCAATCACAAGCGTCGTGAGCCAGT   5189
+                     ||.||.|.|.|.|.|.||||..|.||.||.|||||.||..|.||.|||||
+Gavialis_gang   5068 GGCTTTATTTTGCACAGAGACTCCAGTAACCACAAACGGAGAGAACCAGT   5117
+
+Homo_sapiens    5190 GGGACAGGATGCTGTGGGGCTGAAAAATCTCTCAGTGCAAGTCTCAGAAG   5239
+                     .||..|.||.||.||.||..||||||||||.|||||.|||||.||.||.|
+Gavialis_gang   5118 CGGGGAAGACGCAGTTGGATTGAAAAATCTGTCAGTACAAGTTTCTGACG   5167
+
+Homo_sapiens    5240 CTAACCTAATTGG-------TACTGGAACAAGTGAACACTGGGTC-GATG   5281
+                     ..||.|    |||       |||||   ||.|.||||| |.|||| |.||
+Gavialis_gang   5168 GCAATC----TGGCAGACTATACTG---CAGGGGAACA-TTGGTCAGGTG   5209
+
+Homo_sapiens    5282 ATGAAGGG--CCCCAGCCAAAGAAAGTAAAGGCTGAAGATGAGGCCTTAC   5329
+                     |  .||||  ||.||||||||||.||..|||.|.||||||||.||.||.|
+Gavialis_gang   5210 A--CAGGGGACCTCAGCCAAAGAGAGCTAAGTCCGAAGATGAAGCATTGC   5257
+
+Homo_sapiens    5330 TCTCAGAAGAAGATGACCCCATTGATCGACGGCCATGGACACAGCAGCAC   5379
+                     ||.||||||.||||||.|...|.||||.|.|.|.|||||||||.||.|||
+Gavialis_gang   5258 TCCCAGAAGCAGATGAGCAGGTAGATCAATGCCAATGGACACAACAACAC   5307
+
+Homo_sapiens    5380 CTTGAAGCTGCAGACATCCGTAGGACACCATCGCTGGCTCTCACCCCTCC   5429
+                     ||....||.||.|||||...|.||||..||||.||.|||||.||.||.||
+Gavialis_gang   5308 CTCAGGGCAGCTGACATAGATGGGACCACATCCCTTGCTCTTACACCACC   5357
+
+Homo_sapiens    5430 TCAGGCAGAGCAGGAGGTGGATGTGTTAGATGTGAATGTCCGTGGCCCAG   5479
+                     |||||||||.||.||.||.|||||.||.||.||.|||||..|.||.||||
+Gavialis_gang   5358 TCAGGCAGATCAAGAAGTAGATGTCTTGGACGTCAATGTTAGAGGACCAG   5407
+
+Homo_sapiens    5480 ATGGCTGCACCCCATTGATGTTGGCTTCTCTCCGAGGAGGCAGCTCAGAT   5529
+                     ||||.|||||||||.|.||||||||.|||||.||.|..||||||||.||.
+Gavialis_gang   5408 ATGGGTGCACCCCACTCATGTTGGCATCTCTGCGTGTGGGCAGCTCCGAC   5457
+
+Homo_sapiens    5530 TTGAGTGATGAAGATGAAGATGCAGAGGACTCTTCTGCTAACATCATCAC   5579
+                     .|.|||||||||||||||||||..|||||.||.||.||.||.||.||.||
+Gavialis_gang   5458 ATTAGTGATGAAGATGAAGATGGGGAGGATTCCTCAGCAAATATAATAAC   5507
+
+Homo_sapiens    5580 AGACTTGGTCTACCAGGGTGCCAGCCTCCAGGCCCAGACAGACCGGACTG   5629
+                     ||||.||.||||.||.||.||.|.|.|.||.||.||.||||||||.||||
+Gavialis_gang   5508 AGACCTGATCTATCAAGGGGCTAACTTGCAAGCTCAAACAGACCGCACTG   5557
+
+Homo_sapiens    5630 GTGAGATGGCCCTGCACCTTGCAGCCCGCTACTCACGGGCTGATGCTGCC   5679
+                     |.||||||||.||||||.|.|||||||||||.|||.|.||.|||||.||.
+Gavialis_gang   5558 GGGAGATGGCACTGCACTTAGCAGCCCGCTATTCAAGAGCAGATGCAGCA   5607
+
+Homo_sapiens    5680 AAGCGTCTCCTGGATGCAGGTGCAGATGCCAATGCCCAGGACAACATGGG   5729
+                     ||.||..|..|||||||.|||||.|||||.||.||||..|||||||||||
+Gavialis_gang   5608 AAACGCTTGTTGGATGCTGGTGCTGATGCTAACGCCCGAGACAACATGGG   5657
+
+Homo_sapiens    5730 CCGCTGTCCACTCCATGCTGCAGTGGCAGCTGATGCCCAAGGTGTCTTCC   5779
+                     ..|...|||.||.|||||.||.||||||||||||||.||.||||||||||
+Gavialis_gang   5658 GAGGACTCCTCTTCATGCAGCTGTGGCAGCTGATGCACAGGGTGTCTTCC   5707
+
+Homo_sapiens    5780 AGATTCTGATTCGCAACCGAGTAACTGATCTAGATGCCAGGATGAATGAT   5829
+                     ||||..||||.||.|||.|||||||.||.||.|||||..|.|||||||||
+Gavialis_gang   5708 AGATCTTGATCCGGAACAGAGTAACAGACCTGGATGCTCGCATGAATGAT   5757
+
+Homo_sapiens    5830 GGTACTACACCCCTGATCCTGGCTGCCCGCCTGGCTGTGGAGGGAATGGT   5879
+                     ||.||.||.||..|.||.|||||.||.||..|||||||||||||||||||
+Gavialis_gang   5758 GGAACAACCCCGTTAATTCTGGCAGCTCGTTTGGCTGTGGAGGGAATGGT   5807
+
+Homo_sapiens    5880 GGCAGAACTGATCAACTGCCAAGCGGATGTGAATGCAGTGGATGACCATG   5929
+                     |||.||.||||||||||||||.||.|||||.||.||||||||||||||.|
+Gavialis_gang   5808 GGCTGAGCTGATCAACTGCCAGGCAGATGTCAACGCAGTGGATGACCACG   5857
+
+Homo_sapiens    5930 GAAAATCTGCTCTTCACTGGGCAGCTGCTGTCAATAATGTGGAGGCAACT   5979
+                     |.||||||||||||||.|||||.||.|||||.||.||||||||||||||.
+Gavialis_gang   5858 GTAAATCTGCTCTTCATTGGGCTGCAGCTGTTAACAATGTGGAGGCAACA   5907
+
+Homo_sapiens    5980 CTTTTGTTGTTGAAAAATGGGGCCAACCGAGACATGCAGGACAACAAGGA   6029
+                     .|..|||||.||||||||||.|||||||||||||||||||||||||||||
+Gavialis_gang   5908 TTAGTGTTGCTGAAAAATGGAGCCAACCGAGACATGCAGGACAACAAGGA   5957
+
+Homo_sapiens    6030 AGAGACACCTCTGTTTCTTGCTGCCCGGGAGGGGAGCTATGAAGCAGCCA   6079
+                     .||||||||.||.||.||.||.||.|||||.|||||.|.|||||||||.|
+Gavialis_gang   5958 GGAGACACCACTCTTCCTGGCAGCTCGGGAAGGGAGTTTTGAAGCAGCTA   6007
+
+Homo_sapiens    6080 AGATCCTGTTAGACCATTTTGCCAATCGAGACATCACAGACCATATGGAT   6129
+                     |.||.|||||.|||||||||||.|||||.||||||||||||||.|||||.
+Gavialis_gang   6008 AAATTCTGTTGGACCATTTTGCTAATCGGGACATCACAGACCACATGGAC   6057
+
+Homo_sapiens    6130 CGTCTTCCCCGGGATGTGGCTCGGGATCGCATGCACCATGACATTGTGCG   6179
+                     |||||.|||||.||||||||.|.|||.|||||||||||||||||.||||.
+Gavialis_gang   6058 CGTCTCCCCCGTGATGTGGCGCAGGACCGCATGCACCATGACATCGTGCA   6107
+
+Homo_sapiens    6180 CCTTCTGGATGAATACAATGTGACCCCAAGCCC---------TCCAGGCA   6220
+                     .|||||..||||.|||||||||.|||..|||||         .||.||||
+Gavialis_gang   6108 GCTTCTCAATGAGTACAATGTGGCCCACAGCCCATCTGGGCACCCTGGCA   6157
+
+Homo_sapiens    6221 CCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGGGCCCAACAGATCT   6270
+                     ||.||.|.|..|||||.|||||.||.||.||.|||||.|||||.|||||.
+Gavialis_gang   6158 CCATGCTAAACTCTGCCCTCTCCCCAGTGATTTGTGGCCCCAATAGATCC   6207
+
+Homo_sapiens    6271 TTCCTCAGCCTGAAGCACA-----CCCCAATGGGCAAGAAGTCTAGACGG   6315
+                     |||||||...||||  |||     |.|.||   ||||||||||.||....
+Gavialis_gang   6208 TTCCTCAATTTGAA--ACATGCTTCTCTAA---GCAAGAAGTCAAGGAAA   6252
+
+Homo_sapiens    6316 CCCAGTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTTGCCAAGGA   6365
+                     ||.|.|||||||.||...|||.|         |||.||.||||||||.||
+Gavialis_gang   6253 CCAAATGCCAAGGGTGTGATGGC---------CCCAAATCTTGCCAAAGA   6293
+
+Homo_sapiens    6366 GGCAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGTGAG---A   6412
+                     .||.|||            ||.||.||||||||.|||||||.||||   |
+Gavialis_gang   6294 AGCGAAG------------AGGAGAAGGAAGAAATCTCTGACTGAGAGCA   6331
+
+Homo_sapiens    6413 AGGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGATTCCCTA   6462
+                     |||..||..|.||||||||.|||||.||..|.||.||.||.||.|||||.
+Gavialis_gang   6332 AGGGTCAGTTTTCTGAGAGCTCAGTGACCCTCTCACCAGTCGACTCCCTG   6381
+
+Homo_sapiens    6463 GAATCTCCTCACACGTATGTTTCCGACAC-CACATCCTCTCCAATGATTA   6511
+                     ||||||||.|||.|.|.||..||.|| || .||.|||||.||..||||..
+Gavialis_gang   6382 GAATCTCCCCACGCTTTTGCATCTGA-ACAAACGTCCTCCCCTGTGATGC   6430
+
+Homo_sapiens    6512 CATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGC-CACTGC   6560
+                     |.|||||.|||||..|.||..|||||||||           || ||||| 
+Gavialis_gang   6431 CGTCCCCAGGGATTCTGCATTCCTCACCCA-----------GCTCACTG-   6468
+
+Homo_sapiens    6561 CGCCCCTCCTGCCCCAGTCCATGCCCAGCATGCAC------TATCTTTTT   6604
+                         |.|.|..||.|||||   |..|||..|||||      |.||.||.|
+Gavialis_gang   6469 ----CTTACGACCTCAGTC---GTGCAGGCTGCACACCCCATGTCCTTCT   6511
+
+Homo_sapiens    6605 CTAACCTTCATGAAATGCAGCCTTTGGCACATGGGGCCAGCACTGTGCTT   6654
+                     |.|..||.|||||.||||||||..|||..||.|||.|.|.|||.||||||
+Gavialis_gang   6512 CCAGTCTCCATGAGATGCAGCCACTGGGGCAGGGGTCTAACACCGTGCTT   6561
+
+Homo_sapiens    6655 CCCTCAGTGAGCCAGTTGCTATCCC--------ACCACCACATTGTGTCT   6696
+                     ||.||.||.||||||.||||.||||        ||||||.|       .|
+Gavialis_gang   6562 CCATCTGTCAGCCAGCTGCTTTCCCAGCACCGAACCACCCC-------TT   6604
+
+Homo_sapiens    6697 CCAGGCAGTGGCAGTGCTGGAAGCTTGAGTAGGCTCCATCCA-GTCCCAG   6745
+                     ||| |||.|||           ||||| ||||.|||||.||| ||..||.
+Gavialis_gang   6605 CCA-GCAATGG-----------GCTTG-GTAGACTCCAGCCAGGTAACAT   6641
+
+Homo_sapiens    6746 TCCCAGCAGATTGGATGAACCGCATGGAGGTGAATGAGACCCAGTACAAT   6795
+                     |.||| |.||.||||||||||.|||.||..|||||||..||||.||||||
+Gavialis_gang   6642 TTCCA-CCGAATGGATGAACCACATAGATATGAATGAATCCCAATACAAT   6690
+
+Homo_sapiens    6796 GAGATGTTTGGTATGGTCC------TGGCTCCA-GCTGAGGGCACCCATC   6838
+                     |||||||||||.|||.|||      |.| |||| |||         ||.|
+Gavialis_gang   6691 GAGATGTTTGGCATGATCCCACAGGTAG-TCCATGCT---------CACC   6730
+
+Homo_sapiens    6839 CTGGCATAGCTCCCCAG--AG-------CAGGCCACCTGAAGGGAAGCAC   6879
+                     |.|||   |..||.|||  ||       .||.|.|.|.||.|.||||||.
+Gavialis_gang   6731 CCGGC---GGCCCTCAGCAAGGAAGTCTGAGTCAAACAGATGTGAAGCAT   6777
+
+Homo_sapiens    6880 AT---AACCACCCCTCGGGAGCCCTTGCCCCCCATTGTGACTTTCCAGCT   6926
+                     .|   |..|.||   .|||||.|..|||||||.|||.|||||||||||||
+Gavialis_gang   6778 GTGGGAGTCTCC---AGGGAGACACTGCCCCCTATTATGACTTTCCAGCT   6824
+
+Homo_sapiens    6927 CATCCCTAAAGGCAGTATTGCCCAACCAGCGGG----GGCTCCCCAGCCT   6972
+                     ..|.||.|||.|..||||    .|||||||.||    |||.|..|||.|.
+Gavialis_gang   6825 GGTTCCCAAAAGTGGTAT----GAACCAGCAGGTCCTGGCGCAACAGGCC   6870
+
+Homo_sapiens    6973 CAGTCCACCTGCCCTCCAG-CTGTTGCGGGCCCCCT--GCCCACCATGTA   7019
+                     |||||||.||||||| ||| .|||.||.||.||.||  |..||  |||||
+Gavialis_gang   6871 CAGTCCAACTGCCCT-CAGAATGTAGCTGGTCCTCTTAGTTCA--ATGTA   6917
+
+Homo_sapiens    7020 CCAGAT---TCCAGAAATGGCCCGTTTGCCCAGTG--TGGCTTTCCCCAC   7064
+                     ||||||   .|||||..|.||.|...||||.||||  | .|||||||  .
+Gavialis_gang   6918 CCAGATAACACCAGATCTAGCTCAGCTGCCAAGTGCCT-CCTTTCCC--G   6964
+
+Homo_sapiens    7065 TGCCA-TGATGCCCCAGCAGGACGGGCAGGTAGCTCAGACCATTCTCCCA   7113
+                     ||.|| |.||.||.||||||||.||||||||.||||||||.||.||||||
+Gavialis_gang   6965 TGGCAGTAATTCCTCAGCAGGATGGGCAGGTCGCTCAGACAATCCTCCCA   7014
+
+Homo_sapiens    7114 GCCTATCATCCTTTCCCAG-CCTCTGTGGGCAAGTACCCCACACCCCCTT   7162
+                     |||||||| ||..|.|||| .|||..||||.|||||.|||||.||.||.|
+Gavialis_gang   7015 GCCTATCA-CCAGTTCCAGAGCTCAATGGGAAAGTATCCCACTCCGCCGT   7063
+
+Homo_sapiens    7163 CACAGCACAGTTA----TGCTTCCTCAAATGCTGCTGAGCGAACACCCAG   7208
+                     ||||||||||.||    | |||||||   |||..|.|||.|.||.|||||
+Gavialis_gang   7064 CACAGCACAGCTACACCT-CTTCCTC---TGCCACGGAGAGGACTCCCAG   7109
+
+Homo_sapiens    7209 TCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCAG   7258
+                     .||.|...|.|||.|.||.||.|||||.||.||.|||||.|||||.||.|
+Gavialis_gang   7110 CCATAACAGGCACTTGCAAGGGGAGCACCCGTATCTGACGCCATCTCCCG   7159
+
+Homo_sapiens    7259 AGTCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTGG   7308
+                     |.|||||.||.|||||||||||.||.||.||.||||||||.||.||.|||
+Gavialis_gang   7160 AATCTCCCGATCAGTGGTCAAGCTCCTCCCCGCACTCTGCCTCAGATTGG   7209
+
+Homo_sapiens    7309 TCAGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGAGGTC----   7354
+                     ||.||||||.|.||||||||.|.||.|||..||.|...|.|.||||    
+Gavialis_gang   7210 TCTGATGTGGCGACCAGCCCCAGCCATGGTAGTACCCAACGTGGTCCGGT   7259
+
+Homo_sapiens    7355 AGCGGGGACCTGGGACACACATGTCTGAGCCACCA-CACAACAACATGCA   7403
+                     ||||             |..|||||.||| ||.|| |..|||||||||||
+Gavialis_gang   7260 AGCG-------------CGAATGTCAGAG-CAGCAGCGGAACAACATGCA   7295
+
+Homo_sapiens    7404 GGTTTATGCG   7413
+                     |||.|||||.
+Gavialis_gang   7296 GGTATATGCA   7305
+
+
+#---------------------------------------
+#---------------------------------------

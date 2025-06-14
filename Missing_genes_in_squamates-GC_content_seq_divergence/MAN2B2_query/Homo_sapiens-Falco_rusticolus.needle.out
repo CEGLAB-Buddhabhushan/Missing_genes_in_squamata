@@ -1,0 +1,294 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 06:26:16
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Falco_rusticolus.fa
+#    -outfile Homo_sapiens-Falco_rusticolus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Falco_rusticolus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Falco_rusticolus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3241
+# Identity:    2046/3241 (63.1%)
+# Similarity:  2046/3241 (63.1%)
+# Gaps:         410/3241 (12.7%)
+# Score: 6124.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGGGCAGCTGTGCTGGCTGCCGCTGCTGGCACCGCTCCTGTTGCTGCG     50
+                                .||| |.|..|||||         |||||||.||||||.
+Falco_rustico      1 -----------ATGC-GTCCCCCGCT---------GCTCCTGCTGCTGCT     29
+
+Homo_sapiens      51 ACC--GCCAGGGGTC-------CAGTCC---GCCGGCCCCA--TCCGGGC     86
+                     .||  |||     ||       |||.||   |||||.||.|  |.|||||
+Falco_rustico     30 CCCCAGCC-----TCCTCCCGGCAGCCCGCGGCCGGGCCGAGCTGCGGGC     74
+
+Homo_sapiens      87 CTTCGTGGTGCCCCACAGCCACATGGACGTGGGCTGGGTCTACACTGTGC    136
+                     |||||||||..|||||||||||||||||||.||||||||.|||||.||||
+Falco_rustico     75 CTTCGTGGTCGCCCACAGCCACATGGACGTCGGCTGGGTTTACACGGTGC    124
+
+Homo_sapiens     137 AGGAAAGCATGCGGGCGTACGCCGCCAATGTCTACACCTCAGTGGTGGAA    186
+                     |||||||.||||..||.||.||.||.|||||||||||.||.||.||.|||
+Falco_rustico    125 AGGAAAGTATGCATGCTTATGCAGCAAATGTCTACACATCTGTTGTAGAA    174
+
+Homo_sapiens     187 GAGCTGGCCCGCGGCCAGCAGCGCCGGTTCATCGCTGTGGAGCAGGAGTT    236
+                     |||||..|....||...|||||||...||.||.||||||||||||||.||
+Falco_rustico    175 GAGCTAACAAAAGGAAGGCAGCGCAAATTTATTGCTGTGGAGCAGGAATT    224
+
+Homo_sapiens     237 TTTCCGGCTGTGGTGGGATGGCGTCGCCTCGGACCAGCAGAAATACCAGG    286
+                     .||.||.||.|||||||||...||.|||.||||...|||.||..|.||||
+Falco_rustico    225 CTTTCGACTCTGGTGGGATTCAGTAGCCACGGATATGCACAAGCAGCAGG    274
+
+Homo_sapiens     287 TCCGCCAGCTCCTGGAGGAAGGACGCCTGGAATTTGTCATCGGAGGCCAG    336
+                     |||...||.|.||..||||.||||..||||||||||||||.|||||.||.
+Falco_rustico    275 TCCATAAGTTGCTTCAGGAGGGACAACTGGAATTTGTCATTGGAGGGCAA    324
+
+Homo_sapiens     337 GTCATGCATGACGAGGCTGTGACGCACCTTGATGACCAGATCCTGCAGCT    386
+                     ||.||||||||.||.||.|||||.|..||||||||.|||||..|.|||.|
+Falco_rustico    325 GTGATGCATGATGAAGCCGTGACACTACTTGATGATCAGATTTTACAGTT    374
+
+Homo_sapiens     387 CACAGAAGGACACGGGTTTCTCTATGAAACATTTGGGATCCGGCCACAGT    436
+                     .||.|||||.||.||.|||.|.||||||||.|||||||||.||||.||||
+Falco_rustico    375 GACGGAAGGCCATGGATTTTTGTATGAAACTTTTGGGATCAGGCCTCAGT    424
+
+Homo_sapiens     437 TCTCCTGGCACGTTGACCCGTTTGGCGCCTCTGCCACGACGCCCACCCTA    486
+                     |.||.|||||.|||||.||.|||||.||.||.||.||.||..|.||..|.
+Falco_rustico    425 TTTCTTGGCATGTTGATCCTTTTGGAGCTTCAGCTACAACATCAACTGTT    474
+
+Homo_sapiens     487 TTTGCGCTGGCGGGCTTCAATGCCCACCTCGGCTCCCGGATCGACTACGA    536
+                     |||||.|||||.||.||.|||||.||.||....||.|||||.||.||.||
+Falco_rustico    475 TTTGCTCTGGCTGGTTTTAATGCTCATCTTATTTCTCGGATTGATTATGA    524
+
+Homo_sapiens     537 CCTGAAGGCAGCCATGCAGGAGGCCCGGGGGCTGCAGTTCGTGTGGCGAG    586
+                     .||||||||.|.|||||||.|...|..|..|||.||||||||.|||| ||
+Falco_rustico    525 TCTGAAGGCTGACATGCAGAAAAACAAGAAGCTTCAGTTCGTATGGC-AG    573
+
+Homo_sapiens     587 GG-TCCCCATCCCTCTCAGAGCGGCAGGAAATCTTCACGCACATCATGGA    635
+                     || ||.||.|||.|.||.||..|.|||||.||||||||.||..|.|||||
+Falco_rustico    574 GGCTCTCCTTCCTTATCTGAAAGACAGGAGATCTTCACCCATGTTATGGA    623
+
+Homo_sapiens     636 CCAGTACAGCTACTGCACCCCGTCCCACATCCCTTTCTCCAACAGGTCAG    685
+                     .||||||||.|||||||||||.||.|||||.|||||.||.||||||||||
+Falco_rustico    624 TCAGTACAGTTACTGCACCCCATCACACATACCTTTTTCAAACAGGTCAG    673
+
+Homo_sapiens     686 GATTTTACTGGAATGGCGTGGCTGTCTTCCCCA-AGCCTCCCCAAGATGG    734
+                     |||||||.||||||||..|.||.| |||.|||| |.||.||..|||||||
+Falco_rustico    674 GATTTTATTGGAATGGAATTGCAG-CTTTCCCAGATCCACCAAAAGATGG    722
+
+Homo_sapiens     735 GGTGTACCCCAACATGAGTGAGCCTGTCACCCCAG---CCAACATCAACC    781
+                     .||.||.||.|||||||||...|||||.|   |||   ||||||||.|.|
+Falco_rustico    723 TGTTTATCCAAACATGAGTCTCCCTGTTA---CAGATACCAACATCCATC    769
+
+Homo_sapiens     782 TCTATGCCGAGGCCCTGGTGGCCAACGTGAAGCAGAGGGCCGCCTGGTTC    831
+                     |.|||||..|..||.|||||||.|||.|.|||.||||.||.|||||||||
+Falco_rustico    770 TGTATGCACAAACCATGGTGGCAAACATTAAGGAGAGAGCAGCCTGGTTC    819
+
+Homo_sapiens     832 CGGACACCGCACGTCCTCTGGCCCTGGGGATGTGACAAGCAGTTCTTCAA    881
+                     |..|||....|..|..|.|||||.|||||.||||||||.||||||||.||
+Falco_rustico    820 CAAACAAGTGATATTTTGTGGCCATGGGGCTGTGACAAACAGTTCTTTAA    869
+
+Homo_sapiens     882 TGCCTCGGTGCAGTTTGCCAACATGGACCCGCTGCTGGACCACATCAACA    931
+                     |||.||.||.||||...||||||||||||.|.||.||||..|.||.||||
+Falco_rustico    870 TGCATCTGTTCAGTACTCCAACATGGACCTGTTGTTGGATTATATTAACA    919
+
+Homo_sapiens     932 GCCATGCTGCCGAGCTCGGTGTCTCGGTGCAGTATGCCACGCTGGGCGAC    981
+                     ..|||.||...|||.|.||.||..|.||.|||||||||||..|.||.||.
+Falco_rustico    920 AGCATTCTAGTGAGTTTGGAGTGACTGTCCAGTATGCCACAGTTGGTGAT    969
+
+Homo_sapiens     982 TACTTCCGTGCCCT-----GCACGCTCTCAATGTCACCTGGCGTGTCCGC   1026
+                     ||.|||...||..|     |||     ..|||.|.||.|||....|.||.
+Falco_rustico    970 TATTTCAAGGCAGTTTATAGCA-----GAAATCTTACATGGGAAATTCGG   1014
+
+Homo_sapiens    1027 GACCACCACGACTTCCTGCCCTATTCCACAGAACCATTCCAGGCCTGGAC   1076
+                     |||...||.|||||.||.||.|||||.|||||.|||||.||.||.|||||
+Falco_rustico   1015 GACTCTCAAGACTTTCTACCATATTCAACAGAGCCATTTCAAGCATGGAC   1064
+
+Homo_sapiens    1077 GGGCTTCTACACGTCCCGCAGCTCACTGAAGGGGCTGGCCCGGCGAGCCA   1126
+                     .||.||.||.||.|||||.|||.|..||||.||..|.||..||.||||.|
+Falco_rustico   1065 TGGGTTTTATACCTCCCGGAGCACCTTGAAAGGAATTGCAAGGAGAGCAA   1114
+
+Homo_sapiens    1127 GCGCCTTGTTGTATGCCGGGGAGTCCATGTTCACACGCTACCTGTGGCCG   1176
+                     |..|..||.|.|||||.||.||||||.|.|||||||..||    ||.||.
+Falco_rustico   1115 GTTCACTGCTTTATGCTGGAGAGTCCTTTTTCACACAGTA----TGTCCA   1160
+
+Homo_sapiens    1177 G---CCCCCCG-----------TGGGCATCTGGACCCCACCTGGGCCCTG   1212
+                     |   |.|||.|           ||...||.||.|          |||.|.
+Falco_rustico   1161 GAAACACCCAGCAAGTTCTATTTGCAAATGTGAA----------GCCTTA   1200
+
+Homo_sapiens    1213 CAGCAGCTCCAGCAG-CTTCGCTGGGCCGTCTCCGAGGTCCAGCACCATG   1261
+                     .||||.||.||| || |||.|.|||||.||.||.||||||||||||||||
+Falco_rustico   1201 AAGCAACTTCAG-AGCCTTAGATGGGCAGTTTCAGAGGTCCAGCACCATG   1249
+
+Homo_sapiens    1262 ATGCCATCACTGGGACTGAGTCCCCCAAGGTGAGAGACATGTACGCAACG   1311
+                     |||..||.||.||.||.|||||.||||||||||..|||||||||...|..
+Falco_rustico   1250 ATGGTATAACAGGCACAGAGTCTCCCAAGGTGAAGGACATGTACATGAAT   1299
+
+Homo_sapiens    1312 CACCTGGCCTCGGGGATGCTGGGCATGCGC---------AAGCTGATGGC   1352
+                     .||.|         ||||...||.|||..|         |||||.|||||
+Falco_rustico   1300 AACTT---------GATGTATGGAATGTTCAACGTAAAAAAGCTAATGGC   1340
+
+Homo_sapiens    1353 CTCCATCGTCCTAGATGAGCTCCAGCCCCAGGCACCCATG---------G   1393
+                     .|||||..||.|.||             ||.| |.|.|||         .
+Falco_rustico   1341 TTCCATAATCTTTGA-------------CATG-AACAATGCAAAGAAGAA   1376
+
+Homo_sapiens    1394 CGGCCAGCTC--------------CGATG---------------CAGGAC   1414
+                     |||..||.||              ||.||               ||||..
+Falco_rustico   1377 CGGAGAGGTCTATGCTTCTGTTTACGTTGAAGACTCAGGAATACCAGGTG   1426
+
+Homo_sapiens    1415 CTGCAG-----GAC----ATTTTGCCTCGGTCTACAACCCGCTGGCCTGG   1455
+                     ||.|||     |||    ||.|||   ..||.||.||.||.|||||.|||
+Falco_rustico   1427 CTACAGATGTTGACCAATATGTTG---TTGTTTATAATCCACTGGCATGG   1473
+
+Homo_sapiens    1456 ACGGTCACCACCATCGTCACCCTGACTGTTGGTTTCCCTGGAGTCCGCGT   1505
+                     |...||||.|||.|.|||||          ||||||     .|||.||  
+Falco_rustico   1474 AACATCACTACCTTTGTCAC----------GGTTTC-----TGTCAGC--   1506
+
+Homo_sapiens    1506 CACA-----------------GATGAGGCGGGCCACCCAGTGCCCTCGCA   1538
+                     ||||                 |||||...|||.||..|.||.||..|.||
+Falco_rustico   1507 CACACGGCAATGACTGTATATGATGAACTGGGACATTCTGTACCAGCACA   1556
+
+Homo_sapiens    1539 GATCCAGAACTCAACAGAGACCCCATCTGCGTATGACCTGCTTATTCTGA   1588
+                     |.|.||.|.|||....|.|.|||..|||.|||||||.|||..||||||  
+Falco_rustico   1557 GGTTCAAAGCTCGGTGGGGTCCCATTCTACGTATGATCTGTATATTCT--   1604
+
+Homo_sapiens    1589 CCACAATCCCA------GGCCTCAGTTACCGGCACTACAACATCAGACCC   1632
+                         |.|..||      ||.||.||.|||.|..|.|||||..|.||||||
+Falco_rustico   1605 ----AGTTGCAGTAAGTGGTCTGAGCTACAGAAAATACAATGTTAGACCC   1650
+
+Homo_sapiens    1633 ACTGCAGGGGCCCAAGAGGGCACCCAGGAGCCGGCTGCCACTGTGGCGAG   1682
+                      .||.|.||                 ..|||.|.||||...|.|.| ||.
+Falco_rustico   1651 -TTGAATGG-----------------TAAGCAGTCTGCATTTATTG-GAA   1681
+
+Homo_sapiens    1683 CACCCTTCAATTTGGCCGCAGGCTGAGGAGACGCACC-----------AG   1721
+                     .|.|..||||.|     .||.|| ||..||||..|.|           |.
+Falco_rustico   1682 GATCAGTCAAGT-----ACAAGC-GAAAAGACATAACTCGTTCAAATAAA   1725
+
+Homo_sapiens    1722 CCATGCGGGCAGGTACTTGGTGCCTGTGGCAAACGACTGCTACATTGTGC   1771
+                     |.|.|..|.|||    |||.|.|||||||..|||.||||||||...||..
+Falco_rustico   1726 CAAAGTCGACAG----TTGCTTCCTGTGGTTAACAACTGCTACCAGGTCT   1771
+
+Homo_sapiens    1772 TGCTCGACCAGGATACCAACCTGATGCACAGCATCTGGGAGAGACAGAGT   1821
+                     ||.|.|||||..|.||.||.||.|||||.|||||....|||||..|||.|
+Falco_rustico   1772 TGTTTGACCAAAACACGAATCTAATGCAGAGCATTACAGAGAGGGAGACT   1821
+
+Homo_sapiens    1822 AACCGAACGGTGCGCGTGACCCAGGAATTCCTGGAGTACCACGTCAACGG   1871
+                     ||||..||.||.|...||||.|||||.|||||.||||||||.||.||.||
+Falco_rustico   1822 AACCAGACTGTCCAGTTGACTCAGGAGTTCCTTGAGTACCATGTGAATGG   1871
+
+Homo_sapiens    1872 GGATGTGAAACAGGGCCCCATTTCCGATAACTACCTGTTCACACCGGGCA   1921
+                     .|||||||...|.||.||||||||.|||||||||.|.||..|.||   .|
+Falco_rustico   1872 AGATGTGATGAAAGGACCCATTTCAGATAACTACTTATTTGCCCC---AA   1918
+
+Homo_sapiens    1922 AGG---CCGCGGTGCCTGCGTGGGAAGCTGTGGAAATGGAGATTGTGGCG   1968
+                     |.|   |.||.||.||.|..|...||||.||||.|.||||.||.||..|.
+Falco_rustico   1919 ATGCTTCAGCTGTTCCAGTATCACAAGCAGTGGGATTGGAAATAGTTTCT   1968
+
+Homo_sapiens    1969 GGACAGCTTG-TGACTGAGATCCGGCAGTACTTCTACAGGAACATGACAG   2017
+                     ||| |.|||| ||||.|||||.||||||||.||||||||.||..|.||..
+Falco_rustico   1969 GGA-AACTTGATGACAGAGATACGGCAGTATTTCTACAGTAATGTTACTT   2017
+
+Homo_sapiens    2018 CACAGAATTACACGTATGCA----ATCCGCTCCCGGCT-----CACCCAT   2058
+                     |.|||.||||||..||||||    ||    .||.||.|     ||     
+Falco_rustico   2018 CTCAGGATTACATATATGCAGTGTAT----ACCAGGATGTATACA-----   2058
+
+Homo_sapiens    2059 GTGCCGCAGGGCCATGACGGGGAGCTGCTCTGCCACCGGATAGAGCAGGA   2108
+                     ||.||..|.|||.||||.||..||.||||.|||||..||||||||||.||
+Falco_rustico   2059 GTACCAGAAGGCTATGATGGAAAGTTGCTTTGCCATAGGATAGAGCAAGA   2108
+
+Homo_sapiens    2109 GTACCAAGCCGGCCCCCTGGAGCTGAACCGTGAGGCTGTCCTGAGGACCA   2158
+                     .|||...||.||.||..||||..|.||.|||||.||.||.||.||.||.|
+Falco_rustico   2109 ATACAGCGCTGGGCCTTTGGAATTAAATCGTGAAGCAGTTCTAAGAACGA   2158
+
+Homo_sapiens    2159 GCACCAACCTAAACAGCCAGCAGGTCATCTACTCAGACAACAACGGCTAC   2208
+                     ||||.||..|.||||.|.|||||.|..|||||.|.||||.|||.||.||.
+Falco_rustico   2159 GCACGAATTTGAACACCAAGCAGCTACTCTACACTGACAGCAATGGATAT   2208
+
+Homo_sapiens    2209 CAGATGCAGCGGAGGCCCTACGTTTCCTATGTGAACAACAGCA-TCGCCC   2257
+                     |||||.|||...||.||.|.|....|.||||||||.|||| || |.||.|
+Falco_rustico   2209 CAGATCCAGAAAAGACCATTCAAGGCATATGTGAATAACA-CAGTGGCTC   2257
+
+Homo_sapiens    2258 GGAATTACTACCCCATGGTTCAGTCGGCCTTCATGGAGGATGGCAAAAGC   2307
+                     ||||.||.||.||.|||||.|||.|.||||.|||.||.||||..|..|..
+Falco_rustico   2258 GGAACTATTATCCTATGGTCCAGACTGCCTACATTGAAGATGATACCACA   2307
+
+Homo_sapiens    2308 AGGCTTGTGTTGCTGTCGGAGCGGGCACATGGCATCTCCAGCCAAGGGAA   2357
+                     |||||.||..||||..|.|||.|.||.|||||..||||.||.|||||.||
+Falco_rustico   2308 AGGCTGGTACTGCTTGCAGAGAGAGCTCATGGTGTCTCAAGTCAAGGAAA   2357
+
+Homo_sapiens    2358 TGGGCAGGTGGAGGTCATGCTCCACCGGCGGCTGTGGAACAA-CTTCGAC   2406
+                     |||.||.||||||||.|||||.|||.||.|.||.|||||||| |||| |.
+Falco_rustico   2358 TGGACAAGTGGAGGTGATGCTTCACAGGAGACTATGGAACAACCTTC-AG   2406
+
+Homo_sapiens    2407 TGGGACCTGGGCTACAACCTCACGCTGAACGACACCTCAGTCGTCCACCC   2456
+                     |||||||||...|||||.|||||..||||.||..|.|||||.||.|.|||
+Falco_rustico   2407 TGGGACCTGAATTACAATCTCACTTTGAATGATTCTTCAGTTGTTCGCCC   2456
+
+Homo_sapiens    2457 AGTGCTCTGGCTTCTGCTGGGATCCTGGTCCCTCACCACTGCCCTGCGCC   2506
+                     .|||.|.||||||.|..|.|||.||..|.|.|||||||.|....||...|
+Falco_rustico   2457 TGTGATTTGGCTTATTTTAGGAACCAAGGCTCTCACCAATATTTTGTATC   2506
+
+Homo_sapiens    2507 AGAGGAGCGCACTGGCGCTGCAGCACAGGCCCGTGGTGCTGTTCGGAGAC   2556
+                     .||..||.|.||||||..|..|.||||||||.||.|...||||.||||..
+Falco_rustico   2507 GGACAAGTGGACTGGCATTAGAACACAGGCCAGTAGCAATGTTTGGAGCA   2556
+
+Homo_sapiens    2557 CTCGCTGG-GACTGCGCCGAAGCT-CCCAGGACCCCAGCAGCAA--GAGG   2602
+                     .|..|.|| || |...||.||||| .||| |||..|..||| ||  .||.
+Falco_rustico   2557 TTATCAGGAGA-TAAACCAAAGCTATCCA-GACAACTTCAG-AATTCAGT   2603
+
+Homo_sapiens    2603 CC-----------GTGACGCTGCCCCCGAATCTTCACCTGCAGATCCTGA   2641
+                     ||           ||.||..|.||.||.||||||||.||.||.|..||||
+Falco_rustico   2604 CCACGGTTCACCTGTAACTGTCCCACCTAATCTTCATCTCCAAACTCTGA   2653
+
+Homo_sapiens    2642 GCATCCCTGGCTGGCGCTACAGCTCCAACCACACGGAGCA---CTCTCAG   2688
+                     ||||.||.||.|||.|.||||||||.||.||..|.||.||   | |.|||
+Falco_rustico   2654 GCATTCCAGGGTGGAGGTACAGCTCTAATCATGCAGAACAGGTC-CACAG   2702
+
+Homo_sapiens    2689 AATCTCCGGAAAGGCCATCGAGGG------GAAGCCCAG-----GCTGAC   2727
+                     .|  ||||       |||   |||      |||| |.||     ||.|||
+Falco_rustico   2703 CA--TCCG-------CAT---GGGTAAACAGAAG-CAAGGTGACGCAGAC   2739
+
+Homo_sapiens    2728 CTCCGCCGTGTCCTGCTGCGGCTCTA-CCACCTATATGAAGTGGGCGAGG   2776
+                     .||.|.|||||||||.|..|..| || .||..|.||||||||.||.||||
+Falco_rustico   2740 TTCAGTCGTGTCCTGATAAGAAT-TAGGCATTTGTATGAAGTTGGAGAGG   2788
+
+Homo_sapiens    2777 ACCCAGTCCTGTCTCAGCCAGTGACAGTGAATCTGGAGGCTGTGCTGCAG   2826
+                     |.||.||.|||||||||||.||||..||.|||.||.||.||.||||..||
+Falco_rustico   2789 ATCCTGTGCTGTCTCAGCCCGTGATGGTAAATTTGAAGTCTTTGCTAAAG   2838
+
+Homo_sapiens    2827 GCGCTGGGGTCCGTGGTGGCAGTGGAGGAGCGCTCGCTCACAGGGACCTG   2876
+                     |...|.||.||.|||.||||||||||.|||.|.||.||||||||.||.||
+Falco_rustico   2839 GGATTAGGATCAGTGATGGCAGTGGAAGAGAGATCACTCACAGGCACGTG   2888
+
+Homo_sapiens    2877 GGATTTGAGCATGCTGCACCGCTGGAGCTGGAGGACGG------------   2914
+                     ||||.|.|.||...||.|.||.||||..||||.|||.|            
+Falco_rustico   2889 GGATGTAAACACTATGAAGCGGTGGAAATGGAAGACTGAACAATATCCAA   2938
+
+Homo_sapiens    2915 -----GG-------------CCTGGCCGCCACAGAGGTGACACCACCTCT   2946
+                          ||             ||..||.| ||||||        |||||| 
+Falco_rustico   2939 GCAAAGGAAGCAAAGGATTCCCCAGCAG-CACAGA--------CACCTC-   2978
+
+Homo_sapiens    2947 CCCTCGAGGCCAC----CAGGAGGCCCCATCATCACCGTCCACCCAAAGG   2992
+                           ||...||    |||            |.||.||.||||||||||
+Falco_rustico   2979 ------AGAAAACTGTACAG------------TAACTGTTCACCCAAAGG   3010
+
+Homo_sapiens    2993 AAATCCGGACGTTCTTTATTCACTTTCA------ACAGCAG   3027
+                     ||||..||||.||||||.|..|.|||||      |      
+Falco_rustico   3011 AAATAAGGACTTTCTTTGTATATTTTCATGGTCGA------   3045
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,818 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:37:23
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Falco_biarmicus.fa
+#    -outfile Homo_sapiens-Falco_biarmicus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Falco_biarmicus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Falco_biarmicus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9777
+# Identity:    7180/9777 (73.4%)
+# Similarity:  7180/9777 (73.4%)
+# Gaps:         546/9777 ( 5.6%)
+# Score: 25732.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                     |||||       ||..|||||       |..|||||||            
+Falco_biarmic      1 ATGCA-------GGCTCTCCC-------CGCCGCGCCG------------     24
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGACCGCCACCGCCGCCCCGGCT-GCTGCTGCTG     99
+                                        |.||..|.|||| .|||||| ||||||||||
+Falco_biarmic     25 -------------------CGGCGGCTGCCG-GCCGGCTGGCTGCTGCTG     54
+
+Homo_sapiens     100 --CTGCTGCTTCT-CCTGTCACTGGTAAGCCGCGTCCCGGCACAGCCCGC    146
+                       |.|||||.||| .|||          |..|||  ||||   || ||||
+Falco_biarmic     55 GCCGGCTGCCTCTGGCTG----------GGGGCG--CCGG---AG-CCGC     88
+
+Homo_sapiens     147 TGCCTTCGGCAGG--GCGTTGCTGTCCCCTGGTCTCGCGGGGGCTGCAGG    194
+                           |||||||  |||..||.|||.|||.|  .||.|||.||.|.|||
+Falco_biarmic     89 ------CGGCAGGCAGCGGCGCGGTCTCCTCG--CCGTGGGCGCCGGAGG    130
+
+Homo_sapiens     195 GGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGGGTGC    244
+                     .|.||           |||.|.|||.||||.||||||||.||.|||||||
+Falco_biarmic    131 CGGCC-----------GCCGTGGTGGTGGCCAACCGCGGGCTACGGGTGC    169
+
+Homo_sapiens     245 CTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTTGCAG    294
+                     |..|.|||||....|.|||||||||.|||..||..|||||||||.|||||
+Falco_biarmic    170 CCCTGGGCCGCTCCGCCTGGCTGGACCCCGCGCGGGACCTGGTGCTGCAG    219
+
+Homo_sapiens     295 GTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACGCACT    344
+                     ||||||||.||.|||||.|||....|..|.||.||.|||.|.|||.|.||
+Falco_biarmic    220 GTGCAGCCAGGTGACCGGTGCCACCTCACCGTGCTGGACGAGGACCCGCT    269
+
+Homo_sapiens     345 GGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGACTT--    392
+                     |...|||||.||||||||||||||.|||..|||||||||.||||||||  
+Falco_biarmic    270 GTGGCAGCGGCCGGGCCGCCTGAGCCCCCGGCGCTTCCCCTGCGACTTCG    319
+
+Homo_sapiens     393 TGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTCTC    442
+                     .|||||  |||||||||..|||.|.||||||||||..||||||||..|.|
+Falco_biarmic    320 GGGCCC--GCGAGGTGCAGTACGCCCACCTGGGCGGCCGCAGCCCCGCGC    367
+
+Homo_sapiens     443 GGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAG--GGGCAG    490
+                     |||||||||||||.||||||||||||||.|||.||||  |||  |.||..
+Falco_biarmic    368 GGGACCGCGTCCGCCTGCAGCTGCGCTACGACTCGCC--GAGCCGCGCCC    415
+
+Homo_sapiens     491 TAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAG    540
+                     |.|||||.||.|||||.|||||||||||||||.|||||||||||||||||
+Falco_biarmic    416 TGGTGCTGCCCCTGGTGCTGGAGGTGGAGGTGCTCTTCACCCAGCTGGAG    465
+
+Homo_sapiens     541 GTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAG-CTGCTGGGGACCA    589
+                     .|.||.||.||.|||.||||.||...||||| ||.| ||||.|||.||||
+Falco_biarmic    466 ATCGTCACCCGCAACCTGCCCCTCACCGTGG-AGCGCCTGCGGGGCACCA    514
+
+Homo_sapiens     590 GCAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCG--AGA    637
+                     ||||..|.||||||||.||.||||||||||||||||||.||||.|  .|.
+Falco_biarmic    515 GCAACCCGCTGGACGCCCGCAGCCTGGAGTTCGCCTTCGAGCCGGGCCGG    564
+
+Homo_sapiens     638 CAGAGGAGTGCCGCGTGGGCATCCTGTCCG--GCTTGGGCGCGCTGCCTC    685
+                     |||.|  .|||||.|||||..|.||| |||  || |||.||.||||||.|
+Falco_biarmic    565 CAGCG--CTGCCGGGTGGGGCTGCTG-CCGCCGC-TGGCCGGGCTGCCCC    610
+
+Homo_sapiens     686 GCTATGGAGAACTCCTCCACTAC------------------------CCG    711
+                     ||||.|||||..|||||.|||||                        |||
+Falco_biarmic    611 GCTACGGAGAGATCCTCAACTACCCAGCCGCGGCGGCCGCGGCGACGCCG    660
+
+Homo_sapiens     712 CAGGTCCC---TGGAGGAGCCAGAGAGGGAGGCGCCCCGGAG---ACTCT    755
+                     |.||.|.|   ||| ||||.|  .|.|||.||||.|||||.|   || ||
+Falco_biarmic    661 CCGGCCGCGGGTGG-GGAGGC--GGCGGGGGGCGGCCCGGTGCCCAC-CT    706
+
+Homo_sapiens     756 CC-TGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTATCGCCAC    804
+                     || ||..|||||||.|.|..||||.|...||.||..|||||||.||.|||
+Falco_biarmic    707 CCATGTGGGACTGCGAGGAGTTCCTGCGCCTGGGGCTGCGCTACCGGCAC    756
+
+Homo_sapiens     805 ACAGCCGCCAGTCGCTCACCAAACAGGGA-CTGGATACCCATGGTGGTGG    853
+                     ||.||.|||.|..||||.||.|||.|.|| |||| |.||..||||||.||
+Falco_biarmic    757 ACGGCGGCCGGCGGCTCCCCCAACCGCGACCTGG-TGCCGCTGGTGGCGG    805
+
+Homo_sapiens     854 AGCTGCGTTCACGAGG-GGCTCCTGTGGGC-----AGCCCTGCTTTGAAA    897
+                     |||||||    .|||| |||      ||||     .||.||||  ||||.
+Falco_biarmic    806 AGCTGCG----GGAGGCGGC------GGGCGGCGGGGCGCTGC--TGAAG    843
+
+Homo_sapiens     898 CGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAACAC    947
+                     ||||||.||||||||||.||||||.|.|||||.|..|||.|.||||||..
+Falco_biarmic    844 CGCGAGTACTTCCAGGTGCTGGTGCGTATCCGGGCCGGGACTGAGAACGT    893
+
+Homo_sapiens     948 TGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGT    997
+                     .||.|||||.|||||.|||.|.||||||.|||||||||||||||||||||
+Falco_biarmic    894 GGCCCCCAAACCCAGCTTCCTTGCCATGCTGATGATGGAGGTGGACCAGT    943
+
+Homo_sapiens     998 TTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTGAG   1047
+                     ||||.||.||.|||||.||.||.|||||||||.||||.||||||||.|||
+Falco_biarmic    944 TTGTCCTCACCGCCCTCACGCCCGACATGCTGTCAGCTGAGGATGCCGAG    993
+
+Homo_sapiens    1048 TCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCTGG   1097
+                     ||.||..|.||||||.||.||||||||.|.||.|||||.||....||.||
+Falco_biarmic    994 TCACCGCCGGACCTGCTGCTCTTCAACATCACCTCTCCCTTTGGCCCCGG   1043
+
+Homo_sapiens    1098 CCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTCCTCCT   1147
+                     .||||||.||.||||.|||||.||.||.||.|||.||||..|.|||||||
+Falco_biarmic   1044 TCAGGGCCACATGGTCAGCACAGACGACCGGAGCTTGCCTGTCTCCTCCT   1093
+
+Homo_sapiens    1148 TCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCCCTTCT   1197
+                     |||..|||.||||..||.||...|||...||.|||||||||||.||..|.
+Falco_biarmic   1094 TCAGCCAGCGGGACGTGAGGGAGCTGCGCATCGCCTACCAGCCACCCACG   1143
+
+Homo_sapiens    1198 GAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAGTGGA   1247
+                     ||||||||.||.|.||||||.||||||||.||.||..||||||||.||||
+Falco_biarmic   1144 GAAGACTCAGATCGGGAGCGGCTCTTTGAGCTCGAGCTGGAGGTACTGGA   1193
+
+Homo_sapiens    1248 TCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTGAAGC   1297
+                     ||..||.||.||.||.|||||.|||||.|||||..||.|.||||||||||
+Falco_biarmic   1194 TCCGGAGGGTGCTGCCTCAGAGCCTTTCGCCTTTGTGATTGTGGTGAAGC   1243
+
+Homo_sapiens    1298 CCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTATTCTC   1347
+                     ||||||||||..||||.||.|||||.|||||.||.||.||.|||.|.|||
+Falco_biarmic   1244 CCATGAACACCCTGGCACCTGTGGTGACCCGCAACACGGGCCTTGTGCTC   1293
+
+Homo_sapiens    1348 TATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGTCCGCA   1397
+                     ||.|||||.|||||.|||||.|||.|||||||         .||||| ||
+Falco_biarmic   1294 TACGAGGGGCAGTCACGGCCTCTCTCAGGCCC---------GGGTCC-CA   1333
+
+Homo_sapiens    1398 ----AAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCA-GTGCGGCT   1442
+                         .|||.||||.|||||.||.|||||||||||.||| || ||||||.|
+Falco_biarmic   1334 GCCCCAACCTGGTGATCAGTGACGAGGATGACCTTGAA-CAGGTGCGGGT   1382
+
+Homo_sapiens    1443 AGAG-GTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGCT   1491
+                      ||| ||||||||.|||||..|.||.||.||||   |||.|||     |.
+Falco_biarmic   1383 -GAGTGTGGTGGCAGGGCTGAGACACGGCCACC---TCACTCT-----CC   1423
+
+Homo_sapiens    1492 TCCAGTGGCA-------GCTCTGCTCCC-------AAGAGCTTTACAGTG   1527
+                     |.||| |.||       || |||||.||       ||.| |||.||||||
+Falco_biarmic   1424 TGCAG-GACACCCCTGTGC-CTGCTGCCCCTCGTAAACA-CTTCACAGTG   1470
+
+Homo_sapiens    1528 GCTGAGCTGGCAGCCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGG   1577
+                     ||||||||||||||.||||.|||..|.|||||||||||.|.|||.|| |.
+Falco_biarmic   1471 GCTGAGCTGGCAGCAGGCCTGGTCATTTACCAGCATGACGGCAGCGA-GT   1519
+
+Homo_sapiens    1578 CT-CGCTGAGCGACAACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGG   1626
+                     || |.||.||.||||||||||||||.||..|||..|||||.||.....|.
+Falco_biarmic   1520 CTCCACTCAGTGACAACCTGGTGCTGCGGCTGGAAGATGGTGGCTCTCGC   1569
+
+Homo_sapiens    1627 CACCAGGTACAGTTTCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCA   1676
+                     ||||..||..||||.||.||||||||.|||.|.|||||....||||||||
+Falco_biarmic   1570 CACCGTGTTGAGTTCCTTTTCCCCATTACCCTGGTGCCCACCGATGACCA   1619
+
+Homo_sapiens    1677 GCCACCTGTTCTCAATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAA   1726
+                     ||||||..|.||||||||.|||||.||||||.|..||||.||||||||||
+Falco_biarmic   1620 GCCACCCCTACTCAATGCTAACACAGGGCTGGCCATGGCTGAGGGTGAAA   1669
+
+Homo_sapiens    1727 CAGTGCCCATCCTGCCCCTTTCCCTGAGTGCAACTGACATGGATTCAGAT   1776
+                     |||||||||||....|||.|.|.||.||.||.||||||||.||.||..|.
+Falco_biarmic   1670 CAGTGCCCATCACCACCCGTGCTCTTAGCGCCACTGACATTGACTCGCAG   1719
+
+Homo_sapiens    1777 GATTCTCTGCTGCTTTTTGTGC----TGGAGTC---ACCCTTCTTAACTA   1819
+                     |||.|..|.|||||.||    |    |||||||   .|||      |||.
+Falco_biarmic   1720 GATGCCATCCTGCTCTT----CACAGTGGAGTCTGGCCCC------ACTG   1759
+
+Homo_sapiens    1820 CGGGGCATCTGCTTCTCCGCCAAACTCACCCTCCCC---------ATGAG   1860
+                     |.|||||.||.||.|||||.|||.|.||.||.||.|         |.|||
+Falco_biarmic   1760 CTGGGCAGCTCCTCCTCCGTCAAGCACAGCCACCTCCTGGCTGGGAGGAG   1809
+
+Homo_sapiens    1861 AAGCAGGAACTTCTCAGAGGCCT----TTGGAGGA-------------AG   1893
+                     .||.|||||..|    |||||||    ||||||||             ||
+Falco_biarmic   1810 GAGGAGGAAGAT----GAGGCCTTTTCTTGGAGGAGGGTGCAAGGTTTAG   1855
+
+Homo_sapiens    1894 GAGGGGGC-----ATTTTATGAGCGAA---CAGTGACAGAGTGGCAGCAG   1935
+                     .||||.||     |.|.|||||   ||   ||||.|.||||||||.||||
+Falco_biarmic   1856 CAGGGAGCTCCCTAATCTATGA---AAAGCCAGTAAGAGAGTGGCTGCAG   1902
+
+Homo_sapiens    1936 CAGGACATAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAG   1985
+                     ||||||||....|||||..|.||.||.||....||||.||||||.||.||
+Falco_biarmic   1903 CAGGACATTGTGGAGGGGCGTCTCTTTTACCACCACTTTGGGCCTCACAG   1952
+
+Homo_sapiens    1986 TCCTGGGCC------AGTCACAGACCAGTTCACATTTAGAGTCCAGGATA   2029
+                     .|||||.||      .||...||||||.||||..|||||||||||||||.
+Falco_biarmic   1953 CCCTGGCCCTGGGGTTGTGTTAGACCAATTCATCTTTAGAGTCCAGGATG   2002
+
+Homo_sapiens    2030 ACCATGACCCTCCTAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATC   2079
+                     ||.|||||||.||.||.|..||.||||.||||...|||||.|||||..|.
+Falco_biarmic   2003 ACAATGACCCACCCAACCGCTCTGGGCCACAGACTTTTGTAATTCGAGTA   2052
+
+Homo_sapiens    2080 CATCCTGT-----GGATCGCCTCCCTCCGGAGCTGGGCAGTGGCTG----   2120
+                     |||||..|     ||.|.|||     ||.||||||..|||||||.|    
+Falco_biarmic   2053 CATCCCATAGACAGGTTAGCC-----CCAGAGCTGCACAGTGGCAGCAGC   2097
+
+Homo_sapiens    2121 -TCCCCTTCGTATGGTGGTACAGGAATCCCAGCTCACACCACTGAGGAAG   2169
+                      |.|.|||  .||.||.|.|.||.|   .|||.|.||.||||||.|||.|
+Falco_biarmic   2098 CTGCACTT--AATAGTTGCAGAGCA---GCAGGTGACCCCACTGCGGAGG   2142
+
+Homo_sapiens    2170 AAGTGGCTGCGCTACACTGACCTGGACACAGATGACCGAGAACTACGTTA   2219
+                     |||....|..|.|||||.||.|.|||..|||..|||||.|||||.||.||
+Falco_biarmic   2143 AAGCACTTATGTTACACAGATCAGGATTCAGGGGACCGTGAACTTCGCTA   2192
+
+Homo_sapiens    2220 CACAGTGACTCAGCCCCCCACAGACACAGACGAAAATCACCTGCCA----   2265
+                     |||..|.||.|||||||||||.|||||.|||...||.||||..|||    
+Falco_biarmic   2193 CACGATAACCCAGCCCCCCACTGACACTGACACTAACCACCCTCCAGATG   2242
+
+Homo_sapiens    2266 --------GCCCCACTGGG-TACCTTGGTCTTGACTGACAACCCCTCAGT   2306
+                             ||||..||||| |.|||| ||..|||||||..|.|.|||.||
+Falco_biarmic   2243 TATATGGTGCCCGCCTGGGATCCCTT-GTGCTGACTGAGGATCACTCTGT   2291
+
+Homo_sapiens    2307 CGTGGTGACCCATTTTACCCAAGCCCAGATCAACCATCATAAAATTGCTT   2356
+                     .|..||.|||||.||.|||||||||||||||||.|||||.||.||..|.|
+Falco_biarmic   2292 GGAAGTTACCCACTTCACCCAAGCCCAGATCAATCATCACAAGATCTCGT   2341
+
+Homo_sapiens    2357 ACAGACCCCCG--GGTCAAGAACTGGGCGTGGCTACTC----GAGTGGCC   2400
+                     ||.|.||.|||  ||  ||||||||||.||||||.|||    ||.|    
+Falco_biarmic   2342 ACCGTCCTCCGCAGG--AAGAACTGGGGGTGGCTCCTCATTTGATT----   2385
+
+Homo_sapiens    2401 CAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTGGCTCCAGGTAC   2450
+                     |||||.||||..||.|||.||||...||||||.||||..|||..|||.||
+Falco_biarmic   2386 CAGTTTCAGTATCAAGTGCAAGATGCAGCTGGCAATGCAGCTGAAGGGAC   2435
+
+Homo_sapiens    2451 CTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCTGAGATC-CTC   2499
+                     .||.|||.|.|||.||||.||.|||||.||||||||.|||||.||| || 
+Falco_biarmic   2436 TTTCACCATCTACCTGCAACCTGTGGATAACCAGCCTCCTGAAATCACT-   2484
+
+Homo_sapiens    2500 AACACCGGCTTCACTATTCAGGAGAAGG-GTCA-CCACATCCTGAGTGAG   2547
+                     |||||.|||||||||.|.|..|||  || |.|| |||..|.||.|||...
+Falco_biarmic   2485 AACACTGGCTTCACTTTGCCTGAG--GGAGGCAGCCATGTTCTTAGTCCA   2532
+
+Homo_sapiens    2548 ACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATATCTCTTT   2597
+                     ||.|||.||.|.|..|.|||....||||||||..||||||||.||...||
+Falco_biarmic   2533 ACTGAGCTGGATGCCACTGACACGGACACTGAACTTGCCCATCTCAGATT   2582
+
+Homo_sapiens    2598 CACTCTCACTCAGGCACCCAAACATGGCCACATG-AGAGTGTCTGG--AC   2644
+                     .|..||.||.|||||.||.....|||||||..|| || .|.|||||  ||
+Falco_biarmic   2583 TATCCTGACCCAGGCTCCTCGGTATGGCCAGTTGCAG-CTTTCTGGGTAC   2631
+
+Homo_sapiens    2645 AGATCCTGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAACAGGGC   2694
+                     ||.|  ||..|..|||.|||.||||...|.|||||||.||.|.|||.||.
+Falco_biarmic   2632 AGTT--TGATTCCAGGAGGTGTCTTTGGCCTGGAGGATATCAGACAAGGG   2679
+
+Homo_sapiens    2695 CGAGTTTCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAGCTGC-T   2743
+                     .|.||....||||..||.|.|||.|...||.||...|.|||||.|||| .
+Falco_biarmic   2680 AGGGTGGTGTATGTGCACAGTGGAGCTGAGACCAACAGTGATACCTGCAA   2729
+
+Homo_sapiens    2744 CCTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAGAGTA   2793
+                     .||| ||.||.|.|||..|...||||.|.|||||.|||||.||.|.|.|.
+Falco_biarmic   2730 GCTT-GATGTGACTGATGGTGTTCATTTTGTGCCAATCACACTGAAAATG   2778
+
+Homo_sapiens    2794 AATGTCCGGCCAGTGGATGATGAAGTGCCCATACTGA-----GCCATCCT   2838
+                     |||||.|..|||||.||||||||.||.||.|.||| |     |||  || 
+Falco_biarmic   2779 AATGTGCACCCAGTTGATGATGAGGTTCCTACACT-ACGGTTGCC--CC-   2824
+
+Homo_sapiens    2839 ACTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGA   2888
+                      |.|||||.||.|..|||||.||.|||||..|.||.|||||.|...||||
+Falco_biarmic   2825 -CAGGCACCCTTGGTTCCTACCTGGATGTGCTGGAGAATGGTGTGGCTGA   2873
+
+Homo_sapiens    2889 AATCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGA   2938
+                     ||||||.||.|||||.|||.||||.||..|||||||.||.||||||||.|
+Falco_biarmic   2874 AATCACCGCGAATGTCATTCAGGGTACAGATGAGGATACAGATGACTTAA   2923
+
+Homo_sapiens    2939 TGTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTC   2988
+                     |||||||.|||.|..|.||.|||||.|||..|.|||||.|.|||.|||||
+Falco_biarmic   2924 TGTTGACCTTCATTGTAGAGGATCCTCCTCAGCATGGGAACATCCTGGTC   2973
+
+Homo_sapiens    2989 AATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCT--TGGAGGGC   3036
+                     .|.||..|.||.||||||.|.|||  ||..||.||.||||  ||||.||.
+Falco_biarmic   2974 CAAGGGGTGCCTGCAGAGAAATTT--TCCCAGAGAGATCTGCTGGATGGT   3021
+
+Homo_sapiens    3037 TCTGTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGC   3086
+                     .||||.||||||.|.|||||..|||||||.||||||||..||||.||||.
+Falco_biarmic   3022 GCTGTAGTATATGCTCACACTGGTGGTGAAATAGGCCTTCTGCCCAAAGA   3071
+
+Homo_sapiens    3087 GGATTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTG   3136
+                     .|||.|.||.|||||.|...||||.||..|.|||.|.||.|||||.||..
+Falco_biarmic   3072 AGATACCTTCAACCTTACCTTGTCTGACCTATCTGAGGAGTGGAGCATCA   3121
+
+Homo_sapiens    3137 GTGGCAATACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTT   3186
+                     |.||||||..|.|.|||||||||.|..|.|.|||||||||.||.||||||
+Falco_biarmic   3122 GGGGCAATGTTGTTCAAGGAGTTTCAGTCTTGGTGACCATTCTTCCTGTT   3171
+
+Homo_sapiens    3187 GATAGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGA   3236
+                     ||.||.||.||||||||.||.|||.||||.||.|||||.|..||||||||
+Falco_biarmic   3172 GACAGTCAAGCCCCAGAGATTTTTCTAGGGGAGCAGTTCAGGGTAATGGA   3221
+
+Homo_sapiens    3237 AGGTGATAAA-AGTGTTATAACATCAGTGCATATAAGTGCTGAAGATGTC   3285
+                     ||||||.||| || ||.||.||..|.|..||..|.||.|||||||||||.
+Falco_biarmic   3222 AGGTGACAAACAG-GTCATTACTCCTGCTCACCTCAGGGCTGAAGATGTG   3270
+
+Homo_sapiens    3286 G--ACTCCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACT   3333
+                     |  |||||..|  ||||||..|..|.|||||.||.|||..||||||.||.
+Falco_biarmic   3271 GATACTCCACG--TGATGATGTACTCTGCACCATTGTTGCTCAGCCCACA   3318
+
+Homo_sapiens    3334 TCAGGTTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAATCAAG   3383
+                     ||.||.|||||.||.|||||.||||||||.|||||.|||||.|.|||.||
+Falco_biarmic   3319 TCTGGGTATGTAGAGAACATCTCTCCAGCCCCAGGATCTGAAAGATCCAG   3368
+
+Homo_sapiens    3384 AGCAGGGATTGCCATAAGTGCTTTCAACTTGAAAGATCTCAGGCAGGGCC   3433
+                     ||||||..|.||.|||||||||||.|..||.|||||.|||.|.||..|.|
+Falco_biarmic   3369 AGCAGGTGTGGCTATAAGTGCTTTTACTTTAAAAGACCTCCGTCAAAGGC   3418
+
+Homo_sapiens    3434 ACATAAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGAC   3483
+                     |.||....||||||||.|||.|.|||||.||.||.||.|||||.||.|||
+Falco_biarmic   3419 ATATTTTTTATGTCCAAAGTATACATAAGGGTGTAGAGCCTGTTGAAGAC   3468
+
+Homo_sapiens    3484 CGATTTGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTT   3533
+                     .|.||||..||.||.|||||||||||||||||||||||..|.||.||.||
+Falco_biarmic   3469 AGGTTTGCTTTCCGCTGTTCTGATGGCATTAACTTTTCCCAAAGGCACTT   3518
+
+Homo_sapiens    3534 CTTCCCCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATGTTTA   3583
+                     .|||||||||||.||.||.||.|.|||.||||||.||||.||.||.|||.
+Falco_biarmic   3519 TTTCCCCATTGTCATTATGCCGATCAACGATGAAGAGCCTGAAATTTTTG   3568
+
+Homo_sapiens    3584 TGAGAGAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATACACCC   3633
+                     ||.||||||||.|.|||||||||||||||||.|||||.||||||||.||.
+Falco_biarmic   3569 TGCGAGAATTTGTTGTGATGGAAGGCATGAGCCTGGTTATTGATACCCCT   3618
+
+Homo_sapiens    3634 ATTCTCAATGCTGCTGATGCTG--ATGTTCCCCTG--GATGATTTAACTT   3679
+                     ||.||.|||||.|.||||||.|  |||    ||||  |||||.||||..|
+Falco_biarmic   3619 ATCCTTAATGCAGTTGATGCAGACATG----CCTGCTGATGAGTTAATGT   3664
+
+Homo_sapiens    3680 TCACTATTACCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGATA   3729
+                     ||||.||.|||....|.||||..|||||.|||||..||||.||||||.|.
+Falco_biarmic   3665 TCACAATCACCAGGCTTCCCAGGCATGGCCACATTGTGAACCAGCTGGTC   3714
+
+Homo_sapiens    3730 AATGGCACGGTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAG   3779
+                     |||||.||.||..|.||.|||||.|||||||||||||||.|.|.||||||
+Falco_biarmic   3715 AATGGAACTGTCCTAGTGGAAAGTTTCACCTTGGATCAGGTAACAGAGAG   3764
+
+Homo_sapiens    3780 TTCCAGCATTATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTT   3829
+                     .||||.|||..|.||||||||.||||||||.|||||..||||.|||||||
+Falco_biarmic   3765 CTCCAACATACTCTATGAGCACGATGACTCTGAGACAAAGGAGGACAGTT   3814
+
+Homo_sapiens    3830 TTGTGATTAAACTAACAGATGGGAAGCACTCTGT--GGAAAAGACGGTCC   3877
+                     |||.|.|.|||||.||||||||.||.||..||||  |||||  ||.||.|
+Falco_biarmic   3815 TTGAGGTGAAACTCACAGATGGTAAACATACTGTCAGGAAA--ACAGTAC   3862
+
+Homo_sapiens    3878 TCATTATAGTTATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAAT   3927
+                     ||||.||.|||||.|||||.|||||||||||.|||||||||.|.||||||
+Falco_biarmic   3863 TCATCATGGTTATTCCTGTAGATGATGAGACACCCAGAATGGCCATCAAT   3912
+
+Homo_sapiens    3928 AATGGACTAGAAATAGAAATTGGGGATACCAAGATTATCAACAACAAAAT   3977
+                     .||||..|.||.||.|||||.|||||.||.||.|.|||..|.||||.|||
+Falco_biarmic   3913 GATGGTTTGGAGATTGAAATAGGGGAAACTAAAACTATTCATAACAGAAT   3962
+
+Homo_sapiens    3978 ATTAATGGCAACAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTA   4027
+                     |||.|.|||.||.||..|.|||||.|||||||||.|.|||...|||||||
+Falco_biarmic   3963 ATTGAAGGCTACTGACCTGGATTCTGAAGACAAAACCTTGACGTATATTA   4012
+
+Homo_sapiens    4028 TTCGTTATGGGCCAGGACATGGCTTATTACAGAGACGAAAACCTACTGGT   4077
+                     |..|.||||||||||||||.|||.|.|||||||||..|||.||..|.|||
+Falco_biarmic   4013 TAAGATATGGGCCAGGACAAGGCCTCTTACAGAGAATAAAGCCCTCAGGT   4062
+
+Homo_sapiens    4078 GCCTTTGAAAATATCACACTGGGCATGAATTTTACCCAGGATGAAGTAGA   4127
+                     |...|.||.||||||||.|||||.|||||.||.|||||.||.|||||.||
+Falco_biarmic   4063 GGAGTAGAGAATATCACCCTGGGGATGAACTTCACCCAAGAGGAAGTGGA   4112
+
+Homo_sapiens    4128 CAGAAACTTAATTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACC   4177
+                     .||||||||||||||.|||.|.|||||.||.|.|||.||.|||||.||.|
+Falco_biarmic   4113 TAGAAACTTAATTCAATATATGCATTTTGGCCGAGAAGGAATTCGTGATC   4162
+
+Homo_sapiens    4178 TAATTAAATTTGATGTGACTGATGGAATAAATCCCCTCATAGATCGTTAC   4227
+                     |.||.||.|||||||||||.||||||||||||||.|||||.||.||.|||
+Falco_biarmic   4163 TCATCAAGTTTGATGTGACAGATGGAATAAATCCTCTCATTGACCGCTAC   4212
+
+Homo_sapiens    4228 TTTTATGTGTCCATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAG   4277
+                     |||||||||.|.||.||.||||||||.||||||||.||.|||||.||.||
+Falco_biarmic   4213 TTTTATGTGACAATAGGTAGCATTGATATTGTCTTTCCAGATGTAATCAG   4262
+
+Homo_sapiens    4278 TAAGGGAGTGTCCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACC   4327
+                     .||.|||||.||.|||||.|||||.||.||.||.||.|||||.||.||..
+Falco_biarmic   4263 CAAAGGAGTTTCTTTGAAGGAAGGAGGGAAGGTAACCCTTACTACTGATT   4312
+
+Homo_sapiens    4328 TACTAAGCACTAGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACC   4377
+                     |.||.|||||.||||||.|.||.|||||.|||||.|||||.|||||.||.
+Falco_biarmic   4313 TGCTTAGCACCAGTGACCTTAATAGTCCAGATGAGAACTTAGTTTTCACT   4362
+
+Homo_sapiens    4378 ATCACCAGGGCTCCCATGCGAGGTCACCTGGAATGCACGGATCAGCCTGG   4427
+                     ||.|||||.||.||..|.||.|||||.||.|||||.||.|||.|||||||
+Falco_biarmic   4363 ATTACCAGAGCACCTGTTCGTGGTCATCTTGAATGTACAGATGAGCCTGG   4412
+
+Homo_sapiens    4428 TGTGTCCATCACGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCT   4477
+                     .||..|||||.|..||||.|||||.||.|.|.|.||.||.||.|||.|||
+Falco_biarmic   4413 GGTACCCATCTCCACTTTTACTCAACTCCTATTAGCAGGCAATAAAGTCT   4462
+
+Homo_sapiens    4478 ACTACATCCACACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTT   4527
+                     |.|||||.|||||..|.||.|||||.||||||||||||||.|||||||||
+Falco_biarmic   4463 ATTACATTCACACTTCAGAAGATGAGGTGAAAATGGACAGCTTTGAGTTT   4512
+
+Homo_sapiens    4528 CAAGTCACCGATGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCAT   4577
+                     .|.||.||.|||||...|||||||||.|||||.||.|||.|.||.||.||
+Falco_biarmic   4513 GAGGTGACTGATGGCTATAACCCTGTATTTCGTACTTTCAGAATTTCTAT   4562
+
+Homo_sapiens    4578 TAGCGATGTGGACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTG   4627
+                     .||.||||||||||||||.||.||.||.|||||.|||||.||.|||||.|
+Falco_biarmic   4563 CAGTGATGTGGACAATAAGAAACCTGTTGTCACAATCCATAACCTGGTGG   4612
+
+Homo_sapiens    4628 TCAGTGAAAGTGAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAA   4677
+                     |.|.|||||.||||.||||.|||||.||.||||||||.||.||||..|||
+Falco_biarmic   4613 TGACTGAAAATGAATACAAACTGATAACCCCTTTTGAACTGACTGCAGAA   4662
+
+Homo_sapiens    4678 GACAGAGATACTCCTGACAAGC--TCCTGAAATTCACTATCACCCAGGTG   4725
+                     |||||||||||.||.|  |.||  |.||.|||||.|..|||||.||..|.
+Falco_biarmic   4663 GACAGAGATACACCCG--ATGCTTTGCTAAAATTTATCATCACACAAATA   4710
+
+Homo_sapiens    4726 CCTATTCATGGCCATCTCCTATTCAACAATACCAGACCTGTCATGGTTTT   4775
+                     ||..|||||||.||..||.|.||.||.||..|||.|||.||||.....||
+Falco_biarmic   4711 CCAGTTCATGGTCAGATCATGTTTAATAACTCCAAACCAGTCACCACCTT   4760
+
+Homo_sapiens    4776 TACCAAGCAAGACTTGAATGAAAACTTAATCAGCTACAAACATGATGGCA   4825
+                     .||.||.|||||..|.||||||||..||||||||||||||||||||||.|
+Falco_biarmic   4761 CACTAAACAAGATCTAAATGAAAATCTAATCAGCTACAAACATGATGGGA   4810
+
+Homo_sapiens    4826 CTGAGTCAAGTGAAGATAGCTTCTCCTTCACAGTGACTGATGGCACCCAT   4875
+                     |.||.||||.|||.|||||||||||.|||||.||.||.||||||||.|||
+Falco_biarmic   4811 CAGAATCAATTGAGGATAGCTTCTCTTTCACTGTTACAGATGGCACTCAT   4860
+
+Homo_sapiens    4876 ACAGACTTCTATGTTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCA   4925
+                     ||.||.||||||||.||.||..|.||.||||||||||||||||.|||.||
+Falco_biarmic   4861 ACTGATTTCTATGTCTTCCCCAACACTGTGTTTGAAACAAGGAAACCTCA   4910
+
+Homo_sapiens    4926 -AGTGATGAAGATCCAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATC   4974
+                      |.| ||||||||.|..||..|||||||.|||||||||||.||.|||||.
+Falco_biarmic   4911 GACT-ATGAAGATTCGAGTAATGGCTGTGGACAACAGTGTACCTCAAATT   4959
+
+Homo_sapiens    4975 GCAGTGAATAAGGGGGCCTC-TACACTTCGCACTCTAGCCACTGGCCAC-   5022
+                     |.|.|.||||||||.| ||| .||.||.||...|||.|||||.||.||| 
+Falco_biarmic   4960 GTAATAAATAAGGGTG-CTCAGACTCTCCGTCTTCTGGCCACAGGTCACA   5008
+
+Homo_sapiens    5023 TTGGGGTTCATGATCACAAGCAAAATATTGAAAGTGGAGGACAGAGACAG   5072
+                     |||||.|||| |||.||.|.|||..|..|.|.||||||.|||||.|||||
+Falco_biarmic   5009 TTGGGTTTCA-GATTACCAACAAGGTGCTCAGAGTGGAAGACAGGGACAG   5057
+
+Homo_sapiens    5073 CTTACACATTTCTCTT------AGATTTATCGTGACAGAGGCCCCTCAAC   5116
+                     .||||||.||.|.|||      |||.||      ||||||||.||.|..|
+Falco_biarmic   5058 TTTACACGTTACCCTTAAGATCAGAATT------ACAGAGGCTCCACGCC   5101
+
+Homo_sapiens    5117 ATGGATATCTTC----TCAACCTGGACAAAGGCAACCACAGCATCACTCA   5162
+                     ||||    ||||    ||.||||||..|||||||||||.|||||||..||
+Falco_biarmic   5102 ATGG----CTTCCTGATCCACCTGGGGAAAGGCAACCATAGCATCAGCCA   5147
+
+Homo_sapiens    5163 GTTCACACAAGCTGACATTGATGACATGAAAATATGCTATGTCTTAAGA-   5211
+                     ||||||.||||||||.||||||||.|||||.|||||||||||.|||.|| 
+Falco_biarmic   5148 GTTCACCCAAGCTGATATTGATGATATGAAGATATGCTATGTTTTACGAG   5197
+
+Homo_sapiens    5212 GAAGGGGCTAATGCCACAAGTGATATGTTCT-ATTTTGCA--GTTGAAGA   5258
+                     |.||.|.| ||||||||.|||||.| |||.| ||||  ||  ||||||||
+Falco_biarmic   5198 GGAGTGAC-AATGCCACCAGTGACA-GTTTTCATTT--CATGGTTGAAGA   5243
+
+Homo_sapiens    5259 TGGTGGTGGAAACAAGTTAACGTACCAGAATTTTCGTCTGAATTGGGCAT   5308
+                     .|||||.||.||.|||.|.|.|.|.||..|||||||.||.||.|||||||
+Falco_biarmic   5244 CGGTGGAGGCAATAAGCTGAAGAATCAACATTTTCGCCTAAACTGGGCAT   5293
+
+Homo_sapiens    5309 GGATCTCCTTTGAAAAGGAATATTACCTGGTCAATGAGGACTCCAAATTT   5358
+                     ||||||||||.|||||||||||.||..|.||.|||||.||||||||||.|
+Falco_biarmic   5294 GGATCTCCTTAGAAAAGGAATACTATTTAGTAAATGAAGACTCCAAATAT   5343
+
+Homo_sapiens    5359 CTAGATGTTGTTCTTAAACGTAGAGGTTA-CTTGGGAGAAACTTCTTTTA   5407
+                     ||.|||||||||||||||||.|||||||| ||| ||||||||.|||||||
+Falco_biarmic   5344 CTTGATGTTGTTCTTAAACGGAGAGGTTATCTT-GGAGAAACCTCTTTTA   5392
+
+Homo_sapiens    5408 TAAGTATTGGCACAAGAGACAGAACTGCAGAAAAAGACAAAGACTTCAAG   5457
+                     ||||||||.||||.|.|||..|.|||||..|.|||||.||.||.||||..
+Falco_biarmic   5393 TAAGTATTAGCACCAAAGATGGTACTGCCAAGAAAGATAAGGATTTCAGA   5442
+
+Homo_sapiens    5458 GGCAAAGCACAGAAACAAGTGCAGTTCAACCCAGGCCAGACCAGGGCCAC   5507
+                     ||.|||||.|||||.|||||||||||.||.||.|||||.|||...||.||
+Falco_biarmic   5443 GGAAAAGCCCAGAAGCAAGTGCAGTTTAATCCTGGCCAAACCTTAGCTAC   5492
+
+Homo_sapiens    5508 ATGGCGAGTGCGGATCCTGAGTGATGGGGAGCATGAGCAGTCTGAAACCT   5557
+                     .||||||||.|||||..|||||||.||.||.|||||.||||||||..|||
+Falco_biarmic   5493 GTGGCGAGTACGGATTTTGAGTGACGGTGAACATGAACAGTCTGAGTCCT   5542
+
+Homo_sapiens    5558 TTCAGGTGGTACTCTCAGAGCCCGTGCTGGCTGCCTTGGAATTCCCCACA   5607
+                     ||||..|.||.||.||.|||||.||..||||.|...||||.|| .|||.|
+Falco_biarmic   5543 TTCAAATTGTTCTTTCTGAGCCTGTCATGGCAGTTCTGGAGTT-TCCATA   5591
+
+Homo_sapiens    5608 -GTCGCCACTGTTGAGATCGTTGATCCAGGAGATGAGCCAACTGTGTTTA   5656
+                      ||..||||.||.||.||..||||.|||||||||||..||||.||.||||
+Falco_biarmic   5592 TGTATCCACAGTGGAAATTATTGACCCAGGAGATGAATCAACAGTCTTTA   5641
+
+Homo_sapiens    5657 TTCCCCAGTCCA--AATACTCCGTTGAAGAAGATGTTGGTGAGCTGTTCA   5704
+                     ||||.|||||||  .|||||  .|||||||||||||||||||..|.||||
+Falco_biarmic   5642 TTCCTCAGTCCACCTATACT--ATTGAAGAAGATGTTGGTGAATTATTCA   5689
+
+Homo_sapiens    5705 TTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGAGTTGATGGTGGTCTGT   5754
+                     ||||..||||.||.||.|||||||||||||||||..|||||||..||||.
+Falco_biarmic   5690 TTCCAGTCAGAAGAAGTGGAGATGTGAGCCAGGAACTGATGGTTATCTGC   5739
+
+Homo_sapiens    5755 TATACCCAACAAGGAACAGCAACTGGAACTGTGCCGACTTCCGTGTTGTC   5804
+                     ||.||.|||||.|||||||||.||||.||||..||.||.||.||..|.||
+Falco_biarmic   5740 TACACACAACATGGAACAGCATCTGGCACTGCCCCAACCTCTGTACTTTC   5789
+
+Homo_sapiens    5805 TTACTCTGATTACATATCCAGGCCTGAGGACCACACCAGTGTTGTCCGCT   5854
+                     ||||||.||.||||||||||||||||||||.||||.|||..||.|.||.|
+Falco_biarmic   5790 TTACTCCGACTACATATCCAGGCCTGAGGATCACAACAGCATTCTACGTT   5839
+
+Homo_sapiens    5855 TTGACAAAGATGAACGGGAGAAACTGTGTCGGATAGTCATAATTGATGAC   5904
+                     ||||||||||.|||||.||.|||.||||||||||.|||||.||.|||||.
+Falco_biarmic   5840 TTGACAAAGACGAACGAGAAAAAATGTGTCGGATTGTCATCATAGATGAT   5889
+
+Homo_sapiens    5905 TCTTTGTACGAGGAGGAGGAAACCTTCCATGTCCTTCTGAGCATGCCCAT   5954
+                     ||.|||||.||.||||..||.|||||..||||..|.|||||||||||.||
+Falco_biarmic   5890 TCCTTGTATGAAGAGGCTGAGACCTTTGATGTTTTGCTGAGCATGCCAAT   5939
+
+Homo_sapiens    5955 GGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCTCAAGTTACAATCGTTC   6004
+                     |||.||||||.|.||..||||.||||||.|..|||.|.||||.||.||.|
+Falco_biarmic   5940 GGGTGGAAGAGTTGGTGCAGAATTCCCAAGCACTCGAATTACCATTGTAC   5989
+
+Homo_sapiens    6005 CTGACAAAGATGATGAACC--CATCTTTTACTTCGGTGATGTGGAATACT   6052
+                     |||||||.|||||||||||  ||  ||.|||||.||..|||..|||||||
+Falco_biarmic   5990 CTGACAAGGATGATGAACCAGCA--TTCTACTTTGGAAATGATGAATACT   6037
+
+Homo_sapiens    6053 CTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGGTGTGGAGAACGGGC   6102
+                     ..||.|||||||||||||||.||.|.||.||.|..||.|||||.||.||.
+Falco_biarmic   6038 ACGTTGATGAGAGTGCTGGCCATATTGAGGTACGTGTCTGGAGGACTGGA   6087
+
+Homo_sapiens    6103 ACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGAGGTCTCGGAAAACAGA   6152
+                     |||||.|||||.||.|||.|....||.||||||||||||||.|||.|.||
+Falco_biarmic   6088 ACTGATCTGTCTAAATCTGCCTCCGTTACAGTGAGGTCTCGCAAATCTGA   6137
+
+Homo_sapiens    6153 TCCTCCCTCTGCAGATGCTGGAACAGACTATGTGGGCATCAGCCGTAATT   6202
+                     .||.....|||||||.||||||..|||.|||||.||||||||.|||||||
+Falco_biarmic   6138 GCCAGTAACTGCAGAGGCTGGAGTAGATTATGTAGGCATCAGTCGTAATT   6187
+
+Homo_sapiens    6203 TAGATTTTGCACCTGGAGTCAACATGCAGCCTGTTCGTGTTGTCATTCTG   6252
+                     |.||||||.|.|||||||||.|.||||||.|..|||||||.||.||||||
+Falco_biarmic   6188 TGGATTTTTCCCCTGGAGTCCATATGCAGACATTTCGTGTGGTAATTCTG   6237
+
+Homo_sapiens    6253 GATGACCTTGGACAACCAGCGCTGGAGGGAATTGAGAAATTTGAACTGGT   6302
+                     |||||||||||.|||||.|.|.|.||.||||.||||||.|||||.||.||
+Falco_biarmic   6238 GATGACCTTGGGCAACCGGTGTTAGAAGGAACTGAGAAGTTTGAGCTTGT   6287
+
+Homo_sapiens    6303 GCTTCGCATGCCTATGAACGCAGCCCTTGGCGAGCCCAGCAAAGCCACAG   6352
+                     |||..|.|||||.||||||||.||||||||.||.||||||||.|||||..
+Falco_biarmic   6288 GCTAAGGATGCCCATGAACGCTGCCCTTGGAGAACCCAGCAAGGCCACCA   6337
+
+Homo_sapiens    6353 TGTCCATAAATGACT--CTGTCTCCGATTTGCCTAAGATGCAATTCAAAG   6400
+                     |.|.|||.|||||||  ||||||  ||.||||||||||||||.||.||.|
+Falco_biarmic   6338 TCTTCATTAATGACTCACTGTCT--GACTTGCCTAAGATGCAGTTTAAGG   6385
+
+Homo_sapiens    6401 AA--CGAATATATACTGGCAGCGAAAGTGATGGGCAGATAGTTACAATGA   6448
+                     ||  .|.||||.||  ||||..||||.||||||.|||||...|.|.||||
+Falco_biarmic   6386 AATCTGTATATGTA--GGCAATGAAAATGATGGACAGATTTCTGCCATGA   6433
+
+Homo_sapiens    6449 TCCATAGGACTGGGGATGTCCAGTACAGATCTTCAGTGAGATGCTACACC   6498
+                     |..|.||||.|||||||.|||..||||.|||..|.|||||.|||||.||.
+Falco_biarmic   6434 TATACAGGAGTGGGGATATCCGATACACATCCACTGTGAGGTGCTATACA   6483
+
+Homo_sapiens    6499 CGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGAACGCCCAAACAC   6548
+                     .||||.||.||.||.|||||.||||||||||||||||||||.||.||.||
+Falco_biarmic   6484 AGGCAAGGTTCAGCTCAGGTAATGATGGACTTTGAAGAACGTCCTAATAC   6533
+
+Homo_sapiens    6549 TGATACCTCCATCATCACATTCCTCCCTGGTGAGACAGAAAAGCCCTGCA   6598
+                     |||.|..|||||||||||||||||.||||||||.||.||.|||||.||||
+Falco_biarmic   6534 TGACAGTTCCATCATCACATTCCTTCCTGGTGAAACTGAGAAGCCTTGCA   6583
+
+Homo_sapiens    6599 TTCTTGAGCTGATGGACGATGTGCTCTATGAGGAGGTAGAGGAGCTCCGC   6648
+                     ..||.|.|||.|||||.|||....||.||||.||.|..||.||.||.|||
+Falco_biarmic   6584 CGCTGGTGCTTATGGATGATACTTTCCATGAAGAAGAGGAAGAACTACGC   6633
+
+Homo_sapiens    6649 CTGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTGGGGCTGCAGTTGG   6698
+                     |||||.||.|||||||||..||||.|.|||.|.|||||.||..|..||||
+Falco_biarmic   6634 CTGGTTCTTGGCACTCCAAGAAGCGATTCTTCGTTTGGTGCCTCTATTGG   6683
+
+Homo_sapiens    6699 TGAACAAAATGAAACTCTCATAAGGATCCGAGATGATGCTGATAAGACTG   6748
+                     ||||||||||||.|..||.||||.|||.||.||||||||.||.|||.||.
+Falco_biarmic   6684 TGAACAAAATGAGATGCTGATAAAGATTCGGGATGATGCAGACAAGGCTA   6733
+
+Homo_sapiens    6749 TTATTAAATTTGGAGAAACCAAATTTAGTGTCACTGAACCCAAAGA-ACC   6797
+                     |||||||.|||||.||.||||||||||||||.|.||||||.||.|| ||.
+Falco_biarmic   6734 TTATTAAGTTTGGTGAGACCAAATTTAGTGTGAGTGAACCAAAGGACACA   6783
+
+Homo_sapiens    6798 TGGAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCCAAGGAGACACTT   6847
+                     .||..||| .|..|||.|||.|||.||||||.||||....||||||||||
+Falco_biarmic   6784 AGGCAAGT-AGCAGTTGTAAAAATCCCAGTGCTTCGTTTGGGAGACACTT   6832
+
+Homo_sapiens    6848 CAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCTCGGCCACCTCT   6897
+                     |.||||||||..||||||||||.||.||.||||||||.||.||.||.|||
+Falco_biarmic   6833 CCAAGGTTTCTGTTGTGAGAGTTCATACAAAGGATGGATCTGCTACTTCT   6882
+
+Homo_sapiens    6898 GGAGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTTTAAGGAAGGGGA   6947
+                     |||||||||||.||||||.|.||||||||||||||||||||||||||.||
+Falco_biarmic   6883 GGAGAAGACTATCACCCTATATCAGAAGAAATTGAGTTTAAGGAAGGTGA   6932
+
+Homo_sapiens    6948 AACCCAGCACGTGGTTGAAATCGAAGTTACCTTTGACGGGGTGAGAGAGA   6997
+                     |||.||||||.|.||.||.||.||||||..||||||.||.||.||.||||
+Falco_biarmic   6933 AACACAGCACTTTGTGGAGATTGAAGTTCTCTTTGATGGAGTAAGGGAGA   6982
+
+Homo_sapiens    6998 TGAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAAATATGATAGCA   7047
+                     |||||||.|||||||||||||||||.||.|||||.||.||.|||.|.|||
+Falco_biarmic   6983 TGAGAGAAGCCTTCACTGTTCACCTGAAGCCTGACGAGAACATGGTCGCA   7032
+
+Homo_sapiens    7048 GAGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAAATGAGCAGCAT   7097
+                     ||.||.|||....|.||.||||||||.|||||.||||||||||.||||||
+Falco_biarmic   7033 GAAATACAGACAGCCAAGGCCATTGTTTACATTGAAGAAATGAACAGCAT   7082
+
+Homo_sapiens    7098 GGCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATCCCTGTTGATGT   7147
+                     ||||||||||||.|||||.||||||||.|||.|||.||||||.|||||.|
+Falco_biarmic   7083 GGCAGATGTCACCTTTCCCTCTGTCCCGCAAGTTGCATCCCTTTTGATAT   7132
+
+Homo_sapiens    7148 ATGACGACACTTCCAAAGCTAAGGAGAGTGCTGAA-----CCCATGTCTG   7192
+                     ||||.||.|.|||.|..||.||.||     |.|||     |||||..|||
+Falco_biarmic   7133 ATGATGATATTTCTAGTGCCAAAGA-----CAGAACAAGTCCCATAGCTG   7177
+
+Homo_sapiens    7193 GCTATCCTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCAGACTAC   7242
+                     ||||||||||||||||||||||||||||.||.||.|||||...|||||..
+Falco_biarmic   7178 GCTATCCTGTCATCTGTATCACAGCTTGTAATCCTAAATACGAAGACTTT   7227
+
+Homo_sapiens    7243 GATAAAACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACACTTTGAC   7292
+                     ||.||.||.||.|||||.|||||.|||||||||||||||.|.|||.||||
+Falco_biarmic   7228 GACAAGACTGGTTCTATATGTGCCAGTGAGAACATCAATAATACTCTGAC   7277
+
+Homo_sapiens    7293 GCGGTACCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTGTGACCA   7342
+                     .|..|||||||||||..|.||||||||..|.||.|||||.||||||||.|
+Falco_biarmic   7278 ACAATACCGGTGGCTTGTAAGTGCACCCACTGGTCCTGATGGTGTGACTA   7327
+
+Homo_sapiens    7343 GCCCTATGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATCCAAGATG   7392
+                     ||||.||||..||.||.|||||.||.|||||.||.||.||.|||||||||
+Falco_biarmic   7328 GCCCCATGAAGGAGGTTGACTTTGATACCTTCTTCACTTCCTCCAAGATG   7377
+
+Homo_sapiens    7393 GTCACACTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTACAGTGCGC   7442
+                     .|.|||||.||||||||.||||||||..||||.||.||.||.|||||.||
+Falco_biarmic   7378 ATTACACTTGACTCCATTTACTTTCAAGCTGGTTCTCGTGTCCAGTGTGC   7427
+
+Homo_sapiens    7443 AGCTCGTGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCATGAGCC   7492
+                     .||||||||||||||..|..|||||.||||.||.||.|||||.|||||||
+Falco_biarmic   7428 GGCTCGTGCTGTGAATTCAGATGGGAATGAGGGTCTTGAGCTTATGAGCC   7477
+
+Homo_sapiens    7493 CTATTGTAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGTGTACCT   7542
+                     ||||||||||.||.||||....|||||||||||||||.||.|.|.|..|.
+Falco_biarmic   7478 CTATTGTAACTATAAGCACGTCAGAAGGTCTTTGTCAACCTCATATGTCA   7527
+
+Homo_sapiens    7543 GGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACACAGGCCC   7592
+                     ||.||.|||||||||||.||.|||||.||.|||.|||||||.||.|||||
+Falco_biarmic   7528 GGAGTAGTTGGAGCAGAACCATTCTCTGCCAAACTGCGCTATACCGGCCC   7577
+
+Homo_sapiens    7593 TGAGGATGCAGACTACACAAACCTTATCAAGCTCACTGTCACAATGCCAC   7642
+                     .||.|||.|.||.||..|.|||||.|||||.||.||||||||||||||||
+Falco_biarmic   7578 AGAAGATCCTGATTATGCCAACCTCATCAAACTGACTGTCACAATGCCAC   7627
+
+Homo_sapiens    7643 ACATAGATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCCAACTTT   7692
+                     |.||.|||||||||||.||.||.||.||.||.||||||||.|||||||||
+Falco_biarmic   7628 ATATTGATGGCATGCTGCCTGTTATTTCTACAAGAGAGCTCTCCAACTTT   7677
+
+Homo_sapiens    7693 GAGCTCACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAAGTGCTC   7742
+                     |||||.|||||.|||||||||||.||.||||||||||||||.||.|||||
+Falco_biarmic   7678 GAGCTGACCCTTAGCCCTGATGGAACTAGAGTTGGAAACCATAAATGCTC   7727
+
+Homo_sapiens    7743 CAACCTCCTGGATTATACTGAAGTGAAGACTCATTATGGTTTCTTGACTG   7792
+                     |||||||.|||||||.||.|||||||||||.||..||||||||||.||||
+Falco_biarmic   7728 CAACCTCTTGGATTACACAGAAGTGAAGACCCACCATGGTTTCTTAACTG   7777
+
+Homo_sapiens    7793 ATGCTACCAAAAATCCAGAAATAATTGGAGAGA-CATATCCTTACCAGTA   7841
+                     |||||||||||||||||||..|.|||||||||| ||| |||.||.||.||
+Falco_biarmic   7778 ATGCTACCAAAAATCCAGATGTGATTGGAGAGACCAT-TCCCTATCAATA   7826
+
+Homo_sapiens    7842 CAGCTTGTCC----ATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAAC   7887
+                     ||||    ||    ||.||.||.|.||.||||.|.|||||||||||.||.
+Falco_biarmic   7827 CAGC----CCAATAATTAGGGGCTTCAATACCCTACGCTTCTACCGCAAT   7872
+
+Homo_sapiens    7888 CTGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGTC   7937
+                     |||||.||.||.|||||||||||||||||.||||||||.|||||||||||
+Falco_biarmic   7873 CTGAATCTGGAAGCCTGTTTATGGGAGTTTGTTAGCTATTATGACATGTC   7922
+
+Homo_sapiens    7938 AGAACTCCTTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTCC   7987
+                     .||.|||||..|.||.|||||.|||||||||||.||||||||||||||.|
+Falco_biarmic   7923 CGAGCTCCTCACAGATTGTGGAGGCACCATTGGGACAGATGGACAGGTTC   7972
+
+Homo_sapiens    7988 TAAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCC   8037
+                     |.||||||||||||||||||||.||.|||.|.|||||..||||.||.|||
+Falco_biarmic   7973 TCAACCTAGTGCAGTCCTATGTCACGCTTAGGGTCCCCTTGTACGTCTCC   8022
+
+Homo_sapiens    8038 TACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTT   8087
+                     |||||.|||||.||.||.|||||.||||||||||||||||||||.|||.|
+Falco_biarmic   8023 TACGTTTTCCACTCTCCGGTGGGTGTAGGAGGCTGGCAGCATTTCGACCT   8072
+
+Homo_sapiens    8088 GAAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGGA   8137
+                     |.||||.|||||.||..|.|||||||||||.|||||.||||||.||||||
+Falco_biarmic   8073 GCAGTCGGAGCTCCGGTTGACTTTTGTGTATGACACTGCCATCCTGTGGA   8122
+
+Homo_sapiens    8138 ATGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTAT   8187
+                     |.|||||.||.||.|||||.||.||.||.||.||.||||||||.||.||.
+Falco_biarmic   8123 AGGATGGGATCGGTAGCCCACCTGAAGCAGAGCTCCAAGGTTCCCTGTAC   8172
+
+Homo_sapiens    8188 CCAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCAA   8237
+                     ||||||||||||||.|||.||||.|||||||||||||..||..|||||||
+Falco_biarmic   8173 CCAACCAGCATGCGTATCAGTGAAGAGGGGCGCTTGGTTGTCAACTTCAA   8222
+
+Homo_sapiens    8238 GACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCCT   8287
+                     |||.||.||.|.|||.||||||.|.||||||.||||.|||||.||.||.|
+Falco_biarmic   8223 GACTGAAGCCCGGTTTCATGGCCTGTTTGTGATGTCCCATCCTGCTTCAT   8272
+
+Homo_sapiens    8288 TTACAAGCTCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTCC   8337
+                     .|..||..||..||.|.||||||||||||||.|||||||||||||||..|
+Falco_biarmic   8273 CTCTAATTTCCATGGTTATGTCAGCTGATCACCCAGGCCTGACATTTAGC   8322
+
+Homo_sapiens    8338 CTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGTG   8387
+                     |||.|||||||..|.|||||.|||||.|||||||||||||||||||||||
+Falco_biarmic   8323 CTCAGCCTCATCCGAAGTGAGCCAACGTATAACCAGCCAGTACAGCAGTG   8372
+
+Homo_sapiens    8388 GAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATACTG   8437
+                     |||||||||.||.||.|||||.||.||.|||||.||.||.||.||.||||
+Falco_biarmic   8373 GAGCTTTGTTTCAGATTTTGCGGTTCGAGACTATTCTGGAACATACACTG   8422
+
+Homo_sapiens    8438 TGAAGCTGGTGCCATG---CACTGCCCCATCACATCAGGAATACCGCCTG   8484
+                     ||||||||.|..|.||   ||||||.|   ||||||||||.|||..|||.
+Falco_biarmic   8423 TGAAGCTGATAGCTTGTACCACTGCTC---CACATCAGGAGTACAACCTA   8469
+
+Homo_sapiens    8485 CCAGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCG   8534
+                     |||||.|.||||||.||.|||||.||..||||.||.||..|.||.|||||
+Falco_biarmic   8470 CCAGTTATCTGCAATCCTAGAGAGCCGATCACATTCGATTTGGATATCCG   8519
+
+Homo_sapiens    8535 ATTCCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCC   8584
+                     .|||||.||||||||||||||||||||.||||||||.||||||||.||||
+Falco_biarmic   8520 TTTCCAGCAGGTCAGTGATCCAGTGGCGGCTGAGTTCAGCTTGAATACCC   8569
+
+Homo_sapiens    8585 AAATGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATG   8634
+                     |.||||.|||.|||||.||.||||..||.|||.|.||||||||.||.|||
+Falco_biarmic   8570 AGATGTTCCTCCTCTCCAAAAAGACACTTTGGCTATCTGATGGCTCAATG   8619
+
+Homo_sapiens    8635 GGATTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTA   8684
+                     ||.||.||||||||.||.|||||||||||..|||||||||||||.||.||
+Falco_biarmic   8620 GGCTTTGGGCAAGAAAGCGATGTTGCTTTCTCAGAAGGTGATATCATATA   8669
+
+Homo_sapiens    8685 TGGTCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACT   8734
+                     |||.||.||.|||||||||||.||.||||||||||||||.||.||.||||
+Falco_biarmic   8670 TGGCCGGGTGATGGTGGATCCAGTGCAGAATCTGGGTGATTCTTTCTACT   8719
+
+Homo_sapiens    8735 GCAGCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCC   8784
+                     |.|||||.||||||||.||.||.|||||.|||||||||||.|||||.|||
+Falco_biarmic   8720 GTAGCATCGAGAAGGTTTTCCTGTGCACAGGAGCTGATGGATATGTACCC   8769
+
+Homo_sapiens    8785 AAGTATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTC   8834
+                     ||.||.|..|||...||..|.||||||||.|||.|.||.||.|||||.||
+Falco_biarmic   8770 AAATACAACCCATCCAACACTGAATATGGGTGCCTTGCTGATTCTCCATC   8819
+
+Homo_sapiens    8835 ACTCTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAG   8884
+                     .||..|.||.||.|||||.|||||||||||||||||.||.|||||.||||
+Falco_biarmic   8820 CCTTCTGTACAGGTTTAAGATTGTGGACAAAGCTCAACCGGAGACGCAAG   8869
+
+Homo_sapiens    8885 CGACCAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGAC   8934
+                     |.||.||.|||||||||.|.||.||||||||.|||||.|||.|.|||||.
+Falco_biarmic   8870 CCACAAGCTTTGGAAATCTGCTTTTTAATGCAAAACTTGCAATAGATGAT   8919
+
+Homo_sapiens    8935 CCTGAAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGT   8984
+                     ||||||||.||||..|||||.||.|||||.||.|||||||||||||||||
+Falco_biarmic   8920 CCTGAAGCAATTCCATTAGTTAAACAGCCAGGCTCTGATGGATTTAAAGT   8969
+
+Homo_sapiens    8985 CGACTCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATAC   9034
+                     .||.|||||.||.||.||||||||..||.|.||..|.||.||||||.|.|
+Falco_biarmic   8970 AGATTCAACTCCTCTATTTCAGGTGTCTTTGGGTAGGGAGTGGTATGTCC   9019
+
+Homo_sapiens    9035 ATACGATCTATACAGTGAGATCGAAAGACAATGCCAATCGAGGTATTGGC   9084
+                     ||||.|||||.||.||..|.||.|||||.|||||.||.||.||.||||||
+Falco_biarmic   9020 ATACAATCTACACTGTACGTTCAAAAGAGAATGCTAACCGTGGAATTGGC   9069
+
+Homo_sapiens    9085 AAAAGAAGTGTGGAGTACCA--------TTCTC-----TGGTGAGTCAAG   9121
+                     ||||||||.||||||.||||        |.|||     |||||.|     
+Falco_biarmic   9070 AAAAGAAGCGTGGAGCACCAGTACCACTTGCTCTTTAGTGGTGGG-----   9114
+
+Homo_sapiens    9122 GAAAGCCCC----AATCCACCACCAAGAGCCGGAAGAAGAGAGAGATCAG   9167
+                        ||||||    .||||| |||  ||||.||..|||||||.|    |||
+Falco_biarmic   9115 ---AGCCCCGGAGCATCCA-CAC--AGAGACGTCAGAAGAGGG----CAG   9154
+
+Homo_sapiens    9168 --GAGC-ACACCC-TCACTGGCATGGGAGATTGGTGCTGAAAACAGTCGA   9213
+                       |||| |.|||| ..|||.|||...||.|||||||..||.||||...||
+Falco_biarmic   9155 CTGAGCAAGACCCAGAACTCGCAAAAGACATTGGTGTAGAGAACAACAGA   9204
+
+Homo_sapiens    9214 GGAACAAACATCCAGCACATTGCCCTGGACCGCAC---CAAGAGGCA-GA   9259
+                     ||||||||.||.||||||||.||.||.||.|||||   |||||..|| |.
+Falco_biarmic   9205 GGAACAAATATACAGCACATAGCACTAGATCGCACCAGCAAGAAACAGGT   9254
+
+Homo_sapiens    9260 TCCCCCATGGGAGAGCACCTCCAG---ATGGCATCCTCCCCTGGGAGCTC   9306
+                     |||.|.|.||||||    .|.|||   |||||||.|||||..|.||.||.
+Falco_biarmic   9255 TCCTCAACGGGAGA----TTGCAGTCAATGGCATTCTCCCAAGAGAACTG   9300
+
+Homo_sapiens    9307 AACAGCCCCAGCTCTGCA---GTCAGCCTGGTCAC-----TGTGGTGGGA   9348
+                     ||.|.||..||   ||.|   ||||||.|.|||||     | |||| |||
+Falco_biarmic   9301 AATAACCAAAG---TGAAGGGGTCAGCGTAGTCACAATCAT-TGGT-GGA   9345
+
+Homo_sapiens    9349 G-----GCACCACGGTAGGGTTACTCACCATCTGCCTCACTG------TC   9387
+                     |     ||    ||.|    ||.||..||||||||.|.|.||      ||
+Falco_biarmic   9346 GCTGCTGC----CGTT----TTCCTTGCCATCTGCTTGATTGCAACCATC   9387
+
+Homo_sapiens    9388 A--TTGCAGTGCTGATGTGCAGGGGCAAGGAAAGTTTCAG-GGGGAAGGA   9434
+                     |  ||||  ||||.|     |..||.||..|||  |||.| |..||||||
+Falco_biarmic   9388 ATTTTGC--TGCTAA-----AATGGAAACAAAA--TTCTGAGAAGAAGGA   9428
+
+Homo_sapiens    9435 TGCCCCGAAAGG-CTCCAGCAGCAGTGAGCCCATGGTGCCCCCACAGAGC   9483
+                     .|||.| ||||| .||..||||||.|||.||.|||.|||..||..|.|  
+Falco_biarmic   9429 AGCCAC-AAAGGAGTCAGGCAGCAATGAACCAATGATGCTACCGTATA--   9475
+
+Homo_sapiens    9484 CATCA---CAATGACAGCTCAGAAGTT   9507
+                      ||.|   ||.||||||||||||.|||
+Falco_biarmic   9476 -ATTACACCAGTGACAGCTCAGAGGTT   9501
+
+
+#---------------------------------------
+#---------------------------------------

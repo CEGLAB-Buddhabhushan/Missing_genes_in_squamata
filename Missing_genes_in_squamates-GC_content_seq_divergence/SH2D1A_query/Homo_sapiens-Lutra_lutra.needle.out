@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:52
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Lutra_lutra.fa
+#    -outfile Homo_sapiens-Lutra_lutra.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Lutra_lutra.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Lutra_lutra
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 465
+# Identity:     354/465 (76.1%)
+# Similarity:   354/465 (76.1%)
+# Gaps:          81/465 (17.4%)
+# Score: 1600.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     ||||||||||||||.|||||.||.||||||||||||.||||.||.||.||
+Lutra_lutra        1 ATGGACGCAGTGGCCGTGTACCACGGCAAAATCAGCCGGGAGACGGGGGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     |||||||||.||||||||.||.|||||||||||||||||||||||.||||
+Lutra_lutra       51 GAAGCTCCTACTTGCCACGGGTCTGGATGGCAGCTATTTGCTGAGAGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCTGTATCACGGTTAC    150
+                     |.||||.|||.||.||||||||||||||.||||||||||||||.||||||
+Lutra_lutra      101 GTGAGACCGTCCCCGGCGTGTACTGCCTGTGTGTGCTGTATCAAGGTTAC    150
+
+Homo_sapiens     151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTG-    199
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+Lutra_lutra      151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+
+Homo_sapiens     199 --------------------------------------------------    199
+                                                                       
+Lutra_lutra      201 GGTAAGACTCCCAGCTGGGCCATGTGGAAAGGACACGGGCAGGCAGAATA    250
+
+Homo_sapiens     200 ------------------------------AGACAGCACCTGGGGTACAT    219
+                                                   |||||||.||||||||.|||
+Lutra_lutra      251 AAATTAGAGGGAACATCGCAGTGGTTTTAAAGACAGCTCCTGGGGTTCAT    300
+
+Homo_sapiens     220 AAAAGATATTTCCGGAAAATAAAAAATCTCATTTCAGCATTTCAGAAGCC    269
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+Lutra_lutra      301 AAAAGATTTTTCCGGAAAATAAAAAATCTCATTTCAGCATTTCAGAAGCC    350
+
+Homo_sapiens     270 AGATCAAGGCATTGTAATACCTCTGCAGTATCCAGTTGAGAAGAAGTCCT    319
+                     |||||||||.|||||||||||||||||||||||||||||||||||||..|
+Lutra_lutra      351 AGATCAAGGTATTGTAATACCTCTGCAGTATCCAGTTGAGAAGAAGTGTT    400
+
+Homo_sapiens     320 CAGCTAGAAGTACACAAGGTACTACAGGGATAAGAGAAGATCCTGATGTC    369
+                     ||..|||||||.||||||||.|||||||||.|||||||||||||||||||
+Lutra_lutra      401 CACTTAGAAGTGCACAAGGTGCTACAGGGAGAAGAGAAGATCCTGATGTC    450
+
+Homo_sapiens     370 TGCCTGAAAGCCCCA    384
+                     |.|||||||||.|||
+Lutra_lutra      451 TTCCTGAAAGCACCA    465
+
+
+#---------------------------------------
+#---------------------------------------

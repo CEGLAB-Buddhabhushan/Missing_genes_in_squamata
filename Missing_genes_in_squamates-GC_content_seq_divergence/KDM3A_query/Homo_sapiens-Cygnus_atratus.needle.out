@@ -1,0 +1,374 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 17:16:53
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Cygnus_atratus.fa
+#    -outfile Homo_sapiens-Cygnus_atratus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Cygnus_atratus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Cygnus_atratus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4222
+# Identity:    2936/4222 (69.5%)
+# Similarity:  2936/4222 (69.5%)
+# Gaps:         497/4222 (11.8%)
+# Score: 10135.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGTGCTCACGCTCGGA-GAAAGTTGGCCGGTATTGGTGGGGAGGAGGT     49
+                     |||||.||.|.||| ||| |..||.|||.||.|..|||||||.|.|.|.|
+Cygnus_atratu      1 ATGGTTCTGAGGCT-GGAGGGCAGCTGGTCGCTGCTGGTGGGCAAGCGCT     49
+
+Homo_sapiens      50 TTCTCAGTCTG-TCCGCAGCCGACGGCAGCGATGGCAGCCACGACAG---     95
+                     |.|||||.||| ||    |.|||||               |||||.|   
+Cygnus_atratu     50 TCCTCAGCCTGCTC----GGCGACG---------------ACGACGGGCC     80
+
+Homo_sapiens      96 CTGGGACGTGGAGCGCGTCGCCGAGTGGCCCTGGCTCTCCGGGACCATTC    145
+                     |||||||..|||||||||.||.||.|||||||||....|.||.|..||.|
+Cygnus_atratu     81 CTGGGACACGGAGCGCGTGGCGGAATGGCCCTGGAAGGCGGGCAGGATCC    130
+
+Homo_sapiens     146 GAGCTGTTTCCCACACCGACGTTACCAAGAAGGATCTGAAGGTGTGTGTG    195
+                     |.||.||.||.|||||||||.|..|||||...||.||.|||.|.||||||
+Cygnus_atratu    131 GCGCCGTCTCGCACACCGACATATCCAAGCCAGACCTTAAGATTTGTGTG    180
+
+Homo_sapiens     196 GAATTTGATGGGGAATCTTGGAGGAAAAGAAGATGGATAGAAGTCTACAG    245
+                     ||||||||||..||.||.|||...|||||||||||||||||.||||||.|
+Cygnus_atratu    181 GAATTTGATGATGAGTCATGGGAAAAAAGAAGATGGATAGAGGTCTACTG    230
+
+Homo_sapiens     246 CCTTCTAAG--GAGAGCATTTTTAGTAGAACATAATTTGGTTTTAGCTGA    293
+                     ||  .||||  ||.||||||..|.||.||.||.||..||||..|.||.||
+Cygnus_atratu    231 CC--ATAAGATGAAAGCATTCCTGGTGGAGCAAAAGCTGGTGCTGGCCGA    278
+
+Homo_sapiens     294 ACGAAAGTCACCTGAA---ATTTCTGAA----CGAATTGTACAGTGGCCT    336
+                     |.||||   |.||.||   |.|||||.|    |||    |.|||||||||
+Cygnus_atratu    279 AAGAAA---AACTCAAGGCAGTTCTGTAACGCCGA----TCCAGTGGCCT    321
+
+Homo_sapiens     337 GCAATAACGTACAAA-CCTCTGTTGGACAAAGCTGGTTTGGGATCCATAA    385
+                     |||||.||.|||||| ||| |..||||||||||||||||||||||.||..
+Cygnus_atratu    322 GCAATGACTTACAAATCCT-TAGTGGACAAAGCTGGTTTGGGATCAATGG    370
+
+Homo_sapiens     386 CTTCTGTTCGCTTTCTGGGAGATCAACAAAGA---GTATTTCTTTCTAAA    432
+                     .|||.||.||||.||||||.|   ||.|.|||   ||.||||||||||||
+Cygnus_atratu    371 TTTCGGTGCGCTATCTGGGCG---AAGAGAGATGTGTTTTTCTTTCTAAA    417
+
+Homo_sapiens     433 GACCTTTTGAAGCCTATACAGGATGTAAACAGTCTTC--GACTTTCTCTT    480
+                     ||||||||||..||.||.||||||||..||||  |||  |.||...||||
+Cygnus_atratu    418 GACCTTTTGACACCCATCCAGGATGTGGACAG--TTCCAGGCTCCATCTT    465
+
+Homo_sapiens     481 ACGGATAATCAGATTGTCAGTAAAGAATTTCAAGCTTTGATTGTGAAG--    528
+                     |.|||..||||.|.|||.|.|.|.|||.||||.||||||   ||||||  
+Cygnus_atratu    466 AAGGACGATCAAAATGTTAATGAGGAAATTCAGGCTTTG---GTGAAGAA    512
+
+Homo_sapiens     529 -CATTTAGATGAAAGCCATCTTT--TAAAAGGTGACAAAAACTTAGTTGG    575
+                      ||.||||||||||  ||...||  ||.||||||..|||||..|..||||
+Cygnus_atratu    513 ACACTTAGATGAAA--CACGCTTGGTACAAGGTGGAAAAAATATCATTGG    560
+
+Homo_sapiens     576 TTCAGAAGTAAAAATTTATAGCTTGGACCCATCTACTCAGTGGTTTTCAG    625
+                     |||..||.|.|.||||||||||.||||.||||||||.||||||||..|||
+Cygnus_atratu    561 TTCGAAAATTAGAATTTATAGCCTGGATCCATCTACCCAGTGGTTCACAG    610
+
+Homo_sapiens     626 CAACCGTTATAAATGGAAACCCAGCATCAAAAACTCTTCAAGTCAACTGT    675
+                     ||...|||.|.|||||.||.|||||..||..||||||..|||||||||||
+Cygnus_atratu    611 CAGTTGTTGTGAATGGTAATCCAGCTACACGAACTCTAGAAGTCAACTGT    660
+
+Homo_sapiens     676 GAGGAGATTCCAGCACTGAAAATTGTTGATCC---GTCACTGATTCATGT    722
+                     ||||||||||||||..|.||||.|.|||||||   ||   |.|||||.||
+Cygnus_atratu    661 GAGGAGATTCCAGCTTTAAAAACTCTTGATCCAGAGT---TAATTCACGT    707
+
+Homo_sapiens     723 TGAAGTTGTACACGATAACCTTGTGACATGTGGTAATTCTGCAAGAATTG    772
+                     .|||.|..||.|.||.||...||.||.|||.|.|||.|||..||.|||||
+Cygnus_atratu    708 CGAAATCATATATGACAATAATGGGAGATGCGATAAATCTAAAAAAATTG    757
+
+Homo_sapiens     773 GAGCTGTAAAACGCAAGTCTTCTGAGAATAATGGAACCCTGGTTTCCAAA    822
+                     |.|..||.|||.|.||.||..|.|||||||.|||||...|.|.|.|.|||
+Cygnus_atratu    758 GGGGCGTGAAAAGGAAATCCACAGAGAATAGTGGAAGTGTTGATGCTAAA    807
+
+Homo_sapiens     823 CAAGCAAAATCTTGCT-CTGAGGCCTCTCCCAGTATGTGTCCTGTGCAGT    871
+                     ||..||||||||| || |.||||..||||..|||..|.|.|.||||||||
+Cygnus_atratu    808 CACACAAAATCTT-CTCCCGAGGTTTCTCAGAGTCAGGGACATGTGCAGT    856
+
+Homo_sapiens     872 CTGTACCTACAACAGTTTTTAAGGAGA--TACTGCTTGGCTGTACTGCGG    919
+                     |.||||   |||||||.|||  ||.||  .|.||||.||.|||       
+Cygnus_atratu    857 CAGTAC---CAACAGTGTTT--GGTGAAGCATTGCTAGGATGT-------    894
+
+Homo_sapiens     920 CAACTCCACCTAGTAAGGACCCAAGACAGCAAAGTACT--CCCCAGGCTG    967
+                       |||||..|||.|||.||||.|||.||.|||.|  ||  ||||.|.|.|
+Cygnus_atratu    895 --ACTCCTGCTAATAAAGACCAAAGGCATCAAGG--CTTGCCCCTGCCAG    940
+
+Homo_sapiens     968 CCAACTCTCCACCTAACCTTGGAGCAAAAATTCCTCAAGG---ATGTCAT   1014
+                     |.||||||||.||.||.|||||.|||.|||.|||||..||   |||   |
+Cygnus_atratu    941 CTAACTCTCCTCCCAATCTTGGTGCAGAAACTCCTCGGGGCACATG---T    987
+
+Homo_sapiens    1015 AAACAAAGTTTACCAGAGGAAAT--TTCTTCCTGTCTAAAT---------   1053
+                     |.||..||.||||||||  ||.|  |.||||.|||||.|||         
+Cygnus_atratu    988 AGACGGAGCTTACCAGA--AACTCATCCTTCTTGTCTTAATGCTGGAGTT   1035
+
+Homo_sapiens    1054 -------------ACAAAGTCTGA-AGC---TCTGAGAACAAAA-----C   1081
+                                  ||.||  |||| |||   ||      |||||     .
+Cygnus_atratu   1036 AAACCATCGAAGGACGAA--CTGATAGCCTTTC------CAAAAGTGACG   1077
+
+Homo_sapiens    1082 CAGATGTCT-----GCAAAGCAGGGTTGCTCTCAAAGTCCT----CTCAG   1122
+                     .|.||.|||     .||||           |.||||.||||    .||||
+Cygnus_atratu   1078 TATATATCTAAAGAACAAA-----------CGCAAAATCCTAATGATCAG   1116
+
+Homo_sapiens    1123 ATTGG-AACTGGAGAC----TTGAAAA----------TTC-----TGACT   1152
+                     |.||| ||.|  |.||    ||||.||          |||     |||||
+Cygnus_atratu   1117 AATGGTAAAT--ATACCTCTTTGACAACCTCAAGATCTTCATCTTTGACT   1164
+
+Homo_sapiens    1153 GAGCCA--------AAAGGCAGCTGTACTCAGCCTAAGACAAACACTGAT   1194
+                     ||..||        |||.|.|||      ||||.|  ||.|||   ||..
+Cygnus_atratu   1165 GATTCAGCTAACGGAAAAGAAGC------CAGCTT--GAAAAA---TGTA   1203
+
+Homo_sapiens    1195 CAGGAA-----AACAGATTGGAGTCTGTTCCACAAGCATTGACTGGCCTT   1239
+                     .|.|||     ||     ||.||     .||||||..|   |||    ||
+Cygnus_atratu   1204 AATGAACCTCTAA-----TGAAG-----CCCACAACAA---ACT----TT   1236
+
+Homo_sapiens    1240 CCTAAGGAGTGCTTACCTACAAAGGCTTCTTCTAAGGCAGAATTGGAA--   1287
+                     ||.||.||.|||.|..||.||||             ||||  |||.||  
+Cygnus_atratu   1237 CCAAAAGAATGCATCTCTGCAAA-------------GCAG--TTGCAACA   1271
+
+Homo_sapiens    1288 -------------ATTGC------------CAAT---CCTCCTGAACTGC   1309
+                                  ||.||            ||||   .||..||||||||
+Cygnus_atratu   1272 CCTTAACTCTCCCATAGCAATACCAAGAGTCAATAGCACTGTTGAACTGC   1321
+
+Homo_sapiens    1310 AGAAGCAC-CTAGAACATGCA--CCTTCCCCATCGGATG-----------   1345
+                     || ||.|| .||||  .||.|  ||.||..|.||.||||           
+Cygnus_atratu   1322 AG-AGGACTTTAGA--TTGTAGGCCCTCAACCTCCGATGCTCATCTTCTC   1368
+
+Homo_sapiens    1346 ---TTTCAAATGCACCAGAAGTGAAAGC----AGGTGTCAATAGTGATAG   1388
+                        ||||  .||...|.|.|||.|||.|    ||    |||..||.||||
+Cygnus_atratu   1369 TCTTTTC--CTGAGTCTGGAGTTAAATCGCAAAG----CAACTGTAATAG   1412
+
+Homo_sapiens    1389 CCCTAATAACTGTTCAGGAAAAAAGGTAGAACCTTCAGCTTTAGCTTGCC   1438
+                     ||..||        |||..|||||||.|..|     ||.|         |
+Cygnus_atratu   1413 CCAGAA--------CAGCCAAAAAGGAAACA-----AGAT---------C   1440
+
+Homo_sapiens    1439 GAT-----CACAGA-ATTTAAAGGAAT-CTTCAGTAAAAGTAGATAATGA   1481
+                     |||     |||||| ||     |||.| |||   ||..||.|||.|.|.|
+Cygnus_atratu   1441 GATGAACACACAGACAT-----GGAGTGCTT---TATTAGGAGAAATTCA   1482
+
+Homo_sapiens    1482 AA----GCTGTTGTTCA-AGAAGCAACAATAAAATC-------CAGAATG   1519
+                     ||    |||.||.||.| |||||..|.|||.|||.|       |.|.|.|
+Cygnus_atratu   1483 AATGAGGCTCTTTTTGAGAGAAGTGAAAATGAAAACTTTTGGACTGGAAG   1532
+
+Homo_sapiens    1520 CCCCA---TCCAGG-----------------AAGTCGGTTTTGACAGACC   1549
+                     ..|||   ||||||                 |||||..||||..||||..
+Cygnus_atratu   1533 TGCCAAGGTCCAGGATAACGTCATTGTTCGCAAGTCAATTTTAGCAGATG   1582
+
+Homo_sapiens    1550 CAGCTAAACTCAAAAAGCTGCAACAGAGTGGCGAGGCCTTCGTACAGGAT   1599
+                     |..|||||.|.||.||||||||.|||||.||.|||||.||.|||||||||
+Cygnus_atratu   1583 CTTCTAAAGTGAAGAAGCTGCAGCAGAGCGGAGAGGCGTTTGTACAGGAT   1632
+
+Homo_sapiens    1600 GATTCTTGTGTGAACATCGTGGCACAGTTGCCTAAATGCCGAGAGTGTCG   1649
+                     |..||.||....||.||||...|.||..|||.|||||||.|.||.||.||
+Cygnus_atratu   1633 GGCTCCTGCAATAATATCGCCCCTCACCTGCATAAATGCAGGGAATGCCG   1682
+
+Homo_sapiens    1650 CTTGGACAGTCTCCGCAAGGATAAGGAGCAACAGAAGGACTCACCTGTGT   1699
+                     .|||||||||..|||.|||.|.||.|   |.||||..||.||..||||.|
+Cygnus_atratu   1683 TTTGGACAGTTACCGAAAGAACAAAG---ATCAGAGAGAGTCCACTGTCT   1729
+
+Homo_sapiens    1700 TTTGCCGCTTCTTTCACTTCAGGAGGTTACAATTCAACAAACATGGTGTG   1749
+                     |.||.||.||||||||||||||.|||||.||.|||||.||.|||||..|.
+Cygnus_atratu   1730 TCTGTCGATTCTTTCACTTCAGAAGGTTGCAGTTCAATAAGCATGGGTTA   1779
+
+Homo_sapiens    1750 TTGCGGGTAGAAGGCTTCTTAACACCAAACAAGTATGACAATGAAGCAAT   1799
+                     .||||.|..||||||||||||||.||.||||||||.|||..|||.||.||
+Cygnus_atratu   1780 CTGCGTGAGGAAGGCTTCTTAACTCCGAACAAGTACGACCCTGAGGCTAT   1829
+
+Homo_sapiens    1800 TGGCTTGTGGTTACCTTTAACCAAAAACGTTGTGGGGATTGATTTGGACA   1849
+                     |.||||||||.|.||||||.|.|||||.||||||||..|.|||.|.||||
+Cygnus_atratu   1830 TAGCTTGTGGCTGCCTTTATCAAAAAATGTTGTGGGTCTGGATCTCGACA   1879
+
+Homo_sapiens    1850 CAGCAAAGTACATCTTGGCCAACATTGGAGACCACTTCTGTCAAATGGTG   1899
+                     ||||.|||||||||.|.||||||||.|||||||||||||||||..|.||.
+Cygnus_atratu   1880 CAGCGAAGTACATCCTAGCCAACATCGGAGACCACTTCTGTCAGCTAGTA   1929
+
+Homo_sapiens    1900 ATTTCTGAAAAGGAAGCTATGTCAACTATTGAGCCACACAGACAGGTTGC   1949
+                     ||.|||||||||||||.||||||.|||||.||.|||||||.||||||.||
+Cygnus_atratu   1930 ATATCTGAAAAGGAAGTTATGTCTACTATCGAACCACACAAACAGGTAGC   1979
+
+Homo_sapiens    1950 TTGGAAGCGAGCTGTCAAAGGTGTTCGAGAAATGTGTGATGTGTGCGACA   1999
+                     .||||||||.||.||....||.|||||||||||||||||.||||||||||
+Cygnus_atratu   1980 CTGGAAGCGTGCAGTTCGTGGAGTTCGAGAAATGTGTGACGTGTGCGACA   2029
+
+Homo_sapiens    2000 CCACCATCTTCAACCTGCACTGGGTGTGTCCTC--GGTGTGGGTTTGGAG   2047
+                     ||||.|||||||||||.||||||||.||  |||  .||||||.|||||.|
+Cygnus_atratu   2030 CCACAATCTTCAACCTTCACTGGGTCTG--CTCCAAGTGTGGCTTTGGTG   2077
+
+Homo_sapiens    2048 TATGTGTGGACTGCTACCGGATGAAGAGAAAGAATTGCCAACAGGGTGCT   2097
+                     |.||.||.||.||.|||.|||||||||.|||.|   ||..|||.|..|.|
+Cygnus_atratu   2078 TGTGCGTCGATTGTTACAGGATGAAGAAAAAAA---GCTTACATGAAGAT   2124
+
+Homo_sapiens    2098 GCTTAC---AAGACTTTCTCTTGGCTAAAATGTGTGAAGAGTCAGATACA   2144
+                     |.|.||   .|.||||||||.|||.|.||||||||||||.|.|||.||||
+Cygnus_atratu   2125 GATGACTCAGATACTTTCTCCTGGTTTAAATGTGTGAAGGGGCAGGTACA   2174
+
+Homo_sapiens    2145 TGAACCAGAGAACTTAATGCCCACACAGATCATTCCTGGAAAAGCACTCT   2194
+                     |||.||||||||..|||||||.|||||.||.|||||.||||||||.||||
+Cygnus_atratu   2175 TGAGCCAGAGAATCTAATGCCTACACAAATAATTCCCGGAAAAGCGCTCT   2224
+
+Homo_sapiens    2195 ATGATGTTGGAGACATTGTTCATTCTGTAAGAGCGAAATGGGGAATAAAG   2244
+                     ||||||||||.||.||||||||.|||||||||.|.|||||||||||||||
+Cygnus_atratu   2225 ATGATGTTGGTGATATTGTTCACTCTGTAAGAACAAAATGGGGAATAAAG   2274
+
+Homo_sapiens    2245 GCAAACTGCCCTTGTTCAAACAGGCAATTCAA---ACTCTTTTCAAAGCC   2291
+                     |||||.||.||.|||.||||.|.|||||||||   ||   |.||||||||
+Cygnus_atratu   2275 GCAAATTGTCCCTGTGCAAATAAGCAATTCAAGGCAC---TATCAAAGCC   2321
+
+Homo_sapiens    2292 AGCCTC-AAAGGAAGACCTAAAACAGACTTCTT--TAGCTGGAGAAAAAC   2338
+                     | .||| ||||||.||...||||||||  .|||  ||.|||||||.|   
+Cygnus_atratu   2322 A-ACTCTAAAGGAGGATTCAAAACAGA--ACTTGGTACCTGGAGAGA---   2365
+
+Homo_sapiens    2339 CGACTCTTGGTGCAGTGCTCCAGCAGAATCCCTCAGTGTTGGAGCCAGC-   2387
+                             ||..||| .||.|||||.|                 ||||| 
+Cygnus_atratu   2366 --------GGACCAG-CCTTCAGCATA-----------------CCAGCT   2389
+
+Homo_sapiens    2388 -AG--CTGTGGGTGGGGAAGCAGCCTCCAAGCCAGCCGGCAGCATGAAGC   2434
+                      ||  |||             ||||..||||.||  |..|| |||| |.|
+Cygnus_atratu   2390 TAGTCCTG-------------AGCCCACAAGTCA--CTACA-CATG-ATC   2422
+
+Homo_sapiens    2435 CTGCCTGT---------------------CCAGCCAGC----------AC   2453
+                     || |||||                     .|||.|.||          ||
+Cygnus_atratu   2423 CT-CCTGTAAAATCGACGGTTGGAAGTAAACAGGCTGCTTCAGTGAATAC   2471
+
+Homo_sapiens    2454 ATCTCCT---CTAAACTGGCTGGCCGACCTAACCAGCGGGAATGTCAACA   2500
+                     .||||||   .|||..||||||.|..|.|||||.||.||.||.||.||.|
+Cygnus_atratu   2472 TTCTCCTTCATTAAGTTGGCTGTCAAATCTAACAAGTGGAAACGTGAATA   2521
+
+Homo_sapiens    2501 AGGAAAACAAGGAAAAACAAC-CAACAATGCCAATTTTAAAGAATGAAAT   2549
+                     |.||||||||.|||||||..| |    .|.||..|||.||||||||||| 
+Cygnus_atratu   2522 AAGAAAACAAAGAAAAACTCCTC----GTACCCGTTTCAAAGAATGAAA-   2566
+
+Homo_sapiens    2550 CAAATGC--CTTCCACCCCTCCCACCTTTAAGCAAATCC-AGCACAGTCC   2596
+                      |.|.||  ||||...|.|||||...||| |||.||.|| |...|||..|
+Cygnus_atratu   2567 -ATAAGCCTCTTCAGACACTCCCTAGTTT-AGCCAAGCCTACTGCAGCTC   2614
+
+Homo_sapiens    2597 TCCATACGTTTAACAGCACAATTTTGACACCCGTAAGCAACAACAATTCT   2646
+                     |.||.||.||.|||||..||||.||.|||||.||||||||||||||..|.
+Cygnus_atratu   2615 TGCAGACATTCAACAGTGCAATATTAACACCTGTAAGCAACAACAACACA   2664
+
+Homo_sapiens    2647 GGTTTCCTCCGGAATCTCTTGAATTCTTCTACAGGAAAGACAGAAAATGG   2696
+                     ||||||.|.||||||||..|||||||||||..||||||||||||.|||||
+Cygnus_atratu   2665 GGTTTCTTGCGGAATCTTCTGAATTCTTCTGGAGGAAAGACAGACAATGG   2714
+
+Homo_sapiens    2697 ACTCAAGAATACACCAAAAATCCTTGATGACATCTTTGCCTCTTTGGTGC   2746
+                     ||||||||.||||||.|||||||||||||||||.|||||.||..||||||
+Cygnus_atratu   2715 ACTCAAGAGTACACCCAAAATCCTTGATGACATTTTTGCTTCCCTGGTGC   2764
+
+Homo_sapiens    2747 AAAATAAGACGACTT-CTGATTTATCTAAGAGGCCTCAAGGACTAACCAT   2795
+                     |||| .|||...||| |.||.||..||||||..|||||||||.|.||.||
+Cygnus_atratu   2765 AAAA-CAGAACCCTTACAGACTTGCCTAAGAAACCTCAAGGATTGACTAT   2813
+
+Homo_sapiens    2796 CAAGCCCAGCATTCTGGGCTTTGACACTCCTCACTATTGGCTTTGTGATA   2845
+                     .|||||.|..||..||||||||||.||.||||||||.|||||.|||||||
+Cygnus_atratu   2814 AAAGCCTACAATAATGGGCTTTGATACGCCTCACTACTGGCTGTGTGATA   2863
+
+Homo_sapiens    2846 ATCGCTTGCTGTG-CTTGCAAGACCCCAACAATAAGAGCAACTGGAATGT   2894
+                     |.||||||||||| ||| |||||.|||||||||.|.||.||.||||||||
+Cygnus_atratu   2864 ACCGCTTGCTGTGTCTT-CAAGATCCCAACAATGAAAGTAATTGGAATGT   2912
+
+Homo_sapiens    2895 GTTTAGGGAGTGCTGGAAACAAGGGCAGCCAGTGATGGTGTCTGGAGTGC   2944
+                     .||.||||||||||||||.||.||.|||||.||.||||||||.|||||||
+Cygnus_atratu   2913 CTTCAGGGAGTGCTGGAAGCAGGGACAGCCTGTAATGGTGTCGGGAGTGC   2962
+
+Homo_sapiens    2945 ATCATAAATTGAACTCTGAACTTTGGAAACCTGAATCCTTCAGGAAAGAG   2994
+                     ||||.||..|.||..|.||.||.||||.|||.||.|||||.|||||.||.
+Cygnus_atratu   2963 ATCACAAGCTAAATGCAGACCTCTGGAGACCAGAGTCCTTTAGGAAGGAA   3012
+
+Homo_sapiens    2995 TTTGGTGAGCAGGAAGTAGACCTAGTTAATTGTAGGACCAATGAAATCAT   3044
+                     |||||..|.|||||||||||.||.|||||.||.||||||||.||||||||
+Cygnus_atratu   3013 TTTGGCCAACAGGAAGTAGATCTGGTTAACTGCAGGACCAACGAAATCAT   3062
+
+Homo_sapiens    3045 CACAGGAGCCACAGTAGGAGACTTCTGGGATGGATTTGAAGATGTTCCAA   3094
+                     |||.||.||.||.|||||.||.||||||||||||||||||||..||.|||
+Cygnus_atratu   3063 CACTGGCGCTACTGTAGGGGATTTCTGGGATGGATTTGAAGACATTTCAA   3112
+
+Homo_sapiens    3095 ATCGTTTGAAAA---ATGAAAAAGAACCAATGGTGTTGAAACTTAAGGAC   3141
+                     .||||.|||.||   |.|||..|||.||.|||||||||||.|||||.|||
+Cygnus_atratu   3113 GTCGTCTGAGAACAGAAGAAGGAGAGCCTATGGTGTTGAAGCTTAAAGAC   3162
+
+Homo_sapiens    3142 TGGCCACCAGGAGAAGATTTTAGAGATATGATGCCTTCCAGGTTTGATGA   3191
+                     |||||.|||||||||||.||.|||||.|||||||||||..||||||||||
+Cygnus_atratu   3163 TGGCCTCCAGGAGAAGACTTCAGAGACATGATGCCTTCTCGGTTTGATGA   3212
+
+Homo_sapiens    3192 TCTGATGGCCAACATTCCACTGCCCGAGTACACAAGGCGAGATGGCAAAC   3241
+                     |.|||||...||.||||||.||||.||.|||||.|||.|||..|||||.|
+Cygnus_atratu   3213 TTTGATGAAAAATATTCCATTGCCAGAATACACTAGGAGAGGCGGCAAGC   3262
+
+Homo_sapiens    3242 TGAATTTGGCCTCTAGGCTGCCAAACTACTTTGTTCGGCCAGATCTGGGC   3291
+                     |.||..|.||.|||.|.||.||.|||||||||||.||.||||||.|||||
+Cygnus_atratu   3263 TCAACCTTGCTTCTCGCCTTCCCAACTACTTTGTACGACCAGATTTGGGC   3312
+
+Homo_sapiens    3292 CCCAAGATGTATAATGCTTATGGATTAATCACTCCTGAAGATCGGAAATA   3341
+                     |||||||||||.|||||.||.||.|||||.||.||.||||||.|.|||||
+Cygnus_atratu   3313 CCCAAGATGTACAATGCATACGGCTTAATAACGCCAGAAGATAGAAAATA   3362
+
+Homo_sapiens    3342 TGGAACAACAAATCTTCACTTAGATGTATCTGATGCAGCTAATGTCATGG   3391
+                     |||.||.||||||||.||.||||||||.||||||||||||||.||.||||
+Cygnus_atratu   3363 TGGCACGACAAATCTCCATTTAGATGTGTCTGATGCAGCTAACGTTATGG   3412
+
+Homo_sapiens    3392 TCTATGTGGGAATTCCCAAAGGACAGTGTGAGCAAGAAGAAGAAGTCCTT   3441
+                     |.||||||||.||.||||||||.|||..|||.||||||||||||||.|||
+Cygnus_atratu   3413 TTTATGTGGGTATCCCCAAAGGGCAGGCTGATCAAGAAGAAGAAGTGCTT   3462
+
+Homo_sapiens    3442 AAGACCATCCAAGATGGAGATTCTGACGAACTCACAATAAAGCGATTTAT   3491
+                     ||.|||||.|||||.||.||||||||.|||||.|||||.|||||.||.|.
+Cygnus_atratu   3463 AAAACCATACAAGACGGTGATTCTGATGAACTGACAATTAAGCGTTTCAC   3512
+
+Homo_sapiens    3492 TGAAGGAAAAGAGAAGCCAGGAGCACTGTGGCACATATATGCTGCAAAGG   3541
+                     ||||.|...|||.||.||.|||||.|||||||||||.||||||||.||.|
+Cygnus_atratu   3513 TGAAAGTCGAGAAAAACCTGGAGCTCTGTGGCACATTTATGCTGCTAAAG   3562
+
+Homo_sapiens    3542 ACACGGAGAAGATAAGGGAATTTCTTAAAAAGGTATCAGAAGAGCAAGGT   3591
+                     |.||.||||||||..|||||||.|||||||||||..|.|||||.||||||
+Cygnus_atratu   3563 ATACAGAGAAGATCCGGGAATTCCTTAAAAAGGTTGCTGAAGAACAAGGT   3612
+
+Homo_sapiens    3592 CAAGAAAACCCAGCAGACCACGATCCTATTCATGATCAAAGCTGGTATTT   3641
+                     ||||||||.||.|..||.|||||||||||||||||||||||.|||||.||
+Cygnus_atratu   3613 CAAGAAAATCCTGTCGATCACGATCCTATTCATGATCAAAGTTGGTACTT   3662
+
+Homo_sapiens    3642 AGACCGATCATTAAGAAAACGTCTTCATCAAGAGTATGGAGTTCAAGGCT   3691
+                     .|||.||||..||||||||||.|||||.||.|||||||||||||||||||
+Cygnus_atratu   3663 GGACAGATCTCTAAGAAAACGCCTTCACCAGGAGTATGGAGTTCAAGGCT   3712
+
+Homo_sapiens    3692 GGGCTATTGTACAGTTTCTTGGGGATGTGGTGTTTATCCCGGCAGGAGCT   3741
+                     |||||||||||||||||||.||.|||||.||.||.||.||.|||||||||
+Cygnus_atratu   3713 GGGCTATTGTACAGTTTCTAGGAGATGTAGTTTTCATTCCAGCAGGAGCT   3762
+
+Homo_sapiens    3742 CCACATCAGGTTCATAACTTATATAGCTGCATCAAAGTGGCTGAAGATTT   3791
+                     |||||.||||||||||||||.||.||.||.||.|||||.||.|||||.||
+Cygnus_atratu   3763 CCACACCAGGTTCATAACTTGTACAGTTGTATTAAAGTTGCAGAAGACTT   3812
+
+Homo_sapiens    3792 TGTTTCTCCAGAGCATGTTAAACACTGCTTCTGGCTTACTCAGGAATTCC   3841
+                     |||.||.||||||||.||.||.||.|||||||||||.|||||||||||..
+Cygnus_atratu   3813 TGTATCCCCAGAGCACGTCAAGCATTGCTTCTGGCTCACTCAGGAATTTA   3862
+
+Homo_sapiens    3842 GATATCTGTCACAGACTCATACCAATCACGAAGATAAATTACAGGTGAAG   3891
+                     |||||||||||||.||.|||||.||.||||||||||||||.|||||||||
+Cygnus_atratu   3863 GATATCTGTCACACACACATACAAACCACGAAGATAAATTGCAGGTGAAG   3912
+
+Homo_sapiens    3892 AATGTTATCTACCATGCAGTGAAAGATGCAGTTGCTATGCTGAAAGCCAG   3941
+                     |||||.||.|||||.||.||.|||||||||||||..||.||||.|||.|.
+Cygnus_atratu   3913 AATGTCATATACCACGCGGTTAAAGATGCAGTTGGGATACTGAGAGCGAA   3962
+
+Homo_sapiens    3942 TGAATCCAGTTTTGGCAAACCT   3963
+                     .||||||||..||.|||.|||.
+Cygnus_atratu   3963 CGAATCCAGCCTTAGCAGACCA   3984
+
+
+#---------------------------------------
+#---------------------------------------

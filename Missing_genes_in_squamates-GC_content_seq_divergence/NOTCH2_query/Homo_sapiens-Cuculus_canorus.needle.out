@@ -1,0 +1,650 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:46:24
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Cuculus_canorus.fa
+#    -outfile Homo_sapiens-Cuculus_canorus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Cuculus_canorus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Cuculus_canorus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7653
+# Identity:    5514/7653 (72.1%)
+# Similarity:  5514/7653 (72.1%)
+# Gaps:         597/7653 ( 7.8%)
+# Score: 19726.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT-GCCCGCCCTGCG---------------CCCCGCTCTGCTGTGGGCGC     34
+                     || |||.||.|||||               .|||||.|       .||||
+Cuculus_canor      1 ATGGCCGGCGCTGCGGGGGCAGCGCTTGCCGCCCGCAC-------CGCGC     43
+
+Homo_sapiens      35 TGCTGGCGCTCTGGCTGTGCT-----GCGCGGCCCCCGCGCATGCATTGC     79
+                     |||||     |||||.|||||     ||||.|.|.|||||...||.||||
+Cuculus_canor     44 TGCTG-----CTGGCCGTGCTCAGCCGCGCCGACACCGCGGCCGCTTTGC     88
+
+Homo_sapiens      80 AGTGTCGAGATGGCTATGA------ACCCTGTGTAAATGAAGGAATGTGT    123
+                     |||||    ||||  ||||      .||.|||||.|||||.||||.|||.
+Cuculus_canor     89 AGTGT----ATGG--ATGATTCCAGGCCATGTGTTAATGAGGGAAAGTGC    132
+
+Homo_sapiens     124 GTTACCTACCACAATGGCACAGGATACTGCAAATGTCCAGAAGGC-TTCT    172
+                     .||.|.||.||.|||||.||||||||.|||||.||||.||||||| ||||
+Cuculus_canor    133 ATTCCATATCAAAATGGTACAGGATATTGCAAGTGTCGAGAAGGCTTTCT    182
+
+Homo_sapiens     173 TGGGGGAATATTGTCA--ACATCGAGACCCCTGTGAGAAG-AACCGCTGC    219
+                     | ||.||.||.||.||  |||  ||.|||||||||| ||| ||...|||.
+Cuculus_canor    183 T-GGAGACTACTGCCAGTACA--GAAACCCCTGTGA-AAGCAATACCTGT    228
+
+Homo_sapiens     220 CAGAATGGTGGGACTTGTGTGGCCCAGGCCATG---CTG--GGGAAAGCC    264
+                     .||||.||.||.|||||||      |..|.|.|   |||  .||||||||
+Cuculus_canor    229 AAGAACGGGGGAACTTGTG------AAACTACGTCTCTGATCGGAAAGCC    272
+
+Homo_sapiens     265 -ACGTGCCGATGTGCCTCAGGGTTTACAGGAGAGGACTGCCAGTACTCAA    313
+                      ||.|||.|||||||..|.|||||.||.||||||||.||.||||||||..
+Cuculus_canor    273 TACCTGCAGATGTGCTCCGGGGTTCACGGGAGAGGATTGTCAGTACTCTG    322
+
+Homo_sapiens     314 CATCTCA--TCCATGCTTTGTGTCTCGACCCTGCCTGAATGGCGGCACAT    361
+                     .|||.||  ||  ||||...||||.|..|||||||||||.||.||.||.|
+Cuculus_canor    323 AATCACACGTC--TGCTACATGTCCCAGCCCTGCCTGAACGGAGGAACTT    370
+
+Homo_sapiens     362 GCCATATGCTCAGCCGGGATACCTATGAGTGCACCTGTCAAGTC--GGGT    409
+                     |.|||...|.|||||.|||.||.||||||||...|||||  .||  ||.|
+Cuculus_canor    371 GTCATCCCCACAGCCAGGAAACTTATGAGTGTGTCTGTC--CTCCAGGTT    418
+
+Homo_sapiens     410 TTACAGGTAAGGAGTGCCAATGGACGGATGCCTGCCTGTCTCATCCCTGT    459
+                     ..|||||.|||||.|||||.||||..|||||||||...|||||.||.|||
+Cuculus_canor    419 ACACAGGAAAGGACTGCCAGTGGATTGATGCCTGCACATCTCAACCTTGT    468
+
+Homo_sapiens     460 GCAAATGGAAGTACCTGTACCACTG----TGGCCAACCAGTTCTCCTGCA    505
+                     ||.|||||||||||.|||   ||||    ||| .||..||||||||||||
+Cuculus_canor    469 GCTAATGGAAGTACATGT---ACTGTATCTGG-AAATAAGTTCTCCTGCA    514
+
+Homo_sapiens     506 AATGCCTCACAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCAATGAG    555
+                     ..||.|||.|.||||.|||.||.||||..||.||||..|||||.|||||.
+Cuculus_canor    515 TCTGTCTCTCTGGCTACACTGGCCAGAGGTGCGAGATAGATGTGAATGAA    564
+
+Homo_sapiens     556 TGTG--ACATTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAACCTG    603
+                     ||||  |||  |||||.|..||||||||||||||.||.||..||||.|||
+Cuculus_canor    565 TGTGCTACA--CCAGGCCTTTGCCAGCATGGTGGGACTTGTATCAATCTG    612
+
+Homo_sapiens     604 CCTGGTTCCTACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTACTG    653
+                     ||||||||.||||..|||||||||...|..||||..|||||.||...|||
+Cuculus_canor    613 CCTGGTTCATACCGATGCCAGTGCAAGCCAGGCTATACAGGACATCGCTG    662
+
+Homo_sapiens     654 TGACAGCCTGTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAGGCA    703
+                     |||.|||.||||||||||.|||.|.||.|||||.|||.|.||||||||.|
+Cuculus_canor    663 TGAAAGCGTGTATGTGCCGTGTTCCCCATCACCCTGTTTGAATGGAGGAA    712
+
+Homo_sapiens     704 CCTGTCGGCAGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCAGGT    753
+                     |.|||||.||.||..||||||||||.|||||||||||||||.|.||||||
+Cuculus_canor    713 CGTGTCGTCAAACAAGTGACTTCACCTTTGAGTGCAACTGCTTGCCAGGT    762
+
+Homo_sapiens     754 TTTGAAGGGAGCACCTGTGAGAGGAATATTGATGACTGCCCTAACCACAG    803
+                     |||||.||||.||.|||||.|...||..|||||||||||||.||.||||.
+Cuculus_canor    763 TTTGAGGGGAACATCTGTGGGCACAACGTTGATGACTGCCCAAATCACAA    812
+
+Homo_sapiens     804 GTGTCAGAATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAACTGCC    853
+                     .||.||.|||||.||..|.||||||||.||.||.|||||.|||||.||||
+Cuculus_canor    813 CTGCCAAAATGGGGGCATATGTGTGGACGGTGTGAACACGTACAATTGCC    862
+
+Homo_sapiens     854 GCTGTCCCCCACAATGGACAGGACAGTTCTGCACAGAGGATGTGGATGAA    903
+                     ||||.||.||||||||||||||.|||||.|||||.||.|||||.||||||
+Cuculus_canor    863 GCTGCCCACCACAATGGACAGGCCAGTTTTGCACTGAAGATGTTGATGAA    912
+
+Homo_sapiens     904 TGCCTGCTGCAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAACCG    953
+                     ||.|..||.||||||||.||.|||||.|||||.||.|||||..||||||.
+Cuculus_canor    913 TGTCAACTCCAGCCCAACGCTTGTCAGAATGGAGGTACCTGCACCAACCA    962
+
+Homo_sapiens     954 CAATGGAGGCTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATGACT   1003
+                     ||||||||||||||.||||||.||||||||.||.|||||.||.||.||||
+Cuculus_canor    963 CAATGGAGGCTATGCCTGTGTCTGTGTCAATGGTTGGAGCGGGGACGACT   1012
+
+Homo_sapiens    1004 GCAGTGAGAACATTGATGATTGTGCCTTCGCCTCCTGTACTCCAGGCTCC   1053
+                     |||||.|||||||||||||.||.|.|...|||||||||.||...||.||.
+Cuculus_canor   1013 GCAGTAAGAACATTGATGACTGCGTCAGTGCCTCCTGTGCTAATGGATCT   1062
+
+Homo_sapiens    1054 ACCTGCATCGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAA   1103
+                     ||.|||||.|||||.||||||||.||.||.|||||.||.|||||.||.||
+Cuculus_canor   1063 ACTTGCATTGACCGGGTGGCCTCTTTTTCATGCATTTGTCCAGAAGGAAA   1112
+
+Homo_sapiens    1104 GGCAGGTCTCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGCC   1153
+                     |||||||||.||.||.||..|||||||||||||..||||||||||.||||
+Cuculus_canor   1113 GGCAGGTCTTCTTTGCCACTTGGATGATGCATGTGTCAGCAATCCATGCC   1162
+
+Homo_sapiens    1154 ACAAGGGGGCACTGTGTGACACCAACCCCCTAAATGGGCAATATATTTGC   1203
+                     |.|||||.||.||||||||||||||.||..|.||.||.||.|||||.|||
+Cuculus_canor   1163 AGAAGGGTGCTCTGTGTGACACCAATCCTGTGAACGGACACTATATCTGC   1212
+
+Homo_sapiens    1204 ACCTGCCCACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGA   1253
+                     |||||.||.||.|||.|.||.||.||.||||||||.||.|||||||||||
+Cuculus_canor   1213 ACCTGTCCTCAGGGCCATAAGGGAGCAGACTGCACTGAGGATGTGGATGA   1262
+
+Homo_sapiens    1254 ATGTGCCATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGA   1303
+                     ||||||||||||.|||||||||||.|||||||||||.|||||||||||.|
+Cuculus_canor   1263 ATGTGCCATGGCAAATAGCAATCCATGTGAGCATGCCGGAAAATGTGTAA   1312
+
+Homo_sapiens    1304 ACACGGATGGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCT   1353
+                     |.||.||.|||.|.||.||||||||||||.|||||||.||..||||||||
+Cuculus_canor   1313 ATACAGAAGGCTCTTTTCACTGTGAGTGTTTGAAGGGCTACACAGGACCT   1362
+
+Homo_sapiens    1354 CGTTGTGAGATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGA   1403
+                     ||.|||||.|||||.||||||||.|||||||||.|.||.|||||.||.||
+Cuculus_canor   1363 CGCTGTGAAATGGATATCAATGAATGCCATTCAAATCCATGCCAAAACGA   1412
+
+Homo_sapiens    1404 TGCTACCTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAG   1453
+                     |||.|||||.||||||||.||||||||.||||||||||||||.|||||||
+Cuculus_canor   1413 TGCCACCTGCCTGGATAAAATTGGAGGATTCACATGTCTGTGTATGCCAG   1462
+
+Homo_sapiens    1454 GTTTCAAAGGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAAC   1503
+                     ||||.||||||||.||.||||||...||.||..|||||||||.|||.||.
+Cuculus_canor   1463 GTTTTAAAGGTGTTCACTGTGAAGAGGATATTGATGAATGTCTGAGTAAT   1512
+
+Homo_sapiens    1504 CCTTGTGTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCAGTG   1553
+                     ||.|||||||||||.||..|||||.|.|||||||||||.||.||||..||
+Cuculus_canor   1513 CCCTGTGTGAACAACGGAGAGTGTCTTGATAAAGTCAACCGCTTCCTCTG   1562
+
+Homo_sapiens    1554 CCTGTGTCCTCCTGGTTTCACTGG-GCCAGTTTGCCAGATTGATATTGAT   1602
+                     ..|.|||||||||||.||||.||| ||| ||.||.||||||||.||.|||
+Cuculus_canor   1563 TATCTGTCCTCCTGGATTCAGTGGTGCC-GTGTGTCAGATTGACATAGAT   1611
+
+Homo_sapiens    1603 GACTGTTCCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCC   1652
+                     |||||.|||||.||.||||||||.|||||.||.||.|||||.||.|||||
+Cuculus_canor   1612 GACTGCTCCAGCACGCCGTGTCTCAATGGAGCCAAATGTATTGACCACCC   1661
+
+Homo_sapiens    1653 GAATGGCTATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTG   1702
+                     .||.||||||||.||||||||||||||||||||.|||||..|..||||||
+Cuculus_canor   1662 CAACGGCTATGAGTGCCAGTGTGCCACAGGTTTTACTGGCATCCTGTGTG   1711
+
+Homo_sapiens    1703 AGGAGAACATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGT   1752
+                     |||||||.||..||||||||||.||.||||||||||||||.||..|.|||
+Cuculus_canor   1712 AGGAGAATATCAACAACTGTGATCCTGATCCTTGCCACCACGGGGAATGT   1761
+
+Homo_sapiens    1753 CAGGATGGTATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGG   1802
+                     ||.|||||.||||||||.|||||.||.||.||||||||.||.||||||||
+Cuculus_canor   1762 CAAGATGGCATTGATTCGTACACGTGTATATGCAATCCTGGCTACATGGG   1811
+
+Homo_sapiens    1803 CGCCATCTGCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGA   1852
+                     .|||||.||||||||.|||||.||||||||..||||||..||||||||..
+Cuculus_canor   1812 TGCCATATGCAGTGAGCAGATAGATGAATGCCACAGCAATCCTTGCCTCC   1861
+
+Homo_sapiens    1853 ACGATGGTCGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAG   1902
+                     |..|.||.|||||||||||..||||.|||.||||||||||||.|||...|
+Cuculus_canor   1862 ATCAAGGGCGCTGCATTGATTTGGTGAATCGCTACCAGTGCATCTGTTTG   1911
+
+Homo_sapiens    1903 CCAGGCACGTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAG   1952
+                     ||.|||||.|||||..|.||.|||||||..||.||||||||||||||.||
+Cuculus_canor   1912 CCGGGCACTTCAGGAATGAACTGTGAAAACAACTTTGATGACTGTGCGAG   1961
+
+Homo_sapiens    1953 TAACCCTTGTATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTT   2002
+                     ||||||.||.||.|||||...|||.||.|||||||||||||||||||.||
+Cuculus_canor   1962 TAACCCATGCATTCATGGGGACTGCATTGATGGCATTAATCGCTACAATT   2011
+
+Homo_sapiens    2003 GTGTCTGCTCACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGAT   2052
+                     |||..|||..|||.|||||.|||||.|.|.|.|||||..|.|||||||||
+Cuculus_canor   2012 GTGCTTGCAAACCTGGATTTACAGGCCCGCGCTGTAATGTGGACATTGAT   2061
+
+Homo_sapiens    2053 GAGTGTGCCTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGT   2102
+                     ||.||..|.|||||.|||||||..||.||||.|||||||.|.||.|..||
+Cuculus_canor   2062 GAATGCACATCCAACCCCTGTCATAATGGTGGAACATGTGTAAATGAAGT   2111
+
+Homo_sapiens    2103 GAATGGTTTCCGCTGTATATGCCCCGAGGGACCCCATCACCC-CAGCTGC   2151
+                     .|||||.||.||.|||.||||.||.||.||...||||||||| || |||.
+Cuculus_canor   2112 CAATGGCTTTCGGTGTGTATGTCCTGAAGGTTACCATCACCCTCA-CTGT   2160
+
+Homo_sapiens    2152 TACTCACAGGTGAACGAATGCCTG----AGCAATCCCTGCATCCATGGAA   2197
+                     .|.|||.|||    ||.|||.|||    ||.||||||||..|.|||||.|
+Cuculus_canor   2161 CAGTCAGAGG----CGGATGGCTGTCTTAGTAATCCCTGTGTACATGGCA   2206
+
+Homo_sapiens    2198 ACTGTAC-----TGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAG   2242
+                     |.|||||     |     |..||||||.||.||||||.||||.||..|.|
+Cuculus_canor   2207 ATTGTACACACAT-----TACCAGTGGGTACAAGTGTGTCTGCGACCCGG   2251
+
+Homo_sapiens    2243 GCTGGGTTGG-CATCAACTGTGAAGTGGACAAAAATGAATGCCTTTCGAA   2291
+                     |||||.|.|| .|| .|||||..||..||..|.||.|||||....||.||
+Cuculus_canor   2252 GCTGGATCGGAGAT-TACTGTTCAGCAGAAGAGAACGAATGTAAATCAAA   2300
+
+Homo_sapiens    2292 TCCATGCCAGAATGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGT   2341
+                     .||||||||||||||||||||||||||..|||||.||||||||||.||||
+Cuculus_canor   2301 CCCATGCCAGAATGGAGGAACTTGTGAGGATCTGTTGAATGGATATAGGT   2350
+
+Homo_sapiens    2342 GTACTTGCAAGAAGGGCTTTAAAGGCTAT-AACTGCCAGGTGAATATTGA   2390
+                     ||||.||.|.|||.||.||.||||| |.| |||||||||||         
+Cuculus_canor   2351 GTACCTGTAGGAAAGGATTCAAAGG-TGTGAACTGCCAGGT---------   2390
+
+Homo_sapiens    2391 TGAATGTGCCTCAAATCCATGCCTGAACCAAGGAACCTGCTTTGATGACA   2440
+                                                                       
+Cuculus_canor   2390 --------------------------------------------------   2390
+
+Homo_sapiens    2441 TAAGTGGCTACACTTGCCACTGTGTGCTGCCATACACAGGCAAGAATTGT   2490
+                       |||||                                           
+Cuculus_canor   2391 --AGTGG-------------------------------------------   2395
+
+Homo_sapiens    2491 CAGACAGTATTGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGT   2540
+                               |.|||||.||||||||..|.|||||||||||..|.|...|
+Cuculus_canor   2396 ----------TTGCTCCTTGTTCCCCGGATCCTTGTGAGAACTCAGGAAT   2435
+
+Homo_sapiens    2541 TTGCAAAGAGTCACCAAATTTTGAGAGTTATACTTGCTTGTGTGCTCCTG   2590
+                     ||||.||||.||.||..|.|.|||..|.||.||.|||..|||.||.||||
+Cuculus_canor   2436 TTGCCAAGAATCTCCTGACTCTGAAGGCTACACCTGCCAGTGCGCCCCTG   2485
+
+Homo_sapiens    2591 GCTGGCAAGGTCAGCGGTGTACCATTGACATTGACGAGTGTATCTCCAAG   2640
+                     |||||.||||..||.|.|||||..|.||.|||||.||||||.|.||.|||
+Cuculus_canor   2486 GCTGGGAAGGGGAGAGATGTACAGTGGATATTGATGAGTGTCTTTCAAAG   2535
+
+Homo_sapiens    2641 CCCTGCATGAACCATGGTCTCTGCCATAACACCCAGGGCAGCTACATGTG   2690
+                     |||||||..||.||||.|.|.||||||||.|..||.|||||.|||.||||
+Cuculus_canor   2536 CCCTGCAAAAATCATGCTATGTGCCATAATATTCAAGGCAGTTACCTGTG   2585
+
+Homo_sapiens    2691 TGAATGTCCACCAGGCTTCAGTGGTATG-GACTGTG--AGGAGGACATTG   2737
+                     ||||||||..||||||||||..|| |.| ||.||||  ||.|  ||||..
+Cuculus_canor   2586 TGAATGTCGGCCAGGCTTCACCGG-AGGCGATTGTGACAGTA--ACATCA   2632
+
+Homo_sapiens    2738 ATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTATGGATGGA   2787
+                     ||||.||||||.|.|||||.||.||.|||||||.|||.||.||.||||||
+Cuculus_canor   2633 ATGATTGCCTTTCAAATCCCTGTCAAAATGGAGCTTCATGCATAGATGGA   2682
+
+Homo_sapiens    2788 GTGAATACTTTCTCCTGCCTCTGCCTTCC-GGGTTTCACTGGGGATAAGT   2836
+                     .|.||..|||||||.|||.|||||||.|| ||.||||| |||.|||||.|
+Cuculus_canor   2683 ATAAACTCTTTCTCGTGCATCTGCCTACCTGGTTTTCA-TGGAGATAAAT   2731
+
+Homo_sapiens    2837 GCCAGACAGACATGAATGAGTGTCTGAGTGAACCCTGTAAGAATGGAGGG   2886
+                     |.||.|||||.|..|||||.||||||||||||||.||.|.|||||||||.
+Cuculus_canor   2732 GTCAAACAGATACCAATGAATGTCTGAGTGAACCGTGCAGGAATGGAGGC   2781
+
+Homo_sapiens    2887 ACCTGCTCTGACTACGTCAACAGTTACACTTGCAAGTG-CCAGGCAGGAT   2935
+                     ||.||..|..|||||||||||||.|||||.||||.||| ||| .|.||||
+Cuculus_canor   2782 ACGTGTACCCACTACGTCAACAGCTACACATGCAGGTGTCCA-CCTGGAT   2830
+
+Homo_sapiens    2936 TTGATGGAGTCCATTGTGAGAACAACATCAATGAGTGCACTGAGAGCTCC   2985
+                     ||.|.|||..|.|.||.|||.||||||||.||||.|||||||||||||||
+Cuculus_canor   2831 TTCAGGGAACCAACTGCGAGTACAACATCGATGAATGCACTGAGAGCTCC   2880
+
+Homo_sapiens    2986 TGTTTCAATGGTGGCACATGTGTTGATGGGATTAACTCCTTCTCTTGCTT   3035
+                     |||||||||||.|||||.|||||.||||||||.||.||||||.|||||..
+Cuculus_canor   2881 TGTTTCAATGGAGGCACTTGTGTGGATGGGATCAATTCCTTCACTTGCCA   2930
+
+Homo_sapiens    3036 GTGCCCTGTGGGTTTCACTGGATCCTTCTGCCTCCATGAGATCAATGAAT   3085
+                     |||.||..||||.||.||.|||.|||||||||||...||.||.|||||.|
+Cuculus_canor   2931 GTGTCCGCTGGGGTTTACAGGACCCTTCTGCCTCACGGAAATTAATGAGT   2980
+
+Homo_sapiens    3086 GCAGCTCTCATCCATGCCTGAATGAGGGAACGTGTGTTGATGGCCTGGGT   3135
+                     |....||.|||||.|||.||||..|.||..|.||....||..||||.||.
+Cuculus_canor   2981 GTGATTCACATCCTTGCTTGAACAAAGGCTCTTGCACAGACAGCCTAGGC   3030
+
+Homo_sapiens    3136 ACCTACCGCTGCAGCTGCCCCCTGGGCTACACTGGGAAAAACTGTCAGAC   3185
+                     ||.|||||.||.|.|||.||..||||.|||||||||||.|||||.|||.|
+Cuculus_canor   3031 ACATACCGATGTATCTGTCCTTTGGGTTACACTGGGAAGAACTGCCAGGC   3080
+
+Homo_sapiens    3186 CCTGGTGAATCTCTGCAGTCGGTCTCCATGTAAAAACAAAGGTACTTGCG   3235
+                     .||..||.||||.|||||...||||||.|||||.||.|||||.||.||.|
+Cuculus_canor   3081 TCTTATGGATCTGTGCAGCAAGTCTCCCTGTAAGAATAAAGGCACGTGTG   3130
+
+Homo_sapiens    3236 TTCAGAAAAAAGCAGAGTCCCAGTGCCTATGTCCATCTGGATGGGCTGGT   3285
+                     |.||||....|||..||.|.||.|||.|.||.|||||.||.|||.||||.
+Cuculus_canor   3131 TCCAGAGTGGAGCCCAGACTCAATGCGTCTGCCCATCCGGCTGGACTGGG   3180
+
+Homo_sapiens    3286 GCCTATTGTGACGTGCCCAATGTCTCTTGTGACATAGCAGCCTC---CAG   3332
+                     ||.||.|||||.||||||||||||||.|||.|..|.|||||.||   .||
+Cuculus_canor   3181 GCTTACTGTGATGTGCCCAATGTCTCGTGTCAAGTGGCAGCTTCACAAAG   3230
+
+Homo_sapiens    3333 GAGAGGTGTGCTT---GTTGAACACTTGTGCCAGCACTCAGGTGTCTGCA   3379
+                     |.|||      ||   ||.||.||.||||||||||||||.|||...|||.
+Cuculus_canor   3231 GGGAG------TTACAGTGGACCAGTTGTGCCAGCACTCTGGTCATTGCT   3274
+
+Homo_sapiens    3380 TCAATGCTGGCAACACGCATTACTGTCAGTGCCCCCTGGGCTATACTGGG   3429
+                     |||.||.|||.|||||.||..||||.|||||||...|.||.||.|||||.
+Cuculus_canor   3275 TCAGTGTTGGAAACACACACCACTGCCAGTGCCAGGTAGGTTACACTGGC   3324
+
+Homo_sapiens    3430 AGCTACTGTGAGGAGCAACTCGATGAGTGTGCGTCCAACCCCTGCCAGCA   3479
+                     ||.||.|||||||.|||.||..|||||||.|..||||.||||||||||.|
+Cuculus_canor   3325 AGTTATTGTGAGGTGCAGCTGAATGAGTGCGACTCCAGCCCCTGCCAGAA   3374
+
+Homo_sapiens    3480 CGGGGCAACATGCAGTGACTTCA--TTGGTGGATA-CAGATGCGAGTGTG   3526
+                     .||.||.||.|||.|.||  |||  |.|||||||| ||| |||.||||||
+Cuculus_canor   3375 TGGCGCTACCTGCCGGGA--TCACCTGGGTGGATACCAG-TGCAAGTGTG   3421
+
+Homo_sapiens    3527 TCCCAGGCTATCAGGGTGTCAACTGTGAGTATGAAGTGGATGAGTGCCAG   3576
+                     |.||.||.||.|||||||||||||||||.|||||||||||||||||||||
+Cuculus_canor   3422 TGCCTGGATACCAGGGTGTCAACTGTGAATATGAAGTGGATGAGTGCCAG   3471
+
+Homo_sapiens    3577 AATCAGCCCTGCCAGAATGGAGGCACCTGTATTGACCTTGTGAACCATTT   3626
+                     ..|||||||||||||||||||||.||.|||||.|||||.||.||||.|||
+Cuculus_canor   3472 TTTCAGCCCTGCCAGAATGGAGGAACGTGTATAGACCTCGTCAACCGTTT   3521
+
+Homo_sapiens    3627 CAAGTGCTCTTGCCCACCAGGCACTCGGGGCCTACTCTGTGAAGAGAACA   3676
+                     |||.|||||.||.||||||||.|||.||||||...|||||||.||||||.
+Cuculus_canor   3522 CAAATGCTCCTGTCCACCAGGAACTTGGGGCCGTTTCTGTGAGGAGAACG   3571
+
+Homo_sapiens    3677 TTGATGACTGTG---------CCCGGGGTCCCCATTGCCTTAATGGTGGT   3717
+                     ||||||||||||         |..|.|..||||..|||.|||||||.||.
+Cuculus_canor   3572 TTGATGACTGTGTTTCAGACTCAGGAGCACCCCGCTGCTTTAATGGAGGG   3621
+
+Homo_sapiens    3718 CAGTGCATGGATAGGATTGGAGGCTACAGTTGTCGCTGCTTG----CCTG   3763
+                     ||||||||.||...|||.||.||||||||.||||    .|||    ||.|
+Cuculus_canor   3622 CAGTGCATCGACCAGATCGGGGGCTACAGCTGTC----TTTGTCCCCCAG   3667
+
+Homo_sapiens    3764 GCTTTGCTGGGGAGCGTTGTGAGGGAGACATCAACGAGTGCCTCTCCAAC   3813
+                     |||||||.||.|||||.||.||||||||.||.|||||.||||||||.|..
+Cuculus_canor   3668 GCTTTGCAGGCGAGCGATGCGAGGGAGATATAAACGAATGCCTCTCTAGT   3717
+
+Homo_sapiens    3814 CCCTGCAGCTCTGAGGGCAGCCTGGACTGTATACAGCTCACCAATGACTA   3863
+                     ||.||.|.|.||...||.||.|||||||||.|.||.||.|..|||||.||
+Cuculus_canor   3718 CCTTGTAACCCTCGTGGAAGTCTGGACTGTGTTCAACTGATAAATGATTA   3767
+
+Homo_sapiens    3864 CCTGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCACTGTGAAACCTTCG   3913
+                     |..|||..|.||.||||||||.||||||||.||.||||||||.|.|.|..
+Cuculus_canor   3768 CAAGTGCATCTGTCGTAGTGCTTTTACTGGTCGTCACTGTGAGAGCGTGA   3817
+
+Homo_sapiens    3914 TCGATGTGTGTCCCCAGATGCCCTGCCTGAATGGAGGGACTTGTGCTGTG   3963
+                     |.|||||||||||||.||.|||.||.|.|||.|||||.||.||||||||.
+Cuculus_canor   3818 TAGATGTGTGTCCCCGGAAGCCTTGTCAGAACGGAGGTACCTGTGCTGTT   3867
+
+Homo_sapiens    3964 GCCAGTAACATGCCTGATGGTTTCATTTGCCGTTGTCCCCCGGGATTTTC   4013
+                     |||||.||.|||||.|||||.|||||.||||..|||||.||.||.|.|||
+Cuculus_canor   3868 GCCAGCAATATGCCGGATGGGTTCATCTGCCAGTGTCCTCCCGGTTATTC   3917
+
+Homo_sapiens    4014 CGGGGCAAGGTGCCAG---AGCAGC---------TGTGGACAAGTGAAAT   4051
+                     .||.||||..||..||   ||||||         ||||||||||||||||
+Cuculus_canor   3918 TGGAGCAAAATGTGAGTTCAGCAGCCATAGTACTTGTGGACAAGTGAAAT   3967
+
+Homo_sapiens    4052 GTAGGAAGGGGGAGCAGTGTGTGCACACCGCCTCTGGACCCCGCTGCTTC   4101
+                     |.|.|||||||||||||||..|.||.||..|.|||||.||.||.||||..
+Cuculus_canor   3968 GCAAGAAGGGGGAGCAGTGCATCCAGACGTCTTCTGGTCCACGGTGCTAT   4017
+
+Homo_sapiens    4102 TGCCCCA----GTCCCCG-----GGACTGCGAG------TCAGGCTGTGC   4136
+                     |||||||    |||...|     |||.|||.||      .||||||||||
+Cuculus_canor   4018 TGCCCCAAGTTGTCAGTGGGAGAGGAATGCCAGACACACACAGGCTGTGC   4067
+
+Homo_sapiens    4137 CAGTAGC-CCCTGCCAGCACGGGGGCAGCTGCCACCCTCAGCGCCAGCCT   4185
+                     |||| || |||||||||.|.||.||.||||||||||||||....|||.||
+Cuculus_canor   4068 CAGT-GCTCCCTGCCAGAATGGTGGGAGCTGCCACCCTCATTCTCAGTCT   4116
+
+Homo_sapiens    4186 CCTTATTACTCCTGCCAGTGTGC----CCCACC--ATTCTCGGGTAGCCG   4229
+                     |||||.||.|..||.||||||.|    |.||||  |      ||.||.|.
+Cuculus_canor   4117 CCTTACTATTATTGTCAGTGTCCTGCTCACACCCAA------GGCAGTCA   4160
+
+Homo_sapiens    4230 CTGTGAACTCTACACGGCACCCCCCAGCACC----CCTCCTGCCACCTGT   4275
+                     .||||||                 |||| ||    |.|.|.|||      
+Cuculus_canor   4161 GTGTGAA-----------------CAGC-CCGTAACTTTCAGCC------   4186
+
+Homo_sapiens    4276 CTGAGCC---AGTAT--------------TGTGCCGACAAAGCTCGGGAT   4308
+                     |.|||||   ||.||              |||||.||.|||||....|||
+Cuculus_canor   4187 CAGAGCCTCAAGGATGTTTGGATTCCCAGTGTGCAGAAAAAGCAAAAGAT   4236
+
+Homo_sapiens    4309 GGCGTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCAGTGGGATGGGGG   4358
+                     |||...||||||||.|..|||||||..||||||||||||||||||||.||
+Cuculus_canor   4237 GGCTATTGTGATGAAGATTGCAACACTCATGCCTGCCAGTGGGATGGAGG   4286
+
+Homo_sapiens    4359 TGACTGTTCTCTCACCATGGAGAACCCCTGGGCCAACTGCTCCTCCCCAC   4408
+                     .|||||.||.||.||.|||||..|.||.|||||||||||||||||..||.
+Cuculus_canor   4287 CGACTGCTCCCTGACAATGGAAGATCCATGGGCCAACTGCTCCTCTTCAT   4336
+
+Homo_sapiens    4409 TTCCCTGCTGG--GATTATATCAACAACCAGTGTGATGAGCTGTGCAACA   4456
+                     |.|.|||||||  |.|  |.||||.....||||||||||..|.||.||||
+Cuculus_canor   4337 TGCGCTGCTGGATGCT--TTTCAATGGGAAGTGTGATGACTTCTGTAACA   4384
+
+Homo_sapiens    4457 CGGTCGAGTGCCTGTTTGACAACTTTGAATGCCAGGGGAACAGCAAGACA   4506
+                     |....||||||||.|||||||||||||||||.|||..|||..|||..|||
+Cuculus_canor   4385 CACCTGAGTGCCTATTTGACAACTTTGAATGTCAGCAGAATGGCAGAACA   4434
+
+Homo_sapiens    4507 TGCAAGTATGACAAATACTGTGCAGACCACTTCAAAGACAACCACTGTGA   4556
+                     ||||||||||||||.|||||||||||.||||....|||...||.||||||
+Cuculus_canor   4435 TGCAAGTATGACAAGTACTGTGCAGATCACTATGCAGATGGCCGCTGTGA   4484
+
+Homo_sapiens    4557 CCAGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGCTGGACTGTGCTG   4606
+                     ||||||.||.||.||||||||||||||.|||||.||.|||||||||||||
+Cuculus_canor   4485 CCAGGGCTGTAATAGTGAGGAGTGTGGCTGGGACGGTCTGGACTGTGCTG   4534
+
+Homo_sapiens    4607 CTGACCAACCTGAGAACCTGGCAGAAGGTACCCTGGTTATTGTGGTATTG   4656
+                     ..|||.||.|||||||.|||||.|||||.|||||..|.||||||||.|||
+Cuculus_canor   4535 GGGACAAAGCTGAGAAGCTGGCGGAAGGGACCCTAATCATTGTGGTCTTG   4584
+
+Homo_sapiens    4657 ATGCCACCTGAACAACTGCTCCAGGATGCTCGCAGCTTCTTGCGGGCAC-   4705
+                     |||||.|||||..|.|||||....||||.||||||||||||||  |||| 
+Cuculus_canor   4585 ATGCCCCCTGATGAGCTGCTGGGTGATGTTCGCAGCTTCTTGC--GCACT   4632
+
+Homo_sapiens    4706 -TGGGTACCCTGCTCCACACCAACCTGCGCATTAAGCGGGACTCCCAGGG   4754
+                      ||||.||.||.||.||||||||.|||.|.||.||||.||||||||||||
+Cuculus_canor   4633 TTGGGAACTCTTCTGCACACCAATCTGAGAATCAAGCTGGACTCCCAGGG   4682
+
+Homo_sapiens    4755 GGAACTCATGGTGTACCCCTATTATGGTGAGAAGTCAGCTGCTATGAAGA   4804
+                     ..|.|.||||||||.|||.||.|||||.|||||.||.||.||        
+Cuculus_canor   4683 AAATCCCATGGTGTTCCCATACTATGGGGAGAAATCCGCAGC--------   4724
+
+Homo_sapiens    4805 AACAGAGGAT-GACACGCAGATCCCTTCCTGGT----------------G   4837
+                      ||.|||  | |||     |.||.||| .||||                |
+Cuculus_canor   4725 -ACGGAG--TCGAC-----GTTCACTT-GTGGTCGTTCGCAAGCCCAGAG   4765
+
+Homo_sapiens    4838 AACAAGAACAGGAGGTGGCTGGCTCTAAAGTCTTTCTGGAAATTGACAAC   4887
+                     |||.|||.||.|||||...||||.|.|..||.||.|||||.|||||||||
+Cuculus_canor   4766 AACTAGAGCAAGAGGTCATTGGCACCAGGGTGTTCCTGGAGATTGACAAC   4815
+
+Homo_sapiens    4888 CGCCAGTGTGTTCAAGACTCAGACCACTGCTTCAAGAACACGGATGCAGC   4937
+                     ||.|||||||...|.||.||.||.||.|||||..|||||||.||.||.||
+Cuculus_canor   4816 CGTCAGTGTGCCGAGGATTCGGAGCAGTGCTTTCAGAACACAGAAGCTGC   4865
+
+Homo_sapiens    4938 AGCAGCTCTCCTGGCCTCTCACGCCATACAGGGGACCCTGTCATACCCTC   4987
+                     .|||||||||.|.||..||||.|||||..||||.|...||.|.||.|||.
+Cuculus_canor   4866 TGCAGCTCTCTTAGCTGCTCAGGCCATCAAGGGCATGTTGCCTTATCCTT   4915
+
+Homo_sapiens    4988 TTGTGTCTGTCGTCAGTGAATCCCTG--ACTCCAGAACGCACTCAGCTCC   5035
+                     |||||||||||...|||||..|..||  ||..|.|||  .||.|||.|.|
+Cuculus_canor   4916 TTGTGTCTGTCCAAAGTGAGCCTTTGGTACCACCGAA--GACCCAGATGC   4963
+
+Homo_sapiens    5036 TCTATCTCCTTGCTGTTGCTGTTGTCATCATTCTGTTTATTATTCTGCTG   5085
+                     |.||.||.|||||.||.||.|.|.|.||||||||.||.||..||||..||
+Cuculus_canor   4964 TTTACCTACTTGCCGTGGCAGCTTTGATCATTCTTTTAATCCTTCTCTTG   5013
+
+Homo_sapiens    5086 GGGGTAATCATGGCAAAACGAAAGCGTAAGCATGGCTCTCTCTGGCTGCC   5135
+                     ||.||.||.||||||||.||.|||||.||.||||||||.||.|||||.||
+Cuculus_canor   5014 GGCGTGATGATGGCAAAGCGTAAGCGCAAACATGGCTCACTGTGGCTCCC   5063
+
+Homo_sapiens    5136 TGAAGGTTTCACTCTTCGCCGAGATGCAAGCAATCACAAGCGTCGTGAGC   5185
+                     .|||||.||.|..||.|||.|.|||.|.||.|||||.|||||..|.||||
+Cuculus_canor   5064 AGAAGGCTTTATCCTACGCAGGGATCCTAGTAATCATAAGCGCAGAGAGC   5113
+
+Homo_sapiens    5186 CAGTGGGACAGGATGCTGTGGGGCTGAAAAATCTCTCAGTGCAAGTCTCA   5235
+                     ||||.||..|.||||||||.||.||.||.|||.|.|||||.||..|..||
+Cuculus_canor   5114 CAGTTGGGGAAGATGCTGTTGGACTCAAGAATTTGTCAGTCCAGATACCA   5163
+
+Homo_sapiens    5236 GAAGCTAACCT----AATTGGTACTGGAACAAGTGAACACTGGGTCGATG   5281
+                     ||.|.||||||    ||||    |||||.|||.|||||||||||..|.||
+Cuculus_canor   5164 GAGGGTAACCTGGCCAATT----CTGGACCAACTGAACACTGGGCAGGTG   5209
+
+Homo_sapiens    5282 ATGAAGGGCCCCAGCCAAAGAAAGTAAAGGCTGAAGATGAGGCCTTACTC   5331
+                     |||..||.||.||||||||||.||.|||||||||.|||.|.|||||.|||
+Cuculus_canor   5210 ATGGTGGACCTCAGCCAAAGAGAGCAAAGGCTGAGGATCAAGCCTTGCTC   5259
+
+Homo_sapiens    5332 TCAGAAGAAGATGACCCCATTGATCGACGGCCA-TGGACACAGCAGCACC   5380
+                     .||||||..||.||.|..||.|||| |..|||| |||||||||||||||.
+Cuculus_canor   5260 CCAGAAGGTGACGAGCAAATAGATC-AGCGCCAGTGGACACAGCAGCACT   5308
+
+Homo_sapiens    5381 TTGAAGCTGCAGACATCCGTAGGA-CACCATCGCTGGCTCTCACCCCTCC   5429
+                     |.||.||.|||||.|||.||.||| || ||||.||.||.||.||.||.||
+Cuculus_canor   5309 TGGAGGCAGCAGATATCTGTGGGAGCA-CATCACTAGCCCTTACGCCACC   5357
+
+Homo_sapiens    5430 TCAGGCAGAGCAGGAGGTGGATGTGTTAGATGTGAATGTCCGTGGCCCAG   5479
+                     |||.|||||.||.||.|||||.||..|.|||||.||||||.|.||.||||
+Cuculus_canor   5358 TCAAGCAGATCAAGAAGTGGACGTTCTGGATGTCAATGTCAGAGGGCCAG   5407
+
+Homo_sapiens    5480 ATGGCTGCACCCCATTGATGTTGGCTTCTCTCCGAGGAGGCAGCTCAGAT   5529
+                     ||||.||.||.|||.|.||||||||.|||||.||.|..||||||||.|||
+Cuculus_canor   5408 ATGGATGTACTCCACTTATGTTGGCATCTCTGCGTGTGGGCAGCTCTGAT   5457
+
+Homo_sapiens    5530 TTGAGTGATGAAGATGAAGATGCAGAGGACTCTTCTGCTAACATCATCAC   5579
+                     .|.|||||.||.|||||.||||||||.||.||.||.||.||.||.||.||
+Cuculus_canor   5458 ATCAGTGAGGATGATGAGGATGCAGAAGATTCCTCAGCAAATATAATAAC   5507
+
+Homo_sapiens    5580 AGACTTGGTCTACCAGGGTGCCAGCCTCCAGGCCCAGACAGACCGGACTG   5629
+                     |||.|||.||||.||.|||||||.|||.||||||||.||||||||.||||
+Cuculus_canor   5508 AGATTTGATCTATCAAGGTGCCAACCTGCAGGCCCAAACAGACCGCACTG   5557
+
+Homo_sapiens    5630 GTGAGATGGCCCTGCACCTTGCAGCCCGCTACTCACGGGCTGATGCTGCC   5679
+                     |.||||||||.||||||.|.||||||||.|||||..|.||.||||||||.
+Cuculus_canor   5558 GGGAGATGGCACTGCACTTAGCAGCCCGTTACTCGAGAGCAGATGCTGCA   5607
+
+Homo_sapiens    5680 AAGCGTCTCCTGGATGCAGGTGCAGATGCCAATGCCCAGGACAACATGGG   5729
+                     ||.|||.|.||||||||.||.||||||||.|||||.|.||||||||||||
+Cuculus_canor   5608 AAACGTTTGCTGGATGCTGGAGCAGATGCTAATGCACGGGACAACATGGG   5657
+
+Homo_sapiens    5730 CCGCTGTCCACTCCATGCTGCAGTGGCAGCTGATGCCCAAGGTGTCTTCC   5779
+                     .||...|||.||.|||||.|||||.||.|||||.|||||.||||||||||
+Cuculus_canor   5658 ACGGACTCCCCTGCATGCAGCAGTAGCTGCTGACGCCCAGGGTGTCTTCC   5707
+
+Homo_sapiens    5780 AGATTCTGATTCGCAACCGAGTAACTGATCTAGATGCCAGGATGAATGAT   5829
+                     ||||||||||.||.|||.||||.||.||..|.|||||..|||||||||||
+Cuculus_canor   5708 AGATTCTGATCCGTAACAGAGTGACAGACTTGGATGCTCGGATGAATGAT   5757
+
+Homo_sapiens    5830 GGTACTACACCCCTGATCCTGGCTGCCCGCCTGGCTGTGGAGGGAATGGT   5879
+                     ||.||.||.||..|.||.||||||||.||.|||||||||||.||||||||
+Cuculus_canor   5758 GGAACGACTCCATTAATTCTGGCTGCACGTCTGGCTGTGGAAGGAATGGT   5807
+
+Homo_sapiens    5880 GGCAGAACTGATCAACTGCCAAGCGGATGTGAATGCAGTGGATGACCATG   5929
+                     .||.||.||.||.||.|||||.||.||||||||.||.||.||||||||||
+Cuculus_canor   5808 AGCCGAGCTAATTAATTGCCAGGCAGATGTGAACGCCGTAGATGACCATG   5857
+
+Homo_sapiens    5930 GAAAATCTGCTCTTCACTGGGCAGCTGCTGTCAATAATGTGGAGGCAACT   5979
+                     |.||||||||||||||||||||.|||||||||||.||..||||.|||||.
+Cuculus_canor   5858 GTAAATCTGCTCTTCACTGGGCTGCTGCTGTCAACAACATGGAAGCAACA   5907
+
+Homo_sapiens    5980 CTTTTGTTGTTGAAAAATGGGGCCAACCGAGACATGCAGGACAACAAGGA   6029
+                     ||..||.||.||||.||||||||||||.|||||||||||||.||||||||
+Cuculus_canor   5908 CTGGTGCTGCTGAAGAATGGGGCCAACAGAGACATGCAGGATAACAAGGA   5957
+
+Homo_sapiens    6030 AGAGACACCTCTGTTTCTTGCTGCCCGGGAGGGGAGCTATGAAGCAGCCA   6079
+                     |||||||||.||.||.|||||.||.|||||.||.||.|.|||||||||.|
+Cuculus_canor   5958 AGAGACACCACTTTTCCTTGCCGCTCGGGAAGGCAGTTTTGAAGCAGCAA   6007
+
+Homo_sapiens    6080 AGATCCTGTTAGACCATTTTGCCAATCGAGACATCACAGACCATATGGAT   6129
+                     |.|||.||.|.||||||||||||||||||||||||||.|||||.|||||.
+Cuculus_canor   6008 AAATCTTGCTGGACCATTTTGCCAATCGAGACATCACGGACCACATGGAC   6057
+
+Homo_sapiens    6130 CGTCTTCCCCGGGATGTGGCTCGGGATCGCATGCACCATGACATTGTGCG   6179
+                     ||.||.|||||.|||||.||||.|||.||.||||||||||||||.||||.
+Cuculus_canor   6058 CGCCTGCCCCGAGATGTAGCTCAGGACCGGATGCACCATGACATAGTGCA   6107
+
+Homo_sapiens    6180 CCTTCTGGATGAATACAATGTGACCCCAAGCCCT-CCAGGCACCGTGTTG   6228
+                     .|||||..||||.|||||||||.|.|..|||||| |..||||||.||.||
+Cuculus_canor   6108 GCTTCTCAATGAGTACAATGTGGCACATAGCCCTGCTGGGCACCCTGGTG   6157
+
+Homo_sapiens    6229 ---------ACTTCTGCTCTCTCACCTGTCATCTGTGGGCCCAACAGATC   6269
+                              || |||||.|||||.||.|||||||||||.||.||.||.||
+Cuculus_canor   6158 CCATGCTGAAC-TCTGCCCTCTCCCCGGTCATCTGTGGCCCGAATAGGTC   6206
+
+Homo_sapiens    6270 TTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGTCTAGACGGCCCA   6319
+                     .|||||||..|||||||||||..||.|..|||||||.||..||...||.|
+Cuculus_canor   6207 CTTCCTCAATCTGAAGCACACTTCATTAAGCAAGAAATCACGAAAACCAA   6256
+
+Homo_sapiens    6320 GTGCCAA--GAGTACCATGCCTACTAGCCTCCCTAACCTTGCCAAGGAGG   6367
+                     .||||||  |.||  ||||||         |.|.|||||..||||.||.|
+Cuculus_canor   6257 ATGCCAAAGGCGT--CATGCC---------CACGAACCTCACCAAAGATG   6295
+
+Homo_sapiens    6368 CAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGTGAG----AA   6413
+                     |||||            ||.||.|||||||||||.||.||||||    ||
+Cuculus_canor   6296 CAAAG------------AGGAGAAGGAAGAAGTCCCTCAGTGAGAGCAAA   6333
+
+Homo_sapiens    6414 GGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGATTCCCTAG   6463
+                     || .||..|.||.|||||.|||||.||..|.||.||.|||||||||||||
+Cuculus_canor   6334 GG-GCAGTTTTCAGAGAGCTCAGTGACCCTGTCACCAGTTGATTCCCTAG   6382
+
+Homo_sapiens    6464 AATCTCCTCACACGTATGTTTCCGACACC-ACATCCTCTCCAATGATTAC   6512
+                     ||||.||.||..|.|.||..||||| ||| |||||||||||..||||..|
+Cuculus_canor   6383 AATCACCCCATGCTTTTGCATCCGA-ACCAACATCCTCTCCTGTGATGCC   6431
+
+Homo_sapiens    6513 ATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGCCACTGCCG   6562
+                     |||.||.|||.|.|||||..|.|||||||.|.|..||.||.||.||    
+Cuculus_canor   6432 ATCGCCGGGGGTGTTACACTCGTCACCCAGCTCGCTGCTGACCGCT----   6477
+
+Homo_sapiens    6563 CCCCTC-CTGCCCCAGTCCATGCCCAGCATGCACTATCTTTTTCTAACCT   6611
+                      ||.|| .||   |||.|  |||.|| ||  ||.|.||.||.||.|||||
+Cuculus_canor   6478 -CCATCGGTG---CAGGC--TGCACA-CA--CAATGTCCTTCTCCAACCT   6518
+
+Homo_sapiens    6612 TCATGAAATGCAGCCTTTGGCACATGGGGCCAGCACTGTGCTTCCCTCAG   6661
+                     |||.||.||||||||.||.|.||.|||..|..||||.|||||.||.||.|
+Cuculus_canor   6519 TCACGAGATGCAGCCCTTAGGACGTGGATCGGGCACCGTGCTCCCGTCTG   6568
+
+Homo_sapiens    6662 TGAGCCAGTTGCTATCCCACCAC-------CACATTGTGTCTCCAGGCAG   6704
+                     |.||||||.||||.||.||.|||       |.|       ||||...|||
+Cuculus_canor   6569 TCAGCCAGCTGCTTTCGCAGCACAGAACAACCC-------CTCCCAACAG   6611
+
+Homo_sapiens    6705 TGGCAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCA---GTCCCAG   6751
+                     |||           ||||| |.|||||||..||||  |||   .|.||| 
+Cuculus_canor   6612 TGG-----------GCTTG-GCAGGCTCCGGCCAG--CCAACGTTTCCA-   6646
+
+Homo_sapiens    6752 CAGATTGGATGAACCGCATGGAGGTGAATGAGACCCAGTACAATGAGATG   6801
+                     |.||.|||.||||.||||||||||||||||||.||||||||||.||||||
+Cuculus_canor   6647 CCGAGTGGGTGAATCGCATGGAGGTGAATGAGTCCCAGTACAACGAGATG   6696
+
+Homo_sapiens    6802 TTTGGTATGGTCCTGGCTCCAGCTGAGG-----GCACCCATCCTGGCA--   6844
+                     |||||.|||||    ||..|||.|.|.|     ||||||       ||  
+Cuculus_canor   6697 TTTGGCATGGT----GCCGCAGGTAATGCATTCGCACCC-------CAAT   6735
+
+Homo_sapiens    6845 -TAGCTCCCCAGAGCAGG-------CCACCTGAAGGGAAGCACATAACCA   6886
+                      |..|||..|||||| ||       |.|.|.||       |||| ||.||
+Cuculus_canor   6736 GTTTCTCAGCAGAGC-GGTTTGGTTCAAGCAGA-------CACA-AAGCA   6776
+
+Homo_sapiens    6887 CC--------CCTCGGGAGCCCTTGCCCCCCATTGTGACTTTCCAGCTCA   6928
+                     ||        ||..|.|||.|..|||||||.||..|||||||||||||..
+Cuculus_canor   6777 CCTGGGAGTGCCCAGAGAGTCTCTGCCCCCTATCATGACTTTCCAGCTGG   6826
+
+Homo_sapiens    6929 TCCCTAAAGGCAGTATTGCCCAACCAGCGGGGGCTCCC----CAGCCTCA   6974
+                     |.||.||.||..|.||    .|||||||..|..||.||    |||.|.||
+Cuculus_canor   6827 TTCCCAAGGGTGGCAT----AAACCAGCAAGCACTGCCACAGCAGGCCCA   6872
+
+Homo_sapiens    6975 GTCCACCTGCCCTCCAG-CTGTTGCGGGCCCCCTGCCCACCATGTACCAG   7023
+                     |||.|.||||.|| ||| .|.|.||.||.||.||...|.|||||||||||
+Cuculus_canor   6873 GTCAAACTGCGCT-CAGAATATGGCTGGTCCTCTTAGCTCCATGTACCAG   6921
+
+Homo_sapiens    7024 ATTCCAGAAATGGCCCGTTTGCCCAGTGTGGCTTTCCCCA---CTGCCAT   7070
+                     ||.|||||..||||.|...|||||||||...|.|||.|||   |||||||
+Cuculus_canor   6922 ATACCAGATTTGGCTCAGCTGCCCAGTGCCTCGTTCTCCATGGCTGCCAT   6971
+
+Homo_sapiens    7071 GATGCCC-CAGCAGGACGGGCAGGTAGCTCAGACCATTCTCCCAGCCTAT   7119
+                         ||| ||||||||.||||||||.||||||||..|.|||||||||||.
+Cuculus_canor   6972 ----CCCTCAGCAGGATGGGCAGGTGGCTCAGACAGTCCTCCCAGCCTAC   7017
+
+Homo_sapiens    7120 CATCCTTTCCCAG-CCTCTGTGGGCAAGTACCCCACACCCCCTTCACAGC   7168
+                     || ||..|.|||| .||||.||||.||.|||||||||||.||.||.||||
+Cuculus_canor   7018 CA-CCAGTTCCAGAGCTCTATGGGGAAATACCCCACACCTCCATCGCAGC   7066
+
+Homo_sapiens    7169 ACAGTTATGCT--TCCTCAAATGCTGCTGAGCGAACACCCAGTCACAGTG   7216
+                     ||||  .||||  |||||   .||..|.||.||.||.||.||.||||...
+Cuculus_canor   7067 ACAG--CTGCTACTCCTC---GGCCACAGAACGGACTCCTAGCCACAACC   7111
+
+Homo_sapiens    7217 GTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCAGAGTCTCCT   7266
+                     |.|||.|.||.||.|||||.||.||||||||.|||||.||.||.|||||.
+Cuculus_canor   7112 GGCACTTACAAGGGGAGCACCCGTACCTGACTCCATCGCCCGAATCTCCG   7161
+
+Homo_sapiens    7267 GACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTGGTCAGATGT   7316
+                     ||||||||||||||.||.||.||.||||||||.|||||||||||.|||||
+Cuculus_canor   7162 GACCAGTGGTCAAGCTCCTCCCCACACTCTGCCTCTGACTGGTCTGATGT   7211
+
+Homo_sapiens    7317 GACCACCAGCCC---TACC--CCTGGGGGTGCTGGAGGAGGTCAGCGGGG   7361
+                     |.|.|||||.||   ||.|  ||.|.|.|          ||.||||    
+Cuculus_canor   7212 GGCAACCAGTCCCAGTAACAACCAGCGTG----------GGCCAGC----   7247
+
+Homo_sapiens    7362 ACCTGGGACACACATGTCTGAGCCACCA-CACAACAACATGCAGGTTTAT   7410
+                     |.|||   |.||||||.|.||| ||.|| |..||||||||||||||.|||
+Cuculus_canor   7248 AGCTG---CTCACATGACAGAG-CAGCAGCGGAACAACATGCAGGTGTAT   7293
+
+Homo_sapiens    7411 GCG   7413
+                     ||.
+Cuculus_canor   7294 GCC   7296
+
+
+#---------------------------------------
+#---------------------------------------

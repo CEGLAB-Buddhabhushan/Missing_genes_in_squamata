@@ -1,0 +1,802 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:35:56
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Dipodomys_merriami.fa
+#    -outfile Homo_sapiens-Dipodomys_merriami.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Dipodomys_merriami.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Dipodomys_merriami
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9555
+# Identity:    8170/9555 (85.5%)
+# Similarity:  8170/9555 (85.5%)
+# Gaps:          90/9555 ( 0.9%)
+# Score: 35283.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAG---CCGGGACTCCCGGGTTATC--------CTCGCGCCGG     39
+                     ||||   |||   ||||||||||||.|  |||        |.|||||||.
+Dipodomys_mer      1 ATGC---CAGCCACCGGGACTCCCGCG--ATCGCCCCCCGCGCGCGCCGC     45
+
+Homo_sapiens      40 ACAGGCAACTCCACCAGCTTTCAACCAGGACCGCCACC-GCCGCCCCGGC     88
+                     .|.|...||.||||..||||||      |.|.|.|||| ||.||.|||.|
+Dipodomys_mer     46 GCCGCGGACCCCACGGGCTTTC------GGCTGACACCTGCGGCGCCGCC     89
+
+Homo_sapiens      89 TGCTGCTGCTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCA    138
+                       |||  |||||.||||||||||||||||||||.|||||   ||.|.||.
+Dipodomys_mer     90 --CTG--GCTGCCGCTGCTTCTCCTGTCACTGGGAAGCC---TCTCCGCC    132
+
+Homo_sapiens     139 CAGCCCGCTGCCTTCGGCAGGGCG-----TTGCTGTCCCCTGGTCTCGCG    183
+                     ||||||||.|||..||||  ||||     .||||||||||.||||||.||
+Dipodomys_mer    133 CAGCCCGCGGCCCCCGGC--GGCGCAGCCCTGCTGTCCCCGGGTCTCTCG    180
+
+Homo_sapiens     184 GGGGCTGCAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGG    233
+                     ||||||||.||||||||.||.|||||.|||||.|||.|.|.|||.|||||
+Dipodomys_mer    181 GGGGCTGCTGGGGTCCCGGCGGAGGAAGCCATCGTGTTAGTGAATCGCGG    230
+
+Homo_sapiens     234 ACTCCGGGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACC    283
+                     |||||||||.||||||||.||.|||||.||||||||.||.|||||.||.|
+Dipodomys_mer    231 ACTCCGGGTACCTTTCGGACGGGAAGTGTGGCTGGACCCGCTGCACGATC    280
+
+Homo_sapiens     284 TGGTGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGAC    333
+                     |.|||||||||||||||||.||||||||||||..|||..|.||.||.|||
+Dipodomys_mer    281 TCGTGTTGCAGGTGCAGCCTGGGGACCGCTGCTGGGTGACCGTGCTGGAC    330
+
+Homo_sapiens     334 AACGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCC    383
+                     ||||||||.|||||||||||.||.||||||||||||||||||||||||||
+Dipodomys_mer    331 AACGACGCGCTGGCCCAGCGGCCCGGCCGCCTGAGTCCCAAGCGCTTCCC    380
+
+Homo_sapiens     384 GTGCGACTTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCA    433
+                     |||||||||.|||||.||.||||||||.||.|||||||||||||||||||
+Dipodomys_mer    381 GTGCGACTTCGGCCCCGGGGAGGTGCGTTATTCTCACCTGGGCGCGCGCA    430
+
+Homo_sapiens     434 GCCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGA    483
+                     ||||.||.||||||||.|||||||||||||||||.||||||||.||||||
+Dipodomys_mer    431 GCCCATCCCGGGACCGGGTCCGGCTGCAGCTGCGTTATGACGCCCCCGGA    480
+
+Homo_sapiens     484 GGGGCAGTAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCA    533
+                     |||.|..|.||||||||.||.|..|||||||||||.||||||||||||||
+Dipodomys_mer    481 GGGACCATCGTGCTACCTCTAGCCCTGGAGGTGGAAGTGGTCTTCACCCA    530
+
+Homo_sapiens     534 GCTGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGG    583
+                     |||||||||.||||||||.||||||||.|||||||||||||||||..|||
+Dipodomys_mer    531 GCTGGAGGTGGTGACTCGAAACTTGCCCCTGGTCGTGGAAGAGCTATTGG    580
+
+Homo_sapiens     584 GGACCAGCAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCC    633
+                     ||||||||||.||||||||.||.||.|...||||||||||||.|||||||
+Dipodomys_mer    581 GGACCAGCAACGCCCTGGATGCACGCACTTTGGAGTTCGCCTACCAGCCC    630
+
+Homo_sapiens     634 GAGACAGAGGAGTGCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCC    683
+                     ||||..||||||||.|||||||||||||.|.|.||||||||.||||||||
+Dipodomys_mer    631 GAGAAGGAGGAGTGTCGCGTGGGCATCCGGCCGGGCTTGGGTGCGCTGCC    680
+
+Homo_sapiens     684 TCGCTATGGAGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAG    733
+                     |||||||||||||||||||||||||||||||.||||.||||||.||.|| 
+Dipodomys_mer    681 TCGCTATGGAGAACTCCTCCACTACCCGCAGATCCCGGGAGGAACCCGA-    729
+
+Homo_sapiens     734 AGGGAGGCGCCCCGGAGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAA    783
+                       |||||||.|||.|||.||||..||||||||||||.|||.||.|||||.
+Dipodomys_mer    730 --GGAGGCGACCCCGAGCCTCTGTTGATGGACTGCAGAGCGTTTCAGGAG    777
+
+Homo_sapiens     784 CTAGGCGTGCGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGA    833
+                     .|||||||.||.||.|||||||||||..||||...|||.||||||.||||
+Dipodomys_mer    778 TTAGGCGTCCGTTACCGCCACACAGCTTCCAGCAACTCGCCAAACCGGGA    827
+
+Homo_sapiens     834 CTGGATACCCATGGTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCA    883
+                     ||||.|||||||||||||||||||||||||.|..||.|||||.||.||.|
+Dipodomys_mer    828 CTGGGTACCCATGGTGGTGGAGCTGCGTTCCCTGGGAGCTCCGGTAGGAA    877
+
+Homo_sapiens     884 GCCCTGCTTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGA    933
+                     |.||||||||.||||||||||||||||||||.||||||||||||||||||
+Dipodomys_mer    878 GTCCTGCTTTAAAACGCGAGCACTTCCAGGTGCTGGTGAGGATCCGAGGA    927
+
+Homo_sapiens     934 GGGGCCGAGAACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGAT    983
+                     ||.||.||||||||.||.|||||.||||||||.|||||||||||||||||
+Dipodomys_mer    928 GGAGCTGAGAACACCGCCCCCAAACCCAGTTTTGTGGCCATGATGATGAT    977
+
+Homo_sapiens     984 GGAGGTGGACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAG   1033
+                     |||||||||||||||.||.||.||.||||||||.||||||||||||||.|
+Dipodomys_mer    978 GGAGGTGGACCAGTTCGTCCTCACCGCCCTGACTCCAGACATGCTGGCGG   1027
+
+Homo_sapiens    1034 CCGAGGATGCTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCT   1083
+                     |.||.||.|||||||||||..||||||||.|||||||.||||||||.|||
+Dipodomys_mer   1028 CTGAAGACGCTGAGTCTCCGCCTGACCTGCTGATCTTTAACCTTACCTCT   1077
+
+Homo_sapiens    1084 CCATTCCAGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCT   1133
+                     ||.|||||||||||.||||||||.|||||||||||.|||||.||||||||
+Dipodomys_mer   1078 CCCTTCCAGCCTGGGCAGGGCTATTTGGTGAGCACGGATGACCGCAGCCT   1127
+
+Homo_sapiens    1134 GCCCCTTTCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCT   1183
+                     ||||||.||.|||||||||||||||||.|||||.||.|||||.|||||||
+Dipodomys_mer   1128 GCCCCTCTCTTCCTTCACTCAGAGGGACCTGCGCCTTCTGAAAATTGCCT   1177
+
+Homo_sapiens    1184 ACCAGCCCCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAA   1233
+                     ||||||||||||||||||||||.||..|||||||.||.||.||..|||||
+Dipodomys_mer   1178 ACCAGCCCCCTTCTGAAGACTCGGATGAGGAGCGTCTTTTCGAGTTGGAA   1227
+
+Homo_sapiens    1234 TTGGAGGTAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCAT   1283
+                     .||||.||.|||||||.|||.||||||||.||.||.||||||||||||||
+Dipodomys_mer   1228 CTGGAAGTGGTGGATCCAGAGGGAGCAGCCTCTGATCCTTTTGCCTTCAT   1277
+
+Homo_sapiens    1284 GGTAGTGGTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATA   1333
+                     ||||||||||||.|||||||||||..||||.||.||||||||||||||.|
+Dipodomys_mer   1278 GGTAGTGGTGAAACCCATGAACACGCTGGCCCCAGTGGTCACCCGGAACA   1327
+
+Homo_sapiens    1334 CCGGTCTTATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCA   1383
+                     |.||||||||||||||||||||||||||||||||||||.|.||.||||||
+Dipodomys_mer   1328 CTGGTCTTATTCTCTATGAGGGTCAGTCTCGGCCCCTCGCGGGTCCTGCA   1377
+
+Homo_sapiens    1384 GGCAGTGGT---CCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGA   1430
+                     |||.|||||   |.|||.||||||||||||||.|||||||||||.||.||
+Dipodomys_mer   1378 GGCGGTGGTGGCCTGCAGAACTTGGTCATCAGTGATGAGGATGATCTGGA   1427
+
+Homo_sapiens    1431 AGCAGTGCGGCTAGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCA   1480
+                     ||||||.|||||.||||||||||||||.|||||||||||||||||..|||
+Dipodomys_mer   1428 AGCAGTACGGCTGGAGGTGGTGGCTGGACTCCGGCATGGTCACCTCTTCA   1477
+
+Homo_sapiens    1481 TTCTGGGTGCTTCCAGTGGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCT   1530
+                     |||||||.|||.|||||||.||||||||||||||||.|||.||||||||.
+Dipodomys_mer   1478 TTCTGGGGGCTCCCAGTGGTAGCTCTGCTCCCAAGACCTTCACAGTGGCA   1527
+
+Homo_sapiens    1531 GAGCTGGCAGCCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCTC   1580
+                     |||||||||||.||||||||||||||||||||||||||||.|||||||||
+Dipodomys_mer   1528 GAGCTGGCAGCTGGCCAGGTGGTCTACCAGCATGATGACAAAGACGGCTC   1577
+
+Homo_sapiens    1581 GCTGAGCGACAACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACC   1630
+                     .|||||.|||||||||||.||.|||||||||||||||||||||||.||||
+Dipodomys_mer   1578 ACTGAGTGACAACCTGGTCCTCCGCATGGTGGATGGAGGAGGCAGACACC   1627
+
+Homo_sapiens    1631 AGGTACAGTTTCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCA   1680
+                     ||||.|||||.|||||.|||||||||||||||||||||||||||||||||
+Dipodomys_mer   1628 AGGTCCAGTTCCTGTTTCCCATCACCTTAGTGCCTGTGGATGACCAGCCA   1677
+
+Homo_sapiens    1681 CCTGTTCTCAATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGT   1730
+                     |||||.|||||||||||||||||||||||||||||||||||.||.||.||
+Dipodomys_mer   1678 CCTGTCCTCAATGCCAACACGGGGCTGACACTGGCAGAGGGGGACACGGT   1727
+
+Homo_sapiens    1731 GCCCATCCTGCCCCTTTCCCTGAGTGCAACTGACATGGATTCAGATGATT   1780
+                     ||||||||..||||||.|.||||||||.||.|||||||||||||||||.|
+Dipodomys_mer   1728 GCCCATCCCACCCCTTGCTCTGAGTGCCACGGACATGGATTCAGATGACT   1777
+
+Homo_sapiens    1781 CTCTGCTGCTTTTTGTGCTGGAGTCACCCTTCTTAACTACGGGGCATCTG   1830
+                     |.|||||.|.|||||||.|||||||.|||||....||.|.|||||||||.
+Dipodomys_mer   1778 CACTGCTTCGTTTTGTGTTGGAGTCTCCCTTTCCCACCATGGGGCATCTT   1827
+
+Homo_sapiens    1831 CTTCTCCGCCAAACTCACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGG   1880
+                     |||||.|||||.|.||||.||||....|||.|||||||.||...|||.||
+Dipodomys_mer   1828 CTTCTTCGCCAGAGTCACTCTCCTGGGGAGGAGCAGGAGCTGACCAGGGG   1877
+
+Homo_sapiens    1881 CCTTTGGAGGAAGGAGGGGGCATTTTATGAGCGAACAGTGACAGAGTGGC   1930
+                     ||..|||||||||.||||.|||||||||||.||||.||||||||||||||
+Dipodomys_mer   1878 CCCGTGGAGGAAGCAGGGAGCATTTTATGAACGAAGAGTGACAGAGTGGC   1927
+
+Homo_sapiens    1931 AGCAGCAGGACATAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCC   1980
+                     ||||||||||||||||..|.||.|||.|||||||.|||||||||||||||
+Dipodomys_mer   1928 AGCAGCAGGACATAACCCAAGGGAGGTTGTTCTACAGACACTCTGGGCCC   1977
+
+Homo_sapiens    1981 CATAGTCCTGGGCCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATAA   2030
+                     ||.||||||||..||||.|..|||||||||||||||.|||||||||||||
+Dipodomys_mer   1978 CACAGTCCTGGATCAGTGATGGACCAGTTCACATTTCGAGTCCAGGATAA   2027
+
+Homo_sapiens    2031 CCATGACCCTCCTAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATCC   2080
+                     |||.||||||||.|||||.||.||.||.||...|||..||||.||.||||
+Dipodomys_mer   2028 CCACGACCCTCCGAATCAATCTGGACTTCAAAAGTTCATGATACGCATCC   2077
+
+Homo_sapiens    2081 ATCCTGTGGATCGCCTCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGT   2130
+                     ||||.||||||||.||||||||.||||||||.||.||||||||||||||.
+Dipodomys_mer   2078 ATCCCGTGGATCGGCTCCCTCCAGAGCTGGGTAGCGGCTGTCCCCTTCGG   2127
+
+Homo_sapiens    2131 ATGGTGGTACAGGAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTGCG   2180
+                     ||||||||.||||||||.|||||||||||.|||||||||||||||||.||
+Dipodomys_mer   2128 ATGGTGGTGCAGGAATCTCAGCTCACACCCCTGAGGAAGAAGTGGCTTCG   2177
+
+Homo_sapiens    2181 CTACACTGACCTGGACACAGATGACCGAGAACTACGTTACACAGTGACTC   2230
+                     |||||||||..||||||||||||||||||||||.||||||||.|||||.|
+Dipodomys_mer   2178 CTACACTGATGTGGACACAGATGACCGAGAACTTCGTTACACTGTGACCC   2227
+
+Homo_sapiens    2231 AGCCCCCCACAGACACAGACGAAAATCACCTG--CCAGCCCCACTGGGTA   2278
+                     ||||||||...||||||||.|||||.||  ||  ||.||.||.|||||||
+Dipodomys_mer   2228 AGCCCCCCGTGGACACAGATGAAAACCA--TGCACCTGCTCCTCTGGGTA   2275
+
+Homo_sapiens    2279 CCTTGGTCTTGACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAA   2328
+                     |.||||||.|||||||.|||||||||||||||||.|||||||||||.||.
+Dipodomys_mer   2276 CTTTGGTCCTGACTGATAACCCCTCAGTCGTGGTAACCCATTTTACGCAG   2325
+
+Homo_sapiens    2329 GCCCAGATCAACCATCATAAAATTGCTTACAGACCCCCGGGTCAAGAACT   2378
+                     ||.|||.|||||||.||||||||||||||||||||.||.||||||||.||
+Dipodomys_mer   2326 GCACAGGTCAACCACCATAAAATTGCTTACAGACCTCCAGGTCAAGAGCT   2375
+
+Homo_sapiens    2379 GGGCGTGGCTACTCGAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAG   2428
+                     |||.||||||.|||||||||||||||||||.|||||||||||||||||||
+Dipodomys_mer   2376 GGGAGTGGCTGCTCGAGTGGCCCAGTTCCAATTCCAGGTGGAAGACCGAG   2425
+
+Homo_sapiens    2429 CTGGGAATGTGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGAC   2478
+                     ||||.|||||||||||.||.|||||.||||||||||||||.|||||||||
+Dipodomys_mer   2426 CTGGAAATGTGGCTCCTGGCACCTTCACCCTTTACTTGCAGCCCGTGGAC   2475
+
+Homo_sapiens    2479 AACCAGCCACCTGAGATCCTCAACACCGGCTTCACTATTCAGGAGAAGGG   2528
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
+Dipodomys_mer   2476 AACCAGCCACCTGAGATCCTAAACACCGGCTTCACTATTCAGGAGAAGGG   2525
+
+Homo_sapiens    2529 TCACCACATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTG   2578
+                     .|.||||.|||||...|||||.||||||||||||||.|||||.||.||.|
+Dipodomys_mer   2526 CCTCCACGTCCTGGCCGAGACTGAGTTGCACGTGAAGGATGTTGATACCG   2575
+
+Homo_sapiens    2579 ATGTTGCCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCAC   2628
+                     ||||.|.|||.|||||||||||||||||..|||.||||||||||||||||
+Dipodomys_mer   2576 ATGTGGACCACATCTCTTTCACTCTCACAGAGGAACCCAAACATGGCCAC   2625
+
+Homo_sapiens    2629 ATGAGAGTGTCTGGACAGATCCTGCATGTAGGGGGTCTCTTCCACTTGGA   2678
+                     |||.||||||||||.||||..|||||||||||.|...|||||.|..||||
+Dipodomys_mer   2626 ATGCGAGTGTCTGGGCAGACACTGCATGTAGGAGAGATCTTCTATGTGGA   2675
+
+Homo_sapiens    2679 GGACATAAAACAGGGCCGAGTTTCCTATGCCCATAAT---GGGGACAAGT   2725
+                     .|||||.|||||.|||||..|||||||   ||.|.||   ||||||||||
+Dipodomys_mer   2676 AGACATCAAACAAGGCCGGATTTCCTA---CCTTCATTCCGGGGACAAGT   2722
+
+Homo_sapiens    2726 CCCTGACTGATAGCTGCTCCTTGGAAGTCAGTGACAGACATCATGTGGTG   2775
+                     |..||.|||||||||||||||||||.||.|||||||||||.|||||||||
+Dipodomys_mer   2723 CTTTGTCTGATAGCTGCTCCTTGGAGGTGAGTGACAGACACCATGTGGTG   2772
+
+Homo_sapiens    2776 CCCATCACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGAAGTGCCCAT   2825
+                     ||.|||||.||.|||||.|||||.||.||.||.||..||||.|..|||||
+Dipodomys_mer   2773 CCAATCACGCTTAGAGTGAATGTTCGCCCCGTAGAACATGAGGCCCCCAT   2822
+
+Homo_sapiens    2826 ACTGAGCCATCCTACTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAA   2875
+                     .||||.||.||||.||||.|...|.||.||.|||||.|||||||||||||
+Dipodomys_mer   2823 GCTGACCCTTCCTGCTGGGAAAATAGAATCTTATCTGGATGTCTTAGAAA   2872
+
+Homo_sapiens    2876 ATGGGGCTACTGAAATCACTGCCAATGTTATTAAGGGGACCAATGAGGAA   2925
+                     |||.||||||||||.||||.||.|||||.|||||||||||..|||||.|.
+Dipodomys_mer   2873 ATGAGGCTACTGAAGTCACGGCTAATGTGATTAAGGGGACTGATGAGTAC   2922
+
+Homo_sapiens    2926 ACTGATGACTTGATGTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGG   2975
+                     ||.|||||.||||||||.|||||||||||.|||||.|||||.||||||||
+Dipodomys_mer   2923 ACAGATGATTTGATGTTAACTTTCCTCTTAGAAGACCCACCCTTGTATGG   2972
+
+Homo_sapiens    2976 GGAAATCTTGGTCAATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACA   3025
+                     |||||||.||||.|||||...||||||||||||.||||.|||||.|||||
+Dipodomys_mer   2973 GGAAATCCTGGTGAATGGAGCTCCAGCAGAGCACTTTAATCAAAAGGACA   3022
+
+Homo_sapiens    3026 TCTTGGAGGGCTCTGTTGTATATACCCACACCAGTGGTGAGATAGGCCTA   3075
+                     |.|||||||||||||||||.|||||||||||||||||||||||.||.|..
+Dipodomys_mer   3023 TTTTGGAGGGCTCTGTTGTCTATACCCACACCAGTGGTGAGATTGGTCAG   3072
+
+Homo_sapiens    3076 TTGCCTAAAGCGGATTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGA   3125
+                     |||||.|.|||.||.||||||||||||||||||.||||||..||||||||
+Dipodomys_mer   3073 TTGCCCAGAGCAGACTCTTTTAACCTGAGTCTGCCAGATACATCTCAAGA   3122
+
+Homo_sapiens    3126 ATGGAGAATTGGTGGCAATACTATCCAAGGAGTTACTATATGGGTGACCA   3175
+                     |||||.|.||||||||||||||||||||||.||||||.|.||||||||||
+Dipodomys_mer   3123 ATGGACAGTTGGTGGCAATACTATCCAAGGTGTTACTGTGTGGGTGACCA   3172
+
+Homo_sapiens    3176 TCCTGCCTGTTGATAGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTG   3225
+                     ||||||||||.||||.|||||||||||||||.|..||.|||||||||||.
+Dipodomys_mer   3173 TCCTGCCTGTGGATAACCAGGCCCCAGAAATTTCAGTGGGTGAACAGTTT   3222
+
+Homo_sapiens    3226 ATAGTAATGGAAGGTGATAAAAGTGTTATAACATCAGTGCATATAAGTGC   3275
+                     ||||||.||||||||||||||.||||.||.||.||..||||.||.|||||
+Dipodomys_mer   3223 ATAGTATTGGAAGGTGATAAAGGTGTGATCACCTCCATGCACATCAGTGC   3272
+
+Homo_sapiens    3276 TGAAGATGTCGACTCCCTGAATGATGACATCTTGTGCACTATAGTTATTC   3325
+                     ||||||..|.||.||||..|||||||||.||||.||.||.|||||.||||
+Dipodomys_mer   3273 TGAAGACATTGATTCCCCAAATGATGACCTCTTATGTACCATAGTGATTC   3322
+
+Homo_sapiens    3326 AGCCTACTTCAGGTTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAG   3375
+                     ||||.||||||||||||||.||.||||||||||||||.||||||||||||
+Dipodomys_mer   3323 AGCCAACTTCAGGTTATGTGGAGAACATTTCTCCAGCCCCAGGCTCTGAG   3372
+
+Homo_sapiens    3376 AAATCAAGAGCAGGGATTGCCATAAGTGCTTTCAACT-TGAAAGATCTCA   3424
+                     |||||||||||||||||||||||.|||||.||| ||| ||||||||||.|
+Dipodomys_mer   3373 AAATCAAGAGCAGGGATTGCCATCAGTGCCTTC-ACTCTGAAAGATCTGA   3421
+
+Homo_sapiens    3425 GGCAGGGCCACATAAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCT   3474
+                     |||||||.|||||.||||||.||||||||||||||.||||||||||.||.
+Dipodomys_mer   3422 GGCAGGGTCACATTAACTATATCCAGAGTGTCCATCAAGGGGTGGAGCCC   3471
+
+Homo_sapiens    3475 GTGGAGGACCGATTTGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGA   3524
+                     |||||.||.|||||||||||.|||||.|||||||||||||||||.|||||
+Dipodomys_mer   3472 GTGGAAGATCGATTTGTATTCCGTTGCTCTGATGGCATTAACTTCTCAGA   3521
+
+Homo_sapiens    3525 GAGACAGTTCTTCCCCATTGTAATCATTCCCACCAATGATGAACAGCCAG   3574
+                     |||||||||.|||||||||||.||||||||.|||||.|||||||||||||
+Dipodomys_mer   3522 GAGACAGTTTTTCCCCATTGTCATCATTCCTACCAACGATGAACAGCCAG   3571
+
+Homo_sapiens    3575 AGATGTTTATGAGAGAATTTATGGTGATGGAAGGCATGAGTCTGGTAATT   3624
+                     |..|||||||||||||||||||||||||||||||||||||.|||||.||.
+Dipodomys_mer   3572 AACTGTTTATGAGAGAATTTATGGTGATGGAAGGCATGAGCCTGGTGATC   3621
+
+Homo_sapiens    3625 GATACACCCATTCTCAATGCTGCTGATGCTGATGTTCCCCT--GGATGAT   3672
+                     ||.||.|||||||||||||||||||||||.||..|  ||||  .|||||.
+Dipodomys_mer   3622 GACACCCCCATTCTCAATGCTGCTGATGCCGACAT--CCCTTCTGATGAG   3669
+
+Homo_sapiens    3673 TTAACTTTCACTATTACCCAATTCCCCACTCATGGTCACATCATGAATCA   3722
+                     ||||||||....||.||.||.||.||..||||||||||.|||||||..||
+Dipodomys_mer   3670 TTAACTTTTGTCATCACTCAGTTTCCTGCTCATGGTCATATCATGAGCCA   3719
+
+Homo_sapiens    3723 GCTGATAAATGGCACGGTTTTGGTCGAAAGCTTCACCTTGGATCAGATCA   3772
+                     |||||||||||||||.||.|||||.||||||||||||.||||.||.||||
+Dipodomys_mer   3720 GCTGATAAATGGCACTGTCTTGGTGGAAAGCTTCACCCTGGACCAAATCA   3769
+
+Homo_sapiens    3773 TAGAGAGTTCCAGCATTATTTATGAGCATGATGACTCCGAGACCCAGGAA   3822
+                     ||||.||||||||||||||.||.||||||||||||||.||.|||||||||
+Dipodomys_mer   3770 TAGAAAGTTCCAGCATTATCTACGAGCATGATGACTCAGAAACCCAGGAA   3819
+
+Homo_sapiens    3823 GACAGTTTTGTGATTAAACTAACAGATGGGAAGCACTCTGTGGAAAAGAC   3872
+                     ||||||||||||||||||||.||||||||.|||.|.||||||||||||..
+Dipodomys_mer   3820 GACAGTTTTGTGATTAAACTCACAGATGGCAAGTATTCTGTGGAAAAGGT   3869
+
+Homo_sapiens    3873 GGTCCTCATTATAGTTATCCCTGTTGATGATGAGACGCCCAGAATGACTA   3922
+                     |||||||||.||.|||||.|||||.||.||.|||||.|||||||||||.|
+Dipodomys_mer   3870 GGTCCTCATCATGGTTATTCCTGTGGACGACGAGACCCCCAGAATGACCA   3919
+
+Homo_sapiens    3923 TCAATAATGGACTAGAAATAGAAATTGGGGATACCAAGATTATCAACAAC   3972
+                     |||||||||||.|.||.||||||||||||||.|||||.|..|||||||||
+Dipodomys_mer   3920 TCAATAATGGATTGGAGATAGAAATTGGGGAAACCAAAACGATCAACAAC   3969
+
+Homo_sapiens    3973 AAAATATTAATGGCAACAGATTTAGATTCAGAAGACAAATCTTTGGTTTA   4022
+                     ||||||.|||||||.||.|||||.||.||.|||||||||||.||||||||
+Dipodomys_mer   3970 AAAATACTAATGGCCACTGATTTGGACTCTGAAGACAAATCCTTGGTTTA   4019
+
+Homo_sapiens    4023 TATTATTCGTTATGGGCCAGGACATGGCTTATTACAGAGACGAAAACCTA   4072
+                     ||||||.|||||||||||||||||||||||..|.|||.|||.||||||||
+Dipodomys_mer   4020 TATTATCCGTTATGGGCCAGGACATGGCTTTCTCCAGCGACAAAAACCTA   4069
+
+Homo_sapiens    4073 CTGGTGCCTTTGAAAATATCACACTGGGCATGAATTTTACCCAGGATGAA   4122
+                     |.||||.|||||||||||||||||||||||||||||||||||||||||||
+Dipodomys_mer   4070 CAGGTGTCTTTGAAAATATCACACTGGGCATGAATTTTACCCAGGATGAA   4119
+
+Homo_sapiens    4123 GTAGACAGAAACTTAATTCAGTATGTCCATTTGGGGCAAGAGGGCATTCG   4172
+                     ||.||||||||..|.||.||.||.|||||..|.|||||.||.||||||||
+Dipodomys_mer   4120 GTGGACAGAAATGTCATCCAATACGTCCACGTTGGGCAGGAAGGCATTCG   4169
+
+Homo_sapiens    4173 GGACCTAATTAAATTTGATGTGACTGATGGAATAAATCCCCTCATAGATC   4222
+                     |||.|||||||||||||||||||||||||||||||||.||||||||||||
+Dipodomys_mer   4170 GGATCTAATTAAATTTGATGTGACTGATGGAATAAATGCCCTCATAGATC   4219
+
+Homo_sapiens    4223 GTTACTTTTATGTGTCCATCGGGAGCATTGACATTGTCTTCCCTGATGTG   4272
+                     |||||||||||.|.|||||.|||||..|||||||.|||||.|||||.|||
+Dipodomys_mer   4220 GTTACTTTTATATCTCCATTGGGAGTGTTGACATGGTCTTTCCTGACGTG   4269
+
+Homo_sapiens    4273 ATAAGTAAGGGAGTGTCCTTGAAAGAAGGTGGCAAAGTCACTCTTACAAC   4322
+                     .|.||.||||||||.|||||.||.|||||||||||.||||||||.|||||
+Dipodomys_mer   4270 GTCAGCAAGGGAGTCTCCTTAAAGGAAGGTGGCAAGGTCACTCTCACAAC   4319
+
+Homo_sapiens    4323 AGACCTACTAAGCACTAGTGACTTGAACAGTCCTGATGAAAACTTGGTTT   4372
+                     ||||||.||.|||||.||||||.|||||||||||||||||||||||||.|
+Dipodomys_mer   4320 AGACCTCCTCAGCACCAGTGACCTGAACAGTCCTGATGAAAACTTGGTCT   4369
+
+Homo_sapiens    4373 TTACCATCACCAGGGCTCCCATGCGAGGTCACCTGGAATGCACGGATCAG   4422
+                     |||||||||||.|||||||||||.||||.|||||.||||||||.||.||.
+Dipodomys_mer   4370 TTACCATCACCCGGGCTCCCATGAGAGGCCACCTAGAATGCACAGACCAA   4419
+
+Homo_sapiens    4423 CCTGGTGTGTCCATCACGTCTTTCACTCAGCTGCAACTGGCTGGAAACAA   4472
+                     |.|||.||.||||||||.||||||||||||||.|||||.|||||.|||||
+Dipodomys_mer   4420 CTTGGAGTCTCCATCACATCTTTCACTCAGCTCCAACTAGCTGGTAACAA   4469
+
+Homo_sapiens    4473 AATCTACTACATCCACACAGCTGATGATGAAGTGAAAATGGACAGTTTTG   4522
+                     ||||||||||||||||||||||||.||.||.|||||.||||||||.||||
+Dipodomys_mer   4470 AATCTACTACATCCACACAGCTGAGGACGAGGTGAAGATGGACAGCTTTG   4519
+
+Homo_sapiens    4523 AGTTTCAAGTCACCGATGGACGTAACCCTGTCTTTCGGACATTCCGTATC   4572
+                     |||||||||||||||||||.|||||||||||||||||.||||||||||||
+Dipodomys_mer   4520 AGTTTCAAGTCACCGATGGGCGTAACCCTGTCTTTCGCACATTCCGTATC   4569
+
+Homo_sapiens    4573 TCCATTAGCGATGTGGACAATAAAAAGCCAGTGGTCACCATCCACAAGC-   4621
+                     |||||.||.|||||||||||.||||||||||||||||||||||| .||| 
+Dipodomys_mer   4570 TCCATCAGTGATGTGGACAACAAAAAGCCAGTGGTCACCATCCA-TAGCT   4618
+
+Homo_sapiens    4622 TGGTTGTCAGTGAAAGTGAAAACAAGCTGATTACTCCTTTTGAGCTCACT   4671
+                     ||||.||||.|||||||||.|.|||||||||||||||.||||||||||||
+Dipodomys_mer   4619 TGGTGGTCACTGAAAGTGAGAGCAAGCTGATTACTCCCTTTGAGCTCACT   4668
+
+Homo_sapiens    4672 GTCGAAGACAGAGATACTCCTGACAAGCTCCTGAAATTCACTATCACCCA   4721
+                     ||.|||||||||||||||||.|||.|.|||.|.||||||||.||||||||
+Dipodomys_mer   4669 GTGGAAGACAGAGATACTCCAGACCAACTCTTAAAATTCACCATCACCCA   4718
+
+Homo_sapiens    4722 GGTGCCTATTCATGGCCATCTCCTATTCAACAATACCAGACCTGTCATGG   4771
+                     |.|.|||.|||||||.||||||||.||||||.||||||.|||||||||||
+Dipodomys_mer   4719 GATCCCTGTTCATGGTCATCTCCTCTTCAACCATACCAAACCTGTCATGG   4768
+
+Homo_sapiens    4772 TTTTTACCAAGCAAGACTTGAATGAAAACTTAATCAGCTACAAACATGAT   4821
+                     |.||||||||||||||||||||.||.||||||||||||||||||||||||
+Dipodomys_mer   4769 TGTTTACCAAGCAAGACTTGAACGAGAACTTAATCAGCTACAAACATGAT   4818
+
+Homo_sapiens    4822 GGCACTGAGTCAAGTGAAGATAGCTTCTCCTTCACAGTGACTGATGGCAC   4871
+                     |||||.|||||||||||||||||||||||.|||||.|||||||||||.||
+Dipodomys_mer   4819 GGCACAGAGTCAAGTGAAGATAGCTTCTCTTTCACCGTGACTGATGGTAC   4868
+
+Homo_sapiens    4872 CCATACAGACTTCTATGTTTTTCCTGATACGGTGTTTGAAACAAGGAGAC   4921
+                     .|||||||||||||||||||||||||||||.||.||||||||||||||||
+Dipodomys_mer   4869 TCATACAGACTTCTATGTTTTTCCTGATACAGTATTTGAAACAAGGAGAC   4918
+
+Homo_sapiens    4922 CCCAAGTGATGAAGATCCAGGTCTTGGCTGTTGACAACAGTGTCCCCCAA   4971
+                     |||||.||||||||||.|||.||||.|||||||||||.|...||||||||
+Dipodomys_mer   4919 CCCAAATGATGAAGATTCAGATCTTAGCTGTTGACAATAACATCCCCCAA   4968
+
+Homo_sapiens    4972 ATCGCAGTGAATAAGGGGGCCTCTACACTTCGCACTCTAGCCACTGGCCA   5021
+                     ||..||||.|||||.||||||||||..|||||||..||..||||||||||
+Dipodomys_mer   4969 ATTACAGTCAATAAAGGGGCCTCTATGCTTCGCATCCTGACCACTGGCCA   5018
+
+Homo_sapiens    5022 CTTGGGGTTCATGATCACAAGCAAAATATTGAAAGTGGAGGACAGAGACA   5071
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
+Dipodomys_mer   5019 CTTGGGGTTCATGATCACAAACAAAATATTGAAAGTGGAGGACAGAGACA   5068
+
+Homo_sapiens    5072 GCTTACACATTTCTCTTAGATTTATCGTGACAGAGGCCCCTCAACATGGA   5121
+                     |..|||||.||||||||||||||||.|||||..|||||||||||||||||
+Dipodomys_mer   5069 GTCTACACTTTTCTCTTAGATTTATTGTGACCAAGGCCCCTCAACATGGA   5118
+
+Homo_sapiens    5122 TATCTTCTCAACCTGGACAAAGGCAACCACAGCATCACTCAGTTCACACA   5171
+                     ||.||.||||||||||.|||||||||||||||||||||.||.||.||.||
+Dipodomys_mer   5119 TACCTCCTCAACCTGGGCAAAGGCAACCACAGCATCACCCATTTTACCCA   5168
+
+Homo_sapiens    5172 AGCTGACATTGATGACATGAAAATATGCTATGTCTTAAGAGAAGGGGCTA   5221
+                     ||||||||||||||||||||||||.|||||.||.|||.|||||||.||.|
+Dipodomys_mer   5169 AGCTGACATTGATGACATGAAAATCTGCTACGTTTTACGAGAAGGAGCGA   5218
+
+Homo_sapiens    5222 ATGCCACAAGTGATATGTTCTATTTTGCAGTTGAAGATGGTGGTGGAAAC   5271
+                     |||||||||||||..|||||.|||||||.||||||||||||||.||||||
+Dipodomys_mer   5219 ATGCCACAAGTGACCTGTTCCATTTTGCGGTTGAAGATGGTGGGGGAAAC   5268
+
+Homo_sapiens    5272 AAGTTAACGTACCAGAATTTTCGTCTGAATTGGGCATGGATCTCCTTTGA   5321
+                     ..||||||..|||||.||||||||||||||||||||||||||||.|||||
+Dipodomys_mer   5269 CGGTTAACCAACCAGCATTTTCGTCTGAATTGGGCATGGATCTCTTTTGA   5318
+
+Homo_sapiens    5322 AAAGGAATATTACCTGGTCAATGAGGACTCCAAATTTCTAGATGTTGTTC   5371
+                     |||.||||||||.||||||||.||.||||||||||||||||||||..|.|
+Dipodomys_mer   5319 AAAAGAATATTATCTGGTCAACGAAGACTCCAAATTTCTAGATGTCATCC   5368
+
+Homo_sapiens    5372 TTAAACGTAGAGGTTACTTGGGAGAAACTTCTTTTATAAGTATTGGCACA   5421
+                     |||||||.|||||||||||||||||||||||.|||||||||||||||||.
+Dipodomys_mer   5369 TTAAACGCAGAGGTTACTTGGGAGAAACTTCATTTATAAGTATTGGCACG   5418
+
+Homo_sapiens    5422 AGAGACAGAACTGCAGAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAA   5471
+                     |||||..|.|||||.|..||||||||||||||||||||||||||.|||||
+Dipodomys_mer   5419 AGAGATGGGACTGCGGTGAAAGACAAAGACTTCAAGGGCAAAGCTCAGAA   5468
+
+Homo_sapiens    5472 ACAAGTGCAGTTCAACCCAGGCCAGACCAGGGCCACATGGCGAGTGCGGA   5521
+                     .||||||||.||||||||.|||||.|||||||||||.|||.|.|||||||
+Dipodomys_mer   5469 GCAAGTGCAATTCAACCCGGGCCAAACCAGGGCCACGTGGAGGGTGCGGA   5518
+
+Homo_sapiens    5522 TCCTGAGTGATGGGGAGCATGAGCAGTCTGAAACCTTTCAGGTGGTACTC   5571
+                     |||||||.|||||...||||||||||||.||.|||||.||||||.|.|||
+Dipodomys_mer   5519 TCCTGAGCGATGGTACGCATGAGCAGTCGGAGACCTTCCAGGTGATTCTC   5568
+
+Homo_sapiens    5572 TCAGAGCCCGTGCTGGCTGCCTTGGAATTCCCCACAGTCGCCACTGTTGA   5621
+                     ||.||.||.||||||||.|||.||||.|||||..|.||..||||.||.||
+Dipodomys_mer   5569 TCGGAACCAGTGCTGGCCGCCCTGGAGTTCCCTGCGGTGACCACCGTGGA   5618
+
+Homo_sapiens    5622 GATCGTTGATCCAGGAGATGAGCCAACTGTGTTTATTCCCCAGTCCAAAT   5671
+                     ||||||.||.||.|||||||||.|||||||.||.||.||.|||||..|||
+Dipodomys_mer   5619 GATCGTGGACCCCGGAGATGAGTCAACTGTATTCATCCCTCAGTCTGAAT   5668
+
+Homo_sapiens    5672 ACTCCGTTGAAGAAGATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGC   5721
+                     ||..|.|||||||||||||.|||||..||.|.||||||.||..|||||..
+Dipodomys_mer   5669 ACAGCATTGAAGAAGATGTGGGTGAATTGCTTATTCCCCTCCAGAGGACT   5718
+
+Homo_sapiens    5722 GGAGATGTGAGCCAGGAGTTGATGGTGGTCTGTTATACCCAACAAGGAAC   5771
+                     ||.||.||.|||||||||.||||||||.||||.||.||..|.||||||||
+Dipodomys_mer   5719 GGGGACGTCAGCCAGGAGCTGATGGTGATCTGCTACACAGAGCAAGGAAC   5768
+
+Homo_sapiens    5772 AGCAACTGGAACTGTGCCGACTTCCGTGTTGTCTTACTCTGATTACATAT   5821
+                     ||||||||||||||||||.||||||||||||||.||||||||||||||||
+Dipodomys_mer   5769 AGCAACTGGAACTGTGCCTACTTCCGTGTTGTCCTACTCTGATTACATAT   5818
+
+Homo_sapiens    5822 CCAGGCCTGAGGACCACACCAGTGTTGTCCGCTTTGACAAAGATGAACGG   5871
+                     |||||||||||||||||||||||||..|.||||||||||.|||.||||||
+Dipodomys_mer   5819 CCAGGCCTGAGGACCACACCAGTGTCATTCGCTTTGACAGAGAGGAACGG   5868
+
+Homo_sapiens    5872 GAGAAACTGTGTCGGATAGTCATAATTGATGACTCTTTGTACGAGGAGGA   5921
+                     ||.|||...|||||.||..|..|.|||||||||||.||||||||.|||||
+Dipodomys_mer   5869 GAAAAAGCATGTCGCATCATTGTTATTGATGACTCCTTGTACGAAGAGGA   5918
+
+Homo_sapiens    5922 GGAAACCTTCCATGTCCTTCTGAGCATGCCCATGGG-GGGAAGAATCGGA   5970
+                     |||.|.|||||..||||..||||||||||||||||| ||||| |||.||.
+Dipodomys_mer   5919 GGAGAGCTTCCGGGTCCGGCTGAGCATGCCCATGGGTGGGAA-AATGGGC   5967
+
+Homo_sapiens    5971 TCAGAGTTCCCAGGGGCTCAAGTTACAATCGTTCCTGACAAAGATGATGA   6020
+                     ||||||||||||||.||||..|||||.|||.|.|||||||||||||||||
+Dipodomys_mer   5968 TCAGAGTTCCCAGGAGCTCGGGTTACCATCCTCCCTGACAAAGATGATGA   6017
+
+Homo_sapiens    6021 ACCCATCTTTTACTTCGGTGATGTGGAATACTCTGTGGATGAGAGTGCTG   6070
+                     |||||||||.|||||.||||||||..|.|||||.|||||.|||||.||.|
+Dipodomys_mer   6018 ACCCATCTTCTACTTTGGTGATGTCCAGTACTCAGTGGACGAGAGCGCAG   6067
+
+Homo_sapiens    6071 GCTATGTGGAAGTGCAGGTGTGGAGAACGGGCACTGACCTGTCCAAGTCT   6120
+                     ||||.|||||.||.|||||||||||.||||||||.|||||.||||.|.|.
+Dipodomys_mer   6068 GCTACGTGGAGGTACAGGTGTGGAGGACGGGCACCGACCTCTCCAGGCCA   6117
+
+Homo_sapiens    6121 TCTAGTGTCACAGTGAGGTCTCGGAAAACAGATCCTCCCTCTGCAGATGC   6170
+                     |||||..||||||||||.||.|.||||||.|||||.||||||||.|||||
+Dipodomys_mer   6118 TCTAGCATCACAGTGAGATCCCAGAAAACTGATCCACCCTCTGCCGATGC   6167
+
+Homo_sapiens    6171 TGGAACAGACTATGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAG   6220
+                     ||||||.|||||||||||.||||||||||||.|.||||||||.|||||||
+Dipodomys_mer   6168 TGGAACTGACTATGTGGGAATCAGCCGTAATCTGGATTTTGCCCCTGGAG   6217
+
+Homo_sapiens    6221 TCAACATGCAGCCTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACCA   6270
+                     |.|||||||||...|||||..||.|.|||.||||.|||||||||||.||.
+Dipodomys_mer   6218 TGAACATGCAGAGAGTTCGGATTATTATTGTGGACGACCTTGGACAGCCC   6267
+
+Homo_sapiens    6271 GCGCTGGAGGGAATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAA   6320
+                     |.|||||||||..|||||||.|||||.|||||.|||||.||||||.||||
+Dipodomys_mer   6268 GTGCTGGAGGGGGTTGAGAAGTTTGAGCTGGTACTTCGTATGCCTGTGAA   6317
+
+Homo_sapiens    6321 CGCAGCCCTTGGCGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTG   6370
+                     .||.||||||||||||||||||||||||||.||||.|||.||.|||||||
+Dipodomys_mer   6318 TGCTGCCCTTGGCGAGCCCAGCAAAGCCACCGTGTACATCAACGACTCTG   6367
+
+Homo_sapiens    6371 TCTCCGATTTGCCTAAGATGCAATTCAAAGAACGAATATATACTGGCAGC   6420
+                     ||||.||.|||||.||||||||||||||||||.||.|..|.||||||||.
+Dipodomys_mer   6368 TCTCTGACTTGCCAAAGATGCAATTCAAAGAAAGAGTGCACACTGGCAGT   6417
+
+Homo_sapiens    6421 GAAAGTGATGGGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCCA   6470
+                     ||||..|||||||||||.|||.||...|||||.||||..|||||||||||
+Dipodomys_mer   6418 GAAAAGGATGGGCAGATCGTTGCAGGAATCCACAGGAGCGGGGATGTCCA   6467
+
+Homo_sapiens    6471 GTACAGATCTTCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGA   6520
+                     ||.||.||||||.|||||||||||||||||||||||.|||||||||||||
+Dipodomys_mer   6468 GTTCACATCTTCCGTGAGATGCTACACCCGGCAGGGCTCTGCACAGGTGA   6517
+
+Homo_sapiens    6521 TGATGGACTTTGAAGAACGCCCAAACACTGATACCTCCATCATCACATTC   6570
+                     ||||||||||.||||||||.||.||||||||.|.|||.|.||||||||||
+Dipodomys_mer   6518 TGATGGACTTCGAAGAACGTCCCAACACTGACATCTCTACCATCACATTC   6567
+
+Homo_sapiens    6571 CTCCCTGGTGAGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATGT   6620
+                     |||||.|||||||||||||||||.|||||.||.||.||||||||.||   
+Dipodomys_mer   6568 CTCCCCGGTGAGACAGAAAAGCCATGCATCCTGGAACTGATGGATGA---   6614
+
+Homo_sapiens    6621 GC----TCTATGAGGAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCA   6666
+                      |    ||||||||||.||.||||||.|.|||||||||||.||.||||||
+Dipodomys_mer   6615 -CACAGTCTATGAGGAAGTCGAGGAGTTGCGCCTGGTACTGGGGACTCCA   6663
+
+Homo_sapiens    6667 CAAAGCAACTCTCCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCT   6716
+                     |||||||..||||||||||||||||||||||||||||||||||||||.||
+Dipodomys_mer   6664 CAAAGCAGTTCTCCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACCCT   6713
+
+Homo_sapiens    6717 CATAAGGATCCGAGATGATGCTGATAAGACTGTTATTAAATTTGGAGAAA   6766
+                     .||||||||||.||||||||||||.|||.|..||||.|||||||||||||
+Dipodomys_mer   6714 GATAAGGATCCAAGATGATGCTGACAAGTCCATTATCAAATTTGGAGAAA   6763
+
+Homo_sapiens    6767 CCAAATTTAGTGTCACTGAACCCAAAGAACCTGGAGAGTCGGTGGTTATA   6816
+                     ||||||||||.|||||||||||.||||||.|..||||.||.|||||..|.
+Dipodomys_mer   6764 CCAAATTTAGCGTCACTGAACCTAAAGAATCAAGAGAATCAGTGGTGGTC   6813
+
+Homo_sapiens    6817 AGAATTCCAGTGATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAG   6866
+                     ||||||||.|||||||||||||||||.|||||.||.||||||||.|||||
+Dipodomys_mer   6814 AGAATTCCTGTGATTCGCCAAGGAGATACTTCCAAAGTTTCCATCGTGAG   6863
+
+Homo_sapiens    6867 AGTCCACACCAAGGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTG   6916
+                     .|||||||||||.||.|||||.||||||||||||||||||||.|||||||
+Dipodomys_mer   6864 GGTCCACACCAAAGACGGCTCTGCCACCTCTGGAGAAGACTATCACCCTG   6913
+
+Homo_sapiens    6917 TGTCAGAAGAAATTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAA   6966
+                     ||||.|||||||||||||||||||||||.|||||.|||||.||.||||||
+Dipodomys_mer   6914 TGTCCGAAGAAATTGAGTTTAAGGAAGGAGAAACGCAGCATGTTGTTGAA   6963
+
+Homo_sapiens    6967 ATCGAAG--TTACCTTTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACT   7014
+                     ||.||||  |||  |||||.|||||.||||||||||||||||||||||||
+Dipodomys_mer   6964 ATTGAAGTATTA--TTTGATGGGGTCAGAGAGATGAGAGAGGCCTTCACT   7011
+
+Homo_sapiens    7015 GTTCACCTAAAACCTGATGAAAATATGATAGCAGAGATGCAGTTGACGAA   7064
+                     ||.|||.|||||||.||||||||.|||.|||||||||.||||.|.||.||
+Dipodomys_mer   7012 GTACACTTAAAACCCGATGAAAACATGGTAGCAGAGACGCAGGTCACCAA   7061
+
+Homo_sapiens    7065 AGCCATTGTGTACATAGAAGAAATGAGCAGCATGGCAGATGTCACTTTTC   7114
+                     |||||||||||||||.||||||||.|.||.||||||||||||||||||||
+Dipodomys_mer   7062 AGCCATTGTGTACATTGAAGAAATAAACAACATGGCAGATGTCACTTTTC   7111
+
+Homo_sapiens    7115 CTTCTGTCCCTCAAATTGTATCCCTGTTGATGTATGACGACACTTCCAAA   7164
+                     |||||||||||||||||||.|||.||.|.|..|||||.||||||||||||
+Dipodomys_mer   7112 CTTCTGTCCCTCAAATTGTGTCCTTGCTAACATATGATGACACTTCCAAA   7161
+
+Homo_sapiens    7165 GCTAAGGAGAGTGCTGAACCCATGTCTGGCTATCCTGTCATCTGTATCAC   7214
+                     |||||.|||.|..|||.|||...||||||||||||||||||||||.|.||
+Dipodomys_mer   7162 GCTAAAGAGGGCACTGGACCTGCGTCTGGCTATCCTGTCATCTGTGTTAC   7211
+
+Homo_sapiens    7215 AGCTTGCAACCCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGTG   7264
+                     .|||||.||||||||||||||.|||||.||.||||||||.|||||.||||
+Dipodomys_mer   7212 GGCTTGTAACCCCAAATATTCTGACTATGACAAAACAGGGTCTATTTGTG   7261
+
+Homo_sapiens    7265 CAAGTGAGAACATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGT   7314
+                     ||||.|||||||||||||||||.|||||.||.|||||.||||||||.|||
+Dipodomys_mer   7262 CAAGCGAGAACATCAATGACACGTTGACCCGCTACCGATGGCTGATCAGT   7311
+
+Homo_sapiens    7315 GCACCTGCGGGCCCTGACGGTGTGACCAGCCCTATGAGAGAAGTGGACTT   7364
+                     ||.||.||.|||||||||||||||||||||||.||||||||.||||||||
+Dipodomys_mer   7312 GCTCCAGCTGGCCCTGACGGTGTGACCAGCCCCATGAGAGAGGTGGACTT   7361
+
+Homo_sapiens    7365 CGACACCTTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATATACT   7414
+                     ||||||.||||||||.||.||||||||..||||..|.|||||||||||||
+Dipodomys_mer   7362 CGACACTTTTTTTACATCCTCCAAGATTATCACCTTAGACTCCATATACT   7411
+
+Homo_sapiens    7415 TTCAGCCTGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAAT   7464
+                     |.||||||||.||.||.||.|||||.||.|||||.||||||||||...||
+Dipodomys_mer   7412 TCCAGCCTGGATCTCGAGTGCAGTGTGCGGCTCGAGCTGTGAACATGGAT   7461
+
+Homo_sapiens    7465 GGGGATGAAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGA   7514
+                     ||..||||||||.|||||||.||||||||.|||.|||||||..|||||||
+Dipodomys_mer   7462 GGCAATGAAGGCTTGGAGCTGATGAGCCCAATTATAACCATTGGCAGAGA   7511
+
+Homo_sapiens    7515 AGAAGGTCTTTGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCCGT   7564
+                     ||||||.||||||||.||.|||||.|||||.|||||.||.||.|||||.|
+Dipodomys_mer   7512 AGAAGGCCTTTGTCAACCTCGTGTGCCTGGAGTTGTGGGGGCTGAGCCAT   7561
+
+Homo_sapiens    7565 TCTCAGCTAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAAAC   7614
+                     ||||||||||.|||.|.||||||||||||||.||..|.||||...|||||
+Dipodomys_mer   7562 TCTCAGCTAAGTTGAGATACACAGGCCCTGAAGACTCGGACTTTGCAAAC   7611
+
+Homo_sapiens    7615 CTTATCAAGCTCACTGTCACAATGCCACACATAGATGGCATGCTCCCCGT   7664
+                     ||.|||||.|||||||||||.|||||||||||.||.|||||||||||.||
+Dipodomys_mer   7612 CTGATCAAACTCACTGTCACGATGCCACACATTGACGGCATGCTCCCTGT   7661
+
+Homo_sapiens    7665 GATCTCCACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATG   7714
+                     ||||||||||.|||||||.||||||||||||||.||.||.||||||||||
+Dipodomys_mer   7662 GATCTCCACTCGAGAGCTCTCCAACTTTGAGCTGACGCTTAGCCCTGATG   7711
+
+Homo_sapiens    7715 GCACAAGAGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAA   7764
+                     |.|||||||||||.||||||||||||||||||||||||||.||.||.||.
+Dipodomys_mer   7712 GGACAAGAGTTGGGAACCACAAGTGCTCCAACCTCCTGGACTACACAGAG   7761
+
+Homo_sapiens    7765 GTGAAGACTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAAT   7814
+                     ||||||||.||..|.||.|||.|.||.||.||.||||||||.||.|||.|
+Dipodomys_mer   7762 GTGAAGACCCACCACGGCTTCCTCACGGAGGCCACCAAAAACCCCGAAGT   7811
+
+Homo_sapiens    7815 AATTGGAGAGACATATCCTTACCAGTACAGCTTGTCCATCAGAGGTTCCA   7864
+                     .||.||||||||.|||||||||||||||||||...|||||.||||.||||
+Dipodomys_mer   7812 CATCGGAGAGACCTATCCTTACCAGTACAGCTCTCCCATCCGAGGCTCCA   7861
+
+Homo_sapiens    7865 CTACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCTGTTTATGGGAG   7914
+                     ..|||||.|||||||||||.|||.|||||||.||||||||..|.||||||
+Dipodomys_mer   7862 ACACCTTACGCTTCTACCGAAACTTGAACCTGGAGGCCTGCCTGTGGGAG   7911
+
+Homo_sapiens    7915 TTCGTTAGCTACTATGACATGTCAGAACTCCTTGCTGACTGTGGTGGCAC   7964
+                     ||.||.||||||||.|||||||||||.|||||..|.|||||.||.||.||
+Dipodomys_mer   7912 TTTGTCAGCTACTACGACATGTCAGAGCTCCTCACCGACTGCGGAGGTAC   7961
+
+Homo_sapiens    7965 CATTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGTCCTATGTGACCC   8014
+                     |||.||.||.|||||.||||||||.|||.|.||.||||||||||||||.|
+Dipodomys_mer   7962 CATCGGGACTGATGGCCAGGTCCTCAACTTGGTACAGTCCTATGTGACTC   8011
+
+Homo_sapiens    8015 TTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCCCCCGTGGGGGTA   8064
+                     |||||||.||||||||||||||||||||||||||||||||.||.|||||.
+Dipodomys_mer   8012 TTCGAGTTCCTCTGTATGTTTCCTACGTGTTCCATTCCCCAGTTGGGGTT   8061
+
+Homo_sapiens    8065 GGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTCTAACTTTTGT   8114
+                     |||||||||||||||||||||||||||||||||||||||.|.||||||||
+Dipodomys_mer   8062 GGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTTTGACTTTTGT   8111
+
+Homo_sapiens    8115 GTACGACACCGCCATCTTGTGGAATGATGGAATTGGCAGCCCCCCAGAGG   8164
+                     |||||||||.||||||||||||||||||||.|||||||||||.|||||.|
+Dipodomys_mer   8112 GTACGACACTGCCATCTTGTGGAATGATGGCATTGGCAGCCCACCAGAAG   8161
+
+Homo_sapiens    8165 CTGAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGCATCGGTGATGAG   8214
+                     |||||||.||.||||||||||||||||||||.||||||||.|||||.|||
+Dipodomys_mer   8162 CTGAACTCCAGGGTTCTCTCTATCCAACCAGTATGCGCATTGGTGAAGAG   8211
+
+Homo_sapiens    8215 GGGCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTTCCATGGCTTATT   8264
+                     ||.||..||||.|||.|||||||||||||||||||||||||||||||.||
+Dipodomys_mer   8212 GGTCGTCTGGCTGTGAACTTCAAGACAGAGGCTCAGTTCCATGGCTTGTT   8261
+
+Homo_sapiens    8265 TGTGCTGTCACATCCCGCATCCTTTACAAGCTCAGTGATCATGTCAGCTG   8314
+                     |||||||||||||||.||.|||||.|||||||||.||||.||||||||||
+Dipodomys_mer   8262 TGTGCTGTCACATCCAGCGTCCTTCACAAGCTCAATGATAATGTCAGCTG   8311
+
+Homo_sapiens    8315 ATCATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGGAGTGAACCAACC   8364
+                     |.||||||||||||||.|||||||||||||||||||||||||||||||||
+Dipodomys_mer   8312 ACCATCCAGGCCTGACCTTTTCCCTCCGCCTCATAAGGAGTGAACCAACC   8361
+
+Homo_sapiens    8365 TATAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGACTTTGCCGTACG   8414
+                     |||||||||||.||||||||.|||||||||||||||||||||||.|||||
+Dipodomys_mer   8362 TATAACCAGCCTGTACAGCAATGGAGCTTTGTCTCTGACTTTGCAGTACG   8411
+
+Homo_sapiens    8415 TGACTACTCAGGGACCTATACTGTGAAGCTGGTGCCATGCACTGCCCCAT   8464
+                     |||||||||.||.|||||.|||||||||||||||||.|||||..|.||||
+Dipodomys_mer   8412 TGACTACTCGGGAACCTACACTGTGAAGCTGGTGCCGTGCACCACACCAT   8461
+
+Homo_sapiens    8465 CACATCAGGAATACCGCCTGCCAGTCACCTGCAACCCCAGAGAACCTGTC   8514
+                     |..|||||||.||||.|||||||||||||||||||||||||||.||||||
+Dipodomys_mer   8462 CCAATCAGGAGTACCACCTGCCAGTCACCTGCAACCCCAGAGAGCCTGTC   8511
+
+Homo_sapiens    8515 ACCTTTGACCTTGACATCCGATTCCAACAGGTCAGTGATCCAGTGGCTGC   8564
+                     |||||||||||||||||.|||||||||||||||||||||||.|||||.||
+Dipodomys_mer   8512 ACCTTTGACCTTGACATTCGATTCCAACAGGTCAGTGATCCTGTGGCAGC   8561
+
+Homo_sapiens    8565 TGAGTTTAGCTTGAACACCCAAATGTACCTGCTCTCTAAGAAGAGTCTCT   8614
+                     .||.||.|||.||||||||||.||||||||||||||.|||||||||||||
+Dipodomys_mer   8562 AGAATTCAGCCTGAACACCCACATGTACCTGCTCTCCAAGAAGAGTCTCT   8611
+
+Homo_sapiens    8615 GGTTGTCTGATGGATCCATGGGATTCGGGCAAGAGAGTGATGTTGCTTTT   8664
+                     |||||||.|||||.|||||||||||.||||||||||||||||||||||||
+Dipodomys_mer   8612 GGTTGTCAGATGGCTCCATGGGATTTGGGCAAGAGAGTGATGTTGCTTTT   8661
+
+Homo_sapiens    8665 GCAGAAGGTGATATAATTTATGGTCGTGTCATGGTGGATCCTGTCCAGAA   8714
+                     ||||||||.|||.||||||||||||||||||||||.||||||||||||||
+Dipodomys_mer   8662 GCAGAAGGGGATGTAATTTATGGTCGTGTCATGGTAGATCCTGTCCAGAA   8711
+
+Homo_sapiens    8715 TCTGGGTGACTCCTTTTACTGCAGCATTGAGAAGGTGTTTCTATGCACTG   8764
+                     |||.|||||||||||||||||||||||||||||.||.||.||.|||||.|
+Dipodomys_mer   8712 TCTAGGTGACTCCTTTTACTGCAGCATTGAGAAAGTATTCCTGTGCACGG   8761
+
+Homo_sapiens    8765 GAGCTGATGGCTATGTTCCCAAGTATAGTCCAATGAATGCAGAATATGGC   8814
+                     |||||||||||||.||.||||||||.||||||...||||.||||||.|||
+Dipodomys_mer   8762 GAGCTGATGGCTACGTGCCCAAGTACAGTCCAGCAAATGAAGAATACGGC   8811
+
+Homo_sapiens    8815 TGCTTAGCCGACTCTCCTTCACTCTTATATAGATTTAAAATTGTGGACAA   8864
+                     ||||||||.||.||.|||||||||.|.|||||||||||||||||||||||
+Dipodomys_mer   8812 TGCTTAGCAGATTCCCCTTCACTCCTCTATAGATTTAAAATTGTGGACAA   8861
+
+Homo_sapiens    8865 AGCTCAGCCAGAGACACAAGCGACCAGTTTTGGAAATGTCCTATTTAATG   8914
+                     |||.|||||||||||||||||.|||||||||||||||||.||.|||||||
+Dipodomys_mer   8862 AGCCCAGCCAGAGACACAAGCTACCAGTTTTGGAAATGTGCTCTTTAATG   8911
+
+Homo_sapiens    8915 CCAAACTAGCAGTGGATGACCCTGAAGCCATTCTCTTAGTGAATCAGCCT   8964
+                     |.|||||.|||.|.|||||.||.|||||||||||||||||||||||||||
+Dipodomys_mer   8912 CTAAACTGGCAATAGATGATCCCGAAGCCATTCTCTTAGTGAATCAGCCT   8961
+
+Homo_sapiens    8965 GGATCTGATGGATTTAAAGTCGACTCAACACCACTCTTTCAGGTCGCTCT   9014
+                     ||.||.||||||||||||||.||||||||.||.||.|||||.||..||||
+Dipodomys_mer   8962 GGGTCGGATGGATTTAAAGTTGACTCAACGCCGCTGTTTCAAGTTACTCT   9011
+
+Homo_sapiens    9015 AGGCCGAGAATGGTATATACATACGATCTATACAGTGAGATCGAAAGACA   9064
+                     .||||||||||||||..||||.||.|||||||||||.|||||.|||||||
+Dipodomys_mer   9012 GGGCCGAGAATGGTACCTACACACAATCTATACAGTAAGATCAAAAGACA   9061
+
+Homo_sapiens    9065 ATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG------AGTACCATTCT   9108
+                     ||.|....|||||.|||||||||||.|||||||      |||||||.|||
+Dipodomys_mer   9062 ATACTCTCCGAGGGATTGGCAAAAGGAGTGTGGAGTACCAGTACCACTCT   9111
+
+Homo_sapiens    9109 CTGGTGAGTCAAGGAAAGCCCCAATCCACCACCAAGAGCCGGAAGAAGAG   9158
+                     ||||||.|.||.|.|.|..||||..|.||..|.|.||||.||||||||||
+Dipodomys_mer   9112 CTGGTGCGCCATGCAGATTCCCAGGCAACTTCAATGAGCAGGAAGAAGAG   9161
+
+Homo_sapiens    9159 AGAGATCAGGAGCACACCCTCACTGGCATGGGAGATTGGTGCTGAAAACA   9208
+                     |||||||||.|||||||||.|||||||.|||||.||||||||||||||||
+Dipodomys_mer   9162 AGAGATCAGAAGCACACCCCCACTGGCCTGGGAAATTGGTGCTGAAAACA   9211
+
+Homo_sapiens    9209 GTCGAGGAACAAACATCCAGCACATTGCCCTGGACC---GCACCAAGAGG   9255
+                     ..|||||.||||||||||||||.||..|||||||||   |||||||||||
+Dipodomys_mer   9212 ACCGAGGCACAAACATCCAGCATATCACCCTGGACCGCAGCACCAAGAGG   9261
+
+Homo_sapiens    9256 CAGATCCCCCATGGGAGAGCACCTCCAGATGGCATCCTCCCCTGGGAGCT   9305
+                     ||.|||||.||.|||||||..|||||.||||||.||||.|||.|||||.|
+Dipodomys_mer   9262 CAAATCCCGCAAGGGAGAGTTCCTCCTGATGGCGTCCTTCCCCGGGAGTT   9311
+
+Homo_sapiens    9306 CAACAGCCCCAGCTCTG-CAGTCAGCCTGGTCACTGTGGTGGGAGGCACC   9354
+                     |||||..||..|||||| || ||||||||.||||||...||||.||||..
+Dipodomys_mer   9312 CAACAATCCTGGCTCTGACA-TCAGCCTGATCACTGCCTTGGGCGGCATT   9360
+
+Homo_sapiens    9355 ACGGTAGGGTTACTCACCATCTGCCTCACTGTCATTGCAGTGCTGATGTG   9404
+                     .|.||.||.|||||||||.|.||||||.|..|||||||||...||.||||
+Dipodomys_mer   9361 GCAGTGGGATTACTCACCGTGTGCCTCTCCATCATTGCAGCCATGGTGTG   9410
+
+Homo_sapiens    9405 CAGG-GGCAAGGAA-AGTTTCAGGGGGAAGGATGCCCCGAAAGGCTCCAG   9452
+                     |.|| ||  ||||| ||..||||.|..||||||||..|.||.|||||..|
+Dipodomys_mer   9411 CCGGAGG--AGGAAGAGCATCAGAGCAAAGGATGCTGCCAAGGGCTCTGG   9458
+
+Homo_sapiens    9453 CAGCAGTGAGCCCATGGTGCCCCCACAGAGCCATCACAATGACAGCTCAG   9502
+                     ||||||||||||.|||.||.|||||||||.|||.||...|||||||||||
+Dipodomys_mer   9459 CAGCAGTGAGCCTATGATGTCCCCACAGAACCACCATGGTGACAGCTCAG   9508
+
+Homo_sapiens    9503 AAGTT   9507
+                     |.||.
+Dipodomys_mer   9509 AGGTG   9513
+
+
+#---------------------------------------
+#---------------------------------------

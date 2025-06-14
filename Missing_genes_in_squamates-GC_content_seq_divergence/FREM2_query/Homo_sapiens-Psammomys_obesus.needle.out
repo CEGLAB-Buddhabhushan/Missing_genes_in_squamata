@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:48:30
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Psammomys_obesus.fa
+#    -outfile Homo_sapiens-Psammomys_obesus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Psammomys_obesus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Psammomys_obesus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9527
+# Identity:    7993/9527 (83.9%)
+# Similarity:  7993/9527 (83.9%)
+# Gaps:          73/9527 ( 0.8%)
+# Score: 33790.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                     ||           ||.|.||||       |.|||.|.|||||..|||..|
+Psammomys_obe      1 AT-----------GGCCACCCG-------CGCGCACAGGACACCCAAACC     32
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGAC-CGC-CACCGCCGCCCCGGCTGCTGCTGCT     98
+                     ..||||.||.||.||  ||| |.| |||.|.|.|||.|||||||||||||
+Psammomys_obe     33 TTCCAGATTCCAGCC--GACACACACACAGTCTCCCAGGCTGCTGCTGCT     80
+
+Homo_sapiens      99 GCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAGCCCGCTG    148
+                     |||||||   ||||||||||||||||||||||.|.|..|||||||||..|
+Psammomys_obe     81 GCTGCTG---CTCCTGTCACTGGTAAGCCGCGCCTCCACACAGCCCGGCG    127
+
+Homo_sapiens     149 CCTTCG--GCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTGCAGGGG    196
+                     ||..||  |||  |||.|.||||||||.||||||.|.|||.||.||||||
+Psammomys_obe    128 CCCCCGACGCA--GCGCTTCTGTCCCCGGGTCTCTCCGGGACTTCAGGGG    175
+
+Homo_sapiens     197 TCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGGGTGCCT    246
+                     |||||||.|||||.||.||||||.|||||||||||||||||||||||||.
+Psammomys_obe    176 TCCCTGCAGAGGAAGCGATAGTGGTGGCGAACCGCGGACTCCGGGTGCCC    225
+
+Homo_sapiens     247 TTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTTGCAGGT    296
+                     |||||.||.||.||||||||||||||.||||.||||.|.|||.|||||||
+Psammomys_obe    226 TTCGGTCGCGAGGTCTGGCTGGATCCGCTGCGTGACTTAGTGCTGCAGGT    275
+
+Homo_sapiens     297 GCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACGCACTGG    346
+                     ||||||.||.||||||||||||||..|.||.||.|||||||||||.||||
+Psammomys_obe    276 GCAGCCAGGAGACCGCTGCGCGGTGACCGTGCTGGACAACGACGCGCTGG    325
+
+Homo_sapiens     347 CCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGACTTTGGC    396
+                     |||||||.||.||||||.|||||||||||||||||.|.|||||||..|||
+Psammomys_obe    326 CCCAGCGTCCTGGCCGCTTGAGTCCCAAGCGCTTCGCCTGCGACTACGGC    375
+
+Homo_sapiens     397 CCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTCTCGGGA    446
+                     ||..||||||||||||||||.|||||||||||.||||||||.||.||.||
+Psammomys_obe    376 CCGCGCGAGGTGCGCTACTCACACCTGGGCGCCCGCAGCCCTTCCCGCGA    425
+
+Homo_sapiens     447 CCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCAGTAGTGC    496
+                     ||||||||||||||||||||||||.||.||.||.||||||||.|||||.|
+Psammomys_obe    426 CCGCGTCCGGCTGCAGCTGCGCTACGATGCCCCGGGAGGGGCGGTAGTCC    475
+
+Homo_sapiens     497 TACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAGGTTGTG    546
+                     |.|||||||..|||||||||||.|||||||||||||||||||||||||||
+Psammomys_obe    476 TGCCACTGGCCCTGGAGGTGGAAGTGGTCTTCACCCAGCTGGAGGTTGTG    525
+
+Homo_sapiens     547 ACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCAGCAATGC    596
+                     |||||||||||.|||||||||||||||||.|||||.||||||||||||||
+Psammomys_obe    526 ACTCGGAACTTACCTCTGGTCGTGGAAGAACTGCTAGGGACCAGCAATGC    575
+
+Homo_sapiens     597 CCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACAGAGGAGT    646
+                     |||||||||.||||||.|.||||||.|||.||||||.|||||.|||||||
+Psammomys_obe    576 CCTGGACGCTCGGAGCTTAGAGTTCACCTACCAGCCTGAGACGGAGGAGT    625
+
+Homo_sapiens     647 GCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTATGGAGAA    696
+                     |||||||||||||||||||.||.|||.||||..||||||||||.||.|||
+Psammomys_obe    626 GCCGCGTGGGCATCCTGTCAGGTTTGAGCGCCTTGCCTCGCTACGGGGAA    675
+
+Homo_sapiens     697 CTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGGCGCCCC    746
+                     |||||.|||||||||||.||||...|||..||||||||||||||...|||
+Psammomys_obe    676 CTCCTTCACTACCCGCAAGTCCAGAGAGAGGCCAGAGAGGGAGGGATCCC    725
+
+Homo_sapiens     747 GGAGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCT    796
+                     .|||||.||..|||||||.||||.|||.||||||||.||.||.|||||||
+Psammomys_obe    726 CGAGACCCTTTTGATGGATTGCAGAGCGTTCCAGGAGCTTGGAGTGCGCT    775
+
+Homo_sapiens     797 ATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATACCCATG    846
+                     |.||||||||.|||.|||||||||||||.||||||||.|||.|.||.|||
+Psammomys_obe    776 ACCGCCACACGGCCTCCAGTCGCTCACCTAACAGGGATTGGCTGCCTATG    825
+
+Homo_sapiens     847 GTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTGCTTTGAA    896
+                     |||||||||||.|.|.|.|||||||||||||||||||||||.|||||.||
+Psammomys_obe    826 GTGGTGGAGCTCCATCCGCGAGGGGCTCCTGTGGGCAGCCCGGCTTTAAA    875
+
+Homo_sapiens     897 ACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAACA    946
+                     ||||||||||||||||||.||.|||||||||||.|||||.|..|||||||
+Psammomys_obe    876 ACGCGAGCACTTCCAGGTGCTTGTGAGGATCCGGGGAGGAGTGGAGAACA    925
+
+Homo_sapiens     947 CTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAG    996
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Psammomys_obe    926 CTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAG    975
+
+Homo_sapiens     997 TTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTGA   1046
+                     |||||||||||.||.||.||.|||||||||||||||||.||.||||||||
+Psammomys_obe    976 TTTGTACTGACTGCGCTCACTCCAGACATGCTGGCAGCGGAAGATGCTGA   1025
+
+Homo_sapiens    1047 GTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCTG   1096
+                     .||...|.|.|||||.||||||||||||||.||.||..|.||||.|||.|
+Psammomys_obe   1026 ATCCAACGCCGACCTTTTGATCTTCAACCTCACCTCCGCCTTCCTGCCCG   1075
+
+Homo_sapiens    1097 GCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTCCTCC   1146
+                     |.||||||||||||||||||||.|||||.||.|||||.||.||.||||||
+Psammomys_obe   1076 GGCAGGGCTACTTGGTGAGCACTGATGACCGAAGCCTACCTCTCTCCTCC   1125
+
+Homo_sapiens    1147 TTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCCCTTC   1196
+                     ||.||.||..|.|||.||||.||.||||||||||||||||||||.||.||
+Psammomys_obe   1126 TTTACACAACGTGATTTGCGCCTGCTGAAGATTGCCTACCAGCCTCCCTC   1175
+
+Homo_sapiens    1197 TGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAGTGG   1246
+                     .||.|||||.||.|||||||||||.|||||||||||..||||.||.||||
+Psammomys_obe   1176 GGAGGACTCCGATCAGGAGCGCCTGTTTGAACTGGAGCTGGAAGTCGTGG   1225
+
+Homo_sapiens    1247 ATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTGAAG   1296
+                     |.|..||.||||||||.|||||||||||||||||||||||.||||||||.
+Psammomys_obe   1226 ACCCTGAGGGAGCAGCCTCAGACCCTTTTGCCTTCATGGTGGTGGTGAAA   1275
+
+Homo_sapiens    1297 CCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTATTCT   1346
+                     |||||||||||..||||.||.||||||||.|||||.||.|||||||||||
+Psammomys_obe   1276 CCCATGAACACGCTGGCCCCAGTGGTCACACGGAACACTGGTCTTATTCT   1325
+
+Homo_sapiens    1347 CTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGTCCGC   1396
+                     |||.||||||||||.||||||.|||||.||.||||.|||||||||.||.|
+Psammomys_obe   1326 CTACGAGGGTCAGTATCGGCCGCTCACGGGTCCTGAAGGCAGTGGACCCC   1375
+
+Homo_sapiens    1397 AAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCGGCTAGAG   1446
+                     ||||||||||||||||.||||||||.|||||||||||.|||.|.||.|||
+Psammomys_obe   1376 AAAACTTGGTCATCAGTGATGAGGACGACCTAGAAGCCGTGAGACTTGAG   1425
+
+Homo_sapiens    1447 GTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGCTTCCAG   1496
+                     |||||||||||||||||||||||.||||||||.|||||||||.||.||||
+Psammomys_obe   1426 GTGGTGGCTGGGCTCCGGCATGGCCACCTTGTGATTCTGGGTTCTCCCAG   1475
+
+Homo_sapiens    1497 T-GGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTGGCAGCCGGC   1545
+                     | ||.| .|||||.|||||||.|||.||.|||||.|||||||||||.|||
+Psammomys_obe   1476 TAGGGA-TTCTGCCCCCAAGACCTTCACGGTGGCCGAGCTGGCAGCTGGC   1524
+
+Homo_sapiens    1546 CAGGTGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGACAACCT   1595
+                     |||||..|||||||||||||||||||||||||.||||||||.||||||.|
+Psammomys_obe   1525 CAGGTTCTCTACCAGCATGATGACAGAGACGGTTCGCTGAGTGACAACTT   1574
+
+Homo_sapiens    1596 GGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGTTTCTGT   1645
+                     ||||||.||||||...||.||.|||||||||||||||||.|||||.||||
+Psammomys_obe   1575 GGTGCTGCGCATGTCAGACGGGGGAGGCAGGCACCAGGTCCAGTTCCTGT   1624
+
+Homo_sapiens    1646 TCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTCAATGCC   1695
+                     ||||||||||.||.||.|||||||||||||||||.|||||.||.||.|||
+Psammomys_obe   1625 TCCCCATCACTTTGGTCCCTGTGGATGACCAGCCTCCTGTCCTGAACGCC   1674
+
+Homo_sapiens    1696 AACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTGCCCCT   1745
+                     |||||.||||||||.|||||.|||||.||.||.||||||||||..|||.|
+Psammomys_obe   1675 AACACTGGGCTGACGCTGGCGGAGGGGGACACTGTGCCCATCCCACCCTT   1724
+
+Homo_sapiens    1746 TTCCCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGCTTTTTG   1795
+                     ..|.|||||||||||.||.|||||||||||.||.||.|.|||||||||||
+Psammomys_obe   1725 GGCTCTGAGTGCAACGGATATGGATTCAGAGGACTCGCAGCTGCTTTTTG   1774
+
+Homo_sapiens    1796 TGCTGGAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTCCGCCAAACT   1845
+                     |.||||||.|.|||||||.||..|||||.||.||||||||||||||||||
+Psammomys_obe   1775 TCCTGGAGCCGCCCTTCTCAAGCACGGGACACCTGCTTCTCCGCCAAACT   1824
+
+Homo_sapiens    1846 CACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTGGAGGAAGGA   1895
+                     || |.||||.| |.|||| ||        ||| |||||.|||..||||.|
+Psammomys_obe   1825 CA-CGTCCCTA-GGGAAG-AG--------CAG-GGCCTGTGGCAGAAGCA   1862
+
+Homo_sapiens    1896 GGGGGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGGACATAA   1945
+                     .|||.||.||||.||||||.|||||||||||||||.|||.|||||.||||
+Psammomys_obe   1863 AGGGTCAGTTTACGAGCGAGCAGTGACAGAGTGGCGGCAACAGGATATAA   1912
+
+Homo_sapiens    1946 CAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCTGGGCCA   1995
+                     |||||||.|.|||.|||||.||.||.||.||||||||.||.|||||||||
+Psammomys_obe   1913 CAGAGGGGAAGCTCTTCTACAGGCATTCGGGGCCCCACAGCCCTGGGCCA   1962
+
+Homo_sapiens    1996 GTCACAGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCCTCCTAA   2045
+                     ||.|..|||||..||||.|||||||||||.||.||.||||||||.|||||
+Psammomys_obe   1963 GTGATGGACCACCTCACGTTTAGAGTCCAAGACAATCATGACCCCCCTAA   2012
+
+Homo_sapiens    2046 TCAGTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGGATCGCC   2095
+                     ||.|||.|||.|.|||.||||||||||.||.||.|||||||||||.||||
+Psammomys_obe   2013 TCGGTCTGGGGTCCAGAGGTTTGTGATACGGATTCATCCTGTGGACCGCC   2062
+
+Homo_sapiens    2096 TCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTACAGGAA   2145
+                     |||||||.||.||.|||||.||||||||||||||.||||||||.||||||
+Psammomys_obe   2063 TCCCTCCAGAACTAGGCAGCGGCTGTCCCCTTCGGATGGTGGTGCAGGAA   2112
+
+Homo_sapiens    2146 TCCCAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGA   2195
+                     ||||||||||||||.||||||||.|.||||||||..||||||||||||||
+Psammomys_obe   2113 TCCCAGCTCACACCGCTGAGGAAAAGGTGGCTGCATTACACTGACCTGGA   2162
+
+Homo_sapiens    2196 CACAGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACA   2245
+                     |||||||||||||||.||||..|||||.||||..|||||||||||.||||
+Psammomys_obe   2163 CACAGATGACCGAGAGCTACAGTACACGGTGATCCAGCCCCCCACGGACA   2212
+
+Homo_sapiens    2246 CAGACGAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTGACTGAC   2295
+                     |.||.||.||.|||...|||||.||.||.||.|...|||||||.||.||.
+Psammomys_obe   2213 CGGATGAGAACCACACACCAGCTCCGCTAGGCATGCTGGTCTTCACGGAT   2262
+
+Homo_sapiens    2296 AACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAACCATCA   2345
+                     .|.||..||||.|||||||||||.|||||||||||||||.||||.|||||
+Psammomys_obe   2263 GAGCCTACAGTTGTGGTGACCCAGTTTACCCAAGCCCAGGTCAATCATCA   2312
+
+Homo_sapiens    2346 TAAAATTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTACTCGAG   2395
+                     ||||||.||||||||.|||||||||||.||.||||||||.||..||||||
+Psammomys_obe   2313 TAAAATCGCTTACAGGCCCCCGGGTCAGGAGCTGGGCGTAGCCGCTCGAG   2362
+
+Homo_sapiens    2396 TGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTGGCTCCA   2445
+                     |.||.||||||||||||||.|||||.||.||||||||||||||||||||.
+Psammomys_obe   2363 TAGCTCAGTTCCAGTTCCAAGTGGAGGATCGAGCTGGGAATGTGGCTCCT   2412
+
+Homo_sapiens    2446 GGTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCTGAGAT   2495
+                     ||.|||||.|||||||||.||||.||||||||.||||||||.||.|||||
+Psammomys_obe   2413 GGCACCTTCACCCTTTACCTGCAGCCCGTGGATAACCAGCCCCCCGAGAT   2462
+
+Homo_sapiens    2496 CCTCAACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCCTGAGTG   2545
+                     |.|||||||||||.||||..||.||.|||.|||.|..|||.||||..|||
+Psammomys_obe   2463 CGTCAACACCGGCGTCACCGTTGAGAAGAGGGGCCGTCACGTCCTCCGTG   2512
+
+Homo_sapiens    2546 AGACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATATCTCT   2595
+                     |..|.||||||||.||||||||.||.|||||.||.|..|||||.|||.||
+Psammomys_obe   2513 ACGCTGAGTTGCATGTGAATGACGTTGACACCGACGCGGCCCACATCACT   2562
+
+Homo_sapiens    2596 TTCACTCTCACTCAGGCACCCAAACATGGCCACATG-AGAGTGTCTGGAC   2644
+                     .||||||||||.|||||.||||.|||.||||||.|| || .|.||.||||
+Psammomys_obe   2563 CTCACTCTCACACAGGCCCCCAGACACGGCCACGTGCAG-CTCTCCGGAC   2611
+
+Homo_sapiens    2645 AGATCCTGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAACAGGGC   2694
+                     |||..||||.|||.||.||.|.|||||..||.|||||||||||..|.|||
+Psammomys_obe   2612 AGACGCTGCGTGTCGGAGGACGCTTCCGTTTAGAGGACATAAAGTATGGC   2661
+
+Homo_sapiens    2695 CGAGTTTCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAGCTGCTC   2744
+                     |||.||||||||....||||.|||||..|.||..|||||||.||||||||
+Psammomys_obe   2662 CGAATTTCCTATTTGAATAACGGGGATGACTCTTTGACTGACAGCTGCTC   2711
+
+Homo_sapiens    2745 CTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAGAGTAA   2794
+                     |.||||.||||||||||||||.||.||||||||.||||||||||||||.|
+Psammomys_obe   2712 CCTGGAGGTCAGTGACAGACACCACGTGGTGCCAATCACTCTCAGAGTGA   2761
+
+Homo_sapiens    2795 ATGTCCGGCCAGTGGATGATGAAGTGCCCATACTGAG-----CCATCCTA   2839
+                     ||||.||||||..|||....||||.||     |||.|     ||.||||.
+Psammomys_obe   2762 ATGTACGGCCAACGGAGCGCGAAGGGC-----CTGTGTCAGTCCTTCCTG   2806
+
+Homo_sapiens    2840 CTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGAA   2889
+                     |.||||||.||||||||||||||||||||||.||.|||||||||||.|||
+Psammomys_obe   2807 CGGGCACTTTGGAGTCCTATCTAGATGTCTTGGAGAATGGGGCTACCGAA   2856
+
+Homo_sapiens    2890 ATCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGAT   2939
+                     .||||||||||..|.|||||||||.||.|..||||.||||||||||||||
+Psammomys_obe   2857 GTCACTGCCAACATCATTAAGGGGGCCTACCAGGACACTGATGACTTGAT   2906
+
+Homo_sapiens    2940 GTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTCA   2989
+                     ||||||||||||.||||||.|||||||..|.|||||||||||..||||||
+Psammomys_obe   2907 GTTGACTTTCCTATTGGAAAATCCACCCATCTATGGGGAAATTCTGGTCA   2956
+
+Homo_sapiens    2990 ATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCTCT   3039
+                     ||||...||||||.||||||||.||.||.|||||||||.|||||||||||
+Psammomys_obe   2957 ATGGAGCTCCAGCTGAGCAGTTCACCCAGAGGGACATCCTGGAGGGCTCT   3006
+
+Homo_sapiens    3040 GTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGGA   3089
+                     |||||.|||.|||||||.||.||||||||.|||||.|||||.|||||.||
+Psammomys_obe   3007 GTTGTCTATGCCCACACGAGCGGTGAGATCGGCCTCTTGCCCAAAGCAGA   3056
+
+Homo_sapiens    3090 TTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGGTG   3139
+                     .|||||||||||||||||||||...||||||||.||.||||||.|.||..
+Psammomys_obe   3057 CTCTTTTAACCTGAGTCTGTCAACCATGTCTCAGGAGTGGAGACTCGGCA   3106
+
+Homo_sapiens    3140 GCAATACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTGAT   3189
+                     |||.||.|||.||.||.||||||.|.|||||.||.|||||.||.||.||.
+Psammomys_obe   3107 GCAGTATTATTCAGGGTGTTACTGTGTGGGTAACTATCCTCCCCGTGGAC   3156
+
+Homo_sapiens    3190 AGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAAGG   3239
+                     |||||.|||||.|||||.|...|.|||||.|||||..||||...||||||
+Psammomys_obe   3157 AGCCAAGCCCCTGAAATTTCCATCGGTGAGCAGTTTGTAGTGCGGGAAGG   3206
+
+Homo_sapiens    3240 TGATAAAAGTGTTATAA-CATCAGTGCATATAAGTGCTGAAGATGTCGAC   3288
+                     .||.||.||..|.|||| |.||| ..||..|.||||||||.||.||.|||
+Psammomys_obe   3207 CGACAAGAGCATGATAACCCTCA-CCCACCTGAGTGCTGAGGACGTGGAC   3255
+
+Homo_sapiens    3289 TCCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACTTCAGG   3338
+                     |||||||||||||||.||||||||||.||..|.||.|||||.||.||.||
+Psammomys_obe   3256 TCCCTGAATGATGACCTCTTGTGCACAATTATCATCCAGCCAACCTCGGG   3305
+
+Homo_sapiens    3339 TTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCAG   3388
+                     .|||||.||.||||||.|||||||.||||||||.||.||.||.|||||.|
+Psammomys_obe   3306 CTATGTAGAGAACATTGCTCCAGCGCCAGGCTCAGAAAAGTCGAGAGCGG   3355
+
+Homo_sapiens    3389 GGATTGCCATAAGTGCTTTCAACTTGAAAGATCTCAGGCAGGGCCACATA   3438
+                     |||||||..|.|||||.||||...||||.|||||||||||.||.|||||.
+Psammomys_obe   3356 GGATTGCTGTGAGTGCCTTCACGCTGAAGGATCTCAGGCAAGGGCACATT   3405
+
+Homo_sapiens    3439 AACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGATT   3488
+                     |||||.||||||||||||||.|.|||.|||||.|||||.||.|||||.||
+Psammomys_obe   3406 AACTACGTCCAGAGTGTCCACAGAGGAGTGGAGCCTGTCGAAGACCGTTT   3455
+
+Homo_sapiens    3489 TGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTTCC   3538
+                     .|||||.|||||.||||||||||||||||||||.|||||||||.|.||||
+Psammomys_obe   3456 CGTATTCCGTTGCTCTGATGGCATTAACTTTTCTGAGAGACAGATTTTCC   3505
+
+Homo_sapiens    3539 CCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATGTTTATGAGA   3588
+                     |||||||.||||||||||||||.||.||.||||||||.|||||.|||||.
+Psammomys_obe   3506 CCATTGTGATCATTCCCACCAACGACGAGCAGCCAGAAATGTTCATGAGG   3555
+
+Homo_sapiens    3589 GAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATACACCCATTCT   3638
+                     ||.||.||||||||||||||||||||||||||..|.||.||.|||||.||
+Psammomys_obe   3556 GAGTTCATGGTGATGGAAGGCATGAGTCTGGTGGTCGACACTCCCATCCT   3605
+
+Homo_sapiens    3639 CAATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACTTTCACTATTA   3688
+                     |||||||||||||||.||..|.||||..|||||.|||||||||||.||||
+Psammomys_obe   3606 CAATGCTGCTGATGCCGACATCCCCCCAGATGACTTAACTTTCACCATTA   3655
+
+Homo_sapiens    3689 CCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGATAAATGGCACG   3738
+                     |||..||.||.||||||||.|||||||||||.||||||||.||||||||.
+Psammomys_obe   3656 CCCGCTTTCCGACTCATGGGCACATCATGAACCAGCTGATCAATGGCACC   3705
+
+Homo_sapiens    3739 GTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCAT   3788
+                     ||.|||||.||||||||||||.||||.|||||.|||||||||||||||||
+Psammomys_obe   3706 GTGTTGGTTGAAAGCTTCACCCTGGACCAGATTATAGAGAGTTCCAGCAT   3755
+
+Homo_sapiens    3789 TATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATTA   3838
+                     ||||||||||||||||||.||.|||||.||.||.|||||.||.|||||||
+Psammomys_obe   3756 TATTTATGAGCATGATGATTCTGAGACGCAAGAGGACAGCTTCGTGATTA   3805
+
+Homo_sapiens    3839 AACTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGTT   3888
+                     ||||.||.||.||.||||||||||||||.||||.||||||||||.|.||.
+Psammomys_obe   3806 AACTGACGGACGGCAAGCACTCTGTGGAGAAGATGGTCCTCATTGTGGTC   3855
+
+Homo_sapiens    3889 ATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAATAATGGACTAGA   3938
+                     ||||||||||||||||||||.|||||.|||.|.|||||||||||.|||||
+Psammomys_obe   3856 ATCCCTGTTGATGATGAGACCCCCAGGATGGCCATCAATAATGGGCTAGA   3905
+
+Homo_sapiens    3939 AATAGAAATTGGGGATACCAAGATTATCAACAACAAAATATTAATGGCAA   3988
+                     .||||||||||||||.|||||..||||||||||||||||.||||||||||
+Psammomys_obe   3906 GATAGAAATTGGGGAAACCAAAGTTATCAACAACAAAATGTTAATGGCAA   3955
+
+Homo_sapiens    3989 CAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGGG   4038
+                     |.|||||.||.||.||.||||||||.||||||||.||||||||||||||.
+Psammomys_obe   3956 CTGATTTGGACTCTGATGACAAATCATTGGTTTACATTATTCGTTATGGA   4005
+
+Homo_sapiens    4039 CCAGGACATGGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAA   4088
+                     ||||||||||||||.||||||||||||||||||||.||||.||||||.||
+Psammomys_obe   4006 CCAGGACATGGCTTGTTACAGAGACGAAAACCTACAGGTGTCTTTGAGAA   4055
+
+Homo_sapiens    4089 TATCACACTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAA   4138
+                     ||||||.||.|||||||||||||||||.||||||||.||||||||.||||
+Psammomys_obe   4056 TATCACTCTAGGCATGAATTTTACCCAAGATGAAGTGGACAGAAATTTAA   4105
+
+Homo_sapiens    4139 TTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTT   4188
+                     ||||||||||||||||.|||||.|||||||||||.|||||||||||||||
+Psammomys_obe   4106 TTCAGTATGTCCATTTTGGGCACGAGGGCATTCGAGACCTAATTAAATTT   4155
+
+Homo_sapiens    4189 GATGTGACTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTC   4238
+                     ||||||||.|||||||.||||.||||.||||||||.||||||||.|||||
+Psammomys_obe   4156 GATGTGACCGATGGAACAAATGCCCTTATAGATCGATACTTTTACGTGTC   4205
+
+Homo_sapiens    4239 CATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGT   4288
+                     .||.||.||..|||||||||||||.||.|||||||||||||||||.||||
+Psammomys_obe   4206 TATTGGAAGTGTTGACATTGTCTTTCCCGATGTGATAAGTAAGGGGGTGT   4255
+
+Homo_sapiens    4289 CCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACT   4338
+                     ||||.||||||||||||||||||||||||||.|||||||||||.|||||.
+Psammomys_obe   4256 CCTTAAAAGAAGGTGGCAAAGTCACTCTTACCACAGACCTACTGAGCACG   4305
+
+Homo_sapiens    4339 AGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGC   4388
+                     |||||||||||||||||||||||.|||||.|||||.||||||||||||.|
+Psammomys_obe   4306 AGTGACTTGAACAGTCCTGATGAGAACTTAGTTTTCACCATCACCAGGCC   4355
+
+Homo_sapiens    4389 TCCCATGCGAGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCA   4438
+                     |||.|||.||||||||.||||.|||||.|||||....||...||||||||
+Psammomys_obe   4356 TCCTATGAGAGGTCACTTGGAGTGCACAGATCAAAGAGGAACGTCCATCA   4405
+
+Homo_sapiens    4439 CGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCAC   4488
+                     |.||||||||.|||||.||.|||||.||.||||||||||||||.||.|||
+Psammomys_obe   4406 CTTCTTTCACCCAGCTCCAGCTGGCCGGTAACAAAATCTACTATATACAC   4455
+
+Homo_sapiens    4489 ACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGA   4538
+                     ||||||||.||.||.||.||||||||||||||||||||||||||||||||
+Psammomys_obe   4456 ACAGCTGAGGACGAGGTCAAAATGGACAGTTTTGAGTTTCAAGTCACCGA   4505
+
+Homo_sapiens    4539 TGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGG   4588
+                     .|||||||||||.|||||.||.||.|||||.|||||.|||||.|||||||
+Psammomys_obe   4506 CGGACGTAACCCCGTCTTCCGAACTTTCCGGATCTCTATTAGTGATGTGG   4555
+
+Homo_sapiens    4589 ACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGT   4638
+                     ||||.||.|||||||||||||||||||||||..||||.|||||.||||||
+Psammomys_obe   4556 ACAACAAGAAGCCAGTGGTCACCATCCACAACTTGGTGGTCAGCGAAAGT   4605
+
+Homo_sapiens    4639 GAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATAC   4688
+                     ||||.|||||||||.|||||.|||||.||||||||.||||||||||||||
+Psammomys_obe   4606 GAAAGCAAGCTGATCACTCCCTTTGAACTCACTGTGGAAGACAGAGATAC   4655
+
+Homo_sapiens    4689 TCCTGACAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCC   4738
+                     |||.||||.|||||||||||||||..||||.|||||.|||.|||||||.|
+Psammomys_obe   4656 TCCCGACAGGCTCCTGAAATTCACGGTCACTCAGGTCCCTGTTCATGGTC   4705
+
+Homo_sapiens    4739 ATCTCCTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGAC   4788
+                     |.|||||||||||||||||.|||||.||||||||||||||||||||||||
+Psammomys_obe   4706 ACCTCCTATTCAACAATACTAGACCCGTCATGGTTTTTACCAAGCAAGAC   4755
+
+Homo_sapiens    4789 TTGAATGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGA   4838
+                     ||||||||||||||||||||||||||||||||||||||.|||||.|..||
+Psammomys_obe   4756 TTGAATGAAAACTTAATCAGCTACAAACATGATGGCACGGAGTCCACGGA   4805
+
+Homo_sapiens    4839 AGATAGCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTATG   4888
+                     |||.||||||||||||||||||||||||||||||||..|.||||||||||
+Psammomys_obe   4806 AGACAGCTTCTCCTTCACAGTGACTGATGGCACCCACTCTGACTTCTATG   4855
+
+Homo_sapiens    4889 TTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGATC   4938
+                     |||||||||||||.|||||||||||.||||||||.|||||||||||.|||
+Psammomys_obe   4856 TTTTTCCTGATACAGTGTTTGAAACCAGGAGACCTCAAGTGATGAAAATC   4905
+
+Homo_sapiens    4939 CAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGG   4988
+                     ||||||.|.|||||.||||||||||||||||||||.|..|||||.||.||
+Psammomys_obe   4906 CAGGTCCTAGCTGTGGACAACAGTGTCCCCCAAATTGTGGTGAACAAAGG   4955
+
+Homo_sapiens    4989 GGCCTCTACACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCA   5038
+                     .||.|||||||||||.|||||.|||||||||||.||||||||||||||||
+Psammomys_obe   4956 AGCTTCTACACTTCGTACTCTGGCCACTGGCCATTTGGGGTTCATGATCA   5005
+
+Homo_sapiens    5039 CAAGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCTT   5088
+                     ||||||||||..|||||||||||||||||||||||.|.||..|||||||.
+Psammomys_obe   5006 CAAGCAAAATCCTGAAAGTGGAGGACAGAGACAGCGTGCATTTTTCTCTC   5055
+
+Homo_sapiens    5089 AGATTTATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGGA   5138
+                     ||.||.||.||||.|||.|||||.||.|||||.||.|||||||||||||.
+Psammomys_obe   5056 AGGTTCATTGTGATAGAAGCCCCCCAGCATGGCTACCTTCTCAACCTGGG   5105
+
+Homo_sapiens    5139 CAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACA   5188
+                     |.|.||.|||||.||||||||.|||||.||.|||||||||||||||||||
+Psammomys_obe   5106 CCAGGGTAACCAGAGCATCACACAGTTTACCCAAGCTGACATTGATGACA   5155
+
+Homo_sapiens    5189 TGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATG   5238
+                     |||||||||||||||||||.|||||..|.||.||||||||||||||.|||
+Psammomys_obe   5156 TGAAAATATGCTATGTCTTGAGAGAGAGAGCAAATGCCACAAGTGACATG   5205
+
+Homo_sapiens    5239 TTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAA   5288
+                     |||.||||...|||.|||||||..||||||||||.|||.||..|||||.|
+Psammomys_obe   5206 TTCAATTTCATAGTGGAAGATGACGGTGGAAACAGGTTGACCAACCAGCA   5255
+
+Homo_sapiens    5289 TTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGG   5338
+                     ||||||.|||||.|||||.|||||||||||||||||||||||||||.||.
+Psammomys_obe   5256 TTTTCGGCTGAACTGGGCGTGGATCTCCTTTGAAAAGGAATATTACTTGA   5305
+
+Homo_sapiens    5339 TCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTAC   5388
+                     ||.||||.||||||||||||||||||||||||||.||.||.|||||.|||
+Psammomys_obe   5306 TCGATGAAGACTCCAAATTTCTAGATGTTGTTCTCAAGCGCAGAGGCTAC   5355
+
+Homo_sapiens    5389 TTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGA   5438
+                     ||||||||||||||.||||||||.||..||||.||.||..|.||||||||
+Psammomys_obe   5356 TTGGGAGAAACTTCATTTATAAGCATCAGCACGAGGGATGGGACTGCAGA   5405
+
+Homo_sapiens    5439 AAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACC   5488
+                     ||||||||.||||||||||||||||||.|||||.||||||||||||||||
+Psammomys_obe   5406 AAAAGACAGAGACTTCAAGGGCAAAGCTCAGAAGCAAGTGCAGTTCAACC   5455
+
+Homo_sapiens    5489 CAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAG   5538
+                     |||||||||||||||||.|.|||.|||||.||||||||||.||.||||||
+Psammomys_obe   5456 CAGGCCAGACCAGGGCCTCGTGGAGAGTGAGGATCCTGAGCGACGGGGAG   5505
+
+Homo_sapiens    5539 CATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGC   5588
+                     ||||||||.||.||.|||||.||||||||.|||||.|||||.||||||||
+Psammomys_obe   5506 CATGAGCACTCCGAGACCTTCCAGGTGGTTCTCTCTGAGCCTGTGCTGGC   5555
+
+Homo_sapiens    5589 TGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAG   5638
+                     .|.|.||||.|||||||||||..|.||.||.||||||.||||.||.||.|
+Psammomys_obe   5556 AGTCCTGGAGTTCCCCACAGTGACTACAGTGGAGATCATTGACCCCGGTG   5605
+
+Homo_sapiens    5639 ATGAGCCAACTGTGTTTATTCCCCAGTCCAAATACTCCGTTGAAGAAGAT   5688
+                     |.||..|.||.||.||.|||||||||||..|.|||||||||||.||||||
+Psammomys_obe   5606 ACGAATCCACCGTCTTCATTCCCCAGTCGGAGTACTCCGTTGAGGAAGAT   5655
+
+Homo_sapiens    5689 GTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGA   5738
+                     ||.||||||||||||||||||||||||||.||||||||..|.||||||||
+Psammomys_obe   5656 GTGGGTGAGCTGTTCATTCCCATCAGGAGAAGCGGAGACATCAGCCAGGA   5705
+
+Homo_sapiens    5739 GTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGC   5788
+                     |.||||||||.||||.||.||.||.|||||.|||||.||..|.|||||||
+Psammomys_obe   5706 GCTGATGGTGATCTGCTACACTCAGCAAGGGACAGCGACCAGCACTGTGC   5755
+
+Homo_sapiens    5789 CGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCAC   5838
+                     .|||.||||||.||||||||||.||.|||||.||||||||||||||||||
+Psammomys_obe   5756 GGACGTCCGTGCTGTCTTACTCCGACTACATCTCCAGGCCTGAGGACCAC   5805
+
+Homo_sapiens    5839 ACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGAT   5888
+                     |.|||.||..||||||||||||||||||||||.|||||..|||||||..|
+Psammomys_obe   5806 AGCAGCGTGATCCGCTTTGACAAAGATGAACGTGAGAAGATGTGTCGTGT   5855
+
+Homo_sapiens    5889 AGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCC   5938
+                     |||..|||||||||||||.|||||.|||||||||||.||.|||||.||||
+Psammomys_obe   5856 AGTGGTAATTGATGACTCCTTGTATGAGGAGGAGGAGACGTTCCAGGTCC   5905
+
+Homo_sapiens    5939 TTCTGAGCATGCCCATGGGGGGAAGAATCGGAT--CAGAGTTCCCAGGGG   5986
+                     ||.||||||||||||||||.||.||.||.|| |  || ||||.|||||.|
+Psammomys_obe   5906 TTTTGAGCATGCCCATGGGCGGGAGGATTGG-TGACA-AGTTTCCAGGAG   5953
+
+Homo_sapiens    5987 CTCAA-GTTACAATCGTTCCTGACAAAGATGATGAACCCATCTTTTACTT   6035
+                     | ||| ||.||.|||.|..|.|||.|.|||||.||.||..||||.|||||
+Psammomys_obe   5954 C-CAAGGTGACCATCCTCACAGACCAGGATGACGAGCCTGTCTTCTACTT   6002
+
+Homo_sapiens    6036 CGGTGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGC   6085
+                     .||.||..|..|.|||||.||||||||||||||.|||||.|||||.||||
+Psammomys_obe   6003 TGGGGAACTCCAGTACTCCGTGGATGAGAGTGCCGGCTACGTGGAGGTGC   6052
+
+Homo_sapiens    6086 AGGTGTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTG   6135
+                     ||||||||||.||||||||.|||||.||.|.|.|||||||||||||.|||
+Psammomys_obe   6053 AGGTGTGGAGGACGGGCACCGACCTCTCTAGGCCTTCTAGTGTCACCGTG   6102
+
+Homo_sapiens    6136 AGGTCTCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAACAGACTATGT   6185
+                     |||||.|||||||||||.|||||.|||||..|||||||||||||.||.||
+Psammomys_obe   6103 AGGTCCCGGAAAACAGAACCTCCTTCTGCCAATGCTGGAACAGATTACGT   6152
+
+Homo_sapiens    6186 GGGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTG   6235
+                     |||.|||||.||.||||||||||||||||||||.||||||||||||.|||
+Psammomys_obe   6153 GGGAATCAGTCGAAATTTAGATTTTGCACCTGGCGTCAACATGCAGACTG   6202
+
+Homo_sapiens    6236 TTCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAATT   6285
+                     |.||||||||.||||||||||||||.|||..|||||.|||||||||||||
+Psammomys_obe   6203 TCCGTGTTGTTATTCTGGATGACCTGGGAAGACCAGTGCTGGAGGGAATT   6252
+
+Homo_sapiens    6286 GAGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGA   6335
+                     |||||.|||||||||||.||||||||||||||||||||.|||||||||||
+Psammomys_obe   6253 GAGAAGTTTGAACTGGTACTTCGCATGCCTATGAACGCGGCCCTTGGCGA   6302
+
+Homo_sapiens    6336 GCCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTA   6385
+                     |||||||||.|||||||||||||||||||||||..||||.||.|||||||
+Psammomys_obe   6303 GCCCAGCAAGGCCACAGTGTCCATAAATGACTCCATCTCAGACTTGCCTA   6352
+
+Homo_sapiens    6386 AGATGCAATTCAAAGAACGAATATATACTGGCAGCGAAAGTGATGGGCAG   6435
+                     |.|||||||||||||||.||.|.||.|||.|||..||.|..|||||.|..
+Psammomys_obe   6353 AAATGCAATTCAAAGAAAGAGTGTACACTTGCAATGAGAACGATGGACGC   6402
+
+Homo_sapiens    6436 ATAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCTTCAGT   6485
+                     .|||||.|||||.||.|.||||..||.|||||||||.||||||||||.||
+Psammomys_obe   6403 GTAGTTGCAATGGTCTACAGGAGCGGTGATGTCCAGCACAGATCTTCCGT   6452
+
+Homo_sapiens    6486 GAGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAG   6535
+                     |||||||||.||..|||||||||||||.|||||||||||||||||.||||
+Psammomys_obe   6453 GAGATGCTATACAAGGCAGGGGTCTGCGCAGGTGATGATGGACTTCGAAG   6502
+
+Homo_sapiens    6536 AACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTGAGACA   6585
+                     ||||.||||||||.|||..||||||..|||||||||||||||||||||||
+Psammomys_obe   6503 AACGTCCAAACACCGATGTCTCCATTGTCACATTCCTCCCTGGTGAGACA   6552
+
+Homo_sapiens    6586 GAAAAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCTATGAGGAGGT   6635
+                     ||.|||||.||..|.|||||.|||||||||||||..||.|.||||||.||
+Psammomys_obe   6553 GAGAAGCCATGTGTCCTTGAACTGATGGACGATGATCTGTTTGAGGACGT   6602
+
+Homo_sapiens    6636 AGAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTG   6685
+                     .||.|||||.|||.||||.||||||||.||||..||||.||||.||||||
+Psammomys_obe   6603 GGAAGAGCTGCGCTTGGTCCTCGGCACACCACGGAGCAGCTCTGCCTTTG   6652
+
+Homo_sapiens    6686 GGGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAGATGAT   6735
+                     ||||.||||||||.|||||.|||||.|||||.||||.|||||..|||||.
+Psammomys_obe   6653 GGGCGGCAGTTGGCGAACAGAATGAGACTCTGATAAAGATCCAGGATGAA   6702
+
+Homo_sapiens    6736 GCTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCACTGA   6785
+                     |||||.||..|||||||.||||||||||||||||||||||||||||||||
+Psammomys_obe   6703 GCTGACAAAGCTGTTATCAAATTTGGAGAAACCAAATTTAGTGTCACTGA   6752
+
+Homo_sapiens    6786 ACCCAAAGAACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCC   6835
+                     |||||..|||||.||||||||.||||||.|.|.||||||||||||.||||
+Psammomys_obe   6753 ACCCAGCGAACCAGGAGAGTCAGTGGTTGTGAAAATTCCAGTGATCCGCC   6802
+
+Homo_sapiens    6836 AAGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGC   6885
+                     |||||||||||||||||||||||||.|||||||||||||||||.||||||
+Psammomys_obe   6803 AAGGAGACACTTCAAAGGTTTCCATCGTGAGAGTCCACACCAAAGATGGC   6852
+
+Homo_sapiens    6886 TCGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTT   6935
+                     |||||||||||||||||.|||||.|||||.|||||.||||||||.|||||
+Psammomys_obe   6853 TCGGCCACCTCTGGAGAGGACTATCACCCCGTGTCGGAAGAAATCGAGTT   6902
+
+Homo_sapiens    6936 TAAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACCTTTGACG   6985
+                     ||||||||||||.||||||||.||.||||||.|.|||||.|.|||.||.|
+Psammomys_obe   6903 TAAGGAAGGGGAGACCCAGCATGTAGTTGAAGTTGAAGTGATCTTCGATG   6952
+
+Homo_sapiens    6986 GGGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAA   7035
+                     ||||.|||||||||||.|||||||||||.|||||||||||.||.||||||
+Psammomys_obe   6953 GGGTCAGAGAGATGAGGGAGGCCTTCACCGTTCACCTAAAGCCAGATGAA   7002
+
+Homo_sapiens    7036 AATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGA   7085
+                     ||||||.|||||||||..|||...||.||.||||||.|..|.||||||||
+Psammomys_obe   7003 AATATGGTAGCAGAGACACAGGCAACCAAGGCCATTATACATATAGAAGA   7052
+
+Homo_sapiens    7086 AATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTAT   7135
+                     |||.|.||||||||||||||||||.|||||||||||||||.|.|||||.|
+Psammomys_obe   7053 AATCAACAGCATGGCAGATGTCACCTTTCCTTCTGTCCCTTACATTGTGT   7102
+
+Homo_sapiens    7136 CCCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCC   7185
+                     ||.|||||||.||.||.|||.||||||||||.|.||||....|||.|||.
+Psammomys_obe   7103 CCTTGTTGATATACGATGACCCTTCCAAAGCCAGGGAGGACACTGGACCT   7152
+
+Homo_sapiens    7186 ATGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCCCAAATATTC   7235
+                     .||||||||||||||||..||||.||.||.||.|||||||||||||||.|
+Psammomys_obe   7153 GTGTCTGGCTATCCTGTTGTCTGCATTACGGCCTGCAACCCCAAATATCC   7202
+
+Homo_sapiens    7236 AGACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACA   7285
+                     ||||||.||.||||||||||||||.|||||.|||||||||||||||||||
+Psammomys_obe   7203 AGACTATGACAAAACAGGCTCTATTTGTGCCAGTGAGAACATCAATGACA   7252
+
+Homo_sapiens    7286 CTTTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGT   7335
+                     |||||||.||.|||.|.||||||.||||.||.|||||.|||||.||.|||
+Psammomys_obe   7253 CTTTGACCCGATACAGATGGCTGGTTAGCGCTCCTGCTGGCCCGGATGGT   7302
+
+Homo_sapiens    7336 GTGACCAGCCCTATGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATC   7385
+                     |||||||||||.||||||||.||||||||||||||||||||.||||||||
+Psammomys_obe   7303 GTGACCAGCCCCATGAGAGAGGTGGACTTCGACACCTTTTTCACGTCATC   7352
+
+Homo_sapiens    7386 CAAGATGGTCACACTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTAC   7435
+                     .||.|||.|.||..|.||.||||||||||||||||||||||||||.||||
+Psammomys_obe   7353 TAAAATGATTACCTTAGATTCCATATACTTTCAGCCTGGCTCCCGCGTAC   7402
+
+Homo_sapiens    7436 AGTGCGCAGCTCGTGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTC   7485
+                     ||||.||.||||||||.|||||||||||||||.|||||||||||||.||.
+Psammomys_obe   7403 AGTGTGCGGCTCGTGCCGTGAACACCAATGGGAATGAAGGCCTGGAACTG   7452
+
+Homo_sapiens    7486 ATGAGCCCTATTGTAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCG   7535
+                     ||||||||.||..|.|||||..||||||||||||||||.|||||||||||
+Psammomys_obe   7453 ATGAGCCCCATCATCACCATTGGCAGAGAAGAAGGTCTCTGTCAGCCCCG   7502
+
+Homo_sapiens    7536 TGTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACA   7585
+                     |||.||||||||.||.||.||.|||||.|||||.|||||.||||||||||
+Psammomys_obe   7503 TGTGCCTGGGGTCGTGGGGGCGGAGCCATTCTCGGCTAAGTTGCGCTACA   7552
+
+Homo_sapiens    7586 CAGGCCCTGAGGATGCAGACTACACAAACCTTATCAAGCTCACTGTCACA   7635
+                     |.||.||.|||||..||||||...|.|||||.|||||||||||.|||||.
+Psammomys_obe   7553 CTGGTCCGGAGGACCCAGACTTTGCCAACCTCATCAAGCTCACCGTCACG   7602
+
+Homo_sapiens    7636 ATGCCACACATAGATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTC   7685
+                     |||||||||||.||.||||||||||||||.||||||||.||||||||.||
+Psammomys_obe   7603 ATGCCACACATCGACGGCATGCTCCCCGTCATCTCCACGAGAGAGCTGTC   7652
+
+Homo_sapiens    7686 CAACTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACA   7735
+                     ||||||||||||.||||||||||||||||||||.||||||||.|||||||
+Psammomys_obe   7653 CAACTTTGAGCTGACCCTCAGCCCTGATGGCACGAGAGTTGGGAACCACA   7702
+
+Homo_sapiens    7736 AGTGCTCCAACCTCCTGGATTATACTGAAGTGAAGACTCATTATGGTTTC   7785
+                     |.|||||||||||..||||.||.|.||||||||||||.||..||||.|||
+Psammomys_obe   7703 AATGCTCCAACCTGTTGGACTACAGTGAAGTGAAGACCCACCATGGCTTC   7752
+
+Homo_sapiens    7786 TTGACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGACATATCCTTA   7835
+                     .|||||.||||.||.||.||.||.||..|..||||||||||.||.||.||
+Psammomys_obe   7753 CTGACTAATGCCACGAAGAACCCCGAGGTCGTTGGAGAGACCTACCCGTA   7802
+
+Homo_sapiens    7836 CCAGTACAGCTTGTCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGA   7885
+                     ||||||||||..|.|..||||.||.||||.||||||.|||||||||||||
+Psammomys_obe   7803 CCAGTACAGCGCGCCGGTCAGGGGCTCCAGTACCTTACGCTTCTACCGGA   7852
+
+Homo_sapiens    7886 ACCTGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATG   7935
+                     ||||||||||.||||||||..|.||||||||.||.|||||||||||||||
+Psammomys_obe   7853 ACCTGAACCTGGAGGCCTGCCTGTGGGAGTTTGTCAGCTACTATGACATG   7902
+
+Homo_sapiens    7936 TCAGAACTCCTTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGT   7985
+                     ||.||.||.||.|||||||||||.||.|||||.||.||.||.||.|||||
+Psammomys_obe   7903 TCGGAGCTGCTGGCTGACTGTGGAGGAACCATCGGGACCGACGGGCAGGT   7952
+
+Homo_sapiens    7986 CCTAAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTT   8035
+                     .||.|||||||||||||||||.||||||||||||||.|||||||||||||
+Psammomys_obe   7953 TCTGAACCTAGTGCAGTCCTACGTGACCCTTCGAGTTCCTCTGTATGTTT   8002
+
+Homo_sapiens    8036 CCTACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGAC   8085
+                     |||||||||||||||||||.||||||||.|||||||||||||||||.|||
+Psammomys_obe   8003 CCTACGTGTTCCATTCCCCTGTGGGGGTGGGAGGCTGGCAGCATTTCGAC   8052
+
+Homo_sapiens    8086 TTGAAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTG   8135
+                     .||||||||||.||.||.||.||.||.|||||.|||||.|||||||||||
+Psammomys_obe   8053 CTGAAGTCAGAACTGCGGCTCACGTTCGTGTATGACACTGCCATCTTGTG   8102
+
+Homo_sapiens    8136 GAATGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCT   8185
+                     ||...||||.||.||||||||.||.|||||||||||.|||||.|||||.|
+Psammomys_obe   8103 GAGCCATGGGATCGGCAGCCCGCCCGAGGCTGAACTCCAAGGCTCTCTGT   8152
+
+Homo_sapiens    8186 ATCCAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTC   8235
+                     |||||||||||||||||||.|||||.||||||||||||||.|||.|||||
+Psammomys_obe   8153 ATCCAACCAGCATGCGCATTGGTGAGGAGGGGCGCTTGGCTGTGAACTTC   8202
+
+Homo_sapiens    8236 AAGACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATC   8285
+                     |||||.||||||||||||||||||||||||||||||||||||||.||.||
+Psammomys_obe   8203 AAGACGGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCTGCCTC   8252
+
+Homo_sapiens    8286 CTTTACAAGCTCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTT   8335
+                     |||.||.|||||..||||..|.||.|||||.|||||.|||||.||.|||.
+Psammomys_obe   8253 CTTCACCAGCTCGCTGATTGTATCCGCTGACCATCCGGGCCTCACTTTTA   8302
+
+Homo_sapiens    8336 CCCTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAG   8385
+                     ||||||||||||||.|||||||.||||||||||||||||||||.||||||
+Psammomys_obe   8303 CCCTCCGCCTCATACGGAGTGAGCCAACCTATAACCAGCCAGTCCAGCAG   8352
+
+Homo_sapiens    8386 TGGAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATAC   8435
+                     |||||.|||||.||.||||||||.||.||.|||||||||||.|||||.||
+Psammomys_obe   8353 TGGAGTTTTGTGTCAGACTTTGCGGTCCGAGACTACTCAGGCACCTACAC   8402
+
+Homo_sapiens    8436 TGTGAAGCTGGTGCCATGCACTGCCCCATCACATCAGGAATACCGCCTGC   8485
+                     .||.|||||||||||.|||||..|||||||..|.|||||.|||||.||||
+Psammomys_obe   8403 CGTAAAGCTGGTGCCCTGCACCACCCCATCGAACCAGGAGTACCGTCTGC   8452
+
+Homo_sapiens    8486 CAGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGA   8535
+                     |.|||||||||||||||||.|||||.||||||||||||||||||||.|||
+Psammomys_obe   8453 CGGTCACCTGCAACCCCAGGGAACCCGTCACCTTTGACCTTGACATTCGA   8502
+
+Homo_sapiens    8536 TTCCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCA   8585
+                     ||||||||||||||.|||||||||||.||.|||||.|||.|||||||.||
+Psammomys_obe   8503 TTCCAACAGGTCAGCGATCCAGTGGCAGCCGAGTTCAGCCTGAACACGCA   8552
+
+Homo_sapiens    8586 AATGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGG   8635
+                     .|||||||||||.|||||||||||.|||||||||||||||||.|||||||
+Psammomys_obe   8553 CATGTACCTGCTATCTAAGAAGAGCCTCTGGTTGTCTGATGGGTCCATGG   8602
+
+Homo_sapiens    8636 GATTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTAT   8685
+                     |.||.||.||.||||||||.||.|||||||||||||||||..|||||||.
+Psammomys_obe   8603 GGTTTGGCCAGGAGAGTGACGTGGCTTTTGCAGAAGGTGACGTAATTTAC   8652
+
+Homo_sapiens    8686 GGTCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTG   8735
+                     |||||||||.|.|||||.|||||.|||||.||.|||||||||||.|||||
+Psammomys_obe   8653 GGTCGTGTCGTTGTGGACCCTGTTCAGAACCTTGGTGACTCCTTCTACTG   8702
+
+Homo_sapiens    8736 CAGCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCA   8785
+                     ||||||||||||||||||..|||||||.||||.||||||.||.||.||.|
+Psammomys_obe   8703 CAGCATTGAGAAGGTGTTCTTATGCACAGGAGATGATGGATACGTGCCAA   8752
+
+Homo_sapiens    8786 AGTATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTCA   8835
+                     ||||.||.|||...|||||.|||||.||||||||.||.||.|||||||||
+Psammomys_obe   8753 AGTACAGCCCAGCAAATGCGGAATACGGCTGCTTGGCTGATTCTCCTTCA   8802
+
+Homo_sapiens    8836 CTCTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGC   8885
+                     ||||||.|||||||.|||||||||||.||.||.||.||||||||.|||||
+Psammomys_obe   8803 CTCTTACATAGATTCAAAATTGTGGATAAGGCCCAACCAGAGACCCAAGC   8852
+
+Homo_sapiens    8886 GACCAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGACC   8935
+                     .|||||.||||||.|..||||.||||||||||||||.|||||||||||.|
+Psammomys_obe   8853 TACCAGCTTTGGAGACATCCTGTTTAATGCCAAACTGGCAGTGGATGATC   8902
+
+Homo_sapiens    8936 CTGAAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTC   8985
+                     |||||||..|||||||||||||||||||||||||.|||||.|||||.||.
+Psammomys_obe   8903 CTGAAGCTGTTCTCTTAGTGAATCAGCCTGGATCAGATGGTTTTAAGGTA   8952
+
+Homo_sapiens    8986 GACTCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACA   9035
+                     |||||||||||||||||||||||.||.||.||||||||||||||.|||||
+Psammomys_obe   8953 GACTCAACACCACTCTTTCAGGTTGCCCTGGGCCGAGAATGGTACATACA   9002
+
+Homo_sapiens    9036 TACGATCTATACAGTGAGATCGAAAGACAATGCCAATCGAGGTATTGGCA   9085
+                     .||.||||||||.||||..||.||.||||...||.|||||||||||||||
+Psammomys_obe   9003 CACAATCTATACCGTGAAGTCAAAGGACAGCACCCATCGAGGTATTGGCA   9052
+
+Homo_sapiens    9086 AAAGAAGTGTGGAGTACCATTCTCTGGT-GAGTCAAGGAAAGCCCCAATC   9134
+                     |.||.||..||||||||||.|||.|||| .|| ||.|||.|||||||..|
+Psammomys_obe   9053 AGAGGAGCCTGGAGTACCACTCTGTGGTACAG-CAGGGACAGCCCCAGGC   9101
+
+Homo_sapiens    9135 CACCACCAAGAGCCGGAAGAAGAGAGAGATCAGGAGCACACCCTCACTGG   9184
+                     .||||||||||||.||||||.|||||..|.|||||||||.|||||.||||
+Psammomys_obe   9102 AACCACCAAGAGCTGGAAGAGGAGAGCAAGCAGGAGCACTCCCTCGCTGG   9151
+
+Homo_sapiens    9185 CATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCACATT   9234
+                     ||.||||.||.||||||||.||||||||.|||||.||.||||||||.||.
+Psammomys_obe   9152 CAGGGGAAATCGGTGCTGAGAACAGTCGGGGAACCAATATCCAGCATATC   9201
+
+Homo_sapiens    9235 GCCCTGGACCGCAC----CAAGAGGCAGATCCCCCATGGGAGAGCACCTC   9280
+                     .||||||||||| |    ||||.|||||.|||||||.||.|||...||||
+Psammomys_obe   9202 TCCCTGGACCGC-CGTGACAAGGGGCAGGTCCCCCACGGAAGAATTCCTC   9250
+
+Homo_sapiens    9281 CAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTCAGC   9330
+                     |.|||||||.|||.|||||||||||.||.||.||||...|||.|||||||
+Psammomys_obe   9251 CCGATGGCACCCTGCCCTGGGAGCTGAATAGTCCCAATGCTGAAGTCAGC   9300
+
+Homo_sapiens    9331 CTGGTCACTGTGGTGGGAGGCACCACGGTAGGGTTACTCACCATCTGCCT   9380
+                     ||.||||||||..|||||||||.|.||||.||.||.|||||..|||||||
+Psammomys_obe   9301 CTTGTCACTGTCCTGGGAGGCATCGCGGTGGGATTGCTCACTGTCTGCCT   9350
+
+Homo_sapiens    9381 CACTGTCATTGCAGTGCTGATGTGCAGGGGCAAGGAAAGTTTCAGGGGGA   9430
+                     ..||||...|||||.|.|..||||||||..||||   |||.|.|.|||.|
+Psammomys_obe   9351 GGCTGTGGCTGCAGCGGTCGTGTGCAGGAACAAG---AGTATGAAGGGCA   9397
+
+Homo_sapiens    9431 AGGATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCCCACAG   9480
+                     ||||||..||.||.||.||..|.||||.||||||||||.||.||||||||
+Psammomys_obe   9398 AGGATGTTCCAAAGGGTTCTGGGAGCACTGAGCCCATGATGTCCCCACAG   9447
+
+Homo_sapiens    9481 AGCCATCACAATGACAGCTCAGAAGTT   9507
+                     |||||..||||.|||||||||||.||.
+Psammomys_obe   9448 AGCCACTACAACGACAGCTCAGAGGTG   9474
+
+
+#---------------------------------------
+#---------------------------------------

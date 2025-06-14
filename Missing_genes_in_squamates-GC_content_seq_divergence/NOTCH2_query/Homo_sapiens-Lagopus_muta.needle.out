@@ -1,0 +1,650 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:49:07
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Lagopus_muta.fa
+#    -outfile Homo_sapiens-Lagopus_muta.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Lagopus_muta.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Lagopus_muta
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7673
+# Identity:    5504/7673 (71.7%)
+# Similarity:  5504/7673 (71.7%)
+# Gaps:         637/7673 ( 8.3%)
+# Score: 19667.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT-GCCCGC-------------CCTGCGCCCCGCTCTGCTGTGGGCGCTG     36
+                     || ||||||             |.|.||||.|.||||.|.||     |||
+Lagopus_muta       1 ATGGCCCGCGGAGCGGGGCAGGCGTTCGCCGCCCTCTTCGGT-----CTG     45
+
+Homo_sapiens      37 CTGGCGCTCTGGCTGTGCTG---CGCGGCC---CCCGCGCATGCATTGCA     80
+                     .||     |||||.||||||   ||| |||   ||||||...||.||.||
+Lagopus_muta      46 GTG-----CTGGCCGTGCTGAGCCGC-GCCGAGCCCGCGGCCGCTTTACA     89
+
+Homo_sapiens      81 GTGTCGAGATGGCTATG------AACCCTGTGTAAATGAAGGAATGTGTG    124
+                     ||||    ||||  |||      |.||.|||||.||.||.||||.|||..
+Lagopus_muta      90 GTGT----ATGG--ATGATTCCAAGCCTTGTGTTAACGAGGGAAAGTGCA    133
+
+Homo_sapiens     125 TTACCTACCACAATGGCACAGGATACTGCAAATGTCCAGAAGGCT-TCTT    173
+                     ||.|.||.||.|||||.||||||||.|||||.||||.|||.|||| ||||
+Lagopus_muta     134 TTCCTTATCAGAATGGTACAGGATATTGCAAGTGTCGAGAGGGCTATCTT    183
+
+Homo_sapiens     174 GGGGGAATATTGTCA--ACATCGAGACCCCTGTGAGAAG--AACCGCTGC    219
+                      ||.||.||.||.||  |||  |..|||||||||| |||  |..|| ||.
+Lagopus_muta     184 -GGAGACTACTGCCAGTACA--GGAACCCCTGTGA-AAGCAATACG-TGT    228
+
+Homo_sapiens     220 CAGAATGGTGGGACTTGTGTGGCCCAGGCCATGCTGGGGAAAGCCACGTG    269
+                     .|||||||.||.||.||||...||..|.|..||.|.||.||.|||||.||
+Lagopus_muta     229 AAGAATGGGGGAACCTGTGAAACCACGTCTCTGATAGGAAAGGCCACCTG    278
+
+Homo_sapiens     270 CCGATGTGCCTCAGGGTTTACAGGAGAGGACTGCCAGTACTC---AACAT    316
+                     |..||||||..|||||||.||||||||||||||.||.|||||   |.|| 
+Lagopus_muta     279 CAAATGTGCTCCAGGGTTCACAGGAGAGGACTGTCAATACTCTGAATCA-    327
+
+Homo_sapiens     317 CTCATCCATGCTTTGTGTCTCGACCCTGCCTGAATGGCGGCACATGCCAT    366
+                     |.||||  ||||.||||||.|..|||||||||||.||.||.||.||.|||
+Lagopus_muta     328 CACATC--TGCTATGTGTCCCAGCCCTGCCTGAACGGAGGAACGTGTCAT    375
+
+Homo_sapiens     367 ATGCTCAGCCGGGATACCTATGAGTGCACCTGTCAAGTC--GGGTTTACA    414
+                     ...|.|||||.|||.||.||.|||||...|||||  .||  ||.|..|||
+Lagopus_muta     376 CCTCACAGCCAGGAAACGTACGAGTGTGTCTGTC--CTCCAGGTTACACA    423
+
+Homo_sapiens     415 GGTAAGGAGTGCCAATGGACGGATGCCTG--CCTGTCTCATCCCTGTGCA    462
+                     ||.|||||.||.||.||||..||||||||  ||  |||||.||.|||||.
+Lagopus_muta     424 GGAAAGGACTGTCAGTGGATTGATGCCTGTACC--TCTCAACCTTGTGCC    471
+
+Homo_sapiens     463 AATGGAAGTACCTGTACCACTG----TGGCCA-ACCAGTTCTCCTGCAAA    507
+                     |||||||||||.|||   ||||    |||.|| |  |||||||.||||..
+Lagopus_muta     472 AATGGAAGTACGTGT---ACTGTGTCTGGACATA--AGTTCTCTTGCATC    516
+
+Homo_sapiens     508 TGCCTCA--CAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCAATGAG    555
+                     ||  |||  |.||||.|||.||.|||||||||||||..|||||.||.||.
+Lagopus_muta     517 TG--TCAGTCTGGCTACACTGGCCAGAAATGTGAGATAGATGTGAACGAA    564
+
+Homo_sapiens     556 TGTGACATTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAACCTGCC    605
+                     ||||.||...||||.|..||.||.||||||||.|||||..||||.||||.
+Lagopus_muta     565 TGTGCCACCTCAGGCCTTTGTCATCATGGTGGGACCTGTATCAATCTGCA    614
+
+Homo_sapiens     606 TGGTTCCTACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTACTGTG    655
+                     ||||||.|.||.||||||||||...|..||||..|||||.||...|||.|
+Lagopus_muta     615 TGGTTCATTCCGGTGCCAGTGCAAGCCAGGCTATACAGGGCATCGCTGCG    664
+
+Homo_sapiens     656 ACAGCCTGTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAGGCACC    705
+                     |.|||...||||||||.|||.|.||.|||||.|||.|.||||||||.||.
+Lagopus_muta     665 AGAGCACCTATGTGCCGTGTTCTCCATCACCCTGTATGAATGGAGGAACT    714
+
+Homo_sapiens     706 TGTCGGCAGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCAGGTTT    755
+                     ||||..||.||..||||||||||.||||||||||||||.||.||||||||
+Lagopus_muta     715 TGTCACCAAACAAGTGACTTCACCTTTGAGTGCAACTGTCTGCCAGGTTT    764
+
+Homo_sapiens     756 TGAAGGGAGCACCTGTGAGAGGAATATTGATGACTGCCCTAACCACAGGT    805
+                     .||.|||||||.||||||||.|||..|||||||||||||.||.||||..|
+Lagopus_muta     765 CGAGGGGAGCATCTGTGAGAAGAACGTTGATGACTGCCCAAATCACAATT    814
+
+Homo_sapiens     806 GTCAGAATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAACTGCCGC    855
+                     |.||.|||||.||..|.||||||||.||.||.|||||.|||||.||||||
+Lagopus_muta     815 GCCAAAATGGGGGTATATGTGTGGACGGCGTGAACACCTACAATTGCCGC    864
+
+Homo_sapiens     856 TGTCCCCCACAATGGACAGGACAGTTCTGCACAGAGGATGTGGATGAATG    905
+                     ||.||.||.||.||||||||.|||||.|||||.||.|||||.||.|||||
+Lagopus_muta     865 TGCCCACCGCAGTGGACAGGCCAGTTTTGCACTGAAGATGTTGACGAATG    914
+
+Homo_sapiens     906 CCTGCTGCAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAACCGCA    955
+                     .|.|||||||||||||||.|||||.||.||.||.|||||..||||||.||
+Lagopus_muta     915 TCAGCTGCAGCCCAATGCTTGTCAGAACGGAGGTACCTGCACCAACCACA    964
+
+Homo_sapiens     956 ATGGAGGCTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATGACTGC   1005
+                     ||||||||||||.||||||.|||||.||.|||||||||||.|||||||||
+Lagopus_muta     965 ATGGAGGCTATGCCTGTGTCTGTGTGAATGGCTGGAGTGGGGATGACTGC   1014
+
+Homo_sapiens    1006 AGTGAGAACATTGATGATTGTGCCTTC---GCCTCCTGTACTCCAGGCTC   1052
+                     |||.|||||||||||||.||   ||||   |||||||||.||...||.||
+Lagopus_muta    1015 AGTAAGAACATTGATGACTG---CTTCACGGCCTCCTGTGCTAATGGATC   1061
+
+Homo_sapiens    1053 CACCTGCATCGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGA   1102
+                     |||.|||||.||.||.|||||.||.||.||||||||.||.|||||.||.|
+Lagopus_muta    1062 CACTTGCATTGATCGAGTGGCTTCGTTTTCTTGCATTTGTCCAGAAGGAA   1111
+
+Homo_sapiens    1103 AGGCAGGTCTCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGC   1152
+                     ||||||||||.|||||.||..|||||||||||||..|.||||||||.|||
+Lagopus_muta    1112 AGGCAGGTCTTCTGTGCCACTTGGATGATGCATGTGTTAGCAATCCATGC   1161
+
+Homo_sapiens    1153 CACAAGGGGGCACTGTGTGACACCAACCCCCTAAATGGGCAATATATTTG   1202
+                     ||.|||||.||.||||||||.|||||.||..|.|||||.||.|||||.||
+Lagopus_muta    1162 CAGAAGGGAGCCCTGTGTGATACCAATCCTGTGAATGGACACTATATCTG   1211
+
+Homo_sapiens    1203 CACCTGCCCACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATG   1252
+                     ||||||.||.||||||.|.||.||.||.||||||||.||.||||||||||
+Lagopus_muta    1212 CACCTGTCCTCAAGGCCATAAGGGAGCAGACTGCACTGAGGATGTGGATG   1261
+
+Homo_sapiens    1253 AATGTGCCATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTG   1302
+                     |||||||.|||||.||.||||||||.|||||.||.||.||.|||||||||
+Lagopus_muta    1262 AATGTGCAATGGCAAACAGCAATCCGTGTGAACACGCTGGGAAATGTGTG   1311
+
+Homo_sapiens    1303 AACACGGATGGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACC   1352
+                     |||||.||.|||.|.||.|||||.||||||.||||.||.||..|||||||
+Lagopus_muta    1312 AACACAGAAGGCTCTTTTCACTGCGAGTGTTTGAAAGGATACACAGGACC   1361
+
+Homo_sapiens    1353 TCGTTGTGAGATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATG   1402
+                     |||.|||||.|||||||||||||||||||||||..|.||.|||||.||.|
+Lagopus_muta    1362 TCGCTGTGAAATGGACATCAATGAGTGCCATTCTAATCCGTGCCAAAACG   1411
+
+Homo_sapiens    1403 ATGCTACCTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCA   1452
+                     ||||.||||||||||||||.||||||||.|||||.|||||.||.||||||
+Lagopus_muta    1412 ATGCCACCTGTCTGGATAAAATTGGAGGATTCACGTGTCTCTGTATGCCA   1461
+
+Homo_sapiens    1453 GGTTTCAAAGGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAA   1502
+                     |||||.||||||||.||.|||||...|||.||..||||.||||..|||||
+Lagopus_muta    1462 GGTTTTAAAGGTGTTCACTGTGAGGAAGATATTGATGAGTGTCTAAGCAA   1511
+
+Homo_sapiens    1503 CCCTTGTGTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCAGT   1552
+                     .||.||||||||||||||..|||||.|.||||||||.||.||.||||..|
+Lagopus_muta    1512 TCCCTGTGTGAACAATGGAGAGTGTCTTGATAAAGTAAACCGGTTCCTCT   1561
+
+Homo_sapiens    1553 GCCTGTGTCCTCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGAT   1602
+                     |..|.|||||||||||.||||.|||..||||.||.|||||||||||.|||
+Lagopus_muta    1562 GTGTCTGTCCTCCTGGATTCAGTGGTGCAGTGTGTCAGATTGATATAGAT   1611
+
+Homo_sapiens    1603 GACTGTTCCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCC   1652
+                     |||||.||.||.||.|||||.||.|||||.||.|||||.|||||.||.||
+Lagopus_muta    1612 GACTGCTCTAGCACACCGTGCCTCAATGGAGCCAAGTGCATCGACCATCC   1661
+
+Homo_sapiens    1653 GAATGGCTATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTG   1702
+                     .||||||||.||.||||||||||||||||||||.||||||||.|||||||
+Lagopus_muta    1662 CAATGGCTACGAGTGCCAGTGTGCCACAGGTTTTACTGGTGTTTTGTGTG   1711
+
+Homo_sapiens    1703 AGGAGAACATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGT   1752
+                     ||||||||||..||||||||||.||.||||||||||||||||||.|.|||
+Lagopus_muta    1712 AGGAGAACATCAACAACTGTGATCCTGATCCTTGCCACCATGGTGAATGT   1761
+
+Homo_sapiens    1753 CAGGATGGTATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGG   1802
+                     ||.|||||.||.|||||.|||||.||.||.||||.|||.||.||||||||
+Lagopus_muta    1762 CAAGATGGAATCGATTCATACACGTGTATATGCAGTCCTGGCTACATGGG   1811
+
+Homo_sapiens    1803 CGCCATCTGCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGA   1852
+                     .||||||||||||||.|||||..|||||||..||||||..||||||||..
+Lagopus_muta    1812 TGCCATCTGCAGTGAGCAGATCAATGAATGCCACAGCAATCCTTGCCTCC   1861
+
+Homo_sapiens    1853 ACGATGGTCGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAG   1902
+                     |..|.||.||||||||||||.||||.||.||||||||.||||||||...|
+Lagopus_muta    1862 ATCAAGGGCGCTGCATTGACTTGGTGAACGGCTACCAATGCAACTGTTTG   1911
+
+Homo_sapiens    1903 CCAGGCACGTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAG   1952
+                     |..|||||.|||||.||.||.|||||.|.|||.|||||||||||||||||
+Lagopus_muta    1912 CTGGGCACTTCAGGAGTGAACTGTGAGAATAACTTTGATGACTGTGCAAG   1961
+
+Homo_sapiens    1953 TAACCCTTGTATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTT   2002
+                     ||||||.|||.|.||.||...|||.||.|||||||||||||||||||..|
+Lagopus_muta    1962 TAACCCATGTGTTCACGGGGACTGCATTGATGGCATTAATCGCTACAACT   2011
+
+Homo_sapiens    2003 GTGTCTGCTCACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGAT   2052
+                     |||..|||..|||.|||||.|||||.|...|.||||||.|.||.|||||.
+Lagopus_muta    2012 GTGCTTGCAAACCTGGATTTACAGGCCCACGTTGTAACGTGGATATTGAC   2061
+
+Homo_sapiens    2053 GAGTGTGCCTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGT   2102
+                     ||.|||||.||||..||||||...||.||||.|||||||||.||.|..||
+Lagopus_muta    2062 GAATGTGCATCCAGCCCCTGTAATAATGGTGGAACATGTATAAATGAAGT   2111
+
+Homo_sapiens    2103 GAATGGTTTCCGCTGTATATGCCCCGAGGGACCCCATCA-CCCCAGCTGC   2151
+                     .|||||.||.||.|||.||||.||.||.||...|||||| ||.|| ||||
+Lagopus_muta    2112 CAATGGCTTTCGGTGTGTATGTCCTGAAGGTTACCATCATCCTCA-CTGC   2160
+
+Homo_sapiens    2152 TACTCACAGGTGAACGAATGCCTG----AGCAATCCCTGCATCCATGGAA   2197
+                     .|.||.||||    |..|||.|||    ||.||||||||..|.|||||.|
+Lagopus_muta    2161 CAGTCGCAGG----CAGATGGCTGTCTTAGTAATCCCTGTGTACATGGCA   2206
+
+Homo_sapiens    2198 ACTGTAC------TGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCA   2241
+                     ||||.||      ||      |.|||||.||.||.|||.|||||||..||
+Lagopus_muta    2207 ACTGCACGCACATTG------TTAGTGGGTACAAATGTGTCTGTGACCCA   2250
+
+Homo_sapiens    2242 GGCTGGGTTGG-CATCAACTGT------GAAGTGGACAAAAATGAATGCC   2284
+                     ||||||||.|| .|| .|||||      ||||.|      ||.|||||..
+Lagopus_muta    2251 GGCTGGGTAGGAGAT-TACTGTTCAACAGAAGGG------AACGAATGTA   2293
+
+Homo_sapiens    2285 TTTCGAATCCATGCCAGAATGGAGGAACTTGTGACAATCTGGTGAATGGA   2334
+                     ..||.||.||.|||||.|||||||||||||||||..|||||.||||.|||
+Lagopus_muta    2294 AATCAAACCCGTGCCAAAATGGAGGAACTTGTGAGGATCTGCTGAACGGA   2343
+
+Homo_sapiens    2335 TACAGGTGTACTTGCAAGAAGGGCTTTAAAGGCTAT-AACTGCCAGGTGA   2383
+                     ||.||.|||||.||||||||.||.||.||||| |.| |||||||||||  
+Lagopus_muta    2344 TATAGATGTACCTGCAAGAAAGGATTCAAAGG-TGTGAACTGCCAGGT--   2390
+
+Homo_sapiens    2384 ATATTGATGAATGTGCCTCAAATCCATGCCTGAACCAAGGAACCTGCTTT   2433
+                                                                       
+Lagopus_muta    2390 --------------------------------------------------   2390
+
+Homo_sapiens    2434 GATGACATAAGTGGCTACACTTGCCACTGTGTGCTGCCATACACAGGCAA   2483
+                              |||||                                    
+Lagopus_muta    2391 ---------AGTGG------------------------------------   2395
+
+Homo_sapiens    2484 GAATTGTCAGACAGTATTGGCTCCCTGTTCCCCAAACCCTTGTGAGAATG   2533
+                                      |.||.||.||||||||..|||||||||||||..
+Lagopus_muta    2396 -----------------TTGCACCGTGTTCCCCTGACCCTTGTGAGAACT   2428
+
+Homo_sapiens    2534 CTGCTGTTTGCAAAGAGTCACCAAATTTTGAGAGTTATACTTGCTTGTGT   2583
+                     |.|...|||||.||||.||.||..|||.|||..|.||.||.|||..||||
+Lagopus_muta    2429 CGGGAATTTGCCAAGAATCTCCTGATTCTGAAGGCTACACCTGCCAGTGT   2478
+
+Homo_sapiens    2584 GCTCCTGGCTGGCAAGGTCAGCGGTGTACCATTGACATTGACGAGTGTAT   2633
+                     ||.|||||||||.||||..||...|||||..|.||.|||||.||.|||.|
+Lagopus_muta    2479 GCCCCTGGCTGGGAAGGGGAGAAATGTACGGTGGATATTGATGAATGTCT   2528
+
+Homo_sapiens    2634 CTCCAAGCCCTGCATGAACCATGGTCTCTGCCATAACACCCAGGGCAGCT   2683
+                     |||.||||||||||..||.||.|.|.|.||.|||||.|..||.|||||.|
+Lagopus_muta    2529 CTCAAAGCCCTGCAAAAATCACGCTTTGTGTCATAATATTCAAGGCAGTT   2578
+
+Homo_sapiens    2684 ACATGTGTGAATGTCCACCAGGCTTCAGTGGTATG-GACTGTG--AGGAG   2730
+                     ||.||||||||||||..||||||||||.||| |.| |||||||  ||.| 
+Lagopus_muta    2579 ACCTGTGTGAATGTCGTCCAGGCTTCACTGG-AGGAGACTGTGACAGTA-   2626
+
+Homo_sapiens    2731 GACATTGATGACTGCCTTGCCAATCCTTGCCAGAATGGAGGTTCCTGTAT   2780
+                      ||||||||||||||||..|.|||||.|||||.|||||.|.|||.|||.|
+Lagopus_muta    2627 -ACATTGATGACTGCCTGTCTAATCCCTGCCAAAATGGGGCTTCGTGTGT   2675
+
+Homo_sapiens    2781 GGATGGAGTGAATACTTTCTCCTGCCTCTGCCTTCC-GGGTTTCACTGGG   2829
+                     ||||||..|.||..|||||||.|||.|||||||.|| ||.||||| |||.
+Lagopus_muta    2676 GGATGGGATAAACTCTTTCTCATGCATCTGCCTACCTGGATTTCA-TGGA   2724
+
+Homo_sapiens    2830 GATAAGTGCCAGACAGACATGAATGAGTGTCTGAGTGAACCCTGTAAGAA   2879
+                     |||||.||.||.|||||.|..|||||.||||||||||||||.||.|.|||
+Lagopus_muta    2725 GATAAATGTCAAACAGATACCAATGAATGTCTGAGTGAACCGTGCAGGAA   2774
+
+Homo_sapiens    2880 TGGAGGGACCTGCTCTGACTACGTCAACAGTTACACTTGCAAGTGCCAGG   2929
+                     .|||||.||.|||.|..||||.||||||||.||.||.||||||||.|||.
+Lagopus_muta    2775 CGGAGGCACATGCACCCACTATGTCAACAGCTATACATGCAAGTGTCAGC   2824
+
+Homo_sapiens    2930 CAGGATTTGATGGAGTCCATTGTGAGAACAACATCAATGAGTGCACTGAG   2979
+                     |.||||||||.|||..|.|.|||||||||||||||.||||.|||||.|||
+Lagopus_muta    2825 CTGGATTTGAGGGAACCAACTGTGAGAACAACATCGATGAATGCACAGAG   2874
+
+Homo_sapiens    2980 AGCTCCTGTTTCAATGGTGGCACATGTGTTGATGGGATTAACTCCTTCTC   3029
+                     |||||.|||||||||||.||.||.||.||.||||||||.||.|||||..|
+Lagopus_muta    2875 AGCTCTTGTTTCAATGGAGGGACCTGCGTGGATGGGATCAATTCCTTTAC   2924
+
+Homo_sapiens    3030 TTGCTTGTGCCCTGTGGGTTTCACTGGATCCTTCTGCCTCCAT-GAGATC   3078
+                     .|||..|||.||.|||||.||.||.||..|||||||||| ||| ||.|||
+Lagopus_muta    2925 CTGCCAGTGTCCAGTGGGCTTTACGGGGCCCTTCTGCCT-CATGGAAATC   2973
+
+Homo_sapiens    3079 AATGAATGCAGCTCTCATCCATGCCTGAATGAGGGAACGTGTGTTGATGG   3128
+                     |||||.||....||.|||||.|||.||||..|.||..|.|||||.||..|
+Lagopus_muta    2974 AATGAGTGTGATTCACATCCTTGCTTGAACAAAGGGTCTTGTGTGGACAG   3023
+
+Homo_sapiens    3129 CCTGGGTACCTACCGCTGCAGCTGCCCCCTGGGCTACACTGGGAAAAACT   3178
+                     |||.||.||.|||||.||||..||.||..||||.|||||.|||||.||||
+Lagopus_muta    3024 CCTAGGCACATACCGATGCATATGTCCTTTGGGTTACACGGGGAAGAACT   3073
+
+Homo_sapiens    3179 GTCAGAC-CCTGGTGAATCTCTGCAGTCGGTCTCCATGTAAAAACAAAGG   3227
+                     |.||||| ||| .||.||||.||||||..||||||.|||||.||||||||
+Lagopus_muta    3074 GCCAGACACCT-ATGGATCTGTGCAGTAAGTCTCCCTGTAAGAACAAAGG   3122
+
+Homo_sapiens    3228 TACTTGCGTTCAGAAAAAAGCAGAGTCCCA--------GTGCCTATGTCC   3269
+                     .||.||..|.|     ||||..||| ||||        |||.|  |||||
+Lagopus_muta    3123 CACATGTTTCC-----AAAGTGGAG-CCCAGACTCGATGTGAC--TGTCC   3164
+
+Homo_sapiens    3270 ATCTGGATGGGCTGGTGCCTATTGTGACGTGCCCAATGTCTCTTGTGACA   3319
+                     .|||||.|||.|||||||.||.||.||.||||||||||||||.|||.|..
+Lagopus_muta    3165 TTCTGGCTGGACTGGTGCTTACTGCGATGTGCCCAATGTCTCCTGTCAAG   3214
+
+Homo_sapiens    3320 TAGCAGCCTC---CAGGAGA-----GGTGTGCTTGTTGAACACTTGTGCC   3361
+                     |.|||||.||   .|||.||     .|||        ||.||.|||||||
+Lagopus_muta    3215 TGGCAGCTTCACAAAGGGGAATCACAGTG--------GATCAGTTGTGCC   3256
+
+Homo_sapiens    3362 AGCACTCAGGTGTCTGCATCAATGCTGGCAACACGCATTACTGTCAGTGC   3411
+                     |||||||.|||...|||.||||||..||.|||||.||...||||||||||
+Lagopus_muta    3257 AGCACTCCGGTCATTGCCTCAATGTGGGAAACACACACCGCTGTCAGTGC   3306
+
+Homo_sapiens    3412 CCCCTGGGCTATACTGGGAGCTACTGTGAGGAGCAACTCGATGAGTGTGC   3461
+                     |...||||.||.|||||.||||||||.||||||||.||.||||||||||.
+Lagopus_muta    3307 CGTGTGGGTTACACTGGCAGCTACTGCGAGGAGCAGCTGGATGAGTGTGA   3356
+
+Homo_sapiens    3462 GTCCAACCCCTGCCAGCACGGGGCAACATGCAGTGACTTCA--TTGGTGG   3509
+                     .||||.|||.||.|||.|.||.||.||.|||||.||  |||  |.|||||
+Lagopus_muta    3357 CTCCAGCCCATGTCAGAATGGTGCTACCTGCAGGGA--TCATCTGGGTGG   3404
+
+Homo_sapiens    3510 ATA-CAGATGCGAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTAT   3558
+                     ||| ||| |||||||||||.||.||.||.|||||||||||||||||.|||
+Lagopus_muta    3405 ATACCAG-TGCGAGTGTGTGCCTGGGTACCAGGGTGTCAACTGTGAATAT   3453
+
+Homo_sapiens    3559 GAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTAT   3608
+                     ||||||||||||||||||..|||||||||||||||||||||.||.||.||
+Lagopus_muta    3454 GAAGTGGATGAGTGCCAGTTTCAGCCCTGCCAGAATGGAGGAACATGCAT   3503
+
+Homo_sapiens    3609 TGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGCC   3658
+                     .||||||||.|||||||||||||||||.||.|||||||||||||||||.|
+Lagopus_muta    3504 AGACCTTGTCAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGGGGTC   3553
+
+Homo_sapiens    3659 TACTCTGTGAAGAGAACATTGATGACTGTG---------CCCGGGGTCCC   3699
+                     ..||.|||||.||||||.|.||||||||||         |..|.||.|||
+Lagopus_muta    3554 GCCTGTGTGAGGAGAACGTGGATGACTGTGTTTCAGAGTCAGGAGGACCC   3603
+
+Homo_sapiens    3700 CATTGCCTTAATGGTGGTCAGTGCATGGATAGGATTGGAGGCTACAGTTG   3749
+                     |..|||.|||||||.||.||||||||.||...||||||.||.||.||.||
+Lagopus_muta    3604 CGCTGCTTTAATGGAGGACAGTGCATTGACCAGATTGGGGGTTATAGCTG   3653
+
+Homo_sapiens    3750 TCGCTGCTTGCCTGGCTTTGCTGGGGAGCGTTGTGAGGGAGACATCAACG   3799
+                     ||..||..|.||.||||||||.||.|||||.||.|||||.||.|||||.|
+Lagopus_muta    3654 TCTTTGTCTCCCAGGCTTTGCAGGCGAGCGGTGCGAGGGGGATATCAATG   3703
+
+Homo_sapiens    3800 AGTGCCTCTCCAACCCCTGCAGCTCTGAGGGCAGCCTGGACTGTATACAG   3849
+                     |.||||||||.||.||.||.|.|.||...||.||.|||||.||.||.|||
+Lagopus_muta    3704 AATGCCTCTCTAATCCTTGTAACCCTCGTGGAAGTCTGGATTGCATTCAG   3753
+
+Homo_sapiens    3850 CTCACCAATGACTACCTGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCA   3899
+                     ||.|..|||||.|||...|||||.||.||||||||.||||||||.||.||
+Lagopus_muta    3754 CTGATAAATGATTACACATGTGTCTGTCGTAGTGCTTTTACTGGTCGTCA   3803
+
+Homo_sapiens    3900 CTGTGAAACCTTCGTCGATGTGTGTCCCCAGATGCCCTGCCTGAATGGAG   3949
+                     ||||||.|...||.|.||||||||||||..||.||||||.|.||||||||
+Lagopus_muta    3804 CTGTGAGAGTGTCATAGATGTGTGTCCCAGGAAGCCCTGTCAGAATGGAG   3853
+
+Homo_sapiens    3950 GGACTTGTGCTGTGGCCAGTAACATGCCTGATGGTTTCATTTGCCGTTGT   3999
+                     |.||.||||||||.|||||.||.|||||.|||||.|||||.||||..|||
+Lagopus_muta    3854 GTACCTGTGCTGTTGCCAGCAATATGCCAGATGGGTTCATCTGCCAGTGT   3903
+
+Homo_sapiens    4000 CCCCCGGGATTTTCCGGGGCAAGGTGCCAG---AGCAGC---------TG   4037
+                     ||.|||||.|.|||||||||||..||..||   ||||||         ||
+Lagopus_muta    3904 CCTCCGGGTTATTCCGGGGCAAAATGTGAGTTCAGCAGCCACAGTACTTG   3953
+
+Homo_sapiens    4038 TGGACAAGTGAAATGTAGGAAGGGGGAGCAGTGTGTGCACACCGCCTCTG   4087
+                     .||.|||||.|||||.|.||||||.||||||||..|.||.||..|.||||
+Lagopus_muta    3954 CGGGCAAGTAAAATGCAAGAAGGGTGAGCAGTGCATCCAGACATCTTCTG   4003
+
+Homo_sapiens    4088 GACCCCGCTGCTTCTGCCCCAG--TCCCCG-------GGACTGCGAG---   4125
+                     |.||.||.||||.||||||.||  |..|.|       |||.|||.||   
+Lagopus_muta    4004 GTCCGCGATGCTACTGCCCAAGGCTGGCTGTGGGAGAGGAATGCCAGACC   4053
+
+Homo_sapiens    4126 ---TCAGGCTGTGCCAGTAGCCCCTGCCAGCACGGGGGCAGCTGCCACCC   4172
+                        .||||||||||||||..||||||||||.|.||.||.|||||||||||
+Lagopus_muta    4054 AATGCAGGCTGTGCCAGTGCCCCCTGCCAGAATGGTGGGAGCTGCCACCC   4103
+
+Homo_sapiens    4173 TCAGCGC-CAGCCTCCTTATTACTCCTGCCAGTGTGCCC------CACC-   4214
+                     || |..| |||||||||||.||.|..||.||  ||||||      |||| 
+Lagopus_muta    4104 TC-GTTCTCAGCCTCCTTACTATTATTGTCA--GTGCCCTGATCACACCC   4150
+
+Homo_sapiens    4215 -ATTCTCGGGTAGCCGCTGTGAAC-TCTACACGGCACCCCCCAGC----A   4258
+                      |      ||.||||..||||||| .||    |..||..||||||    |
+Lagopus_muta    4151 AA------GGCAGCCAGTGTGAACAGCT----GATACATCCCAGCCAAGA   4190
+
+Homo_sapiens    4259 CCCCTCCTGCCACCTGTCTGAG------------CCAGTATTGTGCCGAC   4296
+                     .||             ||||.|            ||||   |||||.||.
+Lagopus_muta    4191 GCC-------------TCTGGGGTGTTTGGATTCCCAG---TGTGCAGAA   4224
+
+Homo_sapiens    4297 AAAGCTCGGGATGGCGTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCA   4346
+                     |||||..|.||||||...||||||||||.|||.||||..||.||||||||
+Lagopus_muta    4225 AAAGCGAGAGATGGCTATTGTGATGAGGACTGTAACACTCACGCCTGCCA   4274
+
+Homo_sapiens    4347 GTGGGATGGGGGTGACTGTTCTCTCACCATGGAGAACCCCTGGGCCAACT   4396
+                     |||||||||.|||||||||||.|||||.||||||.|.||.||||||||||
+Lagopus_muta    4275 GTGGGATGGAGGTGACTGTTCCCTCACAATGGAGGATCCTTGGGCCAACT   4324
+
+Homo_sapiens    4397 GCTCCTCCCCACTTCCCTGCTGG--GATTATATCAACAACCAGTGTGATG   4444
+                     |||||||..|..|||.|||||||  |.|  |.||||....||||||||.|
+Lagopus_muta    4325 GCTCCTCTTCGTTTCGCTGCTGGATGCT--TTTCAATGGACAGTGTGACG   4372
+
+Homo_sapiens    4445 AGCTGTGCAACACGGTCGAGTGCCTGTTTGACAACTTTGAATGCCAGGGG   4494
+                     ||.|.||||||||....||||||.|||||||||||||||||||.|||..|
+Lagopus_muta    4373 AGTTCTGCAACACACCTGAGTGCTTGTTTGACAACTTTGAATGTCAGCAG   4422
+
+Homo_sapiens    4495 AACAGCAAGACATGCAAGTATGACAAATACTGTGCAGACCACTTCAAAGA   4544
+                     |||.|||..|..||||||||||||||.||||||||.||.||||....|||
+Lagopus_muta    4423 AACGGCAGAATGTGCAAGTATGACAAGTACTGTGCTGATCACTATGCAGA   4472
+
+Homo_sapiens    4545 CAACCACTGTGACCAGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGC   4594
+                     |..||.||||||||||||.||.||.||.|||||||||||.|||||.||.|
+Lagopus_muta    4473 CGGCCGCTGTGACCAGGGCTGTAATAGCGAGGAGTGTGGCTGGGACGGTC   4522
+
+Homo_sapiens    4595 TGGACTGTGCTGCTGACCAACCTGAGAACCTGGCAGAAGGTACCCTGGTT   4644
+                     |.||||||||||.||||.||.|||||||.||||||||.||.|||||..|.
+Lagopus_muta    4523 TTGACTGTGCTGGTGACAAAGCTGAGAAGCTGGCAGAGGGGACCCTAATA   4572
+
+Homo_sapiens    4645 ATTGTGGTATTGATGCCACCTGAACAACTGCTCCAGGATGCTCGCAGCTT   4694
+                     ||||||||.|||||||..|||||..|.|||||.|..||.|.|||||||||
+Lagopus_muta    4573 ATTGTGGTCTTGATGCGCCCTGATGAGCTGCTGCGTGACGTTCGCAGCTT   4622
+
+Homo_sapiens    4695 CTTGCGGGCACTGGGTACCCTGCTCCACACCAACCTGCGCATTAAGCGGG   4744
+                     ||||||..|..||||.||.||.||.||||||||.|||.|.|||||||.||
+Lagopus_muta    4623 CTTGCGTACGTTGGGAACTCTCCTTCACACCAATCTGAGAATTAAGCTGG   4672
+
+Homo_sapiens    4745 ACTCCCAGGGGGAACTCATGGTGTACCCCTATTATGGTGAGAAGTCAGCT   4794
+                     ||||||||||..|.|.||||||.|.|||.||.|||||.|||||.||.||.
+Lagopus_muta    4673 ACTCCCAGGGAAATCCCATGGTATTCCCATACTATGGAGAGAAATCGGCA   4722
+
+Homo_sapiens    4795 GCTATGAAGAAACAGAGGATGACACGCAGATCCCTTCCTGGT--------   4836
+                     ||         ||.|||      .||.||||||||| .||||        
+Lagopus_muta    4723 GC---------ACGGAG------TCGGAGATCCCTT-GTGGTTGTTCGCA   4756
+
+Homo_sapiens    4837 --------GAACAAGAACAGGAGGTGGCTGGCTCTAAAGTCTTTCTGGAA   4878
+                             ||||.|||.||.|||||...||||.|.|..||.||.|||||.
+Lagopus_muta    4757 AGCACAGAGAACTAGAGCAAGAGGTCATTGGCACGAGGGTGTTCCTGGAG   4806
+
+Homo_sapiens    4879 ATTGACAACCGCCAGTGTGTTCAAGACTCAGACCACTGCTTCAAGAACAC   4928
+                     |||||||||||.|||||||...|.||.|||||.||.|||||..|.|||||
+Lagopus_muta    4807 ATTGACAACCGTCAGTGTGCAGAGGATTCAGAACAATGCTTTCACAACAC   4856
+
+Homo_sapiens    4929 GGATGCAGCAGCAGCTCTCCTGGCCTCTCACGCCATACAGGGGACCCTGT   4978
+                     .||.||.||.|||||.|||.|.||..||||.||.||..||||.|...||.
+Lagopus_muta    4857 AGAAGCTGCTGCAGCCCTCTTAGCAGCTCAGGCAATCAAGGGCATGTTGC   4906
+
+Homo_sapiens    4979 CATACCCTCTTGTGTCTGTCGTCAGTGAATCCCTGACTCCA-GAACGCAC   5027
+                     |.||.|||.|||||||||||...||.|||.||.||...||| .||.| ||
+Lagopus_muta    4907 CTTATCCTTTTGTGTCTGTCCAAAGCGAACCCTTGTTACCACCAAAG-AC   4955
+
+Homo_sapiens    5028 TCAGCTCCTCTATCTCCTTGCTGTTGCTGTTGTCATCATTCTGTTTATTA   5077
+                     .|||.|.|||||.||.||||||||.||.|.|.|.|||||.||.||.||..
+Lagopus_muta    4956 CCAGTTGCTCTACCTACTTGCTGTGGCAGCTTTGATCATCCTCTTGATCC   5005
+
+Homo_sapiens    5078 TTCTGCTGGGGGTAATCATGGCAAAACGAAAGCGTAAGCATGGCTCTCTC   5127
+                     ||||..||||.||.||.|||||||||||.|||||.||.|||||.||.||.
+Lagopus_muta    5006 TTCTCTTGGGTGTGATGATGGCAAAACGTAAGCGCAAACATGGTTCACTG   5055
+
+Homo_sapiens    5128 TGGCTGCCTGAAGGTTTCACTCTTCGCCGAGATGCAAGCAATCACAAGCG   5177
+                     |||||.||.||.||.||.|.|||.|||.|.|||.|.||.|||||||||||
+Lagopus_muta    5056 TGGCTCCCAGAGGGCTTTATTCTGCGCAGGGATCCCAGTAATCACAAGCG   5105
+
+Homo_sapiens    5178 TCGTGAGCCAGTGGGACAGGATGCTGTGGGGCTGAAAAATCTCTCAGTGC   5227
+                     ..|.||||||||.|||.|.|||||.||.||.||.||||||||.|||||.|
+Lagopus_muta    5106 CAGGGAGCCAGTTGGAGAAGATGCAGTTGGACTCAAAAATCTATCAGTCC   5155
+
+Homo_sapiens    5228 AAGTCTCAGAAGCTAACCTAATTGG----TACTGGAACAAGTGAACACTG   5273
+                     |..|..||||.|.||||    .|||    |.|||||.|||.|||||||||
+Lagopus_muta    5156 AGATACCAGAGGGTAAC----ATGGCAGATTCTGGACCAACTGAACACTG   5201
+
+Homo_sapiens    5274 GGTCGATGATGAAGGGCCCCAGCCAAAGAAAGTAAAGGCTGAAGATGAGG   5323
+                     ||..|.|||||..||.||.||||||||||.|||||||.||||.||..|||
+Lagopus_muta    5202 GGCAGGTGATGGTGGACCTCAGCCAAAGAGAGTAAAGACTGAGGACCAGG   5251
+
+Homo_sapiens    5324 CCTTACTCTCAGAAGAAGATGACCCCATTGATCGACGGCCA-TGGACACA   5372
+                     ||||.|||.|.||||..||.||.|..||.|||| |..|||| ||||||||
+Lagopus_muta    5252 CCTTGCTCCCTGAAGCTGACGAGCAGATAGATC-AGCGCCAGTGGACACA   5300
+
+Homo_sapiens    5373 GCAGCACCTTGAAGCTGCAGACATCCGTAGGA--CACCATCGCTGGCTCT   5420
+                     |||||||.|.|||||.|||||..||.|| |||  || ||||.||.||.||
+Lagopus_muta    5301 GCAGCACTTGGAAGCAGCAGATGTCTGT-GGAAGCA-CATCACTAGCCCT   5348
+
+Homo_sapiens    5421 CACCCCTCCTCAGGCAGAGCAGGAGGTGGATGTGTTAGATGTGAATGTCC   5470
+                     .||.||.|||||.|||||.||.||.||.|||||..|.|||||.||||||.
+Lagopus_muta    5349 TACACCACCTCAAGCAGATCAAGAAGTAGATGTTCTGGATGTCAATGTCA   5398
+
+Homo_sapiens    5471 GTGGCCCAGATGGCTGCACCCCATTGATGTTGGCTTCTCTCCGAGGAGGC   5520
+                     |.||.||||||||.||.||.|||.|.||||||||.|||||.||.|..|||
+Lagopus_muta    5399 GAGGACCAGATGGATGTACTCCACTTATGTTGGCATCTCTGCGTGTGGGC   5448
+
+Homo_sapiens    5521 AGCTCAGATTTGAGTGATGAAGATGAAGATGCAGAGGACTCTTCTGCTAA   5570
+                     .|.||.||..|.|||||.||.||||||||.|.|||.||.||.||.||.||
+Lagopus_muta    5449 GGTTCCGACATCAGTGAGGATGATGAAGACGGAGAAGATTCCTCAGCAAA   5498
+
+Homo_sapiens    5571 CATCATCACAGACTTGGTCTACCAGGGTGCCAGCCTCCAGGCCCAGACAG   5620
+                     |||.||.|||||.|||.||||.||.|||||||.|||.||||||||.||||
+Lagopus_muta    5499 CATAATAACAGATTTGATCTATCAAGGTGCCAACCTGCAGGCCCAAACAG   5548
+
+Homo_sapiens    5621 ACCGGACTGGTGAGATGGCCCTGCACCTTGCAGCCCGCTACTCACGGGCT   5670
+                     ||||.|||||.|||||||||||||||.|.||.|||||.|||||..||||.
+Lagopus_muta    5549 ACCGCACTGGGGAGATGGCCCTGCACTTAGCTGCCCGTTACTCGAGGGCA   5598
+
+Homo_sapiens    5671 GATGCTGCCAAGCGTCTCCTGGATGCAGGTGCAGATGCCAATGCCCAGGA   5720
+                     ||||||||.||.|||.|.||||||||.|||||||||||||||||.|.|||
+Lagopus_muta    5599 GATGCTGCAAAACGTTTGCTGGATGCCGGTGCAGATGCCAATGCACGGGA   5648
+
+Homo_sapiens    5721 CAACATGGGCCGCTGTCCACTC--CATGCTGCAGTGGCAGCTGATGCCCA   5768
+                     |||||||||.||  |.||.|||  |||||.||.||.||.|||||||||||
+Lagopus_muta    5649 CAACATGGGACG--GACCCCTCTGCATGCAGCTGTAGCTGCTGATGCCCA   5696
+
+Homo_sapiens    5769 AGGTGTCTTCCAGATTCTGATTCGCAACCGAGTAACTGATCTAGATGCCA   5818
+                     .||.|||||.|||||..||||.||.|||.||||.||.||..|.|||||..
+Lagopus_muta    5697 GGGAGTCTTTCAGATCTTGATCCGTAACAGAGTGACAGACTTGGATGCTC   5746
+
+Homo_sapiens    5819 GGATGAATGATGGTACTACACCCCTGATCCTGGCTGCCCGCCTGGCTGTG   5868
+                     |.|||||||||||.||.||.||..|.|||||||||||..|.|||||||||
+Lagopus_muta    5747 GCATGAATGATGGAACAACCCCTTTAATCCTGGCTGCAAGGCTGGCTGTG   5796
+
+Homo_sapiens    5869 GAGGGAATGGTGGCAGAACTGATCAACTGCCAAGCGGATGTGAATGCAGT   5918
+                     ||.||||||||||||||.||.||.||.||||||||.|||||||||||.||
+Lagopus_muta    5797 GAAGGAATGGTGGCAGAGCTCATTAATTGCCAAGCAGATGTGAATGCTGT   5846
+
+Homo_sapiens    5919 GGATGACCATGGAAAATCTGCTCTTCACTGGGCAGCTGCTGTCAATAATG   5968
+                     .||||||||.||.||||||||||||||||||||.|||||||||||.||||
+Lagopus_muta    5847 AGATGACCACGGTAAATCTGCTCTTCACTGGGCTGCTGCTGTCAACAATG   5896
+
+Homo_sapiens    5969 TGGAGGCAACTCTTTTGTTGTTGAAAAATGGGGCCAACCGAGACATGCAG   6018
+                     ||||.|||||.||..||.|..||||||||||.||||||.|||||||||||
+Lagopus_muta    5897 TGGAAGCAACACTAGTGCTACTGAAAAATGGAGCCAACAGAGACATGCAG   5946
+
+Homo_sapiens    6019 GACAACAAGGAAGAGACACCTCTGTTTCTTGCTGCCCGGGAGGGGAGCTA   6068
+                     ||.||||||||.||||||||.||.||.||||||||.|||||.||.||.|.
+Lagopus_muta    5947 GATAACAAGGAGGAGACACCACTCTTCCTTGCTGCTCGGGAAGGCAGTTT   5996
+
+Homo_sapiens    6069 TGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCGAGACATCACAG   6118
+                     ||||||||||||.|||.||.|.||||||||||||||.|||||||||||.|
+Lagopus_muta    5997 TGAAGCAGCCAAAATCTTGCTGGACCATTTTGCCAACCGAGACATCACGG   6046
+
+Homo_sapiens    6119 ACCATATGGATCGTCTTCCCCGGGATGTGGCTCGGGATCGCATGCACCAT   6168
+                     ||||.|||||||||||.|||||.||||||||.|.|||.||.||||||||.
+Lagopus_muta    6047 ACCACATGGATCGTCTGCCCCGAGATGTGGCCCAGGACCGGATGCACCAC   6096
+
+Homo_sapiens    6169 GACATTGTGCGCCTTCTGGATGAATACAATGTGACCCCA-AG-CCCTCCA   6216
+                     |||||.||||..|||||..||||.||.||.|| |.|.|| || |||.|..
+Lagopus_muta    6097 GACATCGTGCAGCTTCTCAATGAGTATAACGT-AGCACACAGTCCCACTG   6145
+
+Homo_sapiens    6217 GGCA--------CCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGGG   6258
+                     ||||        ||.||.|||..|||||.|||||.||.|||||.|||||.
+Lagopus_muta    6146 GGCACCCCGGGGCCATGCTGAACTCTGCCCTCTCCCCGGTCATTTGTGGC   6195
+
+Homo_sapiens    6259 CCCAACAGATCTTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGTC   6308
+                     ||.||.|||||.||.||||..|||||||||.|..|..|..||||||||||
+Lagopus_muta    6196 CCAAATAGATCCTTTCTCAATCTGAAGCACGCTTCGTTAAGCAAGAAGTC   6245
+
+Homo_sapiens    6309 TAGACGGCCCAGTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTTG   6358
+                     ..||...||.|.||||||..|.|.||||||.||.|..|||    |||   
+Lagopus_muta    6246 ACGAAAACCGAATGCCAAAGGCATCATGCCCACGAATCTC----ACC---   6288
+
+Homo_sapiens    6359 CCAAGGAGGCAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGT   6408
+                                ||.|||||.|||   ||.||.|||||||||||.||.|||
+Lagopus_muta    6289 -----------AAAGATGCGAAG---AGGAGAAGGAAGAAGTCCCTCAGT   6324
+
+Homo_sapiens    6409 GAG----AAGGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTG   6454
+                     |||    |||| .||..|.||.|||||.||.|||||..|.||.||.||||
+Lagopus_muta    6325 GAGAGCAAAGG-GCAGTTTTCAGAGAGCTCGGTAACCCTGTCACCCGTTG   6373
+
+Homo_sapiens    6455 ATTCCCTAGAATCTCCTCACACGTATGTTTCCGACACC-ACATCCTCTCC   6503
+                     |.|||||.||||||||.||..|.|.||..||||| ||| ||.||.|||||
+Lagopus_muta    6374 ACTCCCTGGAATCTCCCCATGCTTTTGCATCCGA-ACCGACGTCGTCTCC   6422
+
+Homo_sapiens    6504 AATGATTACATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGG   6553
+                     ..||||..||||.||.|||.|.|||||..|.|||||||.|.|..||.||.
+Lagopus_muta    6423 TGTGATGCCATCGCCAGGGGTGTTACACTCATCACCCAGCTCGCTGCTGA   6472
+
+Homo_sapiens    6554 CCACTGCCGCCCCTCCTGCCCCAGTCCATGCCCAGCATGCACTATCTTTT   6603
+                     ||.|| |||.|..|.|.|.|    |.||  |.|||||||     ||.||.
+Lagopus_muta    6473 CCGCT-CCGTCGGTGCAGGC----TGCA--CACAGCATG-----TCCTTC   6510
+
+Homo_sapiens    6604 TCTAACCTTCATGAAATGCAG-CCTTTGGCACATGGGGCCAGCACTGTGC   6652
+                     ||.|||||.||.||.|||||| ||||.||| |.|||..|||||||.||||
+Lagopus_muta    6511 TCCAACCTCCACGAGATGCAGCCCTTAGGC-CGTGGCTCCAGCACCGTGC   6559
+
+Homo_sapiens    6653 TTCCCTCAGTGAGCCAGTTGCTATCCCACCAC-------CACATTGTGTC   6695
+                     |.||.||.||.||||||.||||.||.||.|||       |.|       |
+Lagopus_muta    6560 TCCCATCGGTCAGCCAGCTGCTCTCACAGCACAGAACGACCC-------C   6602
+
+Homo_sapiens    6696 TCCAGGCAGTGGCAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCA-   6744
+                     ||||..|||.||    |||.|        |.|||||||..||.|  ||| 
+Lagopus_muta    6603 TCCAAACAGCGG----GCTCG--------GCAGGCTCCGGCCGG--CCAA   6638
+
+Homo_sapiens    6745 --GTCCCAGCAGATTGGATGAACCGCATGGAGGTGAATGAGACCCAGTAC   6792
+                       .|.||| |.||.||||||||.|||||||||.||||.||..||||||||
+Lagopus_muta    6639 CGTTTCCA-CCGAGTGGATGAATCGCATGGAGATGAACGAATCCCAGTAC   6687
+
+Homo_sapiens    6793 AATGAGATGTTTGGTATGGTCCTGGCTCCAGCTGAGGGCACCCATCCTGG   6842
+                     ||.||||||||.||.|||||.|.|.|         ||.||..|||     
+Lagopus_muta    6688 AACGAGATGTTCGGCATGGTGCCGCC---------GGTCATGCAT-----   6723
+
+Homo_sapiens    6843 CATAGCTCCCCAG--------AGCAG---------------GCCACCTGA   6869
+                       |.||.||||||        |||||               |||    ||
+Lagopus_muta    6724 --TCGCACCCCAGTGTTTCTCAGCAGAGCGGTTTGGTTCAAGCC----GA   6767
+
+Homo_sapiens    6870 AGGGAAGCAC------ATAACCACCCCTCGGGAGCCCTTGCCCCCCATTG   6913
+                     ...|||||||      .|..|||      |||||.|..|||||||.||..
+Lagopus_muta    6768 TACGAAGCACCTGGGAGTGTCCA------GGGAGTCTCTGCCCCCTATCA   6811
+
+Homo_sapiens    6914 TGACTTTCCAGCTCATCCCTAAAGGCAGTATTGCCCAACCAGCGGGGGCT   6963
+                     |||||||||||||..|.||.||.||..|.||    .|||||||..|.|||
+Lagopus_muta    6812 TGACTTTCCAGCTGGTTCCCAAGGGTGGCAT----AAACCAGCAAGCGCT   6857
+
+Homo_sapiens    6964 CCC----CAGCCTCAGTCCACCTGCCCTC----CAGCTGTTGCGGGCCCC   7005
+                     .||    |||.|.|||||||.||||.|||    ||    |.||.|||||.
+Lagopus_muta    6858 GCCACAGCAGGCCCAGTCCAACTGCACTCAGAACA----TGGCTGGCCCT   6903
+
+Homo_sapiens    7006 CTGCCCACCATGTACCAGATTCCAGAAATGGCCCGTTTGCCCAGTGTGGC   7055
+                     ||...|.|||||||||||||..||||..|.||.|...|||||||.|...|
+Lagopus_muta    6904 CTTAGCTCCATGTACCAGATATCAGATTTAGCTCAGCTGCCCAGCGCCTC   6953
+
+Homo_sapiens    7056 TTTCCCCA---CTGCCATGATGCCC-CAGCAGGACGGGCAGGTAGCTCAG   7101
+                     .|||.|||   |||||||    ||| |||||||||||||||||..||||.
+Lagopus_muta    6954 GTTCTCCATGGCTGCCAT----CCCTCAGCAGGACGGGCAGGTGCCTCAA   6999
+
+Homo_sapiens    7102 ACCATTCTCCCAGCCTATCATCCTTTCCCAG-CCTCTGTGGGCAAGTACC   7150
+                     ||.||.||||||||.||.|| ||..|.|||| .|||..||||.|||||||
+Lagopus_muta    7000 ACAATCCTCCCAGCTTACCA-CCAGTTCCAGAGCTCGATGGGGAAGTACC   7048
+
+Homo_sapiens    7151 CCACACCCCCTTCACAGCACAGTTATGCTTCCTCAAATGCTGCTGAGCGA   7200
+                     ||||.||.||.||.||||||||.|.|...|||||   .||..|.||.||.
+Lagopus_muta    7049 CCACGCCTCCGTCGCAGCACAGCTGTTACTCCTC---GGCCACAGAACGG   7095
+
+Homo_sapiens    7201 ACACCCAGTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACC   7250
+                     ||.||.||.||||...|.|||.|.||.||.|||||.||.||||||||.||
+Lagopus_muta    7096 ACTCCTAGCCACAACCGGCACTTACAAGGGGAGCACCCATACCTGACTCC   7145
+
+Homo_sapiens    7251 ATCCCCAGAGTCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTT   7300
+                     |||.||.||.|||||.|||||||||||.||.||.||.||.||||||||||
+Lagopus_muta    7146 ATCGCCTGAATCTCCAGACCAGTGGTCCAGCTCTTCCCCGCACTCTGCTT   7195
+
+Homo_sapiens    7301 CTGACTGGTCAGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGA   7350
+                     ||||||||||.||.|||.|.|||||.|||                     
+Lagopus_muta    7196 CTGACTGGTCTGACGTGGCAACCAGTCCT---------------------   7224
+
+Homo_sapiens    7351 GGT------CAGCGGGGACCTGGG---ACACACATGTCTGAGCCACCACA   7391
+                     |||      |||||.||.||.|.|   .|.||||||.|.||| ||.||.|
+Lagopus_muta    7225 GGTAACAACCAGCGTGGGCCGGCGGCCGCTCACATGCCAGAG-CAGCAGA   7273
+
+Homo_sapiens    7392 -CAACAACATGCAGGTTTATGCG   7413
+                      .||||||||||||||.||.||.
+Lagopus_muta    7274 GGAACAACATGCAGGTGTACGCC   7296
+
+
+#---------------------------------------
+#---------------------------------------

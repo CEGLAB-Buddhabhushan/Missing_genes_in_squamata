@@ -1,0 +1,294 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 06:25:34
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Apteryx_rowi.fa
+#    -outfile Homo_sapiens-Apteryx_rowi.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Apteryx_rowi.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Apteryx_rowi
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3248
+# Identity:    1965/3248 (60.5%)
+# Similarity:  1965/3248 (60.5%)
+# Gaps:         562/3248 (17.3%)
+# Score: 5886.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGGGCAGCTGTGCTGGCTGCCGCTGCTGGCACCGCTCCTGTTGCTGCG     50
+                                                                       
+Apteryx_rowi       0 --------------------------------------------------      0
+
+Homo_sapiens      51 ACCGCCAGGGGTCCAGTCCGCCGGCCCCATCCGGGCCTTCGTGGTGCCCC    100
+                                                                       
+Apteryx_rowi       0 --------------------------------------------------      0
+
+Homo_sapiens     101 ACAGCCACATGGACGTGGGCTGGGTCTACACTGTGCAGGAAAGCATGCGG    150
+                                                                 ||||..
+Apteryx_rowi       1 --------------------------------------------ATGCAT      6
+
+Homo_sapiens     151 GCGTACGCCGCCAATGTCTACACCTCAGTGGTGGAAGAGCTGGCCCGC--    198
+                     ||.||.||.||.|||||||||||.||.||.|||||||||||         
+Apteryx_rowi       7 GCTTATGCAGCGAATGTCTACACGTCTGTTGTGGAAGAGCT-------AA     49
+
+Homo_sapiens     199 -----GGCCAGCAGCGCCGGTTCATCGCTGTGGAGCAGGAGTTTTTCCGG    243
+                          ||..||||||||...||.||.||||||||||||||.||.||.||.
+Apteryx_rowi      50 TGAAAGGAAAGCAGCGCAAATTTATTGCTGTGGAGCAGGAATTCTTTCGA     99
+
+Homo_sapiens     244 CTGTGGTGGGATGGCGTCGCCTCGGACCAGCAGAAATACCAGGTCCGCCA    293
+                     ||.||||||||||..||.|||.||||...|||.|||.|.|||||.|..||
+Apteryx_rowi     100 CTCTGGTGGGATGCAGTAGCCACGGATAGGCACAAACAGCAGGTGCATCA    149
+
+Homo_sapiens     294 GCTCCTGGAGGAAGGACGCCTGGAATTTGTCATCGGAGGCCAGGTCATGC    343
+                     |.|.||..|.||||||||..|||||||||||||.|||||.||.||.||||
+Apteryx_rowi     150 GTTACTTCAAGAAGGACGATTGGAATTTGTCATTGGAGGGCAAGTGATGC    199
+
+Homo_sapiens     344 ATGACGAGGCTGTGACGCACCTTGATGACCAGATCCTGCAGCTCACAGAA    393
+                     ||||.||.||||||||.|...|||||||.|||||..|.|||.|.||.|||
+Apteryx_rowi     200 ATGATGAAGCTGTGACACTAATTGATGATCAGATTTTACAGTTGACGGAA    249
+
+Homo_sapiens     394 GGACACGGGTTTCTCTATGAAACATTTGGGATCCGGCCACAGTTCTCCTG    443
+                     ||.||.||||||.|.||.|||||.|||||||||.||||.|||||.||.||
+Apteryx_rowi     250 GGCCATGGGTTTTTATACGAAACCTTTGGGATCAGGCCTCAGTTTTCTTG    299
+
+Homo_sapiens     444 GCACGTTGACCCGTTTGGCGCCTCTGCCACGACGCCCACCCTATTTGCGC    493
+                     ||||||.||.||.|||||.||.||.||.||.|||||.||.||.|||||.|
+Apteryx_rowi     300 GCACGTAGATCCTTTTGGAGCTTCAGCTACAACGCCAACTCTTTTTGCTC    349
+
+Homo_sapiens     494 TGGCGGGCTTCAATGCCCACCTCGGCTCCCGGATCGACTACGACCTGAAG    543
+                     ||||.||.||.|||||.||.||...|||.||.||.|||||.||.||||||
+Apteryx_rowi     350 TGGCTGGTTTTAATGCTCATCTTATCTCTCGAATTGACTATGATCTGAAG    399
+
+Homo_sapiens     544 GCAGCCATGCAGGAGGCCCGGGGGCTGCAGTTCGTGTGGCGAGGG-TCCC    592
+                     ||.|.|||||||.|...|..|...||.|||||.||.|||| |||| ||.|
+Apteryx_rowi     400 GCTGACATGCAGAAAAACAAGAAACTTCAGTTTGTATGGC-AGGGCTCTC    448
+
+Homo_sapiens     593 CATCCCTCTCAGAGCGGCAGGAAATCTTCACGCACATCATGGACCAGTAC    642
+                     |.|||.|.||.||..|.||.||.||||||||.||..|.|||||.||||||
+Apteryx_rowi     449 CTTCCTTATCTGAAAGTCAAGAGATCTTCACCCATGTTATGGATCAGTAC    498
+
+Homo_sapiens     643 AGCTACTGCACCCCGTCCCACATCCCTTTCTCCAACAGGTCAGGATTTTA    692
+                     |||||||||||.||.||.||.||.|||||.||.|||||||||||||||||
+Apteryx_rowi     499 AGCTACTGCACTCCATCACAAATACCTTTTTCAAACAGGTCAGGATTTTA    548
+
+Homo_sapiens     693 CTGGAATGGCGTGGCTGTCTTCCCCAAGCCTCCCCAAGATGGGGTGTACC    742
+                     .||||||||..|.||.||.|||||..|.||.||..||||.||.|||||.|
+Apteryx_rowi     549 TTGGAATGGAATTGCAGTTTTCCCAGATCCACCGAAAGACGGTGTGTATC    598
+
+Homo_sapiens     743 CCAACATGAGTGAGCCTGTCACCCCAG---CCAACATCAACCTCTATGCC    789
+                     |.|||||||||..||||||.|   |||   |||||||..|.||.|||||.
+Apteryx_rowi     599 CAAACATGAGTCTGCCTGTTA---CAGATACCAACATTCATCTGTATGCA    645
+
+Homo_sapiens     790 GAGGCCCTGGTGGCCAACGTGAAGCAGAGGGCCGCCTGGTTCCGGACACC    839
+                     .|..||.|||||||.|||.|.|||.||||.||.|||||||||||.|||..
+Apteryx_rowi     646 CAAACCATGGTGGCAAACATTAAGGAGAGAGCAGCCTGGTTCCGAACAGG    695
+
+Homo_sapiens     840 GCACGTCCTCTGGCCCTGGGGATGTGACAAGCAGTTCTTCAATGCCTCGG    889
+                     ..|.|||.|.|||||.|||||.||||||||.||||||||.|||||.||.|
+Apteryx_rowi     696 TGATGTCTTGTGGCCATGGGGCTGTGACAAACAGTTCTTTAATGCATCTG    745
+
+Homo_sapiens     890 TGCAGTTTGCCAACATGGACCCGCTGCTGGACCACATCAA-CAGCCATGC    938
+                     |.||||...||||||||||||...|||||||..|.||.|| .|| |||.|
+Apteryx_rowi     746 TTCAGTACTCCAACATGGACCTATTGCTGGATTATATTAATGAG-CATTC    794
+
+Homo_sapiens     939 TGCCGAGCTCGGTGTCTCGGTGCAGTATGCCACGCTGGGCGACTACTTCC    988
+                     .|...||.|.||.||..|.||.|||||||||||..|.||.||.|||||| 
+Apteryx_rowi     795 GGATCAGTTTGGAGTGACTGTCCAGTATGCCACTGTTGGTGATTACTTC-    843
+
+Homo_sapiens     989 GTGCCCTGCACGCTCTCAATGTCA----CCTGGCGTG-----TCCGCGAC   1029
+                             ||.||..|..||..||    .||.||.||     |.||.|||
+Apteryx_rowi     844 --------CAAGCAGTTTATAACAGAAGTCTTGCATGGGAAATTCGGGAC    885
+
+Homo_sapiens    1030 CACCACGACTTCCTGCCCTATTCCACAGAACCATTCCAGGCCTGGACGGG   1079
+                     ...||.|||||.||.||.|||||.|||||.|||||.||.||.||||||||
+Apteryx_rowi     886 TCTCAAGACTTTCTTCCATATTCAACAGAGCCATTTCAAGCATGGACGGG    935
+
+Homo_sapiens    1080 CTTCTACACGTCCCGCAGCTCACTGAAGGGGCTGGCCCGGCGAGCCAGCG   1129
+                     .||.||.||.||.||.|||....||||.||..|.||..||.||||.|||.
+Apteryx_rowi     936 GTTTTATACTTCTCGGAGCATTTTGAAAGGAATCGCAAGGAGAGCAAGCT    985
+
+Homo_sapiens    1130 CCTTGTTGTATGCCGGGGAGTCCATGTTCACACGCTACCTGTGGCCG---   1176
+                     |..||.|.|.|||.||.||||||.|.|||||||..||    ||.|||   
+Apteryx_rowi     986 CACTGCTTTTTGCTGGAGAGTCCTTTTTCACACAGTA----TGTCCGAAA   1031
+
+Homo_sapiens    1177 GCCCCCCGTGGGC-------ATCTGGACCCCACCTG---GGCCCTGCAGC   1216
+                     .|.|.|    .||       ||.||     ||..||   .|||.|..|||
+Apteryx_rowi    1032 ACACAC----AGCAAGTTCTATTTG-----CAAATGTCAAGCCTTAAAGC   1072
+
+Homo_sapiens    1217 AGCTCCAGCAG-CTTCGCTGGGCCGTCTCCGAGGTCCAGCACCATGATGC   1265
+                     |.||.||| || |||.|.|||||.||.||.|||||||||||||||||||.
+Apteryx_rowi    1073 AACTTCAG-AGCCTTAGATGGGCAGTTTCAGAGGTCCAGCACCATGATGG   1121
+
+Homo_sapiens    1266 CATCACTGGGACTGAGTCCCCCAAGGTGAGAGACATGTACGCAACGCACC   1315
+                     .||.||.||.||.|||||.||||||||||..|||||||         ||.
+Apteryx_rowi    1122 TATAACCGGCACAGAGTCTCCCAAGGTGAAGGACATGT---------ACA   1162
+
+Homo_sapiens    1316 TGG----CCTCGGGGATGCTGGGCATGCGC---------AAGCTGATGGC   1352
+                     |||    |.|    ||||...||.||||.|         |||||||||||
+Apteryx_rowi    1163 TGGATAACTT----GATGTATGGAATGCTCAACGTAAAGAAGCTGATGGC   1208
+
+Homo_sapiens    1353 CTCCATCGTCCT--AGATGA-----GCTCCAGCCCCAGGCACCCATGGCG   1395
+                     .|||||..||.|  |.||||     |||         |..|...||||.|
+Apteryx_rowi    1209 TTCCATAATCTTTGACATGAACAATGCT---------GAGAAGAATGGAG   1249
+
+Homo_sapiens    1396 GCCAGCTC--------------------CGATGCAGGA---------CCT   1416
+                        ||.||                    .||..|||||         .||
+Apteryx_rowi    1250 ---AGGTCTATTCTTATATTTACAATAAAGACTCAGGAAAACTAGGTACT   1296
+
+Homo_sapiens    1417 GCAG-----GAC---------ATTTTGCCTCGGTCTACAACCCGCTGGCC   1452
+                     .|||     |||         |||        |||||.||.||.|||||.
+Apteryx_rowi    1297 ACAGATGTTGACCAATATGTTATT--------GTCTATAATCCACTGGCA   1338
+
+Homo_sapiens    1453 TGGACGGTCACCACCATCGTCACCCTGACTGTTGGTTTC-----------   1491
+                     ||||...||||.|||.|.||||          |||||||           
+Apteryx_rowi    1339 TGGAACATCACTACCTTTGTCA----------TGGTTTCTATCAGCCACT   1378
+
+Homo_sapiens    1492 CCTGGAGTCCGCGTCACA-GATGAGGCGGGCCACCCAGTGCCCTCGCAGA   1540
+                     |.| .||||.|.|| |.| |||||...|||.||..|.||.|||.|.||||
+Apteryx_rowi    1379 CAT-CAGTCAGTGT-ATATGATGAACTGGGACATTCTGTACCCGCACAGA   1426
+
+Homo_sapiens    1541 TCCAGAACTCAACAGAGACCCCATCTGCGTATGACCTGCTTATTCTGACC   1590
+                     |.||.|.||||.|||||.||...|.|.|.|||||.|||..||||||    
+Apteryx_rowi    1427 TTCAAAGCTCAGCAGAGTCCTATTTTACCTATGATCTGTATATTCT----   1472
+
+Homo_sapiens    1591 A----CAATCCCAGGCCTCAGTTACCGGCACTACAACATCAGACCCACTG   1636
+                     |    ||||....||.||.||.|||.|..|.|||||.||.|         
+Apteryx_rowi    1473 AGTTGCAATAAGTGGTCTGAGCTACAGAAAATACAATATTA---------   1513
+
+Homo_sapiens    1637 CAGGGGCCCAAGAGGGCACCCAGGAGCC--GGCTGCCACTGTGGCGAGCA   1684
+                                             ||||  .|||       |||..||||
+Apteryx_rowi    1514 ------------------------AGCCTTCGCT-------TGGTAAGCA   1532
+
+Homo_sapiens    1685 CCCTTCAAT--TTGGCCG------------CAGGCTGAGGAGACGCACCA   1720
+                     ..||.||.|  ||||..|            ||.|| .|..|||  ||..|
+Apteryx_rowi    1533 ATCTGCATTTATTGGAAGATCAGTTAAATACAAGC-AAAAAGA--CATAA   1579
+
+Homo_sapiens    1721 GCCATGCGGGC-----AGGT--AC--TTGGTGCCTGTGGCAAACGACTGC   1761
+                     |||.|||..||     |.||  ||  |||.|.||.||||..|||.|||||
+Apteryx_rowi    1580 GCCGTGCATGCCAACAAAGTCAACGGTTGCTTCCAGTGGTTAACAACTGC   1629
+
+Homo_sapiens    1762 TACATTGTGCTGCTCGACCAGGATACCAACCTGATGCACAGCATCTGGGA   1811
+                     |||...||..||.|.|||||.||.||.||.||.|||||||||||....||
+Apteryx_rowi    1630 TACCAGGTCATGTTTGACCAAGACACTAATCTAATGCACAGCATTACAGA   1679
+
+Homo_sapiens    1812 GAGACAGAGTAACCGAACGGTGC-GCGTGACCCAGGAATTCCTGGAGTAC   1860
+                     |||..|||.|||||..||.||.| || ||||||||||.|||||.||||||
+Apteryx_rowi    1680 GAGGGAGACTAACCAGACTGTCCAGC-TGACCCAGGAGTTCCTTGAGTAC   1728
+
+Homo_sapiens    1861 CACGTCAACGGGGATGTGAAACAGGGCCCCATTTCCGATAACTACCTGTT   1910
+                     ||.||.||.||.||||||||..|.||.||||||||.|||||||||.|.||
+Apteryx_rowi    1729 CATGTGAATGGAGATGTGAAGAAAGGACCCATTTCAGATAACTACTTATT   1778
+
+Homo_sapiens    1911 CACACCGGGCAAGG---CCGCGGTGCCTGCGTGGGAAGCTGTGGAAATGG   1957
+                     ..|.||   .||.|   |.||.||.||.|..|...||||.||||.|.|||
+Apteryx_rowi    1779 TGCCCC---AAACGCTTCAGCTGTTCCAGTATCAAAAGCAGTGGGATTGG   1825
+
+Homo_sapiens    1958 AGATTGTGGCGGGACAGCTT-GTGACTGAGATCCGGCAGTACTTCTACAG   2006
+                     |..|.||..|.||| |.||| |||||.|||||.||.|||||.||||||||
+Apteryx_rowi    1826 AAGTGGTTTCTGGA-AACTTAGTGACAGAGATACGCCAGTATTTCTACAG   1874
+
+Homo_sapiens    2007 GAACATGACAGCACAGAATTAC----ACGTA-TGCA-----------ATC   2040
+                     .||..||||.||.|||.|.|||    ||||| ||.|           ||.
+Apteryx_rowi    1875 TAATGTGACTGCTCAGGAATACATATACGTAGTGTATACCAGGATGTATA   1924
+
+Homo_sapiens    2041 CGCTCCCGGCTCACCCATGTGCCGCAGGGCCATGACGGGGAGCTGCTCTG   2090
+                     ||                ||.||..|.|||.||||.||..||.||||.||
+Apteryx_rowi    1925 CG----------------GTACCAGAAGGCTATGATGGAAAGTTGCTTTG   1958
+
+Homo_sapiens    2091 CCACCGGATAGAGCAGGAGTACCAAG--CCGGCCCCCTGGAGCTGAACCG   2138
+                     ||||.||||||||||.||.|||  ||  |.||.||..||||.||.||.||
+Apteryx_rowi    1959 CCACAGGATAGAGCAAGAATAC--AGCACTGGGCCTTTGGAACTAAATCG   2006
+
+Homo_sapiens    2139 TGAGGCTGTCCTGAGGACCAGCACCAACCTAAACAGCCAG-CAGGTCATC   2187
+                     ||||||..|.|||||.||.|||||.||..|.|||| |.|| |||.|..||
+Apteryx_rowi    2007 TGAGGCAATTCTGAGAACAAGCACAAATTTGAACA-CTAGACAGCTACTC   2055
+
+Homo_sapiens    2188 TACTCAGACAACAACGGCTACCAGATGCAGCGGAGGCCCTACGTTTCCTA   2237
+                     |||.|.||||.|||.||.||.|||||.|||...||.||.|.|....|.||
+Apteryx_rowi    2056 TACACTGACAGCAATGGATATCAGATTCAGAAAAGACCATTCAAGGCATA   2105
+
+Homo_sapiens    2238 TGTGAACAACAGCA-TCGCCCGGAATTACTACCCCATGGTTCAGTCGGCC   2286
+                     ||||||.|||| || |.||.|||||.||.||.||.|||||.|||.|.|||
+Apteryx_rowi    2106 TGTGAATAACA-CAGTGGCTCGGAACTATTATCCTATGGTCCAGACTGCC   2154
+
+Homo_sapiens    2287 TTCATGGAGGATGGCAAAAGC---AGGCTTGTGTTGCTGTCGGAGCGGGC   2333
+                     |..||.||.||||   |.|||   |||.|.|||.||||..|.||..|.||
+Apteryx_rowi    2155 TATATTGAAGATG---ATAGCGCAAGGTTGGTGCTGCTTGCAGAAAGAGC   2201
+
+Homo_sapiens    2334 ACATGGCATCTCCAGCCAAGGGAATGGGCAGGTGGAGGTCATGCTCCACC   2383
+                     .|||||..||||.||.|||||.|||||.||.||||||||.|||||.|||.
+Apteryx_rowi    2202 TCATGGTGTCTCGAGTCAAGGAAATGGCCAAGTGGAGGTGATGCTTCACA   2251
+
+Homo_sapiens    2384 GGCGGCTGTGGAACAACTTCGACTGGGACCTGGGCTACAACCTCACGCTG   2433
+                     ||.|.||.|||||||||.|.||.|||||||||...|||||.|||||..||
+Apteryx_rowi    2252 GGAGACTATGGAACAACCTTGAGTGGGACCTGAATTACAATCTCACTTTG   2301
+
+Homo_sapiens    2434 AACGACACCTCAGTCGTCCACCCAGTGCTCTGGCTTCTGCTGGGATCC--   2481
+                     ||.|||.|.|||||.||.|..||.|||.|.||||||.|..|.|||.||  
+Apteryx_rowi    2302 AATGACTCTTCAGTGGTTCGTCCTGTGTTTTGGCTTATTTTAGGAACCAA   2351
+
+Homo_sapiens    2482 ---TGGTCCCTCACCACTGCCCTGCGCCAGAGGAGCGCACTGGCGCTGCA   2528
+                        ||     ||||||.|.|..||...||||..||.|..|||||..|..|
+Apteryx_rowi    2352 GAGTG-----TCACCAGTACATTGTATCAGACAAGTGGGCTGGCATTAGA   2396
+
+Homo_sapiens    2529 GCACAGGCCCGTGGTGCTGTTCGGAGACCTCGCTGG-GACTGCGCCGAAG   2577
+                     .|||||.||.||.||..||||.||||...|..|.|| || |...||.|||
+Apteryx_rowi    2397 ACACAGACCAGTTGTTATGTTTGGAGCATTATCAGGAGA-TAAACCAAAG   2445
+
+Homo_sapiens    2578 CTCCCAGGACC--------CCAGCAG--------CAAGAG---GCC-GTG   2607
+                     ||     ||||        .||||.|        |.|.||   ||| ||.
+Apteryx_rowi    2446 CT-----GACCAGACAGCTTCAGCTGAATTCAGTCCACAGTTTGCCTGTA   2490
+
+Homo_sapiens    2608 ACGCTGCCCCCGAATCTTCACCTGCAGATCCTGAGCATCCCTGGCTGGCG   2657
+                     ||..|.||.||.||||||||.||.||||..||||||||.||.||.|||..
+Apteryx_rowi    2491 ACTGTCCCGCCTAATCTTCATCTCCAGACTCTGAGCATTCCAGGGTGGAA   2540
+
+Homo_sapiens    2658 CTACAGCTCCAACCACACGGAGCA-CTCTCAGAATCTCC----GG-----   2697
+                     .||||||||.||.|||||.||||| .|| ||.|.|.|.|    ||     
+Apteryx_rowi    2541 ATACAGCTCTAATCACACAGAGCAGATC-CACAGTGTTCACATGGGTAAA   2589
+
+Homo_sapiens    2698 -AAAGGCCATCGAGGGGAAGCCCAGGCTGACCTCCGCCGTGTCCTGCTGC   2746
+                      |||.||          ||||..|.||.|||.||.|.|||||||||||..
+Apteryx_rowi    2590 CAAAAGC----------AAGCTGATGCAGACTTCAGTCGTGTCCTGCTAA   2629
+
+Homo_sapiens    2747 GGCTCTA-CCACCTATATGAAGTGGGCGAGGACCCAGTCCTGTCTCAGCC   2795
+                     |..| || .|||||.|||||||||||.||.||.||.||.||||||||.||
+Apteryx_rowi    2630 GAAT-TAGGCACCTGTATGAAGTGGGAGAAGATCCTGTGCTGTCTCAACC   2678
+
+Homo_sapiens    2796 AGTGACAGTGAATCTGGAGGCTGTGCTGCAGGCGCTGGGGTCCGTGGTGG   2845
+                     .||.|.|||||||.||.||.||.|||||.|||...|.||.||.|||.||.
+Apteryx_rowi    2679 TGTAATAGTGAATTTGAAGTCTTTGCTGAAGGGATTAGGATCAGTGATGC   2728
+
+Homo_sapiens    2846 CAGTGGAGGAGCGCTCGCTCACAGGGACCTGGGATTTGAGCATGCTGCAC   2895
+                     .||||||.|||||.||.||||||||.|||||||||.|.|.||...||.|.
+Apteryx_rowi    2729 TAGTGGAAGAGCGATCACTCACAGGTACCTGGGATGTAAACACTTTGAAA   2778
+
+Homo_sapiens    2896 CGCTGGAGCTGGAGGACGGGGCCTGGCC----GCCA--CAGAGG------   2933
+                     ||.||||..||||.||      |||..|    .|||  ||.|||      
+Apteryx_rowi    2779 CGATGGAAGTGGAAGA------CTGCACAATATCCAAGCAAAGGATTCTA   2822
+
+Homo_sapiens    2934 ---TGACAC-CACCTCTCCCTCGAGGCCACCAGGAGGCCCCATCATCACC   2979
+                        |.|||| .|..|||             |||.|..|...||..|.||.
+Apteryx_rowi    2823 CAATAACACAGAGATCT-------------CAGAAAACTGTATAGTAACT   2859
+
+Homo_sapiens    2980 GTCCACCCAAAGGAAATCCGGACGTTCTTTATTCACTTTCAACAGCAG   3027
+                     ||.||.||||.|||.||..||||.||.|||.|..||||||||.|.||.
+Apteryx_rowi    2860 GTTCATCCAAGGGAGATAAGGACTTTTTTTGTATACTTTCAAGATCAA   2907
+
+
+#---------------------------------------
+#---------------------------------------

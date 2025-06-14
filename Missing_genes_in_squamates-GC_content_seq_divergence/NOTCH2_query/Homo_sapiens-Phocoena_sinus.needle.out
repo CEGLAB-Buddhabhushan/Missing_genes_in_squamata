@@ -1,0 +1,634 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:53:49
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Phocoena_sinus.fa
+#    -outfile Homo_sapiens-Phocoena_sinus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Phocoena_sinus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Phocoena_sinus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7456
+# Identity:    6830/7456 (91.6%)
+# Similarity:  6830/7456 (91.6%)
+# Gaps:          44/7456 ( 0.6%)
+# Score: 31771.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCCCGCCCTGCGCCCCGCTCTGCTGTGGGCGCTGCTGGCGCTCTGGCT     50
+                     ||||||||||||||||||||||.||||||||||||||||||.||.|||||
+Phocoena_sinu      1 ATGCCCGCCCTGCGCCCCGCTCCGCTGTGGGCGCTGCTGGCACTGTGGCT     50
+
+Homo_sapiens      51 GTGCTGCGCGGCCCCCGCGCATGCATTGCAGTGTCGAGATGGCTATGAAC    100
+                     ||||.|||||.|||||||||.|||||||||||||||.||.||||||||.|
+Phocoena_sinu     51 GTGCCGCGCGACCCCCGCGCTTGCATTGCAGTGTCGGGACGGCTATGAGC    100
+
+Homo_sapiens     101 CCTGTGTAAATGAAGGAATGTGTGTTACCTACCACAATGGCACAGGATAC    150
+                     |||||||||||||||||||.||||||||||||||||||||.|||||.|||
+Phocoena_sinu    101 CCTGTGTAAATGAAGGAATATGTGTTACCTACCACAATGGTACAGGGTAC    150
+
+Homo_sapiens     151 TGCAAATGTCCAGAAGGCTTCTTGGGGGAATATTGTCAACATCGAGACCC    200
+                     ||||||||.|||||.||.||||||||.|||||||||||||||||||||||
+Phocoena_sinu    151 TGCAAATGCCCAGAGGGATTCTTGGGAGAATATTGTCAACATCGAGACCC    200
+
+Homo_sapiens     201 CTGTGAGAAGAACCGCTGCCAGAATGGTGGGACTTGTGTGGCCCAGGCCA    250
+                     |||||||||||||||||||||||||||||||||.||||||||||||||.|
+Phocoena_sinu    201 CTGTGAGAAGAACCGCTGCCAGAATGGTGGGACATGTGTGGCCCAGGCTA    250
+
+Homo_sapiens     251 TGCTGGGGAAAGCCACGTGCCGATGTGCCTCAGGGTTTACAGGAGAGGAC    300
+                     ||.|||||||||||||.||||||||||||.|.||.||.|.|||.||||||
+Phocoena_sinu    251 TGTTGGGGAAAGCCACATGCCGATGTGCCCCGGGCTTCATAGGCGAGGAC    300
+
+Homo_sapiens     301 TGCCAGTACTCAACATCTCATCCATGCTTTGTGTCTCGACCC-TGCCTGA    349
+                     |||||||||||.||..||||.||.|||||||.||||| |||| |||||||
+Phocoena_sinu    301 TGCCAGTACTCGACCACTCACCCCTGCTTTGGGTCTC-ACCCTTGCCTGA    349
+
+Homo_sapiens     350 ATGGCGGCACATGCCATATGCTCAGCCGGGATACCTATGAGTGCACCTGT    399
+                     ||||.||||..|||||..||||.||||||||||||||||||||||||||.
+Phocoena_sinu    350 ATGGAGGCAAGTGCCACGTGCTTAGCCGGGATACCTATGAGTGCACCTGC    399
+
+Homo_sapiens     400 CAAGTCGGGTTTACAGGTAAGGAGTGCCAATGGACGGATGCCTGCCTGTC    449
+                     ||||||||.|||||||||||...||||||||||||.|||.||||.|||||
+Phocoena_sinu    400 CAAGTCGGTTTTACAGGTAAACTGTGCCAATGGACTGATACCTGTCTGTC    449
+
+Homo_sapiens     450 TCATCCCTGTGCAAATGGAAGTACCTGTACCACTGTGGCCAACCAGTTCT    499
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+Phocoena_sinu    450 TCAGCCCTGTGCAAATGGAAGTACCTGTACCACTGTGGCCAACCAGTTCT    499
+
+Homo_sapiens     500 CCTGCAAATGCCTCACAGGCTTCACAGGGCAGAAATGTGAGACTGATGTC    549
+                     ||||||.|||||||.|||||||||||||||||||.||||..|.|||||||
+Phocoena_sinu    500 CCTGCACATGCCTCGCAGGCTTCACAGGGCAGAAGTGTGCAAGTGATGTC    549
+
+Homo_sapiens     550 AATGAGTGTGACATTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAA    599
+                     |||||||||||..||||||||||.||||||||.|||||||||||||||||
+Phocoena_sinu    550 AATGAGTGTGATGTTCCAGGACAATGCCAGCACGGTGGCACCTGCCTCAA    599
+
+Homo_sapiens     600 CCTGCCTGGTTCCTACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGT    649
+                     |||.||.||||||||.||||||||||||||.||||||||||||||||||.
+Phocoena_sinu    600 CCTCCCGGGTTCCTATCAGTGCCAGTGCCCCCAGGGCTTCACAGGCCAGC    649
+
+Homo_sapiens     650 ACTGTGACAGCCTGTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGA    699
+                     ||||||||||.|..||..||||||||||||||||.||.||||||||.|||
+Phocoena_sinu    650 ACTGTGACAGTCCCTACATGCCCTGTGCACCCTCCCCCTGTGTCAACGGA    699
+
+Homo_sapiens     700 GGCACCTGTCGGCAGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCC    749
+                     ||||||||.||||||||||||||||||.|.||||||||||||||||||||
+Phocoena_sinu    700 GGCACCTGCCGGCAGACTGGTGACTTCGCCTTTGAGTGCAACTGCCTTCC    749
+
+Homo_sapiens     750 AGGTTTTGAAGGGAGCACCTGTGAGAGGAATATTGATGACTGCCCTAACC    799
+                     |||||||||||||..||||||||||.||||||||||||||||.|||||.|
+Phocoena_sinu    750 AGGTTTTGAAGGGGTCACCTGTGAGCGGAATATTGATGACTGTCCTAATC    799
+
+Homo_sapiens     800 ACAGGTGTCAGAATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAAC    849
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+Phocoena_sinu    800 ACAAGTGTCAGAATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAAC    849
+
+Homo_sapiens     850 TGCCGCTGTCCCCCACAATGGACAGGACAGTTCTGCACAGAGGATGTGGA    899
+                     ||||||||.|||||.||.||||||||||||||||||||||||||||||||
+Phocoena_sinu    850 TGCCGCTGCCCCCCTCAGTGGACAGGACAGTTCTGCACAGAGGATGTGGA    899
+
+Homo_sapiens     900 TGAATGCCTGCTGCAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCA    949
+                     |||.|||||||||||.||||||||||||||.||.||||||||||||.|||
+Phocoena_sinu    900 TGAGTGCCTGCTGCAACCCAATGCCTGTCAGAACGGGGGCACCTGTACCA    949
+
+Homo_sapiens     950 ACCGCAATGGAGGCTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGAT    999
+                     ||||||||||.||||||||||||||.|||||.||.|||||||||||||||
+Phocoena_sinu    950 ACCGCAATGGGGGCTATGGCTGTGTGTGTGTTAATGGCTGGAGTGGAGAT    999
+
+Homo_sapiens    1000 GACTGCAGTGAGAACATTGATGATTGTGCCTTCGCCTCCTGTACTCCAGG   1049
+                     |||||||||||||||||||||||.||.||||||||||||||.||||||||
+Phocoena_sinu   1000 GACTGCAGTGAGAACATTGATGACTGCGCCTTCGCCTCCTGCACTCCAGG   1049
+
+Homo_sapiens    1050 CTCCACCTGCATCGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGG   1099
+                     ||||||||||||.||.||||||||||||||||||||||||||||||||.|
+Phocoena_sinu   1050 CTCCACCTGCATTGATCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAAG   1099
+
+Homo_sapiens    1100 GGAAGGCAGGTCTCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCT   1149
+                     |.||||||||||||.|.|||||||||||||||||||||||||||||.||.
+Phocoena_sinu   1100 GAAAGGCAGGTCTCTTATGTCATCTGGATGATGCATGCATCAGCAACCCC   1149
+
+Homo_sapiens    1150 TGCCACAAGGGGGCACTGTGTGACACCAACCCCCTAAATGGGCAATATAT   1199
+                     ||||||||||||||||||||||||||||||||.||.||.|||||.|||||
+Phocoena_sinu   1150 TGCCACAAGGGGGCACTGTGTGACACCAACCCTCTGAACGGGCAGTATAT   1199
+
+Homo_sapiens    1200 TTGCACCTGCCCACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGG   1249
+                     |||||||||.|||||||||||||||||||.||||||.|||||||||||||
+Phocoena_sinu   1200 TTGCACCTGTCCACAAGGCTACAAAGGGGGTGACTGTACAGAAGATGTGG   1249
+
+Homo_sapiens    1250 ATGAATGTGCCATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGT   1299
+                     ||||.|||||||||||||||||||||||||||||||||||.|||||||||
+Phocoena_sinu   1250 ATGAGTGTGCCATGGCCAATAGCAATCCTTGTGAGCATGCGGGAAAATGT   1299
+
+Homo_sapiens    1300 GTGAACACGGATGGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGG   1349
+                     ||||||||.|||||.||||||||||||||||||||||||||.||||||||
+Phocoena_sinu   1300 GTGAACACAGATGGTGCCTTCCACTGTGAGTGTCTGAAGGGCTATGCAGG   1349
+
+Homo_sapiens    1350 ACCTCGTTGTGAGATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGA   1399
+                     .||||||||.||||||||||||||.|||||||||||||||||||||.|||
+Phocoena_sinu   1350 GCCTCGTTGCGAGATGGACATCAACGAGTGCCATTCAGACCCCTGCAAGA   1399
+
+Homo_sapiens    1400 ATGATGCTACCTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATG   1449
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+Phocoena_sinu   1400 ATGATGCCACCTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATG   1449
+
+Homo_sapiens    1450 CCAGGTTTCAAAGGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAG   1499
+                     |||||||||||||||||||||||||||||.||.|||||||||||||||||
+Phocoena_sinu   1450 CCAGGTTTCAAAGGTGTGCATTGTGAATTGGAGATAAATGAATGTCAGAG   1499
+
+Homo_sapiens    1500 CAACCCTTGTGTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCC   1549
+                     |||||||||.|||||||||||.|||||||||||||||||||||||.||||
+Phocoena_sinu   1500 CAACCCTTGCGTGAACAATGGACAGTGTGTGGATAAAGTCAATCGCTTCC   1549
+
+Homo_sapiens    1550 AGTGCCTGTGTCCTCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATT   1599
+                     ||||.||||||||.|||||||||||||||||||||||||||||.||||||
+Phocoena_sinu   1550 AGTGTCTGTGTCCGCCTGGTTTCACTGGGCCAGTTTGCCAGATCGATATT   1599
+
+Homo_sapiens    1600 GATGACTGTTCCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCA   1649
+                     ||.|||||||||||||||||.|||||||||||||||||||||||.|||||
+Phocoena_sinu   1600 GACGACTGTTCCAGTACTCCATGTCTGAATGGGGCAAAGTGTATAGATCA   1649
+
+Homo_sapiens    1650 CCCGAATGGCTATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGT   1699
+                     |||.|||||.||||||||||||||.||||||||.||||||||||||||||
+Phocoena_sinu   1650 CCCAAATGGTTATGAATGCCAGTGCGCCACAGGATTCACTGGTGTGTTGT   1699
+
+Homo_sapiens    1700 GTGAGGAGAACATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAG   1749
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+Phocoena_sinu   1700 GTGAGGAGAACATTGACAACTGTGACCCCGATCCTTGCCACCATGGCCAG   1749
+
+Homo_sapiens    1750 TGTCAGGATGGTATTGATTCCTACACCTGCATCTGCAATCCCGGGTACAT   1799
+                     |||||||||||.||||||||||||||||||.||||||||||.||||||||
+Phocoena_sinu   1750 TGTCAGGATGGGATTGATTCCTACACCTGCGTCTGCAATCCAGGGTACAT   1799
+
+Homo_sapiens    1800 GGGCGCCATCTGCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCC   1849
+                     |||||||||||||||.||||||||.||||||||||||||||||||||||.
+Phocoena_sinu   1800 GGGCGCCATCTGCAGCGACCAGATAGATGAATGTTACAGCAGCCCTTGCT   1849
+
+Homo_sapiens    1850 TGAACGATGGTCGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGC   1899
+                     ||||.||.|||||||||||.||||||||.|||||.|||||||||||||||
+Phocoena_sinu   1850 TGAATGAGGGTCGCTGCATCGACCTGGTAAATGGTTACCAGTGCAACTGC   1899
+
+Homo_sapiens    1900 CAGCCAGGCACGTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGC   1949
+                     |||||||||||.|||||.||||||||||||||.||||||||.||||||||
+Phocoena_sinu   1900 CAGCCAGGCACATCAGGTGTTAATTGTGAAATCAATTTTGACGACTGTGC   1949
+
+Homo_sapiens    1950 AAGTAACCCTTGTATCCATGGAATCTGTATGGATGGCATTAATCGCTACA   1999
+                     |||||.|||||||.||||||||.||||||||||||||.|||||||.||||
+Phocoena_sinu   1950 AAGTAGCCCTTGTGTCCATGGAGTCTGTATGGATGGCGTTAATCGTTACA   1999
+
+Homo_sapiens    2000 GTTGTGTCTGCTCACCAGGATTCACAGGGCAGAGATGTAACATTGACATT   2049
+                     |.||.||||||||.||||||||||||||||||||||||||||||||||||
+Phocoena_sinu   2000 GCTGCGTCTGCTCGCCAGGATTCACAGGGCAGAGATGTAACATTGACATT   2049
+
+Homo_sapiens    2050 GATGAGTGTGCCTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGG   2099
+                     |||||||||||||||||||||||||||||||||||.|||||||||||||.
+Phocoena_sinu   2050 GATGAGTGTGCCTCCAATCCCTGTCGCAAGGGTGCGACATGTATCAACGA   2099
+
+Homo_sapiens    2100 TGTGAATGGTTTCCGCTGTATATGCCCCGAGGGACCCCATCACCCCAGCT   2149
+                     ||||||.||||||||||||||||||||.|||||.||||||||.|||||||
+Phocoena_sinu   2100 TGTGAACGGTTTCCGCTGTATATGCCCTGAGGGGCCCCATCATCCCAGCT   2149
+
+Homo_sapiens    2150 GCTACTCACAGGTGAACGAATGCCTGAGCAATCCCTGCATCCATGGAAAC   2199
+                     |||||||||||||||||||.|||||||||||||||||..||||.||||||
+Phocoena_sinu   2150 GCTACTCACAGGTGAACGAGTGCCTGAGCAATCCCTGTGTCCACGGAAAC   2199
+
+Homo_sapiens    2200 TGTACTGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGT   2249
+                     ||||||||.||.|||||||||||.|||||.||||||||||||||||||||
+Phocoena_sinu   2200 TGTACTGGGGGCCTCAGTGGATACAAGTGCCTCTGTGATGCAGGCTGGGT   2249
+
+Homo_sapiens    2250 TGGCATCAACTGTGAAGTGGACAAAAATGAATGCCTTTCGAATCCATGCC   2299
+                     |||||||||||||||||||||||.|||||||||.|||||.||||||||||
+Phocoena_sinu   2250 TGGCATCAACTGTGAAGTGGACAGAAATGAATGTCTTTCTAATCCATGCC   2299
+
+Homo_sapiens    2300 AGAATGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGTGTACTTGC   2349
+                     ||||.||||||||||||||||||||||||||||||||||||||.||||||
+Phocoena_sinu   2300 AGAACGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGTGCACTTGC   2349
+
+Homo_sapiens    2350 AAGAAGGGCTTTAAAGGCTATAACTGCCAGGTGAATATTGATGAATGTGC   2399
+                     ||||||||||||||||||||||||||.|.|||||||||||||||||||||
+Phocoena_sinu   2350 AAGAAGGGCTTTAAAGGCTATAACTGTCTGGTGAATATTGATGAATGTGC   2399
+
+Homo_sapiens    2400 CTCAAATCCATGCCTGAACCAAGGAACCTGCTTTGATGACATAAGTGGCT   2449
+                     .||.||||||||.||||||||||||||||||||||||||.||||||||.|
+Phocoena_sinu   2400 TTCGAATCCATGTCTGAACCAAGGAACCTGCTTTGATGATATAAGTGGTT   2449
+
+Homo_sapiens    2450 ACACTTGCCACTGTGTGCTGCCATACACAGGCAAGAATTGTCAGACAGTA   2499
+                     |.||.|||||||||||.||||||||||||||.|||||.||||||||.|||
+Phocoena_sinu   2450 ATACCTGCCACTGTGTACTGCCATACACAGGAAAGAACTGTCAGACTGTA   2499
+
+Homo_sapiens    2500 TTGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGTTTGCAAAGA   2549
+                     ||.||||||||||||||||||||||||||||||||||.||||||||||||
+Phocoena_sinu   2500 TTAGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGGTGTTTGCAAAGA   2549
+
+Homo_sapiens    2550 GTCACCAAATTTTGAGAGTTATACTTGCTTGTGTGCTCCTGGCTGGCAAG   2599
+                     |.|||||||||||||||||||.||.|||.|||||||||||||||||||||
+Phocoena_sinu   2550 GGCACCAAATTTTGAGAGTTACACCTGCCTGTGTGCTCCTGGCTGGCAAG   2599
+
+Homo_sapiens    2600 GTCAGCGGTGTACCATTGACATTGACGAGTGTATCTCCAAGCCCTGCATG   2649
+                     |||||||||||||..|||||||||||||||||.|||||||||||||||||
+Phocoena_sinu   2600 GTCAGCGGTGTACAGTTGACATTGACGAGTGTGTCTCCAAGCCCTGCATG   2649
+
+Homo_sapiens    2650 AACCATGGTCTCTGCCATAACACCCAGGGCAGCTACATGTGTGAATGTCC   2699
+                     |||||.|||||||||||||||||||||||||||||||||||.||.|||||
+Phocoena_sinu   2650 AACCACGGTCTCTGCCATAACACCCAGGGCAGCTACATGTGCGAGTGTCC   2699
+
+Homo_sapiens    2700 ACCAGGCTTCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTG   2749
+                     .|||||||||||||||||||||||||||||||||||.|||||||||||||
+Phocoena_sinu   2700 TCCAGGCTTCAGTGGTATGGACTGTGAGGAGGACATCGATGACTGCCTTG   2749
+
+Homo_sapiens    2750 CCAATCCTTGCCAGAATGGAGGTTCCTGTATGGATGGAGTGAATACTTTC   2799
+                     |||||||||||||||||||||||||||||.|.||.|||||||||||||||
+Phocoena_sinu   2750 CCAATCCTTGCCAGAATGGAGGTTCCTGTGTAGACGGAGTGAATACTTTC   2799
+
+Homo_sapiens    2800 TCCTGCCTCTGCCTTCCGGGTTTCACTGGGGATAAGTGCCAGACAGACAT   2849
+                     ||||||||.|||||||||||.|||||.|||||.|.|||.|||||||||||
+Phocoena_sinu   2800 TCCTGCCTATGCCTTCCGGGCTTCACGGGGGACAGGTGTCAGACAGACAT   2849
+
+Homo_sapiens    2850 GAATGAGTGTCTGAGTGAACCCTGTAAGAATGGAGGGACCTGCTCTGACT   2899
+                     |.||||||||||||||||||||||||||||.|||||||||||||||||||
+Phocoena_sinu   2850 GGATGAGTGTCTGAGTGAACCCTGTAAGAACGGAGGGACCTGCTCTGACT   2899
+
+Homo_sapiens    2900 ACGTCAACAGTTACACTTGCAAGTGCCAGGCAGGATTTGATGGAGTCCAT   2949
+                     |.||||||||||||||.||||||||||||||.|||||||||||||||||.
+Phocoena_sinu   2900 ATGTCAACAGTTACACCTGCAAGTGCCAGGCGGGATTTGATGGAGTCCAC   2949
+
+Homo_sapiens    2950 TGTGAGAACAACATCAATGAGTGCACTGAGAGCTCCTGTTTCAATGGTGG   2999
+                     ||||||||||||||..|.||||||||||||||||||||||||||.|||||
+Phocoena_sinu   2950 TGTGAGAACAACATTGACGAGTGCACTGAGAGCTCCTGTTTCAACGGTGG   2999
+
+Homo_sapiens    3000 CACATGTGTTGATGGGATTAACTCCTTCTCTTGCTTGTGCCCTGTGGGTT   3049
+                     |||||||.|.||||||||||||||||||||||||||||||||..||||.|
+Phocoena_sinu   3000 CACATGTATCGATGGGATTAACTCCTTCTCTTGCTTGTGCCCCTTGGGCT   3049
+
+Homo_sapiens    3050 TCACTGGATCCTTCTGCCTCCATGAGATCAATGAATGCAGCTCTCATCCA   3099
+                     |||||||..||||||||||||||||||||||||||||||.||||||||||
+Phocoena_sinu   3050 TCACTGGCCCCTTCTGCCTCCATGAGATCAATGAATGCAACTCTCATCCA   3099
+
+Homo_sapiens    3100 TGCCTGAATGAGGGAACGTGTGTTGATGGCCTGGGTACCTACCGCTGCAG   3149
+                     |||||||||||.|||...|||||||||||||||||||||||||||||||.
+Phocoena_sinu   3100 TGCCTGAATGAAGGAGTATGTGTTGATGGCCTGGGTACCTACCGCTGCAT   3149
+
+Homo_sapiens    3150 CTGCCCCCTGGGCTACACTGGGAAAAACTGTCAGACCCTGGTGAATCTCT   3199
+                     ||||||..|||||||||||||||||||||||||||||||||||||.||||
+Phocoena_sinu   3150 CTGCCCATTGGGCTACACTGGGAAAAACTGTCAGACCCTGGTGAACCTCT   3199
+
+Homo_sapiens    3200 GCAGTCGGTCTCCATGTAAAAACAAAGGTACTTGCGTTCAGAAAAAAGCA   3249
+                     |.|||||||||||||||||||||||||||||||||.|||||.||||||||
+Phocoena_sinu   3200 GTAGTCGGTCTCCATGTAAAAACAAAGGTACTTGCATTCAGGAAAAAGCA   3249
+
+Homo_sapiens    3250 GAGTCCCAGTGCCTATGTCCATCTGGATGGGCTGGTGCCTATTGTGACGT   3299
+                     .||||||.||||||.|||||.|||||||||||||||||.||.||||||||
+Phocoena_sinu   3250 CAGTCCCGGTGCCTGTGTCCGTCTGGATGGGCTGGTGCTTACTGTGACGT   3299
+
+Homo_sapiens    3300 GCCCAATGTCTCTTGTGACATAGCAGCCTCCAGGAGAGGTGTGCTTGTTG   3349
+                     ||||||||||||.|||||..|.||.||||||...|||||.||||..||||
+Phocoena_sinu   3300 GCCCAATGTCTCCTGTGAGGTTGCGGCCTCCCACAGAGGGGTGCCCGTTG   3349
+
+Homo_sapiens    3350 AACACTTGTGCCAGCACTCAGGTGTCTGCATCAATGCTGGCAACACGCAT   3399
+                     |.|.|.||||||||||||||||..||||.||||.||||||||||.|||||
+Phocoena_sinu   3350 ACCGCCTGTGCCAGCACTCAGGCATCTGTATCAGTGCTGGCAACTCGCAT   3399
+
+Homo_sapiens    3400 TACTGTCAGTGCCCCCTGGGCTATACTGGGAGCTACTGTGAGGAGCAACT   3449
+                     .||||.|||||||||||||||||.||.|||||||||||||||||.||.||
+Phocoena_sinu   3400 CACTGCCAGTGCCCCCTGGGCTACACCGGGAGCTACTGTGAGGATCAGCT   3449
+
+Homo_sapiens    3450 CGATGAGTGTGCGTCCAACCCCTGCCAGCACGGGGCAACATGCAGTGACT   3499
+                     .||||||||..|||||||.||.|||||||||||.||.||.|||||.||||
+Phocoena_sinu   3450 GGATGAGTGCTCGTCCAATCCTTGCCAGCACGGAGCCACCTGCAGGGACT   3499
+
+Homo_sapiens    3500 TCATTGGTGGATACAGATGCGAGTGTGTCCCAGGCTATCAGGGTGTCAAC   3549
+                     |||||||||||||||||||.||||||||||||||.|||||||||||||||
+Phocoena_sinu   3500 TCATTGGTGGATACAGATGTGAGTGTGTCCCAGGATATCAGGGTGTCAAC   3549
+
+Homo_sapiens    3550 TGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGG   3599
+                     ||.||||||||||||||||||||||||||.|||||.||||||||||||||
+Phocoena_sinu   3550 TGCGAGTATGAAGTGGATGAGTGCCAGAACCAGCCATGCCAGAATGGAGG   3599
+
+Homo_sapiens    3600 CACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCA   3649
+                     |||||||||.||||||||||||||||||||||||||.|||||||||||||
+Phocoena_sinu   3600 CACCTGTATCGACCTTGTGAACCATTTCAAGTGCTCCTGCCCACCAGGCA   3649
+
+Homo_sapiens    3650 CTCGGGGCCTACTCTGTGAAGAGAACATTGATGACTGTGCCCGGGGTCCC   3699
+                     ||||||||||.||.|||||||||||||||||||||||||||.||||||||
+Phocoena_sinu   3650 CTCGGGGCCTGCTTTGTGAAGAGAACATTGATGACTGTGCCAGGGGTCCC   3699
+
+Homo_sapiens    3700 CATTGCCTTAATGGTGGTCAGTGCATGGATAGGATTGGAGGCTACAGTTG   3749
+                     ||.||||||||||||||||||||..|||||||||||||.|||||||||||
+Phocoena_sinu   3700 CACTGCCTTAATGGTGGTCAGTGTGTGGATAGGATTGGGGGCTACAGTTG   3749
+
+Homo_sapiens    3750 TCGCTGCTTGCCTGGCTTTGCTGGGGAGCGTTGTGAGGGAGACATCAACG   3799
+                     ||||||||||||||||||||||||.|||||.|||||||||||||||||||
+Phocoena_sinu   3750 TCGCTGCTTGCCTGGCTTTGCTGGAGAGCGATGTGAGGGAGACATCAACG   3799
+
+Homo_sapiens    3800 AGTGCCTCTCCAACCCCTGCAGCTCTGAGGGCAGCCTGGACTGTATACAG   3849
+                     |||||||||||||||||||||||||||||||||||||.|||||.||||||
+Phocoena_sinu   3800 AGTGCCTCTCCAACCCCTGCAGCTCTGAGGGCAGCCTAGACTGCATACAG   3849
+
+Homo_sapiens    3850 CTCACCAATGACTACCTGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCA   3899
+                     ||.||||||||||||||||||||.|||||.|||||||||||.||.||.||
+Phocoena_sinu   3850 CTTACCAATGACTACCTGTGTGTCTGCCGCAGTGCCTTTACCGGTCGTCA   3899
+
+Homo_sapiens    3900 CTGTGAAACCTTCGTCGATGTGTGTCCCCAGATGCCCTGCCTGAATGGAG   3949
+                     |||||||||.||||||||||||||||||||||||||.||||||||.||||
+Phocoena_sinu   3900 CTGTGAAACGTTCGTCGATGTGTGTCCCCAGATGCCTTGCCTGAACGGAG   3949
+
+Homo_sapiens    3950 GGACTTGTGCTGTGGCCAGTAACATGCCTGATGGTTTCATTTGCCGTTGT   3999
+                     |||||||||||||||||||.|||||||||||||||||||||||.||||||
+Phocoena_sinu   3950 GGACTTGTGCTGTGGCCAGCAACATGCCTGATGGTTTCATTTGTCGTTGT   3999
+
+Homo_sapiens    4000 CCCCCGGGATTTTCCGGGGCAAGGTGCCAGAGCAGCTGTGGACAAGTGAA   4049
+                     |||||||||||.||.|||||.||.||||||||||||||||||||.|||||
+Phocoena_sinu   4000 CCCCCGGGATTCTCTGGGGCGAGATGCCAGAGCAGCTGTGGACAGGTGAA   4049
+
+Homo_sapiens    4050 ATGTAGGAAGGGGGAGCAGTGTGTGCACACCGCCTCTGGACCCCGCTGCT   4099
+                     .|||||||..||||||||||||||||||||.|||||.|||||||||||||
+Phocoena_sinu   4050 GTGTAGGAGAGGGGAGCAGTGTGTGCACACAGCCTCAGGACCCCGCTGCT   4099
+
+Homo_sapiens    4100 TCTGCCCCAGTCCCCGGGACTGCGAGTCAGGCTGTGCCAGTAGCCCCTGC   4149
+                     |||||||||..||||.|||||||||.||||||||||||||||||||||||
+Phocoena_sinu   4100 TCTGCCCCAACCCCCAGGACTGCGACTCAGGCTGTGCCAGTAGCCCCTGC   4149
+
+Homo_sapiens    4150 CAGCACGGGGGCAGCTGCCACCCTCAGCGCCAGCCTCCTTATTACTCCTG   4199
+                     ||||||||||||||||||.||||||||||||||||||||||||||||.||
+Phocoena_sinu   4150 CAGCACGGGGGCAGCTGCTACCCTCAGCGCCAGCCTCCTTATTACTCTTG   4199
+
+Homo_sapiens    4200 CCAGTGTGCCCCACCATTCTCGGGTAGCCGCTGTGAACTCTACACGGCAC   4249
+                     |.|||||.|||||||.||||.|||.||||.|||||||.|||||||.||.|
+Phocoena_sinu   4200 CAAGTGTTCCCCACCGTTCTGGGGCAGCCACTGTGAATTCTACACAGCTC   4249
+
+Homo_sapiens    4250 CCCCCAGCACCCCTCCTGCCACCTGTCTGAGCCAGTATTGTGCCGACAAA   4299
+                     ||.|||||||||||||||||||||||||||||||||||||||||||||||
+Phocoena_sinu   4250 CCACCAGCACCCCTCCTGCCACCTGTCTGAGCCAGTATTGTGCCGACAAA   4299
+
+Homo_sapiens    4300 GCTCGGGATGGCGTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCAGTG   4349
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+Phocoena_sinu   4300 GCTCGGGATGGCGTCTGCGATGAGGCCTGCAACAGCCATGCCTGCCAGTG   4349
+
+Homo_sapiens    4350 GGATGGGGGTGACTGTTCTCTCACCATGGAGAACCCCTGGGCCAACTGCT   4399
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+Phocoena_sinu   4350 GGATGGGGGTGACTGTTCCCTCACCATGGAGAACCCCTGGGCCAACTGCT   4399
+
+Homo_sapiens    4400 CCTCCCCACTTCCCTGCTGGGATTATATCAACAACCAGTGTGATGAGCTG   4449
+                     |||||||.|||||||||||||||||.||||||||||||||||||||||||
+Phocoena_sinu   4400 CCTCCCCGCTTCCCTGCTGGGATTACATCAACAACCAGTGTGATGAGCTG   4449
+
+Homo_sapiens    4450 TGCAACACGGTCGAGTGCCTGTTTGACAACTTTGAATGCCAGGGGAACAG   4499
+                     ||||||||||..||||||||||||||||||||||||||||||.||||.||
+Phocoena_sinu   4450 TGCAACACGGCTGAGTGCCTGTTTGACAACTTTGAATGCCAGAGGAATAG   4499
+
+Homo_sapiens    4500 CAAGACATGCAAGTATGACAAATACTGTGCAGACCACTTCAAAGACAACC   4549
+                     ||||||.|||||.|||||||||||||||||||||||||||||||||||||
+Phocoena_sinu   4500 CAAGACGTGCAAATATGACAAATACTGTGCAGACCACTTCAAAGACAACC   4549
+
+Homo_sapiens    4550 ACTGTGACCAGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGCTGGAC   4599
+                     |.|||||||||||.||||||||||||||||||||.|||||||||||||||
+Phocoena_sinu   4550 ATTGTGACCAGGGATGCAACAGTGAGGAGTGTGGCTGGGATGGGCTGGAC   4599
+
+Homo_sapiens    4600 TGTGCTGCTGACCAACCTGAGAACCTGGCAGAAGGTACCCTGGTTATTGT   4649
+                     |||||||||||||..||.||.|||||||||||.|||||||||||.|||||
+Phocoena_sinu   4600 TGTGCTGCTGACCGGCCAGAAAACCTGGCAGAGGGTACCCTGGTAATTGT   4649
+
+Homo_sapiens    4650 GGTATTGATGCCACCTGAACAACTGCTCCAGGATGCTCGCAGCTTCTTGC   4699
+                     |||..||||||||||||||||.||||||||||||||||||||||||||||
+Phocoena_sinu   4650 GGTGCTGATGCCACCTGAACAGCTGCTCCAGGATGCTCGCAGCTTCTTGC   4699
+
+Homo_sapiens    4700 GGGCACTGGGTACCCTGCTCCACACCAACCTGCGCATTAAGCGGGACTCC   4749
+                     ||||||||||.||||||||||||||||||||.|||||.||.|||||..||
+Phocoena_sinu   4700 GGGCACTGGGCACCCTGCTCCACACCAACCTACGCATCAAACGGGATGCC   4749
+
+Homo_sapiens    4750 CAGGGGGAACTCATGGTGTACCCCTATTATGGTGAGAAGTCAGCTGCTAT   4799
+                     ||||||||.||.|||||.|||||||||||||||||.|||||||||||.||
+Phocoena_sinu   4750 CAGGGGGACCTTATGGTCTACCCCTATTATGGTGAAAAGTCAGCTGCCAT   4799
+
+Homo_sapiens    4800 GAAGAAACAGAGGATGACACGCAGATCCCTTCCTGGTGAACAAGAACAGG   4849
+                     ||||||.|||||..||||||||||.||||||||.||.||.||||||||||
+Phocoena_sinu   4800 GAAGAAGCAGAGATTGACACGCAGGTCCCTTCCAGGCGATCAAGAACAGG   4849
+
+Homo_sapiens    4850 AGGTGGCTG-----------------------------------------   4858
+                     |.|||||||                                         
+Phocoena_sinu   4850 AAGTGGCTGGTGGTGACGTTCTGCAGATGTTCTGTCATTCACACACCACA   4899
+
+Homo_sapiens    4859 -GCTCTAAAGTCTTTCTGGAAATTGACAACCGCCAGTGTGTTCAAGACTC   4907
+                      |||||.|.||.||.||||||||||||||||||||||||||.||||||||
+Phocoena_sinu   4900 TGCTCTCAGGTATTCCTGGAAATTGACAACCGCCAGTGTGTCCAAGACTC   4949
+
+Homo_sapiens    4908 AGACCACTGCTTCAAGAACACGGATGCAGCAGCAGCTCTCCTGGCCTCTC   4957
+                     ||||||.|||||||||||.||||||||.|||||||||||.|||||.||||
+Phocoena_sinu   4950 AGACCAGTGCTTCAAGAATACGGATGCGGCAGCAGCTCTTCTGGCGTCTC   4999
+
+Homo_sapiens    4958 ACGCCATACAGGGGACCCTGTCATACCCTCTTGTGTCTGTCGTCAGTGAA   5007
+                     |||||||.||||||||||||||.|||||||||||||||||.|||||||||
+Phocoena_sinu   5000 ACGCCATCCAGGGGACCCTGTCGTACCCTCTTGTGTCTGTTGTCAGTGAA   5049
+
+Homo_sapiens    5008 TCCCTGACTCCAGAACGCACTCAGCTCCTCTATCTCCTTGCTGTTGCTGT   5057
+                     ||||||||.|||.|||||||.|||||..|||||||.||||||||||||||
+Phocoena_sinu   5050 TCCCTGACCCCAAAACGCACCCAGCTTATCTATCTACTTGCTGTTGCTGT   5099
+
+Homo_sapiens    5058 TGTCATCATTCTGTTTATTATTCTGCTGGGGGTAATCATGGCAAAACGAA   5107
+                     |||.||..|..||||||||||.|||||||||||.||||||||||||||||
+Phocoena_sinu   5100 TGTTATTGTCTTGTTTATTATCCTGCTGGGGGTGATCATGGCAAAACGAA   5149
+
+Homo_sapiens    5108 AGCGTAAGCATGGCTCTCTCTGGCTGCCTGAAGGTTTCACTCTTCGCCGA   5157
+                     ||||||||||||||||.|||||||||||||||||.|||||.||||||||.
+Phocoena_sinu   5150 AGCGTAAGCATGGCTCCCTCTGGCTGCCTGAAGGCTTCACCCTTCGCCGT   5199
+
+Homo_sapiens    5158 GATGCAAGCAATCACAAGCGTCGTGAGCCAGTGGGACAGGATGCTGTGGG   5207
+                     ||..|.|||||||||||.||||||||||||||||||||||||||||||||
+Phocoena_sinu   5200 GACTCCAGCAATCACAAACGTCGTGAGCCAGTGGGACAGGATGCTGTGGG   5249
+
+Homo_sapiens    5208 GCTGAAAAATCTCTCAGTGCAAGTCTCAGAAGCTAACCTAATTGGTACTG   5257
+                     ||||||||||||||||||||||||||||||.|||||||||||||||.|||
+Phocoena_sinu   5250 GCTGAAAAATCTCTCAGTGCAAGTCTCAGAGGCTAACCTAATTGGTTCTG   5299
+
+Homo_sapiens    5258 GAACAAGTGAACACTGGGTCGATGATGAAGGGCCCCAGCCAAAGAAAGTA   5307
+                     |||||||||||||.||||||.|.|||||||||||||||||||||||||..
+Phocoena_sinu   5300 GAACAAGTGAACATTGGGTCAACGATGAAGGGCCCCAGCCAAAGAAAGCC   5349
+
+Homo_sapiens    5308 AAGGCTGAAGATGAGGCCTTACTCTCAGAAGAAGATGACCCCATTGATCG   5357
+                     |||||||||||||||||.||||||||||||||||||||.|||||.||.||
+Phocoena_sinu   5350 AAGGCTGAAGATGAGGCTTTACTCTCAGAAGAAGATGATCCCATCGACCG   5399
+
+Homo_sapiens    5358 ACGGCCATGGACACAGCAGCACCTTGAAGCTGCAGACATCCGTAGGACAC   5407
+                     ||||||.|||||||||||||||||||||||||||||.|||||||||||||
+Phocoena_sinu   5400 ACGGCCGTGGACACAGCAGCACCTTGAAGCTGCAGATATCCGTAGGACAC   5449
+
+Homo_sapiens    5408 CATCGCTGGCTCTCACCCCTCCTCAGGCAGAGCAGGAGGTGGATGTGTTA   5457
+                     |||||.||||||||||.|||||.||||||||||||||||||||||||.|.
+Phocoena_sinu   5450 CATCGTTGGCTCTCACTCCTCCGCAGGCAGAGCAGGAGGTGGATGTGCTG   5499
+
+Homo_sapiens    5458 GATGTGAATGTCCGTGGCCCAGATGGCTGCACCCCATTGATGTTGGCTTC   5507
+                     ||||||||.|||||.|||||||||||.|||||||||.|||||.|||||||
+Phocoena_sinu   5500 GATGTGAACGTCCGCGGCCCAGATGGGTGCACCCCACTGATGCTGGCTTC   5549
+
+Homo_sapiens    5508 TCTCCGAGGAGGCAGCTCAGATTTGAGTGATGAAGATGAAGATGCAGAGG   5557
+                     |||.||||||||||||||||||.|||||||||||||||||||||||||||
+Phocoena_sinu   5550 TCTTCGAGGAGGCAGCTCAGATATGAGTGATGAAGATGAAGATGCAGAGG   5599
+
+Homo_sapiens    5558 ACTCTTCTGCTAACATCATCACAGACTTGGTCTACCAGGGTGCCAGCCTC   5607
+                     |||||||.||.|||||||||||||||||||||||||||||||||||||||
+Phocoena_sinu   5600 ACTCTTCCGCCAACATCATCACAGACTTGGTCTACCAGGGTGCCAGCCTC   5649
+
+Homo_sapiens    5608 CAGGCCCAGACAGACCGGACTGGTGAGATGGCCCTGCACCTTGCAGCCCG   5657
+                     ||.|||||||||||||||||||||||||||||||||||.|||||||||||
+Phocoena_sinu   5650 CAAGCCCAGACAGACCGGACTGGTGAGATGGCCCTGCATCTTGCAGCCCG   5699
+
+Homo_sapiens    5658 CTACTCACGGGCTGATGCTGCCAAGCGTCTCCTGGATGCAGGTGCAGATG   5707
+                     ||||||..|||||||.|||||||||||.|||||||||||||||||.||||
+Phocoena_sinu   5700 CTACTCGAGGGCTGACGCTGCCAAGCGCCTCCTGGATGCAGGTGCCGATG   5749
+
+Homo_sapiens    5708 CCAATGCCCAGGACAACATGGGCCGCTGTCCACTCCATGCTGCAGTGGCA   5757
+                     ||||||||||||||||||||||||||||.||.||||||||.||.||||||
+Phocoena_sinu   5750 CCAATGCCCAGGACAACATGGGCCGCTGCCCTCTCCATGCCGCCGTGGCA   5799
+
+Homo_sapiens    5758 GCTGATGCCCAAGGTGTCTTCCAGATTCTGATTCGCAACCGAGTAACTGA   5807
+                     ||.|||||||||||||||||||||||.|||||.|||||||||||||||||
+Phocoena_sinu   5800 GCCGATGCCCAAGGTGTCTTCCAGATACTGATCCGCAACCGAGTAACTGA   5849
+
+Homo_sapiens    5808 TCTAGATGCCAGGATGAATGATGGTACTACACCCCTGATCCTGGCTGCCC   5857
+                     ||||||||||||||||||||||||.||.||||||||||||||||||||||
+Phocoena_sinu   5850 TCTAGATGCCAGGATGAATGATGGCACGACACCCCTGATCCTGGCTGCCC   5899
+
+Homo_sapiens    5858 GCCTGGCTGTGGAGGGAATGGTGGCAGAACTGATCAACTGCCAAGCGGAT   5907
+                     ||||.||||||||||||||||||||.||..||||||||||||||||.|||
+Phocoena_sinu   5900 GCCTAGCTGTGGAGGGAATGGTGGCGGAGTTGATCAACTGCCAAGCCGAT   5949
+
+Homo_sapiens    5908 GTGAATGCAGTGGATGACCATGGAAAATCTGCTCTTCACTGGGCAGCTGC   5957
+                     ||||||||||||||.|||||.|||||||||||||||||||||||||||||
+Phocoena_sinu   5950 GTGAATGCAGTGGACGACCACGGAAAATCTGCTCTTCACTGGGCAGCTGC   5999
+
+Homo_sapiens    5958 TGTCAATAATGTGGAGGCAACTCTTTTGTTGTTGAAAAATGGGGCCAACC   6007
+                     |||.||||||||||||||.||.||||||.|||||||||||||||||||||
+Phocoena_sinu   6000 TGTGAATAATGTGGAGGCGACCCTTTTGCTGTTGAAAAATGGGGCCAACC   6049
+
+Homo_sapiens    6008 GAGACATGCAGGACAACAAGGAAGAGACACCTCTGTTTCTTGCTGCCCGG   6057
+                     ||||||||||||||||||||||||||||.|||||||||||.|||||||||
+Phocoena_sinu   6050 GAGACATGCAGGACAACAAGGAAGAGACCCCTCTGTTTCTCGCTGCCCGG   6099
+
+Homo_sapiens    6058 GAGGGGAGCTATGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCG   6107
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Phocoena_sinu   6100 GAGGGGAGCTATGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCG   6149
+
+Homo_sapiens    6108 AGACATCACAGACCATATGGATCGTCTTCCCCGGGATGTGGCTCGGGATC   6157
+                     .||||||||||||||.||||||||||||||||||||.|||||.|||||.|
+Phocoena_sinu   6150 GGACATCACAGACCACATGGATCGTCTTCCCCGGGACGTGGCCCGGGACC   6199
+
+Homo_sapiens    6158 GCATGCACCATGACATTGTGCGCCTTCTGGATGAATACAATGTGACCCCA   6207
+                     |||||||||||||||||||.|||||.||||||||.||||||||||||||.
+Phocoena_sinu   6200 GCATGCACCATGACATTGTACGCCTGCTGGATGAGTACAATGTGACCCCG   6249
+
+Homo_sapiens    6208 AGCCCTCCAGGCACCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGG   6257
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+Phocoena_sinu   6250 AGCCCTCCAGGCACCGTGCTGACTTCTGCTCTCTCACCTGTCATCTGTGG   6299
+
+Homo_sapiens    6258 GCCCAACAGATCTTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGT   6307
+                     .||||||||||||||.|||||.||||||||||||||.|.|||||||||||
+Phocoena_sinu   6300 ACCCAACAGATCTTTTCTCAGTCTGAAGCACACCCCGACGGGCAAGAAGT   6349
+
+Homo_sapiens    6308 CTAGACGGCCCAGTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTT   6357
+                     |.||||||||||.||||||||||....||||...||||||||||||||||
+Phocoena_sinu   6350 CCAGACGGCCCAATGCCAAGAGTGTTGTGCCCTGTAGCCTCCCTAACCTT   6399
+
+Homo_sapiens    6358 GCCAAGGAGGCAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAG   6407
+                     |||||||||||.||||||||||||||.|||||||||||||||||||||||
+Phocoena_sinu   6400 GCCAAGGAGGCCAAGGATGCCAAGGGGAGTAGGAGGAAGAAGTCTCTGAG   6449
+
+Homo_sapiens    6408 TGAGAAGGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGATT   6457
+                     |||.||||.|||..||||||||||.|||||.|||.|.|||||.|||||||
+Phocoena_sinu   6450 TGACAAGGGCCAGTTGTCTGAGAGCTCAGTGACTCTGTCCCCCGTTGATT   6499
+
+Homo_sapiens    6458 CCCTAGAATCTCCTCACACGTATGTTTCCGACACCACATCCTCTCCAATG   6507
+                     ||||||||||||||||||||||||||||.||.||||||||||||||.|||
+Phocoena_sinu   6500 CCCTAGAATCTCCTCACACGTATGTTTCTGATACCACATCCTCTCCGATG   6549
+
+Homo_sapiens    6508 ATTACATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGCCAC   6557
+                     |||||||||||.||.||||||||||||||||||||||||.||||||||||
+Phocoena_sinu   6550 ATTACATCCCCCGGAATCTTACAGGCCTCACCCAACCCTGTGTTGGCCAC   6599
+
+Homo_sapiens    6558 TGCCGCCCCTCCTGCCCCAGTCCATGCCCAGCATGCACTATCTTTTTCTA   6607
+                     |||.|||||.|||||||||||||||||.|||||||||||.|||||.||||
+Phocoena_sinu   6600 TGCTGCCCCCCCTGCCCCAGTCCATGCACAGCATGCACTGTCTTTCTCTA   6649
+
+Homo_sapiens    6608 ACCTTCATGAAATGCAGCCTTTGGCACATGGGGCCAGCACTGTGCTTCCC   6657
+                     ||||||||||.||||||||.|||||.||.|||||||.|||||||||||||
+Phocoena_sinu   6650 ACCTTCATGAGATGCAGCCCTTGGCTCACGGGGCCAACACTGTGCTTCCC   6699
+
+Homo_sapiens    6658 TCAGTGAGCCAGTTGCTATCCCACCACCACATTGTGTCTCCAGGCAGTGG   6707
+                     ||||||||||||.||||.||.||||||||||||||..|.|||||||||||
+Phocoena_sinu   6700 TCAGTGAGCCAGCTGCTGTCACACCACCACATTGTCCCCCCAGGCAGTGG   6749
+
+Homo_sapiens    6708 CAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCAGTCCCAGCAGATT   6757
+                     ||||||.||.||||||.|||||||.|||||||||.|.||||||||.||.|
+Phocoena_sinu   6750 CAGTGCGGGGAGCTTGGGTAGGCTACATCCAGTCACTGTCCCAGCGGACT   6799
+
+Homo_sapiens    6758 GGATGAACCGCATGGAGGTGAATGAGACCCAGTACAATGAGATGTTTGGT   6807
+                     ||||||||||..|||||||||.|||||||||||||||.|||||||||.||
+Phocoena_sinu   6800 GGATGAACCGTGTGGAGGTGAGTGAGACCCAGTACAACGAGATGTTTAGT   6849
+
+Homo_sapiens    6808 ATGGTCCTGGCTCCAGCTGAGGGCACCCATCCTGGCATAGCTCCCCAGAG   6857
+                     ||||||||||||||||||||||||||.||.|||||||||.||||||||||
+Phocoena_sinu   6850 ATGGTCCTGGCTCCAGCTGAGGGCACTCACCCTGGCATAACTCCCCAGAG   6899
+
+Homo_sapiens    6858 CAGGCCACCTGAAGGGAAGCACATAACCACCCCTCGGGAGCCCTTGCCCC   6907
+                     ||||||.||||||||||||||..||.|..|||||||.|||||||||||||
+Phocoena_sinu   6900 CAGGCCGCCTGAAGGGAAGCATTTACCTGCCCCTCGAGAGCCCTTGCCCC   6949
+
+Homo_sapiens    6908 CCATTGTGACTTTCCAGCTCATCCCTAAAGGCAGTATTGCCCAACCAGCG   6957
+                     ||||.||||||||||||||.|||||.||||||||.||||||||||||||.
+Phocoena_sinu   6950 CCATCGTGACTTTCCAGCTAATCCCCAAAGGCAGCATTGCCCAACCAGCC   6999
+
+Homo_sapiens    6958 GGGGCTCCCCAGCCTCAGTCCACCTGCCCTCCAGCTGTTGCGGGCCCCCT   7007
+                     ||||||.|||||||||..||||.||||||||||||||||||.|||.||||
+Phocoena_sinu   7000 GGGGCTGCCCAGCCTCCATCCAGCTGCCCTCCAGCTGTTGCAGGCACCCT   7049
+
+Homo_sapiens    7008 GCCCACCATGTACCAGATTCCAGAAATGGCCCGTTTGCCCAGTGTGGCTT   7057
+                     ||||||||||||.|||||||||||||||||.||||||||||||.||||||
+Phocoena_sinu   7050 GCCCACCATGTATCAGATTCCAGAAATGGCTCGTTTGCCCAGTATGGCTT   7099
+
+Homo_sapiens    7058 TCCCCACTGCCATGATGCCCCAGCAGGACGGGCAGGTAGCTCAGACCATT   7107
+                     |.||||||||||||||||||||||||||.||||||||.||||||||||||
+Phocoena_sinu   7100 TTCCCACTGCCATGATGCCCCAGCAGGAAGGGCAGGTTGCTCAGACCATT   7149
+
+Homo_sapiens    7108 CTCCCAGCCTATCATCCTTTCCCAGCCTCTGTGGGCAAGTACCCCACACC   7157
+                     |||||||||||.|||||.||.||||||||||||||||||||.||||||||
+Phocoena_sinu   7150 CTCCCAGCCTACCATCCCTTTCCAGCCTCTGTGGGCAAGTATCCCACACC   7199
+
+Homo_sapiens    7158 CCCTTCACAGCACAGTTATGCTTCCTCAAATGCTGCTGAGCGAACACCCA   7207
+                     ||||||||||||.||.|||||||||||.||||||||||||.||||.||||
+Phocoena_sinu   7200 CCCTTCACAGCATAGCTATGCTTCCTCCAATGCTGCTGAGAGAACGCCCA   7249
+
+Homo_sapiens    7208 GTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCA   7257
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Phocoena_sinu   7250 GTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCA   7299
+
+Homo_sapiens    7258 GAGTCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTG   7307
+                     |||||||||||||||||||||||||||||.||||||||||||||||||||
+Phocoena_sinu   7300 GAGTCTCCTGACCAGTGGTCAAGTTCATCCCCCCACTCTGCTTCTGACTG   7349
+
+Homo_sapiens    7308 GTCAGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGAGGTCAGC   7357
+                     |||||||||||||||||||||.||.|||||||||||||||||||||||||
+Phocoena_sinu   7350 GTCAGATGTGACCACCAGCCCCACTCCTGGGGGTGCTGGAGGAGGTCAGC   7399
+
+Homo_sapiens    7358 GGGGACCTGGGACACACATGTCTGAGCCACCACACAACAACATGCAGGTT   7407
+                     |||||||||||.|||||||||||||||||||||.||.||||||||||||.
+Phocoena_sinu   7400 GGGGACCTGGGGCACACATGTCTGAGCCACCACGCAGCAACATGCAGGTC   7449
+
+Homo_sapiens    7408 TATGCG   7413
+                     |||||.
+Phocoena_sinu   7450 TATGCA   7455
+
+
+#---------------------------------------
+#---------------------------------------

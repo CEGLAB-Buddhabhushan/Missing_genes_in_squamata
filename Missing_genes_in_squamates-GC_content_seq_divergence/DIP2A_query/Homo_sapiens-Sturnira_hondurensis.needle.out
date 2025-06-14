@@ -1,0 +1,426 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 06:01:04
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Sturnira_hondurensis.fa
+#    -outfile Homo_sapiens-Sturnira_hondurensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Sturnira_hondurensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Sturnira_hondurensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4854
+# Identity:    4191/4854 (86.3%)
+# Similarity:  4191/4854 (86.3%)
+# Gaps:         156/4854 ( 3.2%)
+# Score: 18782.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+                     |||||.|||||||||||||||||||||.|||.|.|.|||||.||||||||
+Sturnira_hond      1 ATGGCGGACCGCGGGTGCCCGCTGGAGCCGGTGTCACTGCCCGCCGAGGT     50
+
+Homo_sapiens      51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+                     |||.|||||||||||.||||||||.|||||||||||||||||||||||||
+Sturnira_hond     51 GCGAGAGAGCCTGGCGGAGCTGGAACTGGAGCTGTCGGAAGGTGACATCA    100
+
+Homo_sapiens     101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+                     ||||||||||||||||||||||||||||.|||||||||||.||.||.|||
+Sturnira_hond    101 CTCAAAAAGGATATGAAAAGAAAAGGGCGAAGCTGCTTGCGCGCTACATA    150
+
+Homo_sapiens     151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+                     ||||||.||||||||.|.||||||||.||.|||.|||||..|||.|  ||
+Sturnira_hond    151 CCGCTTCTTCAAGGAGTGGACCCATCCCTCCAAACAGAGCCTAGGA--CC    198
+
+Homo_sapiens     201 T--GGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGTCTCG    248
+                     |  ||||||||||||||||||||.||.|...|.||||||||||||.|.||
+Sturnira_hond    199 TCCGGGCCCTCACAAACCACGGCTGCAGTGTCTAAGCAGCAGAAGCCGCG    248
+
+Homo_sapiens     249 GCCCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAGCCAA    298
+                     |||||||..|||..||||.|||||||||||||||                
+Sturnira_hond    249 GCCCACCAACTCACGGGACGAGCGCTTCCGGTCA----------------    282
+
+Homo_sapiens     299 TGTTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTATTTGG    348
+                                                                       
+Sturnira_hond    282 --------------------------------------------------    282
+
+Homo_sapiens     349 ACCCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCCACAC    398
+                                                            |||||.|||||
+Sturnira_hond    283 ---------------------------------------GATGTTCACAC    293
+
+Homo_sapiens     399 TGAAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTA    448
+                     |||||||||||||||||||||||||||.|||||||||||||||.|||||.
+Sturnira_hond    294 TGAAGCCGTGCAAGCAGCTTTGGCCAAGTACAAAGAGAGGAAGGTGCCTC    343
+
+Homo_sapiens     449 TGCCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTAC    498
+                     ||||||||||.|||||.|||||.||.|.||||.|.|||.|||||||||.|
+Sturnira_hond    344 TGCCTTCGAAAAGACGGTCTGTTCTCGCGCATGCATCTCTGGAAACCTGC    393
+
+Homo_sapiens     499 ACCCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCG    548
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+Sturnira_hond    394 ACCCCCCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCG    443
+
+Homo_sapiens     549 ACCCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGC    598
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sturnira_hond    444 ACCCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGC    493
+
+Homo_sapiens     599 CCTGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCC    648
+                     |||||||||||||||||||||||||||||||||||||||||||.|||||.
+Sturnira_hond    494 CCTGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCCGCATCA    543
+
+Homo_sapiens     649 TCCACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGC    698
+                     ||||||||||||||||||||||||||||                      
+Sturnira_hond    544 TCCACCTCATCTCACCCGGGAGGGAGAC----------------------    571
+
+Homo_sapiens     699 AGCCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCC    748
+                                         ||.||.||||.|||.||||||.|..|||||
+Sturnira_hond    572 --------------------CTGCCGCTGCGCTCACAGGCCCCTCGGCCC    601
+
+Homo_sapiens     749 ACACCCACAT---AGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGC    795
+                     ||.|||||||   |||||||||.|||||||||||||||||||||||.|||
+Sturnira_hond    602 ACGCCCACATAGCAGATCTGCACTCTGCCCCTCCTGATGTCACCACTGGC    651
+
+Homo_sapiens     796 CTCGTGGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGAAG    845
+                     ||.||||||||||||.||..|||||||||||||...||.|||||||||.|
+Sturnira_hond    652 CTTGTGGAGCATTCGCACAGTGAGCGTCCACAGCCAGCCTCTGTGAGAGG    701
+
+Homo_sapiens     846 TGTTCCTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGGTGTCC    895
+                     .||.||||||||||||.|.|||.||.|.|||||.|||||.|.||||||||
+Sturnira_hond    702 CGTCCCTCGGGGGTGCGGTGGGCGCCTCCTGGACACAGCGGGTGGTGTCC    751
+
+Homo_sapiens     896 CTGTGAACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCCTG    945
+                     ||||||||||||||||||||||||||||||||||.|||||||||||||||
+Sturnira_hond    752 CTGTGAACAGCAGAGTGTCCTCCAAAATCCAGCAACTTCTGAACACCCTG    801
+
+Homo_sapiens     946 AAGAGGCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTTGA    995
+                     ||||||||||||||||||||.||||||||||||||.|||||||||.|.||
+Sturnira_hond    802 AAGAGGCCAAAGCGCCCTCCGCTGAAGGAGTTCTTCGTGGATGATGTGGA    851
+
+Homo_sapiens     996 GGAATTGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGAGG   1045
+                     |||..|||||||||||||||||||||||||||||||||||||||||||||
+Sturnira_hond    852 GGAGCTGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGAGG    901
+
+Homo_sapiens    1046 GAAGCGAGACGAGT-GTGCTGAGAGGGGAGCCTCTCACTGCAGGTGTCCC   1094
+                     |||||.|||.| || |||||||||||.||.|||||..|.|..||..|..|
+Sturnira_hond    902 GAAGCCAGATG-GTAGTGCTGAGAGGAGAACCTCTGGCCGTGGGGATTTC    950
+
+Homo_sapiens    1095 CCGACCGCCGTCGCTGTTGGCCACCTTGCAGCGCTGGGGCACAACACAGC   1144
+                     |.|.|||||.||||||.|||||.||.||||||||||||||||.|..||||
+Sturnira_hond    951 CTGGCCGCCTTCGCTGCTGGCCGCCCTGCAGCGCTGGGGCACGATGCAGC   1000
+
+Homo_sapiens    1145 CCAAATCCCCCTGTCTGACTGCCTTGGATACAACTGGGAAAGCCGTCTAC   1194
+                     |||||.|||||||||||||.||||||||.|||||||||||.|||.|||||
+Sturnira_hond   1001 CCAAAGCCCCCTGTCTGACCGCCTTGGACACAACTGGGAAGGCCATCTAC   1050
+
+Homo_sapiens    1195 ACTCTCACCTATGGTAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATAC   1244
+                     ||.||||||||.||.||||||||||||||.||||||||||||||.|||||
+Sturnira_hond   1051 ACCCTCACCTACGGCAAACTTTGGAGTCGAAGTTTAAAACTAGCGTATAC   1100
+
+Homo_sapiens    1245 TCTACTTAATAAACTGACAAGTAAGAATGAACCTCTACTTAAACCTGGAG   1294
+                     |||.||||||||||||||.|||||||||||.||.||||||||||||||||
+Sturnira_hond   1101 TCTCCTTAATAAACTGACTAGTAAGAATGAGCCACTACTTAAACCTGGAG   1150
+
+Homo_sapiens    1295 ACAGAGTGGCGCTCGTGTTTCCGAATAGTGACCCTGTGATGTTCATGGTT   1344
+                     |||||||||||||.||||||||.||.||||||||||||||||||||||||
+Sturnira_hond   1151 ACAGAGTGGCGCTGGTGTTTCCCAACAGTGACCCTGTGATGTTCATGGTT   1200
+
+Homo_sapiens    1345 GCATTTTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGT   1394
+                     ||.|||||||||||||||||||||||||||||||||||||||||||||||
+Sturnira_hond   1201 GCCTTTTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGT   1250
+
+Homo_sapiens    1395 GCCATTAACAAGAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTCTGCTGG   1444
+                     |||..|||||||||||||.||.||||||||||||.|.|||||||||||||
+Sturnira_hond   1251 GCCTCTAACAAGAAAGGACGCTGGCAGCCAGCAGATCGGGTTTCTGCTGG   1300
+
+Homo_sapiens    1445 GCAGCTGTGGAGTCTTCTTGGCCCTGACCACAGACGCTTGTCAGAAAGGC   1494
+                     ||||||||||.||...|.|||||||||||||.||||||||||||||||||
+Sturnira_hond   1301 GCAGCTGTGGCGTTGCCCTGGCCCTGACCACGGACGCTTGTCAGAAAGGC   1350
+
+Homo_sapiens    1495 CTCCCCAAGGCACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTGGCCCCC   1544
+                     ||.||||||||||||||.|||||||||||||||||||||||.||||||||
+Sturnira_hond   1351 CTACCCAAGGCACAGACGGGAGAGGTGGCAGCTTTCAAAGGCTGGCCCCC   1400
+
+Homo_sapiens    1545 GCTCTCCTGGCTAGTGATTGATGGGAAGCATCTAGCCAAGCCCCCAAAGG   1594
+                     .|||.|||||||.|||||.||||||||||||||..|.||||||||.||||
+Sturnira_hond   1401 CCTCACCTGGCTGGTGATCGATGGGAAGCATCTGACTAAGCCCCCCAAGG   1450
+
+Homo_sapiens    1595 ACTGGCACCCTCTGGCCCAGGACACAGGGACTGGGACTGCCTACATTGAG   1644
+                     ||||||||||..||||||||||...|||..|..||||.||||||||.|||
+Sturnira_hond   1451 ACTGGCACCCGTTGGCCCAGGATGAAGGATCCCGGACCGCCTACATAGAG   1500
+
+Homo_sapiens    1645 TATAAAACCAGCAAAGAAGGCAGTACGGTGGGGGTCACAGTGTCCCACGC   1694
+                     |||||||||||||||||||||||.||.||||||.|||||||||||||.||
+Sturnira_hond   1501 TATAAAACCAGCAAAGAAGGCAGCACCGTGGGGATCACAGTGTCCCATGC   1550
+
+Homo_sapiens    1695 ATCCCTGCTGGCACAGTGCCGGGCTCTGACCCAGGCGTGCGGGTACTCAG   1744
+                     .|||||||||||||||||||||||||||||||||||.||.||.|||||||
+Sturnira_hond   1551 GTCCCTGCTGGCACAGTGCCGGGCTCTGACCCAGGCATGTGGCTACTCAG   1600
+
+Homo_sapiens    1745 AAGCTGAAACATTAACAAACGTGCTGGATTTCAAAAGGGATGCTGGTCTG   1794
+                     |||||||||||.|||||||.||||||||||||||||||||||||||||||
+Sturnira_hond   1601 AAGCTGAAACACTAACAAATGTGCTGGATTTCAAAAGGGATGCTGGTCTG   1650
+
+Homo_sapiens    1795 TGGCATGGCGTGTTAACAAGCGTCATGAACAGGATGCACGTGGTCAGCGT   1844
+                     ||||||||.||||||||||||||||||||||.||||||||||.|||||.|
+Sturnira_hond   1651 TGGCATGGAGTGTTAACAAGCGTCATGAACAAGATGCACGTGATCAGCAT   1700
+
+Homo_sapiens    1845 CCCCTACGCGCTGATGAAGGCGAACCCACTCTCCTGGATCCAGAAAGTGT   1894
+                     |||.|||||.||||||||||.||||||.|||||||||||.||||||||||
+Sturnira_hond   1701 CCCATACGCACTGATGAAGGTGAACCCGCTCTCCTGGATTCAGAAAGTGT   1750
+
+Homo_sapiens    1895 GCTTCTATAAAGCTCGGGCCGCGCTGGTGAAGTCGCGAGACATGCACTGG   1944
+                     |.||.||||||||.|.|.|.|||.||||||||||.||.||||||||||||
+Sturnira_hond   1751 GTTTGTATAAAGCCCAGACAGCGGTGGTGAAGTCCCGTGACATGCACTGG   1800
+
+Homo_sapiens    1945 TCTCTCCTAGCTCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTCACTGCG   1994
+                     ||||||||.||.|||||.||||||.|||||||||||||||||||.|||||
+Sturnira_hond   1801 TCTCTCCTGGCCCAGCGAGGCCAGCGGGACGTCAGCCTCAGCTCCCTGCG   1850
+
+Homo_sapiens    1995 CATGCTGATTGTGGCCGATGGTGCCAACCCGTGGTCGATCTCCTCCTGTG   2044
+                     |||||||.|.||||||||.||.||||||||.|||||.||.||||||||||
+Sturnira_hond   1851 CATGCTGGTCGTGGCCGACGGCGCCAACCCCTGGTCCATATCCTCCTGTG   1900
+
+Homo_sapiens    2045 ACGCCTTCCTCAACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGTCATC   2094
+                     |.|||||||||||.|||||||||||||||||.||||||||.|||||||||
+Sturnira_hond   1901 ATGCCTTCCTCAATGTCTTCCAGTCCAGAGGCCTGAGGCCGGAGGTCATC   1950
+
+Homo_sapiens    2095 TGTCCTTGTGCAAGTTCTCCTGAGGCGCTGACTGTCGCCATCCGCAGGCC   2144
+                     |||||||||||.||||||||||||||.||.||.|||||||||||||||||
+Sturnira_hond   1951 TGTCCTTGTGCCAGTTCTCCTGAGGCACTAACGGTCGCCATCCGCAGGCC   2000
+
+Homo_sapiens    2145 ACCTGATCTGGGAGGACCACCTCCAAGAAAAGCAGTCCTGTCGATGAACG   2194
+                     .||.||.|||||||||||.||||||||||||||.||.|||||||||||.|
+Sturnira_hond   2001 GCCGGACCTGGGAGGACCTCCTCCAAGAAAAGCTGTGCTGTCGATGAATG   2050
+
+Homo_sapiens    2195 GTCTAAGTTATGGTGTTATCAGAGTGGATACTGAAGAAAAGTTGTCAGTC   2244
+                     |.||.|||||.|||||.|||.||||.||.|||||||||||||||||||||
+Sturnira_hond   2051 GCCTCAGTTACGGTGTGATCCGAGTTGACACTGAAGAAAAGTTGTCAGTC   2100
+
+Homo_sapiens    2245 CTTACTGTTCAGGACGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGT   2294
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sturnira_hond   2101 CTTACTGTTCAGGACGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGT   2150
+
+Homo_sapiens    2295 TGTGAAGTTAGAAGGTACCCCTTATCTTTGTAAAACTGATGAAGTGGGAG   2344
+                     |||||||.||||.|||.||||.||||||||||||||||||||.||.||||
+Sturnira_hond   2151 TGTGAAGATAGACGGTGCCCCGTATCTTTGTAAAACTGATGAGGTTGGAG   2200
+
+Homo_sapiens    2345 AAATATGCGTCAGTTCCAGTGCAACTGGCACAGCGTACTATGGATTGCTT   2394
+                     |||||||.||....||||||||.||.|||||||||||||||||..|||||
+Sturnira_hond   2201 AAATATGTGTTGACTCCAGTGCTACAGGCACAGCGTACTATGGGCTGCTT   2250
+
+Homo_sapiens    2395 GGAATCACGAAGAATGTGTTTGAGGCAGTTCCGGTCACCACAGGAGGAGC   2444
+                     ||.|||||.||.||..|.||||||||.||.||||||||..||||||||||
+Sturnira_hond   2251 GGGATCACAAAAAACATCTTTGAGGCCGTCCCGGTCACTGCAGGAGGAGC   2300
+
+Homo_sapiens    2445 ACCCATCTTTGACAGGCCATTCACCAGGACAGGCCTGCTGGGCTTCATCG   2494
+                     ||||.|||.|||||||||.|||||||||||.||.||.|||||||||.|.|
+Sturnira_hond   2301 ACCCGTCTCTGACAGGCCTTTCACCAGGACCGGGCTCCTGGGCTTCGTTG   2350
+
+Homo_sapiens    2495 GGCCTGACAACCTGGTCTTCATCGTGGGCAAACTGGACGGGCTGATGGTC   2544
+                     |.|||||.||||||||||||.||||||||||.|||||.|||||||||||.
+Sturnira_hond   2351 GCCCTGATAACCTGGTCTTCGTCGTGGGCAAGCTGGATGGGCTGATGGTG   2400
+
+Homo_sapiens    2545 ACTGGAGTTCGCAGACACAATGCAGATGACGTTGTGGCCACCGCACTGGC   2594
+                     ...||.||||||||||||||||||||.|||.|.|||||.|||||..||||
+Sturnira_hond   2401 GTCGGGGTTCGCAGACACAATGCAGACGACATCGTGGCTACCGCGTTGGC   2450
+
+Homo_sapiens    2595 CGTGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTTCTCTG   2644
+                     ||||||||||||||||||||||||||||||||||||.|||||||||||||
+Sturnira_hond   2451 CGTGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATGGCTGTGTTCTCTG   2500
+
+Homo_sapiens    2645 TGACCGTGCTGCACGACGACCGGATTGTCCTGGTGGCTGAGCAGCGGCCG   2694
+                     ||||.||||||||.||.||||||||.||.||.||.|||||||||||||||
+Sturnira_hond   2501 TGACAGTGCTGCATGATGACCGGATCGTGCTCGTTGCTGAGCAGCGGCCG   2550
+
+Homo_sapiens    2695 GATGCCTCGGAGGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTGCAGGC   2744
+                     ||.|||||.|||||||||||||||||||||||||||||.|.|||||||||
+Sturnira_hond   2551 GACGCCTCCGAGGAGGACAGCTTCCAGTGGATGAGCCGCGCGCTGCAGGC   2600
+
+Homo_sapiens    2745 CATTGATAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTG   2794
+                     ||||||.|||||||||||||||||||||||||||||.||.||||||||||
+Sturnira_hond   2601 CATTGACAGCATCCACCAGGTGGGCGTGTACTGTCTTGCTCTGGTTCCTG   2650
+
+Homo_sapiens    2795 CCAACACCTTGCCCAAGGCTCCTCTCGGAGGGATTCACATTTCTGAAACC   2844
+                     |||||||||||||||||||||||||.||||||.||||..|.||||||.||
+Sturnira_hond   2651 CCAACACCTTGCCCAAGGCTCCTCTTGGAGGGGTTCATGTCTCTGAAGCC   2700
+
+Homo_sapiens    2845 AAACAGCGCTTTCTGGAAGGGACGCTGCACCCGTGTAATGTGCTGATGTG   2894
+                     ||||||||.||||||||.||||||||||||||.||.||||||||.|||||
+Sturnira_hond   2701 AAACAGCGTTTTCTGGAGGGGACGCTGCACCCATGCAATGTGCTAATGTG   2750
+
+Homo_sapiens    2895 CCCTCACACCTGTGTTACCAACCTCCCCAAACCTCGTCAGAAACAACCAG   2944
+                     |||.|||||||||||.||||||||.|||||||||||.|||||.||.||||
+Sturnira_hond   2751 CCCGCACACCTGTGTCACCAACCTTCCCAAACCTCGCCAGAAGCAGCCAG   2800
+
+Homo_sapiens    2945 AGGTTGGACCAGCCTCAATGATCGTGGGGAACCTGGTTGCTGGGAAGAGA   2994
+                     ||||||||||||||||.|||||.||.|||||.||||||||||||||.|||
+Sturnira_hond   2801 AGGTTGGACCAGCCTCCATGATTGTTGGGAATCTGGTTGCTGGGAAAAGA   2850
+
+Homo_sapiens    2995 ATCGCTCAGGCTTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGCGACCA   3044
+                     ||.||.|||||.||.|||.|.|||||.||.||||||||.|||||||||||
+Sturnira_hond   2851 ATTGCCCAGGCCTCTGGGCGGGAGCTGGCTCACCTGGAAGACAGCGACCA   2900
+
+Homo_sapiens    3045 GGCACGGAAGTTCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGCCCACA   3094
+                     |||..|||||||||||||||||.|||||||||||||||||||.|||||||
+Sturnira_hond   2901 GGCCAGGAAGTTCCTGTTCCTGCCTGACGTGCTGCAGTGGCGGGCCCACA   2950
+
+Homo_sapiens    3095 CCACTCCTGACCACCCGCTGTTCTTGCTGCTGAACGCCAAGGGCACCGTC   3144
+                     |||||||.||||||||||||||..||||||||||.||||||||||||||.
+Sturnira_hond   2951 CCACTCCCGACCACCCGCTGTTTCTGCTGCTGAATGCCAAGGGCACCGTG   3000
+
+Homo_sapiens    3145 ACAAGCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGAGTGGC   3194
+                     |||||||||||||||||||||||||||||||.||.|||||||||.|||||
+Sturnira_hond   3001 ACAAGCACTGCAACCTGTGTCCAGCTGCACAGAAAGGCTGAGAGGGTGGC   3050
+
+Homo_sapiens    3195 CGCGGCTCTGATGGAGAAGGGAAGACTGAGTGTTGGGGACCATGTGGCTC   3244
+                     .||.||||||||||||||||.|||||||||..|.|||||||||||||||.
+Sturnira_hond   3051 TGCTGCTCTGATGGAGAAGGCAAGACTGAGCATCGGGGACCATGTGGCTT   3100
+
+Homo_sapiens    3245 TGGTCTACCCACCAGGGGTGGACCTCATTGCCGCGTTCTATGGCTGCTTG   3294
+                     ||||||||||.||||||||||||||||||||.||.||||||||||||.|.
+Sturnira_hond   3101 TGGTCTACCCGCCAGGGGTGGACCTCATTGCTGCCTTCTATGGCTGCCTA   3150
+
+Homo_sapiens    3295 TACTGTGGCTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAGAACCT   3344
+                     |||||.|||||.|||||.|||||.|||||||||||.||||||||||||||
+Sturnira_hond   3151 TACTGCGGCTGTGTGCCGGTCACTGTGCGGCCCCCACACCCTCAGAACCT   3200
+
+Homo_sapiens    3345 CGGCACCACACTGCCCACCGTCAAGATGATCGTGGAGGTCAGCAAGTCTG   3394
+                     |...|||||.||.||.||||||||||||||.|||||||||||||||||||
+Sturnira_hond   3201 CTCTACCACGCTTCCAACCGTCAAGATGATTGTGGAGGTCAGCAAGTCTG   3250
+
+Homo_sapiens    3395 CATGCGTCCTCACCACGCAGGCTGTCACACGGCTGCTCAGGTCCAAGGAG   3444
+                     |.||||||||||||||||||||..||||.||||||||.||.||||||||.
+Sturnira_hond   3251 CCTGCGTCCTCACCACGCAGGCCATCACGCGGCTGCTGAGATCCAAGGAA   3300
+
+Homo_sapiens    3445 GCTGCTGCTGCCGTGGACATCAGGACCTGGCCCACCATCCTAGACACAGA   3494
+                     ||.||.||..||||||||.|||||||||||||||||||.|||||.|||||
+Sturnira_hond   3301 GCAGCAGCCACCGTGGACGTCAGGACCTGGCCCACCATTCTAGATACAGA   3350
+
+Homo_sapiens    3495 TGACATCCCAAAAAAGAAGATAGCAAGCGTTTTCAGGCCCCCCTCCCCCG   3544
+                     ||||||.||||||||||||.|.|||||.||.||||||||.||||||||.|
+Sturnira_hond   3351 TGACATACCAAAAAAGAAGGTGGCAAGTGTGTTCAGGCCTCCCTCCCCGG   3400
+
+Homo_sapiens    3545 ATGTCCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGATATTAGCG   3594
+                     |..|.||.||.||..||||||||||.|||||.||.||.|||||.|||||.
+Sturnira_hond   3401 ACATGCTGGCGTATCTGGACTTCAGTGTGTCGACTACAGGGATCTTAGCA   3450
+
+Homo_sapiens    3595 GGAGTGAAGATGTCGCACGCGGCCACAAGCGCCTTATGCCGCTCCATAAA   3644
+                     ||.|||||||||||.||.||.||||||||.|||||.||||||||||||||
+Sturnira_hond   3451 GGTGTGAAGATGTCACATGCAGCCACAAGTGCCTTGTGCCGCTCCATAAA   3500
+
+Homo_sapiens    3645 GCTGCAGTGTGAGCTGTACCCCTCGCGGCAGATCGCCATCTGCCTCGACC   3694
+                     ||||||||||||||||||||||||..||||||||||||||||.||.||||
+Sturnira_hond   3501 GCTGCAGTGTGAGCTGTACCCCTCCAGGCAGATCGCCATCTGTCTTGACC   3550
+
+Homo_sapiens    3695 CCTACTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCG   3744
+                     ||||||||||.||.||.||.|||||||||||.|||||||||||||||||.
+Sturnira_hond   3551 CCTACTGTGGACTCGGCTTCGCCCTGTGGTGCCTGTGCAGTGTCTACTCT   3600
+
+Homo_sapiens    3745 GGACACCAATCAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTC   3794
+                     ||||||||.||.||||||||||||||||||||||||||.|||||.|||||
+Sturnira_hond   3601 GGACACCAGTCTGTGCTGGTGCCCCCGCTGGAGCTGGAAAGCAATGTGTC   3650
+
+Homo_sapiens    3795 CCTGTGGCTGTCGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTTCTGCT   3844
+                     ||||||||||||.||.||.||||||||||||||.||||||||||||||||
+Sturnira_hond   3651 CCTGTGGCTGTCCGCTGTGAGCCAGTACAAGGCTCGCGTCACCTTCTGCT   3700
+
+Homo_sapiens    3845 CCTACTCTGTGATGGAGATGTGCACCAAGGGCCTAGGCGCACAGACGGGT   3894
+                     |||||||.||.|||||||||||||||||||||.|.|||||.|||||.|||
+Sturnira_hond   3701 CCTACTCGGTCATGGAGATGTGCACCAAGGGCTTGGGCGCGCAGACAGGT   3750
+
+Homo_sapiens    3895 GTCCTCAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACGTGCATGGT   3944
+                     |||||||||||||||||||||||||||||.|||||||||||.||.|||||
+Sturnira_hond   3751 GTCCTCAGGATGAAGGGGGTGAACCTGTCGTGTGTGCGCACATGTATGGT   3800
+
+Homo_sapiens    3945 GGTCGCCGAGGAGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTCCAAGC   3994
+                     |||.||.||||||||.|||.||||.||||||||.||||||||||||||||
+Sturnira_hond   3801 GGTTGCTGAGGAGCGACCCCGGATCGCGCTGACACAGTCCTTCTCCAAGC   3850
+
+Homo_sapiens    3995 TCTTCAAGGACCTGGGCCTGCCGGCCCGCGCCGTAAGCACCACGTTCGGG   4044
+                     |.|||||||||||.||||||||.||.||.|||||.|||||||||||||||
+Sturnira_hond   3851 TGTTCAAGGACCTCGGCCTGCCCGCGCGTGCCGTGAGCACCACGTTCGGG   3900
+
+Homo_sapiens    4045 TGCAGGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCT   4094
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+Sturnira_hond   3901 TGCAGGGTCAATGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCT   3950
+
+Homo_sapiens    4095 GGCTGAGCAGGGCACAGCTGGCCCGGACCCCACAACCGTCTACGTGGACA   4144
+                     |||||||||||||||.||||||||.|||||||||||.|||||||||||||
+Sturnira_hond   3951 GGCTGAGCAGGGCACGGCTGGCCCAGACCCCACAACGGTCTACGTGGACA   4000
+
+Homo_sapiens    4145 TGCGGGCACTGCGCCATGACAGGGTTCGTTTGGTAGAACGGGGTTCTCCG   4194
+                     ||.||||.|||||||||||||||||.|||||||||||||||||||||||.
+Sturnira_hond   4001 TGAGGGCGCTGCGCCATGACAGGGTACGTTTGGTAGAACGGGGTTCTCCT   4050
+
+Homo_sapiens    4195 CACAGCCTGCCATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTGAAGGT   4244
+                     |||||.|||||..|||.|||||||||||||||.|||||.||.||.|||||
+Sturnira_hond   4051 CACAGTCTGCCGCTGACGGAGTCTGGAAAGATTCTCCCTGGAGTAAAGGT   4100
+
+Homo_sapiens    4245 CATCATCGCACACACCGAGACCAAAGGACCCTTGGGAGACTCACACCTGG   4294
+                     |||||||||.|||||.||||||||.||.|||.|.||||||||.|||||||
+Sturnira_hond   4101 CATCATCGCGCACACTGAGACCAAGGGGCCCCTCGGAGACTCGCACCTGG   4150
+
+Homo_sapiens    4295 GAGAGATCTGGGTAAGCAGCCCCCACAATGCCACCGGGTACTACACCGTT   4344
+                     |||||||||||||.||||||||||||||||||||.||.||||||||.||.
+Sturnira_hond   4151 GAGAGATCTGGGTTAGCAGCCCCCACAATGCCACAGGCTACTACACGGTC   4200
+
+Homo_sapiens    4345 TACGGGGAGGAGGCGCTTCATGCCGACCACTTCAGTGCCCGGCTGAGTTT   4394
+                     .|||||||||||||||||||.||.|||||||||||||||||.|||||.||
+Sturnira_hond   4201 CACGGGGAGGAGGCGCTTCACGCTGACCACTTCAGTGCCCGACTGAGCTT   4250
+
+Homo_sapiens    4395 TGGAGACACACAGACCATCTGGGCAAGGACCGGCTACCTTGGCTTCCTTC   4444
+                     |||||||||.|||||||..|||||||||||.||||||||.||||||||||
+Sturnira_hond   4251 TGGAGACACCCAGACCACTTGGGCAAGGACTGGCTACCTGGGCTTCCTTC   4300
+
+Homo_sapiens    4445 GGCGAACAGAGCTCACTGATGCCAGTGGAGGGCGGCACGATGCACTGTAT   4494
+                     ||.|||||||||||||.|||||||||||||.|||.||.|||||.||||||
+Sturnira_hond   4301 GGAGAACAGAGCTCACCGATGCCAGTGGAGAGCGACATGATGCGCTGTAT   4350
+
+Homo_sapiens    4495 GTGGTTGGGTCTCTGGATGAAACTCTGGAGCTCAGAGGCATGCGGTACCA   4544
+                     |||||||||||||||||||||||.||||||||.||.||||||||||||||
+Sturnira_hond   4351 GTGGTTGGGTCTCTGGATGAAACACTGGAGCTGAGGGGCATGCGGTACCA   4400
+
+Homo_sapiens    4545 CCCCATCGACATTGAGACCTCTGTCATCCGAGCACACAGGAGCATCGCTG   4594
+                     ||||||||||||||||||.||.||.||||||||||||.||||||||||.|
+Sturnira_hond   4401 CCCCATCGACATTGAGACGTCCGTGATCCGAGCACACCGGAGCATCGCGG   4450
+
+Homo_sapiens    4595 AGTGTGCCGTATTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTG   4644
+                     ||||.||.||.|||||||||||||||||||||||.|||||||||||||||
+Sturnira_hond   4451 AGTGCGCTGTGTTCACCTGGACCAACCTGCTGGTCGTGGTGGTGGAGCTG   4500
+
+Homo_sapiens    4645 GATGGGCTAGAGCAGGATGCCCTGGACCTGGTGGCCCTGGTGACCAACGT   4694
+                     ||||||||.|||||.||.||.||||||||||||||.||||||||.||.||
+Sturnira_hond   4501 GATGGGCTGGAGCAAGACGCACTGGACCTGGTGGCTCTGGTGACAAATGT   4550
+
+Homo_sapiens    4695 GGTGCTGGAGGAGCACTACCTGGTCGTGGGAGTGGTGGTCATCGTGGACC   4744
+                     ||||.|||||||||||.||||.||.|||||.||||||||||||||.||||
+Sturnira_hond   4551 GGTGTTGGAGGAGCACCACCTTGTTGTGGGCGTGGTGGTCATCGTTGACC   4600
+
+Homo_sapiens    4745 CAGGGGTGATCCCTATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTG   4794
+                     ||||.|||||.||.||||||||||||||||||||||||||||||||||||
+Sturnira_hond   4601 CAGGTGTGATTCCCATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTG   4650
+
+Homo_sapiens    4795 CGGGACGGCTTCCTGGCTGACCAGCTGGACCCCATCTATGTCGCCTACAA   4844
+                     ||||||||||||||||||||.|||||||||||.|||||||||||||||||
+Sturnira_hond   4651 CGGGACGGCTTCCTGGCTGATCAGCTGGACCCGATCTATGTCGCCTACAA   4700
+
+Homo_sapiens    4845 CATG   4848
+                     ||||
+Sturnira_hond   4701 CATG   4704
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:41:39
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Meles_meles.fa
+#    -outfile Homo_sapiens-Meles_meles.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Meles_meles.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Meles_meles
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9532
+# Identity:    8411/9532 (88.2%)
+# Similarity:  8411/9532 (88.2%)
+# Gaps:          35/9532 ( 0.4%)
+# Score: 37494.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTC--GCGCCGGACAGG----     44
+                     ||||||.|.|||.|||||||||||.|..||||  ||||||| |.||    
+Meles_meles        1 ATGCACGCGGCCAGGACTCCCGGGATCGCCTCCGGCGCCGG-CGGGGTGG     49
+
+Homo_sapiens      45 --CAACTCCACCAGCTTTCAACCAG-GACCGCCACCGCCGCCCCGGCTGC     91
+                       .|||| ||||||.|||| |.||| .|||..|.|.||||||||..||..
+Meles_meles       50 CCAAACT-CACCAGTTTTC-AGCAGATACCTACGCTGCCGCCCCTCCTCG     97
+
+Homo_sapiens      92 TGCTGCTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAG    141
+                     ||.||||||||||||||||||||||||.|||||||.||||||||||||||
+Meles_meles       98 TGTTGCTGCTGCTGCTTCTCCTGTCACCGGTAAGCTGCGTCCCGGCACAG    147
+
+Homo_sapiens     142 CCCGCTG-CCTTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTG    190
+                     ||||||| ||.|..|| |.||||||||||||||.|.||||||||||||||
+Meles_meles      148 CCCGCTGCCCCTGAGC-GAGCGTTGCTGTCCCCGGATCTCGCGGGGGCTG    196
+
+Homo_sapiens     191 CAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGG    240
+                     ||||||||||.||.||||||||||||||||||||||||||.||.||||||
+Meles_meles      197 CAGGGGTCCCCGCCGAGGAGGCCATAGTGCTGGCGAACCGTGGGCTCCGG    246
+
+Homo_sapiens     241 GTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTT    290
+                     |||||.||||||||.||.||||||||||||||.|||||.|||||||||.|
+Meles_meles      247 GTGCCCTTCGGCCGCGAGGTCTGGCTGGATCCGCTGCACGACCTGGTGCT    296
+
+Homo_sapiens     291 GCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACG    340
+                     ||||||||||||.||||||||||||.||||..|.||.|||||||||||||
+Meles_meles      297 GCAGGTGCAGCCGGGGGACCGCTGCTCGGTGACCGTGCTAGACAACGACG    346
+
+Homo_sapiens     341 CACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGAC    390
+                     |.|||||||||.|.||.||||||||||.||||||||||||||||||||||
+Meles_meles      347 CGCTGGCCCAGAGGCCTGGCCGCCTGAATCCCAAGCGCTTCCCGTGCGAC    396
+
+Homo_sapiens     391 TTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTC    440
+                     ||.|||||.||.|||||.||||||||.||||||||||||||||||||.||
+Meles_meles      397 TTCGGCCCGGGAGAGGTACGCTACTCGCACCTGGGCGCGCGCAGCCCATC    446
+
+Homo_sapiens     441 TCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCAG    490
+                     .|||||.|||.|.|||||||||||||||||.||||||||.||||||||||
+Meles_meles      447 GCGGGATCGCATTCGGCTGCAGCTGCGCTACGACGCGCCTGGAGGGGCAG    496
+
+Homo_sapiens     491 TAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAG    540
+                     .|||||||||..||||.||||.||||||||||||||||||||||||.|||
+Meles_meles      497 CAGTGCTACCCTTGGTGCTGGCGGTGGAGGTGGTCTTCACCCAGCTAGAG    546
+
+Homo_sapiens     541 GTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCAG    590
+                     ||||||||||||||||||||.||.||||||||.|||||||||||||||||
+Meles_meles      547 GTTGTGACTCGGAACTTGCCCCTCGTCGTGGAGGAGCTGCTGGGGACCAG    596
+
+Homo_sapiens     591 CAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACAG    640
+                     .||||||||.|||||.||||||||||||||.||||.||||||||||||.|
+Meles_meles      597 TAATGCCCTAGACGCACGGAGCCTGGAGTTTGCCTACCAGCCCGAGACCG    646
+
+Homo_sapiens     641 AGGAGTGCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTAT    690
+                     ||||.||.|||||||||||||||||||||.||.||||||||||||||||.
+Meles_meles      647 AGGAATGTCGCGTGGGCATCCTGTCCGGCCTGAGCGCGCTGCCTCGCTAC    696
+
+Homo_sapiens     691 GGAGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGG    740
+                     ||.||.|||||.|||||||||||.||.||.||.||||||||..||||.||
+Meles_meles      697 GGGGAGCTCCTTCACTACCCGCAAGTTCCAGGTGGAGCCAGCAAGGGGGG    746
+
+Homo_sapiens     741 CGCCCCGGAGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCG    790
+                     |||||.|||..|||||||||||||||||||||||||||||||||||||||
+Meles_meles      747 CGCCCAGGATCCTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCG    796
+
+Homo_sapiens     791 TGCGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATA    840
+                     |||||||.||||||||.|||.|||||||.||.|||||||||||||||.|.
+Meles_meles      797 TGCGCTACCGCCACACGGCCCCCAGTCGGTCCCCAAACAGGGACTGGGTC    846
+
+Homo_sapiens     841 CCCATGGTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTGC    890
+                     ||.|||||||||||||||||.||.||.||..|.|||||||||||.|||||
+Meles_meles      847 CCTATGGTGGTGGAGCTGCGGTCTCGTGGTTCGCCTGTGGGCAGGCCTGC    896
+
+Homo_sapiens     891 TTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCG    940
+                     |.|||||||.||||||||||||||.||||||||.||||||||||||||||
+Meles_meles      897 TCTGAAACGTGAGCACTTCCAGGTGCTGGTGAGAATCCGAGGAGGGGCCG    946
+
+Homo_sapiens     941 AGAACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTG    990
+                     |||||||.||.||||||||||||||.||||||||||||||||||||||||
+Meles_meles      947 AGAACACCGCCCCCAAGCCCAGTTTTGTGGCCATGATGATGATGGAGGTG    996
+
+Homo_sapiens     991 GACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGA   1040
+                     ||.|||||||||||.||.|||||||||||||||||||||||.||.|||||
+Meles_meles      997 GATCAGTTTGTACTCACCGCCCTGACCCCAGACATGCTGGCCGCTGAGGA   1046
+
+Homo_sapiens    1041 TGCTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCC   1090
+                     |||||||||||||.||||||||||||||||||||||.||.|||||.||||
+Meles_meles     1047 TGCTGAGTCTCCCCCTGACCTGTTGATCTTCAACCTCACCTCTCCCTTCC   1096
+
+Homo_sapiens    1091 AGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTT   1140
+                     |||||||||||||||||.|.||.||.||.||||||||||||||||||||.
+Meles_meles     1097 AGCCTGGCCAGGGCTACCTAGTTAGTACTGATGATCGCAGCCTGCCCCTC   1146
+
+Homo_sapiens    1141 TCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCC   1190
+                     ||.|||||||||||||.|||.|||||||||.|||||||||||||||||||
+Meles_meles     1147 TCGTCCTTCACTCAGAAGGACCTGCGGCTCTTGAAGATTGCCTACCAGCC   1196
+
+Homo_sapiens    1191 CCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGG   1240
+                     |||.|||||.|||||.|||||||||||.||||||||||||||..||||||
+Meles_meles     1197 CCCCTCTGAGGACTCCGACCAGGAGCGGCTCTTTGAACTGGAGCTGGAGG   1246
+
+Homo_sapiens    1241 TAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTG   1290
+                     |||||||.|..||||||||.||.||||||||||||||.||.|||||||||
+Meles_meles     1247 TAGTGGACCCGGAAGGAGCTGCCTCAGACCCTTTTGCTTTTATGGTAGTG   1296
+
+Homo_sapiens    1291 GTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCT   1340
+                     ||||||||||||||||||.|||||||..|||||||||||||.||||||||
+Meles_meles     1297 GTGAAGCCCATGAACACACTGGCTCCCCTGGTCACCCGGAACACCGGTCT   1346
+
+Homo_sapiens    1341 TATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTG   1390
+                     .||||||||.|||||.|||||.||||||||.|||||||||||.|||||||
+Meles_meles     1347 CATTCTCTACGAGGGCCAGTCCCGGCCCCTTACAGGCCCTGCGGGCAGTG   1396
+
+Homo_sapiens    1391 GTCCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCGG   1440
+                     |.||.||||||||||||||||||||||||||||||||.||.|||||||.|
+Meles_meles     1397 GGCCACAAAACTTGGTCATCAGCGATGAGGATGACCTGGAGGCAGTGCAG   1446
+
+Homo_sapiens    1441 CTAGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGC   1490
+                     ||.||||||||||||||||||||||||||||||||||||.||||||||||
+Meles_meles     1447 CTGGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCCTTCTGGGTGC   1496
+
+Homo_sapiens    1491 TTCCAGTGGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTGGCAG   1540
+                     ..||..|||||||||.||.||.||||.||||||.|||||||||||.|..|
+Meles_meles     1497 CACCCATGGCAGCTCCGCCCCTAAGACCTTTACGGTGGCTGAGCTAGTGG   1546
+
+Homo_sapiens    1541 CCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGAC   1590
+                     |||||||||||||||||||.||||||||||.|||.|||||.|||||.|||
+Meles_meles     1547 CCGGCCAGGTGGTCTACCATCATGATGACAAAGATGGCTCACTGAGTGAC   1596
+
+Homo_sapiens    1591 AACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGTT   1640
+                     |||||.||.|||||.|||||||||||.|||.||.|.||||||||.|||||
+Meles_meles     1597 AACCTTGTCCTTCGAATGGTGGATGGTGGACGCCGACACCAGGTGCAGTT   1646
+
+Homo_sapiens    1641 TCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTCA   1690
+                     .|||||||||||||||||||||||||||||||||||||||||.||.||||
+Meles_meles     1647 CCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCAGTCCTCA   1696
+
+Homo_sapiens    1691 ATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTG   1740
+                     |.||.|||||.|||||||||||||||||.|||||.|||||||||||||||
+Meles_meles     1697 ACGCTAACACAGGGCTGACACTGGCAGAAGGTGAGACAGTGCCCATCCTG   1746
+
+Homo_sapiens    1741 CCCCTTTCCCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGCT   1790
+                     ||||||.|.||.|||||.||||||||.||.||||||||.|||||||||||
+Meles_meles     1747 CCCCTTGCTCTAAGTGCGACTGACATTGACTCAGATGACTCTCTGCTGCT   1796
+
+Homo_sapiens    1791 TTTTGTGCTGGAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTCCGCC   1840
+                     |||||||||||||||.||||.||..|||.|.|||||||||||||||||||
+Meles_meles     1797 TTTTGTGCTGGAGTCGCCCTCCTCGACTGCAGGGCATCTGCTTCTCCGCC   1846
+
+Homo_sapiens    1841 AAACTCACCCTCCCCATGA-GAAGCAGGAACTTCTCAGAGGCCTTTGGAG   1889
+                     ||||.||.||||||||||| |||| ||||.||...|||.||||.||||||
+Meles_meles     1847 AAACGCATCCTCCCCATGAGGAAG-AGGAGCTGAGCAGGGGCCCTTGGAG   1895
+
+Homo_sapiens    1890 GAAGGAGGGGGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGG   1939
+                     ||...||||.|||||.|||||||.|||||||||||||||||.|||||.||
+Meles_meles     1896 GAGACAGGGAGCATTCTATGAGCAAACAGTGACAGAGTGGCGGCAGCGGG   1945
+
+Homo_sapiens    1940 ACATAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCT   1989
+                     ||||||..|||||..|||||||||||||.||||..||||||||.||||||
+Meles_meles     1946 ACATAAGTGAGGGACGGCTGTTCTATAGGCACTTGGGGCCCCACAGTCCT   1995
+
+Homo_sapiens    1990 GGGCCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCC   2039
+                     ||||||||.|..|||||||||||||||.|.|||||||||||||||||.||
+Meles_meles     1996 GGGCCAGTGATGGACCAGTTCACATTTCGGGTCCAGGATAACCATGATCC   2045
+
+Homo_sapiens    2040 TCCTAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGG   2089
+                     ||||||||||||.||.|.|||..|.||||||||.||.||.||.|||||||
+Meles_meles     2046 TCCTAATCAGTCTGGACCACACAGATTTGTGATACGCATTCACCCTGTGG   2095
+
+Homo_sapiens    2090 ATCGCCTCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTA   2139
+                     ||||.||||||||.|||||||||||.||||||||||||||.||||||||.
+Meles_meles     2096 ATCGTCTCCCTCCAGAGCTGGGCAGCGGCTGTCCCCTTCGGATGGTGGTG   2145
+
+Homo_sapiens    2140 CAGGAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGA   2189
+                     |||||||||||||||||.||.||||||||||||||||||||||||||.||
+Meles_meles     2146 CAGGAATCCCAGCTCACCCCTCTGAGGAAGAAGTGGCTGCGCTACACCGA   2195
+
+Homo_sapiens    2190 CCTGGACACAGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCA   2239
+                     |||||||||.|||||||||||.||.||||||||||||||.|||||.||||
+Meles_meles     2196 CCTGGACACGGATGACCGAGACCTGCGTTACACAGTGACCCAGCCTCCCA   2245
+
+Homo_sapiens    2240 CAGACACAGACGAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTG   2289
+                     ..|||||.||||||||.|||..|||.|||||||||||.|||||||||.||
+Meles_meles     2246 TGGACACGGACGAAAACCACTCGCCTGCCCCACTGGGCACCTTGGTCCTG   2295
+
+Homo_sapiens    2290 ACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAA   2339
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Meles_meles     2296 ACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAA   2345
+
+Homo_sapiens    2340 CCATCATAAAATTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTA   2389
+                     |||.||||||||||||||||||||.||.|..|||||||||||.||||||.
+Meles_meles     2346 CCACCATAAAATTGCTTACAGACCTCCAGAGCAAGAACTGGGAGTGGCTG   2395
+
+Homo_sapiens    2390 CTCGAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTG   2439
+                     |.|||||||||||||||||||||||||||||.||.|.|||||||||||||
+Meles_meles     2396 CCCGAGTGGCCCAGTTCCAGTTCCAGGTGGAGGATCAAGCTGGGAATGTG   2445
+
+Homo_sapiens    2440 GCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACC   2489
+                     |||||.||.|||||.||.|||||||||||.||.|||||||||||||||||
+Meles_meles     2446 GCTCCGGGCACCTTCACGCTTTACTTGCAGCCAGTGGACAACCAGCCACC   2495
+
+Homo_sapiens    2490 TGAGATCCTCAACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCC   2539
+                     |||||||||||||||.||.|||||.||||||||||||||.||||||.|||
+Meles_meles     2496 TGAGATCCTCAACACAGGTTTCACCATTCAGGAGAAGGGCCACCACGTCC   2545
+
+Homo_sapiens    2540 TGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCAT   2589
+                     ||||||||||.|||||||..|||||||||||||||||||||||.|||||.
+Meles_meles     2546 TGAGTGAGACCGAGTTGCGTGTGAATGATGTAGACACTGATGTCGCCCAC   2595
+
+Homo_sapiens    2590 ATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCACATGAGAGTGTC   2639
+                     ||||||||||||||||..|||||.||||||||.|||||||||||||||||
+Meles_meles     2596 ATCTCTTTCACTCTCATGCAGGCGCCCAAACACGGCCACATGAGAGTGTC   2645
+
+Homo_sapiens    2640 TGGACAGATCCTGCATGTAGGGG-GTCTCTTCCACTTGGAGGACATAAAA   2688
+                     |||||||||.||||||||.|||| |.| |||||||.||||.|||||||||
+Meles_meles     2646 TGGACAGATACTGCATGTCGGGGAGGC-CTTCCACCTGGAAGACATAAAA   2694
+
+Homo_sapiens    2689 CAGGGCCGAGTTTCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAG   2738
+                     |||||.||..|||||||||||||||||||.||..||||.||.||||||||
+Meles_meles     2695 CAGGGTCGGATTTCCTATGCCCATAATGGCGATGAGTCTCTCACTGATAG   2744
+
+Homo_sapiens    2739 CTGCTCCTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCA   2788
+                     ||||||||||||.||||||||||||||.||.|||||||||||||||||||
+Meles_meles     2745 CTGCTCCTTGGAGGTCAGTGACAGACACCACGTGGTGCCCATCACTCTCA   2794
+
+Homo_sapiens    2789 GAGTAAATGTCCGGCCAGTGGATGATGAAGTGCCCATACTGAGCCATCCT   2838
+                     ||||.|||||||||||.|.|||||||||.|.||||.|.|||||||.||||
+Meles_meles     2795 GAGTGAATGTCCGGCCGGCGGATGATGAGGGGCCCGTGCTGAGCCTTCCT   2844
+
+Homo_sapiens    2839 ACTGGCACTCTGGAGTCCTATCTAGATG-TCTTAGAAAATGGGGCTACTG   2887
+                     .||||.|||||||.|||.||..|||||| |||| |||||.||.|||||||
+Meles_meles     2845 GCTGGTACTCTGGGGTCTTACTTAGATGTTCTT-GAAAACGGAGCTACTG   2893
+
+Homo_sapiens    2888 AAATCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTG   2937
+                     |||||||||||..||||||.||||||||..|||||||.||||||||..||
+Meles_meles     2894 AAATCACTGCCGGTGTTATCAAGGGGACTGATGAGGACACTGATGATGTG   2943
+
+Homo_sapiens    2938 ATGTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGT   2987
+                     |||||||||||..||||||||||||||||.||.|||||.||||||.||||
+Meles_meles     2944 ATGTTGACTTTTGTCTTGGAAGATCCACCCTTATATGGAGAAATCCTGGT   2993
+
+Homo_sapiens    2988 CAATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCT   3037
+                     |||.||..|||||||||||||||||||.||||.||||||||||||.||||
+Meles_meles     2994 CAACGGAGTTCCAGCAGAGCAGTTTACCCAAAAGGACATCTTGGAAGGCT   3043
+
+Homo_sapiens    3038 CTGTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCG   3087
+                     ||||..|.|||.|||||||.||.||||||||||||||.|||||.|.||.|
+Meles_meles     3044 CTGTCATCTATGCCCACACTAGCGGTGAGATAGGCCTGTTGCCCAGAGGG   3093
+
+Homo_sapiens    3088 GATTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGG   3137
+                     ||.||||||||||||||||||||||||.||||||||||||||..|||.||
+Meles_meles     3094 GACTCTTTTAACCTGAGTCTGTCAGATGTGTCTCAAGAATGGGTAATAGG   3143
+
+Homo_sapiens    3138 TGGCAATACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTG   3187
+                     |.||||||||||||||||||||||..|.||||||||||||||.|||||||
+Meles_meles     3144 TAGCAATACTATCCAAGGAGTTACCGTGTGGGTGACCATCCTCCCTGTTG   3193
+
+Homo_sapiens    3188 ATAGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAA   3237
+                     |||.||||||.||||||||.|.|||||||||||||||.|||||.||||||
+Meles_meles     3194 ATAACCAGGCTCCAGAAATTTCTGTAGGTGAACAGTTTATAGTCATGGAA   3243
+
+Homo_sapiens    3238 GGTGATAAAAGTGTTATAACATCAGTGCATATAAGTGCTGAAGATGTCGA   3287
+                     ||||||||||||||||||||.|||...||||||||||||.|||||.|.||
+Meles_meles     3244 GGTGATAAAAGTGTTATAACCTCAACACATATAAGTGCTCAAGATATTGA   3293
+
+Homo_sapiens    3288 CTCCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACTTCAG   3337
+                     .||.||.|..||||||.||||||||||||||||||||||||||||.||.|
+Meles_meles     3294 TTCACTAACCGATGACCTCTTGTGCACTATAGTTATTCAGCCTACCTCCG   3343
+
+Homo_sapiens    3338 GTTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCA   3387
+                     |||||.|||||||||||||||||||.|||||||||||.||||||||||||
+Meles_meles     3344 GTTATATTGAAAACATTTCTCCAGCCCCAGGCTCTGAAAAATCAAGAGCA   3393
+
+Homo_sapiens    3388 GGGATTGCCATAAGTGCTTTCAACTTGAAAGATCTCAGGCAGGGCCACAT   3437
+                     ||.||||||||||||||.||.|.|.|||||||.|||||||||.|.||.||
+Meles_meles     3394 GGAATTGCCATAAGTGCCTTTACCCTGAAAGACCTCAGGCAGAGTCATAT   3443
+
+Homo_sapiens    3438 AAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGAT   3487
+                     .|||||||||||||||||||||||||||||.|||||||||||.|||||||
+Meles_meles     3444 TAACTATGTCCAGAGTGTCCATAAAGGGGTCGAACCTGTGGAAGACCGAT   3493
+
+Homo_sapiens    3488 TTGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTTC   3537
+                     ||.|||||||||||||||||||||||||||||||||||||.||.||.|||
+Meles_meles     3494 TTATATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGGCATTTTTTC   3543
+
+Homo_sapiens    3538 CCCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATGTTTATGAG   3587
+                     ||||||||.|||||||||||||||||||||||||||||.||.||||||||
+Meles_meles     3544 CCCATTGTCATCATTCCCACCAATGATGAACAGCCAGAAATATTTATGAG   3593
+
+Homo_sapiens    3588 AGAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATACACCCATTC   3637
+                     ||||||||||||||||||.||||||||||||||.||||||||||||||.|
+Meles_meles     3594 AGAATTTATGGTGATGGAGGGCATGAGTCTGGTGATTGATACACCCATCC   3643
+
+Homo_sapiens    3638 TCAATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACTTTCACTATT   3687
+                     |||||||.|||||||||||..|.||||..||||||.||||||||||||||
+Meles_meles     3644 TCAATGCCGCTGATGCTGACATGCCCCCAGATGATCTAACTTTCACTATT   3693
+
+Homo_sapiens    3688 ACCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGATAAATGGCAC   3737
+                     ||||.|||.||.||||..||||||||||||||.|||||||||||||||||
+Meles_meles     3694 ACCCGATTTCCTACTCGAGGTCACATCATGAACCAGCTGATAAATGGCAC   3743
+
+Homo_sapiens    3738 GGTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCA   3787
+                     .||||||||.|||||||||||||||||||||||||||||||||||.||||
+Meles_meles     3744 AGTTTTGGTTGAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCAAGCA   3793
+
+Homo_sapiens    3788 TTATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATT   3837
+                     ||||||||||||||||||||||.||||||||||||||.||||||||||||
+Meles_meles     3794 TTATTTATGAGCATGATGACTCTGAGACCCAGGAAGATAGTTTTGTGATT   3843
+
+Homo_sapiens    3838 AAACTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGT   3887
+                     |.||||||||||||.||||||||.|||||||.||.|||||||||||||||
+Meles_meles     3844 AGACTAACAGATGGTAAGCACTCAGTGGAAAGGATGGTCCTCATTATAGT   3893
+
+Homo_sapiens    3888 TATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAATAATGGACTAG   3937
+                     .|||||.||||||||||||||.||||||||||..||||||||.||.||||
+Meles_meles     3894 GATCCCAGTTGATGATGAGACCCCCAGAATGATGATCAATAACGGGCTAG   3943
+
+Homo_sapiens    3938 AAATAGAAATTGGGGATACCAAGATTATCAACAACAAAATATTAATGGCA   3987
+                     ||||||||||||||||.|||||.|||||||||||||||||||||||||||
+Meles_meles     3944 AAATAGAAATTGGGGAAACCAAAATTATCAACAACAAAATATTAATGGCA   3993
+
+Homo_sapiens    3988 ACAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGG   4037
+                     ||||||||.||.||.|||||||||||||||||||||.|||||||||||||
+Meles_meles     3994 ACAGATTTGGACTCTGAAGACAAATCTTTGGTTTATGTTATTCGTTATGG   4043
+
+Homo_sapiens    4038 GCCAGGACATGGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAA   4087
+                     .|||||||||||||||||.||||||||||..|||||.||||.||||||||
+Meles_meles     4044 ACCAGGACATGGCTTATTGCAGAGACGAATGCCTACAGGTGTCTTTGAAA   4093
+
+Homo_sapiens    4088 ATATCACACTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTA   4137
+                     |||||||||||||||||||||||||||||||.|||||.||||||||||||
+Meles_meles     4094 ATATCACACTGGGCATGAATTTTACCCAGGACGAAGTGGACAGAAACTTA   4143
+
+Homo_sapiens    4138 ATTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATT   4187
+                     ||||||||||||||.||.||.|||||||||||||||||||||||||||||
+Meles_meles     4144 ATTCAGTATGTCCACTTTGGACAAGAGGGCATTCGGGACCTAATTAAATT   4193
+
+Homo_sapiens    4188 TGATGTGACTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGT   4237
+                     ||||||||||||||||||||||.|||||||||||||.|||||||||||.|
+Meles_meles     4194 TGATGTGACTGATGGAATAAATGCCCTCATAGATCGCTACTTTTATGTTT   4243
+
+Homo_sapiens    4238 CCATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTG   4287
+                     ||||.|||||||||||||||||||||||.|||||||||||.||.|||||.
+Meles_meles     4244 CCATTGGGAGCATTGACATTGTCTTCCCAGATGTGATAAGCAAAGGAGTA   4293
+
+Homo_sapiens    4288 TCCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCAC   4337
+                     |||||||||||||||||.|||||||||||.||||||||||||||||||||
+Meles_meles     4294 TCCTTGAAAGAAGGTGGAAAAGTCACTCTCACAACAGACCTACTAAGCAC   4343
+
+Homo_sapiens    4338 TAGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGG   4387
+                     .|||||||||||||||||.|||||||||||.|||||||||||||||||||
+Meles_meles     4344 CAGTGACTTGAACAGTCCCGATGAAAACTTAGTTTTTACCATCACCAGGG   4393
+
+Homo_sapiens    4388 CTCCCATGCGAGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATC   4437
+                     ||||||||.||||||||.|.||.|||||.|||||.|.|||....||||||
+Meles_meles     4394 CTCCCATGAGAGGTCACTTAGAGTGCACAGATCAACTTGGAACATCCATC   4443
+
+Homo_sapiens    4438 ACGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCA   4487
+                     ||.||||||||||||||.|||||||||||.||||||||||||||||||||
+Meles_meles     4444 ACATCTTTCACTCAGCTCCAACTGGCTGGCAACAAAATCTACTACATCCA   4493
+
+Homo_sapiens    4488 CACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCG   4537
+                     |||||||||.||||||||.||.||||||||||||||||||||.|||||||
+Meles_meles     4494 CACAGCTGACGATGAAGTCAAGATGGACAGTTTTGAGTTTCAGGTCACCG   4543
+
+Homo_sapiens    4538 ATGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTG   4587
+                     ||||.||||||||||||||.|||||.||.||||||||||||||.||||||
+Meles_meles     4544 ATGGCCGTAACCCTGTCTTCCGGACGTTTCGTATCTCCATTAGTGATGTG   4593
+
+Homo_sapiens    4588 GACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAG   4637
+                     ||.||.|||||.||.||||||||||||||.||.|||||||||||||||.|
+Meles_meles     4594 GATAACAAAAAACCGGTGGTCACCATCCATAACCTGGTTGTCAGTGAAGG   4643
+
+Homo_sapiens    4638 TGAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATA   4687
+                     |||||||||||||||.|||||.|||||.||||||||||||||||||||||
+Meles_meles     4644 TGAAAACAAGCTGATCACTCCCTTTGAACTCACTGTCGAAGACAGAGATA   4693
+
+Homo_sapiens    4688 CTCCTGACAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGC   4737
+                     ||||||||||.||||||||.||||.|.||||||||||||||.||||.||.
+Meles_meles     4694 CTCCTGACAAACTCCTGAAGTTCATTGTCACCCAGGTGCCTGTTCACGGT   4743
+
+Homo_sapiens    4738 CATCTCCTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGA   4787
+                     ||.|||||.|||||||||||||||||...|||||||||||||||||||||
+Meles_meles     4744 CAACTCCTGTTCAACAATACCAGACCCACCATGGTTTTTACCAAGCAAGA   4793
+
+Homo_sapiens    4788 CTTGAATGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTG   4837
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+Meles_meles     4794 CTTGAATGAAAACTTAATCAGCTACAGACATGATGGCACTGAGTCAAGTG   4843
+
+Homo_sapiens    4838 AAGATAGCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTAT   4887
+                     ||||.||||||||||||||.|||||||||||..||||||||||.||||||
+Meles_meles     4844 AAGACAGCTTCTCCTTCACGGTGACTGATGGTTCCCATACAGAGTTCTAT   4893
+
+Homo_sapiens    4888 GTTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGAT   4937
+                     |||||.||||||||....|||||||||||||||||||||||||||||.||
+Meles_meles     4894 GTTTTCCCTGATACAACATTTGAAACAAGGAGACCCCAAGTGATGAAAAT   4943
+
+Homo_sapiens    4938 CCAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGG   4987
+                     |||||||||.|||||||||.|.||||||||||||.|.||.|||||.||.|
+Meles_meles     4944 CCAGGTCTTAGCTGTTGACGATAGTGTCCCCCAAGTTGCCGTGAACAAAG   4993
+
+Homo_sapiens    4988 GGGCCTCTACACTTCGCACTCTAGCC-ACTGGCCACTTGGGGTTCATGAT   5036
+                     |.|||||.|||||||||||||| ||| |||||.|||||||||||||||||
+Meles_meles     4994 GAGCCTCCACACTTCGCACTCT-GCCTACTGGTCACTTGGGGTTCATGAT   5042
+
+Homo_sapiens    5037 CACAAGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTC   5086
+                     ||||||||||||||||||||.||||||||||||||||.||||..||||||
+Meles_meles     5043 CACAAGCAAAATATTGAAAGCGGAGGACAGAGACAGCCTACATTTTTCTC   5092
+
+Homo_sapiens    5087 TTAGATTTATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTG   5136
+                     |.||.|||||.||||||||||||||||.||||||.|||||.|||||||||
+Meles_meles     5093 TCAGGTTTATTGTGACAGAGGCCCCTCGACATGGCTATCTCCTCAACCTG   5142
+
+Homo_sapiens    5137 GACAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGA   5186
+                     ||||.||||||||||||..|.||||||||.||||||||||||||||||||
+Meles_meles     5143 GACAGAGGCAACCACAGTGTGACTCAGTTTACACAAGCTGACATTGATGA   5192
+
+Homo_sapiens    5187 CATGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATA   5236
+                     |||||||||||||||.||.||||.|||.|||||.||||||||||||||||
+Meles_meles     5193 CATGAAAATATGCTACGTTTTAAAAGACGGGGCCAATGCCACAAGTGATA   5242
+
+Homo_sapiens    5237 TGTTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAG   5286
+                     |||||.|||||.|||||||||||||||||||||||||.|||||..|.|||
+Meles_meles     5243 TGTTCCATTTTACAGTTGAAGATGGTGGTGGAAACAAATTAACCAAGCAG   5292
+
+Homo_sapiens    5287 AATTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCT   5336
+                     .|||||||||||||||||||.|||||||||||||||||||||||||||.|
+Meles_meles     5293 CATTTTCGTCTGAATTGGGCCTGGATCTCCTTTGAAAAGGAATATTACTT   5342
+
+Homo_sapiens    5337 GGTCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTT   5386
+                     |.|||||||.||||||||||||||||||||.|||||||||||||||||||
+Meles_meles     5343 GATCAATGAAGACTCCAAATTTCTAGATGTCGTTCTTAAACGTAGAGGTT   5392
+
+Homo_sapiens    5387 ACTTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCA   5436
+                     ||||||||||.|||||.|||||||||||||||||||||||..|.||||||
+Meles_meles     5393 ACTTGGGAGAGACTTCATTTATAAGTATTGGCACAAGAGATGGGACTGCA   5442
+
+Homo_sapiens    5437 GAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAA   5486
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Meles_meles     5443 GAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAA   5492
+
+Homo_sapiens    5487 CCCAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGG   5536
+                     |||||||||||||||||||||.|||.||||.||||||.||||.|||||||
+Meles_meles     5493 CCCAGGCCAGACCAGGGCCACCTGGAGAGTTCGGATCATGAGCGATGGGG   5542
+
+Homo_sapiens    5537 AGCATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTG   5586
+                     |||||||||||||.||.||.||.|||.|.||.||.||||||||.||||||
+Meles_meles     5543 AGCATGAGCAGTCGGAGACTTTCCAGATCGTTCTGTCAGAGCCAGTGCTG   5592
+
+Homo_sapiens    5587 GCTGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGG   5636
+                     |||||..|||||||||||.||||...|||.||.|||||.|||||.|||||
+Meles_meles     5593 GCTGCTCTGGAATTCCCCTCAGTGATCACGGTGGAGATTGTTGACCCAGG   5642
+
+Homo_sapiens    5637 AGATGAGCCAACTGTGTTTATTCCCCAGTCCAAATACTCCGTTGAAGAAG   5686
+                     |||||||.|||||||.|.|||||||||||||.||||||||||.|||||||
+Meles_meles     5643 AGATGAGTCAACTGTATATATTCCCCAGTCCGAATACTCCGTCGAAGAAG   5692
+
+Homo_sapiens    5687 ATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAG   5736
+                     ||||.|||||||||||||||||||||.||||.||.|||||.|||||||||
+Meles_meles     5693 ATGTCGGTGAGCTGTTCATTCCCATCCGGAGAAGTGGAGACGTGAGCCAG   5742
+
+Homo_sapiens    5737 GAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGT   5786
+                     |||.|||||||||||||||||||.||||||||.||||||..|||||||||
+Meles_meles     5743 GAGCTGATGGTGGTCTGTTATACACAACAAGGCACAGCAGGTGGAACTGT   5792
+
+Homo_sapiens    5787 GCCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACC   5836
+                     |||.||.||.|||.||||.||.||.|||||||||||||||||.|||||||
+Meles_meles     5793 GCCCACATCAGTGCTGTCCTATTCAGATTACATATCCAGGCCGGAGGACC   5842
+
+Homo_sapiens    5837 ACACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGG   5886
+                     ||||||||||..||||.|||||||.||||||.||.||||||.|||||||.
+Meles_meles     5843 ACACCAGTGTCATCCGTTTTGACAGAGATGAGCGTGAGAAAATGTGTCGC   5892
+
+Homo_sapiens    5887 ATAGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGT   5936
+                     ||..|..|.|||||.|||||.|||||.||.||.||||||||.||||||||
+Meles_meles     5893 ATCATTGTTATTGACGACTCCTTGTATGAAGAAGAGGAAACATTCCATGT   5942
+
+Homo_sapiens    5937 CCTTCTGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGG   5986
+                     |||||||||||||||||||||.||.||.||.|||||.||||||||||..|
+Meles_meles     5943 CCTTCTGAGCATGCCCATGGGTGGGAGGATTGGATCGGAGTTCCCAGCAG   5992
+
+Homo_sapiens    5987 CTCAAGTTACAATCGTTCCTGACAAAGATGATGAACCCATCTTTTACTTC   6036
+                     ||||..|||..|||.|.|||||.||||||||||||||..||||.||||||
+Meles_meles     5993 CTCAGATTAAGATCATCCCTGATAAAGATGATGAACCTGTCTTCTACTTC   6042
+
+Homo_sapiens    6037 GGTGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCA   6086
+                     ||.||.||.||.|||.|||||||.|||||.||||||||.|||||.||||.
+Meles_meles     6043 GGCGACGTCGAGTACCCTGTGGACGAGAGCGCTGGCTACGTGGAGGTGCG   6092
+
+Homo_sapiens    6087 GGTGTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGA   6136
+                     ||||||||||||.|||||.|||||.||||.||||||.||||||||.||||
+Meles_meles     6093 GGTGTGGAGAACAGGCACGGACCTCTCCAGGTCTTCCAGTGTCACCGTGA   6142
+
+Homo_sapiens    6137 GGTCTCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAACAGACTATGTG   6186
+                     |.||.||||||||.||||||||||||||.|||||||||||||||||||||
+Meles_meles     6143 GATCCCGGAAAACCGATCCTCCCTCTGCTGATGCTGGAACAGACTATGTG   6192
+
+Homo_sapiens    6187 GGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTGT   6236
+                     ||.|||||.||.|||||||||||..||||||||||||||||||||.|.||
+Meles_meles     6193 GGAATCAGTCGGAATTTAGATTTCACACCTGGAGTCAACATGCAGACCGT   6242
+
+Homo_sapiens    6237 TCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAATTG   6286
+                     |||||||.||||.||||||||||||||.||.||.|.||||||||||||||
+Meles_meles     6243 TCGTGTTATCATCCTGGATGACCTTGGGCAGCCGGTGCTGGAGGGAATTG   6292
+
+Homo_sapiens    6287 AGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGAG   6336
+                     ||||||||||||||||||||||.|||||||||||.||.|||||.||.|||
+Meles_meles     6293 AGAAATTTGAACTGGTGCTTCGTATGCCTATGAATGCTGCCCTCGGAGAG   6342
+
+Homo_sapiens    6337 CCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTAA   6386
+                     |||||||||||||||||||||||||||||.||.|||||.|||||||||||
+Meles_meles     6343 CCCAGCAAAGCCACAGTGTCCATAAATGATTCCGTCTCAGATTTGCCTAA   6392
+
+Homo_sapiens    6387 GATGCAATTCAAAGAACGAATATATACTGGCAGCGAAAGTGATGGGCAGA   6436
+                     .|||||.||||||||||||.||||||||||||.|||||.|||.|||||||
+Meles_meles     6393 AATGCAGTTCAAAGAACGAGTATATACTGGCAACGAAAATGACGGGCAGA   6442
+
+Homo_sapiens    6437 TAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCTTCAGTG   6486
+                     |.|||.||||||||||.||||.|||.||..|.||.||..|.|||||.|||
+Meles_meles     6443 TTGTTGCAATGATCCACAGGAGTGGAGACCTTCACTATCGGTCTTCCGTG   6492
+
+Homo_sapiens    6487 AGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGA   6536
+                     |||||||||||.||||||||.|||||.||||||||||.|||||||||.||
+Meles_meles     6493 AGATGCTACACACGGCAGGGCTCTGCGCAGGTGATGACGGACTTTGAGGA   6542
+
+Homo_sapiens    6537 ACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTGAGACAG   6586
+                     |||.|||||||||||||.|||||||||||||||.||||||||||||||.|
+Meles_meles     6543 ACGTCCAAACACTGATAGCTCCATCATCACATTTCTCCCTGGTGAGACTG   6592
+
+Homo_sapiens    6587 AAAAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCTATGAGGAGGTA   6636
+                     |||||||.||..||||||||||||||||.||....||||||||||||||.
+Meles_meles     6593 AAAAGCCTTGTGTTCTTGAGCTGATGGATGACAAACTCTATGAGGAGGTC   6642
+
+Homo_sapiens    6637 GAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTGG   6686
+                     |||||||||||||||||.||.|||||.||||||||||||||.||||.|||
+Meles_meles     6643 GAGGAGCTCCGCCTGGTTCTTGGCACCCCACAAAGCAACTCCCCCTATGG   6692
+
+Homo_sapiens    6687 GGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAGATGATG   6736
+                     ||||||||||||.|||||||||||||||.|.||||||||||.||||||.|
+Meles_meles     6693 GGCTGCAGTTGGGGAACAAAATGAAACTTTGATAAGGATCCAAGATGACG   6742
+
+Homo_sapiens    6737 CTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCACTGAA   6786
+                     |||||||||||||.||||||||||||||||||||||||||.||||.||||
+Meles_meles     6743 CTGATAAGACTGTGATTAAATTTGGAGAAACCAAATTTAGCGTCAGTGAA   6792
+
+Homo_sapiens    6787 CCCAAAGAACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCCA   6836
+                     ||||||||||..|||.|||||||||||.|||.||||||||||||||||||
+Meles_meles     6793 CCCAAAGAACTGGGACAGTCGGTGGTTGTAAAAATTCCAGTGATTCGCCA   6842
+
+Homo_sapiens    6837 AGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCT   6886
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+Meles_meles     6843 AGGAGATACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCT   6892
+
+Homo_sapiens    6887 CGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTTT   6936
+                     |.||.||||||||||||||.||.|||||||||||||||||||||||||||
+Meles_meles     6893 CTGCTACCTCTGGAGAAGATTATCACCCTGTGTCAGAAGAAATTGAGTTT   6942
+
+Homo_sapiens    6937 AAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACCTTTGACGG   6986
+                     |||||.||.|||||||||||..|.|||.|.||.|||||.|.|||.||.||
+Meles_meles     6943 AAGGAGGGAGAAACCCAGCATATTGTTAACATTGAAGTAATCTTCGATGG   6992
+
+Homo_sapiens    6987 GGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAA   7036
+                     |.|.||||||||||||||||||||||||||||||||||||||.|||||.|
+Meles_meles     6993 GATCAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCCGATGAGA   7042
+
+Homo_sapiens    7037 ATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAA   7086
+                     |.|||.|||||||||.||||.||||.||||||||||||||.|||||||||
+Meles_meles     7043 ACATGGTAGCAGAGACGCAGGTGACCAAAGCCATTGTGTATATAGAAGAA   7092
+
+Homo_sapiens    7087 ATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATC   7136
+                     ||||.||||||||||||||||||||||||||||||||||||.|||||.||
+Meles_meles     7093 ATGAACAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAGATTGTGTC   7142
+
+Homo_sapiens    7137 CCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCCA   7186
+                     ..|..||||||||||.|||||||||||.|||||.||.|||||||.|||||
+Meles_meles     7143 ATTACTGATGTATGATGACACTTCCAAGGCTAAAGATAGTGCTGGACCCA   7192
+
+Homo_sapiens    7187 TGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCA   7236
+                     ||||||||||||||||||||||||||||||||||||||||.|||||.|||
+Meles_meles     7193 TGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCCTAAATACTCA   7242
+
+Homo_sapiens    7237 GACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACAC   7286
+                     |||||.||.||||||||||||||.||.|||||||||||||||||.|||||
+Meles_meles     7243 GACTATGACAAAACAGGCTCTATTTGCGCAAGTGAGAACATCAACGACAC   7292
+
+Homo_sapiens    7287 TTTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTG   7336
+                     .|||||.||.||.||.|||||.|..||.|||||.||.||||||||.||.|
+Meles_meles     7293 CTTGACCCGCTATCGATGGCTAACCAGCGCACCCGCTGGCCCTGATGGCG   7342
+
+Homo_sapiens    7337 TGACCAGCCCTATGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATCC   7386
+                     |.||||||||.|||||||||||||||||.|||||||||||||||||||||
+Meles_meles     7343 TCACCAGCCCCATGAGAGAAGTGGACTTTGACACCTTTTTTACGTCATCC   7392
+
+Homo_sapiens    7387 AAGATGGTCACACTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTACA   7436
+                     ||||||.||||..|.||||||||||||||.||.|||||||||.||||.||
+Meles_meles     7393 AAGATGATCACCTTAGACTCCATATACTTCCAACCTGGCTCCAGGGTGCA   7442
+
+Homo_sapiens    7437 GTGCGCAGCTCGTGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCA   7486
+                     |||.||.||.|||||||||||..||||.||..||||.|||||||||||.|
+Meles_meles     7443 GTGTGCGGCCCGTGCTGTGAATGCCAACGGCAATGAGGGCCTGGAGCTGA   7492
+
+Homo_sapiens    7487 TGAGCCCTATTGTAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGT   7536
+                     |||||||||||||.|||||..||||||||||||||||.|||||||||||.
+Meles_meles     7493 TGAGCCCTATTGTCACCATTGGCAGAGAAGAAGGTCTGTGTCAGCCCCGG   7542
+
+Homo_sapiens    7537 GTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACAC   7586
+                     ||.||.|||...||.|||||||||||.|||||.|||||..||||||||||
+Meles_meles     7543 GTGCCAGGGACGGTGGGAGCAGAGCCATTCTCCGCTAAGCTGCGCTACAC   7592
+
+Homo_sapiens    7587 AGGCCCTGAGGATGCAGACTACACAAACCTTATCAAGCTCACTGTCACAA   7636
+                     ||||||.|||||..|||||||.||||||||||||||||||||.|||||.|
+Meles_meles     7593 AGGCCCCGAGGACCCAGACTATACAAACCTTATCAAGCTCACGGTCACGA   7642
+
+Homo_sapiens    7637 TGCCACACATAGATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCC   7686
+                     |||||||||||||||||||||||||.|||||||||||||.||||||.|||
+Meles_meles     7643 TGCCACACATAGATGGCATGCTCCCTGTGATCTCCACTAAAGAGCTGTCC   7692
+
+Homo_sapiens    7687 AACTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAA   7736
+                     ||||||||||||||||||||.|||||||||.|||||||||||||||||.|
+Meles_meles     7693 AACTTTGAGCTCACCCTCAGTCCTGATGGCTCAAGAGTTGGAAACCACCA   7742
+
+Homo_sapiens    7737 GTGCTCCAACCTCCTGGATTATACTGAAGTGAAGACTCATTATGGTTTCT   7786
+                     ||||||||||||.|||||||||||.|||||||||||||||.|||||||||
+Meles_meles     7743 GTGCTCCAACCTTCTGGATTATACCGAAGTGAAGACTCATCATGGTTTCT   7792
+
+Homo_sapiens    7787 TGACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGACATATCCTTAC   7836
+                     |.|||||||||||.||||||||||||.||||||||||||||.||||||||
+Meles_meles     7793 TAACTGATGCTACAAAAAATCCAGAAGTAATTGGAGAGACACATCCTTAC   7842
+
+Homo_sapiens    7837 CAGTACAGCTTGTCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAA   7886
+                     ||||||||||..||.||||||||.||.|.||||||.||||||||.||.||
+Meles_meles     7843 CAGTACAGCTCATCTATCAGAGGCTCTAGTACCTTACGCTTCTATCGAAA   7892
+
+Homo_sapiens    7887 CCTGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGT   7936
+                     |||||||||.|||||||||.|.||||||||.|||||||||||||||||||
+Meles_meles     7893 CCTGAACCTGGAGGCCTGTCTGTGGGAGTTTGTTAGCTACTATGACATGT   7942
+
+Homo_sapiens    7937 CAGAACTCCTTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTC   7986
+                     |||||||.||..||||||||||.||||||||.||.|||||.|||||||||
+Meles_meles     7943 CAGAACTTCTCACTGACTGTGGAGGCACCATCGGGACAGACGGACAGGTC   7992
+
+Homo_sapiens    7987 CTAAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTC   8036
+                     |||||.|||||||||||||||||||||||||||||.||||||||||||||
+Meles_meles     7993 CTAAATCTAGTGCAGTCCTATGTGACCCTTCGAGTGCCTCTGTATGTTTC   8042
+
+Homo_sapiens    8037 CTACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACT   8086
+                     ||||||||||||||||||.||.||||||||||||||||||||||||||||
+Meles_meles     8043 CTACGTGTTCCATTCCCCGGTTGGGGTAGGAGGCTGGCAGCATTTTGACT   8092
+
+Homo_sapiens    8087 TGAAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGG   8136
+                     ||||||||||.||.||.||.|||||||||||.|||||.||||||||||||
+Meles_meles     8093 TGAAGTCAGAACTCCGCCTGACTTTTGTGTATGACACTGCCATCTTGTGG   8142
+
+Homo_sapiens    8137 AATGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTA   8186
+                     ||.|||||||||||||||||.|||||.||.|||||.||.|||||||||||
+Meles_meles     8143 AACGATGGAATTGGCAGCCCACCAGAAGCCGAACTCCATGGTTCTCTCTA   8192
+
+Homo_sapiens    8187 TCCAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCA   8236
+                     .||.||.|||||||||||||||||.|||||||||||||..|||.||||.|
+Meles_meles     8193 CCCCACGAGCATGCGCATCGGTGAAGAGGGGCGCTTGGTGGTGAACTTTA   8242
+
+Homo_sapiens    8237 AGACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCC   8286
+                     ||||||||||||||||||||||.||.||.||||||||.||||||||||||
+Meles_meles     8243 AGACAGAGGCTCAGTTCCATGGTTTGTTCGTGCTGTCCCATCCCGCATCC   8292
+
+Homo_sapiens    8287 TTTACAAGCTCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTC   8336
+                     ||.||.||||||.|||||||||||||||||||||||||||||||.||.||
+Meles_meles     8293 TTCACGAGCTCAATGATCATGTCAGCTGATCATCCAGGCCTGACCTTCTC   8342
+
+Homo_sapiens    8337 CCTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGT   8386
+                     |||.||||||||.|||||||||||.||||||||||||||.||.|||||||
+Meles_meles     8343 CCTGCGCCTCATCAGGAGTGAACCGACCTATAACCAGCCCGTGCAGCAGT   8392
+
+Homo_sapiens    8387 GGAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATACT   8436
+                     |||.||||.|.|||||||||||.|||||||||||.||||||||.||.||.
+Meles_meles     8393 GGAACTTTATGTCTGACTTTGCAGTACGTGACTATTCAGGGACTTACACA   8442
+
+Homo_sapiens    8437 GTGAAGCTGGTGCCATGCACTGCCCCATCACATCAGGAATACCGCCTGCC   8486
+                     |||||.|||.||||.|||||..|.|||||.|||||.||.|||||||||||
+Meles_meles     8443 GTGAAACTGCTGCCTTGCACCACTCCATCGCATCAAGAGTACCGCCTGCC   8492
+
+Homo_sapiens    8487 AGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGAT   8536
+                     ||||||||||||||||.||||.|||||||||||||||||||||||.||.|
+Meles_meles     8493 AGTCACCTGCAACCCCCGAGAGCCTGTCACCTTTGACCTTGACATTCGGT   8542
+
+Homo_sapiens    8537 TCCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAA   8586
+                     |||||||||||||.|||||||||||.||||||||.|||||||||||||||
+Meles_meles     8543 TCCAACAGGTCAGCGATCCAGTGGCAGCTGAGTTCAGCTTGAACACCCAA   8592
+
+Homo_sapiens    8587 ATGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGG   8636
+                     ||||||||.|||||.|||||||||||||||.|||||||||||||||||||
+Meles_meles     8593 ATGTACCTCCTCTCCAAGAAGAGTCTCTGGCTGTCTGATGGATCCATGGG   8642
+
+Homo_sapiens    8637 ATTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTATG   8686
+                     |||.||||||||||||||||||||.|||||||||||.||.||.|||||.|
+Meles_meles     8643 ATTTGGGCAAGAGAGTGATGTTGCCTTTGCAGAAGGGGACATCATTTACG   8692
+
+Homo_sapiens    8687 GTCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTGC   8736
+                     |.|||||||||||.|||||||||||||||||||||||.||||||||||||
+Meles_meles     8693 GGCGTGTCATGGTAGATCCTGTCCAGAATCTGGGTGATTCCTTTTACTGC   8742
+
+Homo_sapiens    8737 AGCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCAA   8786
+                     ||||||||||||||||||||.||||||||||||||.||||||||||||||
+Meles_meles     8743 AGCATTGAGAAGGTGTTTCTGTGCACTGGAGCTGACGGCTATGTTCCCAA   8792
+
+Homo_sapiens    8787 GTATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTCAC   8836
+                     .||.|||||.|.||||||||||||.|||||||||||.|||||||||||||
+Meles_meles     8793 ATACAGTCCCACGAATGCAGAATACGGCTGCTTAGCTGACTCTCCTTCAC   8842
+
+Homo_sapiens    8837 TCTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCG   8886
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+Meles_meles     8843 TCTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCC   8892
+
+Homo_sapiens    8887 ACCAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGACCC   8936
+                     ||||||||||||||||||||.|||||||||||.|||||||..||||||||
+Meles_meles     8893 ACCAGTTTTGGAAATGTCCTGTTTAATGCCAAGCTAGCAGCCGATGACCC   8942
+
+Homo_sapiens    8937 TGAAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCG   8986
+                     ||||||.||||||||||||||||||||||||||.|||||.||||||||||
+Meles_meles     8943 TGAAGCTATTCTCTTAGTGAATCAGCCTGGATCCGATGGCTTTAAAGTCG   8992
+
+Homo_sapiens    8987 ACTCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACAT   9036
+                     |||||||.||||||||||||||.||.||.||.||.||||||||.|||||.
+Meles_meles     8993 ACTCAACGCCACTCTTTCAGGTTGCCCTGGGTCGGGAATGGTACATACAC   9042
+
+Homo_sapiens    9037 ACGATCTATACAGTGAGATCGAAAGACAATGCCAATCGAGGTATTGGCAA   9086
+                     ||||||||.||.||.|||||.||||||||.|||||||||||.||||||||
+Meles_meles     9043 ACGATCTACACGGTAAGATCAAAAGACAACGCCAATCGAGGCATTGGCAA   9092
+
+Homo_sapiens    9087 AAGAAGTGTGGAGT------ACCATTCTCTGGTGAGTCAAGGAAAGCCCC   9130
+                     |||||||...||||      ||||.||..|.|||.|||.|||.|||||..
+Meles_meles     9093 AAGAAGTACCGAGTACCAGCACCACTCCATAGTGGGTCCAGGGAAGCCAG   9142
+
+Homo_sapiens    9131 AATCCACCACCAAGAGCCGGAAGAAGAGAGAGATCAGGAGCACACCCTCA   9180
+                     |..||||.|.|.||.|||||||||||||.||||||||||||.|||||.|.
+Meles_meles     9143 AGACCACGAGCCAGGGCCGGAAGAAGAGGGAGATCAGGAGCCCACCCCCG   9192
+
+Homo_sapiens    9181 CTGGCATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCA   9230
+                     |||||.|||||.||.||||||||.||||..||.|||||.|||||||||||
+Meles_meles     9193 CTGGCGTGGGACATAGGTGCTGACAACAACCGGGGAACCAACATCCAGCA   9242
+
+Homo_sapiens    9231 CATTGCCCTGGACCGCAC---CAAGAGGCAGATCCCCCATGGGAGAGCAC   9277
+                     ||||||||||||||||||   ||.||.||||.|||||||.|||.|||..|
+Meles_meles     9243 CATTGCCCTGGACCGCACCAGCAGGAAGCAGGTCCCCCAGGGGCGAGTTC   9292
+
+Homo_sapiens    9278 CTCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTC   9327
+                     ||||.||||||.|||||||..|.|||||||||.|.||||||||.|..|||
+Meles_meles     9293 CTCCTGATGGCGTCCTCCCTCGTGAGCTCAACCGGCCCAGCTCCGACGTC   9342
+
+Homo_sapiens    9328 AGCCTGGTCACTGTGGTGGGAGGCACCACGGTAGGGTTACTCACCATCTG   9377
+                     |||||||||||.||..|.||..|||.|.||||.|||||.||||||.||||
+Meles_meles     9343 AGCCTGGTCACAGTCATTGGCAGCATCGCGGTGGGGTTCCTCACCCTCTG   9392
+
+Homo_sapiens    9378 CCTCACTGTCATTGCAGTGCTGATGTGCAGG-GGCAAGGAA-AGTTTCAG   9425
+                     ||||||||.|||..|||||.||||||||||| ||  ||||| .||..|||
+Meles_meles     9393 CCTCACTGCCATCACAGTGATGATGTGCAGGAGG--AGGAAGGGTGCCAG   9440
+
+Homo_sapiens    9426 GGGGAAGGATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCC   9475
+                     |.||||||..||||.|||||||||..||||.||..||||||||.||.|||
+Meles_meles     9441 GAGGAAGGGCGCCCTGAAAGGCTCAGGCAGTAGCAAGCCCATGATGGCCC   9490
+
+Homo_sapiens    9476 CACAGAGCCATCACAATGACAGCTCAGAAGTT   9507
+                     ||||||||||.||....|||||||||||.|||
+Meles_meles     9491 CACAGAGCCACCAAGGAGACAGCTCAGAGGTT   9522
+
+
+#---------------------------------------
+#---------------------------------------

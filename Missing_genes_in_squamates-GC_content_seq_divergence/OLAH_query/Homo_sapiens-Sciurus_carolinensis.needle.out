@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 15:56:46
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Sciurus_carolinensis.fa
+#    -outfile Homo_sapiens-Sciurus_carolinensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Sciurus_carolinensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Sciurus_carolinensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 966
+# Identity:     650/966 (67.3%)
+# Similarity:   650/966 (67.3%)
+# Gaps:         183/966 (18.9%)
+# Score: 2560.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGAGAGAGGAGACCAACCTAAGAGAACCAGGAATGAAAACATTTTCAA     50
+                     |||||||||.||||||.|.||..|||||||||||||||.|||||||||||
+Sciurus_carol      1 ATGGAGAGAAGAGACCCAACTGGGAGAACCAGGAATGAGAACATTTTCAA     50
+
+Homo_sapiens      51 CTGCTTATACAAAAACCCTGAGGCAACTTTTAAGCTGATTTGCTTTCCCT    100
+                     ||||||||||..|||.|||||.||||.|||||||||||||||.|||||||
+Sciurus_carol     51 CTGCTTATACCCAAAGCCTGATGCAATTTTTAAGCTGATTTGTTTTCCCT    100
+
+Homo_sapiens     101 GGATGGGAGGTGGCTCCACTCATTTTGCCAAATGGGGCCAAGATACTCAT    150
+                     ||...||||||||||||||||||||||||||||||||.|||.|.|.|.||
+Sciurus_carol    101 GGGCAGGAGGTGGCTCCACTCATTTTGCCAAATGGGGTCAAAACATTTAT    150
+
+Homo_sapiens     151 GATTTGCTGGAAGAGACAGCATCTCACCATGTTGCCAAGGCTGGTCTCAA    200
+                     ||||..|||||||                                     
+Sciurus_carol    151 GATTCCCTGGAAG-------------------------------------    163
+
+Homo_sapiens     201 ACTCCGGCGCTCAAGTGATCCTCCTGCTTCAGCCTACCCATGTGCTGGCG    250
+                                                                       
+Sciurus_carol    163 --------------------------------------------------    163
+
+Homo_sapiens     251 TGAGCCACCGTAGGCGTGAGCCACCGTGCCTGGCCAAAATTCTTGGTCTA    300
+                                                                       
+Sciurus_carol    163 --------------------------------------------------    163
+
+Homo_sapiens     301 TTCTGGATTCTAATTTTTTTTATGCACTCCTTAAGGCTTCCTGGAAGAGA    350
+                                           |||.|||.|||||.|||.||||||||||
+Sciurus_carol    164 ----------------------TGCTCTCTTTAAGACTTGCTGGAAGAGA    191
+
+Homo_sapiens     351 AAGCAGAGTTGAAGAACCTCTTGAAAATGACATCTCCCAGTTAGTTGATG    400
+                     |||..|..|||||||||||.|||.||||||||||..||||.|||.|||.|
+Sciurus_carol    192 AAGTCGCCTTGAAGAACCTTTTGCAAATGACATCAACCAGGTAGCTGAGG    241
+
+Homo_sapiens     401 AAGTTGTTTGTGCTCTGCAGCCAGTCATCCAGGATAAACCATTTGCATTT    450
+                     ||||||.|..||||.|||.||||.||||||||||||||||||||||||||
+Sciurus_carol    242 AAGTTGCTCATGCTTTGCTGCCAATCATCCAGGATAAACCATTTGCATTT    291
+
+Homo_sapiens     451 TTTGGCCACAGTATGGGATCCTACATTGCTTTTAGGA-----CTGCACTA    495
+                     ||||||||||||||||||||||||||||||||||.||     ||||||  
+Sciurus_carol    292 TTTGGCCACAGTATGGGATCCTACATTGCTTTTATGACTTCCCTGCAC--    339
+
+Homo_sapiens     496 GGTCTAAAAGAAAACAATCAACCAGAACCATTGCATTTATTTTTGTCAAG    545
+                        |||||||||||..||.|.|..||.|||.||||.||.|||.|||||||
+Sciurus_carol    340 ---CTAAAAGAAAAATATAAGCTGGAGCCAGTGCACTTGTTTATGTCAAG    386
+
+Homo_sapiens     546 TGCAACT----CCTGTACATTCAAAGGCCTGGCATCGCATTCCCAAAGAT    591
+                     |...|||    ||    ||||||||||||.|||.||..|||||||||..|
+Sciurus_carol    387 TATGACTGCCCCC----CATTCAAAGGCCCGGCCTCAAATTCCCAAACTT    432
+
+Homo_sapiens     592 GATGAATTGTCAGAAGAACAAATAAGTCA---TTACCTTATGGAATTTGG    638
+                     |||||||||||||||||||||||   |||   |||||||||.||.|||||
+Sciurus_carol    433 GATGAATTGTCAGAAGAACAAAT---TCATTCTTACCTTATAGAGTTTGG    479
+
+Homo_sapiens     639 AGGCACCCCCAAGCATTTTGCTGAAGCCAAGGAATTTGTGAAACAATGTA    688
+                     |||||||||||||.|||||..|.|.|.|||.|||.||.|..|||||.|||
+Sciurus_carol    480 AGGCACCCCCAAGAATTTTATTAATGACAAAGAACTTTTACAACAAAGTA    529
+
+Homo_sapiens     689 GTCCCATCATAAGGGCAGATCTGAACATTGTTAGAAGTTGCACCTCTAAC    738
+                     .|||||..||...|||||||.|.||..||.||||.|.||.||.||.|.||
+Sciurus_carol    530 TTCCCAGAATCTTGGCAGATATCAAGCTTATTAGCAATTACAGCTTTGAC    579
+
+Homo_sapiens     739 GTACCATCTAAGGCTGTTCTTTCCTGTGACTTGACATGTTTTGTTGGATC    788
+                     ..|||.||||||||.||||||||.|||||.||||||||.|||.|||||||
+Sciurus_carol    580 ACACCCTCTAAGGCCGTTCTTTCTTGTGATTTGACATGCTTTCTTGGATC    629
+
+Homo_sapiens     789 TGAAGACATAGCAAAGGACATGGAAGCCTGGAAAGATGTAACCAGTGGAA    838
+                     |||||||.||||||||||..|.|||||||||||||||.||||||||||||
+Sciurus_carol    630 TGAAGACTTAGCAAAGGATGTAGAAGCCTGGAAAGATATAACCAGTGGAA    679
+
+Homo_sapiens     839 ATGCTAAAATTTACCAGCTTCCAGGGGGTCACTTTTATCTTCTGGATCCT    888
+                     |||.|.|.|||.|...|||.|||||.|.||||||||||||||||||.|||
+Sciurus_carol    680 ATGTTGATATTCATGTGCTGCCAGGAGATCACTTTTATCTTCTGGAACCT    729
+
+Homo_sapiens     889 GCGAACGAGAAATTAATCAAGAACTACATAATCAAGTGTCTAGAAGTATC    938
+                     |..||.||.||.||.||||||||||||||||.|||||||||||||.||||
+Sciurus_carol    730 GACAATGAAAATTTCATCAAGAACTACATAACCAAGTGTCTAGAACTATC    779
+
+Homo_sapiens     939 ATCGATATCCAATTTT    954
+                     |..|.|..||||.|||
+Sciurus_carol    780 AATGCTTGCCAACTTT    795
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:31:41
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Bos_taurus.fa
+#    -outfile Homo_sapiens-Bos_taurus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Bos_taurus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Bos_taurus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9530
+# Identity:    8268/9530 (86.8%)
+# Similarity:  8268/9530 (86.8%)
+# Gaps:          37/9530 ( 0.4%)
+# Score: 36269.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCG--------CCGGACA     42
+                     |||||..|..|||||||.||||||.|..||.||||        |||  ||
+Bos_taurus         1 ATGCAAGCCACCGGGACCCCCGGGGTCACCGCGCGCACGCGCCCCG--CA     48
+
+Homo_sapiens      43 GGCAACTCCACCAGCTTTCAACCAGGACCGCCACCGCCGCC--CCGGCTG     90
+                     ||.|||.||||||..|.||.|||  || ||||.|||.||||  ||||   
+Bos_taurus        49 GGAAACCCCACCAAATCTCCACC--GA-CGCCTCCGACGCCGTCCGG---     92
+
+Homo_sapiens      91 CTGCTGCTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACA    140
+                       ||||.||||||||||||||||||||||||||||||||||||.||||||
+Bos_taurus        93 --GCTGGTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCGGGCACA    140
+
+Homo_sapiens     141 GCCCGCTGCCTTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTG    190
+                     |||..|||.|..||||.||||.|||||||||||.|.|||||||||||.||
+Bos_taurus       141 GCCACCTGACCCCGGCCGGGCCTTGCTGTCCCCGGATCTCGCGGGGGTTG    190
+
+Homo_sapiens     191 CAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGG    240
+                     ||||||||||.||.||.||.|||||||||||||||||||||||.||||||
+Bos_taurus       191 CAGGGGTCCCCGCCGAAGAAGCCATAGTGCTGGCGAACCGCGGGCTCCGG    240
+
+Homo_sapiens     241 GTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTT    290
+                     |||||.|||||||||||.||||||||||||||..||||.|||||.|||.|
+Bos_taurus       241 GTGCCCTTCGGCCGTGAGGTCTGGCTGGATCCGTTGCAGGACCTAGTGCT    290
+
+Homo_sapiens     291 GCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACG    340
+                     |||||||||.||.|||||.||.|||||.||..|.||.||||||||.||||
+Bos_taurus       291 GCAGGTGCAACCGGGGGATCGGTGCGCAGTGACCGTGCTAGACAATGACG    340
+
+Homo_sapiens     341 CACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGAC    390
+                     |.|||||||||||.||.||||||||||||||||||||||||||.||||||
+Bos_taurus       341 CGCTGGCCCAGCGGCCCGGCCGCCTGAGTCCCAAGCGCTTCCCCTGCGAC    390
+
+Homo_sapiens     391 TTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTC    440
+                     ||.|||.|.||.|||||||||||.||.|||||||||||||||||||||||
+Bos_taurus       391 TTCGGCGCGGGAGAGGTGCGCTATTCGCACCTGGGCGCGCGCAGCCCGTC    440
+
+Homo_sapiens     441 TCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCAG    490
+                     .|||||.||.||||||||||||||||||||.||||||||.||.|||||.|
+Bos_taurus       441 GCGGGATCGAGTCCGGCTGCAGCTGCGCTACGACGCGCCGGGTGGGGCGG    490
+
+Homo_sapiens     491 TAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAG    540
+                     ..|||||.||.|||||.|||||||||||||||||||||||||||||||||
+Bos_taurus       491 CCGTGCTCCCCCTGGTGCTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAG    540
+
+Homo_sapiens     541 GTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCAG    590
+                     ||||||||.||.|||.||||..||||||||||.|||||||||||||||||
+Bos_taurus       541 GTTGTGACGCGAAACCTGCCCTTGGTCGTGGAGGAGCTGCTGGGGACCAG    590
+
+Homo_sapiens     591 CAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACAG    640
+                     |||||||||||||||||||||||||||.|||||||.||||||.|||||..
+Bos_taurus       591 CAATGCCCTGGACGCGCGGAGCCTGGAATTCGCCTACCAGCCTGAGACCC    640
+
+Homo_sapiens     641 AGGAGTGCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTAT    690
+                     |||||||.|||||||||||||||.|.||.||||||||||||||||||||.
+Bos_taurus       641 AGGAGTGTCGCGTGGGCATCCTGCCTGGTTTGGGCGCGCTGCCTCGCTAC    690
+
+Homo_sapiens     691 GGAGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGG    740
+                     ||.||||||||.|||||||||||||||||.||....|||||.|||||.|.
+Bos_taurus       691 GGGGAACTCCTTCACTACCCGCAGGTCCCGGGCTCGGCCAGCGAGGGGGA    740
+
+Homo_sapiens     741 CGCCCCGGAGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCG    790
+                     |..||.||||.|.||||||||||||||.|.|||.|||||||||||.||||
+Bos_taurus       741 CAGCCAGGAGCCCCTCCTGATGGACTGTACAGCATTCCAGGAACTGGGCG    790
+
+Homo_sapiens     791 TGCGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATA    840
+                     |||||||.||||||||.|||.|.|||||.||.||.||||||||||||.|.
+Bos_taurus       791 TGCGCTACCGCCACACCGCCCCAAGTCGTTCTCCGAACAGGGACTGGGTG    840
+
+Homo_sapiens     841 CCCATGGTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTGC    890
+                     ||||||||.|||||||||||.||.||||||.||||||||||||||||.||
+Bos_taurus       841 CCCATGGTAGTGGAGCTGCGATCGCGAGGGTCTCCTGTGGGCAGCCCGGC    890
+
+Homo_sapiens     891 TTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCG    940
+                     |||||||||||||||||||||.||.||||||||.||||||||||||||.|
+Bos_taurus       891 TTTGAAACGCGAGCACTTCCAAGTGCTGGTGAGAATCCGAGGAGGGGCTG    940
+
+Homo_sapiens     941 AGAACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTG    990
+                     |||||||.||.|||||||||||.||.||||||||||||||||||||||||
+Bos_taurus       941 AGAACACCGCCCCCAAGCCCAGCTTTGTGGCCATGATGATGATGGAGGTG    990
+
+Homo_sapiens     991 GACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGA   1040
+                     |||||||||||.|||||.||||||||||||||||||||||||||||||||
+Bos_taurus       991 GACCAGTTTGTCCTGACCGCCCTGACCCCAGACATGCTGGCAGCCGAGGA   1040
+
+Homo_sapiens    1041 TGCTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCC   1090
+                     |||.||||.|.||.|.|||.||.||||||||||.||.||.||||||||||
+Bos_taurus      1041 TGCGGAGTGTGCCCCAGACTTGCTGATCTTCAATCTCACCTCTCCATTCC   1090
+
+Homo_sapiens    1091 AGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTT   1140
+                     ||||.||||||||||.|.||||||||||.||.||.|||||..|||||||.
+Bos_taurus      1091 AGCCCGGCCAGGGCTTCCTGGTGAGCACTGACGACCGCAGTTTGCCCCTC   1140
+
+Homo_sapiens    1141 TCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCC   1190
+                     |||||||||||||||||||||.|||..||||||||.||||||||.|||||
+Bos_taurus      1141 TCCTCCTTCACTCAGAGGGATTTGCACCTCCTGAAAATTGCCTATCAGCC   1190
+
+Homo_sapiens    1191 CCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGG   1240
+                     |||.|||||||||||||||||||||||.|||||||||||.||..||||.|
+Bos_taurus      1191 CCCCTCTGAAGACTCTGACCAGGAGCGTCTCTTTGAACTCGAGCTGGAAG   1240
+
+Homo_sapiens    1241 TAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTG   1290
+                     |||||||.|.||||||.||.||.||.||.||||||.||||||||||||||
+Bos_taurus      1241 TAGTGGACCCAGAAGGCGCTGCCTCTGATCCTTTTTCCTTCATGGTAGTG   1290
+
+Homo_sapiens    1291 GTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCT   1340
+                     ||||||||||||||||||.|||||||.||||||||||||||.||.|||||
+Bos_taurus      1291 GTGAAGCCCATGAACACACTGGCTCCAGTGGTCACCCGGAACACTGGTCT   1340
+
+Homo_sapiens    1341 TATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTG   1390
+                     .||||||||.|||||.|||||||||||||||||.||||||||||||||||
+Bos_taurus      1341 CATTCTCTACGAGGGCCAGTCTCGGCCCCTCACTGGCCCTGCAGGCAGTG   1390
+
+Homo_sapiens    1391 GTCCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCGG   1440
+                     |.||.|||||.|||||||||||.|||||.||.|||.||||.||.||.|.|
+Bos_taurus      1391 GACCACAAAATTTGGTCATCAGTGATGAAGACGACTTAGAGGCCGTACAG   1440
+
+Homo_sapiens    1441 CTAGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGC   1490
+                     ||.|||||||||||.|||||||||||.||||||||.|||.||||||||||
+Bos_taurus      1441 CTGGAGGTGGTGGCCGGGCTCCGGCACGGTCACCTCGTCCTTCTGGGTGC   1490
+
+Homo_sapiens    1491 TTCCAGTGGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTGGCAG   1540
+                     .||||.|||||.||||||.||.||||.||||||.||.||.|||||.||||
+Bos_taurus      1491 CTCCAATGGCAACTCTGCCCCTAAGACCTTTACTGTAGCGGAGCTAGCAG   1540
+
+Homo_sapiens    1541 CCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGAC   1590
+                     ||||||..|||||||||||.||.|||||||.|||.|||||.||.||.|||
+Bos_taurus      1541 CCGGCCGAGTGGTCTACCATCACGATGACAAAGATGGCTCACTAAGTGAC   1590
+
+Homo_sapiens    1591 AACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGTT   1640
+                     |||||.|||||.|..||||||||.||||||.|||||||||||||.|||||
+Bos_taurus      1591 AACCTCGTGCTCCTAATGGTGGACGGAGGACGCAGGCACCAGGTGCAGTT   1640
+
+Homo_sapiens    1641 TCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTCA   1690
+                     ||||||||||||||||||||||||||||||||||||||||||.||.||||
+Bos_taurus      1641 TCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCAGTCCTCA   1690
+
+Homo_sapiens    1691 ATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTG   1740
+                     ||||||||||.||||||||.|||||||||||.|||||.||||||||||||
+Bos_taurus      1691 ATGCCAACACAGGGCTGACGCTGGCAGAGGGCGAAACCGTGCCCATCCTG   1740
+
+Homo_sapiens    1741 CCCCTTTCCCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGCT   1790
+                     ||||...|.||||||||||.|||||||||.|||||.||.|||.|||||||
+Bos_taurus      1741 CCCCAAGCTCTGAGTGCAATTGACATGGACTCAGAGGACTCTTTGCTGCT   1790
+
+Homo_sapiens    1791 TTTTGTGCTGGAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTCCGCC   1840
+                     |||||||||.||||||||.|.||..||..|.|||||||||||||||||||
+Bos_taurus      1791 TTTTGTGCTCGAGTCACCTTCCTCCACAGCAGGGCATCTGCTTCTCCGCC   1840
+
+Homo_sapiens    1841 AAACTCACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTGGAGG   1890
+                     |.||.||.||||||||.|.|.||.||...|||||..|..|||.||||||.
+Bos_taurus      1841 AGACCCATCCTCCCCAAGGGGAGGAGATGCTTCTTGGGAGCCCTTGGAGA   1890
+
+Homo_sapiens    1891 AAGGAGGGGGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGGA   1940
+                     ||..||||...|||.||||||..||||||||||.||||||.|||||..||
+Bos_taurus      1891 AAACAGGGAATATTCTATGAGAAAACAGTGACACAGTGGCGGCAGCGAGA   1940
+
+Homo_sapiens    1941 CATAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCTG   1990
+                     ||||||||||||.||.||.|||||.||.||||||||||||||.|||||||
+Bos_taurus      1941 CATAACAGAGGGGAGACTTTTCTACAGGCACTCTGGGCCCCACAGTCCTG   1990
+
+Homo_sapiens    1991 GGCCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCCT   2040
+                     |||||||.|..|||||||||||||||.|.||||||||||||||||||||.
+Bos_taurus      1991 GGCCAGTGATTGACCAGTTCACATTTCGTGTCCAGGATAACCATGACCCC   2040
+
+Homo_sapiens    2041 CCTAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGGA   2090
+                     ||||||.||||.|||||||||.||||..||||.||.||.|||||||||||
+Bos_taurus      2041 CCTAATAAGTCTGGGCTACAGAGGTTCATGATACGCATTCATCCTGTGGA   2090
+
+Homo_sapiens    2091 TCGCCTCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTAC   2140
+                     .|||||||||||.|||||||||||.||||||||||||||.||||||||||
+Bos_taurus      2091 CCGCCTCCCTCCCGAGCTGGGCAGCGGCTGTCCCCTTCGGATGGTGGTAC   2140
+
+Homo_sapiens    2141 AGGAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGAC   2190
+                     |||||||||||||||||||||||||||||||||||||.||||||||.|||
+Bos_taurus      2141 AGGAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTACGCTACACGGAC   2190
+
+Homo_sapiens    2191 CTGGACACAGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCAC   2240
+                     ||||||||.||||||||||||||.||||||||.|||||.||||||||.|.
+Bos_taurus      2191 CTGGACACGGATGACCGAGAACTCCGTTACACGGTGACCCAGCCCCCAAT   2240
+
+Homo_sapiens    2241 AGACACAGACGAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTGA   2290
+                     .||||||||.|||||.|||...||||||||..||||.|||||||||.|||
+Bos_taurus      2241 GGACACAGATGAAAACCACTCACCAGCCCCGTTGGGCACCTTGGTCCTGA   2290
+
+Homo_sapiens    2291 CTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAAC   2340
+                     |.||..|.||.||.||.||.|||.||||||||||.|||||.|||.|||||
+Bos_taurus      2291 CCGATGATCCTTCGGTGGTTGTGGCCCATTTTACACAAGCGCAGGTCAAC   2340
+
+Homo_sapiens    2341 CATCATAAAATTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTAC   2390
+                     ||.|||||||||||||||||.||.||.|.|||.||.|||||.||||||.|
+Bos_taurus      2341 CACCATAAAATTGCTTACAGGCCTCCAGATCAGGAGCTGGGAGTGGCTGC   2390
+
+Homo_sapiens    2391 TCGAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTGG   2440
+                     .||||||||||||||.||.|||||||||||.||||||||||||||.||||
+Bos_taurus      2391 CCGAGTGGCCCAGTTTCAATTCCAGGTGGAGGACCGAGCTGGGAACGTGG   2440
+
+Homo_sapiens    2441 CTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCT   2490
+                     |||||||.|||||.|||.||||||||||.||.|||||||||||||||||.
+Bos_taurus      2441 CTCCAGGCACCTTCACCTTTTACTTGCAGCCAGTGGACAACCAGCCACCC   2490
+
+Homo_sapiens    2491 GAGATCCTCAACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCCT   2540
+                     ||.|||||||||||.||||||||..|||||||||||||.||.||||||||
+Bos_taurus      2491 GAAATCCTCAACACTGGCTTCACCGTTCAGGAGAAGGGCCATCACATCCT   2540
+
+Homo_sapiens    2541 GAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATA   2590
+                     |||||||||.||||||...|||||||||||.|||||||||||.|||||.|
+Bos_taurus      2541 GAGTGAGACTGAGTTGGGTGTGAATGATGTGGACACTGATGTGGCCCACA   2590
+
+Homo_sapiens    2591 TCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCACATGAGAG-TGTC   2639
+                     ||.|.||||||||||..||||..||||||||||||||||||| || ||||
+Bos_taurus      2591 TCACCTTCACTCTCATACAGGTGCCCAAACATGGCCACATGA-AGCTGTC   2639
+
+Homo_sapiens    2640 TGGACAGATCCTGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAAC   2689
+                     |||||||.||.|||||||.||.||..|.||||||||||||||||||||||
+Bos_taurus      2640 TGGACAGGTCTTGCATGTCGGTGGGATTTTCCACTTGGAGGACATAAAAC   2689
+
+Homo_sapiens    2690 AGGGCCGAGTTTCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAGC   2739
+                     ||||.||..|||||||.|||||||||||||...||||.|||||.||||||
+Bos_taurus      2690 AGGGTCGGATTTCCTACGCCCATAATGGGGCTGAGTCTCTGACCGATAGC   2739
+
+Homo_sapiens    2740 TGCTCCTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAG   2789
+                     ||.||||||||.||||||||||||||.||.|||||.||||||||||||||
+Bos_taurus      2740 TGTTCCTTGGAGGTCAGTGACAGACACCACGTGGTACCCATCACTCTCAG   2789
+
+Homo_sapiens    2790 AGTAAATGTCCGGCCAGTGGATGATGAAGTGCCCATACTGAGCCATCCTA   2839
+                     |||.||||||||||||.||||.|.|||..|||||||.|||||||.||||.
+Bos_taurus      2790 AGTGAATGTCCGGCCAATGGACGGTGAGCTGCCCATGCTGAGCCTTCCTG   2839
+
+Homo_sapiens    2840 CTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGAA   2889
+                     |.||||||||||.||||||||||||.||.||||||||..|||||||||||
+Bos_taurus      2840 CAGGCACTCTGGGGTCCTATCTAGACGTTTTAGAAAACAGGGCTACTGAA   2889
+
+Homo_sapiens    2890 ATCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGAT   2939
+                     |||||.|||||||||||.|.|||||||||||.|||..|||||||.|||||
+Bos_taurus      2890 ATCACGGCCAATGTTATCAGGGGGACCAATGGGGACGCTGATGATTTGAT   2939
+
+Homo_sapiens    2940 GTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTCA   2989
+                     |||||||||||||||||||||||||||..|.|||||.||||||.||||||
+Bos_taurus      2940 GTTGACTTTCCTCTTGGAAGATCCACCCCTATATGGAGAAATCCTGGTCA   2989
+
+Homo_sapiens    2990 ATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCTCT   3039
+                     ||||..|||||||||||||||||||.|||||.|||||||||||||||||.
+Bos_taurus      2990 ATGGAGTTCCAGCAGAGCAGTTTACCCAAAGAGACATCTTGGAGGGCTCC   3039
+
+Homo_sapiens    3040 GTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGGA   3089
+                     ||.||.||.||.|||||.||.||.||||||||.||.|||||.||||..||
+Bos_taurus      3040 GTCGTCTACACTCACACAAGCGGGGAGATAGGTCTCTTGCCCAAAGAAGA   3089
+
+Homo_sapiens    3090 TTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGGTG   3139
+                     .|||||.||||||||||||||.|||||||||||||||||||||||.||||
+Bos_taurus      3090 CTCTTTCAACCTGAGTCTGTCGGATATGTCTCAAGAATGGAGAATAGGTG   3139
+
+Homo_sapiens    3140 GCAATACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTGAT   3189
+                     |.||.||||||||||||||.||.||.||||||||||||||.||||||||.
+Bos_taurus      3140 GTAACACTATCCAAGGAGTGACCATGTGGGTGACCATCCTCCCTGTTGAC   3189
+
+Homo_sapiens    3190 AGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAAGG   3239
+                     |||||||||||||||||||..||||||||.|||||.||.||..|||||||
+Bos_taurus      3190 AGCCAGGCCCCAGAAATCTCCGTAGGTGAGCAGTTTATCGTTCTGGAAGG   3239
+
+Homo_sapiens    3240 TGATAAAAGTGTTATAACATCAGTGCATATAAGTGCTGAAGATGTCGACT   3289
+                     .||||||||||.||||||.|||.||||.||||||||||||||..|.||.|
+Bos_taurus      3240 CGATAAAAGTGCTATAACCTCAATGCACATAAGTGCTGAAGACATGGATT   3289
+
+Homo_sapiens    3290 CCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACTTCAGGT   3339
+                     |.||.||||||||||||||||||||.||.||.||||||||.||.||.|||
+Bos_taurus      3290 CTCTCAATGATGACATCTTGTGCACCATCGTCATTCAGCCCACCTCGGGT   3339
+
+Homo_sapiens    3340 TATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCAGG   3389
+                     ||.||.||.|||||.||||||||.||.||||||||.|||||.||||||||
+Bos_taurus      3340 TACGTGGAGAACATCTCTCCAGCCCCTGGCTCTGAAAAATCGAGAGCAGG   3389
+
+Homo_sapiens    3390 GATTGCCATAAGTGCTTTCAACT-TGAAAGATCTCAGGCAGGGCCACATA   3438
+                     .|||||..||||||||||| ||| ||||||||||||||||.||.||.|||
+Bos_taurus      3390 AATTGCTGTAAGTGCTTTC-ACTCTGAAAGATCTCAGGCAAGGTCATATA   3438
+
+Homo_sapiens    3439 AACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGATT   3488
+                     |||||.||||||||||||||||||||.||.|||||.|||||.|||.||||
+Bos_taurus      3439 AACTACGTCCAGAGTGTCCATAAAGGAGTAGAACCGGTGGAAGACAGATT   3488
+
+Homo_sapiens    3489 TGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTTCC   3538
+                     |.|||||||.||||||||||||||||||||||||||||||||.||.||||
+Bos_taurus      3489 TATATTTCGCTGTTCTGATGGCATTAACTTTTCAGAGAGACATTTTTTCC   3538
+
+Homo_sapiens    3539 CCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATGTTTATGAGA   3588
+                     ||||||||||||||||||||||.||||||||||||||.||.||.||.||.
+Bos_taurus      3539 CCATTGTAATCATTCCCACCAACGATGAACAGCCAGAAATATTCATCAGG   3588
+
+Homo_sapiens    3589 GAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATACACCCATTCT   3638
+                     ||||||.||||||||||||||||||||.||||..|||||||||||||.||
+Bos_taurus      3589 GAATTTTTGGTGATGGAAGGCATGAGTTTGGTGGTTGATACACCCATCCT   3638
+
+Homo_sapiens    3639 CAATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACTTTCACTATTA   3688
+                     ||||||.|||||||||||||||||||.||||||.||||||||||||||.|
+Bos_taurus      3639 CAATGCCGCTGATGCTGATGTTCCCCCGGATGACTTAACTTTCACTATCA   3688
+
+Homo_sapiens    3689 CCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGATAAATGGCACG   3738
+                     ||.|.||.|||||.||.||||||||||||||.|||||||||||||||||.
+Bos_taurus      3689 CCAAGTTTCCCACCCACGGTCACATCATGAACCAGCTGATAAATGGCACT   3738
+
+Homo_sapiens    3739 GTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCAT   3788
+                     ||||||||.|||||||||||||||||.|||||||||||||||||||||||
+Bos_taurus      3739 GTTTTGGTGGAAAGCTTCACCTTGGACCAGATCATAGAGAGTTCCAGCAT   3788
+
+Homo_sapiens    3789 TATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATTA   3838
+                     .|||||||||||.||||||||.|||||.||||||||||||||.||||||.
+Bos_taurus      3789 CATTTATGAGCACGATGACTCTGAGACTCAGGAAGACAGTTTCGTGATTC   3838
+
+Homo_sapiens    3839 AACTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGTT   3888
+                     ||||.||||||||.|||||||||||||||||||||||||||||.||.|||
+Bos_taurus      3839 AACTCACAGATGGTAAGCACTCTGTGGAAAAGACGGTCCTCATCATGGTT   3888
+
+Homo_sapiens    3889 ATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAATAATGGACTAGA   3938
+                     ||.|||||||||||.|||||.||.||.|||.|.||||||||||||||.||
+Bos_taurus      3889 ATTCCTGTTGATGACGAGACCCCTAGGATGGCCATCAATAATGGACTGGA   3938
+
+Homo_sapiens    3939 AATAGAAATTGGGGATACCAAGATTATCAACAACAAAATATTAATGGCAA   3988
+                     |||||||||||||||.|||||.|||||||||||||.||||||||||||||
+Bos_taurus      3939 AATAGAAATTGGGGAAACCAAAATTATCAACAACAGAATATTAATGGCAA   3988
+
+Homo_sapiens    3989 CAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGGG   4038
+                     |.|||||||||||.||||||||||..||||||||.|||||||||||||||
+Bos_taurus      3989 CTGATTTAGATTCTGAAGACAAATTCTTGGTTTACATTATTCGTTATGGG   4038
+
+Homo_sapiens    4039 CCAGGACATGGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAA   4088
+                     ||.||||||||||||||||||||||.||.||||||.||||.|||||||||
+Bos_taurus      4039 CCGGGACATGGCTTATTACAGAGACAAACACCTACAGGTGTCTTTGAAAA   4088
+
+Homo_sapiens    4089 TATCACACTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAA   4138
+                     |||||||.||||||||||||||||||||||||||||||||||.||.||.|
+Bos_taurus      4089 TATCACATTGGGCATGAATTTTACCCAGGATGAAGTAGACAGCAATTTGA   4138
+
+Homo_sapiens    4139 TTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTT   4188
+                     ||||||||||||||||.||||||||||||||||||||.||||||||||||
+Bos_taurus      4139 TTCAGTATGTCCATTTTGGGCAAGAGGGCATTCGGGATCTAATTAAATTT   4188
+
+Homo_sapiens    4189 GATGTGACTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTC   4238
+                     ||.||||||||||||||.|||.|||||||||||||.||||||||||||||
+Bos_taurus      4189 GACGTGACTGATGGAATCAATGCCCTCATAGATCGCTACTTTTATGTGTC   4238
+
+Homo_sapiens    4239 CATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGT   4288
+                     .||.||.|||..||||||||||||||||||||||||||||||.|||||||
+Bos_taurus      4239 TATTGGAAGCCCTGACATTGTCTTCCCTGATGTGATAAGTAAAGGAGTGT   4288
+
+Homo_sapiens    4289 CCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACT   4338
+                     ||||||||||||||||.||.|||||.||.||||||||.|||||.||||||
+Bos_taurus      4289 CCTTGAAAGAAGGTGGTAAGGTCACCCTCACAACAGATCTACTGAGCACT   4338
+
+Homo_sapiens    4339 AGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGC   4388
+                     |||||||||||||||||||||||||||||.||||||||||||||||||||
+Bos_taurus      4339 AGTGACTTGAACAGTCCTGATGAAAACTTAGTTTTTACCATCACCAGGGC   4388
+
+Homo_sapiens    4389 TCCCATGCGAGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCA   4438
+                     |||||||.||||.|||.|.|||.||||.||.||||||.|.|||||.||||
+Bos_taurus      4389 TCCCATGAGAGGCCACTTAGAAAGCACAGACCAGCCTCGAGTGTCTATCA   4438
+
+Homo_sapiens    4439 CGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCAC   4488
+                     |.||||||||||||||.|||||||||||.||.|||||||||||.||||||
+Bos_taurus      4439 CATCTTTCACTCAGCTCCAACTGGCTGGCAATAAAATCTACTATATCCAC   4488
+
+Homo_sapiens    4489 ACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGA   4538
+                     |||||||||||.||.||.||.||||||||||||||||||||.|||||.||
+Bos_taurus      4489 ACAGCTGATGACGAGGTAAAGATGGACAGTTTTGAGTTTCAGGTCACTGA   4538
+
+Homo_sapiens    4539 TGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGG   4588
+                     ||||||||||||||||||.||||||||||||||||||||.||||||||||
+Bos_taurus      4539 TGGACGTAACCCTGTCTTCCGGACATTCCGTATCTCCATCAGCGATGTGG   4588
+
+Homo_sapiens    4589 ACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGT   4638
+                     ||||.|||||||||||||||||||||||.||.|||||||||||.|||.||
+Bos_taurus      4589 ACAACAAAAAGCCAGTGGTCACCATCCATAACCTGGTTGTCAGCGAAGGT   4638
+
+Homo_sapiens    4639 GAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATAC   4688
+                     |||||.||||||||||||||.|||||.||||||||.||||||||.|||||
+Bos_taurus      4639 GAAAAGAAGCTGATTACTCCCTTTGAACTCACTGTGGAAGACAGGGATAC   4688
+
+Homo_sapiens    4689 TCCTGACAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCC   4738
+                     |||.|||||.|||.|||||||||||.|||||||.||||||.|||||||.|
+Bos_taurus      4689 TCCAGACAAACTCTTGAAATTCACTGTCACCCAAGTGCCTGTTCATGGTC   4738
+
+Homo_sapiens    4739 ATCTCCTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGAC   4788
+                     |.|||||||||||||||||||||||.|.||||.|||||||||||||.|||
+Bos_taurus      4739 AACTCCTATTCAACAATACCAGACCCGCCATGATTTTTACCAAGCAGGAC   4788
+
+Homo_sapiens    4789 TTGAATGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGA   4838
+                     |||||||||||||||||||||||||.|||||||||.||.|||||||||||
+Bos_taurus      4789 TTGAATGAAAACTTAATCAGCTACAGACATGATGGTACCGAGTCAAGTGA   4838
+
+Homo_sapiens    4839 AGATAGCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTATG   4888
+                     |||.||||||||||||||||||||||||||..||||||||||.|||||||
+Bos_taurus      4839 AGACAGCTTCTCCTTCACAGTGACTGATGGTTCCCATACAGATTTCTATG   4888
+
+Homo_sapiens    4889 TTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGATC   4938
+                     |||||||||||||.||.|||||||||||.|||||||||||.|||||||||
+Bos_taurus      4889 TTTTTCCTGATACAGTATTTGAAACAAGAAGACCCCAAGTAATGAAGATC   4938
+
+Homo_sapiens    4939 CAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGG   4988
+                     |.|.||||.||||||||||||||.|||||||||||.|..|||||.||.||
+Bos_taurus      4939 CGGATCTTAGCTGTTGACAACAGAGTCCCCCAAATTGTCGTGAACAAAGG   4988
+
+Homo_sapiens    4989 GGCCTCTACACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCA   5038
+                     |||||||||||||||||||||.|||||.||||||||||||||||||||||
+Bos_taurus      4989 GGCCTCTACACTTCGCACTCTGGCCACAGGCCACTTGGGGTTCATGATCA   5038
+
+Homo_sapiens    5039 CAAGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCTT   5088
+                     ||||.|||.|||||||||..|||||||||||||||||||||.|||||||.
+Bos_taurus      5039 CAAGTAAAGTATTGAAAGCAGAGGACAGAGACAGCTTACACGTTTCTCTC   5088
+
+Homo_sapiens    5089 AGATTTATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGGA   5138
+                     .|.|||||.|||||.||||||||||.||||||||||||.||||||||||.
+Bos_taurus      5089 CGGTTTATTGTGACGGAGGCCCCTCGACATGGATATCTCCTCAACCTGGG   5138
+
+Homo_sapiens    5139 CAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACA   5188
+                     |.|.|||||||||||..|.|||.||||.||||||||||||||||||||.|
+Bos_taurus      5139 CCAGGGCAACCACAGTGTGACTGAGTTTACACAAGCTGACATTGATGATA   5188
+
+Homo_sapiens    5189 TGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATG   5238
+                     ||||||||||||||||||||||||||||||||||||||..||||||.||.
+Bos_taurus      5189 TGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCGTAAGTGACATA   5238
+
+Homo_sapiens    5239 TTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAA   5288
+                     |||.|.|||.|||||||||||||.|||||||||||.|||||..|.|||.|
+Bos_taurus      5239 TTCCAGTTTACAGTTGAAGATGGGGGTGGAAACAAATTAACCAAGCAGCA   5288
+
+Homo_sapiens    5289 TTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGG   5338
+                     ||||||||||||||||||||||||||||||||||||||||||||||.||.
+Bos_taurus      5289 TTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACTTGA   5338
+
+Homo_sapiens    5339 TCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTAC   5388
+                     ||||||||||||||||||||||||||||..|.|||||.|||||||||||.
+Bos_taurus      5339 TCAATGAGGACTCCAAATTTCTAGATGTCATGCTTAAGCGTAGAGGTTAT   5388
+
+Homo_sapiens    5389 TTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGA   5438
+                     ||||||||.|||||.||||||||||||||||||||||||.|.||||||.|
+Bos_taurus      5389 TTGGGAGAGACTTCCTTTATAAGTATTGGCACAAGAGACGGGACTGCAAA   5438
+
+Homo_sapiens    5439 AAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACC   5488
+                     |||||||||.||||||||||||||||||||||..||||||||||||||||
+Bos_taurus      5439 AAAAGACAAGGACTTCAAGGGCAAAGCACAGAGGCAAGTGCAGTTCAACC   5488
+
+Homo_sapiens    5489 CAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAG   5538
+                     |||||||||||.|||||||.||||||||||||||.|||||.||.||||.|
+Bos_taurus      5489 CAGGCCAGACCCGGGCCACGTGGCGAGTGCGGATTCTGAGCGACGGGGCG   5538
+
+Homo_sapiens    5539 CATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGC   5588
+                     ||.||||||||.||.|||||.||||||||.|||.||||||||||||||||
+Bos_taurus      5539 CACGAGCAGTCCGAGACCTTCCAGGTGGTTCTCGCAGAGCCCGTGCTGGC   5588
+
+Homo_sapiens    5589 TGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAG   5638
+                     ||||.||||.||||||.|.||..||||.||.||||||||.||.|||||||
+Bos_taurus      5589 TGCCCTGGAGTTCCCCGCGGTGACCACAGTGGAGATCGTGGACCCAGGAG   5638
+
+Homo_sapiens    5639 ATGAGCCAACTGTGTTTATTCCCCAGTCCAAATACTCCGTTGAAGAAGAT   5688
+                     ||||..||||||||||.||.||||||||..||||||||.|||||||.|||
+Bos_taurus      5639 ATGAATCAACTGTGTTCATCCCCCAGTCTGAATACTCCATTGAAGAGGAT   5688
+
+Homo_sapiens    5689 GTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGA   5738
+                     |||||.||.||||||||||||||||||||.||.|||||.|||||||||||
+Bos_taurus      5689 GTTGGCGAACTGTTCATTCCCATCAGGAGAAGTGGAGACGTGAGCCAGGA   5738
+
+Homo_sapiens    5739 GTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGC   5788
+                     |||||||||||||||||||||.|..||||||||.||||..|||||.||||
+Bos_taurus      5739 GTTGATGGTGGTCTGTTATACGCGGCAAGGAACGGCAAGAGGAACCGTGC   5788
+
+Homo_sapiens    5789 CGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCAC   5838
+                     |.||.||.|||.|.||.||.|||||||||||||||.||||.|||||||||
+Bos_taurus      5789 CAACGTCTGTGCTCTCCTATTCTGATTACATATCCCGGCCCGAGGACCAC   5838
+
+Homo_sapiens    5839 ACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGAT   5888
+                     |||||||||.|||||||||||||||||||.||||||||..||||..||.|
+Bos_taurus      5839 ACCAGTGTTATCCGCTTTGACAAAGATGAGCGGGAGAAGATGTGCAGGGT   5888
+
+Homo_sapiens    5889 AGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCC   5938
+                     .||.||||||||||||||.||||..||.|||||||||||.|||||.||.|
+Bos_taurus      5889 CGTTATAATTGATGACTCCTTGTTTGAAGAGGAGGAAACATTCCACGTTC   5938
+
+Homo_sapiens    5939 TTCTGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCT   5988
+                     |.|||||.|||||.|||||.||..||||.|||||||||||||||||||||
+Bos_taurus      5939 TCCTGAGTATGCCGATGGGTGGGCGAATTGGATCAGAGTTCCCAGGGGCT   5988
+
+Homo_sapiens    5989 CAAGTTACAATCGTTCCTGACAAAGATGATGAACCCATCTTTTACTTCGG   6038
+                     ||.|||||||||...||.||||||||.||.|||||..||||.|||||.||
+Bos_taurus      5989 CAGGTTACAATCAAACCCGACAAAGACGACGAACCTGTCTTCTACTTTGG   6038
+
+Homo_sapiens    6039 TGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGG   6088
+                     |||.||.||.|||...||||||||||||||.||||..|||||.||||.||
+Bos_taurus      6039 TGACGTCGAGTACAAGGTGGATGAGAGTGCGGGCTCGGTGGAGGTGCGGG   6088
+
+Homo_sapiens    6089 TGTGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGAGG   6138
+                     |||||||.|..|||||||||||||||.||.|||||||||||||.||||..
+Bos_taurus      6089 TGTGGAGGAGTGGCACTGACCTGTCCCAGGCTTCTAGTGTCACCGTGACA   6138
+
+Homo_sapiens    6139 TCTCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAACAGACTATGTGGG   6188
+                     ||.|.|||||||||.||||||||.||.|||||||||||||||||.|||||
+Bos_taurus      6139 TCGCAGAAAACAGACCCTCCCTCAGCCGATGCTGGAACAGACTACGTGGG   6188
+
+Homo_sapiens    6189 CATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTGTTC   6238
+                     .|||||||||||||||||||||||||||||||||||||||||..|..|||
+Bos_taurus      6189 AATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAAACCATTC   6238
+
+Homo_sapiens    6239 GTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAATTGAG   6288
+                     |||||.|||||.|||||||.||.|||||||||..|||||||||.||||||
+Bos_taurus      6239 GTGTTATCATTTTGGATGATCTCGGACAACCAATGCTGGAGGGTATTGAG   6288
+
+Homo_sapiens    6289 AAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGAGCC   6338
+                     .||||||||.|||||||.||.|||||||||||.|||||||||||.||.||
+Bos_taurus      6289 CAATTTGAATTGGTGCTCCGAATGCCTATGAATGCAGCCCTTGGGGACCC   6338
+
+Homo_sapiens    6339 CAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTAAGA   6388
+                     ||||||||||||.|||.||||||||||.||||||||.|||||.|||||||
+Bos_taurus      6339 CAGCAAAGCCACGGTGACCATAAATGATTCTGTCTCAGATTTACCTAAGA   6388
+
+Homo_sapiens    6389 TGCAATTCAAAGAACGAATATATACTGGCAGCGAAAGTGATGGGCAGATA   6438
+                     |||||||||||||||||.||||.|||||||..||||.|||||||||||||
+Bos_taurus      6389 TGCAATTCAAAGAACGAGTATACACTGGCAATGAAAATGATGGGCAGATA   6438
+
+Homo_sapiens    6439 GTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCTTCAGTGAG   6488
+                     ||..|.|.||||||..|||.|||||||..||.||||||.|||||||||||
+Bos_taurus      6439 GTCGCCACGATCCACCGGAGTGGGGATACCCGGTACAGGTCTTCAGTGAG   6488
+
+Homo_sapiens    6489 ATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGAAC   6538
+                     |||||||||.||.|||||.|||||||||||||||||||||||.|||||||
+Bos_taurus      6489 ATGCTACACGCGACAGGGCTCTGCACAGGTGATGATGGACTTCGAAGAAC   6538
+
+Homo_sapiens    6539 GCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTGAGACAGAA   6588
+                     ||||.||.|||||.|.||||||||||||||||||||||||.||||..|||
+Bos_taurus      6539 GCCCCAATACTGACATCTCCATCATCACATTCCTCCCTGGGGAGATCGAA   6588
+
+Homo_sapiens    6589 AAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCTATGAGGAGGTAGA   6638
+                     |||||.|||||.||.|||||||||||.||.||..|.||.|||||||||||
+Bos_taurus      6589 AAGCCTTGCATCCTGGAGCTGATGGATGACGTATTGTACGAGGAGGTAGA   6638
+
+Homo_sapiens    6639 GGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTGGGG   6688
+                     |||||||||.|||||.||.|||||.|||||||||||||||||.|||||.|
+Bos_taurus      6639 GGAGCTCCGACTGGTTCTTGGCACCCCACAAAGCAACTCTCCTTTTGGAG   6688
+
+Homo_sapiens    6689 CTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAGATGATGCT   6738
+                     ||||||||||.|||||||||||||||||.||||||||||||||.||||||
+Bos_taurus      6689 CTGCAGTTGGGGAACAAAATGAAACTCTGATAAGGATCCGAGACGATGCT   6738
+
+Homo_sapiens    6739 GATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCACTGAACC   6788
+                     ||||||||..||||||||||||||||.||||||||.||.||||.||||||
+Bos_taurus      6739 GATAAGACAATTATTAAATTTGGAGAGACCAAATTCAGCGTCAGTGAACC   6788
+
+Homo_sapiens    6789 CAAAGAACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCCAAG   6838
+                     |||||||||.|||.||||.||||||||||.||||||||||||||||||||
+Bos_taurus      6789 CAAAGAACCAGGACAGTCAGTGGTTATAAAAATTCCAGTGATTCGCCAAG   6838
+
+Homo_sapiens    6839 GAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCTCG   6888
+                     |||||||||||||.||||||||.||||||||.|||||.||||||||||||
+Bos_taurus      6839 GAGACACTTCAAAAGTTTCCATCGTGAGAGTTCACACTAAGGATGGCTCG   6888
+
+Homo_sapiens    6889 GCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTTTAA   6938
+                     |||||.||||||||.|||||.|||||||||||.|||||||||||||||||
+Bos_taurus      6889 GCCACTTCTGGAGAGGACTATCACCCTGTGTCGGAAGAAATTGAGTTTAA   6938
+
+Homo_sapiens    6939 GGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACCTTTGACGGGG   6988
+                     |||.||.||||||||||||.|.||||||||.|||||.|..||.||.||.|
+Bos_taurus      6939 GGAGGGAGAAACCCAGCACATTGTTGAAATTGAAGTAATATTCGATGGCG   6988
+
+Homo_sapiens    6989 TGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAAAT   7038
+                     |.|||||.||||||||||||||||||||.|||||||||||||||||||||
+Bos_taurus      6989 TAAGAGAAATGAGAGAGGCCTTCACTGTCCACCTAAAACCTGATGAAAAT   7038
+
+Homo_sapiens    7039 ATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAAAT   7088
+                     |||||||||||||..|||..|||.||||||||.|||||.|||||||||||
+Bos_taurus      7039 ATGATAGCAGAGACACAGGCGACCAAAGCCATCGTGTATATAGAAGAAAT   7088
+
+Homo_sapiens    7089 GAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATCCC   7138
+                     ||.|||||||||.|||||||||||||||||||||||||||.||||.|||.
+Bos_taurus      7089 GAACAGCATGGCCGATGTCACTTTTCCTTCTGTCCCTCAAGTTGTGTCCT   7138
+
+Homo_sapiens    7139 TGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCCATG   7188
+                     ||.|||.|||.||.|||.||||||..||.||.||||||||||..||..||
+Bos_taurus      7139 TGCTGACGTACGATGACTCTTCCAGGGCCAAAGAGAGTGCTGGGCCTGTG   7188
+
+Homo_sapiens    7189 TCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCAGA   7238
+                     |||||.|||||||||.||||||||||||||||||||||.||||||.||||
+Bos_taurus      7189 TCTGGTTATCCTGTCGTCTGTATCACAGCTTGCAACCCTAAATATCCAGA   7238
+
+Homo_sapiens    7239 CTACGATAAAACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACACTT   7288
+                     |||.||.||||||||||||||.||||||||||||||||||||||||||||
+Bos_taurus      7239 CTATGAAAAAACAGGCTCTATTTGTGCAAGTGAGAACATCAATGACACTT   7288
+
+Homo_sapiens    7289 TGACGCGGTACCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTGTG   7338
+                     .|||.||||||||.||||||||.||.||.||.||||||||.|||||.|||
+Bos_taurus      7289 CGACCCGGTACCGATGGCTGATCAGCGCCCCCGCGGGCCCCGACGGCGTG   7338
+
+Homo_sapiens    7339 ACCAGCCCTATGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATCCAA   7388
+                     ||||||||.|||||||||||||||||.|||||||||||.||.||.|||||
+Bos_taurus      7339 ACCAGCCCCATGAGAGAAGTGGACTTTGACACCTTTTTCACTTCGTCCAA   7388
+
+Homo_sapiens    7389 GATGGTCACACTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTACAGT   7438
+                     ||||.||||..|.||||||||||||||.||||||||.|||.|.||.||||
+Bos_taurus      7389 GATGATCACTTTAGACTCCATATACTTCCAGCCTGGATCCAGAGTGCAGT   7438
+
+Homo_sapiens    7439 GCGCAGCTCGTGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCATG   7488
+                     |.||||||||.||||||||..|..|.||...|||||||.|||||||.|||
+Bos_taurus      7439 GTGCAGCTCGAGCTGTGAATGCTGACGGCAGTGAAGGCTTGGAGCTGATG   7488
+
+Homo_sapiens    7489 AGCCCTATTGTAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGTGT   7538
+                     ||.||||||||.||||||.|||||||||||||.|||||.||||||||.||
+Bos_taurus      7489 AGTCCTATTGTGACCATCGGCAGAGAAGAAGGCCTTTGCCAGCCCCGAGT   7538
+
+Homo_sapiens    7539 ACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACACAG   7588
+                     .||.|||.|.||.|||||||||||.||||||||||||.||||||||||.|
+Bos_taurus      7539 GCCAGGGATAGTGGGAGCAGAGCCCTTCTCAGCTAAACTGCGCTACACGG   7588
+
+Homo_sapiens    7589 GCCCTGAGGATGCAGACTACACAAACCTTATCAAGCTCACTGTCACAATG   7638
+                     ||||.|||||..||||.|||||.|||||.|||||||||||.|||||.|||
+Bos_taurus      7589 GCCCCGAGGACTCAGAGTACACGAACCTCATCAAGCTCACCGTCACGATG   7638
+
+Homo_sapiens    7639 CCACACATAGATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCCAA   7688
+                     ||.||||.|||.|||||||||||.||.|||||.||.|.||||||||||||
+Bos_taurus      7639 CCCCACACAGACGGCATGCTCCCTGTAATCTCTACCAAAGAGCTTTCCAA   7688
+
+Homo_sapiens    7689 CTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAAGT   7738
+                     ||||||||||||.||||||||||||||.||..|.||||||||||||||||
+Bos_taurus      7689 CTTTGAGCTCACACTCAGCCCTGATGGTACCCGTGTTGGAAACCACAAGT   7738
+
+Homo_sapiens    7739 GCTCCAACCTCCTGGATTATACTGAAGTGAAGACTCATTATGGTTTCTTG   7788
+                     |||||||||||.|||||||.||.|||||.|||||.||..|.|||||||||
+Bos_taurus      7739 GCTCCAACCTCTTGGATTACACCGAAGTAAAGACCCACCACGGTTTCTTG   7788
+
+Homo_sapiens    7789 ACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGACATATCCTTACCA   7838
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+Bos_taurus      7789 ACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGACTTATCCTTACCA   7838
+
+Homo_sapiens    7839 GTACAGCTTGTCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAACC   7888
+                     ||||||||..||.||||||||.||||.||||||.|||||||||||.||||
+Bos_taurus      7839 GTACAGCTCATCTATCAGAGGCTCCAATACCTTACGCTTCTACCGAAACC   7888
+
+Homo_sapiens    7889 TGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGTCA   7938
+                     ||||||||||||||||.|||||||||||.|||||||||||.||||||||.
+Bos_taurus      7889 TGAACCTAGAGGCCTGCTTATGGGAGTTTGTTAGCTACTACGACATGTCC   7938
+
+Homo_sapiens    7939 GAACTCCTTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTCCT   7988
+                     ||.||.||..||||||||||.||.|||||||||||.||||||||||||||
+Bos_taurus      7939 GAGCTGCTCACTGACTGTGGAGGGACCATTGGAACCGATGGACAGGTCCT   7988
+
+Homo_sapiens    7989 AAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCCT   8038
+                     ||||||.|||||||||||.|||||.||.||||||||||||||.||.||||
+Bos_taurus      7989 AAACCTCGTGCAGTCCTACGTGACTCTCCGAGTCCCTCTGTACGTCTCCT   8038
+
+Homo_sapiens    8039 ACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTTG   8088
+                     |.||||||||.|||||||..|||||.||||||||||||||||||||||||
+Bos_taurus      8039 ATGTGTTCCACTCCCCCGCTGGGGTCGGAGGCTGGCAGCATTTTGACTTG   8088
+
+Homo_sapiens    8089 AAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGGAA   8138
+                     |||||.||.||.|||||.||.||.|||||.|||||.|||||||||||||.
+Bos_taurus      8089 AAGTCCGAACTCCGTCTGACATTCGTGTATGACACTGCCATCTTGTGGAC   8138
+
+Homo_sapiens    8139 TGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTATC   8188
+                     .|||||||||||||||||||||||.||||||||.||||||||||||||.|
+Bos_taurus      8139 CGATGGAATTGGCAGCCCCCCAGAAGCTGAACTCCAAGGTTCTCTCTACC   8188
+
+Homo_sapiens    8189 CAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCAAG   8238
+                     ||||||||||||||||||||||.||||||||.||||.||||.||||||||
+Bos_taurus      8189 CAACCAGCATGCGCATCGGTGAAGAGGGGCGTTTGGTCGTGAACTTCAAG   8238
+
+Homo_sapiens    8239 ACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCCTT   8288
+                     |||||||||||||||||||||||.|||||||||||||||||.||||||||
+Bos_taurus      8239 ACAGAGGCTCAGTTCCATGGCTTGTTTGTGCTGTCACATCCTGCATCCTT   8288
+
+Homo_sapiens    8289 TACAAGCTCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTCCC   8338
+                     .|||||||||.||||||||||||..|||||||||||.||.||.|||||||
+Bos_taurus      8289 CACAAGCTCAATGATCATGTCAGTCGATCATCCAGGTCTAACGTTTTCCC   8338
+
+Homo_sapiens    8339 TCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGTGG   8388
+                     |.||.||||||||.||||||||||||||||||||||||||.|||||||||
+Bos_taurus      8339 TGCGTCTCATAAGAAGTGAACCAACCTATAACCAGCCAGTCCAGCAGTGG   8388
+
+Homo_sapiens    8389 AGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATACTGT   8438
+                     |||||.||.|||||||||||.||.|||||||||||.||||||||.||.||
+Bos_taurus      8389 AGCTTCGTATCTGACTTTGCAGTCCGTGACTACTCGGGGACCTACACAGT   8438
+
+Homo_sapiens    8439 GAAGCTGGTGCCATGCACTGCCCCATCACATCAGGAATACCGCCTGCCAG   8488
+                     .||.|||.||||||||||..|||||||.||||||||||.|||||||||.|
+Bos_taurus      8439 AAAACTGCTGCCATGCACCACCCCATCCCATCAGGAATTCCGCCTGCCTG   8488
+
+Homo_sapiens    8489 TCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGATTC   8538
+                     |||||||||||||||||||.|||.||||.|||||||||||||||||.|||
+Bos_taurus      8489 TCACCTGCAACCCCAGAGAGCCTATCACTTTTGACCTTGACATCCGCTTC   8538
+
+Homo_sapiens    8539 CAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAAAT   8588
+                     ||||||||||||||.||||||||.|||||||||||||||||||||||.||
+Bos_taurus      8539 CAACAGGTCAGTGACCCAGTGGCGGCTGAGTTTAGCTTGAACACCCAGAT   8588
+
+Homo_sapiens    8589 GTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGAT   8638
+                     ||||||.|||||.||||||||.||||||.|||||||.|||||||||||||
+Bos_taurus      8589 GTACCTCCTCTCCAAGAAGAGCCTCTGGCTGTCTGACGGATCCATGGGAT   8638
+
+Homo_sapiens    8639 TCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTATGGT   8688
+                     |.|||||.|||||.||.|||||.|||||||||||||||||.|||||||||
+Bos_taurus      8639 TTGGGCAGGAGAGCGACGTTGCCTTTGCAGAAGGTGATATCATTTATGGT   8688
+
+Homo_sapiens    8689 CGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTGCAG   8738
+                     ||.||||||||||||||.|||||||||||.|||||.||||||||||||||
+Bos_taurus      8689 CGGGTCATGGTGGATCCAGTCCAGAATCTAGGTGATTCCTTTTACTGCAG   8738
+
+Homo_sapiens    8739 CATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCAAGT   8788
+                     ||||||.|||||||||||.|||||.||.|||||.|||||.||||||||||
+Bos_taurus      8739 CATTGAAAAGGTGTTTCTGTGCACCGGGGCTGACGGCTACGTTCCCAAGT   8788
+
+Homo_sapiens    8789 ATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTCACTC   8838
+                     |.|.|||||.|||.||||||||.||||||||.||.||.||.|||||||||
+Bos_taurus      8789 ACAATCCAACGAACGCAGAATACGGCTGCTTGGCTGATTCACCTTCACTC   8838
+
+Homo_sapiens    8839 TTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCGAC   8888
+                     ||||||||||||||||||||||||||||||||.||||||||||||||.||
+Bos_taurus      8839 TTATATAGATTTAAAATTGTGGACAAAGCTCAACCAGAGACACAAGCCAC   8888
+
+Homo_sapiens    8889 CAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGACCCTG   8938
+                     |||.||||||||||||||.||||||||||||||.||||||||||||||||
+Bos_taurus      8889 CAGCTTTGGAAATGTCCTGTTTAATGCCAAACTGGCAGTGGATGACCCTG   8938
+
+Homo_sapiens    8939 AAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGAC   8988
+                     ||||.||.||||||||||||||||||||||||||||||||||||||||||
+Bos_taurus      8939 AAGCTATCCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGAC   8988
+
+Homo_sapiens    8989 TCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACATAC   9038
+                     ||||||||||||||||||||.|||||.||.|||||||||||..||||.||
+Bos_taurus      8989 TCAACACCACTCTTTCAGGTTGCTCTGGGTCGAGAATGGTACGTACACAC   9038
+
+Homo_sapiens    9039 GATCTATACAGTGAGATCGAAAGACAATGCCAATCGAGGTATTGGCAAAA   9088
+                     .|||||.|||||.|||||||||||||.||||||.|||||.|||||||||.
+Bos_taurus      9039 CATCTACACAGTAAGATCGAAAGACAGTGCCAACCGAGGCATTGGCAAAC   9088
+
+Homo_sapiens    9089 GAAGTGTGGA------GTACCATTCTCTGGTGAGTCAAGGAAAGCCCCAA   9132
+                     |.||.|||||      ||||||.|||.|||||.|||||||.||||||||.
+Bos_taurus      9089 GCAGCGTGGAGTACCGGTACCACTCTTTGGTGGGTCAAGGGAAGCCCCAG   9138
+
+Homo_sapiens    9133 TCCACCACCAAGAGCCGGAAGAAGAGAGAGATCAGGAGCACACCCT-CAC   9181
+                     .|..|.||||||||||||||||||||.||||||||.|||| .|||| |.|
+Bos_taurus      9139 GCAGCTACCAAGAGCCGGAAGAAGAGGGAGATCAGAAGCA-GCCCTCCGC   9187
+
+Homo_sapiens    9182 TGGCATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCAC   9231
+                     ||||.|||||.||.||.|||||.||||.|||.|||||.||||||||||||
+Bos_taurus      9188 TGGCGTGGGAAATCGGGGCTGAGAACAATCGGGGAACGAACATCCAGCAC   9237
+
+Homo_sapiens    9232 ATTGCCCTGGACC---GCACCAAGAGGCAGATCCCCCATGGGAGAGCACC   9278
+                     .|.||||||||||   |||.||.||.||||||||..||.|||||.|...|
+Bos_taurus      9238 GTCGCCCTGGACCGCAGCAGCAGGAAGCAGATCCTTCACGGGAGGGTTTC   9287
+
+Homo_sapiens    9279 TCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTCA   9328
+                     .||.||.|||.||||||||.|||||||||||||.||||||||||..||||
+Bos_taurus      9288 CCCTGACGGCGTCCTCCCCCGGGAGCTCAACAGTCCCAGCTCTGAGGTCA   9337
+
+Homo_sapiens    9329 GCCTGGTCACTGTGGTGGGAGGCACCACGGTAGGGTTACTCACCATCTGC   9378
+                     |||||.||||.||||||||.|||..|..|||.||..|.||..||.||..|
+Bos_taurus      9338 GCCTGCTCACGGTGGTGGGGGGCGTCGTGGTGGGACTCCTGGCCGTCATC   9387
+
+Homo_sapiens    9379 CTCACTGTCATTGCAGTGCTGATGTGCAGGGGCAAGGAA-AGTTTCAGGG   9427
+                     |||||||.|.|..|.|||..||||..|..|||| ||||| .||..||||.
+Bos_taurus      9388 CTCACTGCCGTCACGGTGAGGATGCACCAGGGC-AGGAAGGGTGCCAGGA   9436
+
+Homo_sapiens    9428 GGAAGGATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCCCA   9477
+                     ||||||||||.||.||.|.|.||.|||||.|||||||||||.|||||.||
+Bos_taurus      9437 GGAAGGATGCACCCAAGGACCCCGGCAGCCGTGAGCCCATGATGCCCTCA   9486
+
+Homo_sapiens    9478 CAGAGCCATCACAATGACAGCTCAGAAGTT   9507
+                     ..||||||.||||..||||||||.||.|||
+Bos_taurus      9487 GTGAGCCACCACAGCGACAGCTCGGAGGTT   9516
+
+
+#---------------------------------------
+#---------------------------------------

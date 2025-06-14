@@ -1,0 +1,426 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 05:59:17
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Mus_pahari.fa
+#    -outfile Homo_sapiens-Mus_pahari.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Mus_pahari.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Mus_pahari
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4861
+# Identity:    4127/4861 (84.9%)
+# Similarity:  4127/4861 (84.9%)
+# Gaps:         158/4861 ( 3.3%)
+# Score: 18081.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+                     |||||.||||||||.|||||.||||||||||||||||||||.||||||||
+Mus_pahari         1 ATGGCCGACCGCGGATGCCCTCTGGAGGCGGCGCCGCTGCCCGCCGAGGT     50
+
+Homo_sapiens      51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+                     ||..|||||||||||.||||||||||||||||||||.|||||||||||||
+Mus_pahari        51 GCTCGAGAGCCTGGCGGAGCTGGAGCTGGAGCTGTCCGAAGGTGACATCA    100
+
+Homo_sapiens     101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+                     ||||.|||||||||||.|||||.|||||.||||||||.||.||.||.||.
+Mus_pahari       101 CTCAGAAAGGATATGAGAAGAAGAGGGCGAAGCTGCTGGCTCGGTACATC    150
+
+Homo_sapiens     151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+                     ||.||.|||||||||.|||||||||.||||||..||||||||||||||||
+Mus_pahari       151 CCCCTCATTCAAGGAGTAGACCCATGTCTGCAGACAGAGAATAGAATTCC    200
+
+Homo_sapiens     201 TGGGCCCTCACAAACCACGGCC-GCT-GCACCCAAGCAGCAGAAGTCTCG    248
+                     .|||||||..|..||    ||| ||| .|||..||.|| |||||||||||
+Mus_pahari       201 CGGGCCCTTGCTGAC----GCCAGCTACCACTAAACCA-CAGAAGTCTCG    245
+
+Homo_sapiens     249 GCCCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAGCCAA    298
+                     |.|.|||..|||.|||||||||||||||||||||                
+Mus_pahari       246 GGCTACCAACTCCAGGGATGAGCGCTTCCGGTCA----------------    279
+
+Homo_sapiens     299 TGTTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTATTTGG    348
+                                                                       
+Mus_pahari       279 --------------------------------------------------    279
+
+Homo_sapiens     349 ACCCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCCACAC    398
+                                                            |||||.|||||
+Mus_pahari       280 ---------------------------------------GATGTTCACAC    290
+
+Homo_sapiens     399 TGAAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTA    448
+                     .||||||||||||||||||||||||||.|||||.||||||||||||||.|
+Mus_pahari       291 GGAAGCCGTGCAAGCAGCTTTGGCCAAGTACAAGGAGAGGAAGATGCCCA    340
+
+Homo_sapiens     449 TGCCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTAC    498
+                     |||||||.||||||||.||||.|||||||||.||.||.|||||.||||||
+Mus_pahari       341 TGCCTTCAAAGAGACGCTCTGCCCTTGTGCACTCCTCCGTGGAGACCTAC    390
+
+Homo_sapiens     499 ACCCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCG    548
+                     ||.||||||||||||||.||||||||||||||||||||||||||||||||
+Mus_pahari       391 ACGCCTCCAGACACGTCATCTGCCTCAGAAGATGAGGGCTCTTTACGGCG    440
+
+Homo_sapiens     549 ACCCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGC    598
+                     |||.|||||||||||||||||||.||||||||||||||||.||.||||||
+Mus_pahari       441 ACCTGGGCGACTCACCTCCACTCTGCTCCAGAGCCATTCCGGCATCGAGC    490
+
+Homo_sapiens     599 CCTGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCC    648
+                     |||||||||||.||||||||||||||||.|||||||||||||||||||||
+Mus_pahari       491 CCTGGCTCGACAGGGTCATTCAGGGCTCCTCCACCTCATCCTCTGCATCC    540
+
+Homo_sapiens     649 TCCACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGC    698
+                     |||||||||||.|||||.|||||||||||..|..|||||||||||||   
+Mus_pahari       541 TCCACCTCATCCCACCCAGGAGGGAGACCTGCTGCTGCTCCCAGTGC---    587
+
+Homo_sapiens     699 AGCCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCC    748
+                                         || |||||||.|||||.||||||..|||||
+Mus_pahari       588 --------------------CT-CCACTGCGCTCGCGGGCCTCACGGCCC    616
+
+Homo_sapiens     749 ACACCCACATAGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGCCTC    798
+                     ||.||||||||||||||||.|||||||||||.|||||||||||.||.||.
+Mus_pahari       617 ACGCCCACATAGATCTGCACTCTGCCCCTCCGGATGTCACCACTGGACTT    666
+
+Homo_sapiens     799 GTGGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGAAGTGT    848
+                     ||||||||.||...||..||||||||.|||.||||.||||||.||.|..|
+Mus_pahari       667 GTGGAGCACTCACCCTACGAGCGTCCCCAGATGGCCTCTGTGCGAGGCAT    716
+
+Homo_sapiens     849 TCCTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGGTGTCCCTG    898
+                     ||||||.|||..|.||.|||.|.|||||||.||.||.||.|||||.||||
+Mus_pahari       717 TCCTCGAGGGCACGGCAGGAACGTGCTGGAGACCGCCGACGGTGTGCCTG    766
+
+Homo_sapiens     899 TGAACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCCTGAAG    948
+                     ||||||||||||||||||||||||||||||||||.|||||.||.||||||
+Mus_pahari       767 TGAACAGCAGAGTGTCCTCCAAAATCCAGCAGCTACTGAATACGCTGAAG    816
+
+Homo_sapiens     949 AGGCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTTGAGGA    998
+                     |||||||||||||||||.||||||||.||.||||||||||||||||||||
+Mus_pahari       817 AGGCCAAAGCGCCCTCCTCTGAAGGAATTTTTTGTGGATGATTTTGAGGA    866
+
+Homo_sapiens     999 ATTGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGAGGGAA   1048
+                     |||..||||||||||||||||||||||.||||||||.|||||||||||  
+Mus_pahari       867 ATTACTGGAAGTTCAGCAACCAGATCCGAATCAGCCCAAGCCTGAGGG--    914
+
+Homo_sapiens    1049 GCG----AGACGAGTGTGCTGAGAGGG-GAGCCTC--TCACTGCAGGTGT   1091
+                       |    |||.|...||||||| |||| |||||||  |||.|   ||.|.
+Mus_pahari       915 --GGATCAGATGGCCGTGCTGA-AGGGAGAGCCTCTGTCAGT---GGGGA    958
+
+Homo_sapiens    1092 C-CCCCGACCGCCGTCGCTGTTGGC--CACCTTGCAGCGCTGGGGCACAA   1138
+                     | .||.||||.|.|||.||||||||  |||  ||||||.||||||.||||
+Mus_pahari       959 CTTCCGGACCACTGTCTCTGTTGGCTGCAC--TGCAGCTCTGGGGAACAA   1006
+
+Homo_sapiens    1139 CACAGCCCAAATCCCCCTGTCTGACTGCCTTGGATACAACTGGGAAAGCC   1188
+                     |||||||.|||.||||||||||||||||||||||.|||.|.|||||||||
+Mus_pahari      1007 CACAGCCTAAAGCCCCCTGTCTGACTGCCTTGGACACAGCCGGGAAAGCC   1056
+
+Homo_sapiens    1189 GTCTACACTCTCACCTATGGTAAACTTTGGAGTCGGAGTTTAAAACTAGC   1238
+                     ..||.|||.||.||||||||.|||||.||||||||||||||||||.|.||
+Mus_pahari      1057 ACCTGCACCCTGACCTATGGCAAACTCTGGAGTCGGAGTTTAAAATTGGC   1106
+
+Homo_sapiens    1239 TTATACTCTACTTAATAAACTGACAAGTAAGAATGAACCTCTACTTAAAC   1288
+                     .||||||||||||||.||||||||.|||||||||||.||.||.|||||.|
+Mus_pahari      1107 GTATACTCTACTTAACAAACTGACTAGTAAGAATGAGCCCCTGCTTAACC   1156
+
+Homo_sapiens    1289 CTGGAGACAGAGTGGCGCTCGTGTTTCCGAATAGTGACCCTGTGATGTTC   1338
+                     ||||||||||||||||.|||||||||||.||.|||||||||||.||||||
+Mus_pahari      1157 CTGGAGACAGAGTGGCACTCGTGTTTCCAAACAGTGACCCTGTCATGTTC   1206
+
+Homo_sapiens    1339 ATGGTTGCATTTTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCAT   1388
+                     |||||.|||||.||.||||||||||||||.||||||||.||||||||.||
+Mus_pahari      1207 ATGGTCGCATTCTACGGGTGTCTCCTGGCGGAGCTGGTCCCTGTCCCTAT   1256
+
+Homo_sapiens    1389 AGAAGTGCCATTAACAAGAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTC   1438
+                     ||||||.|||.||||.|||||||||||||||||||||||||||||.||||
+Mus_pahari      1257 AGAAGTACCACTAACGAGAAAGGATGCAGGCAGCCAGCAGGTTGGCTTTC   1306
+
+Homo_sapiens    1439 TGCTGGGCAGCTGTGGAGTCTTCTTGGCCCTGACCACAGACGCTTGTCAG   1488
+                     |.||||||||||||||.||...|.||||||||||||||||.||.||||||
+Mus_pahari      1307 TCCTGGGCAGCTGTGGGGTGAGCCTGGCCCTGACCACAGATGCCTGTCAG   1356
+
+Homo_sapiens    1489 AAAGGCCTCCCCAAGGCACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTG   1538
+                     ||.||.||.||||||||.|.|||.|||||||||||..|||||||||||||
+Mus_pahari      1357 AAGGGTCTGCCCAAGGCGCCGACGGGAGAGGTGGCCACTTTCAAAGGTTG   1406
+
+Homo_sapiens    1539 GCCCCCGCTCTCCTGGCTAGTGATTGATGGGAAGCATCTAGCCAAGCCCC   1588
+                     ||||||.|||.|||||||.||||||||.|||||||||||..|.|||||.|
+Mus_pahari      1407 GCCCCCACTCGCCTGGCTGGTGATTGACGGGAAGCATCTGACGAAGCCTC   1456
+
+Homo_sapiens    1589 CAAAGGACTGGCACCCTCTGGCCCAGGACACAGGGACTGGGACTGCCTAC   1638
+                     |||||||||||.||||.||||||||||||||||||.|..||||.||||||
+Mus_pahari      1457 CAAAGGACTGGTACCCGCTGGCCCAGGACACAGGGTCCAGGACGGCCTAC   1506
+
+Homo_sapiens    1639 ATTGAGTATAAAACCAGCAAAGAAGGCAGTACGGTGGGGGTCACAGTGTC   1688
+                     |||||.|||||||||||||||||.|||||.||.||.||||||||.||.||
+Mus_pahari      1507 ATTGAATATAAAACCAGCAAAGACGGCAGCACAGTAGGGGTCACCGTATC   1556
+
+Homo_sapiens    1689 CCACGCATCCCTGCTGGCACAGTGCCGGGCTCTGACCCAGGCGTGCGGGT   1738
+                     ||||.|||||||||||||.|||||||.|||.||||||||||||||.||||
+Mus_pahari      1557 CCACTCATCCCTGCTGGCGCAGTGCCAGGCCCTGACCCAGGCGTGTGGGT   1606
+
+Homo_sapiens    1739 ACTCAGAAGCTGAAACATTAACAAACGTGCTGGATTTCAAAAGGGATGCT   1788
+                     ||.|.|||||||||||.|||||.||.||.|||||.|||||||||||||||
+Mus_pahari      1607 ACACGGAAGCTGAAACGTTAACGAATGTACTGGACTTCAAAAGGGATGCT   1656
+
+Homo_sapiens    1789 GGTCTGTGGCATGGCGTGTTAACAAGCGTCATGAACAGGATGCACGTGGT   1838
+                     |||.|||||||.||.||.||||||||.||||||||.||||||||.||..|
+Mus_pahari      1657 GGTTTGTGGCACGGAGTCTTAACAAGTGTCATGAATAGGATGCATGTCAT   1706
+
+Homo_sapiens    1839 CAGCGTCCCCTACGCGCTGATGAAGGCGAACCCACTCTCCTGGATCCAGA   1888
+                     ||||.||||.||.||.||||||||||..|||||||||||||||||.||||
+Mus_pahari      1707 CAGCATCCCGTATGCCCTGATGAAGGTCAACCCACTCTCCTGGATTCAGA   1756
+
+Homo_sapiens    1889 AAGTGTGCTTCTATAAAGCTCGGGCCGCGCTGGTGAAGTCGCGAGACATG   1938
+                     |||||||.|.|||||||||.|.|||.||.|||||||||||.||.||.|||
+Mus_pahari      1757 AAGTGTGTTCCTATAAAGCCCAGGCTGCCCTGGTGAAGTCCCGGGATATG   1806
+
+Homo_sapiens    1939 CACTGGTCTCTCCTAGCTCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTC   1988
+                     ||||||||.|||.|.||.|||||.||.||||||||.|||.|.||||||||
+Mus_pahari      1807 CACTGGTCGCTCTTGGCACAGCGAGGTCAGAGGGATGTCTGTCTCAGCTC   1856
+
+Homo_sapiens    1989 ACTGCGCATGCTGATTGTGGCCGATGGTGCCAACCCGTGGTCGATCTCCT   2038
+                     .|||||||||.||||||||||.|||||.||.|||||.|||||.||.||.|
+Mus_pahari      1857 TCTGCGCATGTTGATTGTGGCAGATGGCGCTAACCCATGGTCAATATCTT   1906
+
+Homo_sapiens    2039 CCTGTGACGCCTTCCTCAACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAG   2088
+                     ||||.||.||||||||||||||||||||||||||||||||||||||||||
+Mus_pahari      1907 CCTGCGATGCCTTCCTCAACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAG   1956
+
+Homo_sapiens    2089 GTCATCTGTCCTTGTGCAAGTTCTCCTGAGGCGCTGACTGTCGCCATCCG   2138
+                     |||||.|||||||||||.||||||||||||||||||||.||.||||||||
+Mus_pahari      1957 GTCATTTGTCCTTGTGCCAGTTCTCCTGAGGCGCTGACAGTAGCCATCCG   2006
+
+Homo_sapiens    2139 CAGGCCACCTGATCTGGGAGGACCACCTCCAAGAAAAGCAGTCCTGTCGA   2188
+                     ||||||.||.||.|||||||||||.||||||||||||||.||||||||.|
+Mus_pahari      2007 CAGGCCCCCAGAGCTGGGAGGACCTCCTCCAAGAAAAGCTGTCCTGTCAA   2056
+
+Homo_sapiens    2189 TGAACGGTCTAAGTTATGGTGTTATCAGAGTGGATACTGAAGAAAAGTTG   2238
+                     ||||.||.||.||.||.|||||.|||.||||.||.|||||.||.|||.||
+Mus_pahari      2057 TGAATGGCCTGAGCTACGGTGTAATCCGAGTTGACACTGAGGAGAAGCTG   2106
+
+Homo_sapiens    2239 TCAGTCCTTACTGTTCAGGACGTTGGTCAGGTGATGCCTGGAGCTAATGT   2288
+                     ||.|||||.|||||||||||.||.||.|||||||||||.|||||||.|||
+Mus_pahari      2107 TCGGTCCTCACTGTTCAGGATGTCGGCCAGGTGATGCCCGGAGCTAGTGT   2156
+
+Homo_sapiens    2289 ATGTGTTGTGAAGTTAGAAGGTACCCCTTATCTTTGTAAAACTGATGAAG   2338
+                     .||||||||||||.||||.|||.||||||||||.|||||||||||||||.
+Mus_pahari      2157 GTGTGTTGTGAAGGTAGACGGTGCCCCTTATCTCTGTAAAACTGATGAAA   2206
+
+Homo_sapiens    2339 TGGGAGAAATATGCGTCAGTTCCAGTGCAACTGGCACAGCGTACTATGGA   2388
+                     |.||||||||.||.||||.|||...|||||||||.||.||.|||||||||
+Mus_pahari      2207 TTGGAGAAATCTGTGTCAATTCTGTTGCAACTGGGACGGCATACTATGGA   2256
+
+Homo_sapiens    2389 TTGCTTGGAATCACGAAGAATGTGTTTGAGGCAGTTCCGGTCACCACAGG   2438
+                     .||||||||||||||||||||...||||||.|.||.||||||||..|||.
+Mus_pahari      2257 CTGCTTGGAATCACGAAGAATACATTTGAGACCGTCCCGGTCACTGCAGA   2306
+
+Homo_sapiens    2439 AGGAGCACCCATCTTTGACAGGCCATTCACCAGGACAGGCCTGCTGGGCT   2488
+                     .||||..||..|||.||||.||||.|||||||||||||||||.|||||.|
+Mus_pahari      2307 TGGAGTCCCTGTCTCTGACCGGCCTTTCACCAGGACAGGCCTTCTGGGAT   2356
+
+Homo_sapiens    2489 TCATCGGGCCTGACAACCTGGTCTTCATCGTGGGCAAACTGGACGGGCTG   2538
+                     |.|||||.|||||.||||||||||||.||||||||||.||||||||||||
+Mus_pahari      2357 TTATCGGACCTGATAACCTGGTCTTCGTCGTGGGCAAGCTGGACGGGCTG   2406
+
+Homo_sapiens    2539 ATGGTCACTGGAGTTCGCAGACACAATGCAGATGACGTTGTGGCCACCGC   2588
+                     ||||||...|||.|.|||||||||||||||||||||.|||||||.||.||
+Mus_pahari      2407 ATGGTCGTAGGAATCCGCAGACACAATGCAGATGACATTGTGGCTACTGC   2456
+
+Homo_sapiens    2589 ACTGGCCGTGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGT   2638
+                     .|||||.|||||||||||||||||||||||||||||||||||||||||||
+Mus_pahari      2457 CCTGGCTGTGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGT   2506
+
+Homo_sapiens    2639 TCTCTGTGACCGTGCTGCACGACGACCGGATTGTCCTGGTGGCTGAGCAG   2688
+                     ||||||||||.|||||||||||.||||||||||||.|||||||.||||||
+Mus_pahari      2507 TCTCTGTGACTGTGCTGCACGATGACCGGATTGTCTTGGTGGCCGAGCAG   2556
+
+Homo_sapiens    2689 CGGCCGGATGCCTCGGAGGAGGACAGCTTCCAGTGGATGAGCCGTGTGCT   2738
+                     |||||.||.||.||||||||.|||||||||||||||||||||||.|||||
+Mus_pahari      2557 CGGCCCGACGCTTCGGAGGAAGACAGCTTCCAGTGGATGAGCCGCGTGCT   2606
+
+Homo_sapiens    2739 GCAGGCCATTGATAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGG   2788
+                     .||||||||.||.|||||||||||||||||.|||||||||.||||.||.|
+Mus_pahari      2607 ACAGGCCATCGACAGCATCCACCAGGTGGGTGTGTACTGTTTGGCTCTAG   2656
+
+Homo_sapiens    2789 TTCCTGCCAACACCTTGCCCAAGGCTCCTCTCGGAGGGATTCACATTTCT   2838
+                     ||||.||||||||.|||||||||||||||||.|||||.||||||||||||
+Mus_pahari      2657 TTCCCGCCAACACTTTGCCCAAGGCTCCTCTGGGAGGAATTCACATTTCT   2706
+
+Homo_sapiens    2839 GAAACCAAACAGCGCTTTCTGGAAGGGACGCTGCACCCGTGTAATGTGCT   2888
+                     |||||.||.||.|||||||||||.||||||||.|||||.|||||||||.|
+Mus_pahari      2707 GAAACGAAGCAACGCTTTCTGGACGGGACGCTCCACCCATGTAATGTGTT   2756
+
+Homo_sapiens    2889 GATGTGCCCTCACACCTGTGTTACCAACCTCCCCAAACCTCGTCAGAAAC   2938
+                     |||||||||||||||.||.|||||||||||.|||||.|||||.|||||||
+Mus_pahari      2757 GATGTGCCCTCACACGTGCGTTACCAACCTTCCCAAGCCTCGCCAGAAAC   2806
+
+Homo_sapiens    2939 AACCAGAGGTTGGACCAGCCTCAATGATCGTGGGGAACCTGGTTGCTGGG   2988
+                     |.|||||.||||||||||||||||||||.||.|||||||||||||||||.
+Mus_pahari      2807 AGCCAGAAGTTGGACCAGCCTCAATGATTGTCGGGAACCTGGTTGCTGGA   2856
+
+Homo_sapiens    2989 AAGAGAATCGCTCAGGCTTCCGGGAGAGAGCTCGCCCACCTGGAGGACAG   3038
+                     ||.||.||.||.|||||.||.||||||||.||.|||||||||||||||||
+Mus_pahari      2857 AAAAGGATTGCACAGGCCTCTGGGAGAGAACTGGCCCACCTGGAGGACAG   2906
+
+Homo_sapiens    3039 CGACCAGGCACGGAAGTTCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTG   3088
+                     .|||||.||.||.|||||||||||||||||.||.||||||||||||||.|
+Mus_pahari      2907 TGACCAAGCTCGCAAGTTCCTGTTCCTGGCAGATGTGCTGCAGTGGCGGG   2956
+
+Homo_sapiens    3089 CCCACACCACTCCTGACCACCCGCTGTTCTTGCTGCTGAACGCCAAGGGC   3138
+                     |.||||||||.||||||||||||||||||||||||||||||||.||||||
+Mus_pahari      2957 CTCACACCACCCCTGACCACCCGCTGTTCTTGCTGCTGAACGCTAAGGGC   3006
+
+Homo_sapiens    3139 ACCGTCACAAGCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCTGAGAG   3188
+                     ||.|||||.|||||||||||||||.|||||||||||||||||||.|||||
+Mus_pahari      3007 ACGGTCACCAGCACTGCAACCTGTATCCAGCTGCACAAAAGGGCCGAGAG   3056
+
+Homo_sapiens    3189 AGTGGCCGCGGCTCTGATGGAGAAGGGAAGACTGAG-TGTTGGGGACCAT   3237
+                     ||||||.||.||.||||||||||||||..|.|| || ||.||||||||||
+Mus_pahari      3057 AGTGGCTGCCGCCCTGATGGAGAAGGGGCGGCT-AGATGCTGGGGACCAT   3105
+
+Homo_sapiens    3238 GTGGCTCTGGTCTACCCACCAGGGGTGGACCTCATTGCCGCGTTCTATGG   3287
+                     ||||||.||||.|||||.|||||||||||.||.|||||.||.||||||||
+Mus_pahari      3106 GTGGCTTTGGTGTACCCTCCAGGGGTGGATCTTATTGCTGCATTCTATGG   3155
+
+Homo_sapiens    3288 CTGCTTGTACTGTGGCTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCTC   3337
+                     ||||.|||||||||||||.|||||||||||.|||||.|||||.|||||.|
+Mus_pahari      3156 CTGCCTGTACTGTGGCTGTGTGCCTGTCACTGTGCGACCCCCACACCCCC   3205
+
+Homo_sapiens    3338 AGAACCTCGGCACCACACTGCCCACCGTCAAGATGATCGTGGAGGTCAGC   3387
+                     |||||||.|||||||||.|||||||.||.||||||||.||.|||||||||
+Mus_pahari      3206 AGAACCTTGGCACCACATTGCCCACTGTGAAGATGATTGTAGAGGTCAGC   3255
+
+Homo_sapiens    3388 AAGTCTGCATGCGTCCTCACCACGCAGGCTGTCACACGGCTGCTCAGGTC   3437
+                     ||.||||||||.|||||||.|||.|||||..|||||||||||||||.|||
+Mus_pahari      3256 AAATCTGCATGTGTCCTCAGCACACAGGCCATCACACGGCTGCTCAAGTC   3305
+
+Homo_sapiens    3438 CAAGGAGGCTGCTGCTGCCGTGGACATCAGGACCTGGCCCACCATCCTAG   3487
+                     |||.|||||.|||||.||.||.|||.|||||||||||||.||.|||||||
+Mus_pahari      3306 CAAAGAGGCAGCTGCCGCTGTAGACGTCAGGACCTGGCCAACTATCCTAG   3355
+
+Homo_sapiens    3488 ACACAGATGACATCCCAAAAAAGAAGATAGCAAGCGTTTTCAGGCCCCCC   3537
+                     |.|||||||||||.||||||||||||.|.||.|||.|||||||.||.|||
+Mus_pahari      3356 ATACAGATGACATTCCAAAAAAGAAGGTGGCTAGCATTTTCAGACCGCCC   3405
+
+Homo_sapiens    3538 TCCCCCGATGTCCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGAT   3587
+                     |||||.||.||.||.|||||||||||||||||.|||||.||.||.|||||
+Mus_pahari      3406 TCCCCAGACGTGCTGGCATACTTGGACTTCAGTGTGTCGACGACAGGGAT   3455
+
+Homo_sapiens    3588 ATTAGCGGGAGTGAAGATGTCGCACGCGGCCACAAGCGCCTTATGCCGCT   3637
+                     .|||||.|||||.||||||||.|||||.||||||||.|||||.|||||.|
+Mus_pahari      3456 CTTAGCTGGAGTTAAGATGTCACACGCAGCCACAAGTGCCTTGTGCCGTT   3505
+
+Homo_sapiens    3638 CCATAAAGCTGCAGTGTGAGCTGTACCCCTCGCGGCAGATCGCCATCTGC   3687
+                     ||||||||||.||||||||||||||||||||.||.|||||||||||||||
+Mus_pahari      3506 CCATAAAGCTTCAGTGTGAGCTGTACCCCTCACGACAGATCGCCATCTGC   3555
+
+Homo_sapiens    3688 CTCGACCCCTACTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGT   3737
+                     ||.|||||.|||||||||||.||||||||.|||||||||||||||||.||
+Mus_pahari      3556 CTGGACCCTTACTGTGGCCTCGGTTTTGCACTGTGGTGTCTGTGCAGCGT   3605
+
+Homo_sapiens    3738 CTACTCGGGACACCAATCAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCA   3787
+                     ||||||.||||||||.||||||||.||.|||||.||||||||||||||||
+Mus_pahari      3606 CTACTCTGGACACCAGTCAGTGCTCGTTCCCCCACTGGAGCTGGAGAGCA   3655
+
+Homo_sapiens    3788 ACGTGTCCCTGTGGCTGTCGGCCGTCAGCCAGTACAAGGCCCGCGTCACC   3837
+                     ||||||||||.||||||||.||||||||||||||||||||||||||||||
+Mus_pahari      3656 ACGTGTCCCTCTGGCTGTCTGCCGTCAGCCAGTACAAGGCCCGCGTCACC   3705
+
+Homo_sapiens    3838 TTCTGCTCCTACTCTGTGATGGAGATGTGCACCAAGGGCCTAGGCGCACA   3887
+                     |||||.||||||||.||||||||.|||||||||||||||||.||.||.||
+Mus_pahari      3706 TTCTGTTCCTACTCAGTGATGGAAATGTGCACCAAGGGCCTGGGTGCTCA   3755
+
+Homo_sapiens    3888 GACGGGTGTCCTCAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACGT   3937
+                     |||.||.|.|||.|||||||||||||||||||||||||||||||||||.|
+Mus_pahari      3756 GACCGGCGCCCTTAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACAT   3805
+
+Homo_sapiens    3938 GCATGGTGGTCGCCGAGGAGCGGCCCAGGATTGCGCTGACCCAGTCCTTC   3987
+                     |||||||.||.||.||||||||||||.||||..||.|.||.|||||.|||
+Mus_pahari      3806 GCATGGTAGTGGCTGAGGAGCGGCCCCGGATCTCGTTAACACAGTCATTC   3855
+
+Homo_sapiens    3988 TCCAAGCTCTTCAAGGACCTGGGCCTGCCGGCCCGCGCCGTAAGCACCAC   4037
+                     ||||||||.|||||.|||||||||||.||.||.||.||.||.||||||||
+Mus_pahari      3856 TCCAAGCTGTTCAAAGACCTGGGCCTCCCTGCACGTGCTGTGAGCACCAC   3905
+
+Homo_sapiens    4038 GTTCGGGTGCAGGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGG   4087
+                     .||.||||||||||||||.|||||.|||||||||||||||||||||||||
+Mus_pahari      3906 CTTTGGGTGCAGGGTCAATGTGGCTATCTGCCTCCAGCCCAACAGGCTGG   3955
+
+Homo_sapiens    4088 GAAAGCTGGCTGAGCAGGGCACAGCTGGCCCGGACCCCACAACCGTCTAC   4137
+                     ||||.||.|||||||||||||||.|.||||||||||||||.|||||||||
+Mus_pahari      3956 GAAAACTAGCTGAGCAGGGCACAACAGGCCCGGACCCCACGACCGTCTAC   4005
+
+Homo_sapiens    4138 GTGGACATGCGGGCACTGCGCCATGACAGGGTTCGTTTGGTAGAACGGGG   4187
+                     |||||||||||||||||||||||||||||.||||||.||||.||||||||
+Mus_pahari      4006 GTGGACATGCGGGCACTGCGCCATGACAGAGTTCGTCTGGTGGAACGGGG   4055
+
+Homo_sapiens    4188 TTCTCCGCACAGCCTGCCATTGATGGAGTCTGGAAAGATCCTCCCCGGCG   4237
+                     ||||||.||.||.||.|||||||||||||||||||||||||||||.||.|
+Mus_pahari      4056 TTCTCCACATAGTCTACCATTGATGGAGTCTGGAAAGATCCTCCCGGGAG   4105
+
+Homo_sapiens    4238 TGAAGGTCATCATCGCACACACCGAGACCAAAGGACCCTTGGGAGACTCA   4287
+                     ||||||||||||||||.|||||.|||||||||||||||.|.|||||||||
+Mus_pahari      4106 TGAAGGTCATCATCGCTCACACTGAGACCAAAGGACCCCTCGGAGACTCA   4155
+
+Homo_sapiens    4288 CACCTGGGAGAGATCTGGGTAAGCAGCCCCCACAATGCCACCGGGTACTA   4337
+                     ||||||||.|||||||||||.|||||.||||||||||||||.||||||||
+Mus_pahari      4156 CACCTGGGTGAGATCTGGGTGAGCAGTCCCCACAATGCCACTGGGTACTA   4205
+
+Homo_sapiens    4338 CACCGTTTACGGGGAGGAGGCGCTTCATGCCGACCACTTCAGTGCCCGGC   4387
+                     |||.||.||||||||||||.|.||||||||.|||||||||||||||||.|
+Mus_pahari      4206 CACAGTCTACGGGGAGGAGACACTTCATGCTGACCACTTCAGTGCCCGTC   4255
+
+Homo_sapiens    4388 TGAGTTTTGGAGACACACAGACCATCTGGGCAAGGACCGGCTACCTTGGC   4437
+                     ||||.||||||||.||.||||||||.|||||||||||.||||||||||||
+Mus_pahari      4256 TGAGCTTTGGAGATACCCAGACCATTTGGGCAAGGACTGGCTACCTTGGC   4305
+
+Homo_sapiens    4438 TTCCTTCGGCGAACAGAGCTCACTGATGCCAGTGGAGGGCGGCACGATGC   4487
+                     ||||||||..|.||||||||.||.|||||||||||||.|||.||.|||||
+Mus_pahari      4306 TTCCTTCGCAGGACAGAGCTGACAGATGCCAGTGGAGAGCGCCATGATGC   4355
+
+Homo_sapiens    4488 ACTGTATGTGGTTGGGTCTCTGGATGAAACTCTGGAGCTCAGAGGCATGC   4537
+                     |||||||||.||||||||||||||||||||.||.||.||.||||||||||
+Mus_pahari      4356 ACTGTATGTCGTTGGGTCTCTGGATGAAACGCTAGAACTGAGAGGCATGC   4405
+
+Homo_sapiens    4538 GGTACCACCCCATCGACATTGAGACCTCTGTCATCCGAGCACACAGGAGC   4587
+                     ||||.||||||||||||||.||.|||||.||.|||||.||||||||||||
+Mus_pahari      4406 GGTATCACCCCATCGACATAGAAACCTCCGTGATCCGTGCACACAGGAGC   4455
+
+Homo_sapiens    4588 ATCGCTGAGTGTGCCGTATTCACCTGGACCAACCTGCTGGTGGTGGTGGT   4637
+                     |||||.|||||||||||.||||||||||||||||||||||||||||||||
+Mus_pahari      4456 ATCGCAGAGTGTGCCGTGTTCACCTGGACCAACCTGCTGGTGGTGGTGGT   4505
+
+Homo_sapiens    4638 GGAGCTGGATGGGCTAGAGCAGGATGCCCTGGACCTGGTGGCCCTGGTGA   4687
+                     ||||||||||||.||.||||||||.||||||||||||||||||.||||||
+Mus_pahari      4506 GGAGCTGGATGGTCTGGAGCAGGACGCCCTGGACCTGGTGGCCTTGGTGA   4555
+
+Homo_sapiens    4688 CCAACGTGGTGCTGGAGGAGCACTACCTGGTCGTGGGAGTGGTGGTCATC   4737
+                     |||||||.||||||||||||||||||||.||.|||||.||||||||||||
+Mus_pahari      4556 CCAACGTCGTGCTGGAGGAGCACTACCTTGTGGTGGGTGTGGTGGTCATC   4605
+
+Homo_sapiens    4738 GTGGACCCAGGGGTGATCCCTATCAACTCTCGGGGTGAGAAGCAGCGCAT   4787
+                     ||||||||.||.||||||||.||||||||||||||.||||||||.|||||
+Mus_pahari      4606 GTGGACCCCGGAGTGATCCCCATCAACTCTCGGGGCGAGAAGCAACGCAT   4655
+
+Homo_sapiens    4788 GCACCTGCGGGACGGCTTCCTGGCTGACCAGCTGGACCCCATCTATGTCG   4837
+                     |||||||||.||.|||||||||||||||||.||||||||||||||.||.|
+Mus_pahari      4656 GCACCTGCGAGATGGCTTCCTGGCTGACCAACTGGACCCCATCTACGTGG   4705
+
+Homo_sapiens    4838 CCTACAACATG   4848
+                     |||||||.|||
+Mus_pahari      4706 CCTACAATATG   4716
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,826 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:46:27
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Pelobates_fuscus.fa
+#    -outfile Homo_sapiens-Pelobates_fuscus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Pelobates_fuscus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Pelobates_fuscus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9875
+# Identity:    6835/9875 (69.2%)
+# Similarity:  6835/9875 (69.2%)
+# Gaps:         874/9875 ( 8.9%)
+# Score: 22499.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCA--AC     48
+                     ||| |||.....||||||                   .|||| |||  .|
+Pelobates_fus      1 ATG-ACTGTTTGGGGACT-------------------TGACA-GCAGGGC     29
+
+Homo_sapiens      49 TCCACCA-GCTTTCAACCAGGACCGCCACCGCCGCCCCGGCTGCTGCTGC     97
+                     |.||.|| ||     |..|||||...|||.|          |||||.||.
+Pelobates_fus     30 TGCAGCAGGC-----AGGAGGACACACACAG----------TGCTGATGG     64
+
+Homo_sapiens      98 TGCTGCTGCTTCT-CCTGTCACTGG--TAAG-CCGCGTCCCGGCACAGCC    143
+                     ||||| .|.||.| .||||..||||  .||| ||   ||..|||||||  
+Pelobates_fus     65 TGCTG-GGTTTATGGCTGTTGCTGGCAGAAGACC---TCAAGGCACAG--    108
+
+Homo_sapiens     144 CGCTGCCTTCGGCAGGGCGTTGCTGTCCCCTGG-TCTCGCGGGGGCTGC-    191
+                                  ||||.|.|       ||||| |        ||||.| 
+Pelobates_fus    109 -------------AGGGGGGT-------CCTGGAT--------GGCTCCT    130
+
+Homo_sapiens     192 ---------AGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCG    232
+                              |.|||.|||||  ||.||.|..||..||.||||.||||..|
+Pelobates_fus    131 ACTTATCCTACGGGCCCCTG--GAAGATGAGATCCTGGTGGCCAACCATG    178
+
+Homo_sapiens     233 GACTCCGGGTGCCTTTCGGCCGTGAAGTCTGG-----CTGGATCCCCTGC    277
+                     |..|..|.||.||.|||||    ||.||| ||     ||.|||||..|.|
+Pelobates_fus    179 GGATTAGAGTTCCATTCGG----GAGGTC-GGTTTATCTAGATCCTGTCC    223
+
+Homo_sapiens     278 ATGACCTGGTGTTGCAGGTGCAGCCCGGGGACCGCTG-------CGCG-G    319
+                     |.||||||||..|.||.||||||||.||.|||...||       .||| |
+Pelobates_fus    224 AGGACCTGGTCATACAAGTGCAGCCGGGAGACAAATGTCACATCAGCGTG    273
+
+Homo_sapiens     320 TTTCGGTACTAGACAACGACGCACTGGCCCAGCGA-CCGGGCCGC-CTGA    367
+                     |        |.|||||.|||.|.|||.|.|||.|| ||||.|.|| ||.|
+Pelobates_fus    274 T--------TGGACAATGACCCCCTGTCTCAGGGACCCGGTCAGCTCTCA    315
+
+Homo_sapiens     368 GTCCCAAGCGCTTCCCGTGCGACTTTGGCCCTGGCGAGGTGCGCTACTCT    417
+                       |||||..|.|||||.|||||.|||||..|..|.||||||...||.||.
+Pelobates_fus    316 --CCCAACAGGTTCCCCTGCGATTTTGGAGCAAGGGAGGTGAAATATTCC    363
+
+Homo_sapiens     418 CACCTGGGCGCGCGCAGCCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCG    467
+                     ||||||||.||.||||||||.||....|||.|.||....||.||.||.||
+Pelobates_fus    364 CACCTGGGAGCCCGCAGCCCTTCCAAAGACAGAGTTAAACTTCATCTCCG    413
+
+Homo_sapiens     468 CTATGACGCGCCCGGA--GGGGCAGTAGTGCTACCACTGGTACTGGAGGT    515
+                     ||||||  |.|||.||  .||.|.||..|..|||||.|..|..|..||||
+Pelobates_fus    414 CTATGA--CACCCAGACCAGGACTGTCATCATACCATTCATGATCCAGGT    461
+
+Homo_sapiens     516 GGAGGTGGTCTTCACCCAGCTGGAGGTTGTGACTCGGAACTTGCCTCTGG    565
+                     ||||||..|||||||||||||||||||.||.||..|||||.||||.|||.
+Pelobates_fus    462 GGAGGTACTCTTCACCCAGCTGGAGGTGGTCACCAGGAACATGCCCCTGA    511
+
+Homo_sapiens     566 TCGTGGAAGAGCTGCTGGGGACCAGCAATGCCCTGGACGCGCGGAG----    611
+                     ..|||||..||||..||||||||||||||.|..|.|||      ||    
+Pelobates_fus    512 CTGTGGAGAAGCTCTTGGGGACCAGCAATTCGATTGAC------AGAAAG    555
+
+Homo_sapiens     612 --CCTGGAGTTCGCCTT--CCAGCCCGAGA-CAGAGGAGTGCCGCGTGGG    656
+                       |||.||.|||.||||  .||||   |.| |.||||.||||.|   |..
+Pelobates_fus    556 GTCCTTGAATTCACCTTTGACAGC---AAATCTGAGGTGTGCAG---GAT    599
+
+Homo_sapiens     657 CA---TCCT-GTCCGGCTTGGGCGCGCTGCCTCGCTATGGAGAACTCCTC    702
+                     ||   .||| ||..|||||||                |||   |||    
+Pelobates_fus    600 CACACCCCTGGTAGGGCTTGG----------------TGG---ACT----    626
+
+Homo_sapiens     703 CACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGGCGCCCCGGAGAC    752
+                           ||.|||||  .||  ||||   ||.|..||...|.||.||    
+Pelobates_fus    627 ------CCCCAGGT--ATG--GGAG---GATATTGAATAGTCCTGG----    659
+
+Homo_sapiens     753 TCTCC---TGATGGAC----TGCAAAGCTTTC--CAGGAACTAGGCGTGC    793
+                        ||   |||||  |    ||...|| ||||  |||   |.|||.||.|
+Pelobates_fus    660 ---CCAAATGATG--CTTTGTGGTGAG-TTTCTGCAG---CAAGGGGTAC    700
+
+Homo_sapiens     794 GCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATACCC    843
+                     |.||.|..|||||.||..|||.||..||.||.||.|.|||||..||.|||
+Pelobates_fus    701 GATACCTTCACACTGCTTCCACTCAGTCCCCCAATAAGGACTTTATCCCC    750
+
+Homo_sapiens     844 ATGGTGGTGGAGCTGCGTTCACG----AGGGGCTCCTGTGGGCAGCCCTG    889
+                     |||.|||||||||    |.||||    ||||        |||.|  .|||
+Pelobates_fus    751 ATGCTGGTGGAGC----TACACGATAAAGGG--------GGGAA--TCTG    786
+
+Homo_sapiens     890 CTTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCC    939
+                     |  ||||||..||.|||||.|||.|.|||||.|||||.||||.|||....
+Pelobates_fus    787 C--TGAAACAGGAACACTTTCAGATACTGGTAAGGATTCGAGAAGGTCTG    834
+
+Homo_sapiens     940 GAGAACACTGCA-CCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGG    988
+                     ||||||||| || ||||||||.||.|||.|.||.||||||||||||||||
+Pelobates_fus    835 GAGAACACT-CACCCCAAGCCTAGCTTCATAGCTATGATGATGATGGAGG    883
+
+Homo_sapiens     989 TGGACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAG   1038
+                     |||||||||||||..||||.|||.|.|||||.|||||||||||.||.||.
+Pelobates_fus    884 TGGACCAGTTTGTCATGACTGCCATAACCCCTGACATGCTGGCTGCTGAA    933
+
+Homo_sapiens    1039 GATGCTGAGTCTCCCTCT---GACCTGTTGATCTTCAACCTTACTTC-TC   1084
+                     |||||.||||||..||||   ||||   |.|||||.||..|.||||| ||
+Pelobates_fus    934 GATGCAGAGTCTGACTCTGGAGACC---TCATCTTTAATATCACTTCTTC    980
+
+Homo_sapiens    1085 CATTCCAGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTG   1134
+                     |.||..|.||..||.|||||.|.|| ||.||||||||.|||||.|.|.||
+Pelobates_fus    981 CTTTGGACCCAAGCAAGGGCAAATT-GTTAGCACCGACGATCGAAACTTG   1029
+
+Homo_sapiens    1135 CCCCTTTCCTCCTTC-ACTCAGAGGGATCTGC---GGCTCCTGAAG-ATT   1179
+                     ||..|..||||.||| || |||.|.||.||||   .||||    || |||
+Pelobates_fus   1030 CCAATCACCTCATTCTAC-CAGCGAGACCTGCAGGAGCTC----AGAATT   1074
+
+Homo_sapiens    1180 GCCTACCAGCCCCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACT   1229
+                     ||||||.|||||||..||||.|||||.|||...|||.|..||||.||..|
+Pelobates_fus   1075 GCCTACAAGCCCCCACCTGAGGACTCGGACACTGAGAGAGTCTTCGAGGT   1124
+
+Homo_sapiens    1230 GGAATTGGAGGTAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCT   1279
+                     .|||.|.|||||.|||||...||||||.||||..||.|||||.||.||.|
+Pelobates_fus   1125 AGAACTAGAGGTGGTGGACACAGAAGGTGCAGTGTCTGACCCATTCGCTT   1174
+
+Homo_sapiens    1280 TCATGGTAGTGGTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGG   1329
+                     |||||.|.||.||||||||.|||||.||..||||||||||..|||||.|.
+Pelobates_fus   1175 TCATGATTGTAGTGAAGCCTATGAATACCCTGGCTCCGGTCATCACCAGA   1224
+
+Homo_sapiens    1330 AATACCGGTCTTATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCC   1379
+                     ||.||.||.|...||.|.|||||.||.|||||..|.||||||.|      
+Pelobates_fus   1225 AACACTGGACAACTTTTGTATGAAGGACAGTCCAGACCCCTCTC------   1268
+
+Homo_sapiens    1380 TGCAGGCAGTGGTCCGCAAAACTTGGTC--ATCAGCGATGAGGATGACCT   1427
+                           |||||   |.||.|||.|  ||  ||||||||.|||||..||||
+Pelobates_fus   1269 ------CAGTG---CCCACAACCT--TCAGATCAGCGACGAGGACAACCT   1307
+
+Homo_sapiens    1428 AGAAGCAGTGCGGCTAGAG-----GTGGTGGCTGGGCTCCGGCATGGTCA   1472
+                     .||     ||.||.|||||     |||.|||.|||.||..|.||||||||
+Pelobates_fus   1308 GGA-----TGAGGTTAGAGTAAGTGTGTTGGATGGACTAAGACATGGTCA   1352
+
+Homo_sapiens    1473 CCTTGTCATTCTGGGTGCTTCCAGTGGCAGCTC---------TGCTCCCA   1513
+                     .||     ||||     ||||     .||.|||         ||...|||
+Pelobates_fus   1353 GCT-----TTCT-----CTTC-----TCAACTCCCCACCTGGTGGGTCCA   1387
+
+Homo_sapiens    1514 AGAGCTTTACAGTGGCTGAGCTGGCAGCCGGCCAGGTGGTC---TACCAG   1560
+                     ||..|||.||||..||.|| ||.|.|.|..|.|||  ||||   ||.|||
+Pelobates_fus   1388 AGTTCTTCACAGCTGCAGA-CTTGGACCAAGGCAG--GGTCATTTATCAG   1434
+
+Homo_sapiens    1561 CATGATGACAGAGACGGCT-CGCTGAGCGACAACCTGGTGCTTCGCATG-   1608
+                     |||||||.|||.|||...| |    ||.||.|||.|.||..|.||.||| 
+Pelobates_fus   1435 CATGATGGCAGTGACACATAC----AGTGATAACATTGTATTCCGTATGA   1480
+
+Homo_sapiens    1609 GTGGATGGAGGAGGCAGGCACCAGGTACAGTTTCTGTTCCCCATCACCTT   1658
+                     || ||||     |||| ||||.|.||..|||||||.||.||.|||||..|
+Pelobates_fus   1481 GT-GATG-----GGCA-GCACGAAGTGGAGTTTCTCTTTCCAATCACTGT   1523
+
+Homo_sapiens    1659 AGTGC---CTGTGGATG-ACCAGCCACCTGTTCTCAATGCCAACACGGGG   1704
+                     |||||   |||..|||| ||||.|||    ||.|.|||||||||||.||.
+Pelobates_fus   1524 AGTGCCAACTGATGATGAACCACCCA----TTGTTAATGCCAACACAGGA   1569
+
+Homo_sapiens    1705 CTGA----CACTGGCAGAGGGTGAAACAGT-GCCCATC---CTGCCCCTT   1746
+                     ||||    ..|||  |||.||     .||| ||||.||   || ||||||
+Pelobates_fus   1570 CTGATGATTTCTG--AGAAGG-----AAGTGGCCCCTCTAACT-CCCCTT   1611
+
+Homo_sapiens    1747 TCCCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGC--TGCTTTTT   1794
+                     ...||.|||||.||||||||.||.|||||.||  ||||.|  |.||||||
+Pelobates_fus   1612 GTGCTCAGTGCTACTGACATTGACTCAGAAGA--CTCTACTATTCTTTTT   1659
+
+Homo_sapiens    1795 GTGCTGGAGTCACCCTTCTT-AACTACGGGGCATCTGCTTCTCCGCCAAA   1843
+                     ....|||| .|.|||||.|| |.|.|.||||.|..||.|.||.||     
+Pelobates_fus   1660 ACTTTGGA-ACTCCCTTTTTCATCCATGGGGGACATGGTCCTGCG-----   1703
+
+Homo_sapiens    1844 CTCACCCTCCCCATGAGA---AGCAGGAACT-TCT------CAG--AGGC   1881
+                            ||...||||||   ..|.|||.|| |||      |||  ||.|
+Pelobates_fus   1704 -------TCAGTATGAGATACCCCTGGATCTCTCTGAATGGCAGCTAGAC   1746
+
+Homo_sapiens    1882 CTTTGGAGGAAGGAGGGGGCATTTTATGAGCGAA--CAGTGACAGAGTGG   1929
+                     |.|     |||..|      |.|.|||..|.|||  ..|||||.||||||
+Pelobates_fus   1747 CGT-----GAATTA------AATCTATACGAGAAGGTGGTGACCGAGTGG   1785
+
+Homo_sapiens    1930 CAGCAGCAGGACATAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCC   1979
+                     ...||||||||.||....||.||.|..||.||.||.|..|||...|||||
+Pelobates_fus   1786 TCTCAGCAGGATATCTTGGATGGTAAACTTTTTTACAAGCACAAGGGGCC   1835
+
+Homo_sapiens    1980 CCATAGTCCTGGGCCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATA   2029
+                     .||||||.|||..||.||||..|||||..|.|..||.||||||||.|||.
+Pelobates_fus   1836 ACATAGTACTGTACCTGTCATGGACCAAATTATCTTCAGAGTCCAAGATG   1885
+
+Homo_sapiens    2030 ACCATGACCCTCCTAATCAGTCCGGGCTACAGCGGTTTGTGATTC-GTAT   2078
+                     ||.||||||||||.||.|||||.||...|||....||||| |.|| ..||
+Pelobates_fus   1886 ACAATGACCCTCCCAACCAGTCTGGAGAACACATATTTGT-AGTCAAAAT   1934
+
+Homo_sapiens    2079 CCATCCTGTGGATCG-CCTCCCTCCGGAGCTG------GG---CAGTGGC   2118
+                     ..|.|||.|.|| || ..|.||.||.||.|||      ||   ||     
+Pelobates_fus   1935 TAACCCTATAGA-CGATTTACCACCAGAACTGTATTCTGGTACCA-----   1978
+
+Homo_sapiens    2119 TGTCCCCTTCGTATGGTGGTACAGGAATCCCAGCTCACACCAC-TGAGGA   2167
+                         ||||....|||||.||.|||||||..||.||||| |||| |.|.||
+Pelobates_fus   1979 ----CCCTAAAGATGGTAGTCCAGGAATATCATCTCAC-CCACTTCAAGA   2023
+
+Homo_sapiens    2168 AGAAGTGGCTGCGCTACACTGACCTGGACACAGATGACCGAGAACTACGT   2217
+                     ||||.||.||..|.||.||||||||||||.|.||||||.||||.||....
+Pelobates_fus   2024 AGAAATGTCTTAGATATACTGACCTGGACTCTGATGACAGAGACCTCAAA   2073
+
+Homo_sapiens    2218 TACACAGTGACTCAGCCCC-CCA-CAGACACAGACGAAAATCACC---TG   2262
+                     ||||||||.|.|  ||||| ||| |||||||||||.|.|||.|||   ||
+Pelobates_fus   2074 TACACAGTTATT--GCCCCACCATCAGACACAGACCAGAATAACCCTGTG   2121
+
+Homo_sapiens    2263 C-CAGCCCCACTGGG-TACCTTGGTCTTGACTGACAACCCCTCAGTC---   2307
+                     | ||       |||| |.|.|| |||.|.|||||.||.|   |||.|   
+Pelobates_fus   2122 CTCA-------TGGGCTTCATT-GTCCTCACTGAAAATC---CAGACCAG   2160
+
+Homo_sapiens    2308 GTGGTGACCCATTTTACCCAAGCCCAGATCAACCATCATAAAATTGCTTA   2357
+                     .|.||.||..|.|||||.||||||||..|.|||||||..||||||.|.||
+Pelobates_fus   2161 ATAGTTACAGAATTTACGCAAGCCCAAGTGAACCATCTCAAAATTTCCTA   2210
+
+Homo_sapiens    2358 CAGACCCCCGGGTCAAGAACTGGGCGTGGCTACTCGAGTGGCCCAGTTCC   2407
+                     ||.||||||.|.|..||||.||||..|..||.|.||.||.|..|||||.|
+Pelobates_fus   2211 CAAACCCCCTGATTTAGAATTGGGAATTACTCCACGTGTAGTACAGTTTC   2260
+
+Homo_sapiens    2408 AGTTCCA-GGTGGAAGACCGAGCTGGGAATGTGGCTCCAGG---------   2447
+                     | ||.|| .|||||.|||....||||||||||.|||..|||         
+Pelobates_fus   2261 A-TTACACTGTGGAGGACACTTCTGGGAATGTAGCTGAAGGGGATTTCAG   2309
+
+Homo_sapiens    2448 --TACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCTGAG-A   2494
+                       ||  |||         .||||.||.|||.|||||.|||| ||..|| |
+Pelobates_fus   2310 AATA--TTT---------CTGCAGCCTGTGAACAACAAGCC-CCCCAGCA   2347
+
+Homo_sapiens    2495 TCCTCAACACCGGCTT--CACTATTCAGGAGA-AGGGTCACCACATCCTG   2541
+                     |..|||||.|.||.||  ||.||||  .|||| ||||.| |||..|..|.
+Pelobates_fus   2348 TTGTCAACTCAGGATTTACAGTATT--TGAGAGAGGGAC-CCATGTTATC   2394
+
+Homo_sapiens    2542 AGTGAGACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATAT   2591
+                     |||...|||||..||.|.|..|..||||.||||||.||....|.|.|.||
+Pelobates_fus   2395 AGTCCAACAGAACTGGATGCCACAGATGCAGACACAGACAGGGACAAAAT   2444
+
+Homo_sapiens    2592 CTCTTTCACTCTCACTCAGGCACCCAAACATGGCCA--------------   2627
+                     |.|.||.||.||.||..||.||||.||.||||||||              
+Pelobates_fus   2445 CACCTTTACACTAACAGAGTCACCAAAGCATGGCCAGGTCACGTATTCCA   2494
+
+Homo_sapiens    2628 -------CATGAGAGTGTCTGGACAGATCCTGCATGTAGGGGGTCTCTTC   2670
+                            ||||.|.||   ||||.|     .||||            ||.
+Pelobates_fus   2495 GTTATGTCATGGGCGT---TGGAGA-----AGCAT------------TTA   2524
+
+Homo_sapiens    2671 CACTTGGAGGACA----TAAAACAGGG--------CCGAGTTTCCTATGC   2708
+                     || ||.||.||||    ||||..|.||        |.||           
+Pelobates_fus   2525 CA-TTAGATGACATCCTTAAAGGAAGGATAACATACAGA-----------   2562
+
+Homo_sapiens    2709 CCATAATGGGGACAAGTCC----CTGACTGA-TAGCTGCTCCTTGGAAGT   2753
+                      ||.|||||.||..|.|||    .|||||.| ||.||     ||.||.||
+Pelobates_fus   2563 -CACAATGGTGAGGAATCCAGTATTGACTCATTAACT-----TTAGATGT   2606
+
+Homo_sapiens    2754 CAGTGACAGACATCATGTG---GTGCCCATCACTCTCAGAGTAAA-----   2795
+                     |||||      ||..||||   ||||   ||||..|||.|||.||     
+Pelobates_fus   2607 CAGTG------ATGGTGTGCATGTGC---TCACAATCATAGTGAAAATTA   2647
+
+Homo_sapiens    2796 -TGTCCGGCCAGTGGATGATGAAGTGCCCATACTGA-GCCATCCTACTGG   2843
+                      |||.||...||||||||||||.|||||....|||| ||.| ||..|.||
+Pelobates_fus   2648 CTGTGCGCTTAGTGGATGATGAGGTGCCACGGCTGATGCTA-CCAGCGGG   2696
+
+Homo_sapiens    2844 CACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGG---CTACTGAAA   2890
+                     |||..|.|..||.|||||||||||.||||||   ||||   ||.|.||||
+Pelobates_fus   2697 CACCATTGGTTCTTATCTAGATGTTTTAGAA---GGGGGTTCTGCAGAAA   2743
+
+Homo_sapiens    2891 TCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGATG   2940
+                     |.||.||.|||||.||..|.||.||..|||..||.||.|||||..|.|||
+Pelobates_fus   2744 TAACAGCAAATGTCATCCAAGGAACAGATGCAGACACAGATGATCTCATG   2793
+
+Homo_sapiens    2941 TTGACTTTCCTCTTGGAAGATCCACCTTTGTA--TGGGGAAATCTTGGTC   2988
+                     .|.||.|||.|..||||.||||||||  .|||  ||||||||||.|..|.
+Pelobates_fus   2794 CTCACCTTCATTGTGGAGGATCCACC--AGTACTTGGGGAAATCCTTCTT   2841
+
+Homo_sapiens    2989 AATGGCATTCCAGCAGAGCA-GTTT-ACTCAAAGGGACATCTTGGAGGGC   3036
+                     |||||..||||  .|..||| |||| ||.|||||.|||||..|.||.||.
+Pelobates_fus   2842 AATGGAGTTCC--TACTGCACGTTTCACCCAAAGAGACATTATTGATGGA   2889
+
+Homo_sapiens    3037 TCTGTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGC   3086
+                     .||||.|||||||..||||||...||.|||||.||.||...|...||||.
+Pelobates_fus   2890 GCTGTGGTATATAGTCACACCTCAGGGGAGATTGGTCTGCAGAAGAAAGA   2939
+
+Homo_sapiens    3087 GGATTCTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTG   3136
+                     .|||||||||||..|.|..||.||.||..|.|||.||||.||||...|.|
+Pelobates_fus   2940 AGATTCTTTTAATTTAACCCTTTCTGACCTTTCTGAAGAGTGGACTGTAG   2989
+
+Homo_sapiens    3137 GTGGCAATACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTT   3186
+                     |.|||||.|||||..|.|||||.|...||..|||.|||||.||.|||.|.
+Pelobates_fus   2990 GAGGCAACACTATTAATGGAGTCAGGGTACAGGTAACCATTCTACCTCTG   3039
+
+Homo_sapiens    3187 GATAGCCAGGCCCCAGAAATCTTTGTAGGTGAA----CAGTTGATAGTAA   3232
+                     ||||..|||.|||||..|    .|||..|||||    |||||.|.|||.|
+Pelobates_fus   3040 GATAATCAGTCCCCAATA----GTGTCTGTGAACCAGCAGTTTACAGTTA   3085
+
+Homo_sapiens    3233 TGGAAGGTGATAAAAGTGTTA--TAA--CATCAGTGCATATAAGTGCTGA   3278
+                     |.|||||.||.||.|.| |||  |||  |.|||   |||.||||||...|
+Pelobates_fus   3086 TTGAAGGGGAAAAGAAT-TTAATTAACCCTTCA---CATTTAAGTGTACA   3131
+
+Homo_sapiens    3279 AGATGTC---GACTCCCTGAATGATGACAT-CTTGTGCACTATAGTTATT   3324
+                     .||| ||   .||||||  ||.|||||||| ||| ||||||||.||..|.
+Pelobates_fus   3132 GGAT-TCAGACACTCCC--AACGATGACATACTT-TGCACTATTGTAGTG   3177
+
+Homo_sapiens    3325 CAGCCTACTTCAGGTTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGA   3374
+                     |||||.||.||.||.||..||||.|||||.||.||||||||||||||.||
+Pelobates_fus   3178 CAGCCAACATCTGGATACATTGAGAACATATCCCCAGCACCAGGCTCAGA   3227
+
+Homo_sapiens    3375 GAAATCAAGAGCAGGGATTGCCATAAGTGCTTTCAACTTGAAAGATCTCA   3424
+                     |||||||||.|||||||.|||.|||||||||||.|..|||||||||.|..
+Pelobates_fus   3228 GAAATCAAGGGCAGGGACTGCTATAAGTGCTTTTACTTTGAAAGATTTAC   3277
+
+Homo_sapiens    3425 GGCAGGGCCACATAAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCT   3474
+                     |.|.|||.||.||..|.|||||.||.||..||||||||||.|||||.||.
+Pelobates_fus   3278 GACTGGGGCATATTTATTATGTGCAAAGCATCCATAAAGGTGTGGAGCCA   3327
+
+Homo_sapiens    3475 GTGGAGGACCGATTTGTATTTC-GTTGTTCTGATGGCATTAACTTTTCAG   3523
+                     ||.||||||.| .|||..|||| |.|||||.||||||||.||||.|||..
+Pelobates_fus   3328 GTTGAGGACAG-GTTGACTTTCAGCTGTTCAGATGGCATCAACTATTCCC   3376
+
+Homo_sapiens    3524 AGAGACAGTTCTTCCCCATTGTAATCATTCCCACCAATGATGAACAGCCA   3573
+                     |.|.|||.|||||.|||||||||||.|||||..|||||||||||.|.||.
+Pelobates_fus   3377 AAAAACAATTCTTTCCCATTGTAATAATTCCAGCCAATGATGAAAAACCT   3426
+
+Homo_sapiens    3574 GAGATGTTTATGAGAGAATTTATGGTGATGGAAGGCATGAGTCTGGTAAT   3623
+                     |||||.|.||||||.||.|||.|.||||||||||||||||||||.||.||
+Pelobates_fus   3427 GAGATTTATATGAGGGAGTTTGTTGTGATGGAAGGCATGAGTCTTGTCAT   3476
+
+Homo_sapiens    3624 TGATACACCCATTCTCAATGCTGCTGATGCTGATGTTCCCCTG--GATGA   3671
+                     ||||||.||.||.|||||||||||.|||||||||.|  |||||  |||| 
+Pelobates_fus   3477 TGATACCCCAATACTCAATGCTGCCGATGCTGATAT--CCCTGCAGATG-   3523
+
+Homo_sapiens    3672 TTTAACTTTCACTATTACCCAATTC---------CCCACTCATGGTCACA   3712
+                        |||||   .|.||..|||  ||         ||.|..|||||.||.|
+Pelobates_fus   3524 ---AACTT---GTGTTTTCCA--TCATCAAGCCTCCAAAACATGGCCAGA   3565
+
+Homo_sapiens    3713 TCATGAATCAGCTGATAAATGGCACGGTTTTGGTCGAAAGCTTCA-CCTT   3761
+                     |..|.||.|||.|||..|||||||||||..|.|||....||||.| .||.
+Pelobates_fus   3566 TAGTCAACCAGATGACCAATGGCACGGTCATTGTCACTGGCTTTAGTCTA   3615
+
+Homo_sapiens    3762 GGATCAGATCATAGAGAGTTCCAGCATTATTTATGAGCATGATGACTCCG   3811
+                     || |.|.||||.||||||.||.|.|||..|.|||||.|||||.||..|.|
+Pelobates_fus   3616 GG-TGACATCAAAGAGAGCTCTACCATCCTCTATGAACATGACGATACAG   3664
+
+Homo_sapiens    3812 AGACCCAGGAAGACAGTTTTGTGATTAAACTAACAGATGGGAAGCACTCT   3861
+                     |||||.|.|||||.|.|||||..||.||||||||.||||||||.||.||.
+Pelobates_fus   3665 AGACCAAAGAAGATACTTTTGATATAAAACTAACTGATGGGAAACATTCA   3714
+
+Homo_sapiens    3862 GTGGAAAAGACGGTCCTCATTATAGTTATCCCTGTTGATGATGAGACGCC   3911
+                     ||||..||.||.||.|||||.||..|.|||||.||.||||||||||| ||
+Pelobates_fus   3715 GTGGTCAAAACAGTACTCATCATGATCATCCCAGTAGATGATGAGAC-CC   3763
+
+Homo_sapiens    3912 CA-GAATGACTATCAATAATGGACTAGAAATAGAAATTGGGGATACCAAG   3960
+                     || |.|||||.||||||.|||||||.||.||.|||||||||||.||.|||
+Pelobates_fus   3764 CACGGATGACCATCAATGATGGACTGGAGATTGAAATTGGGGAAACAAAG   3813
+
+Homo_sapiens    3961 ATTATCAACAACAAAATATTAATGGCAACAGATTTAGATTCAGAAGACAA   4010
+                     .|.||.||||.||||||..|.|..||.||||||.|.||||||||.|||||
+Pelobates_fus   3814 CTGATTAACAGCAAAATCCTCAAAGCTACAGATCTGGATTCAGAGGACAA   3863
+
+Homo_sapiens    4011 ATCTTTGGTTTATATTATTCGTTATGGGCCAGGACATGG-CTTATTACAG   4059
+                     ..||||...|||.||.||.||.|||||.||.||.||.|| |||.|| |||
+Pelobates_fus   3864 GACTTTAACTTACATAATACGATATGGACCTGGCCAAGGTCTTCTT-CAG   3912
+
+Homo_sapiens    4060 AGACGAAAACCTACTGGTGCCTTTGAAAATATCACACTGGGCATGAATTT   4109
+                     ||..|||.||||..|||||...|.||.||.|||||..|.||.||||||||
+Pelobates_fus   3913 AGGAGAAGACCTCATGGTGGGCTGGAGAACATCACTTTAGGTATGAATTT   3962
+
+Homo_sapiens    4110 TACCCAGGATGAAGTAGACAGAAACTTAATTCAGTATGTCCATTTGGGGC   4159
+                     |||||||||.|||||||||.||.||.|.||.||||||...||.||.||.|
+Pelobates_fus   3963 TACCCAGGACGAAGTAGACCGAGACCTCATACAGTATTATCACTTTGGCC   4012
+
+Homo_sapiens    4160 AAGAGGGCATTCGGGACCTAATTAAATTTGATGTGACTGATGGAATAAAT   4209
+                     ||||||||||..|.||.||..|||||||||||||||||||||||||.||.
+Pelobates_fus   4013 AAGAGGGCATCAGAGATCTTTTTAAATTTGATGTGACTGATGGAATTAAC   4062
+
+Homo_sapiens    4210 CCCCTCATAGATCGTTACTTTTATGTGTCCATCGGGAGCATTGACATTGT   4259
+                     ||.|||||.||..|.||.|||||||||.||.|.||..|||||||.||.||
+Pelobates_fus   4063 CCTCTCATTGACAGGTATTTTTATGTGACCGTAGGCGGCATTGATATGGT   4112
+
+Homo_sapiens    4260 CTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAGAAGGTGGCAAAG   4309
+                     ||||||.|||||||||||.||.||.||.||||||||||||||.||.||.|
+Pelobates_fus   4113 CTTCCCAGATGTGATAAGCAAAGGGGTCTCCTTGAAAGAAGGAGGAAAGG   4162
+
+Homo_sapiens    4310 TCACTCTT-ACAACAGACCTACTAAGCACTAGTGACTTGAACAGTCCTGA   4358
+                     |||| ||| ||.||.|||.|.||.|||||||||||..||||||||||.||
+Pelobates_fus   4163 TCAC-CTTGACCACTGACTTGCTCAGCACTAGTGATCTGAACAGTCCAGA   4211
+
+Homo_sapiens    4359 TGAAAACTTGGTTTTTACCATCACCAGGGCTCCCATGCGAGGTCACCTGG   4408
+                     ||||.||.|..|.||||||||.|||||.||||||||..|.||.|||||.|
+Pelobates_fus   4212 TGAACACCTCATATTTACCATTACCAGAGCTCCCATCAGGGGCCACCTTG   4261
+
+Homo_sapiens    4409 AATGCACGGATCAGCCTGGTGTGTCCATCACGTCTTTCACTCAGCTGCAA   4458
+                     |.||..|.||||..||.||.||..|||||||.||.|||||.||.||.||.
+Pelobates_fus   4262 AGTGTTCAGATCGACCAGGGGTCCCCATCACCTCCTTCACCCAACTTCAG   4311
+
+Homo_sapiens    4459 CTGGCTGGAAACAAAATCTACTACATCCACACAGCTGATGATGAAGTGAA   4508
+                     |||||.||.|||||||||||.||||.||||||..|.||.||.||.|||||
+Pelobates_fus   4312 CTGGCAGGTAACAAAATCTATTACACCCACACCTCAGACGACGAGGTGAA   4361
+
+Homo_sapiens    4509 AATGGACAGTTTTGAGTTTCAAGTCACCGATGG--ACGTAACCCTGTCTT   4556
+                     .||||||||.|||||.|||.|.|||||.|||||  ||  ||.||.||.||
+Pelobates_fus   4362 GATGGACAGCTTTGAATTTGAGGTCACTGATGGCTAC--AATCCAGTTTT   4409
+
+Homo_sapiens    4557 TCGGACATTCCGTATCTCCATTAGCGATGTGGACAATAAAAAGCCAGTGG   4606
+                     |||.||.||..|.|||||.|||||.||||||||||||||.||||||||..
+Pelobates_fus   4410 TCGCACTTTTAGGATCTCTATTAGTGATGTGGACAATAAGAAGCCAGTTC   4459
+
+Homo_sapiens    4607 TCACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACAAGCTGATTACT   4656
+                     |.||||||||....|||||.||.||.|||.||||.|||||||||||.||.
+Pelobates_fus   4460 TGACCATCCATGTCCTGGTGGTGAGGGAAGGTGAGAACAAGCTGATAACC   4509
+
+Homo_sapiens    4657 CCTTTTGAGCTCACTGTCGAAGACAGAGATACTCCTGACAAGCTCCTGAA   4706
+                     ||.|||||.||||||||.||.|||||.|||||.|||||.|..|.|||.||
+Pelobates_fus   4510 CCCTTTGAACTCACTGTTGAGGACAGGGATACCCCTGATACTCGCCTAAA   4559
+
+Homo_sapiens    4707 ATTCACTATCACCCAGGTGCCTATTCATGGCCATCTCCTATTCAACAATA   4756
+                     |||||..||.||.|||||.||.||||||||..|..||.|.||.|||   |
+Pelobates_fus   4560 ATTCATAATTACTCAGGTACCCATTCATGGGAAGATCATGTTTAAC---A   4606
+
+Homo_sapiens    4757 CCAGACCTGTCATGGT------TTTTACCAAGCAAGACTTGAATGAAAAC   4800
+                     .||| ||.|.||  ||      .||.||.||.||||||.|.|||||.|||
+Pelobates_fus   4607 GCAG-CCGGGCA--GTGACCTCCTTCACAAAACAAGACCTCAATGACAAC   4653
+
+Homo_sapiens    4801 TTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGATAGCTTCTC   4850
+                     ||.||||||||||..|||||.|||||.||||||...|||||.|.||||||
+Pelobates_fus   4654 TTGATCAGCTACAGGCATGACGGCACAGAGTCATCAGAAGACACCTTCTC   4703
+
+Homo_sapiens    4851 CTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTTTCCTGATA   4900
+                     ||||||.||.|||||||||||.||.|||||.||||||||.|||||.||.|
+Pelobates_fus   4704 CTTCACCGTTACTGATGGCACTCACACAGATTTCTATGTATTTCCAGACA   4753
+
+Homo_sapiens    4901 CGGTGTTTGAAACAAGGAGA-CCCCAAGTGATGAAGATCCAGGTCTTGGC   4949
+                     |.||.|.|||.||.| ||.| |||||..|||||||.||.||..||.|.||
+Pelobates_fus   4754 CTGTCTATGAGACCA-GACAGCCCCAGATGATGAAAATACAAATCATAGC   4802
+
+Homo_sapiens    4950 TGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCTCTACAC   4999
+                     .||.||.||..|.|||||.||.||.|.|||.|||||||||||..|.||.|
+Pelobates_fus   4803 GGTAGATAATGGGGTCCCTCAGATTGTAGTAAATAAGGGGGCACCAACCC   4852
+
+Homo_sapiens    5000 TTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCAC-----AAGCA   5044
+                     |.||.|..|||..||||||.||..|.||||.|||.|||||     |||| 
+Pelobates_fus   4853 TGCGGATACTAAGCACTGGGCATCTAGGGTACATTATCACCAATAAAGC-   4901
+
+Homo_sapiens    5045 AAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCTTAGATTT   5094
+                        |.|| ||||||||||||||.||||||.|.|||.||.|.|||.|   |
+Pelobates_fus   4902 ---TCTT-AAAGTGGAGGACAGGGACAGCCTTCACCTTACACTTCG---T   4944
+
+Homo_sapiens    5095 ATC---GTGACA-GAGGCCCCTCAA-CATGGATATCTTC-TCAACCTGGA   5138
+                     |||   .|.||| .|||.||  ||| ||||||| ||.|| ||||||||||
+Pelobates_fus   4945 ATCAGAATCACACAAGGACC--CAACCATGGAT-TCCTCATCAACCTGGA   4991
+
+Homo_sapiens    5139 CAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACA   5188
+                     ||||||||||||||||||||.||||||.||.|||||.||.||||||||||
+Pelobates_fus   4992 CAAAGGCAACCACAGCATCAATCAGTTTACCCAAGCGGATATTGATGACA   5041
+
+Homo_sapiens    5189 TGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATG   5238
+                     ||||.||.|||||.||.|||.||||....|..|||||.||.||||||||.
+Pelobates_fus   5042 TGAAGATTTGCTACGTGTTACGAGACAAAGAAAATGCTACTAGTGATATT   5091
+
+Homo_sapiens    5239 TTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAA   5288
+                     |||||.||..|.|||||||||.||||.|||||.|||.|.|...|.|||.|
+Pelobates_fus   5092 TTCTACTTCACTGTTGAAGATAGTGGAGGAAATAAGCTGAAAAATCAGCA   5141
+
+Homo_sapiens    5289 TTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGG   5338
+                     |||||||||.||||||||.|||||.||.|||||.|||||.||..|..|.|
+Pelobates_fus   5142 TTTTCGTCTAAATTGGGCCTGGATATCGTTTGAGAAGGAGTACCATGTAG   5191
+
+Homo_sapiens    5339 TCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTAC   5388
+                     |.|||||.||..|.||||...||||.||..||||||||||.|||||.|||
+Pelobates_fus   5192 TGAATGAAGATGCTAAATACTTAGAAGTCATTCTTAAACGAAGAGGATAC   5241
+
+Homo_sapiens    5389 TTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGA   5438
+                     .||||||||||.||.|||.|.||||||||||||...||..|.||.|||||
+Pelobates_fus   5242 CTGGGAGAAACCTCATTTGTTAGTATTGGCACAGTCGATGGGACCGCAGA   5291
+
+Homo_sapiens    5439 AAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACC   5488
+                     |||.||||||||.||.|..||.||.||.||.||.|||||||||||.||.|
+Pelobates_fus   5292 AAAGGACAAAGATTTTAGAGGAAAGGCTCAAAAGCAAGTGCAGTTTAATC   5341
+
+Homo_sapiens    5489 CAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAG   5538
+                     ||||.||.||.|..||.|..|||.|.||.|||||..|||..||.||..|.
+Pelobates_fus   5342 CAGGACAAACAACAGCAAGTTGGAGGGTACGGATTATGACAGACGGACAA   5391
+
+Homo_sapiens    5539 CATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGC   5588
+                     .||||.||.||.|||||.||.||..|.||.||.||||||||.||..||||
+Pelobates_fus   5392 TATGAACAATCGGAAACGTTCCAAATTGTTCTTTCAGAGCCTGTCATGGC   5441
+
+Homo_sapiens    5589 TGCCTTGGAATTCCCCACA-GTCGCCACTGTTGAGATCGTTGATCCAGGA   5637
+                     ||||.||| |.|.||||.| ||.||.|||||.|||||.||||||||.|||
+Pelobates_fus   5442 TGCCCTGG-AGTACCCAGACGTGGCAACTGTAGAGATTGTTGATCCTGGA   5490
+
+Homo_sapiens    5638 GATGAGCCAACTGTGTTTATTCCCCAGTCCA-----AATACTCCGTTGAA   5682
+                     ||.||..|.||.||||||||.|||.||||||     ||.|     |||||
+Pelobates_fus   5491 GACGAATCCACCGTGTTTATACCCAAGTCCATTTATAAAA-----TTGAA   5535
+
+Homo_sapiens    5683 GAAGATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGT-GA   5731
+                     |||||..||||.||.|||.|.|||||..|||||||.||.|||||||| ||
+Pelobates_fus   5536 GAAGACATTGGCGAACTGATGATTCCGGTCAGGAGAAGTGGAGATGTGGA   5585
+
+Homo_sapiens    5732 GCCAGGAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGA   5781
+                     | ||||||||||||||..||||||||||.||.|||||.||.||..|||||
+Pelobates_fus   5586 G-CAGGAGTTGATGGTTATCTGTTATACTCACCAAGGTACTGCTTCTGGA   5634
+
+Homo_sapiens    5782 ACTGTGCCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGA   5831
+                     |||||.||.||.|||||.||.||.||.||||||||||||||.||||||||
+Pelobates_fus   5635 ACTGTCCCAACATCCGTTTTATCCTATTCTGATTACATATCGAGGCCTGA   5684
+
+Homo_sapiens    5832 GGACCACACCAGTGTTGTCCGCTTTGACAAAGATGA-ACGGGAGAAACTG   5880
+                     |||.||||.|||.|||.|..|.|||||.||||..|| || |||||||.||
+Pelobates_fus   5685 GGAGCACAACAGCGTTTTGAGATTTGATAAAGGCGAGAC-GGAGAAATTG   5733
+
+Homo_sapiens    5881 TGTCGGATAGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTT   5930
+                     ||.||..|.||.||.||||||||.||..|.||||||||||..|||..|||
+Pelobates_fus   5734 TGCCGTGTGGTTATTATTGATGATTCGCTTTACGAGGAGGCAGAATTCTT   5783
+
+Homo_sapiens    5931 CCATGTCCTTC--TGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTT   5978
+                     |.||||  |||  ||||.|||||.|||||.|||||.||.||..|.|||||
+Pelobates_fus   5784 CAATGT--TTCTTTGAGTATGCCGATGGGTGGAAGGATTGGTGCTGAGTT   5831
+
+Homo_sapiens    5979 CCCAGGGGCTCAAGTTACA-ATCGTT------CCTGACAAAGATGATGAA   6021
+                     |||     .||||.|  || ||||||      ||.|||||||||||.|||
+Pelobates_fus   5832 CCC-----TTCAACT--CAGATCGTTATTTTACCAGACAAAGATGACGAA   5874
+
+Homo_sapiens    6022 CCCATCTTTTACTTCGGTGATGTGGAATACTCTGTGGATGAGAGTGCTGG   6071
+                     |||...||.|||||.||.||..||||||||..|||.|||||.||||||||
+Pelobates_fus   5875 CCCGCATTCTACTTTGGAGAACTGGAATACCATGTTGATGAAAGTGCTGG   5924
+
+Homo_sapiens    6072 CTATGTGGAAGTGCAGGTGTGGAGAACGGGCACTGACCTGTCCAAGTCTT   6121
+                     .|...|.|||||||..||.||||||||.||.||.||.||.||.||..||.
+Pelobates_fus   5925 ATTCATTGAAGTGCGTGTTTGGAGAACTGGAACAGATCTTTCAAAAACTG   5974
+
+Homo_sapiens    6122 CTAGTGTCACAGTGAGGTCTCGGAAAACAGATCCTCCCTCTGCAGAT-GC   6170
+                     |.|...|.|||||..|.||.|.|||.||.||.||.|..||.||| || ||
+Pelobates_fus   5975 CCACCATTACAGTTCGATCACAGAAGACCGAACCCCTTTCAGCA-ATAGC   6023
+
+Homo_sapiens    6171 TGGAACAGACTATGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAG   6220
+                     |||.|.||||||.||.||.||.||.||.||..|.||||||||.|||||.|
+Pelobates_fus   6024 TGGTATAGACTACGTTGGTATAAGTCGGAACCTGGATTTTGCCCCTGGTG   6073
+
+Homo_sapiens    6221 TCAACATGCAGCCTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACCA   6270
+                     |.||||||||..|..|.|||||..|.||.||.|||||..|.|||||.|||
+Pelobates_fus   6074 TGAACATGCAAACATTCCGTGTAATTATCCTAGATGATTTGGGACAGCCA   6123
+
+Homo_sapiens    6271 GCGCTGGAGGGAATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAA   6320
+                     |..|||||||||||.|||||.||||||||.||..|.||.|||||.|||||
+Pelobates_fus   6124 GTACTGGAGGGAATAGAGAAGTTTGAACTAGTATTACGAATGCCAATGAA   6173
+
+Homo_sapiens    6321 CGCAGCCCTTGGCGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTG   6370
+                     .||.|..||.||.|||||.|||||||||||.||.|..||.||||||.|.|
+Pelobates_fus   6174 TGCTGTACTCGGGGAGCCAAGCAAAGCCACCGTTTTTATCAATGACACCG   6223
+
+Homo_sapiens    6371 TCTCCGATTTGCCTAAGATGCAATTCAAAGAACGAATATATACTGGCAGC   6420
+                     |.||.||.|||||.|||.|.||.||.|.|||.|.|||.||.|..||||..
+Pelobates_fus   6224 TTTCAGACTTGCCAAAGGTACAGTTTAGAGAGCCAATGTACATGGGCAAT   6273
+
+Homo_sapiens    6421 GAAAGTGATGGGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCCA   6470
+                     ||||.||||||.|||||...|.|||||.|..|.||||..||.||..|..|
+Pelobates_fus   6274 GAAAATGATGGACAGATTTCTGCAATGGTGTACAGGAGCGGAGACATTAA   6323
+
+Homo_sapiens    6471 GTACAGATCTTCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGA   6520
+                     .||||..|||.|.|||.|.||.||.||..|||||||.|||||.||.||.|
+Pelobates_fus   6324 TTACAAGTCTACTGTGCGCTGTTATACAAGGCAGGGATCTGCCCAAGTAA   6373
+
+Homo_sapiens    6521 TGATGGACTTTGAAGAACGCCCAAACACTGATACCTCCATCATCACATTC   6570
+                     |||||||||||||||||||.|||||||||||||..||.||||||||||||
+Pelobates_fus   6374 TGATGGACTTTGAAGAACGTCCAAACACTGATAATTCAATCATCACATTC   6423
+
+Homo_sapiens    6571 CTCCCTGGTGAGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATGT   6620
+                     ||.||.||..||.||||....||.||..||||||.||||.||||.||   
+Pelobates_fus   6424 CTTCCAGGACAGTCAGAGCGTCCATGTGTTCTTGTGCTGGTGGATGA---   6470
+
+Homo_sapiens    6621 GCTC----TATGAGGAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCA   6666
+                      |||    .|||||||||..||.||.||.||..|.||.||.||.||.|||
+Pelobates_fus   6471 -CTCCATTCATGAGGAGGAGGAAGAACTTCGGTTAGTTCTTGGTACCCCA   6519
+
+Homo_sapiens    6667 CAAAGCAACTCTCCCTTTGG-GGCTGCAGTTGGTGAACAAAATGAAACTC   6715
+                     .||||..|.|||||.||||| |.||.|| |.||.||....||||||||..
+Pelobates_fus   6520 AAAAGTGAGTCTCCATTTGGAGCCTCCA-TCGGCGAGATGAATGAAACCT   6568
+
+Homo_sapiens    6716 TCATAAGGATCCGAGATGATGCTGATAAGACTGTTATTAAATTTGGAGAA   6765
+                     |.||.|.||||..|||.|||||.||.||..|..|.||||||||||||||.
+Pelobates_fus   6569 TGATCAAGATCAAAGACGATGCAGACAAAGCAATAATTAAATTTGGAGAC   6618
+
+Homo_sapiens    6766 ACCAAATTTAGTGTCACTGAACCCAAAGAACCTGGAGAGTCGGTGGTTAT   6815
+                     |||||.||.|||||.|..||.||.|||||||..|||.||...||.||..|
+Pelobates_fus   6619 ACCAAGTTCAGTGTGAGCGAGCCAAAAGAACTGGGACAGATAGTCGTCGT   6668
+
+Homo_sapiens    6816 AAGAATTCCAGTGATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGA   6865
+                     ||.|||||||||.|||||.|..||||||||.|||||||||||.||||||.
+Pelobates_fus   6669 AAAAATTCCAGTTATTCGTCTGGGAGACACATCAAAGGTTTCAATTGTGC   6718
+
+Homo_sapiens    6866 GAGTCCACACCAAGGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCT   6915
+                     ||||.|||||.||.|||||.||.||.|..|||||.|||||||||.||||.
+Pelobates_fus   6719 GAGTGCACACAAAAGATGGTTCTGCTATTTCTGGTGAAGACTACAACCCC   6768
+
+Homo_sapiens    6916 GTGTCAGAAGAAATTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGA   6965
+                     |||||||||||||||||.|||||||||||.||||||.||||.||.||.||
+Pelobates_fus   6769 GTGTCAGAAGAAATTGAATTTAAGGAAGGTGAAACCAAGCATGTTGTAGA   6818
+
+Homo_sapiens    6966 AATCGAAGTTACCTT--TGACGGGGTGAGAGAGATGAGAGAGGCCTTCAC   7013
+                     .||.||||||  |||  |||.||.|...|.||||||||.||.||.|||||
+Pelobates_fus   6819 GATTGAAGTT--CTTTATGATGGAGCACGGGAGATGAGGGAAGCTTTCAC   6866
+
+Homo_sapiens    7014 TGTTCACCTAAAACCTGATGAAAATATGATAGCAGAGATGCAGTTGACGA   7063
+                     ..||||.||.|||||.|||||.||||||.|.||.||.||.|||.||||.|
+Pelobates_fus   6867 CATTCATCTGAAACCCGATGAGAATATGGTCGCCGAAATACAGATGACCA   6916
+
+Homo_sapiens    7064 AAGCCATTGTGTACATAGAAGAAATGAGCAGCATGGCAGATGTCACTTTT   7113
+                     ||||||||||||||||.||.|||||.|.|||||||||.|||||.||.||.
+Pelobates_fus   6917 AAGCCATTGTGTACATTGAGGAAATAAACAGCATGGCTGATGTTACATTC   6966
+
+Homo_sapiens    7114 CCTTCTGTCCCTCAAATTGTATCCCTGTTGATGTATGACGACACTTCCAA   7163
+                     ||.||.|||||||||.||||.||.||.|||||.|||||.||.|||||.|.
+Pelobates_fus   6967 CCCTCCGTCCCTCAAGTTGTCTCACTTTTGATATATGATGATACTTCAAG   7016
+
+Homo_sapiens    7164 AGCTAAGGAGAGTGCTGAACCCATGTCTGGCTATCCTGTCATCTGTATCA   7213
+                     |..|||.||.|.|.|..|.||..||.||||||||||.||..|||||||.|
+Pelobates_fus   7017 ACTTAAAGATAATCCCAATCCTGTGGCTGGCTATCCAGTTGTCTGTATTA   7066
+
+Homo_sapiens    7214 CAGCTTGCAACCCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGT   7263
+                     ||||.||||||||.|||||.||.|||||.||.||||||||.||.||.|||
+Pelobates_fus   7067 CAGCATGCAACCCGAAATACTCTGACTATGACAAAACAGGTTCCATATGT   7116
+
+Homo_sapiens    7264 GCAAGTGAGAACATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAG   7313
+                     .|.||||||||.||.||||||||..||||.||.||.||.||||||.|.||
+Pelobates_fus   7117 TCTAGTGAGAATATTAATGACACCCTGACTCGTTATCGCTGGCTGGTGAG   7166
+
+Homo_sapiens    7314 TGCACCTGCGGGCCCTGACGGTGTGACCAG-CCCTATGAGAGAAGTGGAC   7362
+                     |||.||..|..|||..||.||.||.||||| |||| |.|||||.||||||
+Pelobates_fus   7167 TGCGCCCACCAGCCTGGATGGAGTTACCAGTCCCT-TAAGAGAGGTGGAC   7215
+
+Homo_sapiens    7363 TTCGACACCTTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATATA   7412
+                     ||.|||||.|||||.||.||.|||||..|..|..|..||||.||||||||
+Pelobates_fus   7216 TTTGACACATTTTTCACCTCTTCCAAACTTATTTCTTTGGATTCCATATA   7265
+
+Homo_sapiens    7413 CTTTCAGCCTGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCA   7462
+                     ||||||..||||.||.||.||.||.||.|||||||||||.||||||.|..
+Pelobates_fus   7266 CTTTCAAGCTGGTTCTCGTGTGCAATGTGCAGCTCGTGCAGTGAACTCTG   7315
+
+Homo_sapiens    7463 ATGGGGATGAAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGA   7512
+                     ||||...||||||||||||.||||.|||.|||||..||||.||.||.|.|
+Pelobates_fus   7316 ATGGAAGTGAAGGCCTGGAACTCACGAGTCCTATAATAACTATTAGTATA   7365
+
+Homo_sapiens    7513 GAAGAAGGTCTTTGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCC   7562
+                     ||.|||||.|||||.||.|||.|.||.|||||.||||||||.||.||.||
+Pelobates_fus   7366 GATGAAGGACTTTGCCACCCCAGAGTGCCTGGAGTTGTTGGTGCTGAACC   7415
+
+Homo_sapiens    7563 GTTCTCAGCTAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAA   7612
+                     .||.||.||||||.||||||||||.||..|.||.|||.||||.||..|||
+Pelobates_fus   7416 ATTTTCTGCTAAAATGCGCTACACTGGATCAGAAGATTCAGATTATCCAA   7465
+
+Homo_sapiens    7613 ACCTTATCAAGCTCACTGTCACAATGCCACACATAGATGGCATGCTCCCC   7662
+                     |||||||.||..|.||.||.|||.|.||.|||||.|||||.|||||.||.
+Pelobates_fus   7466 ACCTTATTAAAGTGACCGTTACACTCCCTCACATTGATGGTATGCTACCT   7515
+
+Homo_sapiens    7663 GTGATCTCCACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGA   7712
+                     |||||.||.||.|||||..|.||.||||||||.||.||.||.||||||||
+Pelobates_fus   7516 GTGATATCTACAAGAGAAATGTCTAACTTTGAACTTACTCTGAGCCCTGA   7565
+
+Homo_sapiens    7713 TGGCACAAGAGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTG   7762
+                     |||.|||||||.|||||||||||||||.||||||||.||||||||.|.||
+Pelobates_fus   7566 TGGTACAAGAGCTGGAAACCACAAGTGTTCCAACCTTCTGGATTACAATG   7615
+
+Homo_sapiens    7763 AAGTGAAGACTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAA   7812
+                     ||||.|..||||..|||||.|||||.||..||.|.|||||.||||||||.
+Pelobates_fus   7616 AAGTTAGAACTCGCTATGGATTCTTAACAAATTCCACCAAGAATCCAGAT   7665
+
+Homo_sapiens    7813 ATAATTGGAGAGACATATCCTTACCAGTACAGCTTGTCC----ATCAGAG   7858
+                     .|||||||.|||||.|.|||||||||.||    |.||||    |||||||
+Pelobates_fus   7666 TTAATTGGGGAGACCTCTCCTTACCAATA----TAGTCCACAGATCAGAG   7711
+
+Homo_sapiens    7859 G-----TTCCACTACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCT   7903
+                     |     .|.|.|||     ||.||||||.|||||||.|||.|.|||||||
+Pelobates_fus   7712 GAGTGAATGCTCTA-----CGTTTCTACAGGAACCTTAACTTGGAGGCCT   7756
+
+Homo_sapiens    7904 GTTTATGGGAGTTCGTTAGCTACTATGACATGTCAGAACTCCTTG-CTGA   7952
+                     |.||.|||||.||....|||||||||||||||||.||.|| |||| ||||
+Pelobates_fus   7757 GCTTGTGGGAATTTACCAGCTACTATGACATGTCGGAGCT-CTTGACTGA   7805
+
+Homo_sapiens    7953 CTGTGGTGGCACCATTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGT   8002
+                     .|||||.||.||.|||||.|||||||||||||||||.||.||.||.||||
+Pelobates_fus   7806 ATGTGGAGGAACAATTGGTACAGATGGACAGGTCCTGAATCTCGTACAGT   7855
+
+Homo_sapiens    8003 CCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCC   8052
+                     ||||.||||||.|.||.||.||..|||||||.||.||.||.|||||.||.
+Pelobates_fus   7856 CCTACGTGACCTTGCGGGTACCGTTGTATGTATCTTATGTATTCCACTCT   7905
+
+Homo_sapiens    8053 CCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCG   8102
+                     ||.|||||.||.|||||.||||||||.||||||.|..|.||.||||||||
+Pelobates_fus   7906 CCGGTGGGTGTTGGAGGATGGCAGCACTTTGACCTACATTCTGAGCTTCG   7955
+
+Homo_sapiens    8103 TCTAACTTTTGTGTACGACACCGCCATCTTGTGGAATGATGGAATTGGCA   8152
+                     |||.||.||||||||||||||.||||||||||||||.|||||||||||||
+Pelobates_fus   7956 TCTGACATTTGTGTACGACACTGCCATCTTGTGGAAAGATGGAATTGGCA   8005
+
+Homo_sapiens    8153 GCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGC   8202
+                     ||||.||.||.||||||||.|||||.|||||.||||||||||||||||||
+Pelobates_fus   8006 GCCCTCCTGAAGCTGAACTGCAAGGATCTCTGTATCCAACCAGCATGCGC   8055
+
+Homo_sapiens    8203 ATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTT   8252
+                     ||...||||||.|||||..|||..||..|.||.||.||.||.||||..||
+Pelobates_fus   8056 ATTAATGATGAAGGGCGTCTGGTGGTTAATTTTAAAACGGAAGCTCGATT   8105
+
+Homo_sapiens    8253 CCATGGCTTATTTGTGCTGTCACATCCCGCATCCTTTACAAGCTCAGTGA   8302
+                     ..||||..|.|||||..||||||||.|.||..|.||.|..||.|||.|||
+Pelobates_fus   8106 TAATGGTCTGTTTGTTATGTCACATTCTGCCACATTGATGAGTTCAATGA   8155
+
+Homo_sapiens    8303 TCATGTCAGCTGATCATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGG   8352
+                     |||||||||..|||||||||||.||.||||||.|.|||.||||..|..||
+Pelobates_fus   8156 TCATGTCAGTAGATCATCCAGGTCTTACATTTACACTCAGCCTTGTGCGG   8205
+
+Homo_sapiens    8353 AGTGAACCAACCTATAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGA   8402
+                     |||||.|||||||.|||||||||..|.||||||||||||||.||||||||
+Pelobates_fus   8206 AGTGAGCCAACCTTTAACCAGCCTATTCAGCAGTGGAGCTTCGTCTCTGA   8255
+
+Homo_sapiens    8403 CTTTGCCGTACGTGACTACTCAGGGACCTATACTGTGAAGCT-GGTGCCA   8451
+                     .|||||.||..|.||||||||.||.||.||.||||||||||| ..|||| 
+Pelobates_fus   8256 TTTTGCTGTCAGAGACTACTCCGGAACATACACTGTGAAGCTCATTGCC-   8304
+
+Homo_sapiens    8452 TGC---ACTGCCCCATCACATCAGGAATACCGCCTGCCAGTCACCTGCAA   8498
+                     |||   |||||.||||   |||||||||||....|||||...||||||||
+Pelobates_fus   8305 TGCACTACTGCTCCAT---ATCAGGAATACAATTTGCCACCTACCTGCAA   8351
+
+Homo_sapiens    8499 CCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGATTCCAACAGGTCA   8548
+                     .||..|.||.|||.|.||||||||..||||.|||||||||||||||||.|
+Pelobates_fus   8352 TCCACGGGAGCCTATAACCTTTGATGTTGATATCCGATTCCAACAGGTGA   8401
+
+Homo_sapiens    8549 GTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAAATGTACCTGCTC   8598
+                     |||||||||||||..|.|||||.||||||||.||.|..||||..||.|||
+Pelobates_fus   8402 GTGATCCAGTGGCCACGGAGTTCAGCTTGAATACACTGATGTTGCTTCTC   8451
+
+Homo_sapiens    8599 TCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGATTCGGGCAAGA   8648
+                     ||.|||||...|.|.||||||||||||||.||||||||||||||.||.||
+Pelobates_fus   8452 TCAAAGAAATCTTTGTGGTTGTCTGATGGGTCCATGGGATTCGGACAGGA   8501
+
+Homo_sapiens    8649 GAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTATGGTCGTGTCATGG   8698
+                     |||.||..|.||.|||..||||||||||.||||||||||.||.|||||||
+Pelobates_fus   8502 GAGCGACATAGCATTTTTAGAAGGTGATGTAATTTATGGCCGCGTCATGG   8551
+
+Homo_sapiens    8699 TGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAG   8748
+                     ||||.||.||.|||||..||||..|.||||||||||||||.|||||||||
+Pelobates_fus   8552 TGGACCCCGTACAGAACTTGGGAAATTCCTTTTACTGCAGTATTGAGAAG   8601
+
+Homo_sapiens    8749 GTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCAAGTATAGTCCAAT   8798
+                     |||||.||.|||||.||.||||||||.||.|||||.||.||.||||||.|
+Pelobates_fus   8602 GTGTTCCTGTGCACAGGCGCTGATGGATACGTTCCAAAATACAGTCCAGT   8651
+
+Homo_sapiens    8799 GAATGCA--GAATATGGCTGCTTAGCCGACTCTCCTTCACTCTTATAT-A   8845
+                     .||  ||  ||||||||||||.||||.||.||..||||.||.||..|| |
+Pelobates_fus   8652 CAA--CAATGAATATGGCTGCCTAGCTGATTCATCTTCTCTGTTGCATCA   8699
+
+Homo_sapiens    8846 GATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTT   8895
+                     | |||||.|||.||||.|||||||||||||||||.|||||.|..|..|||
+Pelobates_fus   8700 G-TTTAAGATTTTGGATAAAGCTCAGCCAGAGACTCAAGCTATAAAATTT   8748
+
+Homo_sapiens    8896 GGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGACCCTGAAGCCAT   8945
+                     ||||.|||.|..||||||||.|.|.|.||.||||||||.||.|||||..|
+Pelobates_fus   8749 GGAAGTGTGCAGTTTAATGCTAGATTGGCGGTGGATGATCCGGAAGCTTT   8798
+
+Homo_sapiens    8946 TCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGACTCAACAC   8995
+                     .|..|||||.||.||.|||||.||||||||||||||.||.|||||..|||
+Pelobates_fus   8799 ACCATTAGTCAAACAACCTGGTTCTGATGGATTTAAGGTTGACTCTTCAC   8848
+
+Homo_sapiens    8996 CACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACATACGATCTAT   9045
+                     |.||.||||||||..|..|.||.||||||||||||||.|||.|.||||||
+Pelobates_fus   8849 CTCTTTTTCAGGTTTCCTTGGGTCGAGAATGGTATATTCATGCAATCTAT   8898
+
+Homo_sapiens    9046 ACAGTGAGATCGAAAGAC-AATGCCAATCGAGGTATTGGCAAAAGAAGTG   9094
+                     |||||.||||| ||||.| ||||||||..||||.|||||.||||||||||
+Pelobates_fus   8899 ACAGTAAGATC-AAAGGCAAATGCCAACAGAGGCATTGGAAAAAGAAGTG   8947
+
+Homo_sapiens    9095 TGG------AGTACCATTC----------TCTGGTGAGTCAAGGAAAGCC   9128
+                     |.|      |.||||||||          .|||.|...|||  |||    
+Pelobates_fus   8948 TAGACACTCAATACCATTCAATAAGTGTTGCTGCTTCTTCA--GAA----   8991
+
+Homo_sapiens    9129 CCAATCCACCACCAAGAGCCGGAAGAAGAGAGAGATCA--GGAGCACACC   9176
+                      |..||.||.|..|||   ||||.||.||||||.||||  |.|||.|..|
+Pelobates_fus   8992 -CTTTCAACGAATAAG---CGGAGGAGGAGAGATATCAACGAAGCTCCTC   9037
+
+Homo_sapiens    9177 C--TCACTGGCATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAAACAT   9224
+                     |  ||.|||    ..||.||||||..||||||.|.|||||||||.|||||
+Pelobates_fus   9038 CAGTCGCTG----AAGAAATTGGTATTGAAAATAATCGAGGAACCAACAT   9083
+
+Homo_sapiens    9225 CCAGCACATTGCCCTGG---ACCGCACCAAGAGGCAGATCCCCC----AT   9267
+                     .||.||.||||||.|||   ||..||.|||.|.|||||.||..|    |.
+Pelobates_fus   9084 TCAACATATTGCCTTGGAATACAACAACAAAAAGCAGAACCTTCAAAAAG   9133
+
+Homo_sapiens    9268 GGGAGAGCACCTCCAGATGGCATCCTCCCCTGGGAGCTCAACAGC-----   9312
+                     .||.||.||    ..|||||.|...||||..|.|||.|.||.|.|     
+Pelobates_fus   9134 AGGTGAACA----TTGATGGAACAATCCCAAGAGAGGTTAATAACAAAGA   9179
+
+Homo_sapiens    9313 --CCCAGCTCTGCAGTCAGCCTGGTCAC---TGTGGTGGGAGGCACCACG   9357
+                       .|.||       ||||||.|.|||||   |.||||||      .||..
+Pelobates_fus   9180 AGACGAG-------GTCAGCATTGTCACCATTATGGTGG------TCATT   9216
+
+Homo_sapiens    9358 GTAGGGTTACT--------CACCATCTGCCTCACTGTCATTGC-AGTGCT   9398
+                     |.||...||||        ||  |||||      |.|.|||.| |.||||
+Pelobates_fus   9217 GCAGCAATACTTCTTCTAGCA--ATCTG------TTTGATTACAATTGCT   9258
+
+Homo_sapiens    9399 G------ATGTGCAG--------GGGCAAGGAAAGTTTCAGGGGGAAGGA   9434
+                     |      .||||.||        |..|||  ||||   .|.|..||||||
+Pelobates_fus   9259 GTTTTACTTGTGAAGCATAAGAAGTCCAA--AAAG---AATGAAGAAGGA   9303
+
+Homo_sapiens    9435 TGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCCCACAGAGCC   9484
+                            |.||..||..|.|||||||||||||||.||||.||.|.|.|..
+Pelobates_fus   9304 -------AGAGAGTCAGGGAGCAGTGAGCCCATGATGCCTCCTCGGGGAT   9346
+
+Homo_sapiens    9485 AT--CACAATGACAGCTCAGAAGTT   9507
+                     ||  .|||  |||||||||||.|||
+Pelobates_fus   9347 ATAGTACA--GACAGCTCAGAGGTT   9369
+
+
+#---------------------------------------
+#---------------------------------------

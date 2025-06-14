@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 15:56:17
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Bos_mutus.fa
+#    -outfile Homo_sapiens-Bos_mutus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Bos_mutus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Bos_mutus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 991
+# Identity:     595/991 (60.0%)
+# Similarity:   595/991 (60.0%)
+# Gaps:         242/991 (24.4%)
+# Score: 2040.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGAGAGAGGAGACCAACCTAAGAGAACCAGGAATGAAAACATTTTCAA     50
+                     ||||||||..|||||.||.||.|||..|.||||||||||||..||.|.||
+Bos_mutus          1 ATGGAGAGGAGAGACAAAGCTGAGACCATCAGGAATGAAAAAGTTGTGAA     50
+
+Homo_sapiens      51 CTGCTTATACAAAAACCCTGAGGCAACTTTTAAGCTGATTTGCTTTCCCT    100
+                     ||||||||||.|.||.|.|.|.|||..|||||.||||.||||||||||.|
+Bos_mutus         51 CTGCTTATACCAGAATCGTAATGCACTTTTTAGGCTGGTTTGCTTTCCTT    100
+
+Homo_sapiens     101 GGATGGGAGGTGGCTCCACTCATTTTGCCAAATGGGGCCAAGATACTCAT    150
+                     ||...|||||||||||||||.||||||||||||||||||||||||.||.|
+Bos_mutus        101 GGGGAGGAGGTGGCTCCACTTATTTTGCCAAATGGGGCCAAGATATTCCT    150
+
+Homo_sapiens     151 GATTTGCTGGAAGAGACAGCATCTCACCATGTTGCCAAGGCTGGTCTCAA    200
+                     .|||...||||||                                     
+Bos_mutus        151 AATTCCGTGGAAG-------------------------------------    163
+
+Homo_sapiens     201 ACTCCGGCGCTCAAGTGATCCTCCTGCTTCAGCCTACCCATGTGCTGGCG    250
+                                                                       
+Bos_mutus        163 --------------------------------------------------    163
+
+Homo_sapiens     251 TGAGCCACCGTAGGCGTGAGCCACCGTGCCTGGCCAAAATTCTTGGTCTA    300
+                                                                       
+Bos_mutus        163 --------------------------------------------------    163
+
+Homo_sapiens     301 TTCTGGATTCTAATTTTTTTTATGCACTCCTTAAGGCTTCCTGGAAGAGA    350
+                                           ||||..||.||.|||||.||||.|||||
+Bos_mutus        164 ----------------------TGCATGCCATACGGCTTGCTGGGAGAGA    191
+
+Homo_sapiens     351 AAGCAGAGTTGAAGAACCTCTTGAAAATGACATCTCCCAGTTAGTTGATG    400
+                     |||..|..|||||||||||.|||.||.||||||....|||.|||||||||
+Bos_mutus        192 AAGTCGGCTTGAAGAACCTTTTGCAAGTGACATGAATCAGATAGTTGATG    241
+
+Homo_sapiens     401 AAGTTGTTTGTGCTCTGCAGCCAGTCATCCAGGATAAACCATTTGCATTT    450
+                     ||.|||..|||||.||||.|||..|||||||||.|.||...|||||||||
+Bos_mutus        242 AAATTGCCTGTGCCCTGCTGCCGATCATCCAGGGTGAATATTTTGCATTT    291
+
+Homo_sapiens     451 TTTGGCCACAGTATGGGATCCTACATTGCTTTTAGGACTGCACTAGGTCT    500
+                     ||||||||||||||||||||.|..|.|||||||...||.||||||..|||
+Bos_mutus        292 TTTGGCCACAGTATGGGATCTTTTACTGCTTTTTTTACCGCACTACATCT    341
+
+Homo_sapiens     501 AAAAGAAAACAATCAACCAGAACCATTGCATTTATTTTTGTCAAGTGCAA    550
+                     .||||||||..||.|.|.|||||||.|.|||||||||.||||||||..||
+Bos_mutus        342 CAAAGAAAAATATAATCTAGAACCAGTACATTTATTTGTGTCAAGTTTAA    391
+
+Homo_sapiens     551 ---CTCCTGTACATTCAAAGGCCTGGCATCGCATT------CCCAAAGAT    591
+                        |||||   ||||||||||||      ||||||      |.|||||||
+Bos_mutus        392 GCCCTCCT---CATTCAAAGGCC------CGCATTCATCTCCACAAAGAT    432
+
+Homo_sapiens     592 GATGAATTGTCAGAAGAACAAATAAGTCATTACCTTATGGAAT-------    634
+                     |||   ||||...|||||.||||      ||.|  ||||.|||       
+Bos_mutus        433 GAT---TTGTGTAAAGAAGAAAT------TTTC--TATGTAATGAAGAAA    471
+
+Homo_sapiens     635 -TTGGAGGCACCCC---CAAGCATTTTGCT--GAAGCCAAG----GAATT    674
+                      |.|||||||..||   |||...|||||.|  |||..|.||    |||||
+Bos_mutus        472 GTGGGAGGCATTCCTGACAAATTTTTTGATAAGAAAACGAGTCCAGAATT    521
+
+Homo_sapiens     675 TGTGA-AACAATGTAGTCCCATCATAAGGGCAGATCTGAACATTGTTA--    721
+                     |||.| .|.|.|||          ||   ||||||||..|.|||.|.|  
+Bos_mutus        522 TGTTACCAGATTGT----------TA---GCAGATCTTCATATTTTGAAT    558
+
+Homo_sapiens     722 GAAGTTGCACCTCTAACGTACCATCTAAGGCTGTTCTTTCCTGTGACTTG    771
+                     ||.||  |||||||.||.||||.||||||.||..||||||.||||||.|.
+Bos_mutus        559 GATGT--CACCTCTGACATACCCTCTAAGACTCGTCTTTCTTGTGACATA    606
+
+Homo_sapiens     772 ACATGTTTTGTTGGATCTGAAGACATAGCAAAGGACATGGAAGCCTGGAA    821
+                     |||||.|||..||||||||||||.|||.||..|||.||||||||||||||
+Bos_mutus        607 ACATGCTTTTCTGGATCTGAAGATATACCACTGGATATGGAAGCCTGGAA    656
+
+Homo_sapiens     822 AGATGTAACCAGTGGAAATGCTAAAATTTACCA-------GCTTCCAGGG    864
+                     |||||||||||||||||.|       |||..||       |||||||||.
+Bos_mutus        657 AGATGTAACCAGTGGAAGT-------TTTGACAGTTTTGTGCTTCCAGGA    699
+
+Homo_sapiens     865 GGTCACTTTTATCTTCTGGATCCTGCGAACGAGAA-ATTAATCAAGAACT    913
+                     ...|||||.||||||.||||.|||.|.||| |.|| .||.||||||||.|
+Bos_mutus        700 AACCACTTCTATCTTATGGAACCTTCCAAC-ACAAGCTTCATCAAGAAGT    748
+
+Homo_sapiens     914 ACATAATCAAGTGTCTAGAAGTATCATCGATATCCAATTTT    954
+                     ||||||.||||..|||||||.|||||.||.|..||..|   
+Bos_mutus        749 ACATAACCAAGACTCTAGAAATATCAGCGTTCACCTCT---    786
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,198 @@
+########################################
+# Program: needle
+# Rundate: Mon 21 Apr 2025 00:05:23
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Camelus_dromedarius.fa
+#    -outfile Homo_sapiens-Camelus_dromedarius.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Camelus_dromedarius.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Camelus_dromedarius
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2012
+# Identity:    1638/2012 (81.4%)
+# Similarity:  1638/2012 (81.4%)
+# Gaps:          52/2012 ( 2.6%)
+# Score: 6705.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGTGTCACAATCTACAGTCAGGCAGGATTCTCCTGTGGAGCCCTGGGA     50
+                     |||||.|||||.|.|.|||.|.|.|.|||.|||||.|.|||.||||||||
+Camelus_drome      1 ATGGTATCACAGTTTGCAGGCTGCCGGGACTCTCCAGAGGACCCCTGGGA     50
+
+Homo_sapiens      51 AGGGATCAGCGATCACTCTGGCATTATTGATGGTTCGCCCAGACTCCTGA    100
+                     ||||.||||||||.||.||||....|.|||||||||||||||.||||||.
+Camelus_drome     51 AGGGGTCAGCGATGACCCTGGTGACACTGATGGTTCGCCCAGCCTCCTGG    100
+
+Homo_sapiens     101 ACACTGACCA-TCCTCCTTGCCAATTAGACATCAGGCTCATGAGGCACAA    149
+                     |||||||||| .||| |||||||||.||||||||||.|||.||||||||.
+Camelus_drome    101 ACACTGACCACACCT-CTTGCCAATCAGACATCAGGTTCACGAGGCACAG    149
+
+Homo_sapiens     150 AGCTGTCTGGATTAACCCCCAGGATGTGCAGCAACAGCCGCAGGACTTGC    199
+                     .||||.||||||||||||||||..||||      ||||.|||||      
+Camelus_drome    150 GGCTGCCTGGATTAACCCCCAGTGTGTG------CAGCTGCAGG------    187
+
+Homo_sapiens     200 AATCT-------CAGGTGCCAGCAGCAGGGA-ACAGTGGGACCCATTTTG    241
+                      ||||       ||||||||||||| .|||| ||||||.||.|||..|||
+Camelus_drome    188 -ATCTGCCCAGCCAGGTGCCAGCAG-TGGGAGACAGTGAGAGCCACGTTG    235
+
+Homo_sapiens     242 TGACAGATGCTGCCTCTCCCTCAGGCCCTTCACCTTCGTGCCT--CGGGG    289
+                     ||...||.||..||||||||...||||||||||  |..||.||  .||||
+Camelus_drome    236 TGGGGGACGCCACCTCTCCCCGGGGCCCTTCAC--TGTTGTCTGCAGGGG    283
+
+Homo_sapiens     290 ACTCCCTGGCAGAGACAACGTTGTCTG-AGGATACCACAGACTCCGTTGG    338
+                     |||||||||..||||||.|..|| ||| |||..||..|.||||||...||
+Camelus_drome    284 ACTCCCTGGTGGAGACATCACTG-CTGAAGGGCACTGCGGACTCCACAGG    332
+
+Homo_sapiens     339 CAGC-GCTTCTCCCCATGGCTCGAGTGAAAAGAGTAGCAGCTTCTCTCTG    387
+                     |||| || |||.||||.|||||..|.||.|||||..|...|||||||||.
+Camelus_drome    333 CAGCTGC-TCTGCCCAGGGCTCAGGAGAGAAGAGCGGGGACTTCTCTCTT    381
+
+Homo_sapiens     388 TCCTCAAC---AGAGGTACACATGGTCCG----CCCAGGATACTCTCATC    430
+                     .|||||.|   ||||       .||.|||    |||||||..|..||.||
+Camelus_drome    382 ACCTCAGCGGGAGAG-------CGGGCCGTGCTCCCAGGACGCGGTCCTC    424
+
+Homo_sapiens     431 GGGTGTCTCTGCCCACAAGCCCTGGGATTTTGGCCACCTCCCCATATCCT    480
+                     .|..|||||||..|||||||||...||||||||||.|.||||||..||||
+Camelus_drome    425 AGACGTCTCTGTTCACAAGCCCCAAGATTTTGGCCGCTTCCCCAGGTCCT    474
+
+Homo_sapiens     481 GAGACTGACAGTGCTTTTTTTGAGCCTTCCCATCTGACATCTGCTGCTGA    530
+                     |||.|.||||||||||||||..||||||||||.||||||.||.|.|||||
+Camelus_drome    475 GAGGCCGACAGTGCTTTTTTCAAGCCTTCCCACCTGACAGCTCCCGCTGA    524
+
+Homo_sapiens     531 TGAAGGTGCTGTTCAAGTCAGTAGAAGAACCATTTCTTCGAATTCCTTCT    580
+                     |||||||||||||||.|||||..||||||.|.|..|||.|||||||||||
+Camelus_drome    525 TGAAGGTGCTGTTCACGTCAGCGGAAGAAACGTCCCTTTGAATTCCTTCT    574
+
+Homo_sapiens     581 CACCAGAGGTATTTGTGCTGCCTGTTGATGTAGAAAAGGAAAATGCCCAC    630
+                     |.||.||||.|||.|||||.|||||.|||||.||||||||||||||||||
+Camelus_drome    575 CCCCGGAGGCATTCGTGCTCCCTGTCGATGTTGAAAAGGAAAATGCCCAC    624
+
+Homo_sapiens     631 TTTTATGTTGCAGATATGATTATATCAGCAATGGAGAAAATGAAGTGTAA    680
+                     |||||||||||.|||||||||||||||...||||||||||||||||||.|
+Camelus_drome    625 TTTTATGTTGCCGATATGATTATATCAATCATGGAGAAAATGAAGTGTGA    674
+
+Homo_sapiens     681 CATTCTGAGTCAACAGCAGACAGAGAGCTGGAGTA---AAGAAGTCAGTG    727
+                     .|||||||||||.|.|||..|||||||||||||||   .|||.|...|||
+Camelus_drome    675 TATTCTGAGTCAGCTGCACGCAGAGAGCTGGAGTACGGGAGAGGCTGGTG    724
+
+Homo_sapiens     728 GGTTACTTGGGAGTGATCAGCCTGACTCTGAAATGACTTTTGATACCAAC    777
+                     |||.||||||||..|||||....|||.|||||.||||.|||.|.||||||
+Camelus_drome    725 GGTCACTTGGGAACGATCAAGTAGACCCTGAAGTGACCTTTTACACCAAC    774
+
+Homo_sapiens     778 ATAAAGCAAGAGTCTGGGTCTTCTACTTCTTCATACAGTGGCTATGAAGG    827
+                     .|.|||||.||.|||||||||||.|||||.||..||||||||||.|||||
+Camelus_drome    775 GTGAAGCAGGAATCTGGGTCTTCCACTTCGTCGGACAGTGGCTACGAAGG    824
+
+Homo_sapiens     828 TTGTGCTGTGTTACAGGTCAGCCCAGTGACTGAAACACGTACTTACCATG    877
+                     ||||||||||||||||||||||||||||.||||||||..|||||.|.|||
+Camelus_drome    825 TTGTGCTGTGTTACAGGTCAGCCCAGTGGCTGAAACATCTACTTCCTATG    874
+
+Homo_sapiens     878 ATGTGA---AAGAGATTTGCAAATGCGATGTTGATGAATTTGTTATTTTA    924
+                     ||||||   |.|||...||||||.|.||..|.||||||||.|||||..||
+Camelus_drome    875 ATGTGATGCAGGAGGACTGCAAAGGTGACTTGGATGAATTCGTTATCGTA    924
+
+Homo_sapiens     925 GAGCTTGGAGATTTTAATGATATCACAGAAACCTGTAGCTGTTCCTGCAG    974
+                     |||||||||||.||||..||.||||||||.||||||...|||||||||.|
+Camelus_drome    925 GAGCTTGGAGAGTTTAGCGACATCACAGAGACCTGTGAATGTTCCTGCGG    974
+
+Homo_sapiens     975 CTCCTCTAAGAGTGTCACTTATGAGCCAGACTTCAATTCTGCAGAACTAT   1024
+                     |||||||||||||||...||||||||||.|||||||||||||.||.|||.
+Camelus_drome    975 CTCCTCTAAGAGTGTTGTTTATGAGCCAAACTTCAATTCTGCTGAGCTAC   1024
+
+Homo_sapiens    1025 TAGCCAAAGAGCTGTACCGCGTGTTCCAGAAGTGCTGGATACTGTCAGTA   1074
+                     |.|||||||||||.|||.|.|..||||.||||||||||.|....||||.|
+Camelus_drome   1025 TCGCCAAAGAGCTCTACGGAGAATTCCGGAAGTGCTGGGTGTCCTCAGGA   1074
+
+Homo_sapiens    1075 GTTAATTCTCAGCTGGCAGGTTCCCTGAGTGCAGCTGGCTCGATAGTCGT   1124
+                     |||||...||.|||||||||.|||||||.|.|.||.|||||..||||.||
+Camelus_drome   1075 GTTAACCATCCGCTGGCAGGCTCCCTGAATCCGGCCGGCTCAGTAGTTGT   1124
+
+Homo_sapiens    1125 AAATGAAGAGTGTGTCCGAAAAGACTTTGAATCCAGTATGAATGTAGTAC   1174
+                     ..||||||||..|.|..|.|||||||||||||||||.|||.||.||.|..
+Camelus_drome   1125 GGATGAAGAGCATCTTGGGAAAGACTTTGAATCCAGCATGGATATACTGG   1174
+
+Homo_sapiens    1175 AGGAAATTAAATTTAAGTCTAGGATCAGAGGGACTGAAGACTGGGCTCCT   1224
+                     |||||||||||.|.|||||.||||||||||||||||||||||||||.||.
+Camelus_drome   1175 AGGAAATTAAACTGAAGTCGAGGATCAGAGGGACTGAAGACTGGGCGCCC   1224
+
+Homo_sapiens    1225 CCTAGATTTCAAATCATATTTAATATTCATCCACCACTCAAGAGGGACCT   1274
+                     ||.||.||||||||||||||||||.|||||||||||||||||||||||||
+Camelus_drome   1225 CCAAGGTTTCAAATCATATTTAATGTTCATCCACCACTCAAGAGGGACCT   1274
+
+Homo_sapiens    1275 TGTGGTGGCAGCCCAGAATTTTTTCTGTGCCGGCTGTGGAACTCCAGTAG   1324
+                     .|||||.|||||||||||.||..||||.||||||||.||||||||..|||
+Camelus_drome   1275 CGTGGTAGCAGCCCAGAACTTCCTCTGCGCCGGCTGCGGAACTCCGATAG   1324
+
+Homo_sapiens    1325 AGCCTAAGTTTGTGAAGCGGCTCCGGTACTGCGAATACCTAGGGAAGTAT   1374
+                     |.||||.|||||||||||||||||||||||||||||||||.||.|.|||.
+Camelus_drome   1325 AACCTAGGTTTGTGAAGCGGCTCCGGTACTGCGAATACCTGGGCAGGTAC   1374
+
+Homo_sapiens    1375 TTCTGTGACTGCTGCCACTCATATGCAGAGTCGTGCATCCCTGCCCGAAT   1424
+                     ||||||||||||||||||||.||.|..|||||.|||.||||||||||..|
+Camelus_drome   1375 TTCTGTGACTGCTGCCACTCGTACGAGGAGTCCTGCCTCCCTGCCCGGGT   1424
+
+Homo_sapiens    1425 CCTGATGATGTGGGACTTCAAGAAGTACTACGTCAGCAATTTCTCCAAAC   1474
+                     |||.|.|.||||||||||||.|||.|.|||.||||||||.||||||||||
+Camelus_drome   1425 CCTCAGGCTGTGGGACTTCAGGAAATGCTATGTCAGCAACTTCTCCAAAC   1474
+
+Homo_sapiens    1475 AGCTGCTCGACAGCATATGGCACCAGCCCATTTTCAATTTGCTGAGCATC   1524
+                     .||||||.|||.||||.|||||||||||||||||||||.|||.||.||.|
+Camelus_drome   1475 GGCTGCTGGACGGCATCTGGCACCAGCCCATTTTCAATCTGCGGAACAGC   1524
+
+Homo_sapiens    1525 GGCCAAAGCCTGTATGCGAAAGCCAAGGAGCTGGACAGAGTGAAGGAAAT   1574
+                     .||||.|||||.|||.||||.||||||||||||||||||||||.||||.|
+Camelus_drome   1525 AGCCACAGCCTCTATACGAAGGCCAAGGAGCTGGACAGAGTGAGGGAACT   1574
+
+Homo_sapiens    1575 TCAGGAGCAGCTCTTCCATATCAAGAAGCTGTTGAAGACCTGTAGGTTTG   1624
+                     .|||||||||||.||||||.||||||||||||||||||||||.|||||||
+Camelus_drome   1575 CCAGGAGCAGCTATTCCATGTCAAGAAGCTGTTGAAGACCTGCAGGTTTG   1624
+
+Homo_sapiens    1625 CTAACAGTGCATTAAAGGAGTTCGAGCAGGTGCCGGGACACTTGACTGAT   1674
+                     ||.|.|||||.|||.|||||||.|||||||||||.|||||.|||||||||
+Camelus_drome   1625 CTGAAAGTGCGTTACAGGAGTTTGAGCAGGTGCCTGGACATTTGACTGAT   1674
+
+Homo_sapiens    1675 GAGCTCCACCTGTTCTCCCTTGAGGACCTGGTCAGGATCAAGAAAGGGCT   1724
+                     ||.|||||||||||||||||.|||||||||||||||.|||||||||||||
+Camelus_drome   1675 GAACTCCACCTGTTCTCCCTGGAGGACCTGGTCAGGGTCAAGAAAGGGCT   1724
+
+Homo_sapiens    1725 GCTGGCACCCTTACTCAAGGACATTCTGAAAGCTTCCCTTGCACATGTGG   1774
+                     ||||||||||||.|||||||||||.|||||||.|||||||||.||.||||
+Camelus_drome   1725 GCTGGCACCCTTGCTCAAGGACATCCTGAAAGTTTCCCTTGCGCACGTGG   1774
+
+Homo_sapiens    1775 CTGGCTGTGAGCTGTGTCAAGGAAAGGGCTTTATTTGTGAATTTTGCCAG   1824
+                     |||||||||||||||||||||||||||||||.|||||||||||.||||.|
+Camelus_drome   1775 CTGGCTGTGAGCTGTGTCAAGGAAAGGGCTTCATTTGTGAATTCTGCCGG   1824
+
+Homo_sapiens    1825 AATACGACTGTCATCTTCCCATTTCAGACAGCAACATGTAGAAGATGTTC   1874
+                     |..||..||||||||||.|||||||||||.||.||||||||||||||.||
+Camelus_drome   1825 AGCACAGCTGTCATCTTTCCATTTCAGACCGCGACATGTAGAAGATGCTC   1874
+
+Homo_sapiens    1875 AGCGTGCAGGGCTTGCTTTCACAAACAGTGCTTCCAGTCCTCCGAGTGCC   1924
+                     |||.|||||.||.|||||||||||.|||||||||||||||||||||||||
+Camelus_drome   1875 AGCATGCAGAGCCTGCTTTCACAAGCAGTGCTTCCAGTCCTCCGAGTGCC   1924
+
+Homo_sapiens    1925 CCCGGTGTGCGAGGATCACAGCGAGGAGAAAACTTCTGGAAAGTGTGGCC   1974
+                     ||||||||||||||||||.|||||||||||.||||.||||||||.||.||
+Camelus_drome   1925 CCCGGTGTGCGAGGATCAGAGCGAGGAGAAGACTTTTGGAAAGTTTGCCC   1974
+
+Homo_sapiens    1975 TCTGCAGCAACA   1986
+                     ||.|||||.|||
+Camelus_drome   1975 TCCGCAGCGACA   1986
+
+
+#---------------------------------------
+#---------------------------------------

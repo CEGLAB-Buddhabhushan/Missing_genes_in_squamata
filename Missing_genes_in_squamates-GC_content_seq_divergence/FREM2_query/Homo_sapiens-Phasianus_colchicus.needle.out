@@ -1,0 +1,822 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:47:13
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Phasianus_colchicus.fa
+#    -outfile Homo_sapiens-Phasianus_colchicus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Phasianus_colchicus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Phasianus_colchicus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9803
+# Identity:    7160/9803 (73.0%)
+# Similarity:  7160/9803 (73.0%)
+# Gaps:         595/9803 ( 6.1%)
+# Score: 25553.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                     |||||         |.||     |||.||..||.||||            
+Phasianus_col      1 ATGCA---------GGCT-----GTTCTCGCCGTGCCG------------     24
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGACCGCCACCGCCGCC--CCGGCTG--CTGCTG     96
+                                               ||.||.|  |||||||  .|||||
+Phasianus_col     25 --------------------------CGGCGGCTGCCGGCTGGCTTGCTG     48
+
+Homo_sapiens      97 CTG-----CTGCTGCTTCT-CCTGTCACTGGTAAGCCGCGTCCCGGCACA    140
+                     |||     |.|||||.|.| ||||...|||            ||||   |
+Phasianus_col     49 CTGTTGGCCGGCTGCGTGTGCCTGGGGCTG------------CCGG---A     83
+
+Homo_sapiens     141 GC--CCGCTGCCTTC-GGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGG    187
+                     ||  ||||.|||..| |||||.||  .||.|||.|     |||||.|.||
+Phasianus_col     84 GCCGCCGCCGCCGCCGGGCAGAGC--CGCCGTCTC-----CTCGCCGTGG    126
+
+Homo_sapiens     188 CTGCAGGGGTCCCTGCTGAGGAGG------CCATAGTGCTGGCGAACCGC    231
+                       |||         .|.||||.||      ||.|.|||.||||.||||||
+Phasianus_col    127 --GCA---------CCGGAGGCGGCGGCTCCCGTCGTGGTGGCCAACCGC    165
+
+Homo_sapiens     232 GGACTCCGGGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCT--GCAT    279
+                     ||.||.||||||||.||.|||||....|.|||||||||  ||||  ||..
+Phasianus_col    166 GGGCTGCGGGTGCCCTTGGGCCGCTCCGCCTGGCTGGA--CCCTACGCGG    213
+
+Homo_sapiens     280 GACCTGGTGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACT    329
+                     |||||||||.|||||||||||||.||.|||||.|||....|..|.||.||
+Phasianus_col    214 GACCTGGTGCTGCAGGTGCAGCCGGGCGACCGGTGCCACCTCACCGTGCT    263
+
+Homo_sapiens     330 AGACAACGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCT    379
+                     .|||.|.|||.|.|||...|||||.||||||||||||||.||||.|||||
+Phasianus_col    264 GGACGAGGACCCGCTGTGGCAGCGGCCGGGCCGCCTGAGCCCCAGGCGCT    313
+
+Homo_sapiens     380 TCCCGTGCGACTTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCG    429
+                     ||||.||||||||.||.||..||||||||||||||||.||||||||||..
+Phasianus_col    314 TCCCCTGCGACTTCGGTCCCCGCGAGGTGCGCTACTCGCACCTGGGCGGC    363
+
+Homo_sapiens     430 CGCAGCCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCC    479
+                     ||||||||..|..|||||||||||||.||||||||||||||.|||.||||
+Phasianus_col    364 CGCAGCCCCGCGAGGGACCGCGTCCGCCTGCAGCTGCGCTACGACTCGCC    413
+
+Homo_sapiens     480 CGGAGGGGCAGTAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCA    529
+                     |.|..|.||..|.|||||.||.|||||.|||||||||||||||.||||.|
+Phasianus_col    414 CAGCCGCGCCCTGGTGCTGCCGCTGGTGCTGGAGGTGGAGGTGCTCTTTA    463
+
+Homo_sapiens     530 CCCAGCTGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAG-CT    578
+                     |.|||||||||.|.||.||.||.|||.||||.||.||||||| ||.| ||
+Phasianus_col    464 CTCAGCTGGAGATCGTCACCCGCAACCTGCCCCTCGTCGTGG-AGCGCCT    512
+
+Homo_sapiens     579 GCTGGGGACCAGCAATGCC--CTGGACGCGCGGAGCCTGGAGTTCGCCTT    626
+                     ||..||.|||||||  |||  ||||||||.||.|||||||||||||||||
+Phasianus_col    513 GCGAGGCACCAGCA--GCCCGCTGGACGCCCGCAGCCTGGAGTTCGCCTT    560
+
+Homo_sapiens     627 CCAGCCCG--AGACAGAGGAGTGCCGCGTGGGCATCCTG---TCCGGCTT    671
+                     |.||||.|  .|.|||.|  .|||||.||||||.|.|||   ||  || |
+Phasianus_col    561 CGAGCCGGGCCGGCAGCG--CTGCCGGGTGGGCCTGCTGCCTTC--GC-T    605
+
+Homo_sapiens     672 GGGCGCGCTGCCTCGCTATGGAGAACTCCTCCACTA-CCCGCAGGTCCCT    720
+                     |..||.||||||.|||||.|||||..|||||.|||| |||||  |.||.|
+Phasianus_col    606 GACCGGGCTGCCCCGCTACGGAGAGATCCTCAACTACCCCGC--GGCCGT    653
+
+Homo_sapiens     721 GGAGGAGCC------AGAGA-------------GGGAGGCGCCCCGGAGA    751
+                     ||.|..|||      ||.||             ||||||||.|||||.|.
+Phasianus_col    654 GGCGATGCCGGCGGGAGGGAGCGTGGAGGCGGCGGGAGGCGGCCCGGTGC    703
+
+Homo_sapiens     752 C--TCTCC-TGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTAT    798
+                     |  .|||| ||..|||||||.|.|..||||.|...||.||..|||||||.
+Phasianus_col    704 CCGCCTCCATGTGGGACTGCGAGGAGTTCCTGCGCCTCGGGCTGCGCTAC    753
+
+Homo_sapiens     799 CGCCACACAGCCGCCAGTCGCTCACCAAACAGGGA-CTGGATACCCATGG    847
+                     ||.|||||.||.|||.|..||||.||.|||.|.|| |||| |.||..|||
+Phasianus_col    754 CGGCACACGGCGGCCGGCAGCTCCCCCAACCGCGACCTGG-TGCCGCTGG    802
+
+Homo_sapiens     848 TGGTGGAGCTGCGTTCA-----CGAGGGGCTCCTGTGGGCAGCCCTGCTT    892
+                     |||..|||.||.|         |||.||||.||.|.|.||.||       
+Phasianus_col    803 TGGCCGAGTTGTG----GGAGGCGACGGGCGCCGGGGCGCCGC-------    841
+
+Homo_sapiens     893 TGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAG    942
+                     |.||.||||||.||||||||||.||||||.||||.|||||.|||...|||
+Phasianus_col    842 TCAAGCGCGAGTACTTCCAGGTGCTGGTGCGGATTCGAGGCGGGATGGAG    891
+
+Homo_sapiens     943 AACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGA    992
+                     |||...||||||||.|||||.|||.||||||||.||||||||||||||||
+Phasianus_col    892 AACGTGGCACCCAAACCCAGCTTCATGGCCATGCTGATGATGGAGGTGGA    941
+
+Homo_sapiens     993 CCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATG   1042
+                     |||||||||.||.||.|||||.||.||.||||||||||||||.|||||||
+Phasianus_col    942 CCAGTTTGTCCTCACCGCCCTCACACCTGACATGCTGGCAGCTGAGGATG    991
+
+Homo_sapiens    1043 CTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAG   1092
+                     ||||.||.|||.|.|||||||||.|.||||||.|.||.||.||.|||...
+Phasianus_col    992 CTGAATCACCCCCAGACCTGTTGCTGTTCAACATCACCTCGCCCTTCGGC   1041
+
+Homo_sapiens    1093 CCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTC   1142
+                     ||.||||||||..||.||||.|||||.||.||.||.||..|||||.|.||
+Phasianus_col   1042 CCGGGCCAGGGGCACATGGTCAGCACAGACGACCGGAGTTTGCCCATCTC   1091
+
+Homo_sapiens    1143 CTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCC   1192
+                     .|||||||..|||.|.|||.||.||...|||...|||||||||||.||||
+Phasianus_col   1092 TTCCTTCAGCCAGCGTGATGTGAGGGAGCTGCGCATTGCCTACCAACCCC   1141
+
+Homo_sapiens    1193 CTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTA   1242
+                     |....||.|||||.||.||||||||.||.|||||.|||||..|||||||.
+Phasianus_col   1142 CCGTGGATGACTCGGATCAGGAGCGTCTGTTTGAGCTGGAGCTGGAGGTG   1191
+
+Homo_sapiens    1243 GTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGT   1292
+                     .||||.|..||.||.||.||.|||||.||.||.|||||..||.|.|||||
+Phasianus_col   1192 CTGGACCCCGAGGGCGCTGCATCAGAGCCCTTCGCCTTTGTGATTGTGGT   1241
+
+Homo_sapiens    1293 GAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTA   1342
+                     ||||||.|||||.||..||||.||.|||||.|||||.||.||.||.|||.
+Phasianus_col   1242 GAAGCCTATGAATACCCTGGCACCTGTGGTGACCCGCAACACGGGCCTTG   1291
+
+Homo_sapiens    1343 TTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGT   1392
+                     |.|||||||||||.|||||.|||||.|||.|||||||         .|||
+Phasianus_col   1292 TGCTCTATGAGGGGCAGTCACGGCCTCTCTCAGGCCC---------CGGT   1332
+
+Homo_sapiens    1393 CCGCA----AAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCA-GTG   1437
+                     || ||    .|||.||||.|||||.||||||||||||||.| |||| |||
+Phasianus_col   1333 CC-CAGTCCCAACCTGGTGATCAGTGATGAGGATGACCTTG-AGCAGGTG   1380
+
+Homo_sapiens    1438 CGGCTAGAG-GTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGG   1486
+                     |.|.| ||| ||.|||||.||.||..|.|||||.||||   |||.||   
+Phasianus_col   1381 CAGGT-GAGTGTTGTGGCAGGACTGAGACATGGCCACC---TCACTC---   1423
+
+Homo_sapiens    1487 GTGCT---------TCCAGTGGCAGCT-CTGCTCC-------CAAGAGCT   1519
+                      ||||         ||||   |||.|| |.|||||       ||    ||
+Phasianus_col   1424 -TGCTGGAGGACACTCCA---GCATCTGCCGCTCCTCGTAAACA----CT   1465
+
+Homo_sapiens    1520 TTACAGTGGCTGAGCTGGCAGCCGGCCAGGTGGTCTACCAGCATGATGAC   1569
+                     |.||.|||||||||||||||||.||||.|||..|.|||||||||||||.|
+Phasianus_col   1466 TCACGGTGGCTGAGCTGGCAGCAGGCCGGGTCATTTACCAGCATGATGGC   1515
+
+Homo_sapiens    1570 AGAGACGGCT-CGCTGAGCGACAACCTGGTGCTTCGCATGGTGGATGGAG   1618
+                     ||.|| |.|| |.||.||.||||||.|||||||.||..|||.||||||.|
+Phasianus_col   1516 AGTGA-GTCTCCACTCAGTGACAACTTGGTGCTGCGGCTGGAGGATGGTG   1564
+
+Homo_sapiens    1619 GAGGCAGGCACCAGGTACAGTTTCTGTTCCCCATCACCTTAGTGCCTGTG   1668
+                     |...|.|.|||||.||..||||.||.|||||.||||||.|.|||||....
+Phasianus_col   1565 GCTCCCGACACCATGTTGAGTTCCTTTTCCCAATCACCCTGGTGCCCACT   1614
+
+Homo_sapiens    1669 GATGACCAGCCACCTGTTCTCAATGCCAACACGGGGCTGACACTGGCAGA   1718
+                     ||.|||||||||||..|.||||||||.||.||.||||||.|..|.||.||
+Phasianus_col   1615 GACGACCAGCCACCCCTACTCAATGCTAATACAGGGCTGGCTATAGCTGA   1664
+
+Homo_sapiens    1719 GGGTGAAACAGTGCCCATCCTGCCCCT--TTCCCTGAGTGCAACTGACAT   1766
+                     |||||||||||||||||||  .||.||  |.|.||.|||||.||||||||
+Phasianus_col   1665 GGGTGAAACAGTGCCCATC--ACCACTCGTGCTCTTAGTGCTACTGACAT   1712
+
+Homo_sapiens    1767 GGATTCAGATGATTCTCTGCTGCTTTTTGTGC----TGGAGTC--ACCCT   1810
+                     .||.|||.|.|||.|..|.||||||||    |    |||||||  .||| 
+Phasianus_col   1713 TGACTCACAGGATGCCATCCTGCTTTT----CACAGTGGAGTCTGGCCC-   1757
+
+Homo_sapiens    1811 TCTTAACTACGGGGCATCTGCTTCTCCGCCAAACTCACCCTCCCC-----   1855
+                      |..|.||   ||.||.||.||.|||||.|||.|.||.||.||.|     
+Phasianus_col   1758 -CAGAGCT---GGCCAACTCCTCCTCCGGCAAGCCCAGCCACCTCCTGGT   1803
+
+Homo_sapiens    1856 ----ATGAGAAGCAGGAACTTCTCAGAGGCCTT----TGGAGGAAGG---   1894
+                         |.|||.||.|.|||..|    ||||.|||    ||||||||||   
+Phasianus_col   1804 TGGGAAGAGGAGGAAGAAGAT----GAGGGCTTTTCCTGGAGGAAGGTGC   1849
+
+Homo_sapiens    1895 -------AGGGGG--------CATTTTATGAGCGAA--CAGTGACAGAGT   1927
+                            ||.|||        .|.|.|||||  |||  ||||||.|||||
+Phasianus_col   1850 CAGGTATAGTGGGGAGCTCGCTAATCTATGA--GAAGCCAGTGAGAGAGT   1897
+
+Homo_sapiens    1928 GGCAGCAGCAGGACAT-----AACAGAGGGCAGGCTGT-TCTAT----AG   1967
+                     |||.||||||||||||     |    |||||     || |||||    | 
+Phasianus_col   1898 GGCTGCAGCAGGACATTGTGGA----AGGGC-----GTCTCTATTACCA-   1937
+
+Homo_sapiens    1968 ACACTCTGGGCCCCATAGTCCTGGGCC------AGTCACAGACCAGTTCA   2011
+                     .||||.||||||.||.||.|||||.||      .||....|||||.||..
+Phasianus_col   1938 CCACTTTGGGCCACACAGCCCTGGCCCTGGGGTTGTGTTGGACCAATTTG   1987
+
+Homo_sapiens    2012 CATTTAGAGTCCAGGATAACCATGACCCTCCTAATCAGTCCGGGCTACAG   2061
+                     ..|||||.|||||.|||.||.|||||||.||.||.|..||.||.|.||||
+Phasianus_col   1988 TCTTTAGGGTCCAAGATGACAATGACCCGCCCAACCGCTCTGGACCACAG   2037
+
+Homo_sapiens    2062 CGGTTTGTGATTCGTATCCATCCTGTGGA-----TCGCCTCCCTCCGGAG   2106
+                     ...||||||||.||..|.||||||||.||     |.|||     ||.|||
+Phasianus_col   2038 ACCTTTGTGATCCGGGTGCATCCTGTAGACAGATTAGCC-----CCAGAG   2082
+
+Homo_sapiens    2107 CTG------GGCAGTGGCTGTCCCCTTCGTATGGTG--GTACAGGAATCC   2148
+                     |||      .|||||.|| .|.|.|||..|| |.||  |.||||      
+Phasianus_col   2083 CTGCACAGCAGCAGTAGC-CTACACTTAATA-GTTGCAGAACAG------   2124
+
+Homo_sapiens    2149 CAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGACAC   2198
+                     |||.|.||.||.|||.|||.||||....||.|.|||||.||||.|||..|
+Phasianus_col   2125 CAGGTGACTCCCCTGCGGAGGAAGCACTTGTGTTACACAGACCAGGATTC   2174
+
+Homo_sapiens    2199 AGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACAG   2248
+                     ||..|||||.||.||.||.||||||||.||.|||||||||||.|||||.|
+Phasianus_col   2175 AGGGGACCGTGAGCTCCGCTACACAGTAACCCAGCCCCCCACTGACACTG   2224
+
+Homo_sapiens    2249 ACGAAAATCA-CCTGCCAG-------------CCCCACTGGGTACCTTGG   2284
+                     ||...||.|| ||| ||||             ||.|..|||||.|||| |
+Phasianus_col   2225 ACTCTAACCATCCT-CCAGATGAGCATGGAGCCCGCCTTGGGTCCCTT-G   2272
+
+Homo_sapiens    2285 TCTTGACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAG   2334
+                     |..|||||||..|.|.|||.||.|.|||.|||||.|||||.|||||||||
+Phasianus_col   2273 TGCTGACTGAAGATCACTCTGTGGAGGTTACCCACTTTACACAAGCCCAG   2322
+
+Homo_sapiens    2335 ATCAACCATCATAAAATTGCTTACAGACCCCC---GGGTCAAGAACTGGG   2381
+                     |||||.|||||.||.||..|.|||.|.|||||   ||   ||||.|||||
+Phasianus_col   2323 ATCAATCATCACAAGATCTCCTACCGCCCCCCCCAGG---AAGAGCTGGG   2369
+
+Homo_sapiens    2382 CGTGGCTACTC----GAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGA   2427
+                     .||||||.|||    .|.|    |||||.||.|.|||.||||||||...|
+Phasianus_col   2370 AGTGGCTCCTCATTTAATT----CAGTTTCACTACCAAGTGGAAGATGCA   2415
+
+Homo_sapiens    2428 GCTGGGAATGTGGCTCCA-GGTACCTTTACCCTTTACTTGCATCCCGTGG   2476
+                     |||||.||||..|| |.| ||.||.||.|||.|.|||.||||.||.||||
+Phasianus_col   2416 GCTGGCAATGCAGC-CGAGGGGACTTTCACCATCTACCTGCAACCTGTGG   2464
+
+Homo_sapiens    2477 ACAACCAGCCACCTGAGATC-CTCAACACCGGCTTCACTATTCAGGAGAA   2525
+                     |.||||||||.|||||.||| || |||||.|||||..||.|.|..|||  
+Phasianus_col   2465 ATAACCAGCCTCCTGAAATCACT-AACACTGGCTTTGCTTTGCCTGAG--   2511
+
+Homo_sapiens    2526 GG-GTCA-CCACATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGA   2573
+                     || |.|| |||..||||.||....||.|||.||.|.|..|.|||...|||
+Phasianus_col   2512 GGAGGCAGCCATGTCCTTAGCCCAACTGAGCTGGATGCCAGTGACACAGA   2561
+
+Homo_sapiens    2574 CACTGATGTTGCCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATG   2623
+                     |||.||..||||.|||.||...||.|..||.||.|||||.||.....|||
+Phasianus_col   2562 CACAGAGCTTGCTCATCTCCGATTTATCCTGACCCAGGCTCCTCGTTATG   2611
+
+Homo_sapiens    2624 GCCACATG-AGAGTGTCTGG--ACA----GATCCTGCATGTAGGGGGTCT   2666
+                     ||||..|| || .|.|||||  |||    ||||.||      ||.|||..
+Phasianus_col   2612 GCCAGCTGCAG-CTTTCTGGGTACAGTTTGATCTTG------GGAGGTGC   2654
+
+Homo_sapiens    2667 CTTCCACTTGGAGGACATAAAACAGGGCCGAGTTTCCTATGCCCATAATG   2716
+                     |||...|||||||||.||.|.||||||..|.||....||||..||||.||
+Phasianus_col   2655 CTTTGGCTTGGAGGATATCAGACAGGGAAGGGTGGTATATGTACATAGTG   2704
+
+Homo_sapiens    2717 GGGACAAGTCCCTGACTGATAGCTGCTCCTTGGAAGTCAGTGACAGACAT   2766
+                     |.|...||.||...|..||||..|||...||.||.||.|||||..|...|
+Phasianus_col   2705 GAGCTGAGACCAACAGCGATACTTGCAGGTTTGATGTGAGTGATGGGGTT   2754
+
+Homo_sapiens    2767 CATGTGGTGCCCATCACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGA   2816
+                     |||||.|||||||||||..|.|.|||.|||||.|..|||||.||||||||
+Phasianus_col   2755 CATGTTGTGCCCATCACGTTAAAAGTGAATGTGCACCCAGTTGATGATGA   2804
+
+Homo_sapiens    2817 AGTGCCCATACTGAGCCATCCTAC---TGGCACTCTGG---AG-----TC   2855
+                     .||.||  |||        |||||   ||||.| |.||   ||     ||
+Phasianus_col   2805 GGTTCC--TAC--------CCTACGGTTGGCTC-CAGGCACAGTTGGTTC   2843
+
+Homo_sapiens    2856 CTATCTAGATGTCTTAGAAAATGGGGCTACTGAAATCACTGCCAATGTTA   2905
+                     .||.||.||.||..|.||.||.||.|||..||||||||||||.|||||.|
+Phasianus_col   2844 TTACCTGGACGTACTGGAGAACGGTGCTGTTGAAATCACTGCTAATGTAA   2893
+
+Homo_sapiens    2906 TTAAGGGGACCAATGAGGAAACTGATGACTTGATGTTGACTTTCCTCTTG   2955
+                     ||.|.||.||..|||||||.||.|||||||||||||||||||||.|..|.
+Phasianus_col   2894 TTCAAGGTACAGATGAGGATACAGATGACTTGATGTTGACTTTCATTGTA   2943
+
+Homo_sapiens    2956 GAAGATCCACCTTTGTATGGGGAAATCTTGGTCAATGGCATTCCAGCAGA   3005
+                     ||.|||||.|||..|.|||||.|.|||.|||||.|.||..|.||.||.||
+Phasianus_col   2944 GAGGATCCTCCTCAGCATGGGAACATCCTGGTCCAGGGGGTGCCTGCCGA   2993
+
+Homo_sapiens    3006 GCAG-TTTACTCAAAGGGACATCTTGGAGGGCTCTGTTGTATATACCCAC   3054
+                     | || |||.|.||.||.||..|.|||||.||..||||.||.|||.|.|||
+Phasianus_col   2994 G-AGATTTTCCCAGAGAGATGTGTTGGATGGTGCTGTGGTGTATGCTCAC   3042
+
+Homo_sapiens    3055 ACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGGATTCTTTTAACCTGAG   3104
+                     |||.|||||||.||||||||..||||.||||..|||.|.||.|||||.|.
+Phasianus_col   3043 ACCGGTGGTGAAATAGGCCTTCTGCCCAAAGAAGATACCTTCAACCTTAC   3092
+
+Homo_sapiens    3105 TCTGTCAGATATGTCTCAAGAATGGAGAATTGGTGGCAATACTATCCAAG   3154
+                     ..||||.||..|||||.|.|||||||..||..|.||||||..|.|.||||
+Phasianus_col   3093 CTTGTCTGACCTGTCTGAGGAATGGAACATCAGGGGCAATGTTGTTCAAG   3142
+
+Homo_sapiens    3155 GAGTTACTATATGGGTGACCATCCTGCCTGTTGATAGCCAGGCCCCAGAA   3204
+                     ||||..|..|.|.||||||.||.||.|||||.||.|...||||||||||.
+Phasianus_col   3143 GAGTGTCAGTCTTGGTGACTATTCTCCCTGTAGACAATAAGGCCCCAGAG   3192
+
+Homo_sapiens    3205 ATCTTTGTAGGTGAACAGTTGATAGTAATGGAAGGTGATAAAAGTGTTAT   3254
+                     ||.||||||||.||.|||||.|.|||||||||||||||.|||.|||||||
+Phasianus_col   3193 ATTTTTGTAGGGGAGCAGTTCAGAGTAATGGAAGGTGACAAACGTGTTAT   3242
+
+Homo_sapiens    3255 AACATCAGTGCATATAAGTGCTGAAGATGTCG--ACTCCCTGAATGATGA   3302
+                     .||..|.|..|||.||||.|||||||||||.|  |||||  .|.||||||
+Phasianus_col   3243 TACTCCTGCTCATCTAAGGGCTGAAGATGTGGATACTCC--TAGTGATGA   3290
+
+Homo_sapiens    3303 CATCTTGTGCACTATAGTTATTCAGCCTACTTCAGGTTATGTTGAAAACA   3352
+                     .|||.|.|||||.||.|||...||..|.||.||.||.|||||.||.||||
+Phasianus_col   3291 TATCCTCTGCACCATTGTTGCCCAATCCACATCTGGGTATGTAGAGAACA   3340
+
+Homo_sapiens    3353 TTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCATAAGT   3402
+                     |.||||||||.|||||.|||||.|||||.||||||||.||.||.||.|||
+Phasianus_col   3341 TCTCTCCAGCCCCAGGATCTGAAAAATCCAGAGCAGGTATAGCTATTAGT   3390
+
+Homo_sapiens    3403 GCTTTCAACTTGAAAGATCTCAGGCAGGGCCACATAAACTATGTCCAGAG   3452
+                     |||||.|..||||||||.|||.|.||.||.||.||....|||||||||||
+Phasianus_col   3391 GCTTTTACTTTGAAAGACCTCCGTCAAGGGCATATTTTTTATGTCCAGAG   3440
+
+Homo_sapiens    3453 TGTCCATAAAGGGGTGGAACCTGTGGAGGACCGATTTGTATTTCGTTGTT   3502
+                     |.|.||||||||.||.||||||||.||.|||.||||||..||.||.||||
+Phasianus_col   3441 TATACATAAAGGTGTAGAACCTGTTGAAGACAGATTTGCTTTCCGCTGTT   3490
+
+Homo_sapiens    3503 CTGATGGCATTAACTTTTCAGAGAGACA-GTTCTTCCCCATTGTAATCAT   3551
+                     |.|||||||||||||||||..|.||.|| ||| |||||.|||||.||.|.
+Phasianus_col   3491 CGGATGGCATTAACTTTTCCCAAAGGCACGTT-TTCCCTATTGTCATTAA   3539
+
+Homo_sapiens    3552 TCCCACCAATGATGAACAGCCAGAGATGTTTATGAGAGAATTTATGGTGA   3601
+                     .||.|..|||||||||.||||.||.||.|||.|..||||.|||.|.||||
+Phasianus_col   3540 GCCAATGAATGATGAAGAGCCTGAAATCTTTCTACGAGAGTTTGTTGTGA   3589
+
+Homo_sapiens    3602 TGGAAGGCATGAGTCTGGTAATTGATACACCCATTCTCAATGCTGCTGAT   3651
+                     |||||||||||||.|||||.||||||||.||.||.||||||||...||||
+Phasianus_col   3590 TGGAAGGCATGAGCCTGGTTATTGATACCCCTATCCTCAATGCAATTGAT   3639
+
+Homo_sapiens    3652 GCTGATGTTCCCCTG--GATGATTTAACTTTCACTATTACCCAATTCCCC   3699
+                     |..||..|  |||||  |||||.||||..||.||.||.|||....|.|||
+Phasianus_col   3640 GGAGACAT--CCCTGCCGATGAGTTAATATTTACAATCACCAGGCTTCCC   3687
+
+Homo_sapiens    3700 ACTCATGGTCACATCATGAATCAGCTGATAAATGGCACGGTTTTGGTCGA   3749
+                     |..|||||.|||||..||||.||||||.|.|||||.||.||..|.|..||
+Phasianus_col   3688 AGACATGGCCACATTGTGAACCAGCTGGTTAATGGAACTGTCCTAGCGGA   3737
+
+Homo_sapiens    3750 AAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCATTATTTATGAGC   3799
+                     .||||||||||||||||||||.|.||||||.||||.|||..|.|||||.|
+Phasianus_col   3738 GAGCTTCACCTTGGATCAGATAACAGAGAGCTCCAACATACTCTATGAAC   3787
+
+Homo_sapiens    3800 ATGATGACTCCGAGACCCAG-GAAGACAGTTTTGTGATTAAACTAACAGA   3848
+                     ||||||||||.|| |.|.|| ||.||||.|||||...|.|||||..||||
+Phasianus_col   3788 ATGATGACTCTGA-AACAAGAGAGGACAATTTTGAAGTGAAACTCTCAGA   3836
+
+Homo_sapiens    3849 TGGGAAGCA---CTCTGTGGAAAAGACGGTCCTCATTATAGTTATCCCTG   3895
+                     |||.||.||   |.|.|||   ||.|||.|..|||||||.|||||.||||
+Phasianus_col   3837 TGGTAAACATACCACAGTG---AAAACGATATTCATTATGGTTATTCCTG   3883
+
+Homo_sapiens    3896 TTGATGATGAGACGCCCAGAATGACTATCAATAATGGACTAGAAATAGAA   3945
+                     |.|||||||||||.|||||||||.|.||||||.||||..|.||.||.|||
+Phasianus_col   3884 TAGATGATGAGACACCCAGAATGGCCATCAATGATGGTTTGGAGATTGAA   3933
+
+Homo_sapiens    3946 ATTGGGGATACCAAGATTATCAACAACAAAATATTAATGGCAACAGATTT   3995
+                     .|.|||||.||.|.||.|||..|.||||.||||||.|..||.||.||..|
+Phasianus_col   3934 GTAGGGGAAACTAGGACTATTCATAACAGAATATTGAAAGCTACTGACCT   3983
+
+Homo_sapiens    3996 AGATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGGGCCAGGAC   4045
+                     ||||||.|||||||||.|.|||...||||||||..|.|||||.|||||||
+Phasianus_col   3984 AGATTCTGAAGACAAAACCTTGACATATATTATAAGATATGGACCAGGAC   4033
+
+Homo_sapiens    4046 ATGGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAATATCACA   4095
+                     |.||..|.|||||||||..|||||||.|.||||...||||.||||||||.
+Phasianus_col   4034 AAGGTCTCTTACAGAGATTAAAACCTTCAGGTGGAGTTGAGAATATCACT   4083
+
+Homo_sapiens    4096 CTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAATTCAGTA   4145
+                     |||||.|||||.||.||.||.||||||||.||.||.||.||||||||.||
+Phasianus_col   4084 CTGGGGATGAACTTCACTCAAGATGAAGTGGATAGGAATTTAATTCAATA   4133
+
+Homo_sapiens    4146 TGTCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTTGATGTGA   4195
+                     ..|.||.||.||.|.|||.||..||||.||.||.||.|||||||||||||
+Phasianus_col   4134 CATGCACTTTGGCCGAGAAGGTGTTCGTGATCTTATCAAATTTGATGTGA   4183
+
+Homo_sapiens    4196 CTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTCCATCGGG   4245
+                     |.||||||||||||||.|||||.||.||.|||||||||||..|..|.||.
+Phasianus_col   4184 CAGATGGAATAAATCCTCTCATTGACCGCTACTTTTATGTCACAGTAGGT   4233
+
+Homo_sapiens    4246 AGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAA   4295
+                     ||||||||.||.||||||||.|||||.||.||.||.|||||.||.|||||
+Phasianus_col   4234 AGCATTGATATAGTCTTCCCAGATGTAATCAGCAAAGGAGTTTCTTTGAA   4283
+
+Homo_sapiens    4296 AGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACTAGTGACT   4345
+                     .|||||.||.||.||.||.||||||||.||.||.||.|||||.|||||||
+Phasianus_col   4284 GGAAGGAGGGAAGGTAACCCTTACAACTGATCTGCTTAGCACCAGTGACT   4333
+
+Homo_sapiens    4346 TGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGCTCCCATG   4395
+                     ||||.|||||.|||||.|||.|.|||||.||.||.|||||.||.||..|.
+Phasianus_col   4334 TGAATAGTCCAGATGAGAACCTAGTTTTCACTATTACCAGAGCACCTGTT   4383
+
+Homo_sapiens    4396 CGAGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCACGTCTTT   4445
+                     ||.|||||.||.||||||||.|||||.|||||.|||.|||||.|..||||
+Phasianus_col   4384 CGTGGTCATCTTGAATGCACAGATCAACCTGGGGTGCCCATCTCCACTTT   4433
+
+Homo_sapiens    4446 CACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCACACAGCTG   4495
+                     .||||||||.|.|.|.||.||.||.||||||||.|||||.||.||..|.|
+Phasianus_col   4434 TACTCAGCTCCTATTAGCAGGCAATAAAATCTATTACATTCATACTTCAG   4483
+
+Homo_sapiens    4496 ATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGATGGACGT   4545
+                     |.|||||.||||||||||||||.|||||||||.|.||.||.|||||...|
+Phasianus_col   4484 AAGATGAGGTGAAAATGGACAGCTTTGAGTTTGAGGTGACTGATGGTTAT   4533
+
+Homo_sapiens    4546 AACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGGACAATAA   4595
+                     ||||||||.|||||.||.|||.|.||.||.||.||.||||||||||||||
+Phasianus_col   4534 AACCCTGTGTTTCGTACTTTCAGAATTTCTATCAGTGATGTGGACAATAA   4583
+
+Homo_sapiens    4596 AAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACA   4645
+                     .||.||..|.|||||.|||||.||.|||||.||.|.|||||.||||.|||
+Phasianus_col   4584 GAAACCTATTGTCACAATCCATAACCTGGTGGTGACTGAAAATGAATACA   4633
+
+Homo_sapiens    4646 AGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATACTCCTGA-   4694
+                     |.||.||.||.||.|||||.||.|||||.||||||||||||||.||||| 
+Phasianus_col   4634 AACTAATAACCCCATTTGAACTGACTGTAGAAGACAGAGATACACCTGAT   4683
+
+Homo_sapiens    4695 -CAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCCATCTC   4743
+                      ||  .|.||.|||||....|||||.||..|.||..||||.||.||..||
+Phasianus_col   4684 CCA--TTGCTAAAATTTGTCATCACTCAAATACCAGTTCACGGTCAGATC   4731
+
+Homo_sapiens    4744 CTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGAA   4793
+                     .|.|||||.||..|||.|||.||||.....||.||.||.|||||..|.||
+Phasianus_col   4732 ATGTTCAATAACTCCAAACCAGTCACCACCTTCACTAAACAAGATCTCAA   4781
+
+Homo_sapiens    4794 TGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGATA   4843
+                     |||.||..|.||||||||||.|||.||||||||.||.|||..|||.||.|
+Phasianus_col   4782 TGAGAATCTGATCAGCTACAGACACGATGGCACAGAATCAGTTGAGGACA   4831
+
+Homo_sapiens    4844 GCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTTT   4893
+                     |||||||.|||||.||.||.||||||||.||..|.||.||||||||.||.
+Phasianus_col   4832 GCTTCTCTTTCACTGTTACAGATGGCACTCACGCTGATTTCTATGTCTTC   4881
+
+Homo_sapiens    4894 CCTGATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGATCCAGGT   4943
+                     |||.||||.|||||||||||.|||.|.||.|||...||||||||.|||.|
+Phasianus_col   4882 CCTAATACTGTGTTTGAAACGAGGCGGCCTCAAACTATGAAGATTCAGAT   4931
+
+Homo_sapiens    4944 CTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCT   4993
+                     ..|||||||.|||||||||||.||.|||||.|.|...||.||.||.| ||
+Phasianus_col   4932 AATGGCTGTGGACAACAGTGTGCCTCAAATTGTAACCAACAAAGGTG-CT   4980
+
+Homo_sapiens    4994 C-TACACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCACAAG   5042
+                     | .||.||.||.|.|||.|||||.||.|||.|.|||||..||||.||.|.
+Phasianus_col   4981 CAGACTCTCCGTATTCTGGCCACAGGTCACATAGGGTTTCTGATTACCAA   5030
+
+Homo_sapiens    5043 CAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCT-TAGA   5091
+                     .|||.|..|.||||||||.|||||.|||||.|||||.|||.|||| .|||
+Phasianus_col   5031 TAAAGTGCTCAAAGTGGAAGACAGGGACAGTTTACATATTGCTCTGAAGA   5080
+
+Homo_sapiens    5092 T--TTATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGGAC   5139
+                     |  ..|||   |||||||..||||..|||||||..||..||.||||||..
+Phasianus_col   5081 TCAGAATC---ACAGAGGGTCCTCGTCATGGATTCCTGATCCACCTGGGG   5127
+
+Homo_sapiens    5140 AAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACAT   5189
+                     ||.||||||||.|||||||..||||||||.||||||||.||||||||.||
+Phasianus_col   5128 AAGGGCAACCATAGCATCAGCCAGTTCACCCAAGCTGATATTGATGATAT   5177
+
+Homo_sapiens    5190 GAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATGT   5239
+                     |||.|||||||||||.|||.|||..||.|..||||||||.|||||.||.|
+Phasianus_col   5178 GAAGATATGCTATGTTTTACGAGCGGGTGACAATGCCACCAGTGACATTT   5227
+
+Homo_sapiens    5240 TCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAAT   5289
+                     |..|.||..||||||||||..||||.||.||.|||.|.|.|.|.||..||
+Phasianus_col   5228 TTCACTTCACAGTTGAAGACAGTGGAGGCAATAAGCTGAAGAATCAACAT   5277
+
+Homo_sapiens    5290 TTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGGT   5339
+                     ||||||||.||.|||||||||||.|||||.|||.||||||||||..|.||
+Phasianus_col   5278 TTTCGTCTAAACTGGGCATGGATTTCCTTAGAACAGGAATATTATTTAGT   5327
+
+Homo_sapiens    5340 CAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTACT   5389
+                     .|||||.||.|||||||.|||.|||||..|.||||||||.|||||||||.
+Phasianus_col   5328 AAATGAAGATTCCAAATATCTTGATGTCATCCTTAAACGGAGAGGTTACC   5377
+
+Homo_sapiens    5390 TGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGAA   5439
+                     |.||||||||||||||||||||||||.||||.|||||..|.|||||..|.
+Phasianus_col   5378 TTGGAGAAACTTCTTTTATAAGTATTAGCACCAGAGATGGTACTGCCAAG   5427
+
+Homo_sapiens    5440 AAAGACAAAGACTTCA-AGGGCAAAGCACAGAAACAAGTGCAGTTCAACC   5488
+                     |||||.|||||||||| |||| |||||.|||||.||.||||||||.||.|
+Phasianus_col   5428 AAAGATAAAGACTTCAGAGGG-AAAGCCCAGAAGCAGGTGCAGTTTAATC   5476
+
+Homo_sapiens    5489 CAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAG   5538
+                     |.|||||.|||...||.||.||||||||.|||||..||||||||||.||.
+Phasianus_col   5477 CTGGCCAAACCTTAGCTACGTGGCGAGTACGGATTTTGAGTGATGGAGAA   5526
+
+Homo_sapiens    5539 CATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGC   5588
+                     |||||||.||||||..|||||||..|.||.||.||.|||||.||..||||
+Phasianus_col   5527 CATGAGCGGTCTGAGTCCTTTCAAATTGTTCTTTCTGAGCCTGTCATGGC   5576
+
+Homo_sapiens    5589 TGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAG   5638
+                     .|...|||||||.|||.|.||..||||.||.||.||..||||||||||||
+Phasianus_col   5577 AGTTCTGGAATTTCCCTCTGTATCCACAGTGGAAATTATTGATCCAGGAG   5626
+
+Homo_sapiens    5639 ATGAGCCAACTGTGTTTATTCCCCAGTC--CAAATACTCCGTTGAAGAAG   5686
+                     ||||..|||||||.||||||||.|||||  |..|||||  .|||||||||
+Phasianus_col   5627 ATGAATCAACTGTCTTTATTCCTCAGTCTACCTATACT--ATTGAAGAAG   5674
+
+Homo_sapiens    5687 ATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAG   5736
+                     |||||||||||.||||.|||||..||||.||.||.|||||.|||||||||
+Phasianus_col   5675 ATGTTGGTGAGTTGTTTATTCCAGTCAGAAGAAGTGGAGACGTGAGCCAG   5724
+
+Homo_sapiens    5737 GAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGT   5786
+                     ||..|||||||..|||||||.||.|||||||||||||||||.||.||||.
+Phasianus_col   5725 GAACTGATGGTTATCTGTTACACACAACAAGGAACAGCAACCGGCACTGC   5774
+
+Homo_sapiens    5787 GCCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACC   5836
+                     .||.||.||.|||.|.|||||||||||.||||||||||||||||||||.|
+Phasianus_col   5775 CCCAACCTCTGTGCTTTCTTACTCTGACTACATATCCAGGCCTGAGGATC   5824
+
+Homo_sapiens    5837 ACACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGG   5886
+                     |||.|||.|||.||||.|||||||||||||||||.||.|||...|||||.
+Phasianus_col   5825 ACAACAGCGTTCTCCGTTTTGACAAAGATGAACGAGAAAAAACATGTCGA   5874
+
+Homo_sapiens    5887 ATAGTCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGT   5936
+                     .||||.||.||.|||||.||.|||||.||.||||..||.||||||.||||
+Phasianus_col   5875 GTAGTGATCATAGATGATTCCTTGTATGAAGAGGCTGAGACCTTCGATGT   5924
+
+Homo_sapiens    5937 CCTTCTGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGG   5986
+                     ..|.|||||||||||.|||||.||||||||.||..||||.||..||.|..
+Phasianus_col   5925 TTTGCTGAGCATGCCAATGGGTGGAAGAATTGGTACAGAATTTGCAAGCA   5974
+
+Homo_sapiens    5987 CTCAAGTTACAATCGTTCCTGACAAAGATGATGAACC--CATCTTTTACT   6034
+                     |||.|.||||.||.||.||||||||.|||||||||||  ||  ||.||||
+Phasianus_col   5975 CTCGAATTACCATTGTACCTGACAAGGATGATGAACCAGCA--TTCTACT   6022
+
+Homo_sapiens    6035 TCGGTGATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTG   6084
+                     |.||..|||..|||||||.|||.||||||||||||||||||||.||.||.
+Phasianus_col   6023 TTGGGAATGATGAATACTATGTTGATGAGAGTGCTGGCTATGTTGATGTA   6072
+
+Homo_sapiens    6085 CAGGTGTGGAGAACGGGCACTGACCTGTCCAA----GTCTTCTAGTGTCA   6130
+                     |..||.|||||.||.||.|||||.|||||.||    |.||.|    ||.|
+Phasianus_col   6073 CGTGTTTGGAGGACAGGAACTGATCTGTCTAAAGCTGCCTCC----GTTA   6118
+
+Homo_sapiens    6131 CAGTGAGGTCTCGGAAAAC-------AGATCCTCCCTCTGCAGATGCTGG   6173
+                     |||||||||||||.|||.|       |||       .|||||||.|||||
+Phasianus_col   6119 CAGTGAGGTCTCGCAAATCTGAATCAAGA-------ACTGCAGAAGCTGG   6161
+
+Homo_sapiens    6174 AACAGACTATGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCA   6223
+                     |..|||.|||||.||.|||||.||||||||.||||||||.||||||||||
+Phasianus_col   6162 AGTAGATTATGTAGGTATCAGTCGTAATTTGGATTTTGCCCCTGGAGTCA   6211
+
+Homo_sapiens    6224 ACATGCAGCCTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCG   6273
+                     ..||||||.|..|||||||.||.|||||||||||.|||||||||||.|.|
+Phasianus_col   6212 CTATGCAGACATTTCGTGTGGTAATTCTGGATGATCTTGGACAACCTGTG   6261
+
+Homo_sapiens    6274 CTGGAGGGAATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGC   6323
+                     .|.||.||||.||||||.|||||.||.|||||..|.|||||||||||.||
+Phasianus_col   6262 TTAGAAGGAACTGAGAAGTTTGAGCTTGTGCTAAGAATGCCTATGAATGC   6311
+
+Homo_sapiens    6324 AGCCCTTGGCGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCT   6373
+                     .||||||||.||.||||||||.||.||..|.|.|||.||||||||.||||
+Phasianus_col   6312 TGCCCTTGGAGAACCCAGCAAGGCTACCATCTTCATCAATGACTCAGTCT   6361
+
+Homo_sapiens    6374 CCGATTTGCCTAAGATGCAATTCAAAGAAC--GAATATATACTGGCAGCG   6421
+                     |.|||||||||||||||||.||.|||||||  |.||||.||  |.||..|
+Phasianus_col   6362 CTGATTTGCCTAAGATGCAGTTTAAAGAACCTGTATATGTA--GTCAATG   6409
+
+Homo_sapiens    6422 AAAGTGATGGGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCCAG   6471
+                     |||.||||||.|||||...|.|.|||||..|.||||.|||.|||.||||.
+Phasianus_col   6410 AAAATGATGGACAGATTTCTGCCATGATATACAGGAGTGGAGATATCCAA   6459
+
+Homo_sapiens    6472 TACAGATCTTCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGAT   6521
+                     ||||.|||..|.||||||||.||.||..||||.||.||.||.|||||.||
+Phasianus_col   6460 TACACATCAACTGTGAGATGTTATACAAGGCAAGGTTCAGCTCAGGTAAT   6509
+
+Homo_sapiens    6522 GATGGACTTTGAAGAACGCCCAAACACTGATACCTCCATCATCACATTCC   6571
+                     |||.||||||||||||||.||.||.|||||||..||||||||||||||||
+Phasianus_col   6510 GATCGACTTTGAAGAACGTCCTAATACTGATAGTTCCATCATCACATTCC   6559
+
+Homo_sapiens    6572 TCCCTGGTGAGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATGTG   6621
+                     |.||||||||||||||.|||||.||||..||.|.|||.|||||.||    
+Phasianus_col   6560 TTCCTGGTGAGACAGAGAAGCCTTGCACACTGGTGCTTATGGATGA----   6605
+
+Homo_sapiens    6622 CTCT----ATGAGGAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCAC   6667
+                     |.||    ||||.||.|..||.||.||.||.|||||.||.|||||||||.
+Phasianus_col   6606 CCCTTTTCATGAAGAAGATGAAGAACTACGTCTGGTTCTTGGCACTCCAA   6655
+
+Homo_sapiens    6668 AAAGCAACTCTCCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTC   6717
+                     .|||..|.||..||||.||.||..|..||||||||||||||||.||.|||
+Phasianus_col   6656 GAAGTGATTCATCCTTCGGTGCCTCTATTGGTGAACAAAATGAGACCCTC   6705
+
+Homo_sapiens    6718 ATAAGGATCCGAGATGATGCTGATAAGACTGTTATTAAATTTGGAGAAAC   6767
+                     ||||.|||.|||||||||||.||.|||.||.|||||||||||||.||.||
+Phasianus_col   6706 ATAAAGATTCGAGATGATGCAGACAAGGCTATTATTAAATTTGGTGAGAC   6755
+
+Homo_sapiens    6768 CAAATTTAGTGTCACTGAACCCAAAGAAC-CTGGA-GAGTCGGTGGTTAT   6815
+                     ||||||||||||.|.|||| ||||||.|| |..|| .||| .|..|||.|
+Phasianus_col   6756 CAAATTTAGTGTGAGTGAA-CCAAAGGACACAAGACAAGT-AGCAGTTGT   6803
+
+Homo_sapiens    6816 AAGAATTCCAGTGATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGA   6865
+                     ||.|||.|||||||||||.|..||||||||.||.||||||||..||||||
+Phasianus_col   6804 AAAAATCCCAGTGATTCGTCTGGGAGACACATCCAAGGTTTCTGTTGTGA   6853
+
+Homo_sapiens    6866 GAGTCCACACCAAGGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCT   6915
+                     ||||.||.||.||||||||.||.||.|..||||||||.|||||.||||||
+Phasianus_col   6854 GAGTTCATACAAAGGATGGATCTGCTATTTCTGGAGAGGACTATCACCCT   6903
+
+Homo_sapiens    6916 GTGTCAGAAGAAATTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGA   6965
+                     .||||||||||||||||.||||||||.||.|||||.||||||.|.||.||
+Phasianus_col   6904 ATGTCAGAAGAAATTGAATTTAAGGAGGGTGAAACACAGCACTTTGTGGA   6953
+
+Homo_sapiens    6966 AATCGAAGTTACCTTTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTG   7015
+                     .||.||||||..||||||.||.||.||.|||||||||||.||||||||||
+Phasianus_col   6954 GATTGAAGTTCTCTTTGATGGAGTTAGGGAGATGAGAGAAGCCTTCACTG   7003
+
+Homo_sapiens    7016 TTCACCTAAAACCTGATGAAAATATGATAGCAGAGATGCAGTTGACGAAA   7065
+                     |||||||.|||||||||||.||.|||.|.||.||.||.|||....|.||.
+Phasianus_col   7004 TTCACCTGAAACCTGATGAGAACATGGTTGCTGAAATACAGACAGCCAAG   7053
+
+Homo_sapiens    7066 GCCATTGTGTACATAGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCC   7115
+                     ||||||||.|||||.||||||||||.||||||||||||||||||.|||||
+Phasianus_col   7054 GCCATTGTTTACATTGAAGAAATGAACAGCATGGCAGATGTCACCTTTCC   7103
+
+Homo_sapiens    7116 TTCTGTCCCTCAAATTGTATCCCTGTTGATGTATGACGACACTTCCAAAG   7165
+                     |||||||||||||.|||.||||||.|||||.|||||.||||||||.|.||
+Phasianus_col   7104 TTCTGTCCCTCAAGTTGCATCCCTTTTGATATATGATGACACTTCTAGAG   7153
+
+Homo_sapiens    7166 CTAAGGAGAGTGCTGAACC---CATGT--CTGGCTATCCTGTCATCTGTA   7210
+                     |.||.||     |.|||||   |.|||  |||||||||||||||||||||
+Phasianus_col   7154 CCAAAGA-----CAGAACCAGTCCTGTAGCTGGCTATCCTGTCATCTGTA   7198
+
+Homo_sapiens    7211 TCACAGCTTGCAACCCCAAATATTCAGACTACGATAAAACAGGCTCTATC   7260
+                     |.|||||||||||.||.||||||..|||||..|||||.||.||.||.||.
+Phasianus_col   7199 TTACAGCTTGCAATCCTAAATATGAAGACTTTGATAAGACTGGTTCGATA   7248
+
+Homo_sapiens    7261 TGTGCAAGTGAGAACATCAATGACACTTTGACGCGGTACCGGTGGCTGAT   7310
+                     |||||.|||||.|||||||||.|.|||.||||....||.||.|||||..|
+Phasianus_col   7249 TGTGCTAGTGAAAACATCAATAATACTCTGACAAAATATCGATGGCTTGT   7298
+
+Homo_sapiens    7311 TAGTGCACCTGCGGGCCCTGACGGTGTGACCAGCCCTATGAGAGAAGTGG   7360
+                     .||||||||..|.||||||||.|||||.||.|||||.||||..||.||.|
+Phasianus_col   7299 GAGTGCACCCACTGGCCCTGATGGTGTTACTAGCCCCATGAAGGAGGTTG   7348
+
+Homo_sapiens    7361 ACTTCGACACCTTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATA   7410
+                     |||||||.|||||.||.||.||||||||||||.||||||||||||||||.
+Phasianus_col   7349 ACTTCGATACCTTCTTCACTTCATCCAAGATGATCACACTGGACTCCATT   7398
+
+Homo_sapiens    7411 TACTTTCAGCCTGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACAC   7460
+                     ||||||||..|||||||.||.||.||.||.|||||||||||||||||..|
+Phasianus_col   7399 TACTTTCAAGCTGGCTCTCGTGTCCAATGTGCAGCTCGTGCTGTGAATTC   7448
+
+Homo_sapiens    7461 CAATGGGGATGAAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCA   7510
+                     ..|||||.||||.||.||.||.||.|||||.|||||||||||.||.||||
+Phasianus_col   7449 AGATGGGAATGAGGGTCTTGAACTTATGAGTCCTATTGTAACTATAAGCA   7498
+
+Homo_sapiens    7511 GAGAAGAAGGTCTTTGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAG   7560
+                     .|..||||||||||||||||||.|||||..||||.||.|||||||||||.
+Phasianus_col   7499 CATCAGAAGGTCTTTGTCAGCCTCGTGTGTCTGGAGTAGTTGGAGCAGAA   7548
+
+Homo_sapiens    7561 CCGTTCTCAGCTAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACAC   7610
+                     ||.|||||.||.|||.||||||||||||||||.||.|||.|||..||..|
+Phasianus_col   7549 CCATTCTCTGCCAAACTGCGCTACACAGGCCCAGAAGATCCAGCTTATGC   7598
+
+Homo_sapiens    7611 AAACCTTATCAAGCTCACTGTCACAATGCCACACATAGATGGCATGCTCC   7660
+                     .||.||.|||||.||.||.||||||||||||||.||.|||||.|||||.|
+Phasianus_col   7599 CAATCTCATCAAACTGACAGTCACAATGCCACATATTGATGGTATGCTGC   7648
+
+Homo_sapiens    7661 CCGTGATCTCCACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCT   7710
+                     |.||.||.||.||.||||||||.|||||.||||||||.||.||.||||||
+Phasianus_col   7649 CTGTTATTTCTACAAGAGAGCTCTCCAATTTTGAGCTGACACTTAGCCCT   7698
+
+Homo_sapiens    7711 GATGGCACAAGAGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATAC   7760
+                     |||||.||.||||||||||||||.||||||||||||.|.||||||||.||
+Phasianus_col   7699 GATGGAACTAGAGTTGGAAACCATAAGTGCTCCAACTTGCTGGATTACAC   7748
+
+Homo_sapiens    7761 TGAAGTGAAGACTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAG   7810
+                     .|||||||||||.||..|||||||||||||||||||||||||||||.||.
+Phasianus_col   7749 AGAAGTGAAGACCCACCATGGTTTCTTGACTGATGCTACCAAAAATTCAA   7798
+
+Homo_sapiens    7811 AAATAATTGGAGAGA-CATATCCTTACCAGTACAGCTTGTCC----ATCA   7855
+                     |..|.|||||||||| ||| |||.|||||.||||    ||||    ||||
+Phasianus_col   7799 ATGTGATTGGAGAGACCAT-TCCCTACCAATACA----GTCCAGCAATCA   7843
+
+Homo_sapiens    7856 GAGGTTCCACTACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCTGT   7905
+                     ||||.|.||.||||||.||.||||||||.||.|||||.||.||.||||||
+Phasianus_col   7844 GAGGCTTCAGTACCTTACGATTCTACCGAAATCTGAATCTGGAAGCCTGT   7893
+
+Homo_sapiens    7906 TTATGGGAGTTCGTTAGCTACTATGACATGTCAGAACTCCTTGCTGACTG   7955
+                     |||||||||||.||||||||.|||||||||||.|||||.||..|.||.||
+Phasianus_col   7894 TTATGGGAGTTTGTTAGCTATTATGACATGTCCGAACTGCTCACAGATTG   7943
+
+Homo_sapiens    7956 TGGTGGCACCATTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGTCCT   8005
+                     |||.|||||||||||.||||||||||||||.||.||||||||.||.||||
+Phasianus_col   7944 TGGAGGCACCATTGGGACAGATGGACAGGTTCTCAACCTAGTACAATCCT   7993
+
+Homo_sapiens    8006 ATGTGACCCTTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCCCCC   8055
+                     ||||.||.||..|.|||||..|||||||.|||||.||.||.||.||.||.
+Phasianus_col   7994 ATGTCACACTGAGGGTCCCCTTGTATGTCTCCTATGTTTTTCACTCTCCG   8043
+
+Homo_sapiens    8056 GTGGGGGTAGGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTCT   8105
+                     |||||.||||||||.||||||||.||||||.||.||||.|||||.||.||
+Phasianus_col   8044 GTGGGAGTAGGAGGTTGGCAGCACTTTGACCTGCAGTCTGAGCTCCGGCT   8093
+
+Homo_sapiens    8106 AACTTTTGTGTACGACACCGCCATCTTGTGGAATGATGGAATTGGCAGCC   8155
+                     .|||||||||||.|||||.||||||.|||||||.||.||.||.||.||||
+Phasianus_col   8094 GACTTTTGTGTATGACACTGCCATCCTGTGGAAGGACGGCATCGGGAGCC   8143
+
+Homo_sapiens    8156 CCCCAGAGGCTGAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGCATC   8205
+                     |.||||||||.||.||.|||||||||||.||.|||||||||||||||||.
+Phasianus_col   8144 CACCAGAGGCAGAGCTCCAAGGTTCTCTGTACCCAACCAGCATGCGCATT   8193
+
+Homo_sapiens    8206 GGTGATGAGGGGCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTTCCA   8255
+                     .||||.|||||.|||.|||..||..||||||||||.||.||.|.|||.||
+Phasianus_col   8194 AGTGAAGAGGGACGCCTGGTTGTCAACTTCAAGACTGAAGCACGGTTTCA   8243
+
+Homo_sapiens    8256 TGGCTTATTTGTGCTGTCACATCCCGCATCCTTTACAAGCTCAGTGATCA   8305
+                     .||..|.|||||..||||.||.||.||.||.|.|..||..||..||.|.|
+Phasianus_col   8244 CGGTCTGTTTGTCATGTCCCACCCTGCTTCATCTCTAACTTCCATGGTTA   8293
+
+Homo_sapiens    8306 TGTCAGCTGATCATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGGAGT   8355
+                     |||||||||||||.||..||||||||||...||||.|||||||..|.||.
+Phasianus_col   8294 TGTCAGCTGATCACCCGAGCCTGACATTCAGCCTCAGCCTCATCCGAAGC   8343
+
+Homo_sapiens    8356 GAACCAACCTATAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGACTT   8405
+                     ||.||.||.||.|||||||||||||||||||||||||||||.||.||.||
+Phasianus_col   8344 GAGCCCACGTACAACCAGCCAGTACAGCAGTGGAGCTTTGTTTCAGATTT   8393
+
+Homo_sapiens    8406 TGCCGTACGTGACTACTCAGGGACCTATACTGTGAAGCTGGTGCCATG--   8453
+                     |||.||.||.|||||.||.|||||||||||.||.||||||.|..|.||  
+Phasianus_col   8394 TGCGGTTCGAGACTATTCTGGGACCTATACGGTAAAGCTGATAGCTTGTA   8443
+
+Homo_sapiens    8454 -CACTGCCCCATCACATCAGGAATACCGCCTGCCAGTCACCTGCAACCCC   8502
+                      ||||||.|   |.||||||||.|.|.||||.||.||.|.||||||.||.
+Phasianus_col   8444 CCACTGCTC---CTCATCAGGAGTTCAGCCTACCGGTGATCTGCAATCCT   8490
+
+Homo_sapiens    8503 AGAGAACCTGTCACCTTTGACCTTGACATCCGATTCCAACAGGTCAGTGA   8552
+                     |||||.||..||||.|||||.||.|||||.||||||||.||||||||.||
+Phasianus_col   8491 AGAGAGCCGATCACATTTGATCTGGACATTCGATTCCAGCAGGTCAGCGA   8540
+
+Homo_sapiens    8553 TCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAAATGTACCTGCTCTCTA   8602
+                     .|||||||||||||||||.||||||||||||||.||||.|||.|||||.|
+Phasianus_col   8541 CCCAGTGGCTGCTGAGTTCAGCTTGAACACCCAGATGTTCCTTCTCTCCA   8590
+
+Homo_sapiens    8603 AGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGATTCGGGCAAGAGAGT   8652
+                     |.||||..||||||.||||.||||||||.|||||.||.||.|||||.|||
+Phasianus_col   8591 AAAAGACACTCTGGCTGTCGGATGGATCAATGGGCTTTGGACAAGAAAGT   8640
+
+Homo_sapiens    8653 GATGTTGCTTTTGCAGAAGGTGATATAATTTATGGTCGTGTCATGGTGGA   8702
+                     |||||||||||..|||||||||||.|.|||||||||||.||.||||||||
+Phasianus_col   8641 GATGTTGCTTTCTCAGAAGGTGATGTCATTTATGGTCGAGTGATGGTGGA   8690
+
+Homo_sapiens    8703 TCCTGTCCAGAATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAGGTGT   8752
+                     |||.||.||.|||||||||||.|||||.|||||.||||||||||||||.|
+Phasianus_col   8691 TCCAGTACAAAATCTGGGTGATTCCTTCTACTGTAGCATTGAGAAGGTTT   8740
+
+Homo_sapiens    8753 TTCTATGCACTGGAGCTGATGGCTATGTTCCCAAGTATAGTCCAATGAAT   8802
+                     |.||.||.||.|||||||||||.||.||.||||||||||.||||...||.
+Phasianus_col   8741 TCCTGTGTACAGGAGCTGATGGATACGTACCCAAGTATAATCCATCCAAC   8790
+
+Homo_sapiens    8803 GCAGAATATGGCTG-CTTAGCCGACTCTCCTTCACTCTTATATAGATTTA   8851
+                     .|.||||||||.|| ||| ||.||.|||||.||.||..|.||.|||||.|
+Phasianus_col   8791 ACTGAATATGGATGTCTT-GCTGATTCTCCATCCCTTCTGTACAGATTCA   8839
+
+Homo_sapiens    8852 AAATTGTGGACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTTGGAAAT   8901
+                     |.||||||||.||||||||.||||||||||||||.||.||.||||||.||
+Phasianus_col   8840 AGATTGTGGATAAAGCTCAACCAGAGACACAAGCCACAAGCTTTGGAGAT   8889
+
+Homo_sapiens    8902 GTCCTATTTAATGCCAAACTAGCAGTGGATGACCCTGAAGCCATTCTC-T   8950
+                     ||.||.||||||||.|||||.|||.|.|||||.||||||||.||| || |
+Phasianus_col   8890 GTGCTTTTTAATGCAAAACTTGCAATAGATGATCCTGAAGCAATT-TCTT   8938
+
+Homo_sapiens    8951 TAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGACTCAACACCACTC   9000
+                     ||||.||.||.||.||.||.||||||||||||||.||||||||.||.||.
+Phasianus_col   8939 TAGTTAAACAACCAGGCTCCGATGGATTTAAAGTAGACTCAACTCCTCTG   8988
+
+Homo_sapiens    9001 TTTCAGGTCGCTCTAGGCCGAGAATGGTATATACATACGATCTATACAGT   9050
+                     ||||||||..||.|.|||.|.||.||||||.|.|||||.|||||.||.||
+Phasianus_col   8989 TTTCAGGTGTCTTTGGGCAGGGAGTGGTATGTCCATACAATCTACACTGT   9038
+
+Homo_sapiens    9051 GAGATCGAAAGACAATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG---   9097
+                     ..||||.||.||.||.||.||.||.||.||||||||||||||.||||   
+Phasianus_col   9039 ACGATCAAAGGAGAACGCTAACCGCGGGATTGGCAAAAGAAGCGTGGAGC   9088
+
+Homo_sapiens    9098 ---AGTACCATTCTCTGGTGAGTCAAGGAAAGCCCCAAT-CCACCACCA-   9142
+                        |||||||.||.||..|.|||..|||.|  .||||.| .||.||.|| 
+Phasianus_col   9089 AGCAGTACCACTCACTTTTTAGTGGAGGCA--GCCCAGTAGCATCAACAC   9136
+
+Homo_sapiens    9143 AGAGCCGGAAGAAGAGA-GAGAT-CAGGAGCACACCC-TCACTGGCATGG   9189
+                     ||||.||..|.|||||| |||.| ..|||||   ||| ..|||.|||...
+Phasianus_col   9137 AGAGACGTCATAAGAGAGGAGTTGTGGGAGC---CCCAGAACTTGCAAAA   9183
+
+Homo_sapiens    9190 GAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCACATTGCCCT   9239
+                     ||.|||||.|..|||||||..|||||.||||||||.||||||||.||.||
+Phasianus_col   9184 GACATTGGAGTAGAAAACAACCGAGGGACAAACATACAGCACATAGCACT   9233
+
+Homo_sapiens    9240 GGACCGCAC---CAAGAGGCAGATCCCCCATGGGAGAG--------CACC   9278
+                     |||.|||||   |||||..|||.||||.|| ..|||||        ||  
+Phasianus_col   9234 GGATCGCACCAGCAAGAAACAGGTCCCTCA-AAGAGAGGTTGTGGTCA--   9280
+
+Homo_sapiens    9279 TCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTCA   9328
+                          .|||..|.||||||.|.||.|..|||||||...||||.|..||||
+Phasianus_col   9281 -----GTGGTGTTCTCCCCAGAGAACAGAACAGCCAGGGCTCAGGGGTCA   9325
+
+Homo_sapiens    9329 GCCTGGTCAC-----TGTGGTGGGAG--GC-ACCACGGTAGGGTTACTCA   9370
+                     ||.|.|||||     | ||| .||||  || .|||      ..||.||..
+Phasianus_col   9326 GCGTAGTCACAATCAT-TGG-CGGAGCTGCTGCCA------TTTTCCTTG   9367
+
+Homo_sapiens    9371 CCATCTGCCTCACTG---TCA-----TTGCAGTGCTGATGTGCAGGGGCA   9412
+                     ||||||||.|.|.||   |||     ||||  ||||.|.|.|.||...||
+Phasianus_col   9368 CCATCTGCTTAATTGCAATCATCATTTTGC--TGCTAAAGCGGAGACACA   9415
+
+Homo_sapiens    9413 AGGAAAGTTTCAG-GGGGAAGGATGCCCCGA--AAGGCTCCAGCAGCAGT   9459
+                     |       |||.| |..||||||.||..|.|  |||  ||..||||||.|
+Phasianus_col   9416 A-------TTCTGAGAAGAAGGAAGCTGCAAAGAAG--TCAGGCAGCAAT   9456
+
+Homo_sapiens    9460 GAGCCCATGGTGCCCCC-----ACAGAGCCATCACAATGACAGCTCAGAA   9504
+                     ||.||.|||.|||..||     ||.|..|||.|     ||.|||||.||.
+Phasianus_col   9457 GAACCAATGATGCTGCCCAATAACTGCACCAGC-----GATAGCTCTGAG   9501
+
+Homo_sapiens    9505 GTT   9507
+                     |||
+Phasianus_col   9502 GTT   9504
+
+
+#---------------------------------------
+#---------------------------------------

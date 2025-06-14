@@ -1,0 +1,430 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 05:58:25
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Indicator_indicator.fa
+#    -outfile Homo_sapiens-Indicator_indicator.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Indicator_indicator.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Indicator_indicator
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4901
+# Identity:    3716/4901 (75.8%)
+# Similarity:  3716/4901 (75.8%)
+# Gaps:         211/4901 ( 4.3%)
+# Score: 14312.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT---GGCTGACCGCGGG---TGCCCGCTGGAGGCGGCGCCGCTGCCTGC     44
+                     ||   |||.||.||||||   |||.|..|||||.|||.|||||||||..|
+Indicator_ind      1 ATGGCGGCGGAGCGCGGGGGCTGCTCCTTGGAGTCGGTGCCGCTGCCGCC     50
+
+Homo_sapiens      45 CGAGGTGCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTG     94
+                     |||||||||.|||||||||||.|||||||||||||||||||||||.||.|
+Indicator_ind     51 CGAGGTGCGCGAGAGCCTGGCGGAGCTGGAGCTGGAGCTGTCGGAGGGAG    100
+
+Homo_sapiens      95 ACATCACTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGT    144
+                     ||||.|||||.||||||||||||||||||||.|||||.|||.|.|||||.
+Indicator_ind    101 ACATTACTCAGAAAGGATATGAAAAGAAAAGAGCAAAACTGTTAGCACGG    150
+
+Homo_sapiens     145 TATATACCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAG    194
+                     ||.|||||.||.||||||||..|.||.|||||.|||||||||||.||.||
+Indicator_ind    151 TACATACCACTAATTCAAGGTGTGGATCCATCCCTGCAAGCAGATAACAG    200
+
+Homo_sapiens     195 AATTCCTGGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGT    244
+                     |.|.||.||..|.||.|||.|.||..|.||||...|.||.||||||||.|
+Indicator_ind    201 AGTCCCAGGCTCTTCTCAAGCTACCACTGCTGTGTCTAAACAGCAGAAAT    250
+
+Homo_sapiens     245 CTCGGCCCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAG    294
+                     ||||..|.|||..|||.|||||||||||||||||.||             
+Indicator_ind    251 CTCGTTCTACCAACTCAAGGGATGAGCGCTTCCGATC-------------    287
+
+Homo_sapiens     295 CCAATGTTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTAT    344
+                                                                       
+Indicator_ind    287 --------------------------------------------------    287
+
+Homo_sapiens     345 TTGGACCCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCC    394
+                                                               ||||||||
+Indicator_ind    288 ------------------------------------------TGATGTCC    295
+
+Homo_sapiens     395 ACACTGAAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATG    444
+                     ||||||||||.||.||||||||..|.|||||.|||||||||||.||.|||
+Indicator_ind    296 ACACTGAAGCAGTACAAGCAGCACTTGCCAAGTACAAAGAGAGAAAAATG    345
+
+Homo_sapiens     445 CCTATGCCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAAC    494
+                     ||.||||||||.||||||||.|||||.||||||||.||.||.||.|||||
+Indicator_ind    346 CCCATGCCTTCAAAGAGACGGTCTGTTCTTGTGCAGTCTTCAGTAGAAAC    395
+
+Homo_sapiens     495 CTACACCCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTAC    544
+                     .|||||.|||||||||||.|||||.||.|||||||||||||||||.||||
+Indicator_ind    396 ATACACACCTCCAGACACATCGTCAGCATCAGAAGATGAGGGCTCGTTAC    445
+
+Homo_sapiens     545 GGCGACCCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTC    594
+                     |.||.|..||.||..||.|||||||||||.||||||||||.||||.|||.
+Indicator_ind    446 GTCGGCAAGGACGGATCTCCTCCACTCCGTTCCAGAGCCACTCCAACGTA    495
+
+Homo_sapiens     595 GAGCCCTGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGC    644
+                     |||||||||||..|||||||.|||||||||||.|||||||||||||||||
+Indicator_ind    496 GAGCCCTGGCTTAACCGGGTTATTCAGGGCTCCTCCACCTCATCCTCTGC    545
+
+Homo_sapiens     645 ATCCTCCACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCC---A    691
+                     ||||||||||||||||||.||.|||||||.|||..|..|||||.||   |
+Indicator_ind    546 ATCCTCCACCTCATCTCATCCAGGAGGGAAACCTGCTGCTGCTTCCAATA    595
+
+Homo_sapiens     692 GTGCTGCAGCCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTC    741
+                     .||||.|.||||         ||||.|||.||||||..||.||||..|||
+Indicator_ind    596 CTGCTACTGCCA---------CCGCTGCTGCCACTGTTCTTGCAGATCTC    636
+
+Homo_sapiens     742 GAGGCCCACACCCACATAGATCTGCATTCTGCCCCTCCTGATGTCACCAC    791
+                     ..|||.||||||||..|||||...||.|||||.|||||.|||||.|||||
+Indicator_ind    637 ATGGCACACACCCAGCTAGATAACCACTCTGCACCTCCAGATGTAACCAC    686
+
+Homo_sapiens     792 GGGCCTCGTGGAGCATTCGTACTT--TGAGCGTCCACAGGTGGCTTCTGT    839
+                     .|||||.|||||.||||  |||.|  ||||||||||||.||.||.||.||
+Indicator_ind    687 TGGCCTGGTGGAACATT--TACATCATGAGCGTCCACAAGTAGCATCAGT    734
+
+Homo_sapiens     840 GAGAAGTGTTCCTCGGGGG----TGCAGCGGGAGCATGCTGGAAACAGCA    885
+                     ..||.|.||||| |.|..|    ||||||   |||||..|||||||.|||
+Indicator_ind    735 ACGAGGAGTTCC-CAGAAGCTACTGCAGC---AGCATTTTGGAAACTGCA    780
+
+Homo_sapiens     886 GATGGTGTCCCTGTGAACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCT    935
+                     |||||||||||.|||||.|||||||||||.||.|||||.|||||||||||
+Indicator_ind    781 GATGGTGTCCCAGTGAATAGCAGAGTGTCGTCTAAAATTCAGCAGCTTCT    830
+
+Homo_sapiens     936 GAACACCCTGAAGAGGCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGG    985
+                     .||.|||.||||.||.|||||||||||.||..||||.|||||.|||||.|
+Indicator_ind    831 AAATACCTTGAAAAGACCAAAGCGCCCACCTTTGAAAGAGTTTTTTGTTG    880
+
+Homo_sapiens     986 ATGATTTTGAGGAATTGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCA   1035
+                     ||||||||||.|||.||.|.|||||.||.||.||.||.||||||||.||.
+Indicator_ind    881 ATGATTTTGAAGAACTGCTAGAAGTGCAACAGCCTGACCCAAATCAACCG    930
+
+Homo_sapiens    1036 AAGCCTGAGGGAAGCGAGACGAGTGTGCTGAGAGGGGAGCCTCTCACTGC   1085
+                     ||||||||.||||...|.||.|.|||.||.|.|||.||.||..|      
+Indicator_ind    931 AAGCCTGAAGGAAATCAAACAAATGTACTTAAAGGTGAACCCTT------    974
+
+Homo_sapiens    1086 AGGTGT------CCCCCGACCGCCGTCGCTGTTGGCCACCTTGCAGCGCT   1129
+                     ||||||      |..|.|.||.||.||.|||.||||..||.|||||.|||
+Indicator_ind    975 AGGTGTGGTAACCAACTGGCCACCCTCTCTGCTGGCAGCCCTGCAGTGCT   1024
+
+Homo_sapiens    1130 GGGGCACAACACAGCCCAAATCCCCCTGTCTGACTGCCTTGGATACAACT   1179
+                     ||||.||.||.|||||.|||.||||.||||||||.||.||||||||||||
+Indicator_ind   1025 GGGGAACTACCCAGCCAAAAGCCCCTTGTCTGACAGCATTGGATACAACT   1074
+
+Homo_sapiens    1180 GGGAAAGCCGTCTACACTCTCACCTATGGTAAACTTTGGAGTCGGAGTTT   1229
+                     ||||||||.||.||.||.||.||||||||.|||||.||||||||.||.||
+Indicator_ind   1075 GGGAAAGCTGTTTATACACTTACCTATGGCAAACTGTGGAGTCGAAGCTT   1124
+
+Homo_sapiens    1230 AAAACTAGCTTATACTCTACTTAATAAACTGACAAGTAAGAATGAACCTC   1279
+                     .||..||||.|||||.||.||.||.||..|.||.|.||||||||||||.|
+Indicator_ind   1125 GAAGTTAGCATATACCCTGCTAAACAAGTTAACCACTAAGAATGAACCAC   1174
+
+Homo_sapiens    1280 TACTTAAACCTGGAGACAGAGTGGCGCTCGTGTTTCCGAATAGTGACCCT   1329
+                     |.||.||.|||||||||.|.||.||.|||||.|||||.||.|||||.||.
+Indicator_ind   1175 TGCTGAAGCCTGGAGACCGGGTAGCTCTCGTATTTCCTAACAGTGATCCA   1224
+
+Homo_sapiens    1330 GTGATGTTCATGGTTGCATTTTATGGGTGTCTCCTGGCAGAGCTGGTTCC   1379
+                     ||.|||||.|||||.||.||||||||.||||||||||||.|.||..||||
+Indicator_ind   1225 GTTATGTTTATGGTGGCGTTTTATGGATGTCTCCTGGCAAAACTCATTCC   1274
+
+Homo_sapiens    1380 TGTCCCCATAGAAGTGCCATTAACAAGAAAGGATGCAGGCAGCCAGCAGG   1429
+                     ||||||.||||||||.|||.||||||||||||||||.||||||||||||.
+Indicator_ind   1275 TGTCCCAATAGAAGTTCCACTAACAAGAAAGGATGCTGGCAGCCAGCAGA   1324
+
+Homo_sapiens    1430 TTGGGTTTCTGCTGGGCAGCTGTGGAGT--------CTTCTTGGCCCTGA   1471
+                     ||||.|||||.|||||||||||||||||        |||        |.|
+Indicator_ind   1325 TTGGTTTTCTTCTGGGCAGCTGTGGAGTAACGCTAGCTT--------TAA   1366
+
+Homo_sapiens    1472 CCACAGACGCTTGTCAGAAAGGCCTCCCCAAGGCACAGACAGGAGAGGTG   1521
+                     ||||.||.||.||.||.||||||||.||.||.||||||||.||.||||||
+Indicator_ind   1367 CCACTGATGCCTGCCAAAAAGGCCTTCCTAAAGCACAGACTGGTGAGGTG   1416
+
+Homo_sapiens    1522 GCAGCTTTCAAAGGTTGGCCCCCGCTCTCCTGGCTAGTGATTGATGGGAA   1571
+                     |...|.||||||||.|||||.|..|||...|||.|.||||||||||||||
+Indicator_ind   1417 GTTACATTCAAAGGCTGGCCTCGTCTCATGTGGTTTGTGATTGATGGGAA   1466
+
+Homo_sapiens    1572 GCATCTAGCCAAGCCCCCAAAGGACTGGCACCCTCTGGCCCAGGACACA-   1620
+                     ||||||.||.||.||..|.|||||||||||.|             |||| 
+Indicator_ind   1467 GCATCTGGCAAAACCAGCGAAGGACTGGCATC-------------CACAG   1503
+
+Homo_sapiens    1621 ----GGGA--------CTGGGACTGCCTACATTGAGTATAAAACCAGCAA   1658
+                         ||||        |||.||.|||.||.||||||||.||.||.||.||
+Indicator_ind   1504 TTACGGGATGCCAATGCTGAGATTGCTTATATTGAGTACAAGACAAGTAA   1553
+
+Homo_sapiens    1659 AGAAGGCAGTACGGTGGGGGTCACAGTGTCCCACGCATCCCTGCTGGCAC   1708
+                     |||.|||||.||.|||||..|.||.||.||.||.||.|||.|||||||||
+Indicator_ind   1554 AGAGGGCAGCACAGTGGGCATTACTGTCTCTCATGCTTCCATGCTGGCAC   1603
+
+Homo_sapiens    1709 AGTGCCGGGCTCTGACCCAGGCGTGCGGGTACTCAGAAGCTGAAACATTA   1758
+                     |.||.|..||..||||.||||||||.||.||.|||||||||||||||.||
+Indicator_ind   1604 ATTGTCACGCATTGACTCAGGCGTGTGGTTATTCAGAAGCTGAAACACTA   1653
+
+Homo_sapiens    1759 ACAAACGTGCTGGATTTCAAAAGGGATGCTGGTCTGTGGCATGGCGTGTT   1808
+                     |||||.||..|||||||||||||.||||||||.||.||||||||.||.||
+Indicator_ind   1654 ACAAATGTCTTGGATTTCAAAAGAGATGCTGGCCTTTGGCATGGAGTATT   1703
+
+Homo_sapiens    1809 AACAAGCGTCATGAACAGGATGCACGTGGTCAGCGTCCCCTACGCGCTGA   1858
+                     ||||||.||.||||||||||||||.||..||||..|.||.||.||..|.|
+Indicator_ind   1704 AACAAGTGTTATGAACAGGATGCATGTCATCAGTATTCCATATGCATTAA   1753
+
+Homo_sapiens    1859 TGAAGGCGAACCCACTCTCCTGGATCCAGAAAGTGTGCTTCTATAAAGCT   1908
+                     ||||||..||.|||||.||||||||.||.||||||||||..||.|||||.
+Indicator_ind   1754 TGAAGGTTAATCCACTTTCCTGGATACAAAAAGTGTGCTCATACAAAGCC   1803
+
+Homo_sapiens    1909 CGGGCCGCGCTGGTGAAGTCGCGAGACATGCACTGGTCTCTCCTAGCTCA   1958
+                     ||.|..||..|.||.||.||.||.||.|||||||||||.||..|.|||||
+Indicator_ind   1804 CGTGTAGCAGTAGTAAAATCACGTGATATGCACTGGTCACTTTTGGCTCA   1853
+
+Homo_sapiens    1959 GCGGGGCCAGAGGGACGTCAGCCTCAGCTCACTGCGCATGCTGATTGTGG   2008
+                     |.|||..|||||.||.|||||.||.|||||..||||.|||.|.||.||||
+Indicator_ind   1854 GAGGGATCAGAGAGATGTCAGTCTGAGCTCTTTGCGAATGTTAATAGTGG   1903
+
+Homo_sapiens    2009 CCGATGGTGCCAACCCGTGGTCGATCTCCTCCTGTGACGCCTTCCTCAAC   2058
+                     |.|||||.||.||.||||||||.||.||.||||||||.||.|||||.||.
+Indicator_ind   1904 CAGATGGAGCTAATCCGTGGTCAATATCTTCCTGTGATGCATTCCTGAAT   1953
+
+Homo_sapiens    2059 GTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGTCATCTGTCCTTGTGCAAG   2108
+                     ||.||.||.|||||||||.||||.|||||.||.||||||||.|||||.||
+Indicator_ind   1954 GTATTTCAATCCAGAGGTTTGAGACCAGAAGTGATCTGTCCCTGTGCTAG   2003
+
+Homo_sapiens    2109 TTCTCCTGAGGCGCTGACTGTCGCCATCCGCAGGCCACCTGATCTGGGAG   2158
+                     ||||.|.||.||.||.||.||.||.|||||||||||.||.||..||||.|
+Indicator_ind   2004 TTCTTCAGAAGCACTAACCGTTGCTATCCGCAGGCCTCCAGAATTGGGTG   2053
+
+Homo_sapiens    2159 GACCACCTCCAAGAAAAGCAGTCCTGTCGATGAACGGTCTAAGTTATGGT   2208
+                     |.||.||||||.||||||||||..|.||.|||||..|||||||||...||
+Indicator_ind   2054 GGCCTCCTCCAGGAAAAGCAGTGTTATCTATGAATTGTCTAAGTTTCAGT   2103
+
+Homo_sapiens    2209 GTTATCAGAGTGGATACTGAAGAAAAGTTGTCAGTCCTTACTGTTCAGGA   2258
+                     ||.||.|||||||||||.|||||.|||||.||.||..|.|||||.|||||
+Indicator_ind   2104 GTGATAAGAGTGGATACAGAAGAGAAGTTATCTGTGTTAACTGTACAGGA   2153
+
+Homo_sapiens    2259 CGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGTTGTGAAGTTAGAAG   2308
+                     .||||||||..|.|||||||||||.|||||.|||||||||||..|.||.|
+Indicator_ind   2154 TGTTGGTCAAATTATGCCTGGAGCAAATGTGTGTGTTGTGAAAGTGGATG   2203
+
+Homo_sapiens    2309 GTACCCCTTATCTTTGTAAAACTGATGAAGTGGGAGAAATATGCGTCAGT   2358
+                     |.||.||||||||.||||||.|||||||.||.|||||||||||.||.|.|
+Indicator_ind   2204 GGACTCCTTATCTATGTAAAGCTGATGAGGTTGGAGAAATATGTGTGAAT   2253
+
+Homo_sapiens    2359 TCCAGTGCAACTGGCACAGCGTACTATGGATTGCTTGGAATCACGAAGAA   2408
+                     ||.|||||.|||||.|..||.||.|.|||..|.||.||||||||.|||||
+Indicator_ind   2254 TCAAGTGCTACTGGGATGGCATATTTTGGCCTCCTCGGAATCACCAAGAA   2303
+
+Homo_sapiens    2409 TGTGTTTGAGGCAGTTCCGGTCACCACAGGAGGAGCACCCATCTTT--GA   2456
+                     .|||||.|||||..||||.||.||..|||..||||..||  |.|||  ||
+Indicator_ind   2304 CGTGTTCGAGGCCATTCCAGTGACAGCAGCTGGAGTGCC--TGTTTCGGA   2351
+
+Homo_sapiens    2457 CAGGCCATTCACCAGGACAGGCCTGCTGGGCTTCATCGGGCCTGACAACC   2506
+                     |...||.||.||.||.|||||..||||.|||||..|.||.||||||.|..
+Indicator_ind   2352 CCAACCCTTTACAAGAACAGGATTGCTTGGCTTTGTGGGTCCTGACTATT   2401
+
+Homo_sapiens    2507 TGGTCTTCATCGTGGGCAAACTGGACGGGCTGATG---GTCACTGGAGTT   2553
+                     ||||.||..|.||.||.||.|||||.|||||.|||   ||.|.|||   |
+Indicator_ind   2402 TGGTGTTTGTGGTAGGAAAGCTGGATGGGCTAATGACAGTTAGTGG---T   2448
+
+Homo_sapiens    2554 CGCAGACACAATGCAGATGACGTTGTGGCCACCGCACTGGCCGTGGAGCC   2603
+                     |||||.||||||||||||||.||.||.|||||.|||.|.||.||.||.||
+Indicator_ind   2449 CGCAGGCACAATGCAGATGATGTGGTAGCCACTGCATTAGCAGTCGAACC   2498
+
+Homo_sapiens    2604 CATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTTCTCTGTGACCGTGC   2653
+                     ||||||||||||.||..|.||.|||||.||.|||||.|||||||||||..
+Indicator_ind   2499 CATGAAGTTTGTGTATCGGGGAAGGATAGCAGTGTTTTCTGTGACCGTTT   2548
+
+Homo_sapiens    2654 TGCACGACGACCGGATTGTCCTGGTGGCTGAGCAGCGGCCGGATGCCTCG   2703
+                     ||||.||.||.||.||.||.||.|||||.||||||||.||.|||||.||.
+Indicator_ind   2549 TGCATGATGATCGAATAGTGCTTGTGGCAGAGCAGCGCCCTGATGCGTCA   2598
+
+Homo_sapiens    2704 GAGGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTGCAGGCCATTGATAG   2753
+                     ||||||||.||.||.||||||||||||.|.||.||.|||||.||||||||
+Indicator_ind   2599 GAGGAGGATAGTTTTCAGTGGATGAGCAGGGTTCTACAGGCAATTGATAG   2648
+
+Homo_sapiens    2754 CATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTGCCAACACCT   2803
+                     |||.|||||.||||||||.||||||||.|||.||||.||.||||||||.|
+Indicator_ind   2649 CATTCACCAAGTGGGCGTCTACTGTCTTGCCTTGGTACCAGCCAACACTT   2698
+
+Homo_sapiens    2804 TGCCCAAGGCTCCTCTCGGAGGGATTCACATTTCTGAAACCAAACAGCGC   2853
+                     ||||.||||||||.||||||||.|||||.|||||.||||||||.||||||
+Indicator_ind   2699 TGCCAAAGGCTCCACTCGGAGGAATTCATATTTCAGAAACCAAGCAGCGC   2748
+
+Homo_sapiens    2854 TTTCTGGAAGGGACGCTGCACCCGTGTAATGTGCTGATGTGCCCTCACAC   2903
+                     |||||.||.||.||.||||||||.|||||.||..|||||||.||.||.||
+Indicator_ind   2749 TTTCTAGAGGGTACTCTGCACCCATGTAACGTCTTGATGTGTCCACATAC   2798
+
+Homo_sapiens    2904 CTGTGTTACCAACCTCCCCAAACCTCGTCAGAAACAACCAGAGGTTGGAC   2953
+                     .||||||||.|||||.||.||.|||||.||||||||||||||||||||.|
+Indicator_ind   2799 TTGTGTTACTAACCTGCCTAAGCCTCGGCAGAAACAACCAGAGGTTGGCC   2848
+
+Homo_sapiens    2954 CAGCCTCAATGATCGTGGGGAACCTGGTTGCTGGGAAGAGAATCGCTCAG   3003
+                     |.||.||||||||.||.||.|||||.||.|||||.||||||||.||.||.
+Indicator_ind   2849 CTGCTTCAATGATAGTAGGAAACCTTGTCGCTGGAAAGAGAATTGCACAA   2898
+
+Homo_sapiens    3004 GCTTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGCGACCAGGCACGGAA   3053
+                     ||.||.||||||||..|..||||.||||||||.|.|||.||||||.|.||
+Indicator_ind   2899 GCCTCAGGGAGAGATGTTACCCAGCTGGAGGATAACGATCAGGCAAGAAA   2948
+
+Homo_sapiens    3054 GTTCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGCCCACACCACTCCTG   3103
+                     ||||||||...|.||.||.||.||.||||||||.||.||.||.|||||.|
+Indicator_ind   2949 GTTCCTGTATTTAGCAGATGTTCTTCAGTGGCGAGCTCAGACAACTCCAG   2998
+
+Homo_sapiens    3104 ACCACCCGCTGTTCTTGCTGCTGAACGCCAAGGGCACCGTCACAAGCACT   3153
+                     |.||.||.||.|||.|..||.||||..||||||||||.||..|.||||||
+Indicator_ind   2999 ATCATCCCCTCTTCCTTTTGTTGAATTCCAAGGGCACTGTAGCTAGCACT   3048
+
+Homo_sapiens    3154 GCAACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGAGTGGCCGCGGCTCT   3203
+                     ||..|.||..|.|||.|||||||.||.||.||||||||.||.|..||.||
+Indicator_ind   3049 GCGTCGTGCATACAGTTGCACAAGAGAGCCGAGAGAGTAGCAGTTGCACT   3098
+
+Homo_sapiens    3204 GATGGAGAAGGGAAGACTGAGTGTTGGGGACCATGTGGCTCTGGTCTACC   3253
+                     |||||||||.|||.||||||.||||||.|||||||||||.|||||.||.|
+Indicator_ind   3099 GATGGAGAAAGGACGACTGAATGTTGGTGACCATGTGGCCCTGGTGTATC   3148
+
+Homo_sapiens    3254 CACCAGGGGTGGACCTCATTGCCGCGTTCTATGGCTGCTTGTACTG-TGG   3302
+                     |.|||||.||.|||.|.||.||..|.||||||||||||||.|| || |||
+Indicator_ind   3149 CTCCAGGAGTAGACTTGATAGCAACTTTCTATGGCTGCTTATA-TGCTGG   3197
+
+Homo_sapiens    3303 CTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAGAACCTCGGCACCA   3352
+                     .||.||.|||.|.|||||.||.||.||.||.||||||||.||.|..||||
+Indicator_ind   3198 TTGTGTACCTATAACCGTTCGCCCACCTCATCCTCAGAATCTTGCTACCA   3247
+
+Homo_sapiens    3353 CACTGCCCACCGTCAAGATGATCGTGGAGGTCAGCAAGTCTGCATGCGTC   3402
+                     |.||||||||.|||||.|||||.||.||||||||.|||||||||||..|.
+Indicator_ind   3248 CTCTGCCCACTGTCAAAATGATTGTAGAGGTCAGTAAGTCTGCATGTATA   3297
+
+Homo_sapiens    3403 CTCACCACGCAGGCTG----TCACACGGCTGCTCAGGTCCAAGGAGGCTG   3448
+                     ||.|||||.||.| ||    |.|.|   .||||.|.|||||||||.||||
+Indicator_ind   3298 CTGACCACACAAG-TGATAATGAAA---TTGCTGAAGTCCAAGGAAGCTG   3343
+
+Homo_sapiens    3449 CTGCTGCCGTGGACATCAGGACCTGGCCCACCATCCTAGACACAGATGAC   3498
+                     |.||.||.||.||.||.|..||.||||||||.||..|.||.||||||||.
+Indicator_ind   3344 CAGCAGCTGTAGATATTAAAACATGGCCCACTATTTTGGATACAGATGAT   3393
+
+Homo_sapiens    3499 ATCCCAAAAAAGAAGATAGCAAGCGTTTTCAGGCCCCCCTCCCCCGATGT   3548
+                     ||.||.|||||||||.|.||.|...|||||||.||..|.||.||.|||.|
+Indicator_ind   3394 ATGCCTAAAAAGAAGCTGGCTACTATTTTCAGACCTACATCTCCAGATAT   3443
+
+Homo_sapiens    3549 CCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGATATTAGCGGGAG   3598
+                     ..|.||.||||||||||||||.|||||.||||||||.||||||||.||||
+Indicator_ind   3444 GTTGGCGTACTTGGACTTCAGTGTGTCTACCACTGGTATATTAGCAGGAG   3493
+
+Homo_sapiens    3599 TGAAGATGTCGCACGCGGCCACAAGCGCCTTATGCCGCTCCATAAAGCTG   3648
+                     |.||||||||.||.||.||.|||||.||||||||.|||||.|||||.||.
+Indicator_ind   3494 TAAAGATGTCACATGCAGCTACAAGTGCCTTATGTCGCTCTATAAAACTA   3543
+
+Homo_sapiens    3649 CAGTGTGAGCTGTACCCCTCGCGGCAGATCGCCATCTGCCTCGACCCCTA   3698
+                     |||||||||||||||||.||.||.|||||.|||||||||||.|||||.||
+Indicator_ind   3544 CAGTGTGAGCTGTACCCTTCACGTCAGATTGCCATCTGCCTTGACCCTTA   3593
+
+Homo_sapiens    3699 CTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCGGGAC   3748
+                     .||||||.|.||.|||||.||.|||||..||||||||||.||.||.||.|
+Indicator_ind   3594 TTGTGGCTTGGGATTTGCACTATGGTGCTTGTGCAGTGTATATTCAGGTC   3643
+
+Homo_sapiens    3749 ACCAATCAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTCCCTG   3798
+                     |.||.||..|.||.||.||.||.|||||.|||||||||||.|||||||||
+Indicator_ind   3644 ATCAGTCTATTCTAGTCCCTCCTCTGGAACTGGAGAGCAATGTGTCCCTG   3693
+
+Homo_sapiens    3799 TGGCTGTCGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTTCTGCTCCTA   3848
+                     |||.||||.||.||.||.|||||.||.|..||.|||||.||||||||.||
+Indicator_ind   3694 TGGTTGTCTGCTGTAAGTCAGTATAAAGTGCGTGTCACATTCTGCTCTTA   3743
+
+Homo_sapiens    3849 CTCTGTGATGGAGATGTGCACCAAGGGCCTAGGCGCACAGACGGGTGTCC   3898
+                     |||||||||||||||||||||||||||.||.||..|||||||.|.|.|.|
+Indicator_ind   3744 CTCTGTGATGGAGATGTGCACCAAGGGGCTTGGAACACAGACTGATATAC   3793
+
+Homo_sapiens    3899 TCAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACGTGCATGGTGGTC   3948
+                     ||.|.|||||.||.|||||||||||.|||||.||.||.|||||||||||.
+Indicator_ind   3794 TCCGTATGAAAGGAGTGAACCTGTCCTGTGTACGAACATGCATGGTGGTT   3843
+
+Homo_sapiens    3949 GCCGAGGAGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTCCAAGCTCTT   3998
+                     ||.||||||.|.||.||||||.|..|.||.||.||.|||||.|||.|.||
+Indicator_ind   3844 GCAGAGGAGAGACCAAGGATTACATTAACACAATCGTTCTCAAAGTTGTT   3893
+
+Homo_sapiens    3999 CAAGGACCTGGGCCTGCCGGCCCGCGCCGTAAGCACCACGTTCGGGTGCA   4048
+                     |||.|||||||||||..|.||.|||||.||.|||||.||.|||||.||||
+Indicator_ind   3894 CAAAGACCTGGGCCTCTCTGCTCGCGCAGTGAGCACTACCTTCGGATGCA   3943
+
+Homo_sapiens    4049 GGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCTGGCT   4098
+                     ||||||||||.||.||.|||.|.|||||.|||||||||||.|||||||||
+Indicator_ind   3944 GGGTCAACGTAGCAATTTGCTTACAGCCAAACAGGCTGGGCAAGCTGGCT   3993
+
+Homo_sapiens    4099 GAGCAGGGCACAGCTGGCCCGGACCCCACAACCGTCTACGTGGACATGCG   4148
+                     ||.|||||.|||||.||.||.||.||.|||||.|||||.||.||.|||.|
+Indicator_ind   3994 GAACAGGGAACAGCAGGACCAGATCCAACAACAGTCTATGTAGATATGAG   4043
+
+Homo_sapiens    4149 GGCACTGCGCCATGACAGGGTTCGTTTGGTAGAACGGGGTTCTCCGCACA   4198
+                     .||.||.||.|||||||||||.|||.|||||||..|.||||||||.||||
+Indicator_ind   4044 AGCGCTTCGACATGACAGGGTGCGTCTGGTAGAGAGAGGTTCTCCACACA   4093
+
+Homo_sapiens    4199 GCCTGCCATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTGAAGGTCATC   4248
+                     |.||||||.|.|||||||||||||||||.||.||.||.||.|||||||||
+Indicator_ind   4094 GTCTGCCACTTATGGAGTCTGGAAAGATTCTTCCAGGGGTAAAGGTCATC   4143
+
+Homo_sapiens    4249 ATCGCACACACCGAGACCAAAGGACCCTTGGGAGACTCACACCTGGGAGA   4298
+                     ||.||||||||.||.|||||.|||||..||||.||||||||..|.|||||
+Indicator_ind   4144 ATAGCACACACAGAAACCAAGGGACCTCTGGGGGACTCACATTTAGGAGA   4193
+
+Homo_sapiens    4299 GATCTGGGTAAGCAGCCCCCACAATGCCACCGGGTACTACACCGTTTACG   4348
+                     |||.||||||||.||.||.||||||||.||.||.||||||||.||.||.|
+Indicator_ind   4194 GATATGGGTAAGTAGTCCACACAATGCTACTGGTTACTACACAGTGTATG   4243
+
+Homo_sapiens    4349 GGGAGGAGGCGCTTCATGCCGACCACTTCAGTGCCCGGCTGAGTTTTGGA   4398
+                     |.||.||.||.||.|||||.||.|||||||.|||.||.||||||||||||
+Indicator_ind   4244 GAGAAGAAGCACTGCATGCTGATCACTTCACTGCTCGCCTGAGTTTTGGA   4293
+
+Homo_sapiens    4399 GACACACAGACCATCTGGGCAAGGACCGGCTACCTTGGCTTCCTTCGGCG   4448
+                     |||||.||||||||.|||||..||||.||.|||||||||||.||.||..|
+Indicator_ind   4294 GACACTCAGACCATATGGGCTCGGACTGGGTACCTTGGCTTTCTGCGCAG   4343
+
+Homo_sapiens    4449 AACAGAGCTCACTGATGCCAGTGGAGGGCGGCACGATGCACTGTATGTGG   4498
+                     ||||||.||.||||||||.|||||||.|.|.||||||||.||||||||.|
+Indicator_ind   4344 AACAGAACTTACTGATGCTAGTGGAGAGAGACACGATGCCCTGTATGTAG   4393
+
+Homo_sapiens    4499 TTGGGTCTCTGGATGAAACTCTGGAGCTCAGAGGCATGCGGTACCACCCC   4548
+                     |.||.|||.||||||||||.||||||||||||||.|||.|||||||.|||
+Indicator_ind   4394 TAGGCTCTTTGGATGAAACACTGGAGCTCAGAGGAATGAGGTACCATCCC   4443
+
+Homo_sapiens    4549 ATCGACATTGAGACCTCTGTCATCCGAGCACACAGGAGCATCGCTGAGTG   4598
+                     ||.||.||.|||||||||||.||..|||||||.|.||||||.||.||.||
+Indicator_ind   4444 ATTGATATAGAGACCTCTGTAATAAGAGCACATAAGAGCATTGCAGAATG   4493
+
+Homo_sapiens    4599 TGCCGTATTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTGGATG   4648
+                     |||.||.||.||.|||||||||.|||||||||||||.||||||.|||| .
+Indicator_ind   4494 TGCTGTGTTTACATGGACCAACTTGCTGGTGGTGGTTGTGGAGTTGGA-A   4542
+
+Homo_sapiens    4649 GGCT-AGAGCAGGATGCCCTGGACCTGGTGGCCCTGGTGACCAACGTGGT   4697
+                     |||| |||.||.||.||..||||||||||.||.|||||.||.||.|||||
+Indicator_ind   4543 GGCTCAGAACAAGAAGCATTGGACCTGGTTGCGCTGGTAACAAATGTGGT   4592
+
+Homo_sapiens    4698 GCTGGAGGAGCACTACCTGGTCGTGGGAGTGGTGGTCATCGTGGACCCAG   4747
+                     .|||||.|||||.||.||..|.||.||.||.||.|||||.||||||||.|
+Indicator_ind   4593 TCTGGAAGAGCATTATCTCATAGTAGGTGTTGTAGTCATTGTGGACCCTG   4642
+
+Homo_sapiens    4748 GGGTGATCCCTATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTGCGG   4797
+                     |.||.||.||.|||||.||.||.||||||||.||.||.||||||.||.|.
+Indicator_ind   4643 GTGTTATTCCCATCAATTCCCGTGGTGAGAAACAACGAATGCACTTGAGA   4692
+
+Homo_sapiens    4798 GACGGCTTCCTGGCTGACCAGCTGGACCCCATCTATGTCGCCTACAACAT   4847
+                     ||.||.|||.|.|||||||||.||||.||.||.|||||.|||||||||||
+Indicator_ind   4693 GATGGATTCTTAGCTGACCAGTTGGATCCTATTTATGTTGCCTACAACAT   4742
+
+Homo_sapiens    4848 G   4848
+                     |
+Indicator_ind   4743 G   4743
+
+
+#---------------------------------------
+#---------------------------------------

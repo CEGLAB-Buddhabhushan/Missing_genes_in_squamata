@@ -1,0 +1,822 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:42:52
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Motacilla_alba_alba.fa
+#    -outfile Homo_sapiens-Motacilla_alba_alba.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Motacilla_alba_alba.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Motacilla_alba_alba
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9801
+# Identity:    7159/9801 (73.0%)
+# Similarity:  7159/9801 (73.0%)
+# Gaps:         603/9801 ( 6.2%)
+# Score: 25580.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                     |||    |||||   .|||||            ||||||           
+Motacilla_alb      1 ATG----CAGCC---TCTCCC------------CGCCGG-----------     20
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGACCGCCACCGCCGCCCCGGCTGCT--------     92
+                                                |||||..||||||||        
+Motacilla_alb     21 ---------------------------GCCGCGGCGGCTGCTGGCCGGCT     43
+
+Homo_sapiens      93 -GCTGCTGCTGCT-----GCTTCTCCTGTCACTGGT------AAGCCGCG    130
+                      ||||||||||||     |||.|.|||| ..|||||      .||.|||.
+Motacilla_alb     44 CGCTGCTGCTGCTGGCCGGCTGCGCCTG-GGCTGGTGCGGCGGAGTCGCC     92
+
+Homo_sapiens     131 TCCCGGCA-CAGC-CCGCTGCCT--TCGGCAGGGCGTTGCTGTCCCCTGG    176
+                     .||.|||| |||| ||||.|.||  |||                ||.|||
+Motacilla_alb     93 GCCAGGCAGCAGCGCCGCGGTCTCCTCG----------------CCGTGG    126
+
+Homo_sapiens     177 TCTCGCGGGGGCTGCAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGA    226
+                     ||.| |||.|||                  |||..||.|.|||.||||||
+Motacilla_alb    127 TCAC-CGGAGGC------------------GGACCCCGTGGTGGTGGCGA    157
+
+Homo_sapiens     227 ACCGCGGACTCCGGGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTG    276
+                     |||||||.||.||||||||..|.|||||....|.|||||||||.|||..|
+Motacilla_alb    158 ACCGCGGGCTGCGGGTGCCCCTGGGCCGCTCCGCCTGGCTGGACCCCGCG    207
+
+Homo_sapiens     277 CATGACCTGGTGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGT    326
+                     |..|||||||||.|||||||||||||.||.|||||||||....|..|.||
+Motacilla_alb    208 CGGGACCTGGTGCTGCAGGTGCAGCCGGGTGACCGCTGCTACCTCACCGT    257
+
+Homo_sapiens     327 ACTAGACAACGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGC    376
+                     .||.|||.|.|||.|.|||...|||||.||||||||||||||.|||..||
+Motacilla_alb    258 GCTGGACGAGGACCCGCTGTGGCAGCGCCCGGGCCGCCTGAGCCCCCGGC    307
+
+Homo_sapiens     377 GCTTCCCGTGCGACTTTG--GCCCTGGCGAGGTGCGCTACTCTCACCTGG    424
+                     |||||||.||||||||.|  ||||  |||||||||..|||||.|||||||
+Motacilla_alb    308 GCTTCCCCTGCGACTTCGGAGCCC--GCGAGGTGCAGTACTCGCACCTGG    355
+
+Homo_sapiens     425 GCGCGCGCAGCCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGAC    474
+                     |||..||||||||..|.||||||||||||||.||||||||||||||.|||
+Motacilla_alb    356 GCGGCCGCAGCCCCGCCCGGGACCGCGTCCGCCTGCAGCTGCGCTACGAC    405
+
+Homo_sapiens     475 GCGCCCGGAG--GGGCAGTAGTGCTACCACTGGTACTGGAGGTGGAGGTG    522
+                     .||||  |||  |.||..|.|||||.||.|||||.|||||||||||||||
+Motacilla_alb    406 TCGCC--GAGCCGCGCCCTGGTGCTGCCCCTGGTGCTGGAGGTGGAGGTG    453
+
+Homo_sapiens     523 GTCTTCACCCAGCTGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGA    572
+                     .|||||||||||||||||.|.||.||.||.|||.||||.||...||||| 
+Motacilla_alb    454 CTCTTCACCCAGCTGGAGATCGTCACCCGCAACCTGCCCCTCACCGTGG-    502
+
+Homo_sapiens     573 AGAG-CTGCTGGGGACCAGCAATGCCCTGGACGCGCGGAGCCTGGAGTTC    621
+                     ||.| ||||.|||.||||||||..|.||||||||.||.||||||||||||
+Motacilla_alb    503 AGCGCCTGCGGGGCACCAGCAACCCGCTGGACGCCCGCAGCCTGGAGTTC    552
+
+Homo_sapiens     622 GCCTTCCAGCCCG--AGACAGAGGAGTGCCGCGTGGGCATCCTGTCCGGC    669
+                     ||||||.||||.|  .|.|||.|  .|||||.|||||..|.|||  |.||
+Motacilla_alb    553 GCCTTCGAGCCGGGCCGGCAGCG--CTGCCGGGTGGGACTGCTG--CCGC    598
+
+Homo_sapiens     670 T--TGGGCGCGCTGCCTCGCTATGGAGAACTCCTCCACTACCCGCAGGTC    717
+                     |  |||.||.||||||.|||||.|||||..|||||.|||||||||.||  
+Motacilla_alb    599 TGCTGGCCGGGCTGCCCCGCTACGGAGAGATCCTCAACTACCCGCCGG--    646
+
+Homo_sapiens     718 C-----CTGGAGGAGCCAGAGA------GGGAGGCGCCCCGGAGAC-TCT    755
+                     |     |.||.||.|||.|.||      |||.||||.||||..|.| || 
+Motacilla_alb    647 CGGCGGCGGGCGGGGCCGGGGAAGCGGCGGGGGGCGGCCCGATGCCGTC-    695
+
+Homo_sapiens     756 CCTGAT---GGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTATCGCC    802
+                     |.||||   |||||||.|.|..||||.|...||.||..|||||||.||.|
+Motacilla_alb    696 CTTGATGTGGGACTGCGAGGAGTTCCTGCGCCTGGGGCTGCGCTACCGGC    745
+
+Homo_sapiens     803 ACACAGCCGCCAGTCGCTCACCAAACAGGGA-CTGGATACCCATGGTGGT    851
+                     ||||.||||||.|..||||.||.|||.|.|| |||| |.||..||||||.
+Motacilla_alb    746 ACACGGCCGCCGGCGGCTCCCCGAACCGCGACCTGG-TGCCGCTGGTGGC    794
+
+Homo_sapiens     852 GGAGCTGCGTTCACGAGG-GGCTCCTGTGGGC-----AGCCCTGCTTTGA    895
+                     .||||||||    .|||| |||      ||||     .||.||||  |||
+Motacilla_alb    795 CGAGCTGCG----GGAGGCGGC------GGGCGGCGGGGCGCTGC--TGA    832
+
+Homo_sapiens     896 AACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAAC    945
+                     |.||.|||.||||||||||.||||||.|||||||.|..|||...||||||
+Motacilla_alb    833 AGCGAGAGTACTTCCAGGTGCTGGTGCGGATCCGCGCCGGGAGTGAGAAC    882
+
+Homo_sapiens     946 ACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCA    995
+                     ...||.|||||.|||||.|||.||||.|||.|||||||||||||||||||
+Motacilla_alb    883 GTGGCCCCCAAACCCAGCTTCTTGGCTATGCTGATGATGGAGGTGGACCA    932
+
+Homo_sapiens     996 GTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTG   1045
+                     ||||||.||.||.||.||.||.||.|||||||||.||||.||||||||.|
+Motacilla_alb    933 GTTTGTGCTCACCGCTCTCACGCCTGACATGCTGTCAGCTGAGGATGCAG    982
+
+Homo_sapiens    1046 AGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCT   1095
+                     ||||.||..|.||.|||.||.||||||||.|.||.|||||.||....|||
+Motacilla_alb    983 AGTCGCCGCCCGATCTGCTGCTCTTCAACATCACCTCTCCCTTTGGTCCT   1032
+
+Homo_sapiens    1096 GGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTCCTC   1145
+                     |||||.|||.||.||||.|||||.||.||.||.|||.||||..|..||||
+Motacilla_alb   1033 GGCCAAGGCCACATGGTCAGCACGGACGACCGGAGCTTGCCTGTCACCTC   1082
+
+Homo_sapiens    1146 CTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCC-CCCT   1194
+                     .||||..|||.|||||.|||||...|||...||||||||.||||| |||.
+Motacilla_alb   1083 TTTCAGCCAGCGGGATGTGCGGGAGCTGCGCATTGCCTATCAGCCACCCA   1132
+
+Homo_sapiens    1195 TCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAGT   1244
+                     | .||.||||||||.|.||||.|.||||||||.||.|||.||||.||..|
+Motacilla_alb   1133 T-GGAGGACTCTGATCGGGAGAGGCTCTTTGAGCTTGAACTGGAAGTGTT   1181
+
+Homo_sapiens    1245 GGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTGA   1294
+                     |||.|.|||.||.||.||.|||||.||.|||||||||.||.|.|||||||
+Motacilla_alb   1182 GGACCCAGAGGGTGCTGCCTCAGAGCCCTTTGCCTTCGTGATTGTGGTGA   1231
+
+Homo_sapiens    1295 AGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTATT   1344
+                     |||||||||||||..||||.||.|||||.|||||.||.||.|||||..|.
+Motacilla_alb   1232 AGCCCATGAACACCCTGGCACCCGTGGTGACCCGCAACACTGGTCTCGTG   1281
+
+Homo_sapiens    1345 CTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGG---CAGTGG   1391
+                     |||||||||||.|||||..||||.|||.|.||||   ||||   |||   
+Motacilla_alb   1282 CTCTATGAGGGGCAGTCAAGGCCTCTCTCGGGCC---CAGGTCCCAG---   1325
+
+Homo_sapiens    1392 TCCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCA-GTGCGG   1440
+                      ||.|  |||.||||..||||.||||||||||||||.| |||| ||||||
+Motacilla_alb   1326 -CCCC--AACCTGGTGGTCAGTGATGAGGATGACCTTG-AGCAGGTGCGG   1371
+
+Homo_sapiens    1441 CTAGAG-GTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTG   1489
+                     .| ||| ||||||||.|||||..|||||||.||||   |||.||      
+Motacilla_alb   1372 GT-GAGTGTGGTGGCAGGGCTGAGGCATGGCCACC---TCACTC------   1411
+
+Homo_sapiens    1490 CTTCCAGTGG---------CAG--CTCTGCTCCC-------AAGAGCTTT   1521
+                       |||  |||         |||  | |||||.||       ||.| ||||
+Motacilla_alb   1412 --TCC--TGGAGGACACCCCAGGAC-CTGCTACCCCTCGTAAACA-CTTT   1455
+
+Homo_sapiens    1522 ACAGTGGCTGAGCTGGCAGCCGGCCAG-GTGGTCTACCAGCATGATGACA   1570
+                     ||||||||||||||||||||.|| ||| ||..|.||||||||.||.|..|
+Motacilla_alb   1456 ACAGTGGCTGAGCTGGCAGCAGG-CAGAGTTATTTACCAGCACGACGGTA   1504
+
+Homo_sapiens    1571 GAGACGGCT-CGCTGAGCGACAACCTGGTGCTTCGCATGGTGGATGGAGG   1619
+                     |.|| |.|| |.||.||.||||||||.|||||.||..|||..|||||.||
+Motacilla_alb   1505 GCGA-GTCTCCACTCAGTGACAACCTTGTGCTGCGGCTGGAAGATGGTGG   1553
+
+Homo_sapiens    1620 AGGCAGGCACCAGGTACAGTTTCTGTTCCCCATCACCTTAGTGCCTGTGG   1669
+                     .....|.||||..||..||||.||.||||||||.|||.|.|||||....|
+Motacilla_alb   1554 CTCTCGCCACCGTGTTGAGTTCCTTTTCCCCATTACCCTGGTGCCCACTG   1603
+
+Homo_sapiens    1670 ATGACCAGCCACCTGTTCTCAATGCCAACACGGGGC-TGACACTGGCAGA   1718
+                     |||||||||||||..|.||||||||.|||||.|||| ||.|| ||||.||
+Motacilla_alb   1604 ATGACCAGCCACCCCTGCTCAATGCTAACACAGGGCTTGCCA-TGGCTGA   1652
+
+Homo_sapiens    1719 GGGTGAAACAGTGCCCATCCTGCCCCTTTCCCTGAGTGCAACTGACATGG   1768
+                     |||||||||||||||||||....|||.|.|.||.|||||.||||||||.|
+Motacilla_alb   1653 GGGTGAAACAGTGCCCATCACCACCCGTGCTCTTAGTGCCACTGACATTG   1702
+
+Homo_sapiens    1769 ATTCAGATGATTCTCTGCTGCTTTTTGTGC----TGGAGTC---ACCCTT   1811
+                     |.||..|.|||.|..|.|||||.||    |    |||||||   .|||  
+Motacilla_alb   1703 ACTCGCAGGATGCCATCCTGCTCTT----CACAGTGGAGTCTGGCCCC--   1746
+
+Homo_sapiens    1812 CTTAACTACGGGGCATCTGCTTCTCCGCCAAACTCACCCTCCCCATG---   1858
+                         ||..|.|||||.||.||.|||||.||..|.||.||.||.|.||   
+Motacilla_alb   1747 ----ACGGCTGGGCAGCTCCTGCTCCGTCAGGCACAGCCACCTCCTGGCT   1792
+
+Homo_sapiens    1859 -------------AGAAGCAGGA--ACTTCTCAGAGGCCTTTGGAGGAAG   1893
+                                  ||||| ||||  .|||.||        ||||||||||
+Motacilla_alb   1793 GGGAAGAGGAGGAAGAAG-AGGAGGGCTTTTC--------TTGGAGGAAG   1833
+
+Homo_sapiens    1894 G-------------AGGGGG------CATTTTATGAGCGAA---CAGTGA   1921
+                     |             ||||.|      || |.|||||   ||   ||||||
+Motacilla_alb   1834 GTGCCAGGTGTAGCAGGGAGTTCCCTCA-TCTATGA---AAAGCCAGTGA   1879
+
+Homo_sapiens    1922 CAGAGTGGCAGCAGCAGGACAT-----AACAGAGGGCAGGCTGTTCTATA   1966
+                     .||||||||.|||.||||||||     |    ||||| |.||.||.||..
+Motacilla_alb   1880 GAGAGTGGCTGCAACAGGACATTGTGGA----AGGGC-GTCTCTTTTACC   1924
+
+Homo_sapiens    1967 GACACTCTGGGCCCCATAGTCCTGGGCC------AGTCACAGACCAGTTC   2010
+                     ..||||.||||.|.||.||.|||||.||      .||....|||||||||
+Motacilla_alb   1925 ACCACTTTGGGGCTCACAGCCCTGGCCCTGGGGTTGTGTTGGACCAGTTC   1974
+
+Homo_sapiens    2011 ACATTTAGAGTCCAGGATAACCATGACCCTCCTAATCAGTCCGGGCTACA   2060
+                     |..|||||||||||||||.||.||||.|||||.||.|..||.||.|.|||
+Motacilla_alb   1975 ATCTTTAGAGTCCAGGATGACAATGATCCTCCCAACCGCTCTGGACCACA   2024
+
+Homo_sapiens    2061 GCGGTTTGTGATTCGTATCCATCCTGTGGA-----TCGCCTCCCTCCGGA   2105
+                     |...||||||||..|..|.||||||||.||     |.|||     ||.||
+Motacilla_alb   2025 GACTTTTGTGATCAGGGTACATCCTGTAGACAGATTAGCC-----CCAGA   2069
+
+Homo_sapiens    2106 GCTGGGCAGTGGCTGTCCCCTTCGT---ATGGTGGTACAGGAATCCCAGC   2152
+                     |||....|||.||.|..||||.|.|   ||.||.|.|.||.|   .|||.
+Motacilla_alb   2070 GCTCCATAGTAGCAGCACCCTGCATTTAATCGTTGCAGAGCA---GCAGG   2116
+
+Homo_sapiens    2153 TCACACCACTG---AGGAAGAAGTGGCTGCGCTACACTGACCTGGACACA   2199
+                     |.||.||.|||   ||||||.|.|   ||.|.|||||.||||.||||.||
+Motacilla_alb   2117 TGACCCCCCTGCGCAGGAAGCACT---TGTGTTACACAGACCAGGACTCA   2163
+
+Homo_sapiens    2200 GATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACAGA   2249
+                     |..|||||.||.||.||.||||||||.|..|||||.|||||.|||||.||
+Motacilla_alb   2164 GGGGACCGTGAGCTTCGCTACACAGTTATCCAGCCTCCCACTGACACTGA   2213
+
+Homo_sapiens    2250 CGAAAATCACCTGCC------------AGCCCCACTGGGTACCTTGGTCT   2287
+                     |...||.||||..||            |||.|..||.||..||.|.||..
+Motacilla_alb   2214 CTCCAACCACCCTCCTGAGGCTTATGGAGCACGCCTTGGATCCCTCGTGC   2263
+
+Homo_sapiens    2288 TGACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATC   2337
+                     |||||||..|.|.|||.||.|..||.||.|||||.|||||||||||||||
+Motacilla_alb   2264 TGACTGAGGATCACTCTGTGGAAGTTACGCATTTCACCCAAGCCCAGATC   2313
+
+Homo_sapiens    2338 AACCATCATAAAATTGCTTACAGACCCCC---GGGTCAAGAACTGGGCGT   2384
+                     ||||||||.||.||..|||||.|.|||||   ||   |.||.|||||.||
+Motacilla_alb   2314 AACCATCACAAGATCTCTTACCGTCCCCCACAGG---AGGAGCTGGGGGT   2360
+
+Homo_sapiens    2385 GGCTACTC----GAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCT   2430
+                     ||||.|||    ||.|    |||||.||||..||.|||.||||...||||
+Motacilla_alb   2361 GGCTCCTCATTTGATT----CAGTTTCAGTATCAAGTGCAAGATGCAGCT   2406
+
+Homo_sapiens    2431 GGGAATGTGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAA   2480
+                     ||.||||..||...|||.||.||.|||.|.|||.||||.||.|||||.||
+Motacilla_alb   2407 GGCAATGCAGCCAAAGGGACTTTCACCATCTACCTGCAGCCTGTGGATAA   2456
+
+Homo_sapiens    2481 CCAGCCACCTGAGATC-CTCAACACCGGCTTCACTATTCAGGAGAAGG-G   2528
+                     |||.||.||.||.||| || ||.||.|||||||||.|.|..|||  || |
+Motacilla_alb   2457 CCAACCCCCCGAAATCACT-AATACTGGCTTCACTTTGCCTGAG--GGAG   2503
+
+Homo_sapiens    2529 TCA-CCACATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACT   2577
+                     .|| |||..||||.|||...||.|||.||.|.|..|.|||....||||||
+Motacilla_alb   2504 GCAGCCATGTCCTTAGTCCAACTGAGCTGGATGCCAGTGACACGGACACT   2553
+
+Homo_sapiens    2578 GATGTTGCCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCA   2627
+                     ||..|||.||.|.||...||.|..||.||.|||||.||.....|||||||
+Motacilla_alb   2554 GAACTTGGCCGTCTCAGATTTATCCTGACCCAGGCTCCTCGGTATGGCCA   2603
+
+Homo_sapiens    2628 CATG-AGAGTGTCTGG--ACAGATCCTGCATGTAGGGGGTCTCTTCCACT   2674
+                     ..|| || .|.|||||  ||||  .|||..|..|||.||..||||...|.
+Motacilla_alb   2604 GTTGCAG-CTCTCTGGGTACAG--TCTGGTTCCAGGAGGCATCTTTGGCC   2650
+
+Homo_sapiens    2675 TGGAGGACATAAAACAGGGCCGAGTTTCCTATGCCCATAATGGGGACAAG   2724
+                     |||||||.||.|.|||.||..|.||..|.||||..||.|.|||.|...||
+Motacilla_alb   2651 TGGAGGATATCAGACAAGGGAGGGTGGCGTATGTGCACAGTGGAGCTGAG   2700
+
+Homo_sapiens    2725 TCCCTGACTGATAGCTGC-TCCTTGGAAGTCAGTGACAGACATCATGTGG   2773
+                     .||...|.|||||.|||| ..||| ||.||.|||||..|...||||.|.|
+Motacilla_alb   2701 ACCAGCAGTGATACCTGCAGGCTT-GATGTGAGTGATGGGGTTCATTTTG   2749
+
+Homo_sapiens    2774 TGCCCATCACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGAAGTGCCC   2823
+                     ||||||||||.||.|.|.|.|.|||.|..|||||.||||||||.||.||.
+Motacilla_alb   2750 TGCCCATCACACTGAAAATGAGTGTGCACCCAGTTGATGATGAGGTTCCT   2799
+
+Homo_sapiens    2824 ATACTGAGCCATCCTACTGGCACTCTGGAGTCCTATCTAGATGTCTTAGA   2873
+                     |.|||..|.|.|||..|.||||||||.|..|||||.||.|||||..|.||
+Motacilla_alb   2800 ACACTACGACTTCCCCCAGGCACTCTTGGTTCCTACCTCGATGTGCTGGA   2849
+
+Homo_sapiens    2874 AAATGGGGCTACTGAAATCACTGCCAATGTTATTAAGGGGACCAATGAGG   2923
+                     .|||||.|||.|||||||||||||.|||||.|||.||||.||..||||||
+Motacilla_alb   2850 GAATGGTGCTGCTGAAATCACTGCTAATGTCATTCAGGGCACAGATGAGG   2899
+
+Homo_sapiens    2924 AAACTGATGACTTGATGTTGACTTTCCTCTTGGAAGATCCACCTTTGTAT   2973
+                     |.||.||||||||.||||||||.|||.|..|.||.|||||.|||..|.||
+Motacilla_alb   2900 ATACAGATGACTTTATGTTGACCTTCATTGTAGAGGATCCTCCTCGGCAT   2949
+
+Homo_sapiens    2974 GGGGAAATCTTGG-TCAATGGCATTCCAGCAGAGCAGTTTACTCAAAGGG   3022
+                     |||...|||.||| |||| ||..|.||.||||||..||||.|.||.||.|
+Motacilla_alb   2950 GGGAGCATCCTGGTTCAA-GGGGTGCCTGCAGAGAGGTTTTCCCAGAGAG   2998
+
+Homo_sapiens    3023 ACATCTTGGAGGGCTCTGTTGTATATACCCACACCAGTGGTGAGATAGGC   3072
+                     |..|.|||||.||..||||.||||||.|.||||||.||||.||.||||||
+Motacilla_alb   2999 ATCTGTTGGATGGTGCTGTGGTATATGCTCACACCGGTGGCGAAATAGGC   3048
+
+Homo_sapiens    3073 CTATTGCCTAAAGCGGATTCTTTTAACCTGAGTCTGTCAGATATGTCTCA   3122
+                     ||..||||.||||.||||.||||.|||||.|...||||.||..|.||| .
+Motacilla_alb   3049 CTTCTGCCCAAAGAGGATGCTTTCAACCTTACCTTGTCTGACCTCTCT-G   3097
+
+Homo_sapiens    3123 AGAA-TGGAGAATTGGTGGCAATACTATCCAAGGAGTTACTATATGGGTG   3171
+                     |||| |||.|..||.|.||||||..|.|.|||||||||.|..|.|.||||
+Motacilla_alb   3098 AGAAGTGGCGTGTTAGGGGCAATGTTGTTCAAGGAGTTTCAGTCTTGGTG   3147
+
+Homo_sapiens    3172 ACCATCCTGCCTGTTGATAGCCAGGCCCCAGAAATCTTTGTAGGTGAACA   3221
+                     |||||.||.||||||||.||.||.||.||||||||.|||||.||.||.||
+Motacilla_alb   3148 ACCATTCTACCTGTTGACAGTCAAGCTCCAGAAATTTTTGTGGGGGAGCA   3197
+
+Homo_sapiens    3222 GTTGATAGTAATGGAAGGTGATAAAAGTGTTATAACATCAGTG--CATAT   3269
+                     |||.||.||.|.|||||||||.|||||.||.||.|| || .||  ||..|
+Motacilla_alb   3198 GTTCATGGTGACGGAAGGTGACAAAAGGGTCATTAC-TC-TTGCTCACCT   3245
+
+Homo_sapiens    3270 AAGTGCTGAAGATGTCGACTCCCTGAATGATGACATCTTGTGCACTATAG   3319
+                     .||.|||||||||||.||..|||..|..|||||.||..|.|||||.||.|
+Motacilla_alb   3246 CAGGGCTGAAGATGTGGATACCCCTAGCGATGATATACTATGCACAATTG   3295
+
+Homo_sapiens    3320 TTATTCAGCCTACTTCAGGTTATGTTGAAAACATTTCTCCAGCACCAGGC   3369
+                     ||..||||||.||.||.||.|||||.||.|||||.|||||.||.|||||.
+Motacilla_alb   3296 TTGCTCAGCCCACATCTGGGTATGTAGAGAACATCTCTCCTGCCCCAGGA   3345
+
+Homo_sapiens    3370 TCTGAGAAATCAAGAGCAGGGATTGCCATAAGTGCTTTCAACTTGAAAGA   3419
+                     |||||.|||||.||.|||||..||||.|||||||||||.|.||||||.||
+Motacilla_alb   3346 TCTGAAAAATCCAGGGCAGGTGTTGCTATAAGTGCTTTTACCTTGAAGGA   3395
+
+Homo_sapiens    3420 TCTCAGGCAGGGCCACATAAACTATGTCCAGAGTGTCCATAAAGGGGTGG   3469
+                     .|||.|.||.||.|||||....||||||||||||.|.|||||.||.||.|
+Motacilla_alb   3396 CCTCCGTCAAGGGCACATTTTTTATGTCCAGAGTATACATAAGGGTGTAG   3445
+
+Homo_sapiens    3470 AACCTGTGGAGGACCGATTTGTATTTCGTTGTTCTGATGGCATTAACTTT   3519
+                     |.|||||.||.|||.|.||||..||.||.|||||||||||||||||||||
+Motacilla_alb   3446 AGCCTGTTGAAGACAGGTTTGCTTTGCGCTGTTCTGATGGCATTAACTTT   3495
+
+Homo_sapiens    3520 TCAGAGAGACAGTTCTTCCCCATTGTAATCATTCCCACCAATGATGAACA   3569
+                     ||..||||.||.||||||||||||.|.||..|.||.|.||||||.|||.|
+Motacilla_alb   3496 TCCCAGAGGCACTTCTTCCCCATTTTTATTGTGCCAATCAATGACGAAGA   3545
+
+Homo_sapiens    3570 GCCAGAGATGTTTATGAGAGAATTTATGGTGATGGAAGGCATGAGTCTGG   3619
+                     |||.||.||.||..||.|.||.|||.|.|||||||||||||||||.||||
+Motacilla_alb   3546 GCCTGAAATCTTCCTGCGCGAGTTTGTTGTGATGGAAGGCATGAGCCTGG   3595
+
+Homo_sapiens    3620 TAATTGATACACCCATTCTCAATGCTGCTGATGCTGATGTTCCCCTG--G   3667
+                     |.||||||||.||.||.||||||||.|.||||||.|||||  |||.|  |
+Motacilla_alb   3596 TGATTGATACCCCTATCCTCAATGCGGTTGATGCAGATGT--CCCAGCTG   3643
+
+Homo_sapiens    3668 ATGATTTAACTTTCACTATTACCCAATTCCCCACTCATGGTCACATCATG   3717
+                     |||..|||||.|||||.||.|||....|.||||..||.||.|||||..||
+Motacilla_alb   3644 ATGGGTTAACATTCACAATCACCAGGCTTCCCAGGCACGGCCACATTGTG   3693
+
+Homo_sapiens    3718 AATCAGCTGATAAATGGCACGGTTTTGGTCGAAAGCTTCACCTTGGATCA   3767
+                     ||.||||||.|.|||||.||.||..|.||.|..||||||||.||||||||
+Motacilla_alb   3694 AACCAGCTGGTCAATGGAACTGTCCTAGTAGGGAGCTTCACTTTGGATCA   3743
+
+Homo_sapiens    3768 GATCATAGAGAGTTCCAGCATTATTTATGAGCATGATGACTCCGAGACCC   3817
+                     |||.|.||||||.||||.||||.|.||.||.|||||||||||.||||||.
+Motacilla_alb   3744 GATAACAGAGAGCTCCAACATTCTCTACGAACATGATGACTCTGAGACCA   3793
+
+Homo_sapiens    3818 AGGAAGACAGTTTTGTGATTAAACTAACAGATGGGAAGCACTCTGT--GG   3865
+                     .||..||||||||||.|.|..||||..|||||||.||.|||.||||  ||
+Motacilla_alb   3794 GGGCGGACAGTTTTGAGGTGCAACTCTCAGATGGTAAACACACTGTTAGG   3843
+
+Homo_sapiens    3866 AAAAGACGGTCCTCATTATAGTTATCCCTGTTGATGATGAGACGCCCAGA   3915
+                     |||  |.|||.|..||.||.|||||.|||||.|||||||||||.||||||
+Motacilla_alb   3844 AAA--ATGGTACCGATCATGGTTATTCCTGTAGATGATGAGACACCCAGA   3891
+
+Homo_sapiens    3916 ATGACTATCAATAATGGACTAGAAATAGAAATTGGGGATACCAAGATTAT   3965
+                     |||.|.||||||.||||.||.||.||.|||||.|||||.||.|..|.|||
+Motacilla_alb   3892 ATGGCCATCAATGATGGTCTGGAGATTGAAATAGGGGAAACTAGAACTAT   3941
+
+Homo_sapiens    3966 CAACAACAAAATATTAATGGCAACAGATTTAGATTCAGAAGACAAATCTT   4015
+                     .||..|||.||||||.|.|||.||.|||.|.|||||.|||||||||.|.|
+Motacilla_alb   3942 TAATGACAGAATATTGAAGGCTACTGATCTTGATTCTGAAGACAAAACCT   3991
+
+Homo_sapiens    4016 TGGTTTATATTATTCGTTATGGGCCAGGACATGGCTTATTACAGAGACGA   4065
+                     ||...||.|||||...|||||||||||||||.|||.|.|||||||||..|
+Motacilla_alb   3992 TGACATACATTATAACTTATGGGCCAGGACAAGGCCTCTTACAGAGAATA   4041
+
+Homo_sapiens    4066 AAACCTACTGGTGCCTTTGAAAATATCACACTGGGCATGAATTTTACCCA   4115
+                     ||.|||.|.||||...|||||||||||||.|.|||.|||||.||.|||||
+Motacilla_alb   4042 AAGCCTTCAGGTGGAGTTGAAAATATCACCCGGGGAATGAACTTCACCCA   4091
+
+Homo_sapiens    4116 GGATGAAGTAGACAGAAACTTAATTCAGTATGTCCATTTGGG---GCAA-   4161
+                     .||||||||.||.|||||.||.||||.||||||.|||||.||   |||| 
+Motacilla_alb   4092 AGATGAAGTGGATAGAAATTTTATTCGGTATGTGCATTTTGGCCAGCAAG   4141
+
+Homo_sapiens    4162 GAGGGCATTCGGGACCTAATTAAATTTGATGTGACTGATGGAATAAATCC   4211
+                     |||    ||||.||.||.||.||.|||||||||||.||||||||||||||
+Motacilla_alb   4142 GAG----TTCGTGATCTTATCAAGTTTGATGTGACAGATGGAATAAATCC   4187
+
+Homo_sapiens    4212 CCTCATAGATCGTTACTTTTATGTGTCCATCGGGAGCATTGACATTGTCT   4261
+                     .|||||.||.||.||||||||||||.|.||.||.||||||||.|||||||
+Motacilla_alb   4188 TCTCATTGACCGCTACTTTTATGTGACGATAGGCAGCATTGATATTGTCT   4237
+
+Homo_sapiens    4262 TCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAGAAGGTGGCAAAGTC   4311
+                     ||||.|||||.||.||.||.|||||.||..||||.|||||.||.||.||.
+Motacilla_alb   4238 TCCCAGATGTCATCAGCAAAGGAGTTTCTCTGAAGGAAGGAGGGAAGGTG   4287
+
+Homo_sapiens    4312 ACTCTTACAACAGACCTACTAAGCACTAGTGACTTGAACAGTCCTGATGA   4361
+                     ||.|||||.||.||..|.||.||.||.||||||.||||.|||||.|||||
+Motacilla_alb   4288 ACCCTTACTACTGATTTGCTTAGTACCAGTGACCTGAATAGTCCAGATGA   4337
+
+Homo_sapiens    4362 AAACTTGGTTTTTACCATCACCAGGGCTCCCATGCGAGGTCACCTGGAAT   4411
+                     .|||||.|||||.|||||.|||||..|.||..|.||.|||||.||.||||
+Motacilla_alb   4338 GAACTTAGTTTTCACCATTACCAGACCACCTGTTCGTGGTCATCTTGAAT   4387
+
+Homo_sapiens    4412 GCACGGATCAGCCTGGTGTGTCCATCACGTCTTTCACTCAGCTGCAACTG   4461
+                     ||||.||||||||.||.||..|||||.|..||||||||||.||.|...|.
+Motacilla_alb   4388 GCACAGATCAGCCCGGGGTACCCATCTCCACTTTCACTCAACTCCTGTTA   4437
+
+Homo_sapiens    4462 GCTGGAAACAAAATCTACTACATCCACACAGCTGATGATGAAGTGAAAAT   4511
+                     ||.|||||.||||||||.|||||.||.||..|.||.|||||.||||||||
+Motacilla_alb   4438 GCAGGAAATAAAATCTATTACATTCATACTTCAGAAGATGAGGTGAAAAT   4487
+
+Homo_sapiens    4512 GGACAGTTTTGAGTTTCAAGTCACCGATGGACGTAACCCTGTCTTTCGGA   4561
+                     ||||||.|||||||||.|.||.||.|||||...|||||||||.|||||.|
+Motacilla_alb   4488 GGACAGCTTTGAGTTTGAGGTGACTGATGGCTATAACCCTGTGTTTCGTA   4537
+
+Homo_sapiens    4562 CATTCCGTATCTCCATTAGCGATGTGGACAATAAAAAGCCAGTGGTCACC   4611
+                     |.||..|.||.||.||.||.||||||||||||||.||.||.||.|||||.
+Motacilla_alb   4538 CCTTTAGAATTTCTATCAGTGATGTGGACAATAAGAAACCTGTTGTCACA   4587
+
+Homo_sapiens    4612 ATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACAAGCTGATTACTCCTTT   4661
+                     |||||.||.|||||.||.|||||||.||||.||||.|||||.||.||.||
+Motacilla_alb   4588 ATCCATAACCTGGTGGTGAGTGAAAATGAATACAAACTGATAACCCCATT   4637
+
+Homo_sapiens    4662 TGAGCTCACTGTCGAAGACAGAGATACTCCTGA--CAAGCTCCTGAAATT   4709
+                     |||.||.||||..||||||||||||||.|||||  ||  ||.||.|||||
+Motacilla_alb   4638 TGAACTGACTGCAGAAGACAGAGATACACCTGATGCA--CTGCTAAAATT   4685
+
+Homo_sapiens    4710 CACTATCACCCAGGTGCCTATTCATGGCCATCTCCTATTCAACAATACCA   4759
+                     .|..|||||.||..|.||..||||||||||..||.|.||.||.||..|||
+Motacilla_alb   4686 TATCATCACTCAAATACCAGTTCATGGCCAGATCATGTTTAATAACTCCA   4735
+
+Homo_sapiens    4760 GACCTGTCATGGTTTTTACCAAGCAAGACTTGAATGAAAACTTAATCAGC   4809
+                     .|||.||||.....||.||.||.|||||..||||||||||..||||||||
+Motacilla_alb   4736 AACCAGTCACCACCTTCACTAAACAAGATCTGAATGAAAATCTAATCAGC   4785
+
+Homo_sapiens    4810 TACAAACATGATGGCACTGAGTCAAGTGAAGATAGCTTCTCCTTCACAGT   4859
+                     |||||||||||||||.|.||.|||..|||.||.||.|||||.|||||.||
+Motacilla_alb   4786 TACAAACATGATGGCTCAGAATCAGTTGAGGACAGTTTCTCTTTCACTGT   4835
+
+Homo_sapiens    4860 GACTGATGGCACCCATACAGACTTCTATGTTTTTCCTGATACGGTGTTTG   4909
+                     .||.||||||||.|||||.||.|||||||||||.||..|.||.|||||||
+Motacilla_alb   4836 TACAGATGGCACTCATACTGATTTCTATGTTTTCCCCAACACTGTGTTTG   4885
+
+Homo_sapiens    4910 AAACAAGGAGACCCCA-AGTGATGAAGATCCAGGTCTTGGCTGTTGACAA   4958
+                     ||||||||||.||.|| |.| ||||||||.|...|..||.||||.|||||
+Motacilla_alb   4886 AAACAAGGAGGCCTCAGACT-ATGAAGATTCGAATAATGCCTGTGGACAA   4934
+
+Homo_sapiens    4959 CAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCTC-TACACTTCGCACT   5007
+                     ||||||.||.|||.|.|.|.|.||||||||.| ||| .||.||.||...|
+Motacilla_alb   4935 CAGTGTACCTCAAGTTGTAATAAATAAGGGTG-CTCAGACTCTGCGTGTT   4983
+
+Homo_sapiens    5008 CTAGCCACTGGCCACTTGGGGTTCATGATCACAAGCAAAATATTGAAAGT   5057
+                     ||||||||.||.|||.|.|||||..||||.||.|.||||.|..|.|||||
+Motacilla_alb   4984 CTAGCCACAGGTCACATCGGGTTTCTGATTACCAACAAAGTGCTCAAAGT   5033
+
+Homo_sapiens    5058 GGAGGACAGAGACAGCTTACACATTTCTCTT-AGAT--TTATCGTGACAG   5104
+                     |||.|||||.|||||.|||||..||.||||| ||||  ..|||   ||||
+Motacilla_alb   5034 GGAAGACAGGGACAGTTTACATGTTACTCTTAAGATCAGAATC---ACAG   5080
+
+Homo_sapiens    5105 AGGCCCCTCAACATGGATATCTTC----TCAACCTGGACAAAGGCAACCA   5150
+                     |||..||.|..|||||    ||||    ||.||||||..|||||||||||
+Motacilla_alb   5081 AGGGTCCACGCCATGG----CTTCCTGATCCACCTGGGGAAAGGCAACCA   5126
+
+Homo_sapiens    5151 CAGCATCACTCAGTTCACACAAGCTGACATTGATGACATGAAAATATGCT   5200
+                     .|||||||..|||||||||||||||||.||||||||.|||||.|||||||
+Motacilla_alb   5127 TAGCATCAGCCAGTTCACACAAGCTGATATTGATGATATGAAGATATGCT   5176
+
+Homo_sapiens    5201 ATGTCTTAAGA-GAAGGGGCTAATGCCACAAGTGATATGTTCTATTTTGC   5249
+                     ||||.|||.|| |.||.|.| ||||||||.|||||.||.||..|||||..
+Motacilla_alb   5177 ATGTTTTACGAGGGAGTGAC-AATGCCACCAGTGACATTTTTCATTTTTT   5225
+
+Homo_sapiens    5250 AGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAATTTTCGTCTGA   5299
+                     .||||||||..||||.||.||.|||.|.|.|.|.||..|||||||.||.|
+Motacilla_alb   5226 GGTTGAAGACAGTGGAGGCAATAAGCTGAAGAATCAACATTTTCGCCTAA   5275
+
+Homo_sapiens    5300 ATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGGTCAATGAGGAC   5349
+                     |.|||||||||||||||||.|||||.||.||||||.|.||.|||||.|||
+Motacilla_alb   5276 ACTGGGCATGGATCTCCTTAGAAAAAGAGTATTACTTAGTAAATGAAGAC   5325
+
+Homo_sapiens    5350 TCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTACTTGGGAGAAAC   5399
+                     .||||.|.|||.|||||||||||||||||.|||||||||.||||||||||
+Motacilla_alb   5326 ACCAAGTATCTTGATGTTGTTCTTAAACGCAGAGGTTACCTGGGAGAAAC   5375
+
+Homo_sapiens    5400 TTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGAAAAAGACAAAG   5449
+                     .|||||||||||||||.||||.|.|||..|.|||||..|.|||||.||||
+Motacilla_alb   5376 CTCTTTTATAAGTATTAGCACCAAAGATGGTACTGCCAAGAAAGATAAAG   5425
+
+Homo_sapiens    5450 ACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACCCAGGCCAGACC   5499
+                     ||||||..||.|||||.|||||.||.||||||||.||.||.||.||.|||
+Motacilla_alb   5426 ACTTCAGAGGAAAAGCTCAGAAGCAGGTGCAGTTTAATCCTGGTCAAACC   5475
+
+Homo_sapiens    5500 AGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAGCATGAGCAGTC   5549
+                     ...||.|||||||||||.|||||..||||||||||.||.||||||||.||
+Motacilla_alb   5476 TTAGCTACATGGCGAGTACGGATTTTGAGTGATGGTGAACATGAGCATTC   5525
+
+Homo_sapiens    5550 TGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGC--TGCCTTGGA   5597
+                     |||..|||||||..|.||.||.||.|||||.||..||||  |.|  ||||
+Motacilla_alb   5526 TGAGTCCTTTCAAATTGTTCTTTCTGAGCCTGTCATGGCAATTC--TGGA   5573
+
+Homo_sapiens    5598 ATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAGATGAGCCAA   5647
+                     |||.||..|.|...||||.||.||.||..||||.|||||||||||..|||
+Motacilla_alb   5574 ATTTCCTGCTGCATCCACGGTGGAAATTATTGACCCAGGAGATGAATCAA   5623
+
+Homo_sapiens    5648 CTGTGTTTATTCCCCAGTCCA--AATACTCCGTTGAAGAAGATGTTGGTG   5695
+                     |.||.||||||||.|||||||  .|||||  |||||||||||||||||||
+Motacilla_alb   5624 CAGTCTTTATTCCTCAGTCCACCTATACT--GTTGAAGAAGATGTTGGTG   5671
+
+Homo_sapiens    5696 AGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGAGTTGATG   5745
+                     |..|.||.|||||..||||.||.||.|||||||||||.|||||..|||||
+Motacilla_alb   5672 AATTATTTATTCCAGTCAGAAGAAGTGGAGATGTGAGTCAGGAACTGATG   5721
+
+Homo_sapiens    5746 GTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGCCGACTTC   5795
+                     ||..||||.||.||.|||||||||||||||.||||.||||..||.||.||
+Motacilla_alb   5722 GTCATCTGCTACACACAACAAGGAACAGCATCTGGCACTGCCCCAACCTC   5771
+
+Homo_sapiens    5796 CGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCACACCAGTG   5845
+                     .||..|.||.||||||||.||||||||||||||.||||||||||.|||.|
+Motacilla_alb   5772 TGTACTTTCCTACTCTGACTACATATCCAGGCCGGAGGACCACAACAGCG   5821
+
+Homo_sapiens    5846 TTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGATAGTCATA   5895
+                     ||.||||.|||||||||||.|||||.||.|||..|||||||.|.|||||.
+Motacilla_alb   5822 TTCTCCGTTTTGACAAAGACGAACGAGAAAAAACGTGTCGGGTCGTCATC   5871
+
+Homo_sapiens    5896 ATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCCTTCTGAG   5945
+                     ||.|||||.||.|||||.||.||||..||.|||||..||||..|.|||||
+Motacilla_alb   5872 ATAGATGATTCCTTGTATGAAGAGGCTGAGACCTTTGATGTTTTGCTGAG   5921
+
+Homo_sapiens    5946 CATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCTCAAGTTA   5995
+                     ||||||||||||.||||||||.||..||||.||||||.|..|||...|||
+Motacilla_alb   5922 CATGCCCATGGGTGGAAGAATTGGTGCAGAATTCCCAAGCACTCGCATTA   5971
+
+Homo_sapiens    5996 CAATCGTTCCTGACAAAGATGATGAACC--CATCTTTTACTTCGGTGATG   6043
+                     |.||.||.||||||||.|||||||||||  ||  ||.|||||.||..|||
+Motacilla_alb   5972 CCATTGTACCTGACAAGGATGATGAACCAGCA--TTCTACTTTGGAAATG   6019
+
+Homo_sapiens    6044 TGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGGTGTGG   6093
+                     ..|||||||.|||.|||||||||||||||||..|.||.||.|..||||||
+Motacilla_alb   6020 ATGAATACTATGTTGATGAGAGTGCTGGCTACATTGAGGTCCGTGTGTGG   6069
+
+Homo_sapiens    6094 AGAACGGGCACTGACCTGTCCAA----GTCTTCTAGTGTCACAGTGAGGT   6139
+                     ||.||.||.||.||.||||||||    |.||    .||||||.|||||||
+Motacilla_alb   6070 AGGACTGGAACCGATCTGTCCAAAGCCGCCT----CTGTCACGGTGAGGT   6115
+
+Homo_sapiens    6140 CTCGGAAAACAGATCCTCCCT-----CTGCAGATGCTGGAACAGACTATG   6184
+                     |.||.||..|.||     .||     |||||||.||||||..|||.||||
+Motacilla_alb   6116 CGCGCAAGTCGGA-----GCTGGTGACTGCAGAGGCTGGAGTAGATTATG   6160
+
+Homo_sapiens    6185 TGGGCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCT   6234
+                     |.||||||||.||||||||.||||||.|.|||||||||||.||||||.|.
+Motacilla_alb   6161 TAGGCATCAGTCGTAATTTGGATTTTTCCCCTGGAGTCAATATGCAGACA   6210
+
+Homo_sapiens    6235 GTTCGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAAT   6284
+                     .|||||||..|.|||||||||||.||||||||.||||.|.|.||.||||.
+Motacilla_alb   6211 TTTCGTGTGATAATTCTGGATGATCTTGGACAGCCAGTGTTAGAAGGAAC   6260
+
+Homo_sapiens    6285 TGAGAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCG   6334
+                     .|||||.|||||.||.|||||..|.|||||.|||||.||.||||||||.|
+Motacilla_alb   6261 AGAGAAGTTTGAGCTTGTGCTAAGGATGCCCATGAATGCTGCCCTTGGAG   6310
+
+Homo_sapiens    6335 AGCCCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCT   6384
+                     |.||||||||..||||..|.|.|||.||||||||.||.||.||||||||.
+Motacilla_alb   6311 AACCCAGCAAGACCACCATCTTCATTAATGACTCAGTGTCTGATTTGCCA   6360
+
+Homo_sapiens    6385 AAGATGCAATTCAAAGAA--CGAATATATACTGGCAGCGAAAGTGATGGG   6432
+                     ||||||||.||.||||||  .|..||.|||  |.||..||||.|||||||
+Motacilla_alb   6361 AAGATGCAGTTTAAAGAATCTGTGTACATA--GCCAATGAAAATGATGGG   6408
+
+Homo_sapiens    6433 CAGATAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCTTC   6482
+                     |||.|...|.|.|||||..||||||.|||||||.|||..||||.|||..|
+Motacilla_alb   6409 CAGGTTTCTGCCATGATATATAGGAGTGGGGATATCCGATACACATCCAC   6458
+
+Homo_sapiens    6483 AGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTG   6532
+                     .|||||||||||.||..||||.||.||.||.|||||.|||||||||||||
+Motacilla_alb   6459 TGTGAGATGCTATACAAGGCAAGGTTCGGCTCAGGTTATGATGGACTTTG   6508
+
+Homo_sapiens    6533 AAGAACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTGAG   6582
+                     |||||||.||.||.|||||.|..|||||||||||||||||.||||||||.
+Motacilla_alb   6509 AAGAACGTCCTAATACTGACAGTTCCATCATCACATTCCTTCCTGGTGAA   6558
+
+Homo_sapiens    6583 ACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATGTGCTCTATGAGGA   6632
+                     ||.||.|||||.||||..||.|.|||.|.|||.|||....||.|||||||
+Motacilla_alb   6559 ACTGAGAAGCCTTGCACGCTGGTGCTTACGGATGATACTTTCCATGAGGA   6608
+
+Homo_sapiens    6633 GGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCCT   6682
+                     ||..||.||.||.||||||||.||.|||||||||.||||..|.|||.|||
+Motacilla_alb   6609 GGAGGAAGAACTACGCCTGGTTCTTGGCACTCCAAAAAGTGATTCTTCCT   6658
+
+Homo_sapiens    6683 TTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAGAT   6732
+                     ||||.||..|..||||.||.|||||.||.||.||.||||.|||||..|||
+Motacilla_alb   6659 TTGGTGCCTCTATTGGCGAGCAAAACGAGACGCTGATAAAGATCCAGGAT   6708
+
+Homo_sapiens    6733 GATGCTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCAC   6782
+                     |||||.||.|||.||.|.|||||||||||.||.||||||||||||||.|.
+Motacilla_alb   6709 GATGCAGACAAGGCTATCATTAAATTTGGTGAGACCAAATTTAGTGTGAG   6758
+
+Homo_sapiens    6783 TGAACCCAAAGA-ACCTGGAGAGTCG-----GTGGTTATAAGAATTCCAG   6826
+                     ||||||.||.|| ||..||..|||.|     |||      |.|||.||||
+Motacilla_alb   6759 TGAACCAAAGGACACAAGGCAAGTAGCAATTGTG------AAAATCCCAG   6802
+
+Homo_sapiens    6827 TGATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACC   6876
+                     ||.||||.|..|||||||||||.||..||||..||||.|||||.||.||.
+Motacilla_alb   6803 TGCTTCGTCTGGGAGACACTTCCAAACTTTCTGTTGTAAGAGTTCATACA   6852
+
+Homo_sapiens    6877 AAGGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGA   6926
+                     ||||||||.||.||.||.||||||||||||||.||||||.|.||||||||
+Motacilla_alb   6853 AAGGATGGATCTGCTACTTCTGGAGAAGACTATCACCCTATATCAGAAGA   6902
+
+Homo_sapiens    6927 AATTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTA   6976
+                     |||||||||.|||||.||.|||||.||||||.|.||.||.||.||||||.
+Motacilla_alb   6903 AATTGAGTTCAAGGAGGGTGAAACACAGCACTTTGTGGAGATTGAAGTTC   6952
+
+Homo_sapiens    6977 CCTTTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAA   7026
+                     .||||||.||..|.||.|||||||||||.|||||||||||.|||||.||.
+Motacilla_alb   6953 TCTTTGATGGAATAAGGGAGATGAGAGAAGCCTTCACTGTCCACCTGAAG   7002
+
+Homo_sapiens    7027 CCTGATGAAAATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTA   7076
+                     ||||||||.||.|||.|.|||||.||.|||....|.||.||||||||.||
+Motacilla_alb   7003 CCTGATGAGAACATGGTTGCAGAAATACAGACAGCCAAGGCCATTGTTTA   7052
+
+Homo_sapiens    7077 CATAGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTC   7126
+                     |||.||||||||||.||||||||||||||||||.|||||.||||||||||
+Motacilla_alb   7053 CATTGAAGAAATGAACAGCATGGCAGATGTCACATTTCCCTCTGTCCCTC   7102
+
+Homo_sapiens    7127 AAATTGTATCCCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGT   7176
+                     ||.|||.|||.||||||||.|||||.||.|||||.|||||.||.||.|  
+Motacilla_alb   7103 AAGTTGCATCTCTGTTGATATATGATGATACTTCTAAAGCCAAAGACA--   7150
+
+Homo_sapiens    7177 GCTGAA------CCCATGTCTGGCTATCCTGTCATCTGTATCACAGCTTG   7220
+                         ||      |||||..||||||||||||||||||||||||||||.||
+Motacilla_alb   7151 ----AAACCAGTCCCATTGCTGGCTATCCTGTCATCTGTATCACAGCCTG   7196
+
+Homo_sapiens    7221 CAACCCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGTGCAAGTG   7270
+                     .||.||.||.||...|||||..||.||.||.||.|||||.|||||.||||
+Motacilla_alb   7197 TAATCCTAAGTACGAAGACTTTGACAAGACTGGTTCTATATGTGCCAGTG   7246
+
+Homo_sapiens    7271 AGAACATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGTGCACCT   7320
+                     |||.||||||..|.|||.||||||.||||||||||||..|.|||||.||.
+Motacilla_alb   7247 AGAGCATCAACAATACTCTGACGCAGTACCGGTGGCTCGTAAGTGCCCCC   7296
+
+Homo_sapiens    7321 GCGGGCCCTGACGGTGTGACCAGCCCTATGAGAGAAGTGGACTTCGACAC   7370
+                     .|.|||||.||.|||||||||||.||.||||..||.||.|||||||||||
+Motacilla_alb   7297 ACTGGCCCCGATGGTGTGACCAGTCCCATGAAGGAGGTTGACTTCGACAC   7346
+
+Homo_sapiens    7371 CTTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATATACTTTC-AG   7419
+                     |||.||.||.||.||.||||||.|.|||||.||||||||.||||||| ||
+Motacilla_alb   7347 CTTCTTCACTTCCTCTAAGATGATTACACTTGACTCCATTTACTTTCAAG   7396
+
+Homo_sapiens    7420 CCTGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAATGGGGA   7469
+                     || ||.||.||.||.|||||.||||||||.||||||||..|..|||||.|
+Motacilla_alb   7397 CC-GGTTCTCGTGTCCAGTGTGCAGCTCGGGCTGTGAATTCAGATGGGAA   7445
+
+Homo_sapiens    7470 TGAAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGAAGAAG   7519
+                     |||.||.||.|||||.||||||||||||||.||.||.||||.|...||||
+Motacilla_alb   7446 TGAGGGTCTTGAGCTTATGAGCCCTATTGTCACTATAAGCACATCTGAAG   7495
+
+Homo_sapiens    7520 GTCTTTGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCA   7569
+                     |||||||||||||.|||.||.|.||.||.||||||||||||||.|||||.
+Motacilla_alb   7496 GTCTTTGTCAGCCTCGTATATCAGGAGTAGTTGGAGCAGAGCCATTCTCT   7545
+
+Homo_sapiens    7570 GCTAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAAACCTTAT   7619
+                     ||.|||.||||||||||.|||||.||.|||.|.|||||..|.|||||.||
+Motacilla_alb   7546 GCCAAACTGCGCTACACTGGCCCAGAAGATCCTGACTATGCCAACCTCAT   7595
+
+Homo_sapiens    7620 CAAGCTCACTGTCACAATGCCACACATAGATGGCATGCTCCCCGTGATCT   7669
+                     |||.||.||.||||||||||||||.||.|||||||||||.||.||.||.|
+Motacilla_alb   7596 CAAACTGACAGTCACAATGCCACATATTGATGGCATGCTGCCTGTTATTT   7645
+
+Homo_sapiens    7670 CCACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGCACA   7719
+                     |.||.|||||||||||||||||||||||.||.||.|||||||||||.||.
+Motacilla_alb   7646 CTACAAGAGAGCTTTCCAACTTTGAGCTGACACTTAGCCCTGATGGAACT   7695
+
+Homo_sapiens    7720 AGAGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAAGTGAA   7769
+                     ||||||||||||||.||||||||||||||..|||||||.||.|||||.||
+Motacilla_alb   7696 AGAGTTGGAAACCATAAGTGCTCCAACCTGTTGGATTACACAGAAGTAAA   7745
+
+Homo_sapiens    7770 GACTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAATAATTG   7819
+                     |||.||..|||||||.||.||||||||||||||.||||||||..|.||||
+Motacilla_alb   7746 GACCCACCATGGTTTTTTAACTGATGCTACCAAGAATCCAGATGTGATTG   7795
+
+Homo_sapiens    7820 GAGAGACATA-TCCTTACCAGTACAGCTTGTCC----ATCAGAGGTTCCA   7864
+                     ||||||| || |||.||.|||||||||    ||    ||.|||||.|.||
+Motacilla_alb   7796 GAGAGAC-TATTCCCTATCAGTACAGC----CCAACAATTAGAGGCTTCA   7840
+
+Homo_sapiens    7865 CTACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCTGTTTATGGGAG   7914
+                     .||||||||||||||||||.|||||||||||.||.|||||.||.||||||
+Motacilla_alb   7841 ATACCTTGCGCTTCTACCGCAACCTGAACCTGGAAGCCTGCTTGTGGGAG   7890
+
+Homo_sapiens    7915 TTCGTTAGCTACTATGACATGTCAGAACTCCTTGCTGACTGTGGTGGCAC   7964
+                     |||.|||||||||||||||||||.||.|||||..|.||.|||||.|||||
+Motacilla_alb   7891 TTCATTAGCTACTATGACATGTCTGAGCTCCTCACAGATTGTGGAGGCAC   7940
+
+Homo_sapiens    7965 CATTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGTCCTATGTGACCC   8014
+                     ||||||.||.|||||||||||.||.||||||||||||||||||||.||.|
+Motacilla_alb   7941 CATTGGCACCGATGGACAGGTTCTCAACCTAGTGCAGTCCTATGTCACGC   7990
+
+Homo_sapiens    8015 TTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCCCCCGTGGGGGTA   8064
+                     |..||||||||.||||.||.||.||.||.|||||.||.||.|||||.|||
+Motacilla_alb   7991 TGAGAGTCCCTTTGTACGTCTCTTATGTTTTCCACTCTCCAGTGGGCGTA   8040
+
+Homo_sapiens    8065 GGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTCTAACTTTTGT   8114
+                     ||.||||||||||||||.|||.||.||||.|||||.||.||.||||||||
+Motacilla_alb   8041 GGGGGCTGGCAGCATTTCGACCTGCAGTCCGAGCTCCGGCTGACTTTTGT   8090
+
+Homo_sapiens    8115 GTACGACACCGCCATCTTGTGGAATGATGGAATTGGCAGCCCCCCAGAGG   8164
+                     |||.|||||.||||||.|||||||.|||||.||.||.|||||.||.||.|
+Motacilla_alb   8091 GTATGACACTGCCATCCTGTGGAAGGATGGCATCGGTAGCCCGCCTGAAG   8140
+
+Homo_sapiens    8165 CTGAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGCATCGGTGATGAG   8214
+                     |.||.||.||||||||.||.|..||.|||||||||||||||.||||.|||
+Motacilla_alb   8141 CAGAGCTCCAAGGTTCCCTGTTCCCGACCAGCATGCGCATCAGTGAAGAG   8190
+
+Homo_sapiens    8215 GGGCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTTCCATGGCTTATT   8264
+                     ||.|||.|||..||..||||||||||.||.||.|.|||.|||||..|.||
+Motacilla_alb   8191 GGACGCCTGGTTGTCAACTTCAAGACTGAAGCCCGGTTTCATGGACTGTT   8240
+
+Homo_sapiens    8265 TGTGCTGTCACATCCCGCATCCTTTACAAGCTCAG-------TGATCATG   8307
+                     |||..||||.|||||.||.||       |.|||.|       ||.|.|||
+Motacilla_alb   8241 TGTTATGTCCCATCCTGCTTC-------ATCTCTGACTTCCATGGTTATG   8283
+
+Homo_sapiens    8308 TCAGCTGATCATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGGAGTGA   8357
+                     ||||||||.||.||.|||||.||.|||..||||.|||||||..|.|||||
+Motacilla_alb   8284 TCAGCTGACCACCCGGGCCTCACTTTTAGCCTCAGCCTCATCCGAAGTGA   8333
+
+Homo_sapiens    8358 ACCAACCTATAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGACTTTG   8407
+                     .||||||||.||||.||||||.||||||||||||||..|.||.|||||.|
+Motacilla_alb   8334 GCCAACCTACAACCTGCCAGTCCAGCAGTGGAGCTTCCTTTCAGACTTCG   8383
+
+Homo_sapiens    8408 CCGTACGTGACTACTCAGGGACCTATACTGTGAAGCTGGT-GCCATG---   8453
+                     |.||.||.|||||.||.||.||.||.||.|||||||||.| ||| ||   
+Motacilla_alb   8384 CGGTTCGAGACTATTCTGGAACGTACACAGTGAAGCTGATAGCC-TGCAC   8432
+
+Homo_sapiens    8454 CACTGCCCCATCACATCAGGAATACCGCCTGCCAGTCACCTGCAACCCCA   8503
+                     ||||||||   ||||||||||.|||.|||||||.||.|.||||||.||.|
+Motacilla_alb   8433 CACTGCCC---CACATCAGGAGTACAGCCTGCCCGTGATCTGCAATCCTA   8479
+
+Homo_sapiens    8504 GAGAACCTGTCACCTTTGACCTTGACATCCGATTCCAACAGGTCAGTGAT   8553
+                     ||||.||..||||.|||||.||.||||||||||||||.|||||||||||.
+Motacilla_alb   8480 GAGAGCCCATCACTTTTGATCTGGACATCCGATTCCAGCAGGTCAGTGAC   8529
+
+Homo_sapiens    8554 CCAGTGGCTGCTGAGTTTAGCTTGAACACCCAAATGTACCTGCTCTCTAA   8603
+                     |||||||||||||||||.||||||||.|||||.||||.|||.|||||.||
+Motacilla_alb   8530 CCAGTGGCTGCTGAGTTCAGCTTGAATACCCAGATGTTCCTCCTCTCCAA   8579
+
+Homo_sapiens    8604 GAAGAGTCTCTGGTTGTCTGATGGATCCATGGGATTCGGGCAAGAGAGTG   8653
+                     .|||...||.|||.||||||||||.||.|||||.||.||||||||.||||
+Motacilla_alb   8580 AAAGGCACTGTGGCTGTCTGATGGCTCAATGGGCTTTGGGCAAGAAAGTG   8629
+
+Homo_sapiens    8654 ATGTTGCTTTTGCAGAAGGTGATATAATTTATGGTCGTGTCATGGTGGAT   8703
+                     ||||||||||..|||||||||||||.||.||||||||.||.|||||||||
+Motacilla_alb   8630 ATGTTGCTTTCTCAGAAGGTGATATCATATATGGTCGGGTGATGGTGGAT   8679
+
+Homo_sapiens    8704 CCTGTCCAGAATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAGGTGTT   8753
+                     ||.||.||||||.|||||||.|||||.|||||.|||||.||||||||.||
+Motacilla_alb   8680 CCAGTGCAGAATTTGGGTGATTCCTTCTACTGTAGCATCGAGAAGGTTTT   8729
+
+Homo_sapiens    8754 TCTATGCACTGGAGCTGATGGCTATGTTCCCAAGTATAGTCCAATGAATG   8803
+                     .||.|||||.|||||||||||.|||||.|||||.||.|.||||...||..
+Motacilla_alb   8730 CCTGTGCACAGGAGCTGATGGATATGTACCCAAATACAATCCATCCAACA   8779
+
+Homo_sapiens    8804 CAGAATATGGCTGCTTAGCCGACTCTCCTTCACTCTTATATAGATTTAAA   8853
+                     |.|||||.||.|||.|.||.||.|||||.||.||..|.||.||.|||||.
+Motacilla_alb   8780 CTGAATACGGGTGCCTTGCTGATTCTCCATCCCTTCTGTACAGGTTTAAG   8829
+
+Homo_sapiens    8854 ATTGTGGACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTTGGAAATGT   8903
+                     ||||||||||||||||||||||||||||||||.||.||.|||||.|||||
+Motacilla_alb   8830 ATTGTGGACAAAGCTCAGCCAGAGACACAAGCCACAAGCTTTGGCAATGT   8879
+
+Homo_sapiens    8904 CCTATTTAATGCCAAACTAGCAGTGGATGACCCTGAAGCCATTCTC-TTA   8952
+                     .||.||||||||.|||||.|||.|.|||||.||.|||||.||| || |||
+Motacilla_alb   8880 ACTTTTTAATGCTAAACTTGCAATAGATGATCCCGAAGCAATT-TCATTA   8928
+
+Homo_sapiens    8953 GTGAATCAGCCTGGATCTGATGGATTTAAAGTCGACTCAACACCACTCTT   9002
+                     ||.||.|||||.||.|||||||||||.|||||.||||||||.||.||.||
+Motacilla_alb   8929 GTTAAACAGCCAGGCTCTGATGGATTCAAAGTGGACTCAACTCCTCTGTT   8978
+
+Homo_sapiens    9003 TCAGGTCGCTCTAGGCCGAGAATGGTATATACATACGATCTATACAGTGA   9052
+                     ||||||..||.|.||..|.||.||||||.|.|||||.|||||.||.|||.
+Motacilla_alb   8979 TCAGGTGTCTTTGGGTAGGGAGTGGTATGTCCATACAATCTACACTGTGC   9028
+
+Homo_sapiens    9053 GATCGAAAGACAATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG-----   9097
+                     |.||.||.||.||.||.||.||.||.||.|||||||||||.||||     
+Motacilla_alb   9029 GTTCCAAGGAGAACGCTAACCGCGGAATCGGCAAAAGAAGCGTGGAGCAC   9078
+
+Homo_sapiens    9098 -AGTACCATTCTCTGGTGAGT---------CAAGGAAAGCCCCAATCCAC   9137
+                      |||||||.||.||..|.|||         |.|||  |||    ||||| 
+Motacilla_alb   9079 CAGTACCACTCGCTCCTCAGTGCTGGCAGCCCAGG--AGC----ATCCA-   9121
+
+Homo_sapiens    9138 CACCAAGAGCCGGAAGAAGA-GAGAGATCAGGAGCACACCCTC---ACTG   9183
+                     |||  ||||..||.|||||| |.|||.|   |||||..||| |   |||.
+Motacilla_alb   9122 CAC--AGAGAAGGCAGAAGAGGGGAGTT---GAGCAGGCCC-CAGAACTT   9165
+
+Homo_sapiens    9184 GCATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCACAT   9233
+                     |||.|.||.|||||.|..||.|.||..||||||||||||||.||||||||
+Motacilla_alb   9166 GCAAGAGACATTGGAGTGGAGAGCAACCGAGGAACAAACATACAGCACAT   9215
+
+Homo_sapiens    9234 TGCCCTGGACCGCAC---CAAGAGGCAGAT-CCCCCATGGGAG--AGCAC   9277
+                     .||||||||.|||||   |||||..|||.| ||.|.|.|||||  .||| 
+Motacilla_alb   9216 AGCCCTGGATCGCACCAGCAAGAAACAGGTGCCTCAAAGGGAGGTTGCA-   9264
+
+Homo_sapiens    9278 CTCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTC   9327
+                     |||  .||||..|.||||||.||||.|..||.|.||..|||.|.|.|.||
+Motacilla_alb   9265 CTC--AATGGTGTTCTCCCCAGGGAACGGAATAACCAAAGCGCAGGAATC   9312
+
+Homo_sapiens    9328 AGCCTGGTCAC-----TGTGGTGGGAGGCACCACGGTAGGGTTACTCACC   9372
+                     |||.|.|||||     | |.|| ||||   |..|.||....||.||..||
+Motacilla_alb   9313 AGCTTAGTCACAATCAT-TAGT-GGAG---CTGCTGTCATTTTCCTTGCC   9357
+
+Homo_sapiens    9373 ATCTGCCTCACTG------TCATTGCAGTGCTG-----ATGTGCAGGGGC   9411
+                     ||||||.|.|.||      |||||   .|||||     ||       ||.
+Motacilla_alb   9358 ATCTGCTTAATTGCAATTATCATT---CTGCTGTTAAAAT-------GGA   9397
+
+Homo_sapiens    9412 AAGGAAAGTTT--CAGGGGGAAGGATGCCCCGAAAGGCTCCAGCAGCAGT   9459
+                     ||.||||.|.|  ||   .||||||...|.|.||.|..||..||||||..
+Motacilla_alb   9398 AACGAAATTCTGACA---AGAAGGAAAGCACAAACGAGTCAGGCAGCAAC   9444
+
+Homo_sapiens    9460 GAGCCCATGGTGCCCCCACAGAGCCATCA---CAATGACAGCTCAGAAGT   9506
+                     ||.||.|||.|||..|||||.|   ||.|   |||||||||||||||.||
+Motacilla_alb   9445 GAACCAATGATGCTACCACATA---ATTACAGCAATGACAGCTCAGAGGT   9491
+
+Homo_sapiens    9507 T   9507
+                     |
+Motacilla_alb   9492 T   9492
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,230 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 04:56:35
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Athene_cunicularia.fa
+#    -outfile Homo_sapiens-Athene_cunicularia.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Athene_cunicularia.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Athene_cunicularia
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2411
+# Identity:    1491/2411 (61.8%)
+# Similarity:  1491/2411 (61.8%)
+# Gaps:         553/2411 (22.9%)
+# Score: 5186.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCGACGCCGGGAAGCGAACCCCAACCTTTCGTCCCGGCCCTTTCGGT     50
+                                                                       
+Athene_cunicu      0 --------------------------------------------------      0
+
+Homo_sapiens      51 AGCTACTCTGCACCCACTTCATCATCCCCACCACCACCACCACCACCATC    100
+                                                                       
+Athene_cunicu      0 --------------------------------------------------      0
+
+Homo_sapiens     101 AGCACCACGGAGGAACCGGCGCCCCCGGCGGGGCGGGTGGTGGCGGCGGT    150
+                                                                     .|
+Athene_cunicu      1 ------------------------------------------------AT      2
+
+Homo_sapiens     151 GGCAGCGGGGGCTTCAACCTGCCCTTGAACCGGGGTCTGGAGCGCGCGCT    200
+                     || ||.||         |||| |.|||||      |.||           
+Athene_cunicu      3 GG-AGAGG---------CCTG-CTTTGAA------TTTG-----------     24
+
+Homo_sapiens     201 TGAGGAGGCGGCCAACTCCGGGGGGCTGAACCTGAGCGCCAGGAAATTGA    250
+                                   |||        .|||   |.||    |||    |||
+Athene_cunicu     25 --------------ACT--------TTGA---TCAG----AGG----TGA     41
+
+Homo_sapiens     251 AGGAATTTCCCCGTACCGCAGCCCCCGGGCACGACCTCTCGGACACGGTG    300
+                     ||||||||                                |||.|  ||.
+Athene_cunicu     42 AGGAATTT--------------------------------GGAGA--GTT     57
+
+Homo_sapiens     301 CAGGCAGACTTATCTAAAAACAGACTGGTTGAAGTTCCAATGGAATTGTG    350
+                     ||...|||.|||||.||.||.|||.|...|||.|||||.|..||..||||
+Athene_cunicu     58 CATAAAGATTTATCCAAGAATAGATTAACTGAGGTTCCTACAGAGCTGTG    107
+
+Homo_sapiens     351 CCATTTTGTATCACTGGAAATTCTTAATCTGTATCACAACTGTATCAGAG    400
+                     ||||||.||.||||||||||..||.|||||.||.|||||.|||||.|.|.
+Athene_cunicu    108 CCATTTCGTGTCACTGGAAACACTAAATCTATACCACAATTGTATTAAAA    157
+
+Homo_sapiens     401 TCATTCCTGAGGCCATCGTTAATCTGCAGATGCTGACTTACCTGAACTTG    450
+                     |.||.||.||.|||||.||.||..||||.|||||.||||||.|.||.|||
+Athene_cunicu    158 TTATACCAGATGCCATAGTAAACTTGCAAATGCTAACTTACTTAAATTTG    207
+
+Homo_sapiens     451 AGTCGAAATCAGCTGTCCGCCCTGCCTGCCTGCCTGTGTGGTCTGCCTCT    500
+                     ||||||||||||||.||..|..||||.||.||||||||||||||.|||||
+Athene_cunicu    208 AGTCGAAATCAGCTTTCTTCTTTGCCAGCTTGCCTGTGTGGTCTTCCTCT    257
+
+Homo_sapiens     501 CAAAGTCTTAATCGCAAGTAACAACAAACTTGGATCATTACCAGAAGAGA    550
+                     .|||||||||||.|||||||||||.||.||.||.||..|.||||||||||
+Athene_cunicu    258 AAAAGTCTTAATTGCAAGTAACAATAAGCTAGGTTCCCTTCCAGAAGAGA    307
+
+Homo_sapiens     551 TAGGTCAGCTCAAACAGTTAATGGAGCTGGATGTCAGCTGCAACGAGATC    600
+                     ||||||||||.||||||||||||||.||||||||||||||.||.||.|||
+Athene_cunicu    308 TAGGTCAGCTAAAACAGTTAATGGAACTGGATGTCAGCTGTAATGAAATC    357
+
+Homo_sapiens     601 ACAGCGTTGCCCCAGCAGATAGGTCAGTTGAAATCTCTACGAGAACTGAA    650
+                     |||||.|||||.|||||||||||.|||.||||||||.||..|||||||||
+Athene_cunicu    358 ACAGCTTTGCCACAGCAGATAGGCCAGCTGAAATCTTTAAAAGAACTGAA    407
+
+Homo_sapiens     651 TGTCAGAAGAAATTACCTTAAAGTTTTACCACAAGAACTAGTAGATCTTT    700
+                     ||||||||||||||||||..||||||||||.||||||||||||.|.|||.
+Athene_cunicu    408 TGTCAGAAGAAATTACCTCGAAGTTTTACCCCAAGAACTAGTACAGCTTC    457
+
+Homo_sapiens     701 CCTTGGTAAAGTTTGACTTTTCCTGCAACAAAGTGCTCGTGATTCCAATT    750
+                     |||||||||||||.||||||||||||||.|||||.||.||||||||||||
+Athene_cunicu    458 CCTTGGTAAAGTTCGACTTTTCCTGCAATAAAGTTCTTGTGATTCCAATT    507
+
+Homo_sapiens     751 TGTTTTAGAGAGATGAAGCAGCTGCAAGTGTTACTACTTGAGAATAACCC    800
+                     |||||||||.|||||..||||.|.|||||.|||||||||||||||||.||
+Athene_cunicu    508 TGTTTTAGAAAGATGGTGCAGTTACAAGTATTACTACTTGAGAATAATCC    557
+
+Homo_sapiens     801 TCTGCAGTCTCCTCCAGCACAGATTTGCACAAAGGGCAAAGTTCACATAT    850
+                     |.||||||||||.||||||||.|||||.||||||||.||.||.||.||||
+Athene_cunicu    558 TTTGCAGTCTCCACCAGCACAAATTTGTACAAAGGGTAAGGTGCATATAT    607
+
+Homo_sapiens     851 TTAAGTATCTGAGCATACAAGCATGCCAGATTAAGACAGCTGACTCCCTT    900
+                     |.||.|||||||...|||||||.||.||||||||.|||||.|||||.||.
+Athene_cunicu    608 TCAAATATCTGACTGTACAAGCCTGTCAGATTAAAACAGCAGACTCGCTG    657
+
+Homo_sapiens     901 TATCTCCACACCATGGAGAGGCCA----CATTTACACCAGCACGTGGAAG    946
+                     |||||..|..||||    ||..||    |||||.|..||.|..|||||||
+Athene_cunicu    658 TATCTTAATGCCAT----AGAACAACAGCATTTGCCTCAACCTGTGGAAG    703
+
+Homo_sapiens     947 ATGGC---------------------AAGAAGGATTCTGATTCGGGAGTT    975
+                     |..||                     ||.|||||.||.|||||.||.|||
+Athene_cunicu    704 AGAGCATTGATGACATCTACCCAAGTAAAAAGGACTCAGATTCCGGTGTT    753
+
+Homo_sapiens     976 GGAAGTGATAATGGAGATAAGCGATTATCTGCCACCGAGCCTTCTGACGA   1025
+                     ||.|||||||||||.|||||.||.||.||.||.||.|||||.|||||.||
+Athene_cunicu    754 GGTAGTGATAATGGTGATAAACGTTTGTCAGCAACAGAGCCATCTGATGA    803
+
+Homo_sapiens    1026 AGACACTGTTAGCCTCAATGTGCCAATGTCAAACATCATGGAAGAAGAAC   1075
+                     |||.|||.|.||..|.|||||.|||||||||.||||..||||||||||.|
+Athene_cunicu    804 AGATACTATCAGTTTTAATGTTCCAATGTCAGACATTGTGGAAGAAGATC    853
+
+Homo_sapiens    1076 AGATCATCAAGGAGGACTCGTG---CCATCGCCTTAGCCCCGTTAAAGGG   1122
+                     ||.|..|.|||||.||.||..|   |||| ||  ||.|.|....||||.|
+Athene_cunicu    854 AGGTTGTAAAGGAAGATTCAGGTCACCAT-GC--TAACTCAAGAAAAGTG    900
+
+Homo_sapiens    1123 GAATTTCATCAGGAATTTCAACCGGAGCCTTCCCTTTTGGGTGACAGCAC   1172
+                     |||||.|||||.|.||            ||||.|..|||..||   .||.
+Athene_cunicu    901 GAATTCCATCAAGGAT------------CTTCTCGCTTGATTG---TCAA    935
+
+Homo_sapiens    1173 CAACTCAGGAGAAGAAAGAGACCAGTTTACTGATAGAGCAGATGGTCTCC   1222
+                     .||.|||.|||||..|.||..||||||   ||||..|.|.|||..|||..
+Athene_cunicu    936 TAAGTCAAGAGAAACAGGAAGCCAGTT---TGATGAACCGGATACTCTTA    982
+
+Homo_sapiens    1223 ATTCGGAATTTATGA---ACTATAAG-GCAAGGGCAGAAGACTGTGAAGA   1268
+                     .|.|.||||||||||   ||..|||| || ||.||||||||.|||||.||
+Athene_cunicu    983 CTACTGAATTTATGAGTTACATTAAGAGC-AGAGCAGAAGAGTGTGATGA   1031
+
+Homo_sapiens    1269 GCTGTTAC---GGATAGAAGAGGATGTGCAC----TGGCAAACTGAGGGC   1311
+                        .||||   |.|||||||||||    |||    ||||||||.||.|..
+Athene_cunicu   1032 ---ATTACTGAGAATAGAAGAGGA----CACACAATGGCAAACAGACGAA   1074
+
+Homo_sapiens    1312 ATAATAAGTTCATCCAAAGATCAGGACATGGATATAGCAATGATCGAGCA   1361
+                     |||||||.||.|||..||||.||.|..||.|||||||..|||||.||.||
+Athene_cunicu   1075 ATAATAAATTTATCGGAAGAACAAGCTATTGATATAGTGATGATAGAACA   1124
+
+Homo_sapiens    1362 GCTGAGAGAAGCAGTAGATTTGCTGCAAGATCCCA---------------   1396
+                     .||.|||||||||||||||||..|.||.|||||||               
+Athene_cunicu   1125 ACTAAGAGAAGCAGTAGATTTATTACAGGATCCCAGCAGCGGTCAAATGC   1174
+
+Homo_sapiens    1397 --ATGGA------TT---------------------------AAGCACAG   1411
+                       |||||      ||                           |.|.||.|
+Athene_cunicu   1175 AGATGGAGATGTCTTCCCTTGGTCAGAGGGAACATGCTGAAGAGGAACTG   1224
+
+Homo_sapiens    1412 ATATTACAGA-GAGAAGTGTTTTAAACCTATATCCTATGG---GATCAGC   1457
+                     ...||.|||| |||.||.|..||.|         .|||||   .||||  
+Athene_cunicu   1225 GAGTTTCAGAGGAGGAGGGAGTTGA---------TTATGGAGAAATCA--   1263
+
+Homo_sapiens    1458 AGAAGCCTTAGAATTACAAGA--TTCTGCACTGAATGGTCAAATACAGCT   1505
+                       ||||||  |||.|  ||||  ||.||.||   |.|||.|||.|    |
+Athene_cunicu   1264 --AAGCCT--GAAGT--AAGAACTTTTGAAC---AGGGTGAAAAA----T   1300
+
+Homo_sapiens    1506 GGAGACATCTCCGGTGTGTGAGGTGCAAAGTGATCTAA-------CATTA   1548
+                     |  |.|||          ||||  .||.|.||||||||       .|.||
+Athene_cunicu   1301 G--GTCAT----------TGAG--TCAGAATGATCTAATCGTTTGGAATA   1336
+
+Homo_sapiens    1549 CAGAGTAACGGGAGCCAGTATTCTCCAAATGAGATTA--GAGAGAACTCC   1596
+                     || |||   |||   |||...||||....|||||..|  ||.|.||.|  
+Athene_cunicu   1337 CA-AGT---GGG---CAGACCTCTCACGGTGAGAACAAGGATAAAATT--   1377
+
+Homo_sapiens    1597 CCTGCAGTCTCTCCTACCACAAACAGCACAGCTCCATTTGGCCTGAAGCC   1646
+                     ||.|||.|.||||||||.|||||||.||||..|||.||||||||||||||
+Athene_cunicu   1378 CCAGCAATGTCTCCTACTACAAACACCACAATTCCTTTTGGCCTGAAGCC   1427
+
+Homo_sapiens    1647 TCGAT---CAGACCCAGCCCTCATTCTTCCTCCTATCTCCTTCAACACAC   1693
+                     .||||   ||||||||.||||||.||||||||||||||||||||||||||
+Athene_cunicu   1428 ACGATCAGCAGACCCATCCCTCAGTCTTCCTCCTATCTCCTTCAACACAC   1477
+
+Homo_sapiens    1694 TTACACAGGCACAGACATGGGACAGCTCTAGCTACAGTGTTCCATCTGAA   1743
+                     |||||||||||||.||||||||||.||.||||||||||.|.|||||||||
+Athene_cunicu   1478 TTACACAGGCACAAACATGGGACAACTTTAGCTACAGTATCCCATCTGAA   1527
+
+Homo_sapiens    1744 GGAGACAGTGACAATGTGTTTCTAAGACCTCAGAGAAATTTGGAATCTAT   1793
+                     |||||||||||||||||.||..|||||||.||.||||||||||||||.||
+Athene_cunicu   1528 GGAGACAGTGACAATGTATTCTTAAGACCACAAAGAAATTTGGAATCAAT   1577
+
+Homo_sapiens    1794 AGACCCGCAGTTTACAATCCGGAGGAAAATGGAGCAGATGAGAGAAGAGA   1843
+                     ||||||.||.||||||||.||.||||||||||||||||||||||||||||
+Athene_cunicu   1578 AGACCCACAATTTACAATTCGAAGGAAAATGGAGCAGATGAGAGAAGAGA   1627
+
+Homo_sapiens    1844 AAGAGCTGGTGGAACAACTTCGTGAGAGCATTGAGATGAGATTGAAGGTC   1893
+                     .||||||.||||||||.||.|||||||.||||||.|..|||.|.|||.|.
+Athene_cunicu   1628 GAGAGCTTGTGGAACAGCTACGTGAGAACATTGAAACAAGACTAAAGATT   1677
+
+Homo_sapiens    1894 AGTCTACACGAAGACCTGGGGGCAGCCCTCATGGATGGTGTCGTCCTCTG   1943
+                     .||.|||..||||||.|.|||.|.||.||.|||||||||||.||.|||||
+Athene_cunicu   1678 TGTTTACCTGAAGACTTAGGGTCTGCTCTGATGGATGGTGTAGTTCTCTG   1727
+
+Homo_sapiens    1944 CCATCTGGTCAACCACATCCGCCCACGGTCGGTTGCAAGCATCCATGTCC   1993
+                     ||||.|.||.||.||..|.||.||.||.||.||.|.|||.||.|||||.|
+Athene_cunicu   1728 CCATTTAGTAAATCATGTTCGTCCTCGATCTGTAGGAAGTATTCATGTAC   1777
+
+Homo_sapiens    1994 CATCACCAGCGGTTCCCAAACTTAGCATGGCCAAATGCAGAAGAAATGTG   2043
+                     |.||||||||.||.||.|||||||||||||||||||||||.|||||.|||
+Athene_cunicu   1778 CTTCACCAGCTGTACCTAAACTTAGCATGGCCAAATGCAGGAGAAACGTG   1827
+
+Homo_sapiens    2044 GAAAACTTTTTGGAAGCATGCCGAAAATTAGGAGTACCAGAGGCTGACCT   2093
+                     |||||||||.||||.|||||..|||||.||||..|||||||||...|.||
+Athene_cunicu   1828 GAAAACTTTCTGGATGCATGTAGAAAACTAGGGATACCAGAGGAGAAGCT   1877
+
+Homo_sapiens    2094 CTGCTCT-CCGTGTGACATCCTGCAGTTGGATTTTCGTCACATTCGAAAG   2142
+                     |||| || ||...|.|||||||                          ||
+Athene_cunicu   1878 CTGC-CTACCACATCACATCCT--------------------------AG   1900
+
+Homo_sapiens    2143 ACTGTTGACACTCTGCTGGCACTCGGGGAGAAAGCCCCACCACCAACTTC   2192
+                     |                           |||||                 
+Athene_cunicu   1901 A---------------------------AGAAA-----------------   1906
+
+Homo_sapiens    2193 TGCCCTCCGCTCCAGGGACCTT----ATAGGCTTCTGTCTTGTCCATATT   2238
+                                  ||||  |||    |.||          ||..||||  
+Athene_cunicu   1907 -------------AGGG--CTTGGTAAAAG----------TGAGCATA--   1929
+
+Homo_sapiens    2239 CTCTTTATAGTGC------TGGTCTATATCACTTACCACTG-GA---ATG   2278
+                           |.|||.|      ||  |||.||  .|.|||||.| ||   |.|
+Athene_cunicu   1930 ------ACAGTACAAGCATTG--CTAGAT--GTAACCACAGTGAAACAAG   1969
+
+Homo_sapiens    2279 CTCTGTCCGCA   2289
+                     ||.|.|.|.||
+Athene_cunicu   1970 CTTTATTCACA   1980
+
+
+#---------------------------------------
+#---------------------------------------

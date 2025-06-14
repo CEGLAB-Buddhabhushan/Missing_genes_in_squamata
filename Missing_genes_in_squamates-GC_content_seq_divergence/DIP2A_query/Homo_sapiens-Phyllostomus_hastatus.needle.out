@@ -1,0 +1,426 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 06:00:24
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Phyllostomus_hastatus.fa
+#    -outfile Homo_sapiens-Phyllostomus_hastatus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Phyllostomus_hastatus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Phyllostomus_hastatus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4852
+# Identity:    4199/4852 (86.5%)
+# Similarity:  4199/4852 (86.5%)
+# Gaps:         152/4852 ( 3.1%)
+# Score: 18858.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+                     |||||.|.|||||||||||||||||||.|||.|.|.|||||.||||||||
+Phyllostomus_      1 ATGGCGGCCCGCGGGTGCCCGCTGGAGCCGGTGTCACTGCCCGCCGAGGT     50
+
+Homo_sapiens      51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+                     |||.|||||||||||.||||||||||||||||||||||||||||||||||
+Phyllostomus_     51 GCGAGAGAGCCTGGCGGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+
+Homo_sapiens     101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+                     ||||||||||||||||||||||.|||||.|||||||||||.||.||.|||
+Phyllostomus_    101 CTCAAAAAGGATATGAAAAGAAGAGGGCGAAGCTGCTTGCGCGCTACATA    150
+
+Homo_sapiens     151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+                     |||||..||||||||.|.||||||||.||.|||.|||||..|||.|..||
+Phyllostomus_    151 CCGCTCCTTCAAGGAGTGGACCCATCCCTCCAAACAGAGCCTAGGACCCC    200
+
+Homo_sapiens     201 TGGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGTCTCGGC    250
+                     .|||||||||||||||||.||.||.|..||.||||||||||||.|.||||
+Phyllostomus_    201 CGGGCCCTCACAAACCACAGCTGCAGTGCCTAAGCAGCAGAAGGCGCGGC    250
+
+Homo_sapiens     251 CCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAGCCAATG    300
+                     |||||..||||.||||.|||||||||||||||                  
+Phyllostomus_    251 CCACCAACTCGCGGGACGAGCGCTTCCGGTCA------------------    282
+
+Homo_sapiens     301 TTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTATTTGGAC    350
+                                                                       
+Phyllostomus_    282 --------------------------------------------------    282
+
+Homo_sapiens     351 CCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCCACACTG    400
+                                                          |||||.|||||||
+Phyllostomus_    283 -------------------------------------GATGTTCACACTG    295
+
+Homo_sapiens     401 AAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTATG    450
+                     ||||||||||||||||.||||||||||||||||||||||||.|||||.||
+Phyllostomus_    296 AAGCCGTGCAAGCAGCGTTGGCCAAATACAAAGAGAGGAAGGTGCCTCTG    345
+
+Homo_sapiens     451 CCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTACAC    500
+                     ||.|||||.||.||.|||||.||.||||||||.|||.|||||||||.|||
+Phyllostomus_    346 CCCTCGAAAAGGCGGTCTGTTCTCGTGCATTCATCTCTGGAAACCTGCAC    395
+
+Homo_sapiens     501 CCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    550
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+Phyllostomus_    396 CCCCCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    445
+
+Homo_sapiens     551 CCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGCCC    600
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+Phyllostomus_    446 CCGGGCGACTCGCCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGCCC    495
+
+Homo_sapiens     601 TGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCCTC    650
+                     |||||||||||||||||||||||||||||||||||||||||.|||||.||
+Phyllostomus_    496 TGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCCGCATCTTC    545
+
+Homo_sapiens     651 CACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGCAG    700
+                     ||||||||||||||||||||||||||                  ||||.|
+Phyllostomus_    546 CACCTCATCTCACCCGGGAGGGAGAC------------------CTGCCG    577
+
+Homo_sapiens     701 CCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCCAC    750
+                     ||                        ||.||||||||||.||.|||||.|
+Phyllostomus_    578 CC------------------------GCGCTCGCAGGCCCCGCGGCCCGC    603
+
+Homo_sapiens     751 ACCCACATAGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGCC---T    797
+                     .||||||||||||||||.|||||||||||||||||||||||.||||   |
+Phyllostomus_    604 GCCCACATAGATCTGCACTCTGCCCCTCCTGATGTCACCACTGGCCTTGT    653
+
+Homo_sapiens     798 CGTGGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGAAGTG    847
+                     .||||||||||||.|||.||||.||||||||...||.|||||||||.|.|
+Phyllostomus_    654 TGTGGAGCATTCGCACTGTGAGGGTCCACAGCCAGCCTCTGTGAGAGGCG    703
+
+Homo_sapiens     848 TTCCTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGGTGTCCCT    897
+                     |.||||||||||||.|.|||.||.|.|||||.|||||.|.||||||||||
+Phyllostomus_    704 TCCCTCGGGGGTGCGGTGGGCGCCTCCTGGACACAGCGGGTGGTGTCCCT    753
+
+Homo_sapiens     898 GTGAACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCCTGAA    947
+                     ||||||||||||||||||||||||||||||||.|||||||||||||||||
+Phyllostomus_    754 GTGAACAGCAGAGTGTCCTCCAAAATCCAGCAACTTCTGAACACCCTGAA    803
+
+Homo_sapiens     948 GAGGCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTTGAGG    997
+                     ||||||||||||||||||.||||||||||||||.|||||.||..||||||
+Phyllostomus_    804 GAGGCCAAAGCGCCCTCCGCTGAAGGAGTTCTTCGTGGACGACATTGAGG    853
+
+Homo_sapiens     998 AATTGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGAGGGA   1047
+                     |..||||||||||||||||.||||||||||||||||||||||||||||||
+Phyllostomus_    854 AGCTGTTGGAAGTTCAGCAGCCAGATCCAAATCAGCCAAAGCCTGAGGGA    903
+
+Homo_sapiens    1048 AGCGAGACGAGT-GTGCTGAGAGGGGAGCCTCTCACTGCAGGTGTCCCCC   1096
+                     |||.|||.| || |||||||.|||.||.|||||..|.||.||..||.||.
+Phyllostomus_    904 AGCCAGATG-GTAGTGCTGAAAGGAGAACCTCTGTCCGCGGGGATCTCCT    952
+
+Homo_sapiens    1097 GACCGCCGTCGCTGTTGGCCACCTTGCAGCGCTGGGGCACAACACAGCCC   1146
+                     |.|||||.||||||.|||||.||.||||.|||||||||||.|..||||||
+Phyllostomus_    953 GGCCGCCTTCGCTGCTGGCCGCCCTGCAACGCTGGGGCACCATGCAGCCC   1002
+
+Homo_sapiens    1147 AAATCCCCCTGTCTGACTGCCTTGGATACAACTGGGAAAGCCGTCTACAC   1196
+                     |||.|||||||.|||||.||||||||.|||||||||||.|||..||||||
+Phyllostomus_   1003 AAAGCCCCCTGCCTGACCGCCTTGGACACAACTGGGAAGGCCACCTACAC   1052
+
+Homo_sapiens    1197 TCTCACCTATGGTAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATACTC   1246
+                     .||||||||.||.||||||||||||||.||||||||||||||.||.||||
+Phyllostomus_   1053 CCTCACCTACGGCAAACTTTGGAGTCGAAGTTTAAAACTAGCGTACACTC   1102
+
+Homo_sapiens    1247 TACTTAATAAACTGACAAGTAAGAATGAACCTCTACTTAAACCTGGAGAC   1296
+                     |.||||||||||||||.|||||||||||.||.||||||||||||||||||
+Phyllostomus_   1103 TCCTTAATAAACTGACTAGTAAGAATGAGCCACTACTTAAACCTGGAGAC   1152
+
+Homo_sapiens    1297 AGAGTGGCGCTCGTGTTTCCGAATAGTGACCCTGTGATGTTCATGGTTGC   1346
+                     |||||.|||||.|||||||||||.||||||||||||||||||||||||||
+Phyllostomus_   1153 AGAGTAGCGCTGGTGTTTCCGAACAGTGACCCTGTGATGTTCATGGTTGC   1202
+
+Homo_sapiens    1347 ATTTTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGTGC   1396
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+Phyllostomus_   1203 GTTTTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGTGC   1252
+
+Homo_sapiens    1397 CATTAACAAGAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTCTGCTGGGC   1446
+                     ||.|||||||||||||.||.||||||||||||.|.|||||.|||||||||
+Phyllostomus_   1253 CACTAACAAGAAAGGACGCCGGCAGCCAGCAGATCGGGTTCCTGCTGGGC   1302
+
+Homo_sapiens    1447 AGCTGTGGAGTCTTCTTGGCCCTGACCACAGACGCTTGTCAGAAAGGCCT   1496
+                     |||||.||.||...|.|||||||||||||.|||||.||||||||||||||
+Phyllostomus_   1303 AGCTGCGGCGTTGCCCTGGCCCTGACCACGGACGCCTGTCAGAAAGGCCT   1352
+
+Homo_sapiens    1497 CCCCAAGGCACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTGGCCCCCGC   1546
+                     .||||||||||||||.|||||||||||||||||||||||.||||||||.|
+Phyllostomus_   1353 GCCCAAGGCACAGACGGGAGAGGTGGCAGCTTTCAAAGGCTGGCCCCCCC   1402
+
+Homo_sapiens    1547 TCTCCTGGCTAGTGATTGATGGGAAGCATCTAGCCAAGCCCCCAAAGGAC   1596
+                     ||.|||||||.|||||.||||||||||||||..|.||||||||.||||||
+Phyllostomus_   1403 TCACCTGGCTGGTGATCGATGGGAAGCATCTGACTAAGCCCCCCAAGGAC   1452
+
+Homo_sapiens    1597 TGGCACCCTCTGGCCCAGGACACAGGGACTGGGACTGCCTACATTGAGTA   1646
+                     ||||||||.||||||||||||..|||..|..|||||||||||||.|||||
+Phyllostomus_   1453 TGGCACCCGCTGGCCCAGGACGAAGGATCCCGGACTGCCTACATAGAGTA   1502
+
+Homo_sapiens    1647 TAAAACCAGCAAAGAAGGCAGTACGGTGGGGGTCACAGTGTCCCACGCAT   1696
+                     |||||||||||||||||||||.||.||||||.||||||||||||||||.|
+Phyllostomus_   1503 TAAAACCAGCAAAGAAGGCAGCACAGTGGGGATCACAGTGTCCCACGCGT   1552
+
+Homo_sapiens    1697 CCCTGCTGGCACAGTGCCGGGCTCTGACCCAGGCGTGCGGGTACTCAGAA   1746
+                     ||||||||||.|||||.||||||||||||||||||||.||.|||||||||
+Phyllostomus_   1553 CCCTGCTGGCGCAGTGTCGGGCTCTGACCCAGGCGTGTGGCTACTCAGAA   1602
+
+Homo_sapiens    1747 GCTGAAACATTAACAAACGTGCTGGATTTCAAAAGGGATGCTGGTCTGTG   1796
+                     ||.||||||.|||||||.||||||||||||||||||||||||||||||||
+Phyllostomus_   1603 GCCGAAACACTAACAAATGTGCTGGATTTCAAAAGGGATGCTGGTCTGTG   1652
+
+Homo_sapiens    1797 GCATGGCGTGTTAACAAGCGTCATGAACAGGATGCACGTGGTCAGCGTCC   1846
+                     ||||||.||||||||||||||||||||||.||||||||||.|||||.|||
+Phyllostomus_   1653 GCATGGAGTGTTAACAAGCGTCATGAACAAGATGCACGTGATCAGCATCC   1702
+
+Homo_sapiens    1847 CCTACGCGCTGATGAAGGCGAACCCACTCTCCTGGATCCAGAAAGTGTGC   1896
+                     |.|||||.||||||||||.||||||.|||||||||||.|||||||||||.
+Phyllostomus_   1703 CGTACGCCCTGATGAAGGTGAACCCGCTCTCCTGGATTCAGAAAGTGTGT   1752
+
+Homo_sapiens    1897 TTCTATAAAGCTCGGGCCGCGCTGGTGAAGTCGCGAGACATGCACTGGTC   1946
+                     ||.|.||||||.|.|.|.|||.||||||||||.||.||||||||||||||
+Phyllostomus_   1753 TTGTTTAAAGCCCAGACAGCGGTGGTGAAGTCCCGTGACATGCACTGGTC   1802
+
+Homo_sapiens    1947 TCTCCTAGCTCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTCACTGCGCA   1996
+                     ||||||.||||||||.||||||.|||||.|||||||||||||.|||||||
+Phyllostomus_   1803 TCTCCTGGCTCAGCGAGGCCAGCGGGACATCAGCCTCAGCTCCCTGCGCA   1852
+
+Homo_sapiens    1997 TGCTGATTGTGGCCGATGGTGCCAACCCGTGGTCGATCTCCTCCTGTGAC   2046
+                     |||||||.||||||||.||.||||||||.|||||.||.|||||||||||.
+Phyllostomus_   1853 TGCTGATCGTGGCCGACGGCGCCAACCCATGGTCCATATCCTCCTGTGAT   1902
+
+Homo_sapiens    2047 GCCTTCCTCAACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGTCATCTG   2096
+                     |||||||||||.|||||||||||||||||.||||||||.|||||||||||
+Phyllostomus_   1903 GCCTTCCTCAATGTCTTCCAGTCCAGAGGCCTGAGGCCGGAGGTCATCTG   1952
+
+Homo_sapiens    2097 TCCTTGTGCAAGTTCTCCTGAGGCGCTGACTGTCGCCATCCGCAGGCCAC   2146
+                     |||||||||.|||||||||||||||||.||.||.||||||||||||||.|
+Phyllostomus_   1953 TCCTTGTGCCAGTTCTCCTGAGGCGCTAACGGTTGCCATCCGCAGGCCGC   2002
+
+Homo_sapiens    2147 CTGATCTGGGAGGACCACCTCCAAGAAAAGCAGTCCTGTCGATGAACGGT   2196
+                     ||||.|||||||||||.|||||.||||||||.||.|||||.||||||||.
+Phyllostomus_   2003 CTGACCTGGGAGGACCTCCTCCGAGAAAAGCTGTGCTGTCCATGAACGGC   2052
+
+Homo_sapiens    2197 CTAAGTTATGGTGTTATCAGAGTGGATACTGAAGAAAAGTTGTCAGTCCT   2246
+                     ||.||||||||.||.|||.||||.||.|||||||||||||||||||||||
+Phyllostomus_   2053 CTCAGTTATGGCGTGATCCGAGTTGACACTGAAGAAAAGTTGTCAGTCCT   2102
+
+Homo_sapiens    2247 TACTGTTCAGGACGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGTTG   2296
+                     ||||||.|||||.|||||.|||||||||||||||||||||||||||||||
+Phyllostomus_   2103 TACTGTCCAGGATGTTGGCCAGGTGATGCCTGGAGCTAATGTATGTGTTG   2152
+
+Homo_sapiens    2297 TGAAGTTAGAAGGTACCCCTTATCTTTGTAAAACTGATGAAGTGGGAGAA   2346
+                     |||||.||||.|||.||||.||||||||||||||||||||.||.||||||
+Phyllostomus_   2153 TGAAGATAGACGGTGCCCCGTATCTTTGTAAAACTGATGAGGTTGGAGAA   2202
+
+Homo_sapiens    2347 ATATGCGTCAGTTCCAGTGCAACTGGCACAGCGTACTATGGATTGCTTGG   2396
+                     |||||.||....||||||||.||.||||||||||||||.|||.|||||||
+Phyllostomus_   2203 ATATGTGTTGACTCCAGTGCCACAGGCACAGCGTACTACGGACTGCTTGG   2252
+
+Homo_sapiens    2397 AATCACGAAGAATGTGTTTGAGGCAGTTCCGGTCACCACAGGAGGAGCAC   2446
+                     .|||||.||||..||.||||||||.||.||||||||..||||||||||.|
+Phyllostomus_   2253 GATCACAAAGAGCGTCTTTGAGGCTGTCCCGGTCACTGCAGGAGGAGCTC   2302
+
+Homo_sapiens    2447 CCATCTTTGACAGGCCATTCACCAGGACAGGCCTGCTGGGCTTCATCGGG   2496
+                     ||.|||..||||||||.|||||||||||.||.||.||||||||||||||.
+Phyllostomus_   2303 CCGTCTCCGACAGGCCTTTCACCAGGACTGGGCTCCTGGGCTTCATCGGC   2352
+
+Homo_sapiens    2497 CCTGACAACCTGGTCTTCATCGTGGGCAAACTGGACGGGCTGATGGTCAC   2546
+                     ||||||||||||||||||.||||||||||.|||||||||||||||||...
+Phyllostomus_   2353 CCTGACAACCTGGTCTTCGTCGTGGGCAAGCTGGACGGGCTGATGGTGGT   2402
+
+Homo_sapiens    2547 TGGAGTTCGCAGACACAATGCAGATGACGTTGTGGCCACCGCACTGGCCG   2596
+                     .||.||.|||||||||||||||||.|||.|.|||||||||||..||||.|
+Phyllostomus_   2403 CGGGGTCCGCAGACACAATGCAGACGACATCGTGGCCACCGCGTTGGCTG   2452
+
+Homo_sapiens    2597 TGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTTCTCTGTG   2646
+                     ||||||||||||||||||||||||||||||||||.||.||||||||.|||
+Phyllostomus_   2453 TGGAGCCCATGAAGTTTGTCTACAGAGGCAGGATTGCCGTGTTCTCCGTG   2502
+
+Homo_sapiens    2647 ACCGTGCTGCACGACGACCGGATTGTCCTGGTGGCTGAGCAGCGGCCGGA   2696
+                     ||.||||||||||||||||||||.||.||.||||||||||||||||||||
+Phyllostomus_   2503 ACAGTGCTGCACGACGACCGGATCGTGCTCGTGGCTGAGCAGCGGCCGGA   2552
+
+Homo_sapiens    2697 TGCCTCGGAGGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTGCAGGCCA   2746
+                     .|||||.|||||||||||||||||||||||||||||.|||||||||||||
+Phyllostomus_   2553 CGCCTCCGAGGAGGACAGCTTCCAGTGGATGAGCCGCGTGCTGCAGGCCA   2602
+
+Homo_sapiens    2747 TTGATAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTGCC   2796
+                     ||||.||||||||||||||||||||||||||||||||.||||||||||||
+Phyllostomus_   2603 TTGACAGCATCCACCAGGTGGGCGTGTACTGTCTGGCTCTGGTTCCTGCC   2652
+
+Homo_sapiens    2797 AACACCTTGCCCAAGGCTCCTCTCGGAGGGATTCACATTTCTGAAACCAA   2846
+                     |||||||||||||||||||||||.||||||.|||||.|.||||||.||||
+Phyllostomus_   2653 AACACCTTGCCCAAGGCTCCTCTTGGAGGGGTTCACGTCTCTGAAGCCAA   2702
+
+Homo_sapiens    2847 ACAGCGCTTTCTGGAAGGGACGCTGCACCCGTGTAATGTGCTGATGTGCC   2896
+                     ||||||.||||||||.|||||||||||||||||.||||||||.|||||||
+Phyllostomus_   2703 ACAGCGTTTTCTGGAGGGGACGCTGCACCCGTGCAATGTGCTAATGTGCC   2752
+
+Homo_sapiens    2897 CTCACACCTGTGTTACCAACCTCCCCAAACCTCGTCAGAAACAACCAGAG   2946
+                     |.|||||||||||.||||||||.||||||||.||.||||||||.||||||
+Phyllostomus_   2753 CGCACACCTGTGTCACCAACCTTCCCAAACCGCGCCAGAAACAGCCAGAG   2802
+
+Homo_sapiens    2947 GTTGGACCAGCCTCAATGATCGTGGGGAACCTGGTTGCTGGGAAGAGAAT   2996
+                     ||.|||||||||||.||||||||||||||.||||||||||||||||||||
+Phyllostomus_   2803 GTGGGACCAGCCTCCATGATCGTGGGGAATCTGGTTGCTGGGAAGAGAAT   2852
+
+Homo_sapiens    2997 CGCTCAGGCTTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGCGACCAGG   3046
+                     .||.|||||.||.|||.|.|||||.||.||||||||.|||||||||||||
+Phyllostomus_   2853 TGCACAGGCCTCTGGGCGGGAGCTGGCTCACCTGGAAGACAGCGACCAGG   2902
+
+Homo_sapiens    3047 CACGGAAGTTCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGCCCACACC   3096
+                     |..|||||||||||||||||.|.||.||||||||||||||.|||||||||
+Phyllostomus_   2903 CCAGGAAGTTCCTGTTCCTGCCCGATGTGCTGCAGTGGCGGGCCCACACC   2952
+
+Homo_sapiens    3097 ACTCCTGACCACCCGCTGTTCTTGCTGCTGAACGCCAAGGGCACCGTCAC   3146
+                     |||||.||||||||||||||..||||||||||.|||||||||||.||.||
+Phyllostomus_   2953 ACTCCCGACCACCCGCTGTTTCTGCTGCTGAATGCCAAGGGCACGGTGAC   3002
+
+Homo_sapiens    3147 AAGCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGAGTGGCCG   3196
+                     .||||||||.|||||||||||||||||||.||.|||||||||.|||||||
+Phyllostomus_   3003 GAGCACTGCGACCTGTGTCCAGCTGCACAGAAAGGCTGAGAGGGTGGCCG   3052
+
+Homo_sapiens    3197 CGGCTCTGATGGAGAAGGGAAGACTGAGTGTTGGGGACCATGTGGCTCTG   3246
+                     |.||||||||||||||||.|||||||||..|||||||||||||||||.||
+Phyllostomus_   3053 CTGCTCTGATGGAGAAGGCAAGACTGAGCATTGGGGACCATGTGGCTTTG   3102
+
+Homo_sapiens    3247 GTCTACCCACCAGGGGTGGACCTCATTGCCGCGTTCTATGGCTGCTTGTA   3296
+                     ||||||||.||||||||||||||||||||.||.|||||.||||||.||||
+Phyllostomus_   3103 GTCTACCCCCCAGGGGTGGACCTCATTGCTGCCTTCTACGGCTGCCTGTA   3152
+
+Homo_sapiens    3297 CTGTGGCTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAGAACCTCG   3346
+                     |||.|||||||||||.|||||.|||||||||||||||||.|||||||||.
+Phyllostomus_   3153 CTGCGGCTGCGTGCCGGTCACTGTGCGGCCCCCGCACCCCCAGAACCTCT   3202
+
+Homo_sapiens    3347 GCACCACACTGCCCACCGTCAAGATGATCGTGGAGGTCAGCAAGTCTGCA   3396
+                     ..|||||.||.||.||.|||||||||||.||||||||||||||||||||.
+Phyllostomus_   3203 CTACCACGCTTCCGACTGTCAAGATGATTGTGGAGGTCAGCAAGTCTGCC   3252
+
+Homo_sapiens    3397 TGCGTCCTCACCACGCAGGCTGTCACACGGCTGCTCAGGTCCAAGGAGGC   3446
+                     ||||||||||||||||||||..|||..||||||||.|.|||||||||.||
+Phyllostomus_   3253 TGCGTCCTCACCACGCAGGCCATCATGCGGCTGCTGAAGTCCAAGGAAGC   3302
+
+Homo_sapiens    3447 TGCTGCTGCCGTGGACATCAGGACCTGGCCCACCATCCTAGACACAGATG   3496
+                     .||.||..||||||||.|||||||||||||||||||||||||.|||||||
+Phyllostomus_   3303 GGCAGCCACCGTGGACGTCAGGACCTGGCCCACCATCCTAGATACAGATG   3352
+
+Homo_sapiens    3497 ACATCCCAAAAAAGAAGATAGCAAGCGTTTTCAGGCCCCCCTCCCCCGAT   3546
+                     ||||.||||||||||||.|.||.||.||.||||||||.||||||||.||.
+Phyllostomus_   3353 ACATACCAAAAAAGAAGGTGGCGAGTGTGTTCAGGCCGCCCTCCCCGGAC   3402
+
+Homo_sapiens    3547 GTCCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGATATTAGCGGG   3596
+                     .|.||.||.|||.||||||||||.|||||.||.||.|||||.||||||||
+Phyllostomus_   3403 ATGCTGGCGTACCTGGACTTCAGTGTGTCGACTACAGGGATCTTAGCGGG   3452
+
+Homo_sapiens    3597 AGTGAAGATGTCGCACGCGGCCACAAGCGCCTTATGCCGCTCCATAAAGC   3646
+                     .|||||||||||.||.||.||||||||.|||||.||||||||||||||||
+Phyllostomus_   3453 TGTGAAGATGTCACATGCAGCCACAAGTGCCTTGTGCCGCTCCATAAAGC   3502
+
+Homo_sapiens    3647 TGCAGTGTGAGCTGTACCCCTCGCGGCAGATCGCCATCTGCCTCGACCCC   3696
+                     ||||||||||||||||||||||..||||||||||||||||.||.||||||
+Phyllostomus_   3503 TGCAGTGTGAGCTGTACCCCTCCAGGCAGATCGCCATCTGTCTTGACCCC   3552
+
+Homo_sapiens    3697 TACTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCGGG   3746
+                     |||||||||||.||.||.|||||||||||.|||||||||||||||||.||
+Phyllostomus_   3553 TACTGTGGCCTCGGCTTCGCCCTGTGGTGCCTGTGCAGTGTCTACTCTGG   3602
+
+Homo_sapiens    3747 ACACCAATCAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTCCC   3796
+                     ||||||.||.||||||||||||||||||||||||||.|||||||||||||
+Phyllostomus_   3603 ACACCAGTCCGTGCTGGTGCCCCCGCTGGAGCTGGAAAGCAACGTGTCCC   3652
+
+Homo_sapiens    3797 TGTGGCTGTCGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTTCTGCTCC   3846
+                     ||||||||||.||.||.|||||||||||||||||||||||||||||||||
+Phyllostomus_   3653 TGTGGCTGTCAGCTGTGAGCCAGTACAAGGCCCGCGTCACCTTCTGCTCC   3702
+
+Homo_sapiens    3847 TACTCTGTGATGGAGATGTGCACCAAGGGCCTAGGCGCACAGACGGGTGT   3896
+                     |||||.||.|||||||||||||||||||||||.|||||||||||.|||||
+Phyllostomus_   3703 TACTCGGTCATGGAGATGTGCACCAAGGGCCTGGGCGCACAGACAGGTGT   3752
+
+Homo_sapiens    3897 CCTCAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACGTGCATGGTGG   3946
+                     |||||||||||||||||||||||||||.|||||||||||.||.|||||||
+Phyllostomus_   3753 CCTCAGGATGAAGGGGGTGAACCTGTCGTGTGTGCGCACATGTATGGTGG   3802
+
+Homo_sapiens    3947 TCGCCGAGGAGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTCCAAGCTC   3996
+                     |.||.||||||||.|||.||||.||||||||.|||||||||||||||||.
+Phyllostomus_   3803 TTGCTGAGGAGCGACCCCGGATCGCGCTGACACAGTCCTTCTCCAAGCTG   3852
+
+Homo_sapiens    3997 TTCAAGGACCTGGGCCTGCCGGCCCGCGCCGTAAGCACCACGTTCGGGTG   4046
+                     ||||||||||||||||||||.||.||.|||||.|||||||||||||||||
+Phyllostomus_   3853 TTCAAGGACCTGGGCCTGCCCGCGCGTGCCGTGAGCACCACGTTCGGGTG   3902
+
+Homo_sapiens    4047 CAGGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCTGG   4096
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Phyllostomus_   3903 CAGGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCTGG   3952
+
+Homo_sapiens    4097 CTGAGCAGGGCACAGCTGGCCCGGACCCCACAACCGTCTACGTGGACATG   4146
+                     |||||||||||||.||.|||||||||||||||||.|||||||||||||||
+Phyllostomus_   3953 CTGAGCAGGGCACGGCCGGCCCGGACCCCACAACGGTCTACGTGGACATG   4002
+
+Homo_sapiens    4147 CGGGCACTGCGCCATGACAGGGTTCGTTTGGTAGAACGGGGTTCTCCGCA   4196
+                     .|||||||||||||.||||||||.|||.|||||||.||.|||||||||||
+Phyllostomus_   4003 AGGGCACTGCGCCACGACAGGGTCCGTCTGGTAGAGCGAGGTTCTCCGCA   4052
+
+Homo_sapiens    4197 CAGCCTGCCATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTGAAGGTCA   4246
+                     |||.|||||..|||.|||||||||||||||.|||||.||.||||||||||
+Phyllostomus_   4053 CAGTCTGCCGCTGACGGAGTCTGGAAAGATTCTCCCTGGAGTGAAGGTCA   4102
+
+Homo_sapiens    4247 TCATCGCACACACCGAGACCAAAGGACCCTTGGGAGACTCACACCTGGGA   4296
+                     |||||||.|||||.||||||||.||.|||.|.||||||||||||||||||
+Phyllostomus_   4103 TCATCGCGCACACTGAGACCAAGGGGCCCCTCGGAGACTCACACCTGGGA   4152
+
+Homo_sapiens    4297 GAGATCTGGGTAAGCAGCCCCCACAATGCCACCGGGTACTACACCGTTTA   4346
+                     |||||||||||.||||||||||||||||||||.||.|||||||||||..|
+Phyllostomus_   4153 GAGATCTGGGTTAGCAGCCCCCACAATGCCACAGGCTACTACACCGTCCA   4202
+
+Homo_sapiens    4347 CGGGGAGGAGGCGCTTCATGCCGACCACTTCAGTGCCCGGCTGAGTTTTG   4396
+                     ||||||||||||||||||.||.|||||||||||||||||||||||.||||
+Phyllostomus_   4203 CGGGGAGGAGGCGCTTCACGCTGACCACTTCAGTGCCCGGCTGAGCTTTG   4252
+
+Homo_sapiens    4397 GAGACACACAGACCATCTGGGCAAGGACCGGCTACCTTGGCTTCCTTCGG   4446
+                     |||||||.||||||||||||||||||||.||||||.|.||||||||||||
+Phyllostomus_   4253 GAGACACCCAGACCATCTGGGCAAGGACTGGCTACTTGGGCTTCCTTCGG   4302
+
+Homo_sapiens    4447 CGAACAGAGCTCACTGATGCCAGTGGAGGGCGGCACGATGCACTGTATGT   4496
+                     .||||.||||||||.|||||||||||||.|||||||||.||||||||.||
+Phyllostomus_   4303 AGAACGGAGCTCACCGATGCCAGTGGAGAGCGGCACGACGCACTGTACGT   4352
+
+Homo_sapiens    4497 GGTTGGGTCTCTGGATGAAACTCTGGAGCTCAGAGGCATGCGGTACCACC   4546
+                     |||||||||.|||||||||||.||||||||.|||||||||||||||||||
+Phyllostomus_   4353 GGTTGGGTCCCTGGATGAAACGCTGGAGCTGAGAGGCATGCGGTACCACC   4402
+
+Homo_sapiens    4547 CCATCGACATTGAGACCTCTGTCATCCGAGCACACAGGAGCATCGCTGAG   4596
+                     ||||||||||.|||||.||.||.||||||||||||.||||||||||.|||
+Phyllostomus_   4403 CCATCGACATCGAGACGTCGGTGATCCGAGCACACCGGAGCATCGCCGAG   4452
+
+Homo_sapiens    4597 TGTGCCGTATTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTGGA   4646
+                     ||.|||||.|||||||||||||||||||||||.|||||||||||||||||
+Phyllostomus_   4453 TGCGCCGTGTTCACCTGGACCAACCTGCTGGTCGTGGTGGTGGAGCTGGA   4502
+
+Homo_sapiens    4647 TGGGCTAGAGCAGGATGCCCTGGACCTGGTGGCCCTGGTGACCAACGTGG   4696
+                     .|||||.||||||||||||||||||||||||.|.||||||||||||||||
+Phyllostomus_   4503 CGGGCTGGAGCAGGATGCCCTGGACCTGGTGCCTCTGGTGACCAACGTGG   4552
+
+Homo_sapiens    4697 TGCTGGAGGAGCACTACCTGGTCGTGGGAGTGGTGGTCATCGTGGACCCA   4746
+                     ||.|||||||||||.||||.||.|||||.||||||||||||||.||||||
+Phyllostomus_   4553 TGTTGGAGGAGCACCACCTTGTTGTGGGCGTGGTGGTCATCGTCGACCCA   4602
+
+Homo_sapiens    4747 GGGGTGATCCCTATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTGCG   4796
+                     ||.|||||.||.||||||||||||||.||||||||.||||||||||||||
+Phyllostomus_   4603 GGCGTGATTCCCATCAACTCTCGGGGCGAGAAGCAACGCATGCACCTGCG   4652
+
+Homo_sapiens    4797 GGACGGCTTCCTGGCTGACCAGCTGGACCCCATCTATGTCGCCTACAACA   4846
+                     .|||||||||||||||||.|||||||||||.|||||||||||||||||||
+Phyllostomus_   4653 CGACGGCTTCCTGGCTGATCAGCTGGACCCGATCTATGTCGCCTACAACA   4702
+
+Homo_sapiens    4847 TG   4848
+                     ||
+Phyllostomus_   4703 TG   4704
+
+
+#---------------------------------------
+#---------------------------------------

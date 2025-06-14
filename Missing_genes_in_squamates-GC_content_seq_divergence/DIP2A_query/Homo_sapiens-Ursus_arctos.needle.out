@@ -1,0 +1,422 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 06:01:22
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Ursus_arctos.fa
+#    -outfile Homo_sapiens-Ursus_arctos.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Ursus_arctos.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Ursus_arctos
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4850
+# Identity:    4204/4850 (86.7%)
+# Similarity:  4204/4850 (86.7%)
+# Gaps:         160/4850 ( 3.3%)
+# Score: 18910.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+                     |||||.|||||||||||.|||||||||||||.|||||||||.||||||||
+Ursus_arctos       1 ATGGCCGACCGCGGGTGTCCGCTGGAGGCGGTGCCGCTGCCCGCCGAGGT     50
+
+Homo_sapiens      51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+                     |||||||||||||||.||||||||||||||||||||||||||||||||||
+Ursus_arctos      51 GCGGGAGAGCCTGGCCGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+
+Homo_sapiens     101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+                     |||||||||||||||||||||||.|||||||||||||||||||.|||||.
+Ursus_arctos     101 CTCAAAAAGGATATGAAAAGAAACGGGCAAAGCTGCTTGCACGCTATATC    150
+
+Homo_sapiens     151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+                     ||.||||||||||||.||||||||||.|||||.||.||||..||..|.||
+Ursus_arctos     151 CCACTTATTCAAGGAGTAGACCCATCCCTGCAGGCGGAGAGCAGGGTCCC    200
+
+Homo_sapiens     201 TGGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGTCTCGGC    250
+                     .||.||||||||.|||||.|||||.|..|||||.|||||||||.|..|||
+Ursus_arctos     201 CGGCCCCTCACAGACCACAGCCGCAGGGCCCAAACAGCAGAAGCCGAGGC    250
+
+Homo_sapiens     251 CCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAGCCAATG    300
+                     |||||..|||..||||.|||||||||||||||                  
+Ursus_arctos     251 CCACCAGCTCCCGGGACGAGCGCTTCCGGTCA------------------    282
+
+Homo_sapiens     301 TTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTATTTGGAC    350
+                                                                       
+Ursus_arctos     282 --------------------------------------------------    282
+
+Homo_sapiens     351 CCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCCACACTG    400
+                                                          |||||.|||||||
+Ursus_arctos     283 -------------------------------------GATGTTCACACTG    295
+
+Homo_sapiens     401 AAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTATG    450
+                     |.||.||.|||||||||||||||||||||||.||||||||||||||||||
+Ursus_arctos     296 AGGCGGTACAAGCAGCTTTGGCCAAATACAAGGAGAGGAAGATGCCTATG    345
+
+Homo_sapiens     451 CCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTACAC    500
+                     |||||.||||||||||||||.|||||.||||||||.||||||||||||||
+Ursus_arctos     346 CCTTCAAAGAGACGTTCTGTTCTTGTACATTCGTCGGTGGAAACCTACAC    395
+
+Homo_sapiens     501 CCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    550
+                     .||||||||||||||.||||||||||||||||||||||||||||||||||
+Ursus_arctos     396 GCCTCCAGACACGTCATCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    445
+
+Homo_sapiens     551 CCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGCCC    600
+                     |||||||||||||||||||||||||||||||||||||||.|.||||||||
+Ursus_arctos     446 CCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAACATCGAGCCC    495
+
+Homo_sapiens     601 TGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCCTC    650
+                     ||||||||||||||||.|||||||||||||||.|||||||||||||||||
+Ursus_arctos     496 TGGCTCGACCGGGTCACTCAGGGCTCGTCCACTTCATCCTCTGCATCCTC    545
+
+Homo_sapiens     651 CACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGCAG    700
+                     ||||||||||||||||||||||||||||.||||.|||||||||||  || 
+Ursus_arctos     546 CACCTCATCTCACCCGGGAGGGAGACCCGCCACCGCTCCCAGTGC--CA-    592
+
+Homo_sapiens     701 CCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCCAC    750
+                                 ||||||      |.||||||.|.||||..|.|||||||
+Ursus_arctos     593 ------------CCGCCG------CCGCACTCACCGGCCCGGCGGCCCAC    624
+
+Homo_sapiens     751 ACCCACATAGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGCCTCGT    800
+                     .|||||||||||.||||.||.|||||||||||||||||||||||||||||
+Ursus_arctos     625 GCCCACATAGATGTGCACTCCGCCCCTCCTGATGTCACCACGGGCCTCGT    674
+
+Homo_sapiens     801 GGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGAAGTGTTC    850
+                     |||||.|||..|||.|||.|||||.|||.|||||||||||.||.||||..
+Ursus_arctos     675 GGAGCTTTCACACTGTGAACGTCCGCAGCTGGCTTCTGTGCGAGGTGTCA    724
+
+Homo_sapiens     851 CTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGGTGTCCCTGTG    900
+                     |||||||.|.||||||||||.|.||||||||.||.|.||||||.||||||
+Ursus_arctos     725 CTCGGGGCTACAGCGGGAGCGTCCTGGAAACGGCCGGTGGTGTTCCTGTG    774
+
+Homo_sapiens     901 AACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCCTGAAGAG    950
+                     ||||||||||||||||||||.||||||||||||||.||||||||||||.|
+Ursus_arctos     775 AACAGCAGAGTGTCCTCCAAGATCCAGCAGCTTCTCAACACCCTGAAGCG    824
+
+Homo_sapiens     951 GCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTTGAGGAAT   1000
+                     |||||||||||||||.||||.|||.|||||||||||||||||||||||..
+Ursus_arctos     825 GCCAAAGCGCCCTCCGCTGAGGGAATTCTTTGTGGATGATTTTGAGGAGC    874
+
+Homo_sapiens    1001 TGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGAGGGAAGC   1050
+                     ||||||||||.|||||||||||.|||||||||||||||||||||||||||
+Ursus_arctos     875 TGTTGGAAGTGCAGCAACCAGACCCAAATCAGCCAAAGCCTGAGGGAAGC    924
+
+Homo_sapiens    1051 GAGACGAGT-GTGCTGAGAGGGGAGCCTCTCACTGCAGGTGTCCCCCGAC   1099
+                     .|||.| || |||||||.||||||.|||||..|||..||.||.|||.|.|
+Ursus_arctos     925 CAGATG-GTGGTGCTGAAAGGGGAACCTCTGGCTGTGGGGGTTCCCTGGC    973
+
+Homo_sapiens    1100 CGCCGTCGCTGTTGGCCACCTTGCAGCGCTGGGGCACAACACAGCCCAAA   1149
+                     |.|||||.|||.|||||.|||||||.||.|||||.||.||.|||||||||
+Ursus_arctos     974 CCCCGTCCCTGCTGGCCGCCTTGCAACGGTGGGGTACGACGCAGCCCAAA   1023
+
+Homo_sapiens    1150 TCCCCCTGTCTGACTGCCTTGGATACAACTGGGAAAGCCGTCTACACTCT   1199
+                     .|||||||||||||.||||||||.||..|||||||.|||||||||||.||
+Ursus_arctos    1024 GCCCCCTGTCTGACCGCCTTGGACACGGCTGGGAAGGCCGTCTACACCCT   1073
+
+Homo_sapiens    1200 CACCTATGGTAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATACTCTAC   1249
+                     ||||||.||.||||||||||||||||||||||||||||||||||||||||
+Ursus_arctos    1074 CACCTACGGCAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATACTCTAC   1123
+
+Homo_sapiens    1250 TTAATAAACTGACAAGTAAGAATGAACCTCTACTTAAACCTGGAGACAGA   1299
+                     |||||||||||||.||||||||||||||.|||||||||||||||||||||
+Ursus_arctos    1124 TTAATAAACTGACTAGTAAGAATGAACCACTACTTAAACCTGGAGACAGA   1173
+
+Homo_sapiens    1300 GTGGCGCTCGTGTTTCCGAATAGTGACCCTGTGATGTTCATGGTTGCATT   1349
+                     |||||.||.|||||||||||.|||||||||||||||||||||||.|||||
+Ursus_arctos    1174 GTGGCCCTGGTGTTTCCGAACAGTGACCCTGTGATGTTCATGGTGGCATT   1223
+
+Homo_sapiens    1350 TTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGTGCCAT   1399
+                     |||.|||||||||||||||||.||||||||||||||||||||.|||||.|
+Ursus_arctos    1224 TTACGGGTGTCTCCTGGCAGACCTGGTTCCTGTCCCCATAGAGGTGCCGT   1273
+
+Homo_sapiens    1400 TAACAAGAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTCTGCTGGGCAGC   1449
+                     ||||||||||||||||.||||||||||||||.||.||.||||||||||||
+Ursus_arctos    1274 TAACAAGAAAGGATGCTGGCAGCCAGCAGGTCGGCTTCCTGCTGGGCAGC   1323
+
+Homo_sapiens    1450 TGTGGAGTCTTCTTGGCCCTGACCACAGACGCTTGTCAGAAAGGCCTCCC   1499
+                     ||.||.|||..|.|||||||||||||.||||||||||||||||||||.||
+Ursus_arctos    1324 TGCGGCGTCGCCCTGGCCCTGACCACGGACGCTTGTCAGAAAGGCCTGCC   1373
+
+Homo_sapiens    1500 CAAGGCACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTGGCCCCCGCTCT   1549
+                     ||||||||||||.|||||||||||..||||||||||.|||||||||||||
+Ursus_arctos    1374 CAAGGCACAGACTGGAGAGGTGGCGACTTTCAAAGGCTGGCCCCCGCTCT   1423
+
+Homo_sapiens    1550 CCTGGCTAGTGATTGATGGGAAGCATCTAGCCAAGCCCCCAAAGGACTGG   1599
+                     |||||||.|||||.||||||||||||||..||||||||||....||||||
+Ursus_arctos    1424 CCTGGCTGGTGATCGATGGGAAGCATCTGACCAAGCCCCCCCGAGACTGG   1473
+
+Homo_sapiens    1600 CACCCTCTGGCCCAGGACACAGGGACTGGGACTGCCTACATTGAGTATAA   1649
+                     |||||.|.|||||||||..|||||||||||||.||||||||.||||||||
+Ursus_arctos    1474 CACCCGCAGGCCCAGGATGCAGGGACTGGGACCGCCTACATCGAGTATAA   1523
+
+Homo_sapiens    1650 AACCAGCAAAGAAGGCAGTACGGTGGGGGTCACAGTGTCCCACGCATCCC   1699
+                     ||||||||||||||||||.||.||.||||||||.||||||||||||||||
+Ursus_arctos    1524 AACCAGCAAAGAAGGCAGCACAGTTGGGGTCACGGTGTCCCACGCATCCC   1573
+
+Homo_sapiens    1700 TGCTGGCACAGTGCCGGGCTCTGACCCAGGCGTGCGGGTACTCAGAAGCT   1749
+                     |||||||.|||||||||||||||||||||||.||.||.||||||||||||
+Ursus_arctos    1574 TGCTGGCCCAGTGCCGGGCTCTGACCCAGGCTTGTGGCTACTCAGAAGCT   1623
+
+Homo_sapiens    1750 GAAACATTAACAAACGTGCTGGATTTCAAAAGGGATGCTGGTCTGTGGCA   1799
+                     ||.|||||||||||.|||||||||||||||||||||||||||||||||||
+Ursus_arctos    1624 GAGACATTAACAAATGTGCTGGATTTCAAAAGGGATGCTGGTCTGTGGCA   1673
+
+Homo_sapiens    1800 TGGCGTGTTAACAAGCGTCATGAACAGGATGCACGTGGTCAGCGTCCCCT   1849
+                     |||.||||||||||||||||||||||||||||||||..|||||.||||.|
+Ursus_arctos    1674 TGGAGTGTTAACAAGCGTCATGAACAGGATGCACGTCATCAGCATCCCGT   1723
+
+Homo_sapiens    1850 ACGCGCTGATGAAGGCGAACCCACTCTCCTGGATCCAGAAAGTGTGCTTC   1899
+                     ||||.|||||||||||||||||.||.|||||||||||||||||||| |||
+Ursus_arctos    1724 ACGCACTGATGAAGGCGAACCCTCTGTCCTGGATCCAGAAAGTGTG-TTC   1772
+
+Homo_sapiens    1900 -TATAAAGCTCGGGCCGCGCTGGTGAAGTCGCGAGACATGCACTGGTCTC   1948
+                      ||.|||||.||||||||||||||||||||.||.||||||||||||||||
+Ursus_arctos    1773 GTACAAAGCCCGGGCCGCGCTGGTGAAGTCCCGCGACATGCACTGGTCTC   1822
+
+Homo_sapiens    1949 TCCTAGCTCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTCACTGCGCATG   1998
+                     |||||||||||||.||.|||||||||||||||||||||||||||||||||
+Ursus_arctos    1823 TCCTAGCTCAGCGAGGTCAGAGGGACGTCAGCCTCAGCTCACTGCGCATG   1872
+
+Homo_sapiens    1999 CTGATTGTGGCCGATGGTGCCAACCCGTGGTCGATCTCCTCCTGTGACGC   2048
+                     ||||||||||||||.||.||.|||||.|||||.||.||||||||.||.||
+Ursus_arctos    1873 CTGATTGTGGCCGACGGCGCTAACCCCTGGTCCATTTCCTCCTGCGATGC   1922
+
+Homo_sapiens    2049 CTTCCTCAACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGTCATCTGTC   2098
+                     .||||||||||||||||||||||||||.||||||||.|||||||||||||
+Ursus_arctos    1923 GTTCCTCAACGTCTTCCAGTCCAGAGGGCTGAGGCCCGAGGTCATCTGTC   1972
+
+Homo_sapiens    2099 CTTGTGCAAGTTCTCCTGAGGCGCTGACTGTCGCCATCCGCAGGCCACCT   2148
+                     ||||.||.||||||||.|||||||||||.||||||.||||||||||.||.
+Ursus_arctos    1973 CTTGCGCCAGTTCTCCCGAGGCGCTGACGGTCGCCGTCCGCAGGCCGCCA   2022
+
+Homo_sapiens    2149 GATCTGGGAGGACCACCTCCAAGAAAAGCAGTCCTGTCGATGAACGGTCT   2198
+                     ||.|||||||||||.||.|||||||||||.||||||||||||||||||||
+Ursus_arctos    2023 GACCTGGGAGGACCTCCACCAAGAAAAGCTGTCCTGTCGATGAACGGTCT   2072
+
+Homo_sapiens    2199 AAGTTATGGTGTTATCAGAGTGGATACTGAAGAAAAGTTGTCAGTCCTTA   2248
+                     .||||.||||||.||||||||.|||||.||||||||||||||.||.||||
+Ursus_arctos    2073 CAGTTTTGGTGTGATCAGAGTAGATACCGAAGAAAAGTTGTCCGTTCTTA   2122
+
+Homo_sapiens    2249 CTGTTCAGGACGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGTTGTG   2298
+                     |.||||||||||||||.||||.|.||||.||||||.|.||.|||||||||
+Ursus_arctos    2123 CCGTTCAGGACGTTGGCCAGGCGCTGCCGGGAGCTGACGTTTGTGTTGTG   2172
+
+Homo_sapiens    2299 AAGTTAGAAGGTACCCCTTATCTTTGTAAAACTGATGAAGTGGGAGAAAT   2348
+                     |||.||||.||||||||||||||.||||||||.|||||.||.|||||.||
+Ursus_arctos    2173 AAGGTAGACGGTACCCCTTATCTCTGTAAAACGGATGAGGTTGGAGAGAT   2222
+
+Homo_sapiens    2349 ATGCGTCAGTTCCAGTGCAACTGGCACAGCGTACTATGGATTGCTTGGAA   2398
+                     .||||||||.|||||..|.||||||||.||.|||||||||.|.|||||||
+Ursus_arctos    2223 CTGCGTCAGCTCCAGCACCACTGGCACGGCCTACTATGGACTACTTGGAA   2272
+
+Homo_sapiens    2399 TCACGAAGAATGTGTTTGAGGCAGTTCCGGTCACCACAGGAGGAGCACCC   2448
+                     |||||||||.|||.||||||.|.||.||.|||||..|||||||.|..|||
+Ursus_arctos    2273 TCACGAAGAGTGTCTTTGAGACTGTCCCTGTCACGGCAGGAGGTGTGCCC   2322
+
+Homo_sapiens    2449 ATCTTTGACAGGCCATTCACCAGGACAGGCCTGCTGGGCTTCATCGGGCC   2498
+                     .|.|.|||||||||.||||||||.||.||.||||||||||||||||||||
+Ursus_arctos    2323 GTGTCTGACAGGCCTTTCACCAGAACGGGGCTGCTGGGCTTCATCGGGCC   2372
+
+Homo_sapiens    2499 TGACAACCTGGTCTTCATCGTGGGCAAACTGGACGGGCTGATGGTCACTG   2548
+                     |||.|||||||||||..||||||||||.|||||.|||||||||||...||
+Ursus_arctos    2373 TGATAACCTGGTCTTTGTCGTGGGCAAGCTGGATGGGCTGATGGTGGTTG   2422
+
+Homo_sapiens    2549 GAGTTCGCAGACACAATGCAGATGACGTTGTGGCCACCGCACTGGCCGTG   2598
+                     |||||||.|||||||||||.||.|||.|.|||||||||||.|||||||||
+Ursus_arctos    2423 GAGTTCGTAGACACAATGCGGACGACCTCGTGGCCACCGCGCTGGCCGTG   2472
+
+Homo_sapiens    2599 GAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTTCTCTGTGAC   2648
+                     |||||||||||||||||||||||||||||||||||.||||||||.|||||
+Ursus_arctos    2473 GAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCGGTGTTCTCCGTGAC   2522
+
+Homo_sapiens    2649 CGTGCTGCACGACGACCGGATTGTCCTGGTGGCTGAGCAGCGGCCGGATG   2698
+                     .||.||||||||.||||||||.||.||.|||||.|||||||||||.||.|
+Ursus_arctos    2523 GGTTCTGCACGATGACCGGATCGTGCTTGTGGCCGAGCAGCGGCCCGACG   2572
+
+Homo_sapiens    2699 CCTCGGAGGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTGCAGGCCATT   2748
+                     ||||.|||||||||||||||||||||||||||||.||||||||||||.|.
+Ursus_arctos    2573 CCTCCGAGGAGGACAGCTTCCAGTGGATGAGCCGCGTGCTGCAGGCCGTC   2622
+
+Homo_sapiens    2749 GATAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTGCCAA   2798
+                     ||.||||||||||||||||||||||||||||||||.||||||||||||||
+Ursus_arctos    2623 GACAGCATCCACCAGGTGGGCGTGTACTGTCTGGCGCTGGTTCCTGCCAA   2672
+
+Homo_sapiens    2799 CACCTTGCCCAAGGCTCCTCTCGGAGGGATTCACATTTCTGAAACCAAAC   2848
+                     |||||||||||||||||||||.||||||||||||||||||||||||||.|
+Ursus_arctos    2673 CACCTTGCCCAAGGCTCCTCTTGGAGGGATTCACATTTCTGAAACCAAGC   2722
+
+Homo_sapiens    2849 AGCGCTTTCTGGAAGGGACGCTGCACCCGTGTAATGTGCTGATGTGCCCT   2898
+                     ||||.||.|||||.||||||||||||||.|||||.||.||||||||||||
+Ursus_arctos    2723 AGCGTTTCCTGGAGGGGACGCTGCACCCATGTAACGTACTGATGTGCCCT   2772
+
+Homo_sapiens    2899 CACACCTGTGTTACCAACCTCCCCAAACCTCGTCAGAAACAACCAGAGGT   2948
+                     |||||||||||.||||||||.|||||||||||.|||||||||||||||||
+Ursus_arctos    2773 CACACCTGTGTCACCAACCTTCCCAAACCTCGCCAGAAACAACCAGAGGT   2822
+
+Homo_sapiens    2949 TGGACCAGCCTCAATGATCGTGGGGAACCTGGTTGCTGGGAAGAGAATCG   2998
+                     .||.||||||||.|||||||||||||||||||||||.||||||||.||||
+Ursus_arctos    2823 GGGGCCAGCCTCCATGATCGTGGGGAACCTGGTTGCGGGGAAGAGGATCG   2872
+
+Homo_sapiens    2999 CTCAGGCTTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGCGACCAGGCA   3048
+                     |.|||||.||||||||.|||||.||.|||||||||||||||||||||||.
+Ursus_arctos    2873 CACAGGCCTCCGGGAGGGAGCTGGCGCACCTGGAGGACAGCGACCAGGCC   2922
+
+Homo_sapiens    3049 CGGAAGTTCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGCCCACACCAC   3098
+                     .|.|||||||||||||||.|.|||||||||||||||||.||.||||||||
+Ursus_arctos    2923 AGAAAGTTCCTGTTCCTGCCGGACGTGCTGCAGTGGCGAGCACACACCAC   2972
+
+Homo_sapiens    3099 TCCTGACCACCCGCTGTTCTTGCTGCTGAACGCCAAGGGCACCGTCACAA   3148
+                     |||.|||||||||||||||.|||||||.|||||||||||||||||.||.|
+Ursus_arctos    2973 TCCCGACCACCCGCTGTTCCTGCTGCTCAACGCCAAGGGCACCGTTACCA   3022
+
+Homo_sapiens    3149 GCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGAGTGGCCGCG   3198
+                     ||||||||||||||||||||||||||||||||||.|||||.||||||||.
+Ursus_arctos    3023 GCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCAGAGAGGGTGGCCGCC   3072
+
+Homo_sapiens    3199 GCTCTGATGGAGAAGGGAAGACTGAGTGTTGGGGACCATGTGGCTCTGGT   3248
+                     ||.|||||||||||||.|||||||||..|.|||||||||||||||.||||
+Ursus_arctos    3073 GCCCTGATGGAGAAGGCAAGACTGAGCATCGGGGACCATGTGGCTTTGGT   3122
+
+Homo_sapiens    3249 CTACCCACCAGGGGTGGACCTCATTGCCGCGTTCTATGGCTGCTTGTACT   3298
+                     ||||||.|||||||||||||||||||||||.|||||.|||||..||||||
+Ursus_arctos    3123 CTACCCCCCAGGGGTGGACCTCATTGCCGCCTTCTACGGCTGTCTGTACT   3172
+
+Homo_sapiens    3299 GTGGCTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAGAACCTCGGC   3348
+                     |.|||||||||||||||||||||||||||||||||||.||||||||||.|
+Ursus_arctos    3173 GCGGCTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCCCAGAACCTCGCC   3222
+
+Homo_sapiens    3349 ACCACACTGCCCACCGTCAAGATGATCGTGGAGGTCAGCAAGTCTGCATG   3398
+                     ||||||||||||||.|||||||||||||||||||||||||||||.||.||
+Ursus_arctos    3223 ACCACACTGCCCACTGTCAAGATGATCGTGGAGGTCAGCAAGTCCGCTTG   3272
+
+Homo_sapiens    3399 CGTCCTCACCACGCAGGCTGTCACACGGCTGCTCAGGTCCAAGGAGGCTG   3448
+                     ||||||||||||.|||||..|||..||||||||||..|||||.||.||.|
+Ursus_arctos    3273 CGTCCTCACCACACAGGCCATCATGCGGCTGCTCAAATCCAAAGACGCAG   3322
+
+Homo_sapiens    3449 CTGCTGCCGTGGACATCAGGACCTGGCCCACCATCCTAGACACAGATGAC   3498
+                     |.||.|||||||||.|||||||||||||.|||||||||||.|||||||||
+Ursus_arctos    3323 CGGCCGCCGTGGACGTCAGGACCTGGCCGACCATCCTAGATACAGATGAC   3372
+
+Homo_sapiens    3499 ATCCCAAAAAAGAAGATAGCAAGCGTTTTCAGGCCCCCCTCCCCCGATGT   3548
+                     ||.||||||||||||.|.||.|||.|||||||||||||.||.||.|||||
+Ursus_arctos    3373 ATACCAAAAAAGAAGGTGGCGAGCATTTTCAGGCCCCCGTCTCCAGATGT   3422
+
+Homo_sapiens    3549 CCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGATATTAGCGGGAG   3598
+                     .||.||||||||||||||||||||||||||.||.|||||.|||||.||.|
+Ursus_arctos    3423 GCTTGCATACTTGGACTTCAGCGTGTCAACTACGGGGATCTTAGCAGGCG   3472
+
+Homo_sapiens    3599 TGAAGATGTCGCACGCGGCCACAAGCGCCTTATGCCGCTCCATAAAGCTG   3648
+                     ||||||||||||||||.||||||||.|||||.||||||||||||||||||
+Ursus_arctos    3473 TGAAGATGTCGCACGCAGCCACAAGTGCCTTGTGCCGCTCCATAAAGCTG   3522
+
+Homo_sapiens    3649 CAGTGTGAGCTGTACCCCTCGCGGCAGATCGCCATCTGCCTCGACCCCTA   3698
+                     ||||||||||||||||||||..|||||||||||||||||||.||||||||
+Ursus_arctos    3523 CAGTGTGAGCTGTACCCCTCTAGGCAGATCGCCATCTGCCTTGACCCCTA   3572
+
+Homo_sapiens    3699 CTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCGGGAC   3748
+                     |||||||||.||.||||||||||||||||||||||||||||||||.||||
+Ursus_arctos    3573 CTGTGGCCTCGGCTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCAGGAC   3622
+
+Homo_sapiens    3749 ACCAATCAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTCCCTG   3798
+                     ||||.||.||.|||||||||||||||||||||||||||||.||.||||||
+Ursus_arctos    3623 ACCAGTCTGTCCTGGTGCCCCCGCTGGAGCTGGAGAGCAATGTATCCCTG   3672
+
+Homo_sapiens    3799 TGGCTGTCGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTTCTGCTCCTA   3848
+                     ||||||||.||.||||||||||||||||||||.|||||||||||||||||
+Ursus_arctos    3673 TGGCTGTCCGCGGTCAGCCAGTACAAGGCCCGGGTCACCTTCTGCTCCTA   3722
+
+Homo_sapiens    3849 CTCTGTGATGGAGATGTGCACCAAGGGCCTAGGCGCACAGACGGGTGTCC   3898
+                     |||.||||||||||||||||||||||||||.||.||||||||.||.||||
+Ursus_arctos    3723 CTCGGTGATGGAGATGTGCACCAAGGGCCTGGGAGCACAGACAGGCGTCC   3772
+
+Homo_sapiens    3899 TCAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACGTGCATGGTGGTC   3948
+                     |||||||||||||||||||||||||.||.||||||||.||||||||||||
+Ursus_arctos    3773 TCAGGATGAAGGGGGTGAACCTGTCCTGCGTGCGCACCTGCATGGTGGTC   3822
+
+Homo_sapiens    3949 GCCGAGGAGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTCCAAGCTCTT   3998
+                     ||.|||||||||||||||||.||.||.||.|||||||||||||||||.||
+Ursus_arctos    3823 GCAGAGGAGCGGCCCAGGATCGCACTCACGCAGTCCTTCTCCAAGCTGTT   3872
+
+Homo_sapiens    3999 CAAGGACCTGGGCCTGCCGGCCCGCGCCGTAAGCACCACGTTCGGGTGCA   4048
+                     |||||||||.||.|||||.||.||.||.||.|||||||||||.|||||||
+Ursus_arctos    3873 CAAGGACCTAGGGCTGCCAGCACGTGCTGTGAGCACCACGTTTGGGTGCA   3922
+
+Homo_sapiens    4049 GGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCTGGCT   4098
+                     |||||||||||||||||||||||                           
+Ursus_arctos    3923 GGGTCAACGTGGCCATCTGCCTC---------------------------   3945
+
+Homo_sapiens    4099 GAGCAGGGCACAGCTGGCCCGGACCCCACAACCGTCTACGTGGACATGCG   4148
+                        |||||||||||.||||||||||||||.||||||||||||||||||.|
+Ursus_arctos    3946 ---CAGGGCACAGCCGGCCCGGACCCCACCACCGTCTACGTGGACATGAG   3992
+
+Homo_sapiens    4149 GGCACTGCGCCATGACAGGGTTCGTTTGGTAGAACGGGGTTCTCCGCACA   4198
+                     |||.||||||||.|||.||||.||||||||||||||||||||||||||||
+Ursus_arctos    3993 GGCGCTGCGCCACGACCGGGTACGTTTGGTAGAACGGGGTTCTCCGCACA   4042
+
+Homo_sapiens    4199 GCCTGCCATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTGAAGGTCATC   4248
+                     |.|||||.||||.||||||.|||||||||||.||.||.|||||||||||.
+Ursus_arctos    4043 GTCTGCCGTTGACGGAGTCCGGAAAGATCCTTCCTGGGGTGAAGGTCATT   4092
+
+Homo_sapiens    4249 ATCGCACACACCGAGACCAAAGGACCCTTGGGAGACTCACACCTGGGAGA   4298
+                     ||.||||||||.||.||||||||.|||.|.||||||||||||||||||||
+Ursus_arctos    4093 ATTGCACACACTGAAACCAAAGGGCCCCTTGGAGACTCACACCTGGGAGA   4142
+
+Homo_sapiens    4299 GATCTGGGTAAGCAGCCCCCACAATGCCACCGGGTACTACACCGTTTACG   4348
+                     |||||||||.|||||||||||||||||||||||.||||||||.||.||||
+Ursus_arctos    4143 GATCTGGGTGAGCAGCCCCCACAATGCCACCGGCTACTACACGGTCTACG   4192
+
+Homo_sapiens    4349 GGGAGGAGGCGCTTCATGCCGACCACTTCAGTGCCCGGCTGAGTTTTGGA   4398
+                     |||||||||||||.||.||||||||||||||.||||||||||||||||||
+Ursus_arctos    4193 GGGAGGAGGCGCTGCACGCCGACCACTTCAGCGCCCGGCTGAGTTTTGGA   4242
+
+Homo_sapiens    4399 GACACACAGACCATCTGGGCAAGGACCGGCTACCTTGGCTTCCTTCGGCG   4448
+                     |||||.||||||||.|||||.|||||.||||||||.||.||||||||..|
+Ursus_arctos    4243 GACACCCAGACCATTTGGGCGAGGACGGGCTACCTCGGTTTCCTTCGAAG   4292
+
+Homo_sapiens    4449 AACAGAGCTCACTGATGCCAGTGGAGGGCGGCACGATGCACTGTATGTGG   4498
+                     |||.||||||||||||||||||||||.||||||.||.||.||||||||||
+Ursus_arctos    4293 AACGGAGCTCACTGATGCCAGTGGAGAGCGGCATGACGCGCTGTATGTGG   4342
+
+Homo_sapiens    4499 TTGGGTCTCTGGATGAAACTCTGGAGCTCAGAGGCATGCGGTACCACCCC   4548
+                     |.|||||||||||.||.||.||||||||.|||||||||||.||.||||||
+Ursus_arctos    4343 TCGGGTCTCTGGACGAGACGCTGGAGCTGAGAGGCATGCGCTATCACCCC   4392
+
+Homo_sapiens    4549 ATCGACATTGAGACCTCTGTCATCCGAGCACACAGGAGCATCGCTGAGTG   4598
+                     ||||||||.|||||.||.||..|||||||.||||||||||||||||||||
+Ursus_arctos    4393 ATCGACATCGAGACGTCCGTGGTCCGAGCCCACAGGAGCATCGCTGAGTG   4442
+
+Homo_sapiens    4599 TGCCGTATTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTGGATG   4648
+                     .|||||.|||||||||||||||||.||.||||||||||||||||||||.|
+Ursus_arctos    4443 CGCCGTCTTCACCTGGACCAACCTTCTAGTGGTGGTGGTGGAGCTGGACG   4492
+
+Homo_sapiens    4649 GGCTAGAGCAGGATGCCCTGGACCTGGTGGCCCTGGTGACCAACGTGGTG   4698
+                     ||||.||||||||.||.||||||||||||||..||||.||.|||||||||
+Ursus_arctos    4493 GGCTGGAGCAGGACGCGCTGGACCTGGTGGCTTTGGTCACAAACGTGGTG   4542
+
+Homo_sapiens    4699 CTGGAGGAGCACTACCTGGTCGTGGGAGTGGTGGTCATCGTGGACCCAGG   4748
+                     ||||||||||||.|||||||||||||.|||||||||||.||||||||.||
+Ursus_arctos    4543 CTGGAGGAGCACCACCTGGTCGTGGGCGTGGTGGTCATTGTGGACCCCGG   4592
+
+Homo_sapiens    4749 GGTGATCCCTATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTGCGGG   4798
+                     .||||||||.||||||||.|||||.|||||||||||||||||||||||.|
+Ursus_arctos    4593 TGTGATCCCCATCAACTCGCGGGGCGAGAAGCAGCGCATGCACCTGCGAG   4642
+
+Homo_sapiens    4799 ACGGCTTCCTGGCTGACCAGCTGGACCCCATCTATGTCGCCTACAACATG   4848
+                     |||||||||||||.||||||||||||||.|||||.||.||||||||||||
+Ursus_arctos    4643 ACGGCTTCCTGGCCGACCAGCTGGACCCGATCTACGTGGCCTACAACATG   4692
+
+
+#---------------------------------------
+#---------------------------------------

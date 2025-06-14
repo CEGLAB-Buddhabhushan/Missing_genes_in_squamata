@@ -1,0 +1,638 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:54:38
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Puma_concolor.fa
+#    -outfile Homo_sapiens-Puma_concolor.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Puma_concolor.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Puma_concolor
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7503
+# Identity:    6811/7503 (90.8%)
+# Similarity:  6811/7503 (90.8%)
+# Gaps:         102/7503 ( 1.4%)
+# Score: 31501.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCCCGCC-----CTGCGCC--------CCGCTCTGCTGTGGGC--GCT     35
+                     |||  .|||     |.||..|        |.||| .|||||.|.|  |.|
+Puma_concolor      1 ATG--TGCCTGAAGCAGCAGCAGCAGCAGCAGCT-AGCTGTAGCCAAGGT     47
+
+Homo_sapiens      36 GCTGGCG------CTC--------TGGCT-----GTGCTG----------     56
+                     .||.|.|      |||        ||.||     .|||||          
+Puma_concolor     48 CCTAGGGCATAAACTCAGAGGACTTGTCTCTCAAATGCTGGTACTCAAAA     97
+
+Homo_sapiens      57 ----------CG------------------CGGCCCCCGCGCATG-----     73
+                               ||                  .|||||       ||     
+Puma_concolor     98 TTTGCATAAACGTTAAAGAGAAAATTCAAAAGGCCC-------TGTATAC    140
+
+Homo_sapiens      74 -----------CATTGCAGTGTCGAGATGGCTATGAACCCTGTGTAAATG    112
+                                |||||||||||||.||..|||||||.|||||||||||||
+Puma_concolor    141 CTTCTCTTCACCATTGCAGTGTCGGGACAGCTATGAGCCCTGTGTAAATG    190
+
+Homo_sapiens     113 AAGGAATGTGTGTTACCTACCACAATGGCACAGGATACTGCAAATGTCCA    162
+                     |||||||.||||||||||||||||||||.|||||||||||||||||||..
+Puma_concolor    191 AAGGAATATGTGTTACCTACCACAATGGTACAGGATACTGCAAATGTCTG    240
+
+Homo_sapiens     163 GAAGGCTTCTTGGGGGAATATTGTCAACATCGAGACCCCTGTGAGAAGAA    212
+                     ||.|||||||||||.|||||||||||||||||||||||||||||||||||
+Puma_concolor    241 GAGGGCTTCTTGGGAGAATATTGTCAACATCGAGACCCCTGTGAGAAGAA    290
+
+Homo_sapiens     213 CCGCTGCCAGAATGGTGGGACTTGTGTGGCCCAGGCCATGCTGGGGAAAG    262
+                     |||||||||||||||.|||||.||||||||||||||||||.|||||||||
+Puma_concolor    291 CCGCTGCCAGAATGGGGGGACGTGTGTGGCCCAGGCCATGTTGGGGAAAG    340
+
+Homo_sapiens     263 CCACGTGCCGATGTGCCTCAGGGTTTACAGGAGAGGACTGCCAGTACTCA    312
+                     ||||.||||||||||||...|||||.|||||.||.|||||.|||||||||
+Puma_concolor    341 CCACATGCCGATGTGCCCTGGGGTTCACAGGTGATGACTGTCAGTACTCA    390
+
+Homo_sapiens     313 ACATCTCATCCATGCTTTGTGTCTCGACCCTGCCTGAATGGCGGCACATG    362
+                     ||..||||.||.|||||||||||||..||||||||||||||.|||||.||
+Puma_concolor    391 ACTGCTCACCCCTGCTTTGTGTCTCACCCCTGCCTGAATGGAGGCACCTG    440
+
+Homo_sapiens     363 CCATATGCTCAGCCGGGATACCTATGAGTGCACCTGTCAAGTCGGGTTTA    412
+                     ||||.|||..||||||||...|||||||||.|||||.|||||.||.||||
+Puma_concolor    441 CCATGTGCGTAGCCGGGACGACTATGAGTGTACCTGCCAAGTTGGTTTTA    490
+
+Homo_sapiens     413 CAGGTAAGGAGTGCCAATGGACGGATGCCTGCCTGTCTCATCCCTGTGCA    462
+                     ||||||||..||||||||||||.|||||||||||.|||||||||||||||
+Puma_concolor    491 CAGGTAAGCTGTGCCAATGGACCGATGCCTGCCTATCTCATCCCTGTGCA    540
+
+Homo_sapiens     463 AATGGAAGTACCTGTACCACTGTGGCCAACCAGTTCTCCTGCAAATGCCT    512
+                     |||||||||||.||.||||||||.|||||||||||||||||||.||||||
+Puma_concolor    541 AATGGAAGTACATGCACCACTGTAGCCAACCAGTTCTCCTGCAGATGCCT    590
+
+Homo_sapiens     513 CACAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCAATGAGTGTGACA    562
+                     |.|||||||||||||.|||||.|||||||||||.||||||||||||||||
+Puma_concolor    591 CGCAGGCTTCACAGGACAGAAGTGTGAGACTGACGTCAATGAGTGTGACA    640
+
+Homo_sapiens     563 TTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAACCTGCCTGGTTCC    612
+                     |.||||||||.||.|||||||||||||||||||||||.||.|..||||||
+Puma_concolor    641 TCCCAGGACAGTGTCAGCATGGTGGCACCTGCCTCAATCTACTGGGTTCC    690
+
+Homo_sapiens     613 TACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTACTGTGACAGCCT    662
+                     ||.||||||||.|||||.||||||||||||||||||.||||||||||||.
+Puma_concolor    691 TATCAGTGCCAATGCCCCCAGGGCTTCACAGGCCAGCACTGTGACAGCCC    740
+
+Homo_sapiens     663 GTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAGGCACCTGTCGGC    712
+                     .||||||||||||||||||||.||.||||||||||||||||||||.||||
+Puma_concolor    741 CTATGTGCCCTGTGCACCCTCCCCCTGTGTCAATGGAGGCACCTGCCGGC    790
+
+Homo_sapiens     713 AGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCAGGTTTTGAAGGG    762
+                     ||||||||||||||||.|||||.|||||||||||||||||||||||||||
+Puma_concolor    791 AGACTGGTGACTTCACATTTGAATGCAACTGCCTTCCAGGTTTTGAAGGG    840
+
+Homo_sapiens     763 AGCACCTGTGAGAGGAATATTGATGACTGCCCTAACCACAGGTGTCAGAA    812
+                     |.||||||||||.|||||||||||||||||||||||||||.|||||||||
+Puma_concolor    841 ATCACCTGTGAGCGGAATATTGATGACTGCCCTAACCACAAGTGTCAGAA    890
+
+Homo_sapiens     813 TGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAACTGCCGCTGTCCCC    862
+                     ||||||.|||||||||||||||||.||.|||||||||||||||||.||||
+Puma_concolor    891 TGGAGGAGTTTGTGTGGATGGGGTTAATACTTACAACTGCCGCTGCCCCC    940
+
+Homo_sapiens     863 CACAATGGACAGGACAGTTCTGCACAGAGGATGTGGATGAATGCCTGCTG    912
+                     |.||.|||||||||||||||||||||||||||||.||.||.||.||||||
+Puma_concolor    941 CTCAGTGGACAGGACAGTTCTGCACAGAGGATGTAGACGAGTGTCTGCTG    990
+
+Homo_sapiens     913 CAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAACCGCAATGGAGG    962
+                     ||.||.||.||.|||||.||.||.||||||||..||||||||||.||.||
+Puma_concolor    991 CAACCTAACGCTTGTCAGAACGGAGGCACCTGCACCAACCGCAACGGGGG   1040
+
+Homo_sapiens     963 CTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATGACTGCAGTGAGA   1012
+                     |||||||||.||.||||||||.||||||||||||||.|||||||||||||
+Puma_concolor   1041 CTATGGCTGCGTGTGTGTCAATGGCTGGAGTGGAGACGACTGCAGTGAGA   1090
+
+Homo_sapiens    1013 ACATTGATGATTGTGCCTTCGCCTCCTGTACTCCAGGCTCCACCTGCATC   1062
+                     ||||.|||||.||.||||||||||||||.|||||.||||||||.|||||.
+Puma_concolor   1091 ACATCGATGACTGCGCCTTCGCCTCCTGCACTCCCGGCTCCACGTGCATT   1140
+
+Homo_sapiens    1063 GACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAAGGCAGGTCT   1112
+                     ||||||||||||||||||||||||||||||||.||.||.|||||||||||
+Puma_concolor   1141 GACCGTGTGGCCTCCTTCTCTTGCATGTGCCCTGAAGGAAAGGCAGGTCT   1190
+
+Homo_sapiens    1113 CCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGCCACAAGGGGG   1162
+                     |.||||||||.|||||||||||||||||||||||||||||||.|||||||
+Puma_concolor   1191 CTTGTGTCATTTGGATGATGCATGCATCAGCAATCCTTGCCATAAGGGGG   1240
+
+Homo_sapiens    1163 CACTGTGTGACACCAACCCCCTAAATGGGCAATATATTTGCACCTGCCCA   1212
+                     ||||||||||.|||||||||||.||.|||||.|||||||||||||||||.
+Puma_concolor   1241 CACTGTGTGATACCAACCCCCTGAACGGGCAGTATATTTGCACCTGCCCC   1290
+
+Homo_sapiens    1213 CAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGAATGTGCCAT   1262
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+Puma_concolor   1291 CAAGGCTACAAAGGCGCTGACTGCACAGAAGATGTGGATGAATGTGCCAT   1340
+
+Homo_sapiens    1263 GGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAACACGGATG   1312
+                     ||||||||||||||||||||||||||||||||||||||||||.||.||||
+Puma_concolor   1341 GGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAATACAGATG   1390
+
+Homo_sapiens    1313 GCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCTCGTTGTGAG   1362
+                     |.||||||||||||||.|||||||.|||.|||.|||||||||||||.|||
+Puma_concolor   1391 GTGCCTTCCACTGTGAATGTCTGAGGGGCTATACAGGACCTCGTTGCGAG   1440
+
+Homo_sapiens    1363 ATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGATGCTACCTG   1412
+                     .||||.|||||||||||||||||.||||||||||||||.|||||.|||||
+Puma_concolor   1441 TTGGATATCAATGAGTGCCATTCTGACCCCTGCCAGAACGATGCGACCTG   1490
+
+Homo_sapiens    1413 TCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAGGTTTCAAAG   1462
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+Puma_concolor   1491 TCTGGATAAGATTGGAGGCTTCACGTGTCTGTGCATGCCAGGTTTCAAAG   1540
+
+Homo_sapiens    1463 GTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAACCCTTGTGTG   1512
+                     ||||||||||||||.|.||.|||||.||||||||||||||||||||||||
+Puma_concolor   1541 GTGTGCATTGTGAACTGGAGATAAACGAATGTCAGAGCAACCCTTGTGTG   1590
+
+Homo_sapiens    1513 AACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCAGTGCCTGTGTCC   1562
+                     ||||||||.||||||||.||||||||||||||.||||||||.||||||||
+Puma_concolor   1591 AACAATGGTCAGTGTGTAGATAAAGTCAATCGCTTCCAGTGTCTGTGTCC   1640
+
+Homo_sapiens    1563 TCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGACTGTTCCA   1612
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   1641 GCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGACTGTTCCA   1690
+
+Homo_sapiens    1613 GTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCCGAATGGCTAT   1662
+                     |||||||||||||||||||||||||||||||.||||||||.|||||||||
+Puma_concolor   1691 GTACTCCGTGTCTGAATGGGGCAAAGTGTATTGATCACCCAAATGGCTAT   1740
+
+Homo_sapiens    1663 GAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTGAGGAGAACAT   1712
+                     ||||||||||||||||||||.|||||||||||||||||.|||||.|||||
+Puma_concolor   1741 GAATGCCAGTGTGCCACAGGATTCACTGGTGTGTTGTGCGAGGAAAACAT   1790
+
+Homo_sapiens    1713 TGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGTCAGGATGGTA   1762
+                     .||||||||||||||.|||||||||||||||||.||||||||||||||.|
+Puma_concolor   1791 CGACAACTGTGACCCTGATCCTTGCCACCATGGCCAGTGTCAGGATGGGA   1840
+
+Homo_sapiens    1763 TTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGGCGCCATCTGC   1812
+                     |||||||||||||||||||||||||.||.|||||||||||.|||||||||
+Puma_concolor   1841 TTGATTCCTACACCTGCATCTGCAACCCGGGGTACATGGGTGCCATCTGC   1890
+
+Homo_sapiens    1813 AGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGAACGATGGTCG   1862
+                     |||||||||||.|||||||||||||||||||||||||||||.||||||||
+Puma_concolor   1891 AGTGACCAGATAGATGAATGTTACAGCAGCCCTTGCCTGAATGATGGTCG   1940
+
+Homo_sapiens    1863 CTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAGCCAGGCACGT   1912
+                     ||||||||||||.||.||||||||||||||||||||||||||||||||||
+Puma_concolor   1941 CTGCATTGACCTTGTAAATGGCTACCAGTGCAACTGCCAGCCAGGCACGT   1990
+
+Homo_sapiens    1913 CAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAGTAACCCTTGT   1962
+                     ||||.||||||||||||||.||||||||||||||||||||||||||||||
+Puma_concolor   1991 CAGGTGTTAATTGTGAAATCAATTTTGATGACTGTGCAAGTAACCCTTGT   2040
+
+Homo_sapiens    1963 ATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTTGTGTCTGCTC   2012
+                     .||||.|||.||||||||||||||||||||||.||.||||||||||||||
+Puma_concolor   2041 GTCCACGGAGTCTGTATGGATGGCATTAATCGTTATAGTTGTGTCTGCTC   2090
+
+Homo_sapiens    2013 ACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGATGAGTGTGCCT   2062
+                     |||.||||||||||||||||||||||||||.|||||||||||||||||||
+Puma_concolor   2091 ACCGGGATTCACAGGGCAGAGATGTAACATCGACATTGATGAGTGTGCCT   2140
+
+Homo_sapiens    2063 CCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGTGAATGGTTTC   2112
+                     ||||||||||||||||||||||.||.||.|||||||..||||||||||||
+Puma_concolor   2141 CCAATCCCTGTCGCAAGGGTGCGACGTGCATCAACGACGTGAATGGTTTC   2190
+
+Homo_sapiens    2113 CGCTGTATATGCCCCGAGGGACCCCATCACCCCAGCTGCTACTCACAGGT   2162
+                     ||||||.|||||||.||||||||.||||||||||||||||||||||||||
+Puma_concolor   2191 CGCTGTCTATGCCCTGAGGGACCGCATCACCCCAGCTGCTACTCACAGGT   2240
+
+Homo_sapiens    2163 GAACGAATGCCTGAGCAATCCCTGCATCCATGGAAACTGTACTGGAGGTC   2212
+                     ||||||.||||||||||.|||||||||||||||.||||||||.|||||.|
+Puma_concolor   2241 GAACGAGTGCCTGAGCAGTCCCTGCATCCATGGGAACTGTACCGGAGGCC   2290
+
+Homo_sapiens    2213 TCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGTTGGCATCAACTGT   2262
+                     ||||.|||||.||||||||||||||||||||||||||||||||||||||.
+Puma_concolor   2291 TCAGCGGATACAAGTGTCTCTGTGATGCAGGCTGGGTTGGCATCAACTGC   2340
+
+Homo_sapiens    2263 GAAGTGGACAAAAATGAATGCCTTTCGAATCCATGCCAGAATGGAGGAAC   2312
+                     ||||||||||||||||||||.|||||.||.||||||||||||||||||||
+Puma_concolor   2341 GAAGTGGACAAAAATGAATGTCTTTCTAACCCATGCCAGAATGGAGGAAC   2390
+
+Homo_sapiens    2313 TTGTGACAATCTGGTGAATGGATACAGGTGTACTTGCAAGAAGGGCTTTA   2362
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+Puma_concolor   2391 TTGTGACAATCTGGTGAACGGATACAGGTGTACTTGCAAGAAGGGCTTTA   2440
+
+Homo_sapiens    2363 AAGGCTATAACTGCCAGGTGAATATTGATGAATGTGCCTCAAATCCATGC   2412
+                     |||||||||||||.|||||||||||||||||||||||.||||||||.|||
+Puma_concolor   2441 AAGGCTATAACTGTCAGGTGAATATTGATGAATGTGCTTCAAATCCCTGC   2490
+
+Homo_sapiens    2413 CTGAACCAAGGAACCTGCTTTGATGACATAAGTGGCTACACTTGCCACTG   2462
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   2491 CTGAACCAAGGAACCTGCTTTGATGACATAAGTGGCTACACTTGCCACTG   2540
+
+Homo_sapiens    2463 TGTGCTGCCATACACAGGCAAGAATTGTCAGACAGTATTGGCTCCCTGTT   2512
+                     |||||||||||||||||||||||||||||||||.||.|||||||||||||
+Puma_concolor   2541 TGTGCTGCCATACACAGGCAAGAATTGTCAGACTGTGTTGGCTCCCTGTT   2590
+
+Homo_sapiens    2513 CCCCAAACCCTTGTGAGAATGCTGCTGTTTGCAAAGAGTCACCAAATTTT   2562
+                     ||||||||||.|||||||||||||||||||||||||||.|||||||||||
+Puma_concolor   2591 CCCCAAACCCATGTGAGAATGCTGCTGTTTGCAAAGAGGCACCAAATTTT   2640
+
+Homo_sapiens    2563 GAGAGTTATACTTGCTTGTGTGCTCCTGGCTGGCAAGGTCAGCGGTGTAC   2612
+                     |||||.||.||.|||.|||||||.||||||||||||||||||||||||||
+Puma_concolor   2641 GAGAGCTACACCTGCCTGTGTGCCCCTGGCTGGCAAGGTCAGCGGTGTAC   2690
+
+Homo_sapiens    2613 CATTGACATTGACGAGTGTATCTCCAAGCCCTGCATGAACCATGGTCTCT   2662
+                     .|||||||||||.||||||.||||||||||.|||||||||||.|||||||
+Puma_concolor   2691 AATTGACATTGATGAGTGTGTCTCCAAGCCTTGCATGAACCACGGTCTCT   2740
+
+Homo_sapiens    2663 GCCATAACACCCAGGGCAGCTACATGTGTGAATGTCCACCAGGCTTCAGT   2712
+                     |||||||||||||||||||||||||||||||.|||||.|||||||||||.
+Puma_concolor   2741 GCCATAACACCCAGGGCAGCTACATGTGTGAGTGTCCTCCAGGCTTCAGC   2790
+
+Homo_sapiens    2713 GGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTGCCA   2762
+                     |||||||||||||||||||||||.||||||||||||||||||||||||||
+Puma_concolor   2791 GGTATGGACTGTGAGGAGGACATCGATGACTGCCTTGCCAATCCTTGCCA   2840
+
+Homo_sapiens    2763 GAATGGAGGTTCCTGTATGGATGGAGTGAATACTTTCTCCTGCCTCTGCC   2812
+                     ||||||||||||||||.|.|||||||||||||||||||||||.||.||||
+Puma_concolor   2841 GAATGGAGGTTCCTGTGTAGATGGAGTGAATACTTTCTCCTGTCTGTGCC   2890
+
+Homo_sapiens    2813 TTCCGGGTTTCACTGGGGATAAGTGCCAGACAGACATGAATGAGTGTCTG   2862
+                     ..||.||.||.|.||||||||||||.||||||||||||||||||||||||
+Puma_concolor   2891 ACCCTGGCTTTATTGGGGATAAGTGTCAGACAGACATGAATGAGTGTCTG   2940
+
+Homo_sapiens    2863 AGTGAACCCTGTAAGAATGGAGGGACCTGCTCTGACTACGTCAACAGTTA   2912
+                     ||||||||.|||||||||||||||||||||||.|||||.|||||||||||
+Puma_concolor   2941 AGTGAACCGTGTAAGAATGGAGGGACCTGCTCCGACTATGTCAACAGTTA   2990
+
+Homo_sapiens    2913 CACTTGCAAGTGCCAGGCAGGATTTGATGGAGTCCATTGTGAGAACAACA   2962
+                     ||||||||||||||||||.|||||||||||||||||.|||||||||||||
+Puma_concolor   2991 CACTTGCAAGTGCCAGGCGGGATTTGATGGAGTCCACTGTGAGAACAACA   3040
+
+Homo_sapiens    2963 TCAATGAGTGCACTGAGAGCTCCTGTTTCAATGGTGGCACATGTGTTGAT   3012
+                     ||.|||||||||||||||||||||||||||||||||||||.|||||.||.
+Puma_concolor   3041 TCGATGAGTGCACTGAGAGCTCCTGTTTCAATGGTGGCACGTGTGTCGAC   3090
+
+Homo_sapiens    3013 GGGATTAACTCCTTCTCTTGCTTGTGCCCTGTGGGTTTCACTGGATCCTT   3062
+                     ||||||||||||||||||||||||||.||||||||.||||||||..||||
+Puma_concolor   3091 GGGATTAACTCCTTCTCTTGCTTGTGTCCTGTGGGCTTCACTGGCCCCTT   3140
+
+Homo_sapiens    3063 CTGCCTCCATGAGATCAATGAATGCAGCTCTCATCCATGCCTGAATGAGG   3112
+                     ||||||||||||||||||||||||||.|||||||||||||||.|||||.|
+Puma_concolor   3141 CTGCCTCCATGAGATCAATGAATGCAACTCTCATCCATGCCTAAATGAAG   3190
+
+Homo_sapiens    3113 GAACGTGTGTTGATGGCCTGGGTACCTACCGCTGCAGCTGCCCCCTGGGC   3162
+                     ||...|||||||||||||||||||||||||||||||.|||||||.|||||
+Puma_concolor   3191 GAGTATGTGTTGATGGCCTGGGTACCTACCGCTGCACCTGCCCCTTGGGC   3240
+
+Homo_sapiens    3163 TACACTGGGAAAAACTGTCAGACCCTGGTGAATCTCTGCAGTCGGTCTCC   3212
+                     ||||||||.|||||||||||||||||.|||||.|||||.|||||||||||
+Puma_concolor   3241 TACACTGGCAAAAACTGTCAGACCCTAGTGAACCTCTGTAGTCGGTCTCC   3290
+
+Homo_sapiens    3213 ATGTAAAAACAAAGGTACTTGCGTTCAGAAAAAAGCAGAGTCCCAGTGCC   3262
+                     ||||||||||||||||||||||||||||.|||||||||||||||.|||.|
+Puma_concolor   3291 ATGTAAAAACAAAGGTACTTGCGTTCAGGAAAAAGCAGAGTCCCGGTGTC   3340
+
+Homo_sapiens    3263 TATGTCCATCTGGATGGGCTGGTGCCTATTGTGACGTGCCCAATGTCTCT   3312
+                     |.|||||.|||||||||||||||||.||.|||||.|||||||||||.||.
+Puma_concolor   3341 TGTGTCCGTCTGGATGGGCTGGTGCTTACTGTGATGTGCCCAATGTATCC   3390
+
+Homo_sapiens    3313 TGTGACATAGCAGC-CTCCA-GGAGAGGTGTGCTTGTTGAACACTTGTGC   3360
+                     |||||..|.||.|| .|||| .|||.|||||.|  .||||.|||.|||||
+Puma_concolor   3391 TGTGAGGTGGCGGCTTTCCACAGAGGGGTGTCC--ATTGACCACCTGTGC   3438
+
+Homo_sapiens    3361 CAGCACTCAGGTGTCTGCATCAATGCTGGCAACACGCATTACTGTCAGTG   3410
+                     ||||||||.||..||||||||||||||||.|||.|||||.||||.|||||
+Puma_concolor   3439 CAGCACTCTGGCATCTGCATCAATGCTGGAAACTCGCATCACTGCCAGTG   3488
+
+Homo_sapiens    3411 CCCCCTGGGCTATACTGGGAGCTACTGTGAGGAGCAACTCGATGAGTGTG   3460
+                     ||||||||||||.||.||||||||||||||||||||.|||||||||||..
+Puma_concolor   3489 CCCCCTGGGCTACACCGGGAGCTACTGTGAGGAGCAGCTCGATGAGTGCT   3538
+
+Homo_sapiens    3461 CGTCCAACCCCTGCCAGCACGGGGCAACATGCAGTGACTTCATTGGTGGA   3510
+                     |.||||||||||||||||||||.||.||.|||||.||||||||.||.||.
+Puma_concolor   3539 CATCCAACCCCTGCCAGCACGGAGCCACTTGCAGGGACTTCATCGGCGGG   3588
+
+Homo_sapiens    3511 TACAGATGCGAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGA   3560
+                     ||.|||||.||||||||||||||.||||||||||||||.|||||||||||
+Puma_concolor   3589 TATAGATGTGAGTGTGTCCCAGGATATCAGGGTGTCAATTGTGAGTATGA   3638
+
+Homo_sapiens    3561 AGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTG   3610
+                     ||||||.|||||||||||||||||.||||||||.||||||||||||.|.|
+Puma_concolor   3639 AGTGGACGAGTGCCAGAATCAGCCATGCCAGAACGGAGGCACCTGTGTCG   3688
+
+Homo_sapiens    3611 ACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGCCTA   3660
+                     |||||||||||||||||||||||||.||.||||||||||||||.|||||.
+Puma_concolor   3689 ACCTTGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGCCTG   3738
+
+Homo_sapiens    3661 CTCTGTGAAGAGAACATTGATGACTGTGCCCGGGGTCCCCATTGCCTTAA   3710
+                     |||||.||||||||||||||.|||||||||.|.||||||||.||||||||
+Puma_concolor   3739 CTCTGCGAAGAGAACATTGACGACTGTGCCGGCGGTCCCCACTGCCTTAA   3788
+
+Homo_sapiens    3711 TGGTGGTCAGTGCATGGATAGGATTGGAGGCTACAGTTGTCGCTGCTTGC   3760
+                     .|||||||||||..|||||||||||||.|||||||||||.||||||||||
+Puma_concolor   3789 CGGTGGTCAGTGTGTGGATAGGATTGGGGGCTACAGTTGCCGCTGCTTGC   3838
+
+Homo_sapiens    3761 CTGGCTTTGCTGGGGAGCGTTGTGAGGGAGACATCAACGAGTGCCTCTCC   3810
+                     |.||||||||.||.||.||.||||||||.|||||||||||||||||||||
+Puma_concolor   3839 CCGGCTTTGCAGGAGAACGGTGTGAGGGGGACATCAACGAGTGCCTCTCC   3888
+
+Homo_sapiens    3811 AACCCCTGCAGCTCTGAGGGCAGCCTGGACTGTATACAGCTCACCAATGA   3860
+                     ||||||||||||||||||||||||||||||||.||||||||.|||||.||
+Puma_concolor   3889 AACCCCTGCAGCTCTGAGGGCAGCCTGGACTGCATACAGCTGACCAACGA   3938
+
+Homo_sapiens    3861 CTACCTGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCACTGTGAAACCT   3910
+                     ||||||||||||.|||||.||||||||.|||||.||.|||||||||||.|
+Puma_concolor   3939 CTACCTGTGTGTCTGCCGCAGTGCCTTCACTGGTCGTCACTGTGAAACTT   3988
+
+Homo_sapiens    3911 TCGTCGATGTGTGTCCCCAGATGCCCTGCCTGAATGGAGGGACTTGTGCT   3960
+                     ||||||||||||||||.||.|||||.|||||||||||.||||||||||||
+Puma_concolor   3989 TCGTCGATGTGTGTCCGCATATGCCTTGCCTGAATGGGGGGACTTGTGCT   4038
+
+Homo_sapiens    3961 GTGGCCAGTAACATGCCTGATGGTTTCATTTGCCGTTGTCCCCCGGGATT   4010
+                     ||||||||.||||||||.||||||||||||||.|||||||||||||||||
+Puma_concolor   4039 GTGGCCAGCAACATGCCCGATGGTTTCATTTGTCGTTGTCCCCCGGGATT   4088
+
+Homo_sapiens    4011 TTCCGGGGCAAGGTGCCAGAGCAGCTGTGGACAAGTGAAATGTAGGAAGG   4060
+                     .|||||||||||.||||||||||||||||||||||||||.||.||||..|
+Puma_concolor   4089 CTCCGGGGCAAGATGCCAGAGCAGCTGTGGACAAGTGAAGTGCAGGAGAG   4138
+
+Homo_sapiens    4061 GGGAGCAGTGTGTGCACACCGCCTCTGGACCCCGCTGCTTCTGCCCCAGT   4110
+                     |||||||||||||||||||.|||||.||||||||||||||||||||||..
+Puma_concolor   4139 GGGAGCAGTGTGTGCACACGGCCTCAGGACCCCGCTGCTTCTGCCCCAAC   4188
+
+Homo_sapiens    4111 CCCCGGGACTGCGAGTCAGGCTGTGCCAGTAGCCCCTGCCAGCACGGGGG   4160
+                     ||||.|||||||||||||||||||||||||||||||||||||||.|||||
+Puma_concolor   4189 CCCCAGGACTGCGAGTCAGGCTGTGCCAGTAGCCCCTGCCAGCATGGGGG   4238
+
+Homo_sapiens    4161 CAGCTGCCACCCTCAGCGCCAGCCTCCTTATTACTCCTGCCAGTGTGCCC   4210
+                     .||||||.|||||||||||||||||||||||||||.||||||||||.|.|
+Puma_concolor   4239 TAGCTGCTACCCTCAGCGCCAGCCTCCTTATTACTTCTGCCAGTGTTCTC   4288
+
+Homo_sapiens    4211 CACCATTCTCGGGTAGCCGCTGTGAACTCTACACGGCACCCCCCAGCACC   4260
+                     |||||||||.|||.||||.||||||.||.||||||||.|||.||||||||
+Puma_concolor   4289 CACCATTCTGGGGCAGCCACTGTGAGCTTTACACGGCCCCCACCAGCACC   4338
+
+Homo_sapiens    4261 CCTCCTGCCACCTGTCTGAGCCAGTATTGTGCCGACAAAGCTCGGGATGG   4310
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+Puma_concolor   4339 CCTCCTGCCACCTGTCTGAGCCAGTATTGTGCCGACAAAGCTCGGGACGG   4388
+
+Homo_sapiens    4311 CGTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCAGTGGGATGGGGGTG   4360
+                     ||||||.||||||||.||||||||||||||||||||||||||||||||||
+Puma_concolor   4389 CGTCTGCGATGAGGCATGCAACAGCCATGCCTGCCAGTGGGATGGGGGTG   4438
+
+Homo_sapiens    4361 ACTGTTCTCTCACCATGGAGAACCCCTGGGCCAACTGCTCCTCCCCACTT   4410
+                     |||||||.||.|||||||||||||||||||||||||||||.|||||||||
+Puma_concolor   4439 ACTGTTCCCTGACCATGGAGAACCCCTGGGCCAACTGCTCTTCCCCACTT   4488
+
+Homo_sapiens    4411 CCCTGCTGGGATTATATCAACAACCAGTGTGATGAGCTGTGCAACACGGT   4460
+                     ||||||||||||||.||||||||||||||||||||||||||.|||||.|.
+Puma_concolor   4489 CCCTGCTGGGATTACATCAACAACCAGTGTGATGAGCTGTGTAACACAGC   4538
+
+Homo_sapiens    4461 CGAGTGCCTGTTTGACAACTTTGAATGCCAGGGGAACAGCAAGACATGCA   4510
+                     |||||||||.||||||||||||||||||||.||||||||||||||.||||
+Puma_concolor   4539 CGAGTGCCTTTTTGACAACTTTGAATGCCAAGGGAACAGCAAGACGTGCA   4588
+
+Homo_sapiens    4511 AGTATGACAAATACTGTGCAGACCACTTCAAAGACAACCACTGTGACCAG   4560
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   4589 AGTATGACAAATACTGTGCAGACCACTTCAAAGACAACCACTGTGACCAG   4638
+
+Homo_sapiens    4561 GGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGCTGGACTGTGCTGCTGA   4610
+                     ||.||||||||||||||||||||.|||||||||.||||||||||||||||
+Puma_concolor   4639 GGATGCAACAGTGAGGAGTGTGGCTGGGATGGGTTGGACTGTGCTGCTGA   4688
+
+Homo_sapiens    4611 CCAACCTGAGAACCTGGCAGAAGGTACCCTGGTTATTGTGGTATTGATGC   4660
+                     ||..||.||||||||||||||.||.|||||||||||.|||||..|.||||
+Puma_concolor   4689 CCGGCCGGAGAACCTGGCAGAGGGGACCCTGGTTATAGTGGTGCTCATGC   4738
+
+Homo_sapiens    4661 CACCTGAACAACTGCTCCAGGATGCTCGCAGCTTCTTGCGGGCACTGGGT   4710
+                     |.||.||.||.||.|||||||||||.||||||||.||||||||||||||.
+Puma_concolor   4739 CCCCAGAGCAGCTTCTCCAGGATGCCCGCAGCTTTTTGCGGGCACTGGGC   4788
+
+Homo_sapiens    4711 ACCCTGCTCCACACCAACCTGCGCATTAAGCGGGACTCCCAGGGGGAACT   4760
+                     ||||||||||..||||||||||..|||||.||||||||||||||||.|||
+Puma_concolor   4789 ACCCTGCTCCGTACCAACCTGCAGATTAAACGGGACTCCCAGGGGGTACT   4838
+
+Homo_sapiens    4761 CATGGTGTACCCCTATTATGGTGAGAAGTCAGCTGCTATGAAGAAACAGA   4810
+                     ||||||.|||||||||||||||||||||||.|||||.||||||||.||||
+Puma_concolor   4839 CATGGTCTACCCCTATTATGGTGAGAAGTCGGCTGCCATGAAGAAGCAGA   4888
+
+Homo_sapiens    4811 GGATGACACGCAGATCCCTTCCTGGTGAACAAGAACAGGAGGTGGCTGGC   4860
+                     ||||||.||||||.||||||||||||||.||||||||||||||||.||||
+Puma_concolor   4889 GGATGATACGCAGGTCCCTTCCTGGTGACCAAGAACAGGAGGTGGTTGGC   4938
+
+Homo_sapiens    4861 TCTAAAGTCTTTCTGGAAATTGACAACCGCCAGTGTGTTCAAGACTCAGA   4910
+                     |||||.||.|||||||||||||||||||||||||||||||||||.|||||
+Puma_concolor   4939 TCTAAGGTGTTTCTGGAAATTGACAACCGCCAGTGTGTTCAAGATTCAGA   4988
+
+Homo_sapiens    4911 CCACTGCTTCAAGAACACGGATGCAGCAGCAGCTCTCCTGGCCTCTCACG   4960
+                     |||.||.|||||||||||||||||||||||||||||.|||||||||||||
+Puma_concolor   4989 CCAGTGTTTCAAGAACACGGATGCAGCAGCAGCTCTTCTGGCCTCTCACG   5038
+
+Homo_sapiens    4961 CCATACAGGGGACCCTGTCATACCCTCTTGTGTCTGTCGTCAGTGAATCC   5010
+                     ||||.|||||||||.||||.||||||||||||||.||||||||||||||.
+Puma_concolor   5039 CCATCCAGGGGACCTTGTCCTACCCTCTTGTGTCCGTCGTCAGTGAATCT   5088
+
+Homo_sapiens    5011 CTGACTCCAGAACGCACTCAGCTCCTCTATCTCCTTGCTGTTGCTGTTGT   5060
+                     |||||||||.||.|.||||||||.||||||||.|||||||||||.|||||
+Puma_concolor   5089 CTGACTCCAAAAGGTACTCAGCTTCTCTATCTACTTGCTGTTGCCGTTGT   5138
+
+Homo_sapiens    5061 CATCATTCTGTTTATTATTCTGCTGGGGGTAATCATGGCAAAACGAAAGC   5110
+                     |||.||.|||||||||||..|||||||.||.||||||||.||||||||||
+Puma_concolor   5139 CATTATCCTGTTTATTATCTTGCTGGGAGTTATCATGGCGAAACGAAAGC   5188
+
+Homo_sapiens    5111 GTAAGCATGGCTCTCTCTGGCTGCCTGAAGGTTTCACTCTTCGCCGAGAT   5160
+                     |||||||||||||.|||||||||||||||||||||||.|||||||||||.
+Puma_concolor   5189 GTAAGCATGGCTCCCTCTGGCTGCCTGAAGGTTTCACCCTTCGCCGAGAC   5238
+
+Homo_sapiens    5161 GCAAGCAATCACAAGCGTCGTGAGCCAGTGGGACAGGATGCTGTGGGGCT   5210
+                     .|.||||||||||||||.|||||||||||||||||||||||.||||||||
+Puma_concolor   5239 TCCAGCAATCACAAGCGCCGTGAGCCAGTGGGACAGGATGCCGTGGGGCT   5288
+
+Homo_sapiens    5211 GAAAAATCTCTCAGTGCAAGTCTCAGAAGCTAACCTAATTGGTACTGGAA   5260
+                     |||||||||||||||||||||||||||.|||||||||||||||.||||||
+Puma_concolor   5289 GAAAAATCTCTCAGTGCAAGTCTCAGAGGCTAACCTAATTGGTTCTGGAA   5338
+
+Homo_sapiens    5261 CAAGTGAACACTGGGTCGATGATGAAGGGCCCCAGCCAAAGAAAGTAAAG   5310
+                     ||||||||||.|||||.||||||||||||||||||||||||||||..|||
+Puma_concolor   5339 CAAGTGAACATTGGGTTGATGATGAAGGGCCCCAGCCAAAGAAAGCCAAG   5388
+
+Homo_sapiens    5311 GCTGAAGATGAGGCCTTACTCTCAGAAGAAGATGACCCCATTGATCGACG   5360
+                     ||||||||||||||.||.|||||||||||||||||..|||||||||||||
+Puma_concolor   5389 GCTGAAGATGAGGCTTTGCTCTCAGAAGAAGATGATGCCATTGATCGACG   5438
+
+Homo_sapiens    5361 GCCATGGACACAGCAGCACCTTGAAGCTGCAGACATCCGTAGGACACCAT   5410
+                     .|||||||||||||||||||||||.||||||||.|||||.|||||.||||
+Puma_concolor   5439 TCCATGGACACAGCAGCACCTTGAGGCTGCAGATATCCGCAGGACGCCAT   5488
+
+Homo_sapiens    5411 CGCTGGCTCTCACCCCTCCTCAGGCAGAGCAGGAGGTGGATGTGTTAGAT   5460
+                     |||||||.|||||.|||||.|||||||||||.||||||||||||||.|||
+Puma_concolor   5489 CGCTGGCACTCACTCCTCCACAGGCAGAGCAAGAGGTGGATGTGTTGGAT   5538
+
+Homo_sapiens    5461 GTGAATGTCCGTGGCCCAGATGGCTGCACCCCATTGATGTTGGCTTCTCT   5510
+                     |||||||||||||||||||||||.|||||||||.|||||.|||||||.||
+Puma_concolor   5539 GTGAATGTCCGTGGCCCAGATGGGTGCACCCCACTGATGCTGGCTTCCCT   5588
+
+Homo_sapiens    5511 CCGAGGAGGCAGCTCAGATTTGAGTGATGAAGATGAAGATGCAGAGGACT   5560
+                     |||||||||||||||||||.|||||||||||||||||||||.||||||||
+Puma_concolor   5589 CCGAGGAGGCAGCTCAGATATGAGTGATGAAGATGAAGATGGAGAGGACT   5638
+
+Homo_sapiens    5561 CTTCTGCTAACATCATCACAGACTTGGTCTACCAGGGTGCCAGCCTCCAG   5610
+                     |||||||.|||||||||||||||||.||||||||||||||||||||.|||
+Puma_concolor   5639 CTTCTGCCAACATCATCACAGACTTAGTCTACCAGGGTGCCAGCCTGCAG   5688
+
+Homo_sapiens    5611 GCCCAGACAGACCGGACTGGTGAGATGGCCCTGCACCTTGCAGCCCGCTA   5660
+                     |||||||||||||||||||||||||||||.||||||||||||||.|||||
+Puma_concolor   5689 GCCCAGACAGACCGGACTGGTGAGATGGCTCTGCACCTTGCAGCGCGCTA   5738
+
+Homo_sapiens    5661 CTCACGGGCTGATGCTGCCAAGCGTCTCCTGGATGCAGGTGCAGATGCCA   5710
+                     ||||.||||||||||.|||||||||||||||||||||||||||||.||||
+Puma_concolor   5739 CTCAAGGGCTGATGCCGCCAAGCGTCTCCTGGATGCAGGTGCAGACGCCA   5788
+
+Homo_sapiens    5711 ATGCCCAGGACAACATGGGCCGCTGTCCACTCCATGCTGCAGTGGCAGCT   5760
+                     |.|||||||||||||||||||||||.||.|||||||||||||||||||||
+Puma_concolor   5789 ACGCCCAGGACAACATGGGCCGCTGCCCTCTCCATGCTGCAGTGGCAGCT   5838
+
+Homo_sapiens    5761 GATGCCCAAGGTGTCTTCCAGATTCTGATTCGCAACCGAGTAACTGATCT   5810
+                     ||||||||.||.|||||||||||||||||.||||||||||||||||||||
+Puma_concolor   5839 GATGCCCAGGGGGTCTTCCAGATTCTGATCCGCAACCGAGTAACTGATCT   5888
+
+Homo_sapiens    5811 AGATGCCAGGATGAATGATGGTACTACACCCCTGATCCTGGCTGCCCGCC   5860
+                     .||.|||||||||||||||||.||||||||.|||||||||||.|||||||
+Puma_concolor   5889 GGACGCCAGGATGAATGATGGCACTACACCACTGATCCTGGCCGCCCGCC   5938
+
+Homo_sapiens    5861 TGGCTGTGGAGGGAATGGTGGCAGAACTGATCAACTGCCAAGCGGATGTG   5910
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+Puma_concolor   5939 TGGCTGTGGAGGGAATGGTGGCAGAACTGATCAACTGCCAAGCAGATGTG   5988
+
+Homo_sapiens    5911 AATGCAGTGGATGACCATGGAAAATCTGCTCTTCACTGGGCAGCTGCTGT   5960
+                     ||||||||.||.||||||||||||||.|||||||||||||||||||||||
+Puma_concolor   5989 AATGCAGTAGACGACCATGGAAAATCCGCTCTTCACTGGGCAGCTGCTGT   6038
+
+Homo_sapiens    5961 CAATAATGTGGAGGCAACTCTTTTGTTGTTGAAAAATGGGGCCAACCGAG   6010
+                     ||||||.|||||||||||.||||||.||||||||||.|||||||||||||
+Puma_concolor   6039 CAATAACGTGGAGGCAACCCTTTTGCTGTTGAAAAACGGGGCCAACCGAG   6088
+
+Homo_sapiens    6011 ACATGCAGGACAACAAGGAAGAGACACCTCTGTTTCTTGCTGCCCGGGAG   6060
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   6089 ACATGCAAGACAACAAGGAAGAGACACCTCTGTTTCTTGCTGCCCGGGAG   6138
+
+Homo_sapiens    6061 GGGAGCTATGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCGAGA   6110
+                     ||.||||||||||||||||||||||||||||||||||||||||||||.||
+Puma_concolor   6139 GGAAGCTATGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCGGGA   6188
+
+Homo_sapiens    6111 CATCACAGACCATATGGATCGTCTTCCCCGGGATGTGGCTCGGGATCGCA   6160
+                     .|||||||||||.||||||||||||||||||||||||||||||||.||||
+Puma_concolor   6189 TATCACAGACCACATGGATCGTCTTCCCCGGGATGTGGCTCGGGACCGCA   6238
+
+Homo_sapiens    6161 TGCACCATGACATTGTGCGCCTTCTGGATGAATACAATGTGACCCCAAGC   6210
+                     |||||||||||||.||||||||.||.||.||.|||||||||||.||.|||
+Puma_concolor   6239 TGCACCATGACATCGTGCGCCTCCTAGACGAGTACAATGTGACACCGAGC   6288
+
+Homo_sapiens    6211 CCTCCAGGCACCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGGGCC   6260
+                     |||||||||||.|||.||||||||||.|||||||||||||||||||||||
+Puma_concolor   6289 CCTCCAGGCACTGTGCTGACTTCTGCCCTCTCACCTGTCATCTGTGGGCC   6338
+
+Homo_sapiens    6261 CAACAGATCTTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGTCTA   6310
+                     |||||||||||||||||||||.||||||||||||||||||||||||.|||
+Puma_concolor   6339 CAACAGATCTTTCCTCAGCCTAAAGCACACCCCAATGGGCAAGAAGCCTA   6388
+
+Homo_sapiens    6311 GACGGCCCAGTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTTGCC   6360
+                     |||||||||.|.||||||||.|||||||.|||||||||||||||||||||
+Puma_concolor   6389 GACGGCCCAATACCAAGAGTGCCATGCCCACTAGCCTCCCTAACCTTGCC   6438
+
+Homo_sapiens    6361 AAGGAGGCAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGTGA   6410
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   6439 AAGGAGGCCAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAGTGA   6488
+
+Homo_sapiens    6411 GAAGGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGATTCCC   6460
+                     .||||..||.|||||||||||||||||.|||||||||||.|||||||||.
+Puma_concolor   6489 CAAGGGTCAGCTGTCTGAGAGTTCAGTGACTTTATCCCCAGTTGATTCCT   6538
+
+Homo_sapiens    6461 TAGAATCTCCTCACACGTATGTTTCCGACACCACATCCTCTCCAATGATT   6510
+                     ||||.|||||||||||.||||||||.||||||||||||||||||||||||
+Puma_concolor   6539 TAGAGTCTCCTCACACATATGTTTCTGACACCACATCCTCTCCAATGATT   6588
+
+Homo_sapiens    6511 ACATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGCCACTGC   6560
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+Puma_concolor   6589 ACATCCCCTGGAATCTTACAGGCCTCACCCAACCCTATGTTGGCCACTGC   6638
+
+Homo_sapiens    6561 CGCCCCTCCTGCCCCAGTCCATGCCCAGCATGCACTATCTTTTTCTAACC   6610
+                     .||.||.|||||||||||||||||.|||||||||||.||.||.|||||||
+Puma_concolor   6639 TGCACCCCCTGCCCCAGTCCATGCACAGCATGCACTGTCCTTCTCTAACC   6688
+
+Homo_sapiens    6611 TTCATGAAATGCAGCCTTTGGCACATGGGGCCAGCACTGTGCTTCCCTCA   6660
+                     |.||||||||||||||||||||.||.|||||||.||||||||||||||||
+Puma_concolor   6689 TGCATGAAATGCAGCCTTTGGCTCACGGGGCCAACACTGTGCTTCCCTCA   6738
+
+Homo_sapiens    6661 GTGAGCCAGTTGCTATCCCACCACCACATTGTGTCTCCAGGCAGTGGCAG   6710
+                     |||||||||.||||||||||||||||||||||..|.||||||||||||||
+Puma_concolor   6739 GTGAGCCAGCTGCTATCCCACCACCACATTGTTCCCCCAGGCAGTGGCAG   6788
+
+Homo_sapiens    6711 TGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCAGTCCCAGCAGATTGGA   6760
+                     |.|.||.||||||.|.|||||||||||||||.|.||.|||||||||||||
+Puma_concolor   6789 TACGGGGAGCTTGGGCAGGCTCCATCCAGTCACTGTTCCAGCAGATTGGA   6838
+
+Homo_sapiens    6761 TGAACCGCATGGAGGTGAATGAGACCCAGTACAATGAGATGTTTGGTATG   6810
+                     ||||||||||||||.|||||||||||||||||||||||||||||.|||||
+Puma_concolor   6839 TGAACCGCATGGAGATGAATGAGACCCAGTACAATGAGATGTTTAGTATG   6888
+
+Homo_sapiens    6811 GTCCTGGCTCCAGCTGAGGGCACCCATCCTGGCATAGCTCCCCAGAGCAG   6860
+                     ||.||||||||||||||||||||.||.|||||||||||||||||||||||
+Puma_concolor   6889 GTTCTGGCTCCAGCTGAGGGCACGCACCCTGGCATAGCTCCCCAGAGCAG   6938
+
+Homo_sapiens    6861 GCCACCTGAAGGGAAGCACATAACCACCCCTCGGGAGCCCTTGCCCCCCA   6910
+                     .|||||||||||||||||.|||||.|||||||||||||||||||||||||
+Puma_concolor   6939 ACCACCTGAAGGGAAGCATATAACTACCCCTCGGGAGCCCTTGCCCCCCA   6988
+
+Homo_sapiens    6911 TTGTGACTTTCCAGCTCATCCCTAAAGGCAGTATTGCCCAACCAGCGGGG   6960
+                     ||||||||||||||||.|||||.||||||||||||.||||||||||.|||
+Puma_concolor   6989 TTGTGACTTTCCAGCTAATCCCCAAAGGCAGTATTTCCCAACCAGCAGGG   7038
+
+Homo_sapiens    6961 GCTCCCCAGCCTCAGTCCACCTGCCCTCCAGCTGTTGCGGGCCCCCTGCC   7010
+                     .||||||||||||||||||.||||||.|||.|||||||.||.||..||||
+Puma_concolor   7039 ACTCCCCAGCCTCAGTCCAACTGCCCCCCACCTGTTGCAGGTCCTGTGCC   7088
+
+Homo_sapiens    7011 CACCATGTACCAGATTCCAGAAATGGCCCGTTTGCCCAGTGTGGCTTTCC   7060
+                     |||||||||||||||||||||||||||.||||||||.|.|.|||||||.|
+Puma_concolor   7089 CACCATGTACCAGATTCCAGAAATGGCTCGTTTGCCTAATATGGCTTTTC   7138
+
+Homo_sapiens    7061 CCACTGCCATGATGCCCCAGCAGGACGGGCAGGTAGCTCAGACCATTCTC   7110
+                     |||||||||||||||||||||||||.||||||||.|||||||||||||||
+Puma_concolor   7139 CCACTGCCATGATGCCCCAGCAGGATGGGCAGGTTGCTCAGACCATTCTC   7188
+
+Homo_sapiens    7111 CCAGCCTATCATCCTTTCCCAGCCTCTGTGGGCAAGTACCCCACACCCCC   7160
+                     ||||||||||||||||||||||||||||||||||||||.||||||||.||
+Puma_concolor   7189 CCAGCCTATCATCCTTTCCCAGCCTCTGTGGGCAAGTATCCCACACCACC   7238
+
+Homo_sapiens    7161 TTCACAGCACAGTTATGCTTCCTCAAATGCTGCTGAGCGAACACCCAGTC   7210
+                     |||||||||.||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   7239 TTCACAGCATAGTTATGCTTCCTCAAATGCTGCTGAGCGAACACCCAGTC   7288
+
+Homo_sapiens    7211 ACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCAGAG   7260
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   7289 ACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCAGAG   7338
+
+Homo_sapiens    7261 TCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTGGTC   7310
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   7339 TCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTGGTC   7388
+
+Homo_sapiens    7311 AGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGAGGTCAGCGGG   7360
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Puma_concolor   7389 AGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGAGGTCAGCGGG   7438
+
+Homo_sapiens    7361 GACCTGGGACACACATGTCTGAGCCACCACACAACAACATGCAGGTTTAT   7410
+                     |||||||.||||||||||||||||||||.|.||.||||||||||||.|||
+Puma_concolor   7439 GACCTGGAACACACATGTCTGAGCCACCGCGCAGCAACATGCAGGTGTAT   7488
+
+Homo_sapiens    7411 GCG   7413
+                     ||.
+Puma_concolor   7489 GCA   7491
+
+
+#---------------------------------------
+#---------------------------------------

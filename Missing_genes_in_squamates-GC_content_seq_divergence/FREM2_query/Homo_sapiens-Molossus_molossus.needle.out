@@ -1,0 +1,802 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:42:33
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Molossus_molossus.fa
+#    -outfile Homo_sapiens-Molossus_molossus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Molossus_molossus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Molossus_molossus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9582
+# Identity:    7712/9582 (80.5%)
+# Similarity:  7712/9582 (80.5%)
+# Gaps:         150/9582 ( 1.6%)
+# Score: 31063.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCG-GGACTCCCGGGTTATCCTCGCG--CCGGA--CAGGC     45
+                     ||||.| .||||| ||||.||||||....||||.||  |..||  |||  
+Molossus_molo      1 ATGCGC-GAGCCGAGGACCCCCGGGGCCGCCTCCCGTTCGCGATCCAG--     47
+
+Homo_sapiens      46 AACTCCACCAGCTTTCAACCAGGA--------CCGCCACCGCCGCCCCGG     87
+                       |.||.||.|.|||||.||  ||        ||.|||||.|||.|||.|
+Molossus_molo     48 --CCCCGCCCGTTTTCAGCC--GACGCCTCGGCCCCCACCACCGACCCAG     93
+
+Homo_sapiens      88 CTGCTGCTGCTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGC    137
+                     |||..|||||||||||||||.|||||||||||||||||||||||||||||
+Molossus_molo     94 CTGGAGCTGCTGCTGCTGCTGCTCCTGTCACTGGTAAGCCGCGTCCCGGC    143
+
+Homo_sapiens     138 ACAGCCCGCTGCCTTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGG    187
+                     |||||.||.||||..||||.|||||.||||||||.|.|.||||.||||||
+Molossus_molo    144 ACAGCTCGGTGCCCCCGGCCGGGCGCTGCTGTCCTCGGATCTCCCGGGGG    193
+
+Homo_sapiens     188 CTGCAGGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTC    237
+                     ..||.||||||||.||..|||||||.||.||..||||||||||.||.|||
+Molossus_molo    194 TGGCGGGGGTCCCCGCCCAGGAGGCGATCGTAATGGCGAACCGTGGGCTC    243
+
+Homo_sapiens     238 CGGGTGCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGT    287
+                     ||.|||||.|||||||||||.||||||||||||||.|||||.||||||||
+Molossus_molo    244 CGCGTGCCCTTCGGCCGTGAGGTCTGGCTGGATCCACTGCACGACCTGGT    293
+
+Homo_sapiens     288 GTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACG    337
+                     |.||||.||||||||.||||||||||||||.||..||||.||.|.|||||
+Molossus_molo    294 GCTGCAAGTGCAGCCAGGGGACCGCTGCGCCGTGACGGTGCTGGCCAACG    343
+
+Homo_sapiens     338 ACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGC    387
+                     ||||.|||||||||||.||||||||||||...||||||||||||||||||
+Molossus_molo    344 ACGCCCTGGCCCAGCGGCCGGGCCGCCTGCACCCCAAGCGCTTCCCGTGC    393
+
+Homo_sapiens     388 GACTTTGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCC    437
+                     |||||.|||||..|.||||||.|||||||.|||||||||||.||||||||
+Molossus_molo    394 GACTTCGGCCCCAGGGAGGTGAGCTACTCGCACCTGGGCGCACGCAGCCC    443
+
+Homo_sapiens     438 GTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGG    487
+                     |||.||.||.|||||||.|||||||||||||||.||||||||.|||||||
+Molossus_molo    444 GTCGCGAGATCGCGTCCCGCTGCAGCTGCGCTACGACGCGCCGGGAGGGG    493
+
+Homo_sapiens     488 CAGTAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTG    537
+                     |.|..|||||.||..|||..|||||||||||||||||||||||.||||||
+Molossus_molo    494 CGGCGGTGCTCCCTTTGGCGCTGGAGGTGGAGGTGGTCTTCACGCAGCTG    543
+
+Homo_sapiens     538 GAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGAC    587
+                     ||.||.|||||||||||||||||.||.||||||||.||||||||||||||
+Molossus_molo    544 GAAGTCGTGACTCGGAACTTGCCCCTCGTCGTGGAGGAGCTGCTGGGGAC    593
+
+Homo_sapiens     588 CAGCAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGA    637
+                     ||||||.||.||||||||||||||||||||||||||||.||||.||||||
+Molossus_molo    594 CAGCAACGCTCTGGACGCGCGGAGCCTGGAGTTCGCCTACCAGTCCGAGA    643
+
+Homo_sapiens     638 CAGAGGAGTGCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGC    687
+                     |.||||||||.|||||||||||||||||||||||||||.|||||||||||
+Molossus_molo    644 CGGAGGAGTGTCGCGTGGGCATCCTGTCCGGCTTGGGCACGCTGCCTCGC    693
+
+Homo_sapiens     688 TATGGAGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGG    737
+                     ||.||.||.||||||||||||||||.|..|||.||.|.|||..|.|.|.|
+Molossus_molo    694 TACGGGGAGCTCCTCCACTACCCGCCGCCCCCAGGTGTAGCTCGCGCGAG    743
+
+Homo_sapiens     738 AGGCGCCCCGGAGACT-CTCCTGATGGACTGCAAAGCTTTCCAGGAACTA    786
+                     .|||||||||||| || |.||||.|||||||||||||||||||||||||.
+Molossus_molo    744 GGGCGCCCCGGAG-CTGCCCCTGCTGGACTGCAAAGCTTTCCAGGAACTG    792
+
+Homo_sapiens     787 GGCGTGCGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTG    836
+                     |||||||||||.|||||||..|||.|..|.|||||.||.|||||.|||||
+Molossus_molo    793 GGCGTGCGCTACCGCCACAGCGCCCCTGGCCGCTCCCCGAACAGAGACTG    842
+
+Homo_sapiens     837 GATACCCATGGTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCC    886
+                     |.|.|||.|||||||||||||||...|.||.||..||||.||||||||||
+Molossus_molo    843 GGTGCCCCTGGTGGTGGAGCTGCACGCGCGTGGCTCTCCCGTGGGCAGCC    892
+
+Homo_sapiens     887 CTGCTTTGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGG    936
+                     |.||||||||.||.||||||||||||||.|||||||||||||||||.|||
+Molossus_molo    893 CCGCTTTGAAGCGTGAGCACTTCCAGGTGCTGGTGAGGATCCGAGGCGGG    942
+
+Homo_sapiens     937 GCCGAGAACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGA    986
+                     ||.||||||||.||.||||||||||||||||||||.||||||||||||||
+Molossus_molo    943 GCGGAGAACACCGCTCCCAAGCCCAGTTTCGTGGCGATGATGATGATGGA    992
+
+Homo_sapiens     987 GGTGGACCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCG   1036
+                     |||||||||||||||.|||||.|||||||||||.|||||||||||.||||
+Molossus_molo    993 GGTGGACCAGTTTGTGCTGACCGCCCTGACCCCGGACATGCTGGCCGCCG   1042
+
+Homo_sapiens    1037 AGGATGCTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCA   1086
+                     |||||||.||.||..||.|.|||.|||||.||||||||||.||.|||||.
+Molossus_molo   1043 AGGATGCCGAATCGACCCCCGACTTGTTGGTCTTCAACCTGACCTCTCCC   1092
+
+Homo_sapiens    1087 TTCCAGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCC   1136
+                     ||||||||.||||||||||||.||||||||||.|||||.|||||||||||
+Molossus_molo   1093 TTCCAGCCCGGCCAGGGCTACCTGGTGAGCACGGATGACCGCAGCCTGCC   1142
+
+Homo_sapiens    1137 CCTTTCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACC   1186
+                     |||.|||||||||||.||||.|||..|||..|||||||||||.|||||||
+Molossus_molo   1143 CCTGTCCTCCTTCACGCAGAAGGACTTGCACCTCCTGAAGATCGCCTACC   1192
+
+Homo_sapiens    1187 AGCCCCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTG   1236
+                     ||||.||.||.||.|||||.|||||||||||||||||.||..|.||..||
+Molossus_molo   1193 AGCCGCCCTCCGAGGACTCGGACCAGGAGCGCCTCTTCGAGTTCGAGCTG   1242
+
+Homo_sapiens    1237 GAGGTAGTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGT   1286
+                     |||||.|||||.|..|||||||||||.||.|||||.||||||||||||||
+Molossus_molo   1243 GAGGTGGTGGACCCCGAAGGAGCAGCCTCGGACCCCTTTGCCTTCATGGT   1292
+
+Homo_sapiens    1287 AGTGGTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCG   1336
+                     .||||||||||||||||||||..||||.||||||||||||||.||.||.|
+Molossus_molo   1293 GGTGGTGAAGCCCATGAACACTCTGGCCCCGGTGGTCACCCGCAACACTG   1342
+
+Homo_sapiens    1337 GTCTTATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGC   1386
+                     |.||.|||||.||.|||||.||||||||||||||||..||||||||||||
+Molossus_molo   1343 GGCTCATTCTGTACGAGGGCCAGTCTCGGCCCCTCAGCGGCCCTGCAGGC   1392
+
+Homo_sapiens    1387 AGTGGTCCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGT   1436
+                     |||||.||.||.|||||||||||||||||||||||.|||||.||.||.||
+Molossus_molo   1393 AGTGGGCCACAGAACTTGGTCATCAGCGATGAGGACGACCTGGAGGCTGT   1442
+
+Homo_sapiens    1437 GCGGCTAGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGG   1486
+                     ||.|||.|||||||||||.|||||.||||||||.|||||.|||.||||||
+Molossus_molo   1443 GCAGCTGGAGGTGGTGGCCGGGCTGCGGCATGGCCACCTGGTCCTTCTGG   1492
+
+Homo_sapiens    1487 GTGCTTCCAGTGGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTG   1536
+                     |||..|||.|.||||||||.||..|.||||.|||.||.|||||||||||.
+Molossus_molo   1493 GTGGCTCCGGGGGCAGCTCGGCCACGAAGACCTTCACGGTGGCTGAGCTC   1542
+
+Homo_sapiens    1537 GCAGCCGGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAG   1586
+                     .|.|||||.|||||.||.|||||.||.|||||||.|||||||||||||||
+Molossus_molo   1543 ACCGCCGGTCAGGTCGTGTACCATCACGATGACACAGACGGCTCGCTGAG   1592
+
+Homo_sapiens    1587 CGACAACCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTAC   1636
+                     |||||||.|||||||.||.|||||.||.||||||.||||.||||||||.|
+Molossus_molo   1593 CGACAACTTGGTGCTGCGGATGGTAGACGGAGGACGCAGACACCAGGTGC   1642
+
+Homo_sapiens    1637 AGTTTCTGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTT   1686
+                     ||||.|||||||||||||||.|.|||||.||||||||||||||.||.||.
+Molossus_molo   1643 AGTTCCTGTTCCCCATCACCCTGGTGCCGGTGGATGACCAGCCCCCCGTC   1692
+
+Homo_sapiens    1687 CTCAATGCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCAT   1736
+                     ||||||||||||||.||.|||||.|||||||||||.||.||.|||||.||
+Molossus_molo   1693 CTCAATGCCAACACAGGCCTGACGCTGGCAGAGGGCGAGACCGTGCCGAT   1742
+
+Homo_sapiens    1737 CCTGCCCCTTTCCCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGC   1786
+                     ||..||.|||.|.||.|||||.||.||||||||.||.||.||.||.||||
+Molossus_molo   1743 CCCTCCGCTTGCGCTCAGTGCCACGGACATGGACTCGGACGACTCGCTGC   1792
+
+Homo_sapiens    1787 TGCTTTTTGTGCTGGAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTC   1836
+                     ||||.|||||||||||||| .|||||  |.|..|.|||||.|||.|.|||
+Molossus_molo   1793 TGCTCTTTGTGCTGGAGTC-TCCTTC--AGCCTCCGGGCACCTGATCCTC   1839
+
+Homo_sapiens    1837 CGCCAAACTCACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTG   1886
+                     |||||.|||||||||||.|..|||..|.|||..||||||.|.||||..||
+Molossus_molo   1840 CGCCAGACTCACCCTCCGCGGGAGGGGGAGGGGCTTCTCGGGGGCCCCTG   1889
+
+Homo_sapiens    1887 GAGGAAGGAGGGGGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGC   1936
+                     |||||||.|.|||||.||.||||||..|||.|||||.|||||||.|||||
+Molossus_molo   1890 GAGGAAGCAAGGGGCGTTCTATGAGAAAACGGTGACCGAGTGGCGGCAGC   1939
+
+Homo_sapiens    1937 AGGACAT-AACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAG   1985
+                     ||||||| |.|||.|||| ||||||||||....|||||.|||||||||..
+Molossus_molo   1940 AGGACATCACCAGGGGGC-GGCTGTTCTACGTGCACTCCGGGCCCCATCA   1988
+
+Homo_sapiens    1986 TCCTGGGCCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATAACCATG   2035
+                     .||.|||||.||....||.||||||.|.|||.||||.|||||||||||.|
+Molossus_molo   1989 CCCCGGGCCGGTGCTGGATCAGTTCGCCTTTCGAGTTCAGGATAACCACG   2038
+
+Homo_sapiens    2036 ACCCTCCTAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCT   2085
+                     ||||.||.||||||||.|||||||||.||||.|||||.||.|||||.|||
+Molossus_molo   2039 ACCCCCCCAATCAGTCTGGGCTACAGAGGTTCGTGATCCGCATCCACCCT   2088
+
+Homo_sapiens    2086 GTGGATCGCCTCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGT   2135
+                     |||||.|||||.||.||||||.|||||||.|||||||||||.||.|||||
+Molossus_molo   2089 GTGGACCGCCTGCCCCCGGAGGTGGGCAGCGGCTGTCCCCTCCGCATGGT   2138
+
+Homo_sapiens    2136 GGTACAGGAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACA   2185
+                     |||..||||.|||||||||||.||.||||||||||||||||||||.||||
+Molossus_molo   2139 GGTGAAGGAGTCCCAGCTCACCCCGCTGAGGAAGAAGTGGCTGCGGTACA   2188
+
+Homo_sapiens    2186 CTGACCTGGACACAGATGACCGAGAACTACGTTACACAGTGACTCAGCCC   2235
+                     |.|||||||||||.||.|||||.|||||.||.|||||.|||||.|||||.
+Molossus_molo   2189 CGGACCTGGACACGGACGACCGGGAACTGCGGTACACGGTGACGCAGCCG   2238
+
+Homo_sapiens    2236 CCCACAGACACAGACGAAAATCACCTG----CCAGCCCCACTGGGTACCT   2281
+                     |||||.|||||||||    |.||.|.|    ||.|||||||||||.||||
+Molossus_molo   2239 CCCACGGACACAGAC----ACCAACCGCTCTCCGGCCCCACTGGGCACCT   2284
+
+Homo_sapiens    2282 TGGTCTTGACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCC   2331
+                     |||||.||||||||.||||.||...|||||||.|||||||.|||||||||
+Molossus_molo   2285 TGGTCCTGACTGACGACCCTTCCACCGTGGTGGCCCATTTCACCCAAGCC   2334
+
+Homo_sapiens    2332 CAGATCAACCATCATAAAATTGCTTACAGACCCCCGGGTCAAGAACTGGG   2381
+                     |||.|||||||.||||||||.|||||||||||.||.|.|||.||||||||
+Molossus_molo   2335 CAGGTCAACCACCATAAAATCGCTTACAGACCTCCAGATCAGGAACTGGG   2384
+
+Homo_sapiens    2382 CGTGGCTACTCGAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTG   2431
+                     .|||||..|.||.||||||||||||||||||||.|||||.||||||||.|
+Molossus_molo   2385 GGTGGCCGCCCGGGTGGCCCAGTTCCAGTTCCAAGTGGAGGACCGAGCGG   2434
+
+Homo_sapiens    2432 GGAATGTGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAAC   2481
+                     ||||.||.||||||||.|||||.|||||.||.|||||.||.|.|||.|||
+Molossus_molo   2435 GGAACGTAGCTCCAGGCACCTTCACCCTGTATTTGCAGCCGGAGGAAAAC   2484
+
+Homo_sapiens    2482 CAGCCACCTGAGATCCTCAACACCGGCTTCACTATTCAGGAGAAGGGTCA   2531
+                     |||||.|||||||||||||||||.||||||.|.|.||||||||.|||.||
+Molossus_molo   2485 CAGCCCCCTGAGATCCTCAACACAGGCTTCTCCACTCAGGAGAGGGGACA   2534
+
+Homo_sapiens    2532 CCACATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGACACTGATG   2581
+                     ||||.|||||.|.|||||.|||.|||||||||.|||.||.|||||.||.|
+Molossus_molo   2535 CCACGTCCTGCGGGAGACGGAGCTGCACGTGAGTGACGTGGACACCGAGG   2584
+
+Homo_sapiens    2582 TTGCCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATGGCCACATG   2631
+                     ..|||||.||||||.||||.|||||.|||||.||||.|||.||.|||.||
+Molossus_molo   2585 AGGCCCACATCTCTCTCACCCTCACACAGGCGCCCAGACACGGTCACCTG   2634
+
+Homo_sapiens    2632 AGAGTGTCTGGACAGATCCTGCATGTAGGGGGTCTCTTCCACTTGGAGGA   2681
+                     ||.||.||.|||||.|||||||.|||.||.||..|||||||..|||||||
+Molossus_molo   2635 AGGGTTTCCGGACACATCCTGCCTGTGGGAGGGGTCTTCCATCTGGAGGA   2684
+
+Homo_sapiens    2682 CATAAAACAGGGCCGAGTTTCCTATGCCCATAATGGGGACAAGTCCCTGA   2731
+                     |||.|.|||||||||.||||||||||.|||.||||||||..|||||||||
+Molossus_molo   2685 CATCAGACAGGGCCGGGTTTCCTATGACCACAATGGGGATGAGTCCCTGA   2734
+
+Homo_sapiens    2732 CTGATAGCTGCTCCTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATC   2781
+                     ..||.|.||||||||||||.|||||||||||||..||.|||||.||||||
+Molossus_molo   2735 GCGACAACTGCTCCTTGGAGGTCAGTGACAGACGCCACGTGGTTCCCATC   2784
+
+Homo_sapiens    2782 ACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGAAGTGCCCATACTGAG   2831
+                     ||||||.||||.|..||.|||||.||||||||.||.||||||||.|||||
+Molossus_molo   2785 ACTCTCCGAGTGAGCGTGCGGCCCGTGGATGAGGAGGTGCCCATGCTGAG   2834
+
+Homo_sapiens    2832 CCATCCTACTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGG   2881
+                     ||.||||.|.||.|||||||.|||||||||.||.||..||||||||||||
+Molossus_molo   2835 CCTTCCTGCCGGTACTCTGGGGTCCTATCTGGACGTTCTAGAAAATGGGG   2884
+
+Homo_sapiens    2882 CTACTGAAATCACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGAT   2931
+                     |||||||.|||||.||.||||||||.|||||||||..||||||..||||.
+Molossus_molo   2885 CTACTGAGATCACGGCTAATGTTATCAAGGGGACCGCTGAGGATGCTGAG   2934
+
+Homo_sapiens    2932 GACTTGATGTTGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAAT   2981
+                     ||.||||||||||||||||||.|||||||.||.||.||||.|||.|||||
+Molossus_molo   2935 GATTTGATGTTGACTTTCCTCCTGGAAGACCCGCCCTTGTTTGGAGAAAT   2984
+
+Homo_sapiens    2982 CTTGGTCAATGGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCTTGG   3031
+                     |.|||||.||||...|||.||||||||||||||.|||||||||||.||||
+Molossus_molo   2985 CCTGGTCCATGGGGCTCCGGCAGAGCAGTTTACCCAAAGGGACATATTGG   3034
+
+Homo_sapiens    3032 AGGGCTCTGTTGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCT   3081
+                     ||||||||||.||.||..|||||||..||||.|||||||||||.|||||.
+Molossus_molo   3035 AGGGCTCTGTGGTCTACGCCCACACAGGTGGAGAGATAGGCCTGTTGCCC   3084
+
+Homo_sapiens    3082 AAAGCGGATTCTTTTAACCTGAGTCTGTCAGATATGTCTC--AAGAATGG   3129
+                     |.||.|||.|||||.||||||||||||||||.|.||||.|  |||  |||
+Molossus_molo   3085 AGAGAGGACTCTTTCAACCTGAGTCTGTCAGCTCTGTCCCCGAAG--TGG   3132
+
+Homo_sapiens    3130 AGAATTGGTGGCAATACTATCCAAGGAGTTACTATATGGGTGACCATCCT   3179
+                     ||||..|.||||||.||.||||||.||||.|||.|.||||||||||||||
+Molossus_molo   3133 AGAAAAGCTGGCAACACCATCCAAAGAGTCACTGTGTGGGTGACCATCCT   3182
+
+Homo_sapiens    3180 GCCTGTTGATAGCCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAG   3229
+                     .|||.|.||.|||||||||||||||||||..||.|||||||.|||.|.||
+Molossus_molo   3183 TCCTATCGACAGCCAGGCCCCAGAAATCTCGGTGGGTGAACCGTTCACAG   3232
+
+Homo_sapiens    3230 TAATGGAAGGTGATAAAAGTGTTATAACATCAGTGCATATAAGTGCTGAA   3279
+                     |.|.||||||||||||.||....|||||.|||||||||||..|.|||||.
+Molossus_molo   3233 TCACGGAAGGTGATAAGAGCACCATAACCTCAGTGCATATCCGCGCTGAG   3282
+
+Homo_sapiens    3280 GATGTCGACTCCCTGAATGATGACATCTTGTGCACTATAGTTATTCAGCC   3329
+                     |||||.||.||.|||||.|||||||||||||||||..|.||.||.|||||
+Molossus_molo   3283 GATGTGGATTCGCTGAACGATGACATCTTGTGCACGGTCGTCATCCAGCC   3332
+
+Homo_sapiens    3330 TACTTCAGGTTATGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAAT   3379
+                     ..|.||.||.||.||.||.||||||||.|||||.||.|||||.|||||||
+Molossus_molo   3333 CGCCTCGGGCTACGTGGAGAACATTTCCCCAGCCCCGGGCTCCGAGAAAT   3382
+
+Homo_sapiens    3380 CAAGAGCAGGGATTGCCATAAGTGCTTTCAACTTGAAAGATCTCAGGCAG   3429
+                     |.|||||||||||.||..|.|||||.||||.|.||||.||||||||||||
+Molossus_molo   3383 CGAGAGCAGGGATCGCTGTTAGTGCCTTCACCCTGAAGGATCTCAGGCAG   3432
+
+Homo_sapiens    3430 GGCCACATAAACTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGA   3479
+                     ||.|||.|.|||||.||.|||||||||||.||||||||||||||.|||||
+Molossus_molo   3433 GGTCACGTGAACTACGTTCAGAGTGTCCACAAAGGGGTGGAACCCGTGGA   3482
+
+Homo_sapiens    3480 GGACCGATTTGTATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGAC   3529
+                     .|||.|.||..||||.||||||||.||.|||||||||||.||||||||||
+Molossus_molo   3483 AGACAGGTTCATATTCCGTTGTTCCGACGGCATTAACTTCTCAGAGAGAC   3532
+
+Homo_sapiens    3530 AGTTCTTCCCCATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATG   3579
+                     |..||||||||||.||.||||||||||||||.||.||.|||||.||.||.
+Molossus_molo   3533 ACATCTTCCCCATCGTCATCATTCCCACCAACGACGAGCAGCCGGAAATA   3582
+
+Homo_sapiens    3580 TTTATGAGAGAATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATAC   3629
+                     ||..|.||||||||..||||||||||.||||||||||||||..|.||.||
+Molossus_molo   3583 TTCCTCAGAGAATTCGTGGTGATGGAGGGCATGAGTCTGGTGGTCGACAC   3632
+
+Homo_sapiens    3630 ACCCATTCTCAATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACTT   3679
+                     .|||||.||.||||||||.||||||||.|||||||||||.||.||.||||
+Molossus_molo   3633 GCCCATCCTGAATGCTGCGGATGCTGACGTTCCCCTGGACGACTTGACTT   3682
+
+Homo_sapiens    3680 TCACTATTACCCAATTCCCCACTCATGGTCACATCATGAATCAGCTGATA   3729
+                     |||||.|.|||||.|||||..|.||.||.|||||||||||.||||||||.
+Molossus_molo   3683 TCACTGTGACCCAGTTCCCTGCGCACGGCCACATCATGAACCAGCTGATC   3732
+
+Homo_sapiens    3730 AATGGCACGGTTTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAG   3779
+                     ||.|||||||||||.|||...|||||.||||||||.||||||.|||||||
+Molossus_molo   3733 AACGGCACGGTTTTTGTCACGAGCTTTACCTTGGACCAGATCCTAGAGAG   3782
+
+Homo_sapiens    3780 TTCCAGCATTATTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTT   3829
+                     .||||||.|.|||||||||||.||.|||||.|||||.|.|||||||||||
+Molossus_molo   3783 CTCCAGCGTCATTTATGAGCACGACGACTCTGAGACGCGGGAAGACAGTT   3832
+
+Homo_sapiens    3830 TTGTGATTAAACTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCTC   3879
+                     ||||||||.|.||||||||.||.||||||||.||||||||||.|||.|||
+Molossus_molo   3833 TTGTGATTCAGCTAACAGACGGTAAGCACTCGGTGGAAAAGAGGGTTCTC   3882
+
+Homo_sapiens    3880 ATTATAGTTATCCCTGTTGATGATGAGACGCCCAGAATGACTATCAATAA   3929
+                     |||||.||.|||||.|||||.||.||.||.|||.|.|||.|.|||||.||
+Molossus_molo   3883 ATTATGGTCATCCCCGTTGACGACGAAACCCCCCGGATGGCCATCAACAA   3932
+
+Homo_sapiens    3930 TGGACTAGAAATAGAAATTGGGGATACCAAGATTATCAACAACAAAATAT   3979
+                     |||.|||||.||||||||.|||||.||||||||.||.||||..||||||.
+Molossus_molo   3933 TGGGCTAGAGATAGAAATCGGGGAGACCAAGATCATAAACAGTAAAATAC   3982
+
+Homo_sapiens    3980 TAATGGCAACAGATTTAGATTCAGAAGACAAATCTTTGGTTTATATTATT   4029
+                     |.|||||.||.|||||||||||.|||||||||||..||||.||..||||.
+Molossus_molo   3983 TGATGGCCACGGATTTAGATTCTGAAGACAAATCCCTGGTCTACGTTATC   4032
+
+Homo_sapiens    4030 CGTTATGGGCCAGGACATGGCTTATTACAGAGACGAAAACCTACTGG---   4076
+                     |||||||||||.|.|||.||.|||||||||||||||||.|   ||||   
+Molossus_molo   4033 CGTTATGGGCCGGAACACGGATTATTACAGAGACGAAAGC---CTGGGCA   4079
+
+Homo_sapiens    4077 TGCCTTTGAAAATATCACACTGGGCATGAATTTTACCCAGGATGAAGTAG   4126
+                     ||||||.|||||.||||||||||||..||||||.||||||||.|||||.|
+Molossus_molo   4080 TGCCTTGGAAAACATCACACTGGGCTCGAATTTCACCCAGGACGAAGTGG   4129
+
+Homo_sapiens    4127 ACAGAAACTTAATTCAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGAC   4176
+                     ||||.|.|||.||||||||||||||||..|||||.|||.|||||||||||
+Molossus_molo   4130 ACAGGAGCTTGATTCAGTATGTCCATTCTGGGCAGGAGAGCATTCGGGAC   4179
+
+Homo_sapiens    4177 CTAATTAAATTTGATGTGACTGATGGAATAAATCCCCTCATAGATCGTTA   4226
+                     |||||||||||.||.|||||||||||.|..|||.||||||||||..|.||
+Molossus_molo   4180 CTAATTAAATTCGACGTGACTGATGGGACCAATGCCCTCATAGACTGCTA   4229
+
+Homo_sapiens    4227 CTTTTATGTGTCCATCGGGAGCATTGACATTGTCTTCCCTGATGTGATAA   4276
+                     ||||||.|||||.||.||||||.|||||||||||||||||||.|||.|||
+Molossus_molo   4230 CTTTTACGTGTCTATTGGGAGCGTTGACATTGTCTTCCCTGACGTGGTAA   4279
+
+Homo_sapiens    4277 GTAAGGGAGTGTCCTTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGAC   4326
+                     |||||||||||||..||||.||||||||.||||||||.||.||.||||||
+Molossus_molo   4280 GTAAGGGAGTGTCGCTGAAGGAAGGTGGTAAAGTCACCCTCACCACAGAC   4329
+
+Homo_sapiens    4327 CTACTAAGCACTAGTGACTTGAACAGTCCTGATGAAAACTTGGTTTTTAC   4376
+                     |||||.|||||.||||||.|||||||.||.||.||.|||||||..||.||
+Molossus_molo   4330 CTACTGAGCACCAGTGACCTGAACAGCCCCGACGAGAACTTGGCATTCAC   4379
+
+Homo_sapiens    4377 CATCACCAGGGCTCCCATGCGAGGTCACCTGGAATGCACGGATCAGCCTG   4426
+                     |||||||||.||.||..||.||||.|.|||||.||||||.||.||.||.|
+Molossus_molo   4380 CATCACCAGCGCGCCGGTGAGAGGGCTCCTGGCATGCACAGACCACCCGG   4429
+
+Homo_sapiens    4427 GTGTGTCCATCACGTCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATC   4476
+                     |.|||.||||||..|||||||||||.||.||.|||||.||.|||||.|||
+Molossus_molo   4430 GCGTGCCCATCAGCTCTTTCACTCAACTTCAGCTGGCCGGCAACAAGATC   4479
+
+Homo_sapiens    4477 TACTACATCCACACAGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTT   4526
+                     ||||||.|||||||.||.||.||.||.|.|||.||||||||.||||||||
+Molossus_molo   4480 TACTACGTCCACACGGCCGAGGACGAGGCGAAGATGGACAGCTTTGAGTT   4529
+
+Homo_sapiens    4527 TCAAGTCACCGATGGACGTAACCCTGTCTTTCGGACATTCCGTATCTCCA   4576
+                     |||.||||||||.||.||.|||||.|||||..||||.|||||.|||||||
+Molossus_molo   4530 TCAGGTCACCGACGGGCGCAACCCCGTCTTCAGGACCTTCCGCATCTCCA   4579
+
+Homo_sapiens    4577 TTAGCGATGTGGACAATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTT   4626
+                     |.||.||||||||||||||.|||||.||.||||||||||||...|||||.
+Molossus_molo   4580 TCAGGGATGTGGACAATAAGAAGCCGGTCGTCACCATCCACCGTCTGGTG   4629
+
+Homo_sapiens    4627 GTCAGTGAAAGTGAAAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGA   4676
+                     .||||||||.|.|||||||||||.||.|||||.||.||||||||.||.||
+Molossus_molo   4630 CTCAGTGAAGGCGAAAACAAGCTCATCACTCCCTTCGAGCTCACGGTGGA   4679
+
+Homo_sapiens    4677 AGACAGAGATACTCCTGACAAGCTCCTGAAATTCACTATCACCCAGGTGC   4726
+                     ||||||.||.|||||||||||||||||.||||||||..|||||||..|||
+Molossus_molo   4680 AGACAGGGACACTCCTGACAAGCTCCTAAAATTCACCGTCACCCAAATGC   4729
+
+Homo_sapiens    4727 CTATTCATGGCCATCTCCTATTCAACAATACCAGACCTGTCATGGTTTTT   4776
+                     |.|||||.|||||.|||||.||.|||||.|||||.||||.|.||||||||
+Molossus_molo   4730 CCATTCACGGCCAGCTCCTCTTTAACAACACCAGGCCTGCCGTGGTTTTT   4779
+
+Homo_sapiens    4777 ACCAAGCAAGACTTGAATGAAAACTTAATCAGCTACAAACATGATGGCAC   4826
+                     ||||||||||||||.||.||||||.|.||||||||||..|||||.|||||
+Molossus_molo   4780 ACCAAGCAAGACTTAAACGAAAACCTCATCAGCTACAGGCATGACGGCAC   4829
+
+Homo_sapiens    4827 TGAGTCAAGTGAAGATAGCTTCTCCTTCACAGTGACTGATGGCACCCATA   4876
+                     .|||||.||||||||.||||||||||||||.|||||.||.||..||||.|
+Molossus_molo   4830 CGAGTCGAGTGAAGACAGCTTCTCCTTCACGGTGACCGACGGTTCCCACA   4879
+
+Homo_sapiens    4877 CAGACTTCTATGTTTTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAA   4926
+                     |.||.|||||.||||||||.||.|||||||||||.||.||||||||||||
+Molossus_molo   4880 CGGAGTTCTACGTTTTTCCCGACACGGTGTTTGAGACCAGGAGACCCCAA   4929
+
+Homo_sapiens    4927 GTGATGAAGATCCAGGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGC   4976
+                     ||||||||||||||||||||.||.||||||||||||||||||||||||||
+Molossus_molo   4930 GTGATGAAGATCCAGGTCTTAGCAGTTGACAACAGTGTCCCCCAAATCGC   4979
+
+Homo_sapiens    4977 AGTGAATAAGGGGGCCTCTACACTTCGCACTCTAGCCACTGGCCACTTGG   5026
+                     ||||||.||.||||..|||||.||.||.|||||.||||||||||||||||
+Molossus_molo   4980 AGTGAACAAAGGGGTTTCTACCCTGCGAACTCTGGCCACTGGCCACTTGG   5029
+
+Homo_sapiens    5027 GGTTCATGATCACAAGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTA   5076
+                     |.|||||||||||||||||.||.||.||||..|||||||||||||||.|.
+Molossus_molo   5030 GATTCATGATCACAAGCAAGATCTTAAAAGCCGAGGACAGAGACAGCCTG   5079
+
+Homo_sapiens    5077 CACATTTCTCTTAGATTTATCGTGACAGAGGCCCCTCAACATGGATATCT   5126
+                     |||.|||||||.||.||..|.||.||.||||||||.|..||.||.|||||
+Molossus_molo   5080 CACTTTTCTCTGAGGTTCGTTGTCACGGAGGCCCCCCGGCACGGGTATCT   5129
+
+Homo_sapiens    5127 TCTCAACCTGGACAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTG   5176
+                     .||||||||||.|||||||||||||||..|.|||||||||||||||||.|
+Molossus_molo   5130 CCTCAACCTGGGCAAAGGCAACCACAGTGTTACTCAGTTCACACAAGCGG   5179
+
+Homo_sapiens    5177 ACATTGATGACATGAAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCC   5226
+                     ||||.|||||||||||||||||||||||.||||||||||||||.|||||.
+Molossus_molo   5180 ACATCGATGACATGAAAATATGCTATGTTTTAAGAGAAGGGGCAAATGCT   5229
+
+Homo_sapiens    5227 ACAAGTGATATGTTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTT   5276
+                     ||.|||||..||||..|||||.|.||.|||||.|||||..||||||||||
+Molossus_molo   5230 ACCAGTGACGTGTTTCATTTTACGGTGGAAGACGGTGGCAGAAACAAGTT   5279
+
+Homo_sapiens    5277 AACGTAC-CAGAATTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAG   5325
+                      ||..|| |||.||||||..|||||||||||.||||||||||||||||||
+Molossus_molo   5280 -ACCCACTCAGCATTTTCACCTGAATTGGGCGTGGATCTCCTTTGAAAAG   5328
+
+Homo_sapiens    5326 GAATATTACCTGGTCAATGAGGACTCCAAATTTCTAGATGTTGTTCTTAA   5375
+                     ||.|||||||||.||||.|||||.|||||||||||.||.||.|||||.||
+Molossus_molo   5329 GAGTATTACCTGATCAACGAGGAATCCAAATTTCTGGACGTCGTTCTGAA   5378
+
+Homo_sapiens    5376 ACGTAGAGGTTACTTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAG   5425
+                     |||||||||||||||||||||.|||||.|||||||||||.|||||..|||
+Molossus_molo   5379 ACGTAGAGGTTACTTGGGAGAGACTTCATTTATAAGTATCGGCACCCGAG   5428
+
+Homo_sapiens    5426 ACAGAACTGCAGAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAA   5475
+                     ||.|.||.||.||||..|||||||||||||||||||||||.|||||.|||
+Molossus_molo   5429 ACGGGACCGCGGAAAGGGACAAAGACTTCAAGGGCAAAGCGCAGAAGCAA   5478
+
+Homo_sapiens    5476 GTGCAGTTCAACCCAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCT   5525
+                     |||||||||||||||||||||||..|||||||.|||.||||.|...||||
+Molossus_molo   5479 GTGCAGTTCAACCCAGGCCAGACGCGGGCCACGTGGAGAGTCCACGTCCT   5528
+
+Homo_sapiens    5526 GAGTGATGGGGAGCATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAG   5575
+                     |||.||.|.||||||.||||||||.||.|||||.||||||||.|||||.|
+Molossus_molo   5529 GAGCGACGAGGAGCACGAGCAGTCGGAGACCTTCCAGGTGGTGCTCTCGG   5578
+
+Homo_sapiens    5576 AGCCCGTGCTGGCTGCCTTGGAATTCCCCACAGTCGCCACTGTTGAGATC   5625
+                     ..|||||||||||.|||.||||...|||..|.|||.||||.||.||||||
+Molossus_molo   5579 GCCCCGTGCTGGCCGCCCTGGAGGCCCCTGCCGTCACCACGGTGGAGATC   5628
+
+Homo_sapiens    5626 GTTGATCCAGGAGATGAGCCAACTGTGTTTATTCCCCAGTCCAAATACTC   5675
+                     .|.||.||||||||.||..||||.||.||||||||||||||..|||||||
+Molossus_molo   5629 ATCGACCCAGGAGACGAATCAACGGTATTTATTCCCCAGTCGGAATACTC   5678
+
+Homo_sapiens    5676 CGTTGAAGAAGATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAG   5725
+                     ||||||.||.||||||||||||||||||||.||||||.||||.||.||.|
+Molossus_molo   5679 CGTTGAGGAGGATGTTGGTGAGCTGTTCATCCCCATCCGGAGAAGTGGGG   5728
+
+Homo_sapiens    5726 ATGTGAGCCAGGAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAGCA   5775
+                     |.||.|||||||||.||||||||.||||.||.||||||||||||||.||.
+Molossus_molo   5729 ACGTCAGCCAGGAGCTGATGGTGCTCTGCTACACCCAACAAGGAACGGCC   5778
+
+Homo_sapiens    5776 ACTGGAACTGTGCCGACTTCCGTGTTGTCTTACTCTGATTACATATCCAG   5825
+                     |..||.||.|||||.||.|||||..||||.|||||.||.|||||.||..|
+Molossus_molo   5779 AGCGGCACCGTGCCCACGTCCGTCCTGTCCTACTCCGACTACATCTCGCG   5828
+
+Homo_sapiens    5826 GCCTGAGGACCACACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGA   5875
+                     |||.||||||||||||||.||.||.|||||.|||||..|.||.||.||||
+Molossus_molo   5829 GCCCGAGGACCACACCAGCGTCGTGCGCTTCGACAAGCAGGAGCGCGAGA   5878
+
+Homo_sapiens    5876 A-----ACTGTGTCGGATAGTCATAATTGATGACTCTTTGTACGAGGAGG   5920
+                     |     .|.|.|||  .|.|||   ||.||.|||||..||||||||||||
+Molossus_molo   5879 AGGCCTGCAGGGTC--CTGGTC---ATCGACGACTCCCTGTACGAGGAGG   5923
+
+Homo_sapiens    5921 AGGAAACCTTCCATGTCCTTCTGAGCATGCCCATGGGGGGAAGAATCGGA   5970
+                     ||||.||.||||..||.||.|||||||||||||||||.||..|..|.||.
+Molossus_molo   5924 AGGAGACGTTCCGCGTGCTGCTGAGCATGCCCATGGGCGGCCGCGTGGGC   5973
+
+Homo_sapiens    5971 TCAGAGTTCCCAGGGGCTCAAGTTACAATCGTTCCTGACAAAGATGATGA   6020
+                     ||.||||||||.||.||.|..||.||.|||.|.||.|||.|.||.||.||
+Molossus_molo   5974 TCCGAGTTCCCCGGCGCGCGGGTGACCATCCTCCCCGACGAGGACGACGA   6023
+
+Homo_sapiens    6021 ACCCATCTTTTACTTCGGTGATGTGGAATACTCTGTGGATGAGAGTGCTG   6070
+                     .|||.||||.||||||||.|..|..||.|||||||||||.||||||||.|
+Molossus_molo   6024 GCCCGTCTTCTACTTCGGGGCCGCCGAGTACTCTGTGGACGAGAGTGCCG   6073
+
+Homo_sapiens    6071 GCTATGTGGAAGTGCAGGTGTGGAGAACGGGCACTGACCTGTCCAAGTCT   6120
+                     ||||.||||||||||||||||||||.||.|||||.|||||||||..|.|.
+Molossus_molo   6074 GCTACGTGGAAGTGCAGGTGTGGAGGACAGGCACGGACCTGTCCGGGCCA   6123
+
+Homo_sapiens    6121 TCTAGTGTCACAGTGAGGTCTCGGAAAACAGATCCTCCCTCTG-CAGATG   6169
+                     ||.||.|||||..|||||||.|.||||||.||.|||||.||.| ||| ||
+Molossus_molo   6124 TCCAGCGTCACCTTGAGGTCCCAGAAAACGGACCCTCCATCCGCCAG-TG   6172
+
+Homo_sapiens    6170 CTGGAACAGACTATGTGGGCATCAGCCGTAATTTAGATTTTGCACCTGGA   6219
+                     ||||.||||||||.||||||||||||||.||||||||.||||||||||||
+Molossus_molo   6173 CTGGCACAGACTACGTGGGCATCAGCCGGAATTTAGACTTTGCACCTGGA   6222
+
+Homo_sapiens    6220 GTCAACATGCAGCCTGTTCGTGTTGTCATTCTGGATGACCTTGGACAACC   6269
+                     |||.||.||||||||||.||.||.|||||||||||.|||||.||.|..||
+Molossus_molo   6223 GTCCACGTGCAGCCTGTCCGCGTGGTCATTCTGGACGACCTCGGCCGGCC   6272
+
+Homo_sapiens    6270 AGCGCTGGAGGGAATTGAGAAATTTGAACTGGTGCTTCGCATGCCTATGA   6319
+                     .|.|||.|||||..|.|||||..|..|.|||||.||.|||||||||.|||
+Molossus_molo   6273 GGTGCTCGAGGGCGTCGAGAAGCTGCAGCTGGTCCTGCGCATGCCTGTGA   6322
+
+Homo_sapiens    6320 ACGCAGCCCTTGGCGAGCCCAGCAAAGCCACAGTGTCCATAAATGACTCT   6369
+                     ||||.|||.|.||||||||||||||.|||||.|||||||||.|.||||||
+Molossus_molo   6323 ACGCGGCCGTCGGCGAGCCCAGCAAGGCCACGGTGTCCATAGACGACTCT   6372
+
+Homo_sapiens    6370 GTCTCCGATTTGCCTAAGATGCAATTCAAAGAACGAATATATACTGGCAG   6419
+                     |||||.||.||||||||||||||.|||.|.|||.|..|.||.||||.||.
+Molossus_molo   6373 GTCTCGGACTTGCCTAAGATGCAGTTCCAGGAAGGCGTCTACACTGTCAA   6422
+
+Homo_sapiens    6420 CGAAAGTGATGGGCAGATAGTTACAATGATCCATAGGACTGGGGATGTCC   6469
+                     .||||..||.||||.|.|.|...|..|||||||.||||..||||||.|.|
+Molossus_molo   6423 TGAAAACGACGGGCGGGTGGCGGCGGTGATCCACAGGAGCGGGGATCTGC   6472
+
+Homo_sapiens    6470 AGTACAGATCTTCAGTGAGATGCTACACCCGGCAGGGGTCTGCACAGGTG   6519
+                     ||..||..||.||.|||.||||||||||.||||||||.||.||.||||||
+Molossus_molo   6473 AGCTCAAGTCCTCGGTGCGATGCTACACGCGGCAGGGCTCCGCGCAGGTG   6522
+
+Homo_sapiens    6520 ATGATGGACTTTGAAGAACGCCCAAACACTGATACCTCCATCATCACATT   6569
+                     |||.|||||||.||.||.|||||.|||||.||...||||.|||||||.||
+Molossus_molo   6523 ATGGTGGACTTCGAGGAGCGCCCCAACACCGACCTCTCCGTCATCACGTT   6572
+
+Homo_sapiens    6570 CCTCCCTGGTGAGACAGAAAAGCCCTGCATTCTTGAGCTGATGGACGATG   6619
+                     ||||||.||||||.|.|||.|||||||..|.||..|||||||||||||.|
+Molossus_molo   6573 CCTCCCGGGTGAGGCCGAACAGCCCTGTGTCCTGCAGCTGATGGACGACG   6622
+
+Homo_sapiens    6620 TGCTCTATGAGGAGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCACAA   6669
+                     .|.|..|.||||||||.|||||||||||||||||.||||||.|.||.|||
+Molossus_molo   6623 CGGTGCACGAGGAGGTCGAGGAGCTCCGCCTGGTCCTCGGCTCCCCGCAA   6672
+
+Homo_sapiens    6670 AGCAACTCTCCCTTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTCAT   6719
+                     |||||||||||||||||||||||..|.||.|||||.|||||||||||.||
+Molossus_molo   6673 AGCAACTCTCCCTTTGGGGCTGCCATCGGGGAACAGAATGAAACTCTGAT   6722
+
+Homo_sapiens    6720 AAGGATCCGAGATGATGCTGATAAGACTGTTATTAAATTTGGAGAAACCA   6769
+                     |.||||||.||||||||||||.|||||..||||||||||.||||||||||
+Molossus_molo   6723 ACGGATCCAAGATGATGCTGACAAGACGATTATTAAATTCGGAGAAACCA   6772
+
+Homo_sapiens    6770 AATTTAGTGTCACTGAACCCAAAGAACCTGGAGAGTCGGTGGTTAT-AAG   6818
+                     |.||.||..|.|.||||||.||||||||.||..||||||.|||||| |||
+Molossus_molo   6773 AGTTCAGCATAAGTGAACCTAAAGAACCCGGTCAGTCGGCGGTTATCAAG   6822
+
+Homo_sapiens    6819 AATTCCAGTGATTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAGAG   6868
+                      ||.||.|||||.|||||.||||||||.||.|.|||.|||.|.|||.|||
+Molossus_molo   6823 -ATCCCCGTGATCCGCCAGGGAGACACGTCCAGGGTCTCCCTCGTGCGAG   6871
+
+Homo_sapiens    6869 TCCACACCAAGGATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTGTG   6918
+                     |||||||||||||.||||||||||||||.|||||||||||||||||||||
+Molossus_molo   6872 TCCACACCAAGGACGGCTCGGCCACCTCCGGAGAAGACTACCACCCTGTG   6921
+
+Homo_sapiens    6919 TCAGAAGAAATTGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAAAT   6968
+                     ||.|||||.||||||||||||||.||.||.|||||||||...|||||.||
+Molossus_molo   6922 TCGGAAGAGATTGAGTTTAAGGAGGGAGAGACCCAGCACACCGTTGACAT   6971
+
+Homo_sapiens    6969 CGAAGTTACCTTTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTGTTC   7018
+                     .|||||...|||.||||||||..|.||||||.|.|||||||||||.||.|
+Molossus_molo   6972 TGAAGTGCTCTTCGACGGGGTCCGGGAGATGCGCGAGGCCTTCACGGTGC   7021
+
+Homo_sapiens    7019 ACCTAAAACCTGATGAAAATATGATAGCAGAGATGCAGTTGACGAAAGCC   7068
+                     ||||.|..||.||.||.||.|||.|.||.||||..|||.||||.||||||
+Molossus_molo   7022 ACCTGAGGCCGGACGAGAACATGGTGGCGGAGACCCAGGTGACCAAAGCC   7071
+
+Homo_sapiens    7069 ATTGTGTACATAGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCCTTC   7118
+                     ||||||||||||||||||||||.|||||||||.||.|||||.||.||.||
+Molossus_molo   7072 ATTGTGTACATAGAAGAAATGAACAGCATGGCCGACGTCACGTTCCCGTC   7121
+
+Homo_sapiens    7119 TGTCCCTCAAATTGTATCCCTGTTGATGTATGACGACACTTCCAAAGCTA   7168
+                     .||.|||||.||.||.|||.||.|||||||.||.|||||||||...||.|
+Molossus_molo   7122 GGTGCCTCAGATCGTGTCCTTGCTGATGTACGATGACACTTCCGGCGCCA   7171
+
+Homo_sapiens    7169 AGGAGAGTGCTGAACCCATGTCTGGCTATCCTGTCATCTGTATCACAGCT   7218
+                     ..|||.|.||.|.||||..|||||||||.||.||||||||.||||||||.
+Molossus_molo   7172 GAGAGCGAGCCGCACCCCCGTCTGGCTACCCGGTCATCTGCATCACAGCC   7221
+
+Homo_sapiens    7219 TGCAACCCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGTGCAAG   7268
+                     ||||||||.||||||||..|||||||....||||||||.|||||||||||
+Molossus_molo   7222 TGCAACCCGAAATATTCCAACTACGACCGGACAGGCTCCATCTGTGCAAG   7271
+
+Homo_sapiens    7269 TGAGAACATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGTGCAC   7318
+                     ||||.|||||||.|||||..||||.||||||||.||||||||.||.||.|
+Molossus_molo   7272 TGAGCACATCAACGACACGCTGACTCGGTACCGATGGCTGATCAGCGCGC   7321
+
+Homo_sapiens    7319 CTGCGGGCCCTGACGGTGTGACCAGCCCTATGAGAGAAGTGGACTTCGAC   7368
+                     |..|||||||.|||||.|||||||||||.|||.|||||.|||||||||||
+Molossus_molo   7322 CCACGGGCCCGGACGGCGTGACCAGCCCCATGCGAGAAATGGACTTCGAC   7371
+
+Homo_sapiens    7369 ACCTTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATATACTTTCA   7418
+                     ||||..||.|||||.|||||||||.||||.|||||||||||||||||.||
+Molossus_molo   7372 ACCTACTTCACGTCGTCCAAGATGATCACGCTGGACTCCATATACTTCCA   7421
+
+Homo_sapiens    7419 GCCTGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAATGGGG   7468
+                     |||.||||||.||||.|||||||||||.|||||.||.|.|.||.|.||..
+Molossus_molo   7422 GCCCGGCTCCAGGGTGCAGTGCGCAGCCCGTGCCGTCACCGCCCACGGCA   7471
+
+Homo_sapiens    7469 ATGAAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGAAGAA   7518
+                     ..||.|||||||||||..|||||||.||.||.||||||||||..||.|||
+Molossus_molo   7472 GCGAGGGCCTGGAGCTGCTGAGCCCCATCGTCACCATCAGCAAGGAGGAA   7521
+
+Homo_sapiens    7519 GGTCTTTGTCAGCCCCGTGTACCTGGGGTT--GTTGGAGCAGAGCCGTTC   7566
+                     |||||.||.|||||.||.||.||  |||.|  ||.||||..|||||.|||
+Molossus_molo   7522 GGTCTCTGCCAGCCTCGAGTTCC--GGGCTCCGTGGGAGTGGAGCCCTTC   7569
+
+Homo_sapiens    7567 TCAGCTAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAAACCT   7616
+                     ||.||.||..||||||||...|||||.|||||..|.||..||.|.|||||
+Molossus_molo   7570 TCCGCCAAGCTGCGCTACCTGGGCCCCGAGGACCCCGAGCACGCCAACCT   7619
+
+Homo_sapiens    7617 TATCAAGCTCACTGTCACAATGCCACACATAGATGGCATGCTCCCCGTGA   7666
+                     .||.|.||||||.|||||.|||||.|||...||.||||||||||||||.|
+Molossus_molo   7620 CATGAGGCTCACGGTCACCATGCCGCACGCCGACGGCATGCTCCCCGTCA   7669
+
+Homo_sapiens    7667 TCTCCACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGC   7716
+                     |||||||..|||||||.||||||||.||.||||||||||||||.||.|||
+Molossus_molo   7670 TCTCCACCCGAGAGCTCTCCAACTTCGACCTCACCCTCAGCCCCGACGGC   7719
+
+Homo_sapiens    7717 ACAAGAGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAAGT   7766
+                     ||.||....||.|.|||||.||||||||||||||||||.||.||.||.||
+Molossus_molo   7720 ACGAGGACGGGGACCCACAGGTGCTCCAACCTCCTGGACTACACCGAGGT   7769
+
+Homo_sapiens    7767 GAAGACTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAATAA   7816
+                     ||.|||.||..|.||.|||.|.||.||.||.||||.|...||.|      
+Molossus_molo   7770 GACGACCCAGCACGGCTTCCTCACAGAGGCCACCAGAGGCCCGG------   7813
+
+Homo_sapiens    7817 TTGGA--------GAGACATATCCTTACCAGTACAGCTTGTCCATCAGAG   7858
+                       |||        |||||.||.||.|||||||||||||.|.||.||.|||
+Molossus_molo   7814 --GGAGCGCCGCGGAGACGTACCCCTACCAGTACAGCTCGCCCCTCCGAG   7861
+
+Homo_sapiens    7859 GTTCCACTACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCTGTTTA   7908
+                     |..||....||.|||||||||||||.|||||||||||.||||||||..|.
+Molossus_molo   7862 GCCCCCGCGCCCTGCGCTTCTACCGCAACCTGAACCTGGAGGCCTGCCTG   7911
+
+Homo_sapiens    7909 TGGGAGTTCGTTAGCTACTATGACATGTCAGAACTCCTTGCTGACTGTGG   7958
+                     |||||.|||||.||||||||.||||||||.||.|||||..|.|||||.||
+Molossus_molo   7912 TGGGAATTCGTGAGCTACTACGACATGTCGGAGCTCCTCACCGACTGCGG   7961
+
+Homo_sapiens    7959 TGGCACCATTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGTCCTATG   8008
+                     .||||||.|.||.||.||.|||||||||.|.|||||.||||||||.||.|
+Molossus_molo   7962 GGGCACCGTGGGGACCGACGGACAGGTCTTGAACCTTGTGCAGTCGTACG   8011
+
+Homo_sapiens    8009 TGACCCTTCGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCCCCCGTG   8058
+                     |||||||.||.||.||.|||||.||.||||||||||||||.||.||||||
+Molossus_molo   8012 TGACCCTGCGGGTTCCCCTGTACGTCTCCTACGTGTTCCACTCTCCCGTG   8061
+
+Homo_sapiens    8059 GGGGTAGGAGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTCTAAC   8108
+                     ||.||.||||||||||||||.||.|||.|||.|||.|||||.||.||.||
+Molossus_molo   8062 GGCGTGGGAGGCTGGCAGCACTTCGACCTGAGGTCGGAGCTCCGGCTGAC   8111
+
+Homo_sapiens    8109 TTTTGTGTACGACACCGCCATCTTGTGGAATGATGGAATTGGCAGCCCCC   8158
+                     .||||||||||||||.||||||.|||||.|.||.||.||.||||||||||
+Molossus_molo   8112 GTTTGTGTACGACACGGCCATCCTGTGGGACGACGGCATCGGCAGCCCCC   8161
+
+Homo_sapiens    8159 CAGAGGCTGAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGCATCGGT   8208
+                     |.|.|||.||.||.|||||.||.||.||.||.||||||||||||||.||.
+Molossus_molo   8162 CGGGGGCCGAGCTCCAAGGCTCGCTGTACCCCACCAGCATGCGCATTGGG   8211
+
+Homo_sapiens    8209 GATGAGGGGCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTTCCATGG   8258
+                     ||.||||||.||||||.||||.|||||||||||||.||..|.|||||.||
+Molossus_molo   8212 GAGGAGGGGTGCTTGGTCGTGAACTTCAAGACAGAAGCCAAATTCCACGG   8261
+
+Homo_sapiens    8259 CTTATTTGTGCTGTCACATCCCGCATCCTTTACAAGCTCAGTGATCATGT   8308
+                     |||.||||||||.||||||||.|..|||||.||.||||||.|||||.|||
+Molossus_molo   8262 CTTGTTTGTGCTCTCACATCCGGGCTCCTTCACGAGCTCAATGATCCTGT   8311
+
+Homo_sapiens    8309 CAGCTGATCATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGGAGTGAA   8358
+                     |.||.||.||||||||.|||||.||.|||||.|||||..|..||||..|.
+Molossus_molo   8312 CCGCGGACCATCCAGGACTGACGTTCTCCCTGCGCCTGGTGCGGAGCCAG   8361
+
+Homo_sapiens    8359 CCAACCTATAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGACTTTGC   8408
+                     ||.|||||.||||||||.||.||||||||||..|||||||||||||||||
+Molossus_molo   8362 CCGACCTACAACCAGCCGGTCCAGCAGTGGACTTTTGTCTCTGACTTTGC   8411
+
+Homo_sapiens    8409 CGTACGTGACTACTCAGGGACCTATACTGTGAAGCTGGTGCCATGCACTG   8458
+                     .||.||.||||||||.||.|||||.||.|||||||||.||||||||||..
+Molossus_molo   8412 AGTCCGCGACTACTCGGGAACCTACACGGTGAAGCTGCTGCCATGCACCA   8461
+
+Homo_sapiens    8459 CCCCATCACATCAGGAATACCGCCTGCCAGTCACCTGCAACCCCAGAGAA   8508
+                     ||||.|..||.|||||.||||.|||||||||||||||||.|||||||||.
+Molossus_molo   8462 CCCCGTTGCAGCAGGAGTACCACCTGCCAGTCACCTGCACCCCCAGAGAG   8511
+
+Homo_sapiens    8509 CCTGTCACCTTTGACCTTGACATCCGATTCCAACAGGTCAGTGATCCAGT   8558
+                     ||.||||||||.||||||||||||||.|||||.||||||||.||.||.||
+Molossus_molo   8512 CCCGTCACCTTCGACCTTGACATCCGGTTCCAGCAGGTCAGCGACCCCGT   8561
+
+Homo_sapiens    8559 GGCTGCTGAGTTTAGCTTGAACACCCAAATGTACCTGCTCTCTAAGAAGA   8608
+                     |||.||.|||||.||||||||||||||.||||||||||||||.|||||||
+Molossus_molo   8562 GGCGGCAGAGTTCAGCTTGAACACCCAGATGTACCTGCTCTCCAAGAAGA   8611
+
+Homo_sapiens    8609 GTCTCTGGTTGTCTGATGGATCCATGGGATTCGGGCAAGAGAGTGATGTT   8658
+                     ||||||||.||||.||.|||.|||||||.||.||.||.||||||||||||
+Molossus_molo   8612 GTCTCTGGCTGTCCGACGGAGCCATGGGGTTTGGTCACGAGAGTGATGTT   8661
+
+Homo_sapiens    8659 GCTTTTGCAGAAGGTGATATAATTTATGGTCGTGTCATGGTGGATCCTGT   8708
+                     |||||.|||||||||||..|.||.||.||.||.||||||||||||||.||
+Molossus_molo   8662 GCTTTCGCAGAAGGTGACGTCATCTACGGCCGGGTCATGGTGGATCCCGT   8711
+
+Homo_sapiens    8709 CCAGAATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAGGTGTTTCTAT   8758
+                     ||||||.||.||.||.|||||.|.|||||.|||.|||||||||||.||.|
+Molossus_molo   8712 CCAGAACCTTGGCGAGTCCTTCTCCTGCACCATCGAGAAGGTGTTCCTGT   8761
+
+Homo_sapiens    8759 GCACTGGAGCTGATGGCTATGTTCCCAAGTATAGTCCAATGAATGCAGAA   8808
+                     ||||.||.||.||.|||||.||.||||||||.||.||...|||.||.||.
+Molossus_molo   8762 GCACCGGGGCCGACGGCTACGTCCCCAAGTACAGCCCCGCGAACGCCGAG   8811
+
+Homo_sapiens    8809 TATGGCTGCTTAGCCGACTCTCCTTCACTCTTATATAGATTTAAAATTGT   8858
+                     ||.||||||.|.||||||||..|.||.|||.|..|.||.||||||||.||
+Molossus_molo   8812 TACGGCTGCCTGGCCGACTCCACGTCTCTCCTGCACAGGTTTAAAATCGT   8861
+
+Homo_sapiens    8859 GGACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTTGGAAATGTCCTAT   8908
+                     |||||||||||||||||||||.||.|..|||||||||||.|||.||||.|
+Molossus_molo   8862 GGACAAAGCTCAGCCAGAGACGCAGGTCACCAGTTTTGGGAATATCCTGT   8911
+
+Homo_sapiens    8909 TTAATGCCAAACTAGCAGTGGATGACCCTGAAGCCATTCTCTTAGTGAAT   8958
+                     |||||||||||||.||.|.|||.|||||.|||||..||.||.||||||||
+Molossus_molo   8912 TTAATGCCAAACTGGCGGAGGACGACCCGGAAGCTGTTGTCCTAGTGAAT   8961
+
+Homo_sapiens    8959 CAGCCTGGATCTGATGGATTTAAAGTCGACTCAACACCACTCTTTCAGGT   9008
+                     |||||.||.||.||||||||||||||.|||||||||||.||.||||||||
+Molossus_molo   8962 CAGCCCGGTTCCGATGGATTTAAAGTGGACTCAACACCGCTGTTTCAGGT   9011
+
+Homo_sapiens    9009 CGCTCTAGGCCGAGAATGGTATATACATACGATCTATACAGTGAGATCGA   9058
+                     |||..|.||||||||||||||..|.||.||.|||||.||.||||||.|||
+Molossus_molo   9012 CGCCGTGGGCCGAGAATGGTACGTCCACACCATCTACACGGTGAGAGCGA   9061
+
+Homo_sapiens    9059 AAGA---CAATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG------AG   9099
+                     ||||   ||   |||...||.|.||.||||||||.||.||||      .|
+Molossus_molo   9062 AAGAAGGCA---CCAGCAGAAGCATCGGCAAAAGGAGCGTGGGGGGCCGG   9108
+
+Homo_sapiens    9100 TACCATTCTCTGGTGAGT--CAAGGAAAGCCC----CAATCCACCACCAA   9143
+                     |||||.||..||..||||  ||.||  |||||    ||    .|||.|.|
+Molossus_molo   9109 TACCACTCGGTGCGGAGTCCCAGGG--AGCCCGGGGCA----CCCAGCCA   9152
+
+Homo_sapiens    9144 GAGCCGGAAGAAGAGAGA-GATCAGGAGCACACCCTCACTGGCATGGGAG   9192
+                     ||||.|||.||||.| || |..|.||.||.|.||..|||.||..||||||
+Molossus_molo   9153 GAGCAGGAGGAAGCG-GACGGCCGGGGGCCCCCCGCCACCGGTGTGGGAG   9201
+
+Homo_sapiens    9193 ATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCACAT-TGCCCTGG   9241
+                     ||.||.||.||||.|||.||.||.||.||.|||||||||.| || |||||
+Molossus_molo   9202 ATCGGGGCAGAAAGCAGCCGGGGCACCAATATCCAGCACGTCTG-CCTGG   9250
+
+Homo_sapiens    9242 ACCGCAC---CAAGAGGCAGATCCCCCATGGGAGAGCACCTCCAGATGGC   9288
+                     ||||.||   |.|||.||||.|||||...||||||||.||||||||..||
+Molossus_molo   9251 ACCGAACCGACGAGAAGCAGGTCCCCAGAGGGAGAGCCCCTCCAGACAGC   9300
+
+Homo_sapiens    9289 ATCCTCCCCT-GGGAGCTCAACAGCCCCAGCTCTGCAG-TCAGCCTGGTC   9336
+                     ..||.||||| |||| |||.|||||||..||||.| || .||||||||.|
+Molossus_molo   9301 GCCCCCCCCTCGGGA-CTCGACAGCCCTGGCTCCG-AGCCCAGCCTGGCC   9348
+
+Homo_sapiens    9337 ACTGTGGTGGGAGGCACCACGGTAGGGTTACTCACCATCTGCC---TCAC   9383
+                     .|.||..||||.|||....|.||.||..|.|||.||.|..|||   |..|
+Molossus_molo   9349 GCGGTCATGGGGGGCGTGGCCGTGGGCCTCCTCGCCCTGGGCCTGGTGGC   9398
+
+Homo_sapiens    9384 TGTCATTGCAGTGCTGATGTG-CAGGGGCAAGGAAAGTTTCAGGGGG---   9429
+                     .||..|.||||   ||||||| |||||             |.|||||   
+Molossus_molo   9399 CGTGGTGGCAG---TGATGTGCCAGGG-------------CCGGGGGCGC   9432
+
+Homo_sapiens    9430 AAGGATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCAT-GGTGCCCCCAC   9478
+                     ..||..|||.|.||.|||||..||.||    .||||.| |..|.||||.|
+Molossus_molo   9433 GCGGGCGCCACCAAGGGCTCGGGCGGC----GGCCCCTCGACGGCCCCGC   9478
+
+Homo_sapiens    9479 AGA---GCCATCACAATGACAGCTCAGAAGTT   9507
+                     |||   |||||..|   |||||||||||.||.
+Molossus_molo   9479 AGAGCGGCCATGGC---GACAGCTCAGAGGTG   9507
+
+
+#---------------------------------------
+#---------------------------------------

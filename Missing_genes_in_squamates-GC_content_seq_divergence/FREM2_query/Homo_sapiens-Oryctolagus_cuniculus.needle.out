@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:45:26
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Oryctolagus_cuniculus.fa
+#    -outfile Homo_sapiens-Oryctolagus_cuniculus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Oryctolagus_cuniculus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Oryctolagus_cuniculus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9524
+# Identity:    8408/9524 (88.3%)
+# Similarity:  8408/9524 (88.3%)
+# Gaps:          64/9524 ( 0.7%)
+# Score: 37600.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                     ||||||.|.||.||.||.||.||..|..|.||.|||       |||    
+Oryctolagus_c      1 ATGCACGCCGCTGGTACCCCAGGAATCGCGTCCCGC-------GCA----     39
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGACCGCCACCGCCGCCCCGGCTGCTGCTGCTGC    100
+                     ||||            |||          |.||.||||.||.||||||||
+Oryctolagus_c     40 CACC------------GGA----------CACCACGGCAGCGGCTGCTGC     67
+
+Homo_sapiens     101 TGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAGCCCGCTGCC    150
+                     |..|||||||||||||||||||||||||||||||.|||||||||||.|.|
+Oryctolagus_c     68 TCTTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCAGCACAGCCCGCAGAC    117
+
+Homo_sapiens     151 TTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTGCAGGGGTCCC    200
+                     ..||||.|||||||.||||||||.||||||.|.|||||||||||||||||
+Oryctolagus_c    118 CCCGGCCGGGCGTTCCTGTCCCCCGGTCTCTCTGGGGCTGCAGGGGTCCC    167
+
+Homo_sapiens     201 TGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGGGTGCCTTTCG    250
+                     |||.||.||.|||||||||||||.|||||||||.|||||.||.||.||||
+Oryctolagus_c    168 TGCCGAAGAAGCCATAGTGCTGGAGAACCGCGGGCTCCGCGTTCCGTTCG    217
+
+Homo_sapiens     251 GCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTTGCAGGTGCAG    300
+                     |||||||.||.|||||||||||.|||||.|||||||||||||||||||||
+Oryctolagus_c    218 GCCGTGAGGTATGGCTGGATCCACTGCAGGACCTGGTGTTGCAGGTGCAG    267
+
+Homo_sapiens     301 CCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACGCACTGGCCCA    350
+                     ||.||||||||||||||.||..||||.||.|||||||||||.||.|||||
+Oryctolagus_c    268 CCAGGGGACCGCTGCGCAGTGACGGTGCTGGACAACGACGCGCTCGCCCA    317
+
+Homo_sapiens     351 GCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGACTTTGGCCCTG    400
+                     |||||||||.|||||.||||||||||||||.||.||||||||.|||||..
+Oryctolagus_c    318 GCGACCGGGTCGCCTTAGTCCCAAGCGCTTTCCTTGCGACTTCGGCCCCA    367
+
+Homo_sapiens     401 GCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTCTCGGGACCGC    450
+                     ..||||||||.|||||.|||||||||||||||||||||||.|||||||||
+Oryctolagus_c    368 CAGAGGTGCGTTACTCACACCTGGGCGCGCGCAGCCCGTCGCGGGACCGC    417
+
+Homo_sapiens     451 GTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCAGTAGTGCTACC    500
+                     |||.||||||||||||||||.||||||||.||||||||..|.|||||.||
+Oryctolagus_c    418 GTCAGGCTGCAGCTGCGCTACGACGCGCCGGGAGGGGCCCTCGTGCTGCC    467
+
+Homo_sapiens     501 ACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAGGTTGTGACTC    550
+                     .|||||.||..|.||.||||||||.||||.|||||||||||||||.||||
+Oryctolagus_c    468 GCTGGTGCTACAAGTAGAGGTGGTTTTCAGCCAGCTGGAGGTTGTAACTC    517
+
+Homo_sapiens     551 GGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCAGCAATGCCCTG    600
+                     ||||.|||||..|||||||||||||.||.|||||||||||.|||||.|||
+Oryctolagus_c    518 GGAATTTGCCCTTGGTCGTGGAAGAACTTCTGGGGACCAGTAATGCTCTG    567
+
+Homo_sapiens     601 GACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACAGAGGAGTGCCG    650
+                     |||||.||||||||||||||.||||...||||.|||||.||.||||||||
+Oryctolagus_c    568 GACGCACGGAGCCTGGAGTTTGCCTATGAGCCAGAGACGGAAGAGTGCCG    617
+
+Homo_sapiens     651 CGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTATGGAGAACTCC    700
+                     ||||||||||||||||||..||.||||.||.|||||||||||||||||.|
+Oryctolagus_c    618 CGTGGGCATCCTGTCCGGACTGAGCGCACTCCCTCGCTATGGAGAACTGC    667
+
+Homo_sapiens     701 TCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGGCGCCCCGGAG    750
+                     |||||||.||||||||||||||||.|||||.|||||||||||||||||||
+Oryctolagus_c    668 TCCACTATCCGCAGGTCCCTGGAGAAGCCACAGAGGGAGGCGCCCCGGAG    717
+
+Homo_sapiens     751 ACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTATCG    800
+                     .||||.||||||||||||||||||||||||||.||.|||||||||||.||
+Oryctolagus_c    718 CCTCTGCTGATGGACTGCAAAGCTTTCCAGGAGCTGGGCGTGCGCTACCG    767
+
+Homo_sapiens     801 CCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATACCCATGGTGG    850
+                     ||||||||||...||.|||||||||||||||||||||.|.||||||||||
+Oryctolagus_c    768 CCACACAGCCCTGAGCCGCTCACCAAACAGGGACTGGGTGCCCATGGTGG    817
+
+Homo_sapiens     851 TGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTGCTTTGAAACGC    900
+                     |.|||||.|||.|.||||||||||||||||||||.||||||||||||||.
+Oryctolagus_c    818 TAGAGCTACGTCCGCGAGGGGCTCCTGTGGGCAGTCCTGCTTTGAAACGG    867
+
+Homo_sapiens     901 GAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAACACTGC    950
+                     ||||||||||||||.||||||||||||.||||||||||.||||||||.||
+Oryctolagus_c    868 GAGCACTTCCAGGTGCTGGTGAGGATCAGAGGAGGGGCTGAGAACACCGC    917
+
+Homo_sapiens     951 ACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGTTTG   1000
+                     .||||||||.||.||.||||||||||||||||||||||||||||||||.|
+Oryctolagus_c    918 CCCCAAGCCGAGCTTTGTGGCCATGATGATGATGGAGGTGGACCAGTTCG    967
+
+Homo_sapiens    1001 TACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTGAGTCT   1050
+                     |.|||||.||||||||||||||||||||||||||.|||||||||||.|||
+Oryctolagus_c    968 TGCTGACCGCCCTGACCCCAGACATGCTGGCAGCTGAGGATGCTGAATCT   1017
+
+Homo_sapiens    1051 CCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCTGGCCA   1100
+                     .||.||||||||.|||||||||||||.||||||||.||||||||||||||
+Oryctolagus_c   1018 GCCCCTGACCTGCTGATCTTCAACCTCACTTCTCCGTTCCAGCCTGGCCA   1067
+
+Homo_sapiens    1101 GGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTCCTCCTTCA   1150
+                     ||||||||||||||||||.|||||.|||||||||||.||.||||||||||
+Oryctolagus_c   1068 GGGCTACTTGGTGAGCACTGATGACCGCAGCCTGCCACTCTCCTCCTTCA   1117
+
+Homo_sapiens    1151 CTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCCCTTCTGAA   1200
+                     ||||||||||||||||.|||.||||.||.||||||||||||||.|||||.
+Oryctolagus_c   1118 CTCAGAGGGATCTGCGCCTCTTGAAAATAGCCTACCAGCCCCCCTCTGAG   1167
+
+Homo_sapiens    1201 GACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAGTGGATCT   1250
+                     |||||.|||||||||||.||||||||.|||||..|||||||||||||.|.
+Oryctolagus_c   1168 GACTCGGACCAGGAGCGTCTCTTTGAGCTGGAGCTGGAGGTAGTGGACCC   1217
+
+Homo_sapiens    1251 AGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTGAAGCCCA   1300
+                     ||||||||||||.|||||||||||||||||.|||.|||||||||||||||
+Oryctolagus_c   1218 AGAAGGAGCAGCCTCAGACCCTTTTGCCTTTATGATAGTGGTGAAGCCCA   1267
+
+Homo_sapiens    1301 TGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTATTCTCTAT   1350
+                     ||||||||.|||||||.||||||||||||||.||.|||||||||||||||
+Oryctolagus_c   1268 TGAACACACTGGCTCCAGTGGTCACCCGGAACACTGGTCTTATTCTCTAT   1317
+
+Homo_sapiens    1351 GAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGTCCGCAAAA   1400
+                     |||||||||.|.|||||||||||.||.|||||||...||||..|.|||||
+Oryctolagus_c   1318 GAGGGTCAGGCCCGGCCCCTCACCGGGCCTGCAGATGGTGGATCACAAAA   1367
+
+Homo_sapiens    1401 CTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCGGCTAGAGGTGG   1450
+                     |.|.||||||||.|||||||||||||||||.|||||||.|||.|||||||
+Oryctolagus_c   1368 CCTAGTCATCAGTGATGAGGATGACCTAGAGGCAGTGCAGCTGGAGGTGG   1417
+
+Homo_sapiens    1451 TGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGCTTCCAGTGGC   1500
+                     |||||||||||||.||||||||||||||||||.||||||||||   |||.
+Oryctolagus_c   1418 TGGCTGGGCTCCGACATGGTCACCTTGTCATTTTGGGTGCTTC---TGGT   1464
+
+Homo_sapiens    1501 AGCTCTGCTCCCAAGAGCTTT-ACAGTGGCTGAGCTGGCAGCCGGCCAGG   1549
+                     |||..||||||.|||| |||| .|.|||||||||||||||||.||.||||
+Oryctolagus_c   1465 AGCATTGCTCCAAAGA-CTTTCTCCGTGGCTGAGCTGGCAGCTGGTCAGG   1513
+
+Homo_sapiens    1550 TGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGACAACCTGGTG   1599
+                     |.|||||||||||||||||||||||.|||||||||||.|||||||||||.
+Oryctolagus_c   1514 TTGTCTACCAGCATGATGACAGAGATGGCTCGCTGAGTGACAACCTGGTA   1563
+
+Homo_sapiens    1600 CTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGTTTCTGTTCCC   1649
+                     |||||||||.|||||||||||||||||||||||||||||||.||||||||
+Oryctolagus_c   1564 CTTCGCATGATGGATGGAGGAGGCAGGCACCAGGTACAGTTCCTGTTCCC   1613
+
+Homo_sapiens    1650 CATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTCAATGCCAACA   1699
+                     .||||||||||||||||||||||||||.|||||.||.|||||||||||.|
+Oryctolagus_c   1614 TATCACCTTAGTGCCTGTGGATGACCAACCACCGGTCCTCAATGCCAATA   1663
+
+Homo_sapiens    1700 CGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTGCCCCTTTCC   1749
+                     |.||.||||..|||||||||||.|||||.|||.||||||||||||||...
+Oryctolagus_c   1664 CTGGACTGATGCTGGCAGAGGGGGAAACGGTGTCCATCCTGCCCCTTCAG   1713
+
+Homo_sapiens    1750 CTGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGCTTTTTGTGCT   1799
+                     |||||||||||||||||||||||.||||||.||.||||||||||||||||
+Oryctolagus_c   1714 CTGAGTGCAACTGACATGGATTCCGATGATGCTGTGCTGCTTTTTGTGCT   1763
+
+Homo_sapiens    1800 GGAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTCCGCCAAACTCACC   1849
+                     |||||||||   ||.|||.||.|||||.||||||||||||||.|||||.|
+Oryctolagus_c   1764 GGAGTCACC---CTCAACCACAGGGCACCTGCTTCTCCGCCAGACTCATC   1810
+
+Homo_sapiens    1850 CTCCCCATGA-GAAGCAGGAACTTCTCAGAGGCCTTTGGAGGAAGGAGGG   1898
+                     |.|||||||| |||| ||||.|||..|||.||||..||||.||||.||||
+Oryctolagus_c   1811 CCCCCCATGAGGAAG-AGGAGCTTACCAGGGGCCAATGGAAGAAGCAGGG   1859
+
+Homo_sapiens    1899 GGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGGACATAACAG   1948
+                     .|||||||||||||||.|||||||||||||||.|||||||||||||||||
+Oryctolagus_c   1860 AGCATTTTATGAGCGACCAGTGACAGAGTGGCGGCAGCAGGACATAACAG   1909
+
+Homo_sapiens    1949 AGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCTGGGCCAGTC   1998
+                     ||||.||||||||||||||.||||||||||||||.||||||||.||||||
+Oryctolagus_c   1910 AGGGAAGGCTGTTCTATAGGCACTCTGGGCCCCACAGTCCTGGACCAGTC   1959
+
+Homo_sapiens    1999 ACAGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCCTCCTAATCA   2048
+                     |..||||||||||||||.|||||||||||||||.|.||.||.||||||||
+Oryctolagus_c   1960 ATGGACCAGTTCACATTCAGAGTCCAGGATAACAACGATCCCCCTAATCA   2009
+
+Homo_sapiens    2049 GTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGGATCGCCTCC   2098
+                     |||.|||||.|||..|||||||.|.||.||.|||||||||||||||||.|
+Oryctolagus_c   2010 GTCTGGGCTGCAGAAGTTTGTGGTACGCATTCATCCTGTGGATCGCCTGC   2059
+
+Homo_sapiens    2099 CTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTACAGGAATCC   2148
+                     ||||.||||||||||||||.||.||.|||||.||||||||.|||||||||
+Oryctolagus_c   2060 CTCCAGAGCTGGGCAGTGGTTGCCCTCTTCGGATGGTGGTGCAGGAATCC   2109
+
+Homo_sapiens    2149 CAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGACAC   2198
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+Oryctolagus_c   2110 CAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACAGACCTGGACAC   2159
+
+Homo_sapiens    2199 AGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACAG   2248
+                     |||||||||||||||.|||||||||||.||.||||||||....|||||||
+Oryctolagus_c   2160 AGATGACCGAGAACTGCGTTACACAGTTACCCAGCCCCCTGTGGACACAG   2209
+
+Homo_sapiens    2249 ACGAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTGACTGACAAC   2298
+                     |.|||||.|||..|||||||||.|||||.|||||||||.|||.|||||||
+Oryctolagus_c   2210 ATGAAAACCACTCGCCAGCCCCGCTGGGCACCTTGGTCCTGAGTGACAAC   2259
+
+Homo_sapiens    2299 CCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAACCATCATAA   2348
+                     |||||||||.|||||||.||||||||||||||||||||||||||||||||
+Oryctolagus_c   2260 CCCTCAGTCATGGTGACGCATTTTACCCAAGCCCAGATCAACCATCATAA   2309
+
+Homo_sapiens    2349 AATTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTACTCGAGTGG   2398
+                     |||||||||||||||.||..||.||||||||||.||||||.|||||||||
+Oryctolagus_c   2310 AATTGCTTACAGACCTCCCAGTGAAGAACTGGGAGTGGCTGCTCGAGTGG   2359
+
+Homo_sapiens    2399 CCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTGGCTCCAGGT   2448
+                     |||||||||.|||.||||||||.|||...||||||||||||||||||||.
+Oryctolagus_c   2360 CCCAGTTCCGGTTTCAGGTGGAGGACAAGGCTGGGAATGTGGCTCCAGGC   2409
+
+Homo_sapiens    2449 ACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCTGAGATCCT   2498
+                     ||.||.|||.||||||||||.||.||||||||||||||.||.||.|||||
+Oryctolagus_c   2410 ACATTCACCTTTTACTTGCAGCCAGTGGACAACCAGCCGCCAGAAATCCT   2459
+
+Homo_sapiens    2499 CAACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCCTGAGTGAGA   2548
+                     .|||||.||||||||.||||||||||||||.|||||.|||||||||||||
+Oryctolagus_c   2460 AAACACTGGCTTCACCATTCAGGAGAAGGGCCACCATATCCTGAGTGAGA   2509
+
+Homo_sapiens    2549 CAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATATCTCTTTC   2598
+                     |.||||||||.||..|||||||.|||||||||.|.|||||||||||||||
+Oryctolagus_c   2510 CTGAGTTGCATGTCCATGATGTGGACACTGATATGGCCCATATCTCTTTC   2559
+
+Homo_sapiens    2599 ACTCTCACTCAGGCACCCAAACATGGCCACATGAGAGTGTCTGGACAGAT   2648
+                     ||||||||.|||||||||||.||||||||..||..|||||||||.|||||
+Oryctolagus_c   2560 ACTCTCACACAGGCACCCAAGCATGGCCAGGTGCAAGTGTCTGGGCAGAT   2609
+
+Homo_sapiens    2649 CCTGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAACAGGGCCGAG   2698
+                     |||||.|||.||.||..|||||||||||||||||||.||||||||.||..
+Oryctolagus_c   2610 CCTGCCTGTTGGAGGGATCTTCCACTTGGAGGACATCAAACAGGGTCGGA   2659
+
+Homo_sapiens    2699 TTTCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAGCTGCTCCTTG   2748
+                     ||||||||||.||||||||.||..|.||||||||.|||||||||||||||
+Oryctolagus_c   2660 TTTCCTATGCACATAATGGAGATGATTCCCTGACGGATAGCTGCTCCTTG   2709
+
+Homo_sapiens    2749 GAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAGAGTAAATGT   2798
+                     ||||||||.||||||||.||||||||||||||.|||||.|||||.||..|
+Oryctolagus_c   2710 GAAGTCAGCGACAGACACCATGTGGTGCCCATAACTCTGAGAGTGAACAT   2759
+
+Homo_sapiens    2799 CCGGCCAGTGGATGATGAAGTGCCCATACTGAGCCATCCTACTGGCACTC   2848
+                     ||||||||||||||||||.||.|||||..|||.||.||||.|||||||||
+Oryctolagus_c   2760 CCGGCCAGTGGATGATGAGGTACCCATGTTGAACCTTCCTGCTGGCACTC   2809
+
+Homo_sapiens    2849 TGGAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGAAATCACTGCC   2898
+                     |||||||.|||.||||.|||.|||||||||||||||||||||||||||||
+Oryctolagus_c   2810 TGGAGTCTTATTTAGACGTCCTAGAAAATGGGGCTACTGAAATCACTGCC   2859
+
+Homo_sapiens    2899 AATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGATGTTGACTTT   2948
+                     |.|||||||||||||||||||.|||..||||||||.||||||||||||||
+Oryctolagus_c   2860 AGTGTTATTAAGGGGACCAATAAGGGCACTGATGATTTGATGTTGACTTT   2909
+
+Homo_sapiens    2949 CCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTCAATGGCATTC   2998
+                     |||.||||||||||||||.|||||||||||||||.||||||||||...||
+Oryctolagus_c   2910 CCTTTTGGAAGATCCACCCTTGTATGGGGAAATCCTGGTCAATGGAGCTC   2959
+
+Homo_sapiens    2999 CAGCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCTCTGTTGTATAT   3048
+                     ||||||||||.|||||.|||..||||||.|||||.|||||||||||.|||
+Oryctolagus_c   2960 CAGCAGAGCAATTTACCCAACAGGACATTTTGGAAGGCTCTGTTGTCTAT   3009
+
+Homo_sapiens    3049 ACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGGATTCTTTTAA   3098
+                     .|.|||||||||||||||||||||||.|||||.||||||||.||||||||
+Oryctolagus_c   3010 GCGCACACCAGTGGTGAGATAGGCCTGTTGCCCAAAGCGGACTCTTTTAA   3059
+
+Homo_sapiens    3099 CCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGGTGGCAATACTA   3148
+                     ||||||.||||||||||..|||||||||||||||||..||||||||||.|
+Oryctolagus_c   3060 CCTGAGCCTGTCAGATACATCTCAAGAATGGAGAATCAGTGGCAATACAA   3109
+
+Homo_sapiens    3149 TCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTGATAGCCAGGCC   3198
+                     ||||||||.|||||.|.||||||||||||||.|||||.||.||||||.|.
+Oryctolagus_c   3110 TCCAAGGACTTACTGTGTGGGTGACCATCCTTCCTGTGGACAGCCAGCCT   3159
+
+Homo_sapiens    3199 CCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAAGGTGATAAAAG   3248
+                     ||||||||.|.|||.|||||||||||.||.|||.||||||||||||||||
+Oryctolagus_c   3160 CCAGAAATATCTGTGGGTGAACAGTTCATGGTACTGGAAGGTGATAAAAG   3209
+
+Homo_sapiens    3249 TGTTATAACATCAGTGCATATAAGTGCTGAAGATGTCGACTCCCTGAATG   3298
+                     |||||||||.|||...||||||||||||.|||||.|.|||||||||||||
+Oryctolagus_c   3210 TGTTATAACCTCAACTCATATAAGTGCTCAAGATATTGACTCCCTGAATG   3259
+
+Homo_sapiens    3299 ATGACATCTTGTGCACTATAGTTATTCAGCCTACTTCAGGTTATGTTGAA   3348
+                     |||||||||||||.||||||.|||||||||||||.|||||||||||||||
+Oryctolagus_c   3260 ATGACATCTTGTGTACTATAATTATTCAGCCTACCTCAGGTTATGTTGAA   3309
+
+Homo_sapiens    3349 AACATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCAT   3398
+                     ||.|||||||||||||||||||||||.||||||||||||||||||||..|
+Oryctolagus_c   3310 AATATTTCTCCAGCACCAGGCTCTGAAAAATCAAGAGCAGGGATTGCTGT   3359
+
+Homo_sapiens    3399 AAGTGCTTTCAACT-TGAAAGATCTCAGGCAGGGCCACATAAACTATGTC   3447
+                     |||||||||| ||| |.|||||.|||||||||||.|||||.||||||.||
+Oryctolagus_c   3360 AAGTGCTTTC-ACTCTAAAAGACCTCAGGCAGGGTCACATTAACTATATC   3408
+
+Homo_sapiens    3448 CAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGATTTGTATTTCG   3497
+                     ||||||||||||.||||.|||||.||||||||.||.|||||..|||||||
+Oryctolagus_c   3409 CAGAGTGTCCATCAAGGTGTGGAGCCTGTGGAAGATCGATTCATATTTCG   3458
+
+Homo_sapiens    3498 TTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTTCCCCATTGTAA   3547
+                     ||||||||||||||||||.||.|||||||||||.||.||.|||||.||.|
+Oryctolagus_c   3459 TTGTTCTGATGGCATTAATTTCTCAGAGAGACAATTTTTTCCCATAGTGA   3508
+
+Homo_sapiens    3548 TCATTCCCACCAATGATGAACAGCCAGAGATGTTTATGAGAGAATTTATG   3597
+                     ||||.|||||||||||||||||.|||||.|||||||||||||||||||||
+Oryctolagus_c   3509 TCATACCCACCAATGATGAACAACCAGAAATGTTTATGAGAGAATTTATG   3558
+
+Homo_sapiens    3598 GTGATGGAAGGCATGAGTCTGGTAATTGATACACCCATTCTCAATGCTGC   3647
+                     |||||||||||||||||||||||.||||||||||||||.|||||||||||
+Oryctolagus_c   3559 GTGATGGAAGGCATGAGTCTGGTCATTGATACACCCATCCTCAATGCTGC   3608
+
+Homo_sapiens    3648 TGATGCTGATGTTCCCCTGGATGATTTAACTTTCACTATTACCCAATTCC   3697
+                     .|||||.||..||||||..|||||||||||||||||||||||.|.|||.|
+Oryctolagus_c   3609 CGATGCCGACATTCCCCCAGATGATTTAACTTTCACTATTACGCGATTTC   3658
+
+Homo_sapiens    3698 CCACTCATGGTCACATCATGAATCAGCTGATAAATGGCACGGTTTTGGTC   3747
+                     |.||||||||||||||||||||.|||||||||||||||||.||||||||.
+Oryctolagus_c   3659 CTACTCATGGTCACATCATGAACCAGCTGATAAATGGCACAGTTTTGGTG   3708
+
+Homo_sapiens    3748 GAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCATTATTTATGA   3797
+                     |||||||||||||||||.||||||.||||.||||||||||||||||||||
+Oryctolagus_c   3709 GAAAGCTTCACCTTGGACCAGATCGTAGAAAGTTCCAGCATTATTTATGA   3758
+
+Homo_sapiens    3798 GCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATTAAACTAACAG   3847
+                     |||.||||||||.|||||.|||||||||||||||||.||||||||.||.|
+Oryctolagus_c   3759 GCACGATGACTCTGAGACACAGGAAGACAGTTTTGTAATTAAACTGACTG   3808
+
+Homo_sapiens    3848 ATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGTTATCCCTGTT   3897
+                     ||||.||||||||||||||.||||.|||||||||.||.||||||||||||
+Oryctolagus_c   3809 ATGGCAAGCACTCTGTGGAGAAGATGGTCCTCATCATGGTTATCCCTGTT   3858
+
+Homo_sapiens    3898 GATGATGAGACGCCCAGAATGACTATCAATAATGGACTAGAAATAGAAAT   3947
+                     |||||||||||.|||||||||||.||||||||||||||||||||||||||
+Oryctolagus_c   3859 GATGATGAGACTCCCAGAATGACCATCAATAATGGACTAGAAATAGAAAT   3908
+
+Homo_sapiens    3948 TGGGGATACCAAGATTATCAACAACAAAATATTAATGGCAACAGATTTAG   3997
+                     ||||||.||.||.||.|||..||||||.|||.||||||||||.||.||||
+Oryctolagus_c   3909 TGGGGAAACAAAAATCATCTCCAACAAGATACTAATGGCAACTGACTTAG   3958
+
+Homo_sapiens    3998 ATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGGGCCAGGACAT   4047
+                     ||||.||||||||||.|||||||||||||||||||||||||||..|||||
+Oryctolagus_c   3959 ATTCTGAAGACAAATATTTGGTTTATATTATTCGTTATGGGCCCAGACAT   4008
+
+Homo_sapiens    4048 GGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAATATCACACT   4097
+                     ||||||.||||.||||..|.|||||..||||||.|||||||.|||||.||
+Oryctolagus_c   4009 GGCTTACTACAAAGACAGAGACCTATGGGTGCCCTTGAAAACATCACCCT   4058
+
+Homo_sapiens    4098 GGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAATTCAGTATG   4147
+                     |||||||||||||||||||||.|||||.||||||||||||||.|||||||
+Oryctolagus_c   4059 GGGCATGAATTTTACCCAGGAGGAAGTGGACAGAAACTTAATCCAGTATG   4108
+
+Homo_sapiens    4148 TCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTTGATGTGACT   4197
+                     |||||...||.||||||||||||||||||.||||||||||||||||||||
+Oryctolagus_c   4109 TCCATACTGGACAAGAGGGCATTCGGGACTTAATTAAATTTGATGTGACT   4158
+
+Homo_sapiens    4198 GATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTCCATCGGGAG   4247
+                     |||||.|||||..|.|||||||||||.|||||||||||||||||.|||||
+Oryctolagus_c   4159 GATGGGATAAACGCTCTCATAGATCGCTACTTTTATGTGTCCATTGGGAG   4208
+
+Homo_sapiens    4248 CATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAG   4297
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Oryctolagus_c   4209 CATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAG   4258
+
+Homo_sapiens    4298 AAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACTAGTGACTTG   4347
+                     |||||||||||||||..||.||||||||||||||||||||.|||||||||
+Oryctolagus_c   4259 AAGGTGGCAAAGTCATGCTAACAACAGACCTACTAAGCACCAGTGACTTG   4308
+
+Homo_sapiens    4348 AACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGCTCCCATGCG   4397
+                     ||.||.|||||||||.|.||.||||||||||||||||||||.||||||.|
+Oryctolagus_c   4309 AATAGCCCTGATGAATATTTAGTTTTTACCATCACCAGGGCCCCCATGAG   4358
+
+Homo_sapiens    4398 AGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCACGTCTTTCA   4447
+                     |||||||.|.||.|||||.|||||.||.||.||||||.|||.|||.||||
+Oryctolagus_c   4359 AGGTCACTTAGAGTGCACAGATCAACCAGGAGTGTCCGTCATGTCCTTCA   4408
+
+Homo_sapiens    4448 CTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCACACAGCTGAT   4497
+                     ||||..|.|||||||||||.||||||||||||||||||||||||||.|||
+Oryctolagus_c   4409 CTCAATTACAACTGGCTGGCAACAAAATCTACTACATCCACACAGCCGAT   4458
+
+Homo_sapiens    4498 GATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGATGGACGTAA   4547
+                     |||||.|||||.||||||||||||||||||||||||||.|||||||..||
+Oryctolagus_c   4459 GATGAGGTGAAGATGGACAGTTTTGAGTTTCAAGTCACTGATGGACACAA   4508
+
+Homo_sapiens    4548 CCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGGACAATAAAA   4597
+                     ||||||.||.|||||||||||||||||||||||.|||||||||||.||.|
+Oryctolagus_c   4509 CCCTGTTTTCCGGACATTCCGTATCTCCATTAGTGATGTGGACAACAAGA   4558
+
+Homo_sapiens    4598 AGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACAAG   4647
+                     |||||||||||||||||||.||.||||||||||||||||.||||||.|||
+Oryctolagus_c   4559 AGCCAGTGGTCACCATCCATAACCTGGTTGTCAGTGAAAATGAAAATAAG   4608
+
+Homo_sapiens    4648 CTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATACTCCTGACAA   4697
+                     |||||.|||||.|||||.|||||.||.||||||||||||||.|||||||.
+Oryctolagus_c   4609 CTGATCACTCCCTTTGAACTCACAGTGGAAGACAGAGATACACCTGACAG   4658
+
+Homo_sapiens    4698 GCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCCATCTCCTAT   4747
+                     .|||||||||||||||.||||||||||||||.|||||||.|||||.||.|
+Oryctolagus_c   4659 ACTCCTGAAATTCACTGTCACCCAGGTGCCTGTTCATGGTCATCTTCTTT   4708
+
+Homo_sapiens    4748 TCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGAATGAA   4797
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Oryctolagus_c   4709 TCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGAATGAA   4758
+
+Homo_sapiens    4798 AACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGATAGCTT   4847
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+Oryctolagus_c   4759 AACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGACAGCTT   4808
+
+Homo_sapiens    4848 CTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTTTCCTG   4897
+                     ||||||||||||.||.||.||.|||||..|.|||||||||||.|||||||
+Oryctolagus_c   4809 CTCCTTCACAGTAACAGACGGTACCCACGCCGACTTCTATGTCTTTCCTG   4858
+
+Homo_sapiens    4898 ATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGATCCAGGTCTTG   4947
+                     ||||.||.|||||||||||||||||||||||||||||||||||.|||||.
+Oryctolagus_c   4859 ATACAGTATTTGAAACAAGGAGACCCCAAGTGATGAAGATCCAAGTCTTA   4908
+
+Homo_sapiens    4948 GCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCTCTAC   4997
+                     |||||||||||.||||||||||||||.|||||||||||.||||||||.||
+Oryctolagus_c   4909 GCTGTTGACAATAGTGTCCCCCAAATTGCAGTGAATAAAGGGGCCTCCAC   4958
+
+Homo_sapiens    4998 ACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCACAAGCAAAA   5047
+                     |||||||||.|||||||||||.||||||||||||||||||||||.||||.
+Oryctolagus_c   4959 ACTTCGCACACTAGCCACTGGACACTTGGGGTTCATGATCACAAACAAAG   5008
+
+Homo_sapiens    5048 TATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCTTAGATTTATC   5097
+                     ||||||.|||||.|||||||||||||..||||.|||||||.||.|||||.
+Oryctolagus_c   5009 TATTGAGAGTGGTGGACAGAGACAGCCAACACCTTTCTCTCAGGTTTATT   5058
+
+Homo_sapiens    5098 GTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGGACAAAGGCAA   5147
+                     ||||||||.||||||||||||||.|||||.||||||||||.|||||||||
+Oryctolagus_c   5059 GTGACAGAAGCCCCTCAACATGGTTATCTCCTCAACCTGGGCAAAGGCAA   5108
+
+Homo_sapiens    5148 CCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACATGAAAATAT   5197
+                     |||||||.||||||||||.||.||||||||||||||||||||||||||||
+Oryctolagus_c   5109 CCACAGCGTCACTCAGTTTACCCAAGCTGACATTGATGACATGAAAATAT   5158
+
+Homo_sapiens    5198 GCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATGTTCTATTTT   5247
+                     ||||||||||||||.||||.|||||..|||||||||||||||||.|||||
+Oryctolagus_c   5159 GCTATGTCTTAAGAAAAGGAGCTAACACCACAAGTGATATGTTCCATTTT   5208
+
+Homo_sapiens    5248 GCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAATTTTCGTCT   5297
+                     |||||||||||||||||.||||||||||||||..|||||.||||.|||||
+Oryctolagus_c   5209 GCAGTTGAAGATGGTGGGGGAAACAAGTTAACCAACCAGCATTTCCGTCT   5258
+
+Homo_sapiens    5298 GAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGGTCAATGAGG   5347
+                     |||.||||||||||||||.||||||||.||||||||||||.|||||||||
+Oryctolagus_c   5259 GAACTGGGCATGGATCTCATTTGAAAAAGAATATTACCTGATCAATGAGG   5308
+
+Homo_sapiens    5348 ACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTACTTGGGAGAA   5397
+                     |||||||||||.|||||||||||||||||||.||||||||||||||||||
+Oryctolagus_c   5309 ACTCCAAATTTTTAGATGTTGTTCTTAAACGCAGAGGTTACTTGGGAGAA   5358
+
+Homo_sapiens    5398 ACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGAAAAAGACAA   5447
+                     ||.||.||||||||.||||||||||||||..|.|||||||||||||||||
+Oryctolagus_c   5359 ACATCGTTTATAAGCATTGGCACAAGAGATGGGACTGCAGAAAAAGACAA   5408
+
+Homo_sapiens    5448 AGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACCCAGGCCAGA   5497
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+Oryctolagus_c   5409 GGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACCCAGGCCAGA   5458
+
+Homo_sapiens    5498 CCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAGCATGAGCAG   5547
+                     |.||.|||||.|||||||||||.||..||.|||||||.||||||||||||
+Oryctolagus_c   5459 CAAGAGCCACCTGGCGAGTGCGCATTGTGGGTGATGGAGAGCATGAGCAG   5508
+
+Homo_sapiens    5548 TCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGCTGC-CTTGG   5596
+                     |||||.|||||.||||||||.|||||.||||||||||||||||| ||| |
+Oryctolagus_c   5509 TCTGAGACCTTCCAGGTGGTTCTCTCGGAGCCCGTGCTGGCTGCTCTT-G   5557
+
+Homo_sapiens    5597 AATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAGATGAGCCA   5646
+                     |||||||..|||.|.||||.||.||||||.||||.||.||||||||..||
+Oryctolagus_c   5558 AATTCCCTGCAGCCACCACAGTGGAGATCATTGACCCTGGAGATGAATCA   5607
+
+Homo_sapiens    5647 ACTGTGTTTATTCCCCAGTCCAAATACTCCGTTGAAGAAGATGTTGGTGA   5696
+                     |||||||||||.|||||..|..|||||||.||||||||..|.||||||||
+Oryctolagus_c   5608 ACTGTGTTTATCCCCCACCCTGAATACTCTGTTGAAGAGAACGTTGGTGA   5657
+
+Homo_sapiens    5697 GCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGAGTTGATGG   5746
+                     .|||||.||||||||||||||.|..||||||||.||||.||||||.||||
+Oryctolagus_c   5658 ACTGTTTATTCCCATCAGGAGAACTGGAGATGTCAGCCGGGAGTTAATGG   5707
+
+Homo_sapiens    5747 TGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGCCGACTTCC   5796
+                     ||.|||||||.||.||||||||.||||||||||||||.|||||||||||.
+Oryctolagus_c   5708 TGATCTGTTACACACAACAAGGGACAGCAACTGGAACCGTGCCGACTTCT   5757
+
+Homo_sapiens    5797 GTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCACACCAGTGT   5846
+                     |||.|||||||||||||||||||||||||||||||||||||||||||.||
+Oryctolagus_c   5758 GTGCTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCACACCAGCGT   5807
+
+Homo_sapiens    5847 TGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGATAGTCATAA   5896
+                     ||||||||||||||.||||||||.|||||||.||||.|||||.||..|||
+Oryctolagus_c   5808 TGTCCGCTTTGACAGAGATGAACAGGAGAAAATGTGCCGGATTGTTGTAA   5857
+
+Homo_sapiens    5897 TTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCCTTCTGAGC   5946
+                     |.||.|||||.|||||.||.|||||||||||.||||||||||||||.||.
+Oryctolagus_c   5858 TCGACGACTCCTTGTATGAAGAGGAGGAAACATTCCATGTCCTTCTAAGT   5907
+
+Homo_sapiens    5947 ATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCTCAAGTTAC   5996
+                     |||||.|||||.||||||.|||||||||||||||||||||||||..||||
+Oryctolagus_c   5908 ATGCCTATGGGTGGAAGACTCGGATCAGAGTTCCCAGGGGCTCAGATTAC   5957
+
+Homo_sapiens    5997 AATCGTTCCTGACAAAGATGATGAACCCATCTTTTACTTCGGTGATGTGG   6046
+                     |||.||.|||||||||||.||||||||..||||.|||||.||||||||..
+Oryctolagus_c   5958 AATTGTCCCTGACAAAGACGATGAACCTGTCTTCTACTTTGGTGATGTCA   6007
+
+Homo_sapiens    6047 AATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGGTGTGGAGA   6096
+                     |.||||||||||||||||||||||||||.|||||||||||.||||||||.
+Oryctolagus_c   6008 AGTACTCTGTGGATGAGAGTGCTGGCTACGTGGAAGTGCAAGTGTGGAGG   6057
+
+Homo_sapiens    6097 ACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGAGGTCTCGGAA   6146
+                     ||.|||||.||||||||.|.||||||.||||||||||||||.||||||||
+Oryctolagus_c   6058 ACAGGCACCGACCTGTCTAGGTCTTCAAGTGTCACAGTGAGATCTCGGAA   6107
+
+Homo_sapiens    6147 AACAGATCCTCCCTCTGCAGATGCTGGAACAGACTATGTGGGCATCAGCC   6196
+                     |||||||||||||||||||||.||||||||||||||||||||.|||||.|
+Oryctolagus_c   6108 AACAGATCCTCCCTCTGCAGAGGCTGGAACAGACTATGTGGGAATCAGTC   6157
+
+Homo_sapiens    6197 GTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTGTTCGTGTTGTC   6246
+                     ||.|.|||||||||||.|||||||.||||||||||.|||||||||||.||
+Oryctolagus_c   6158 GTCACTTAGATTTTGCCCCTGGAGCCAACATGCAGACTGTTCGTGTTATC   6207
+
+Homo_sapiens    6247 ATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAATTGAGAAATTTGA   6296
+                     ||||||||||||||.||||||||||.||||||||||||||||||||||||
+Oryctolagus_c   6208 ATTCTGGATGACCTGGGACAACCAGTGCTGGAGGGAATTGAGAAATTTGA   6257
+
+Homo_sapiens    6297 ACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGAGCCCAGCAAAG   6346
+                     ||||||||||||.|||||.|||||.|||||||||||||||||||||||||
+Oryctolagus_c   6258 ACTGGTGCTTCGTATGCCCATGAATGCAGCCCTTGGCGAGCCCAGCAAAG   6307
+
+Homo_sapiens    6347 CCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTAAGATGCAATTC   6396
+                     ||||.|||||||||||||||||||||||.|||.|||||||||||||||||
+Oryctolagus_c   6308 CCACTGTGTCCATAAATGACTCTGTCTCTGATCTGCCTAAGATGCAATTC   6357
+
+Homo_sapiens    6397 AAAGAACGAATATATACTGGCAGCGAAAGTGATGGGCAGATAGTTACAAT   6446
+                     |||||.|||||.||.||||||||.||||.|||||||||.||||||.||.|
+Oryctolagus_c   6358 AAAGAGCGAATGTACACTGGCAGTGAAAATGATGGGCAAATAGTTGCAGT   6407
+
+Homo_sapiens    6447 GATCCATAGGACTGGGGATGTCCAGTA-CAGATCTTCAGTGAGATGCTAC   6495
+                     ||||||.||||.|||.|||.||||||| ||| ||.|||||||||||||||
+Oryctolagus_c   6408 GATCCACAGGAGTGGAGATATCCAGTACCAG-TCCTCAGTGAGATGCTAC   6456
+
+Homo_sapiens    6496 ACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGAACGCCCAAA   6545
+                     ||.|||||||||||||||||||||||||||||||||||||||||.||.||
+Oryctolagus_c   6457 ACGCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGAACGGCCGAA   6506
+
+Homo_sapiens    6546 CACTGATACCTCCATCATCACATTCCTCCCTGGTGAGACAGAAAAGCCCT   6595
+                     ||||||.|.|||..||||||||||.||||||||.|||||.|||||.||.|
+Oryctolagus_c   6507 CACTGACATCTCTGTCATCACATTTCTCCCTGGCGAGACTGAAAAACCTT   6556
+
+Homo_sapiens    6596 GCATTCTTGAGCTGATGGACGATGTGCTCTATGAGGAGGTAGAGGAGCTC   6645
+                     |||||||.|||||||||||.||....||||||||||||||.|||||||||
+Oryctolagus_c   6557 GCATTCTGGAGCTGATGGATGACACACTCTATGAGGAGGTTGAGGAGCTC   6606
+
+Homo_sapiens    6646 CGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTGGGGCTGCAGT   6695
+                     |||.|.||.||.||||||||||||||||.|||||||||||||||||||||
+Oryctolagus_c   6607 CGCTTAGTTCTGGGCACTCCACAAAGCAGCTCTCCCTTTGGGGCTGCAGT   6656
+
+Homo_sapiens    6696 TGGTGAACAAAATGAAACTCTCATAAGGATCCGAGATGATGCTGATAAGA   6745
+                     |||.||||||||||||||.||.||||||||||.|||||||||||||||||
+Oryctolagus_c   6657 TGGCGAACAAAATGAAACCCTGATAAGGATCCTAGATGATGCTGATAAGA   6706
+
+Homo_sapiens    6746 CTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCACTGAACCCAAAGAA   6795
+                     ||.||||||||||||||||.||||||||||...|||||||||||||.|||
+Oryctolagus_c   6707 CTATTATTAAATTTGGAGAGACCAAATTTATCATCACTGAACCCAAGGAA   6756
+
+Homo_sapiens    6796 CCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCCAAGGAGACAC   6845
+                     |..||||||||.|||.||||||.|||||||||||||||||||||||||||
+Oryctolagus_c   6757 CAAGGAGAGTCAGTGATTATAAAAATTCCAGTGATTCGCCAAGGAGACAC   6806
+
+Homo_sapiens    6846 TTCAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCTCGGCCACCT   6895
+                     .||.||.||||||||||||||||||||.||||||||||||||.|||||.|
+Oryctolagus_c   6807 CTCCAAAGTTTCCATTGTGAGAGTCCATACCAAGGATGGCTCAGCCACGT   6856
+
+Homo_sapiens    6896 CTGGAGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTTTAAGGAAGGG   6945
+                     |.||||||||.||.|||||.||.||.||||||||||||||.||||||||.
+Oryctolagus_c   6857 CAGGAGAAGATTATCACCCCGTATCGGAAGAAATTGAGTTCAAGGAAGGA   6906
+
+Homo_sapiens    6946 GAAACCCAGCACGTGGTTGAAATCGAAGTTACCTTTGACGGGGTGAGAGA   6995
+                     ||||||||.|||.|.||||||||.|||||||.|||.||.||.||.||.||
+Oryctolagus_c   6907 GAAACCCAACACATTGTTGAAATTGAAGTTATCTTCGATGGAGTAAGGGA   6956
+
+Homo_sapiens    6996 GATGAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAAATATGATAG   7045
+                     |||||||||||||||||||||.||.||.||.|||||||||||||||||||
+Oryctolagus_c   6957 GATGAGAGAGGCCTTCACTGTCCATCTGAAGCCTGATGAAAATATGATAG   7006
+
+Homo_sapiens    7046 CAGAGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAAATGAGCAGC   7095
+                     ||||||..|||.||||.||||||||||||||.|||||||||||||.||||
+Oryctolagus_c   7007 CAGAGACACAGATGACCAAAGCCATTGTGTATATAGAAGAAATGAACAGC   7056
+
+Homo_sapiens    7096 ATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATCCCTGTTGAT   7145
+                     ||||||||||||||||||||.||.|||||.|||.||.|.|||.||.||||
+Oryctolagus_c   7057 ATGGCAGATGTCACTTTTCCCTCAGTCCCCCAAGTTATGTCCTTGCTGAT   7106
+
+Homo_sapiens    7146 GTATGACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCCATGTCTGGCT   7195
+                     ||||||.||||||||||.|||||||||..|..|||..||..|||||||||
+Oryctolagus_c   7107 GTATGATGACACTTCCAGAGCTAAGGAAGGAACTGGTCCTGTGTCTGGCT   7156
+
+Homo_sapiens    7196 ATCCTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCAGACTACGAT   7245
+                     |||||||||||||.|||||||||||||||||||||||||||||||||||.
+Oryctolagus_c   7157 ATCCTGTCATCTGCATCACAGCTTGCAACCCCAAATATTCAGACTACGAC   7206
+
+Homo_sapiens    7246 AAAACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACACTTTGACGCG   7295
+                     ||||||||||||||.|||||.|||||||||||||||||||||||||||||
+Oryctolagus_c   7207 AAAACAGGCTCTATTTGTGCCAGTGAGAACATCAATGACACTTTGACGCG   7256
+
+Homo_sapiens    7296 GTACCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTGTGACCAGCC   7345
+                     ||||||.|||||||||||.||.||.||..|||||||.|||||.|||||||
+Oryctolagus_c   7257 GTACCGATGGCTGATTAGCGCTCCCGCTAGCCCTGATGGTGTCACCAGCC   7306
+
+Homo_sapiens    7346 CTATGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATCCAAGATGGTC   7395
+                     |.|||||.|||||||||||.|||||.||||||||.|||||.||||||.||
+Oryctolagus_c   7307 CCATGAGGGAAGTGGACTTTGACACTTTTTTTACATCATCAAAGATGATC   7356
+
+Homo_sapiens    7396 ACACTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTACAGTGCGCAGC   7445
+                     |||.|.|||||||||||||||||||||||||||||.||||||||.|||||
+Oryctolagus_c   7357 ACATTAGACTCCATATACTTTCAGCCTGGCTCCCGAGTACAGTGTGCAGC   7406
+
+Homo_sapiens    7446 TCGTGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCATGAGCCCTA   7495
+                     ||||||.||||||||..|.|||.||||||||||||||||.||||||||||
+Oryctolagus_c   7407 TCGTGCCGTGAACACTGACGGGAATGAAGGCCTGGAGCTGATGAGCCCTA   7456
+
+Homo_sapiens    7496 TTGTAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGTGTACCTGGG   7545
+                     ||||||||||..||||.||||||||||||||||||||.|||||.||.|||
+Oryctolagus_c   7457 TTGTAACCATTGGCAGGGAAGAAGGTCTTTGTCAGCCGCGTGTGCCAGGG   7506
+
+Homo_sapiens    7546 GTTGTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACACAGGCCCTGA   7595
+                     ||.||.|||||||||||||||||||||||||||||||||||||||||.||
+Oryctolagus_c   7507 GTAGTGGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACACAGGCCCCGA   7556
+
+Homo_sapiens    7596 GGATGCAGACTACACAAACCTTATCAAGCTCACTGTCACAATGCCACACA   7645
+                     ||||.||||||.|.|||||||.|||||.||||||||||||||||||||||
+Oryctolagus_c   7557 GGATCCAGACTTCGCAAACCTCATCAAACTCACTGTCACAATGCCACACA   7606
+
+Homo_sapiens    7646 TAGATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCCAACTTTGAG   7695
+                     ||||.|||||||||||.||||||||.||.||||||||.||||||||||||
+Oryctolagus_c   7607 TAGACGGCATGCTCCCTGTGATCTCTACCAGAGAGCTCTCCAACTTTGAG   7656
+
+Homo_sapiens    7696 CTCACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAAGTGCTCCAA   7745
+                     ||.|||||||||||||||||||||||||||||.|||||||.|||.|||||
+Oryctolagus_c   7657 CTGACCCTCAGCCCTGATGGCACAAGAGTTGGGAACCACAGGTGTTCCAA   7706
+
+Homo_sapiens    7746 CCTCCTGGATTATACTGAAGTGAAGACTCATTATGGTTTCTTGACTGATG   7795
+                     ||||||||||||.|||||||||||.||.||..|||||||||||||.||||
+Oryctolagus_c   7707 CCTCCTGGATTACACTGAAGTGAAAACCCACCATGGTTTCTTGACGGATG   7756
+
+Homo_sapiens    7796 CTACCAAAAATCCAGAAATAATTGGAGAGACATATCCTTACCAGTACAGC   7845
+                     |||||||||||||||||.|.|||||||||||||.||||||||||||||||
+Oryctolagus_c   7757 CTACCAAAAATCCAGAAGTGATTGGAGAGACATTTCCTTACCAGTACAGC   7806
+
+Homo_sapiens    7846 TTGTCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAACCTGAACCT   7895
+                     |..||||||.||||.||||.||||.|||||||.|||||.|||||.|||||
+Oryctolagus_c   7807 TCATCCATCCGAGGCTCCAGTACCCTGCGCTTTTACCGAAACCTAAACCT   7856
+
+Homo_sapiens    7896 AGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGTCAGAACTCC   7945
+                     .|||||||||||.||||||||.||.||||||||.||||||||||||||||
+Oryctolagus_c   7857 GGAGGCCTGTTTGTGGGAGTTTGTCAGCTACTACGACATGTCAGAACTCC   7906
+
+Homo_sapiens    7946 TTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTCCTAAACCTA   7995
+                     |..|.||||||||.|||.|||||||||||||.||||||||.||.|||||.
+Oryctolagus_c   7907 TCACCGACTGTGGAGGCTCCATTGGAACAGACGGACAGGTGCTGAACCTT   7956
+
+Homo_sapiens    7996 GTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCCTACGTGTT   8045
+                     ||.|||||||||||||||||||||||||||||||||||||||||.|||||
+Oryctolagus_c   7957 GTACAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCCTATGTGTT   8006
+
+Homo_sapiens    8046 CCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTTGAAGTCAG   8095
+                     ||||||.||.||||||||||||||||||||||||||||||||||||||.|
+Oryctolagus_c   8007 CCATTCACCTGTGGGGGTAGGAGGCTGGCAGCATTTTGACTTGAAGTCGG   8056
+
+Homo_sapiens    8096 AGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGGAATGATGGA   8145
+                     ||||.|||||||||||||||||.|||||.||||||||||||||||||||.
+Oryctolagus_c   8057 AGCTCCGTCTAACTTTTGTGTATGACACTGCCATCTTGTGGAATGATGGG   8106
+
+Homo_sapiens    8146 ATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTATCCAACCAG   8195
+                     ||||||||.||.||||||||.|||||.|||||.|||||.||.||||||||
+Oryctolagus_c   8107 ATTGGCAGTCCACCAGAGGCAGAACTCCAAGGCTCTCTTTACCCAACCAG   8156
+
+Homo_sapiens    8196 CATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCAAGACAGAGG   8245
+                     |||||||||.|||||.||||||||||||||.|||.|||||||||||||||
+Oryctolagus_c   8157 CATGCGCATTGGTGAGGAGGGGCGCTTGGCAGTGAACTTCAAGACAGAGG   8206
+
+Homo_sapiens    8246 CTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCCTTTACAAGC   8295
+                     ||||||||||||||||||||||.|||||||||||.||||||||.||||||
+Oryctolagus_c   8207 CTCAGTTCCATGGCTTATTTGTACTGTCACATCCAGCATCCTTCACAAGC   8256
+
+Homo_sapiens    8296 TCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTCCCTCCGCCT   8345
+                     ||.|||.|||||||||||||.||||||||||||||.||.||.||.|||||
+Oryctolagus_c   8257 TCCGTGGTCATGTCAGCTGACCATCCAGGCCTGACCTTCTCTCTACGCCT   8306
+
+Homo_sapiens    8346 CATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGTGGAGCTTTG   8395
+                     |||.||||||||.||.||||||||||||||..|.|||||.|||||.||.|
+Oryctolagus_c   8307 CATCAGGAGTGAGCCGACCTATAACCAGCCCATCCAGCAATGGAGTTTCG   8356
+
+Homo_sapiens    8396 TCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATACTGTGAAGCTG   8445
+                     |||||||||||||.||.||.|||||||||||||||||||||||.||.|||
+Oryctolagus_c   8357 TCTCTGACTTTGCAGTGCGGGACTACTCAGGGACCTATACTGTAAAACTG   8406
+
+Homo_sapiens    8446 GTGCCATGCACTGCCCCATCACATCAGGAATACCGCCTGCCAGTCACCTG   8495
+                     |||||||||||..|||||||..|||||||.||||.||||||||||..|||
+Oryctolagus_c   8407 GTGCCATGCACCACCCCATCCAATCAGGAGTACCACCTGCCAGTCCTCTG   8456
+
+Homo_sapiens    8496 CAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGATTCCAACAGG   8545
+                     ||||||||||||.||||||||||||||||||||||||||||||||.||||
+Oryctolagus_c   8457 CAACCCCAGAGAGCCTGTCACCTTTGACCTTGACATCCGATTCCAGCAGG   8506
+
+Homo_sapiens    8546 TCAGTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAAATGTACCTG   8595
+                     ||||||||||.|||||.|||||||||||||||||||||||||||||||||
+Oryctolagus_c   8507 TCAGTGATCCGGTGGCAGCTGAGTTTAGCTTGAACACCCAAATGTACCTG   8556
+
+Homo_sapiens    8596 CTCTCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGATTCGGGCA   8645
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+Oryctolagus_c   8557 CTCTCCAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGGATTCGGGCA   8606
+
+Homo_sapiens    8646 AGAGAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTATGGTCGTGTCA   8695
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+Oryctolagus_c   8607 AGAGAGTGATGTTGCTTTTGCAGAAGGTGACATAATTTATGGTCGTGTCA   8656
+
+Homo_sapiens    8696 TGGTGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTGCAGCATTGAG   8745
+                     ||||.|||||||||||||||||.|||||||||||||||||||||||||||
+Oryctolagus_c   8657 TGGTAGATCCTGTCCAGAATCTAGGTGACTCCTTTTACTGCAGCATTGAG   8706
+
+Homo_sapiens    8746 AAGGTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCAAGTATAGTCC   8795
+                     ||||||||.||.|||||.|||||||||||||||||||||||.||.|||||
+Oryctolagus_c   8707 AAGGTGTTCCTGTGCACAGGAGCTGATGGCTATGTTCCCAAATACAGTCC   8756
+
+Homo_sapiens    8796 AATGAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTCACTCTTATATA   8845
+                     |.||||.||.|||||.|||||||||||.||.|||||||||||||||||||
+Oryctolagus_c   8757 AGTGAACGCGGAATACGGCTGCTTAGCTGATTCTCCTTCACTCTTATATA   8806
+
+Homo_sapiens    8846 GATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTT   8895
+                     ||||||||||||||||||||||||||||||||||.|||||.|||||.|||
+Oryctolagus_c   8807 GATTTAAAATTGTGGACAAAGCTCAGCCAGAGACTCAAGCTACCAGCTTT   8856
+
+Homo_sapiens    8896 GGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGACCCTGAAGCCAT   8945
+                     |||||||||||.||.||.||||||||.||||..||||||||.||.|||||
+Oryctolagus_c   8857 GGAAATGTCCTGTTCAACGCCAAACTGGCAGCAGATGACCCAGAGGCCAT   8906
+
+Homo_sapiens    8946 TCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCGACTCAACAC   8995
+                     ||||.|.||||||||.|||||||||||||||||||||||.||||||||||
+Oryctolagus_c   8907 TCTCCTGGTGAATCAACCTGGATCTGATGGATTTAAAGTAGACTCAACAC   8956
+
+Homo_sapiens    8996 CACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACATACGATCTAT   9045
+                     |||||||||||||||||||.||.|||||||||||.|||||.||.||||||
+Oryctolagus_c   8957 CACTCTTTCAGGTCGCTCTGGGTCGAGAATGGTACATACACACAATCTAT   9006
+
+Homo_sapiens    9046 ACAGTGAGATCGAAAGACAATGCCAATCGAGGTATTGGCAAAAGAAGTGT   9095
+                     |||||.|||||.||||||||||.|||||||||.|||||||||||||||||
+Oryctolagus_c   9007 ACAGTAAGATCAAAAGACAATGTCAATCGAGGCATTGGCAAAAGAAGTGT   9056
+
+Homo_sapiens    9096 GG------AGTACCATTCTCTGGTGAGTCAAGGAAAGCCCCAATCCACCA   9139
+                     ||      |||||||.||||||||...|||.||.||||||||..|.||.|
+Oryctolagus_c   9057 GGAGAACCAGTACCACTCTCTGGTACATCAGGGGAAGCCCCAGGCAACTA   9106
+
+Homo_sapiens    9140 CCAAGAGCCGGAAGAAGAGAGAGATCAGGAGCACACCCTCACTGGCATGG   9189
+                     |||..|||.|||..|||||.||||||...|||||||||.||||||||.||
+Oryctolagus_c   9107 CCACCAGCAGGAGAAAGAGGGAGATCCAAAGCACACCCCCACTGGCACGG   9156
+
+Homo_sapiens    9190 GAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCACATTGCCCT   9239
+                     ||.||||||||||||||||..||.|||||.|||||||||||.||||||||
+Oryctolagus_c   9157 GAAATTGGTGCTGAAAACAACCGGGGAACGAACATCCAGCATATTGCCCT   9206
+
+Homo_sapiens    9240 GGACCGCAC---CAAGAGGCAGATCCCCCATGGGAGAGCACCTCCAGATG   9286
+                     |||||||||   |||||||||||.||||||||||.|||..|||||.||||
+Oryctolagus_c   9207 GGACCGCACCCACAAGAGGCAGACCCCCCATGGGCGAGTCCCTCCCGATG   9256
+
+Homo_sapiens    9287 GCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTCAGCCTGGTC   9336
+                     |||.||||||.||||||||.||||||||||||||||.|||||||||..||
+Oryctolagus_c   9257 GCAGCCTCCCATGGGAGCTTAACAGCCCCAGCTCTGAAGTCAGCCTAATC   9306
+
+Homo_sapiens    9337 ACTGTGGTGGGAGGCACCACGGTAGGGTTACTCACCATCTGCCTCACTGT   9386
+                     |||||.||||||||||.|.|.||.||||||||||||||||||||||||||
+Oryctolagus_c   9307 ACTGTCGTGGGAGGCATCGCAGTGGGGTTACTCACCATCTGCCTCACTGT   9356
+
+Homo_sapiens    9387 CATTGCAGTGCTGATGTGCAGGGGCAAG--GAA-AGTTTCAGGGGGAAGG   9433
+                     ||||||.|.|.|||||||||.|.|||||  ||| ||   ||..|.||||.
+Oryctolagus_c   9357 CATTGCCGCGGTGATGTGCAAGAGCAAGAAGAACAG---CAAAGAGAAGA   9403
+
+Homo_sapiens    9434 ATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCCCACAGAGC   9483
+                     |||.|||.||.||||||||||||||.|||||||||||||.||||||||||
+Oryctolagus_c   9404 ATGACCCAAAGGGCTCCAGCAGCAGAGAGCCCATGGTGCTCCCACAGAGC   9453
+
+Homo_sapiens    9484 CATCACAATGACAGCTCAGAAGTT   9507
+                     ||.||||.||||||||||||.||.
+Oryctolagus_c   9454 CACCACAGTGACAGCTCAGAGGTG   9477
+
+
+#---------------------------------------
+#---------------------------------------

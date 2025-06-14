@@ -1,0 +1,158 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:21:30
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Camelus_ferus.fa
+#    -outfile Homo_sapiens-Camelus_ferus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Camelus_ferus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Camelus_ferus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1529
+# Identity:    1252/1529 (81.9%)
+# Similarity:  1252/1529 (81.9%)
+# Gaps:         136/1529 ( 8.9%)
+# Score: 5672.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCAGGGACATTTCCCTGCTGAACGAAGAGAAGGCAGACCTCGGCGAGG     50
+                                                                       
+Camelus_ferus      0 --------------------------------------------------      0
+
+Homo_sapiens      51 GACCCGTGGTCAGCAGCAGCTTCTGGTGAGCCCCCGCTTCCTCCGAGCCT    100
+                                                                       
+Camelus_ferus      0 --------------------------------------------------      0
+
+Homo_sapiens     101 GGCACCCCCCTCCCGTCTCAGCCAGGATGCCAACGAGGCGCTGGGCCCCG    150
+                                               ||||||||||||||||||||||||
+Camelus_ferus      1 --------------------------ATGCCAACGAGGCGCTGGGCCCCG     24
+
+Homo_sapiens     151 GGCACCCAGTGTATCACCAAATGCGAGCACACCCGCCCCAAGCCAGGGGA    200
+                     ||||||||.||.|||||||||||.||||||||.|||||||||||.|||||
+Camelus_ferus     25 GGCACCCAATGCATCACCAAATGTGAGCACACTCGCCCCAAGCCCGGGGA     74
+
+Homo_sapiens     201 GCTGGCCTTCCGCAAGGGCGACGTGGTCACCATCCTGGAGGCCTGCGAGA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Camelus_ferus     75 GCTGGCCTTCCGCAAGGGCGACGTGGTCACCATCCTGGAGGCCTGCGAGA    124
+
+Homo_sapiens     251 ACAAGAGCTGGTACCGCGTCAAGCACCACACCAGTGGACAGGAGGGGCTG    300
+                     ||||||||||||||||||.|||||||||..||||.||.||||||||||||
+Camelus_ferus    125 ACAAGAGCTGGTACCGCGCCAAGCACCATGCCAGCGGCCAGGAGGGGCTG    174
+
+Homo_sapiens     301 CTGGCAGCTGGGGCGCTGCGGGAGCGGGAGGCCCTCTCCGCAGACCCCAA    350
+                     |||||.||.||.|||||||||||||||||||||||.|||||.|||||.||
+Camelus_ferus    175 CTGGCGGCCGGCGCGCTGCGGGAGCGGGAGGCCCTTTCCGCTGACCCGAA    224
+
+Homo_sapiens     351 GCTCAGCCTCATGCCGTGGTTCCACGGGAAGATCTCGGGCCAGGAGGCTG    400
+                     ||||||||||||||||||||||||.|||||||||||.|||||||||||||
+Camelus_ferus    225 GCTCAGCCTCATGCCGTGGTTCCATGGGAAGATCTCCGGCCAGGAGGCTG    274
+
+Homo_sapiens     401 TCCAGCAGCTGCAGCCTCCCGAGGATGGGCTGTTCCTGGTGCGGGAGTCC    450
+                     |.||||||||||||||.||.||.||.|||||||||||||||||.||||||
+Camelus_ferus    275 TGCAGCAGCTGCAGCCACCAGAAGACGGGCTGTTCCTGGTGCGAGAGTCC    324
+
+Homo_sapiens     451 GCGCGCCACCCCGGCGACTACGTCCTGTGCGTGAGCTTTGGCCGCGACGT    500
+                     |||||.|||||.|||||||||||.||.||.||||||||.|||||.||.||
+Camelus_ferus    325 GCGCGGCACCCAGGCGACTACGTGCTCTGTGTGAGCTTCGGCCGTGATGT    374
+
+Homo_sapiens     501 CATCCACTACCGCGTGCTGCACCGCGACGGCCACCTCACAATCGATGAGG    550
+                     ||||||||||||.|||||||||||.|||||||||||.||.|||||.||||
+Camelus_ferus    375 CATCCACTACCGTGTGCTGCACCGGGACGGCCACCTGACCATCGACGAGG    424
+
+Homo_sapiens     551 CCGTGTTCTTCTGCAACCTCATGGACATGGTGGAGCATTACAGCAAGGAC    600
+                     |.||.|.||||||||||||||||||.||||||||||||||.|||||||||
+Camelus_ferus    425 CAGTCTGCTTCTGCAACCTCATGGATATGGTGGAGCATTATAGCAAGGAC    474
+
+Homo_sapiens     601 AAGGGCGCTATCTGCACCAAGCTGGTGAGACCAAAGCGGAAACACGGGAC    650
+                     |||||.||.||||||||.|||||||.||.|||.|||.||||.||.||.||
+Camelus_ferus    475 AAGGGGGCCATCTGCACGAAGCTGGCGAAACCCAAGAGGAAGCAGGGCAC    524
+
+Homo_sapiens     651 CAAGTCGGCCGAGGAGGAGCTGGCCAGGGCGGGCTGGTTACTGAACCTGC    700
+                     |||||||||.||||||||||||||||.|||.|||||||||||.|||||||
+Camelus_ferus    525 CAAGTCGGCAGAGGAGGAGCTGGCCAAGGCCGGCTGGTTACTAAACCTGC    574
+
+Homo_sapiens     701 AGCATTTGACATTGGGAGCACAGATCGGAGAGGGAGAGTTTGGAGCTGTC    750
+                     |||||||||||.||||||..||||||||||||||.|||||||||||.|||
+Camelus_ferus    575 AGCATTTGACACTGGGAGTGCAGATCGGAGAGGGGGAGTTTGGAGCCGTC    624
+
+Homo_sapiens     751 CTGCAGGGTGAGTACCTGGGGCAAAAGGTGGCCGTGAAGAATATCAAGTG    800
+                     ||||||||.|||||||||||.||.|||||||||||||||||.||||||||
+Camelus_ferus    625 CTGCAGGGCGAGTACCTGGGACAGAAGGTGGCCGTGAAGAACATCAAGTG    674
+
+Homo_sapiens     801 TGATGTGACAGCCCAGGCCTTCCTGGACGAGACGGCCGTCATGACGAAGA    850
+                     .||.|||||.||||||||||||||||||||||||||.|||||||||||||
+Camelus_ferus    675 CGACGTGACGGCCCAGGCCTTCCTGGACGAGACGGCGGTCATGACGAAGA    724
+
+Homo_sapiens     851 TGCAACACGAGAACCTGGTGCGTCTCCTGGGCGTGATCCTGCACCAGGGG    900
+                     ||||.||..||||||||||||||||.||.||.||||||||||||||.||.
+Camelus_ferus    725 TGCAGCATAAGAACCTGGTGCGTCTGCTCGGTGTGATCCTGCACCAAGGC    774
+
+Homo_sapiens     901 CTGTACATTGTCATGGAGCACGTGAGCAAGGGCAACCTGGTGAACTTTCT    950
+                     ||.|||||.|||||||||||||||||||||||.||||||||||||||.||
+Camelus_ferus    775 CTCTACATCGTCATGGAGCACGTGAGCAAGGGTAACCTGGTGAACTTCCT    824
+
+Homo_sapiens     951 GCGGACCCGGGGTCGAGCCCTCGTGAACACCGCTCAGCTCCTGCAGTTTT   1000
+                     .|||||.|||||.||.||||||||.||||||.|.||||||||||||||||
+Camelus_ferus    825 ACGGACGCGGGGCCGGGCCCTCGTAAACACCCCGCAGCTCCTGCAGTTTT    874
+
+Homo_sapiens    1001 CTCTGCACGTGGCCGAGGGCATGGAGTACCTGGAGAGCAAGAAGCTTGTG   1050
+                     |.|||||||||||||||||||||||.||||||||||||||||||||.|||
+Camelus_ferus    875 CCCTGCACGTGGCCGAGGGCATGGAATACCTGGAGAGCAAGAAGCTGGTG    924
+
+Homo_sapiens    1051 CACCGCGACCTGGCCGCCCGCAACATCCTGGTCTCAGAGGACCTGGTGGC   1100
+                     |||||.||||||||||||||.||||||||.||.||.||||||||||||||
+Camelus_ferus    925 CACCGAGACCTGGCCGCCCGGAACATCCTTGTGTCCGAGGACCTGGTGGC    974
+
+Homo_sapiens    1101 CAAGGTCAGCGACTTTGGCCTGGCCAAAGCCGAGCGGAAGGGGCTAGACT   1150
+                     |||||||||||||||.||||||||||||||||||.|||||||.||.||||
+Camelus_ferus    975 CAAGGTCAGCGACTTCGGCCTGGCCAAAGCCGAGAGGAAGGGACTGGACT   1024
+
+Homo_sapiens    1151 CAAGCCGGCTGCCCGTCAAGTGGACGGCGCCCGAGGCTCTCAAACACGGG   1200
+                     |.||.||||||||.||||||||||||||.|||||||||||||||||||||
+Camelus_ferus   1025 CCAGTCGGCTGCCAGTCAAGTGGACGGCACCCGAGGCTCTCAAACACGGG   1074
+
+Homo_sapiens    1201 AAGTTCACCAGCAAGTCGGATGTCTGGAGTTTTGGGGTGCTGCTCTGGGA   1250
+                     ||||||.||||||||||.||||||||||||||||||||||||||.|||||
+Camelus_ferus   1075 AAGTTCTCCAGCAAGTCAGATGTCTGGAGTTTTGGGGTGCTGCTGTGGGA   1124
+
+Homo_sapiens    1251 GGTCTTCTCATATGGACGGGCTCCGTACCCTAAAATGTCACTGAAAGAGG   1300
+                     ||||||||||||.||.||||||||.|||||.||.|||||.|||||.||||
+Camelus_ferus   1125 GGTCTTCTCATACGGCCGGGCTCCATACCCCAAGATGTCGCTGAAGGAGG   1174
+
+Homo_sapiens    1301 TGTCGGAGGCCGTGGAGAAGGGGTACCGCATGGAACCCCCCGAGGGCTGT   1350
+                     ||||.||||||||||||||||||||.||||||||.||||||||.|||||.
+Camelus_ferus   1175 TGTCAGAGGCCGTGGAGAAGGGGTATCGCATGGAGCCCCCCGAAGGCTGC   1224
+
+Homo_sapiens    1351 CCAGGCCCCGTGCACGTCCTCATGAGCAGCTGCTGGGAGGCAGAGCCCGC   1400
+                     |||||||||.|.||.|.||||||||||||||||||||||||.|||||.||
+Camelus_ferus   1225 CCAGGCCCCATCCATGCCCTCATGAGCAGCTGCTGGGAGGCTGAGCCGGC   1274
+
+Homo_sapiens    1401 CCGCCGGCCACCCTTCCGCAAACTGGCCGAGAAGCTGGCCCGGGAGCTAC   1450
+                     .|||||.||.||||||||||||||||||||||||||||||||||||||.|
+Camelus_ferus   1275 TCGCCGACCGCCCTTCCGCAAACTGGCCGAGAAGCTGGCCCGGGAGCTGC   1324
+
+Homo_sapiens    1451 GCAGTGCAGGTGCCCCAGCCTCCGTCTCA-----GGGCAGGACGCCGACG   1495
+                     ||||.||..||||..|.|||     |.||     ||||||||||..|||.
+Camelus_ferus   1325 GCAGCGCCAGTGCTTCGGCC-----CCCACTGGGGGGCAGGACGTGGACA   1369
+
+Homo_sapiens    1496 GCTCCACCTCGCCCCGAAGCCAGGAGCCC   1524
+                     |||||||||||||||..||||||||||||
+Camelus_ferus   1370 GCTCCACCTCGCCCCACAGCCAGGAGCCC   1398
+
+
+#---------------------------------------
+#---------------------------------------

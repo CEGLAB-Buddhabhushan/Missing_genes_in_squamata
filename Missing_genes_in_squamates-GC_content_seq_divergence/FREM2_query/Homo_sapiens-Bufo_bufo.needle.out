@@ -1,0 +1,830 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:31:56
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Bufo_bufo.fa
+#    -outfile Homo_sapiens-Bufo_bufo.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Bufo_bufo.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Bufo_bufo
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9922
+# Identity:    6730/9922 (67.8%)
+# Similarity:  6730/9922 (67.8%)
+# Gaps:        1016/9922 (10.2%)
+# Score: 21952.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                                               ||    |||||||           
+Bufo_bufo          1 --------------------------AT----GCGCCGG-----------      9
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGACCGCCACCGCCGCCCCGGCTGCTGCTGCTGC    100
+                          |||     |.||      |||.|..||.|.|||||||||||  ||
+Bufo_bufo         10 -----GCT-----CTAG------CACTGGGGCTCTGGCTGCTGCTG--GC     41
+
+Homo_sapiens     101 TGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAGCCCGCTGCC    150
+                     .|                    .||.|||.|         |..||||   
+Bufo_bufo         42 CG--------------------GAGACGCAT---------GGGCGCT---     59
+
+Homo_sapiens     151 TTCGGCAGGGCGTTGCT-------GTCCCCTGGTCTCGCGGGGGCTGCAG    193
+                          |||.|.|.||||       |.|||||.|.||...||         
+Bufo_bufo         60 -----CAGAGGGGTGCTGGAAGGAGCCCCCTTGACTTATGG---------     95
+
+Homo_sapiens     194 GGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGGGTG    243
+                         .|||...||.||||..||..||.||||.||||..||..||.|||||
+Bufo_bufo         96 ----ACCTTTGGAAGAGGAGATCCTGGTGGCCAACCATGGGATCAGGGTG    141
+
+Homo_sapiens     244 CCTTTCGG-----CCGTGAAGTCTGGCTGGATCCCCTG--CATGACCTGG    286
+                     ||.|||||     ||     ||||..|||||  |||||  |..|||||||
+Bufo_bufo        142 CCCTTCGGGAGGTCC-----GTCTACCTGGA--CCCTGTCCTAGACCTGG    184
+
+Homo_sapiens     287 TGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTC-------GGTACT    329
+                     ||.|.||.||||||||.||.|||       ..||.||       .||.||
+Bufo_bufo        185 TGATACAAGTGCAGCCGGGTGAC-------AAGTGTCACATCAGCGTCCT    227
+
+Homo_sapiens     330 -AGACAACGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGC    378
+                      || |||.|||.|.||..|||||.||||.||.|.|||...|||.||..|.
+Bufo_bufo        228 CAG-CAATGACCCGCTCTCCCAGGGACCCGGACACCTTTCTCCTAACAGG    276
+
+Homo_sapiens     379 TTCCCGTGCGACTTT--GGCCCTGGCGAGGTGCGCTACTCTCACCTGGGC    426
+                     |||||.|||||.|||  |||||  |.||||||...||||||||||||||.
+Bufo_bufo        277 TTCCCCTGCGAGTTTGGGGCCC--GGGAGGTGAAGTACTCTCACCTGGGA    324
+
+Homo_sapiens     427 GCGCGCAGCCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGC    476
+                     ||.||.||.||.||..|||||||.||...|||.|||||.|||||.||  .
+Bufo_bufo        325 GCCCGAAGTCCTTCCAGGGACCGGGTGAAGCTCCAGCTCCGCTACGA--T    372
+
+Homo_sapiens     477 GCCCGGAGGGGCAGTAGTG---CTACCACTGGTACTGGAGGTGGAGGTGG    523
+                     .|||.||...||| .||||   .|.|||.|..|..|.||||||||||||.
+Bufo_bufo        373 ACCCAGACCAGCA-CAGTGATCATCCCATTCATGATCGAGGTGGAGGTGC    421
+
+Homo_sapiens     524 TCTTCACCCAGCTGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAA    573
+                     |.|||||||||||||||||.||.||..|||||.||||.|||...|||||.
+Bufo_bufo        422 TGTTCACCCAGCTGGAGGTGGTCACCAGGAACATGCCACTGACTGTGGAC    471
+
+Homo_sapiens     574 GAGCTGCTGGGGACCAGCAATGCCCTGGACGCGCGGAGCCTGGAGTTCGC    623
+                     .||||||||||.|||||.||..||.|.||...|..||.|||||||||| .
+Bufo_bufo        472 AAGCTGCTGGGCACCAGTAACCCCATAGATAAGAAGATCCTGGAGTTC-A    520
+
+Homo_sapiens     624 CTT---CCAGCCCGAGACA---GAGGAGTGCCGCGTGGGCATCCTGTCCG    667
+                     |||   .|||     ||||   ||||.||||.|   |..||.||      
+Bufo_bufo        521 CTTATGACAG-----GACATTTGAGGTGTGCAG---GATCACCC------    556
+
+Homo_sapiens     668 GCTTGGGCGC-GCTG--CCTCGCTATGGAGAACTCCTCCACTACCCGCAG    714
+                            |.| ||||  |||.||  |||           |||.||  |||
+Bufo_bufo        557 -------CACTGCTGGACCTTGC--TGG-----------ACTGCC--CAG    584
+
+Homo_sapiens     715 GTCCCTGGA--GGAGCCAGAGAGGGAGGCGCCCCGGAGACTCTCCTGATG    762
+                     ||  .||||  ||.||.|.|.||.|..|.||     |.|      ||.||
+Bufo_bufo        585 GT--ATGGAAGGGTGCTACACAGTGCTGGGC-----ATA------TGGTG    621
+
+Homo_sapiens     763 GACT----GCAAAGCTTTCCAGGAACTAGGCGTGCGCTATCGCCACACAG    808
+                     ||||    |.|...|||.|    |||.|||.||||||||.|..|||||||
+Bufo_bufo        622 GACTGTGGGGAGTTCTTAC----AACAAGGGGTGCGCTACCAGCACACAG    667
+
+Homo_sapiens     809 CCGCCAGTCGCTCACCAAACAGGGACTGGATACCCATGGTGGTGGAGCTG    858
+                     ||.|||..|..|||||.||||.|||||..||.||.|||.||||||||.||
+Bufo_bufo        668 CCTCCACCCAGTCACCCAACAAGGACTACATCCCAATGTTGGTGGAGTTG    717
+
+Homo_sapiens     859 C--GTTCACGAGGGGCTCCTGTGGGCAGCCCTGCTTTGA--AACGC--GA    902
+                     |  |.|.|.|          .||||.|        ||.|  ||.||  ||
+Bufo_bufo        718 CATGATAAAG----------TTGGGAA--------TTTACTAAAGCAAGA    749
+
+Homo_sapiens     903 GCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGC-CGAGAACACTGCA    951
+                     .||.||.||..|.|||||.||||| |.||||.||.| .|||||||| .||
+Bufo_bufo        750 ACATTTTCAAATGCTGGTTAGGAT-CAAGGAAGGTCTGGAGAACAC-CCA    797
+
+Homo_sapiens     952 -CCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGTTTG   1000
+                      ||.|||||.||.||.||.|||||||||||||||||||||.|.|||||||
+Bufo_bufo        798 GCCTAAGCCTAGCTTTGTAGCCATGATGATGATGGAGGTGAATCAGTTTG    847
+
+Homo_sapiens    1001 TACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCT--GAGT   1048
+                     |..||||.|||.|.||.||.||||||.||||.||.|||||  ||  ||.|
+Bufo_bufo        848 TCATGACAGCCATCACTCCTGACATGTTGGCTGCAGAGGA--CTTGGAAT    895
+
+Homo_sapiens    1049 CT--CCC------TCTGACCTGTTGAT----CTTCAACCTTACTTCTCCA   1086
+                     ||  |||      |||.|..| ||.||    ||||.|||||       ||
+Bufo_bufo        896 CTGACCCCGGGGATCTTATAT-TTAATATCACTTCCACCTT-------CA    937
+
+Homo_sapiens    1087 TTCCAGCCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCC   1136
+                     .||||    ||.|||||..|..|.||.||.||.|||||.||||.|.||||
+Bufo_bufo        938 GTCCA----GGACAGGGGCATATTGTAAGTACAGATGACCGCAACTTGCC    983
+
+Homo_sapiens    1137 CCTTTCCTCCTTCACTCAGAGGGATCTGCGGCTCCTGAA-----GATTGC   1181
+                     |.||.||||||||..||||||.||..|||.|     |||     ||||||
+Bufo_bufo        984 CATTACCTCCTTCTATCAGAGAGACTTGCAG-----GAATTTAGGATTGC   1028
+
+Homo_sapiens    1182 CTACCAGCCCCCTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGG   1231
+                     .|||.|.||.||..||||.|||||||||...||.|||.||||||||.|||
+Bufo_bufo       1029 TTACAAACCGCCACCTGAGGACTCTGACACTGAACGCATCTTTGAAGTGG   1078
+
+Homo_sapiens    1232 AATTGGAGGTAGTGGA-TCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTT   1280
+                     ||.|||||||.||||| .|| ||||||||.|..||.||.|||||..|.||
+Bufo_bufo       1079 AACTGGAGGTGGTGGACACT-GAAGGAGCGGTGTCTGAGCCTTTCTCATT   1127
+
+Homo_sapiens    1281 CATGGTAGTGGTGAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGA   1330
+                     ||||.|..|.||.||.||.|||||.||..|.||.||.|||||.||.|..|
+Bufo_bufo       1128 CATGATTCTTGTTAAACCGATGAATACGCTTGCCCCCGTGGTTACTCACA   1177
+
+Homo_sapiens    1331 ATACCGGTCTTATTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCT   1380
+                     |.||.||.|...||||.|.|||.||.||.||.||||||||..||      
+Bufo_bufo       1178 ACACTGGGCAGCTTCTGTTTGAAGGGCAATCACGGCCCCTGTCA------   1221
+
+Homo_sapiens    1381 GCAGGCAGTGGTCCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGA   1430
+                           ||||   |.||.||.||....||||||||||||||..||||.||
+Bufo_bufo       1222 ------AGTG---CCCAGAATTTACAAATCAGCGATGAGGACAACCTTGA   1262
+
+Homo_sapiens    1431 AGCAGTGCGGCTAGAG-----GTGGTGGCTGGGCTCCGGCATGGTCACCT   1475
+                          |...|.||.||     ||..|||.||||||..|.|||||.||.| 
+Bufo_bufo       1263 -----TTATGTTAAAGTGACTGTACTGGATGGGCTAAGACATGGGCAGC-   1306
+
+Homo_sapiens    1476 TGT-CATTCTGGGTGCTTCCAGTGGCAGCTCTGCTCCCAAGAGCTTTACA   1524
+                     ||| |.|.||.||   |||...||..|.||      ||||....|||||.
+Bufo_bufo       1307 TGTACCTGCTCGG---TTCACCTGAGAACT------CCAAATTTTTTACG   1347
+
+Homo_sapiens    1525 GTGGCTGAGCTGG--CAGCCGGCCAGGTGG-----TCTACCAGCATGA--   1565
+                     |...||||.||||  ||       ||||.|     |.||.||.|||||  
+Bufo_bufo       1348 GCTTCTGATCTGGACCA-------AGGTAGAGTCATTTATCAACATGACG   1390
+
+Homo_sapiens    1566 ----TGACAGAGACGGCTCGCTGAGCGACAACCTGGTGCTT-CGCATGGT   1610
+                         |||||...||         ||.|||||..|..| ||| ||.|||..
+Bufo_bufo       1391 GGAGTGACACTTAC---------AGTGACAATATCAT-CTTCCGTATGAC   1430
+
+Homo_sapiens    1611 GGATGGAGGAGGCAGGCACCAGGTACAGTTTCTGTTCCCCATCACCTTAG   1660
+                     .||||||      |.||||||.||..||||.||.|||||.||.||..|.|
+Bufo_bufo       1431 AGATGGA------AAGCACCAAGTTGAGTTCCTCTTCCCAATAACAGTGG   1474
+
+Homo_sapiens    1661 TGC---CTGTGGATGACCAGCCACCTGTTCTCAATGCCAACACGGGGCTG   1707
+                     |||   |||..||||   ||||.|||.|..|||||||||||||.||..|.
+Bufo_bufo       1475 TGCCAACTGACGATG---AGCCTCCTATAGTCAATGCCAACACAGGTTTA   1521
+
+Homo_sapiens    1708 ACACTGGCAGAGGGTGAAACA-GTGCCCATCCTG-----CCCCTTTCCCT   1751
+                     |...|..||||    ||||.| |||.|  .||||     ||..||....|
+Bufo_bufo       1522 ATGATCTCAGA----GAAAGACGTGTC--GCCTGTAACTCCAGTTGTGTT   1565
+
+Homo_sapiens    1752 GAGTGCAACTGACATGGATTCAGATGATTCTCTGC--TGCTTTTTGTGCT   1799
+                     |||||||||.||.||.||.|||||.||  ||||.|  |.|..|||.|..|
+Bufo_bufo       1566 GAGTGCAACAGATATCGACTCAGAAGA--CTCTACCATACGGTTTATATT   1613
+
+Homo_sapiens    1800 GGAGTCACCCTTCT---TAACTACGGGGCATCTGCTTCTCCGCCAAACTC   1846
+                     |||.|.|||.|.||   ||..|   ||.||..||.|..|.||.|||.|  
+Bufo_bufo       1614 GGACTTACCTTACTCAGTAGTT---GGCCAAATGGTATTGCGTCAATC--   1658
+
+Homo_sapiens    1847 ACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTGGAGGAAGGAG   1896
+                               |||||..|        |||| ||.||.||      ..|||
+Bufo_bufo       1659 ----------TGAGATAC--------CTCA-AGACCCTT------CTGAG   1683
+
+Homo_sapiens    1897 GGGGCATT-TTA--TGAGC-GAAC--------------AGTGACAGAGTG   1928
+                     .||..||| |||  |||.| ||||              |||.|.||||||
+Bufo_bufo       1684 TGGAAATTATTACCTGAACTGAACCTTTTTGAAAAGGAAGTAAAAGAGTG   1733
+
+Homo_sapiens    1929 GCAGCAGCAGGACATAACAGAGGGCAGGCTGTTCTAT----AGACACTCT   1974
+                     |...||.||.||||||..|||.||.|   ..||.|||    || ||...|
+Bufo_bufo       1734 GACTCAACAAGACATATTAGATGGTA---AATTATATTACAAG-CATGTT   1779
+
+Homo_sapiens    1975 GGGCCCCATAGTCCTGGGCCAGTCACAGACCAGTTCACATTTAGAGTCCA   2024
+                     ||.||.||.||..|||..||.||||..||||||.|....|||||||||||
+Bufo_bufo       1780 GGACCGCACAGCACTGTCCCGGTCATGGACCAGCTGGTCTTTAGAGTCCA   1829
+
+Homo_sapiens    2025 GGATAACCATGACCCTCCTAATCAGTCCGG----GCTACAGCGGTTTGTG   2070
+                     .|||.||.||||..|||||||||||||.||    ..||||    ||||  
+Bufo_bufo       1830 AGATGACAATGATTCTCCTAATCAGTCTGGTGAACATACA----TTTG--   1873
+
+Homo_sapiens    2071 ATTCGT----ATCCATCCTGTGGATCGCCTCCCTCCGGAG------CTGG   2110
+                       |.||    ||..|||||.|.|||..|.|.|||||.|||      |.||
+Bufo_bufo       1874 --TTGTAAAAATTAATCCTATTGATGACTTGCCTCCAGAGTTATACCCGG   1921
+
+Homo_sapiens    2111 GCAGTGGCTGTC--CCCTTCGTATGGTGGTACAGGAATCCCAGCTCACAC   2158
+                     .||        |  |||||.|.||||||||||||||||..||.||.|| |
+Bufo_bufo       1922 CCA--------CCACCCTTAGGATGGTGGTACAGGAATATCATCTAAC-C   1962
+
+Homo_sapiens    2159 CA-CTGAGGAAGAAGTGGCTGCGCTACACTGACCTGGACACAGATGACCG   2207
+                     || .|.||.|.|||.|..||.||.||.||||||.||||..|.||||||.|
+Bufo_bufo       1963 CATTTTAGAAGGAAATTTCTTCGATATACTGACTTGGATTCTGATGACAG   2012
+
+Homo_sapiens    2208 AGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACAGACGAAAATC   2257
+                     |||.||....||||||||||||...|||||.||.||.|||||.|||||..
+Bufo_bufo       2013 AGATCTCAAATACACAGTGACTATTCCCCCAACTGATACAGATGAAAACA   2062
+
+Homo_sapiens    2258 ACCTGCCAGCCCCACTGGG---TACCTTGGTCTTGACTGACAACCC--CT   2302
+                     ||   ||||..|...||||   ||   |.||..|.|||||.|||||  ..
+Bufo_bufo       2063 AC---CCAGTTCTGATGGGATTTA---TAGTTCTAACTGAAAACCCAGAA   2106
+
+Homo_sapiens    2303 CAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAACCATCATAAAATT   2352
+                     |||  ||.||.|||.|.|||||.|||||.|||||.||||||||.||||||
+Bufo_bufo       2107 CAG--GTTGTTACCGAGTTTACACAAGCTCAGATAAACCATCACAAAATT   2154
+
+Homo_sapiens    2353 GCTTACAGACCCCCGGGTCAAGAACT--GGGCGTGG-----CTACTCGAG   2395
+                     ||.||||.|||.||.|       |||  |.||.|||     ||.|.||.|
+Bufo_bufo       2155 GCCTACAAACCACCTG-------ACTTGGAGCTTGGAATTACTCCACGTG   2197
+
+Homo_sapiens    2396 TGGCCCAGTTCCAGTTCCAGGTGGAAGACCG-AG---------CTGGGAA   2435
+                     |.|..|||||.||.|          |.|||| ||         |||||||
+Bufo_bufo       2198 TAGTGCAGTTTCACT----------ATACCGTAGAGGATATGTCTGGGAA   2237
+
+Homo_sapiens    2436 TGTGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGC   2485
+                     ..|.||...|||....|||||..|||.||||.|.||||||||||||.|||
+Bufo_bufo       2238 CATAGCCGAAGGGGATTTTACTATTTTCTTGGAGCCCGTGGACAACAAGC   2287
+
+Homo_sapiens    2486 CACCTGAG-ATCCTCAACACCGGCTTCACTAT-TCAGGAGAAGG--GTCA   2531
+                     | ||..|| |||.|.|||||.||.||.|||.| |..|.|..|||  ||||
+Bufo_bufo       2288 C-CCCAAGTATCGTTAACACTGGATTTACTGTGTTTGAAAGAGGAAGTCA   2336
+
+Homo_sapiens    2532 C-----CACATCCTGAGTGAGACAGAGTTGCACGTGAAT------GATGT   2570
+                     |     ||| |||            ||.||.||.|| ||      ||||.
+Bufo_bufo       2337 CATTATCAC-TCC------------AGCTGAACTTG-ATGCCACAGATGC   2372
+
+Homo_sapiens    2571 AGACACTGATGTTGC-----CCATATCTCTTTCACTCTCACTCAGGCACC   2615
+                     .|||||.|     ||     |.|.||..|.|||||.||.||.||..|.||
+Bufo_bufo       2373 GGACACAG-----GCAAAGACAAAATTACCTTCACACTGACCCAATCTCC   2417
+
+Homo_sapiens    2616 CAAACATGGCCACATGAGAGTGTCTGGACAGATCC----------TGCAT   2655
+                     .|..|||||.||..|||   |||.|       |||          ||.||
+Bufo_bufo       2418 AAGGCATGGTCAAGTGA---TGTAT-------TCCAATCTCGTAATGGAT   2457
+
+Homo_sapiens    2656 GTAGGGG----GTCTCTTCCACTTGGAGGACATA--------AAACAGGG   2693
+                     ||.||.|    .|.|.|||    ||||.||||||        ||    ||
+Bufo_bufo       2458 GTTGGTGAAACATTTGTTC----TGGATGACATACGTAGTGGAA----GG   2499
+
+Homo_sapiens    2694 CCGAGTTTCCTATGCCCATAATGGGGACAAGTC--CCTGACTGATAGCTG   2741
+                     ...||.|.|  |||  ||.|.|||.||..||||  ||  |.||||...||
+Bufo_bufo       2500 ATAAGCTAC--ATG--CACAGTGGTGAGGAGTCTACC--AGTGATTCTTG   2543
+
+Homo_sapiens    2742 CTCCTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAGAG   2791
+                     ..||.|.||.||.|||||..||..|||||||.|..|.|| |.||    |.
+Bufo_bufo       2544 TACCCTTGATGTTAGTGATGGAGTTCATGTGCTTACAAT-AATC----AT   2588
+
+Homo_sapiens    2792 TAAA-----TGTCCGGCCAGTGGATGATGAAGTGCCCATACTGA-GCCAT   2835
+                     ||||     |||.||...||||||||||||||.|||.|.|||.| ||.| 
+Bufo_bufo       2589 TAAAATCACTGTTCGTTTAGTGGATGATGAAGCGCCTAGACTTATGCTA-   2637
+
+Homo_sapiens    2836 CCTACTGGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGG----   2881
+                     |||.|.||.||..|.|..||||.|.|||||||.||||||     ||    
+Bufo_bufo       2638 CCTTCAGGAACCATTGGCTCCTTTTTAGATGTTTTAGAA-----GGCAGC   2682
+
+Homo_sapiens    2882 -CTACTGAAATCACTGCCAATGTTAT-TAAGGGGACCAATGA---GGAAA   2926
+                      ||.|.||||||||..|.|||||||| .||||    ||.|||   .||.|
+Bufo_bufo       2683 TCTGCAGAAATCACATCGAATGTTATCCAAGG----CACTGACACAGATA   2728
+
+Homo_sapiens    2927 CTGATGACTTGATGTTGACTTTCCTCTTGGAAGATCCACC---TTTGTAT   2973
+                     |.|||||..|.|||||.||.|||.|..|||||||.|||||   |.|   |
+Bufo_bufo       2729 CAGATGATCTCATGTTAACCTTCATTGTGGAAGACCCACCACATCT---T   2775
+
+Homo_sapiens    2974 GGGGAAATCTTGGTCAATGGCATTCCAGCAGAGCAG-TTTACTCAAAGGG   3022
+                     ||.|.|||..|||||||||||||||||||.|| .|| |||.|||||||||
+Bufo_bufo       2776 GGAGTAATTCTGGTCAATGGCATTCCAGCCGA-AAGATTTTCTCAAAGGG   2824
+
+Homo_sapiens    3023 ACATCTTGGAGGGCTCTGTTGTATATACCCACACCAGTGGTGAGATAGGC   3072
+                     |.|||.|.||.||..|||||||.|||.|.|||||...|||.||.||.|| 
+Bufo_bufo       2825 ATATCATAGATGGTGCTGTTGTCTATTCTCACACTTCTGGAGAAATTGG-   2873
+
+Homo_sapiens    3073 CTATTGCCTAAA---GCGGATTC-----TTTTAACCTGAGTCTGTCAGAT   3114
+                       |||||..|||   |.||||||     .||||||.|     |.||.||.
+Bufo_bufo       2874 --ATTGCAGAAAAAGGAGGATTCATTCAATTTAACAT-----TATCTGAC   2916
+
+Homo_sapiens    3115 ATGTCTCAAGAATGGAGAATTGGTGGCAATACTATCCAAGGAGTTACTAT   3164
+                     ||||||.|||||||||...||||.||.||||...|...|||||||..|.|
+Bufo_bufo       2917 ATGTCTGAAGAATGGACTGTTGGCGGTAATAGAGTTACAGGAGTTCGTGT   2966
+
+Homo_sapiens    3165 ATGGGTGACCATCCTGCCTGTTGATAGCCAGGCCCCAGAA----ATCTTT   3210
+                     ...||||||.||.||.||..|.||||..|||.|.||  ||    |||  |
+Bufo_bufo       2967 TCAGGTGACTATTCTTCCATTAGATAATCAGCCTCC--AATTGTATC--T   3012
+
+Homo_sapiens    3211 GTAGGTGAACAGTTGATAGTAATGGAAGGTGATAAAAGTGTTATAACATC   3260
+                     ||.|||||||||||.|.|||.||.|||||.||.||||.|||.||.||..|
+Bufo_bufo       3013 GTGGGTGAACAGTTCACAGTTATTGAAGGAGAAAAAAATGTGATTACGCC   3062
+
+Homo_sapiens    3261 AGTGCATATAAGTGC---TGA-AGATGTCGACTCCCTGAATGATGACATC   3306
+                     ....|||.|||..||   ||| |||    |||.|.|..||||||||||||
+Bufo_bufo       3063 CTCCCATTTAAAAGCTAGTGATAGA----GACACTCCAAATGATGACATC   3108
+
+Homo_sapiens    3307 TTGTGCACTATAGTTATTCAGCCTACTTCAGGTTATGTTGAAAACATTTC   3356
+                     .|.||||||||..||.|.||||||||.||.||.|||.|||||||.|||||
+Bufo_bufo       3109 CTTTGCACTATTATTGTGCAGCCTACATCTGGATATCTTGAAAATATTTC   3158
+
+Homo_sapiens    3357 TCCAGCACCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCATAAGTGCTT   3406
+                     .|||||.|||||||||||.|||||.|||||.||||...|.||.|||||.|
+Bufo_bufo       3159 ACCAGCTCCAGGCTCTGAAAAATCTAGAGCTGGGACATCTATTAGTGCAT   3208
+
+Homo_sapiens    3407 TCAACTTGAAAGATCTCAGGCAGGGCCACATAAACTATGTCCAGAGTGTC   3456
+                     |.|..|||||||||.|.||.|.|||.||.||..|.|||||.||.||..||
+Bufo_bufo       3209 TTACATTGAAAGATATTAGACTGGGACATATTTATTATGTTCAAAGCATC   3258
+
+Homo_sapiens    3457 CATAAAGGGGTGGAACCTGTGGAGGACCGATTTGTATTTCGTTGTTCTGA   3506
+                     ||.|||||.||.||||||||.|||||..||.||...||.|..|||||.||
+Bufo_bufo       3259 CACAAAGGTGTAGAACCTGTAGAGGATAGACTTACTTTCCACTGTTCCGA   3308
+
+Homo_sapiens    3507 TGGCATTAACTTTTCAGAGAGACAGTTCTTCCCCATTGTAATCATTCCCA   3556
+                     ||||||.|||.||||..|.|||||.||||||||..||||.|||||.||..
+Bufo_bufo       3309 TGGCATAAACCTTTCCCAAAGACATTTCTTCCCAGTTGTTATCATACCTG   3358
+
+Homo_sapiens    3557 CCAATGATGAACAGCCAGAGATGTTTATGAGAGAATTTATGGTGATGGAA   3606
+                     |||||||||||.||||||||||.||.|||||.||.|||.|.||.|||||.
+Bufo_bufo       3359 CCAATGATGAAAAGCCAGAGATCTTCATGAGGGAGTTTGTTGTTATGGAG   3408
+
+Homo_sapiens    3607 GGCATGAGTCTGGTAATTGATACACCCATTCTCAATGCTGCTGATGCTGA   3656
+                     ||.||||||||.||.|||||||..||.||.||.||||..||.||||..||
+Bufo_bufo       3409 GGAATGAGTCTCGTCATTGATATTCCAATACTGAATGGGGCCGATGTAGA   3458
+
+Homo_sapiens    3657 TGTTCCCCTGGATGA----TTTAACTT-----TCACTATTACCCAATTCC   3697
+                     ..|  |||.|.| ||    .|||.|||     ||||.|  |.|||    |
+Bufo_bufo       3459 CCT--CCCAGCA-GACAACCTTATCTTTTTCATCACAA--AGCCA----C   3499
+
+Homo_sapiens    3698 CCACTCATGGTCACATCATGAATCAGCTGATAAATGGCACGGTTTTGGTC   3747
+                     |.|..|||||.||.|||.||||.|||||.|..||||||||.|||.||||.
+Bufo_bufo       3500 CAAAACATGGGCATATCGTGAACCAGCTAACCAATGGCACTGTTCTGGTT   3549
+
+Homo_sapiens    3748 GAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCATTATTTATGA   3797
+                     .|.|||||||.|.|||||.|.||||.|||.||.||||.|||..|||||||
+Bufo_bufo       3550 AACAGCTTCAGCCTGGATGACATCAAAGAAAGCTCCACCATCCTTTATGA   3599
+
+Homo_sapiens    3798 GCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATTAAACTAACAG   3847
+                     .||||||||.||.||||||.|.||||||||.||||.|||.|||||..|.|
+Bufo_bufo       3600 ACATGATGATTCTGAGACCAAAGAAGACAGCTTTGAGATAAAACTTTCTG   3649
+
+Homo_sapiens    3848 ATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGTTATCCCTGTT   3897
+                     ||||.||.||..|.||||..||.||.||.||.|||||..||||.|||||.
+Bufo_bufo       3650 ATGGAAAACATACAGTGGTCAAAACCGTTCTGATTATGATTATACCTGTG   3699
+
+Homo_sapiens    3898 GATGATGAGACGCCCAGAATGACTATCAATAATGGACTAGAAATAGAAAT   3947
+                     |||||||||||.||.||||||||.||.|||.|||||||.||.||.|||||
+Bufo_bufo       3700 GATGATGAGACTCCTAGAATGACCATTAATGATGGACTGGAGATTGAAAT   3749
+
+Homo_sapiens    3948 TGGGGATACCAAGATTATCAACAACAAAATATTAATGGCAACAGATTTAG   3997
+                     |||.||.||.||..|.||.||.||.|||.||||||..|||||||||||.|
+Bufo_bufo       3750 TGGAGAAACAAAACTGATTAATAATAAAGTATTAAAAGCAACAGATTTGG   3799
+
+Homo_sapiens    3998 ATTCAGAAGACAAATCTTTG--GTTTATATTATTCGTTATGGGCCAGGAC   4045
+                     |.||.||.|||||.||||||  ||.|||||||  ||.||||||||.||.|
+Bufo_bufo       3800 ACTCGGATGACAAGTCTTTGACGTATATATTA--CGCTATGGGCCTGGTC   3847
+
+Homo_sapiens    4046 ATGGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAATATCACA   4095
+                     |.|||.|.|||||..||.|||.|||.|..||||...|||||||.||.|||
+Bufo_bufo       3848 AAGGCCTCTTACAACGAAGAAGACCAAACGGTGAACTTGAAAACATTACA   3897
+
+Homo_sapiens    4096 CTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAATTCAGTA   4145
+                     .|.||.|||||.||.||.||||||||.||.|||||..|.|||||.||.||
+Bufo_bufo       3898 ATAGGTATGAACTTCACTCAGGATGAGGTGGACAGGGAATTAATACAATA   3947
+
+Homo_sapiens    4146 TGTCCAT---TTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTTGATG   4192
+                        ||||   ||.||.||||||||.||.||.||.||..|.||||||||||
+Bufo_bufo       3948 ---CCATCACTTCGGCCAAGAGGGAATACGTGATCTCTTCAAATTTGATG   3994
+
+Homo_sapiens    4193 TGACTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTCCATC   4242
+                     |.||.|||||.||||||||.||.||.||..|.||.|||||||||.|..|.
+Bufo_bufo       3995 TTACCGATGGTATAAATCCTCTTATTGACAGATATTTTTATGTGACTGTT   4044
+
+Homo_sapiens    4243 GGGAGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTT   4292
+                     ||..|||||||.||.||.|||||.||||||||.||.||.||.||.||..|
+Bufo_bufo       4045 GGAGGCATTGATATGGTGTTCCCAGATGTGATTAGCAAAGGGGTATCTCT   4094
+
+Homo_sapiens    4293 GAAAGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACTAGTG   4342
+                     .||||||||.|||||.||.||.||||||||.|||.|.||.|||||.||||
+Bufo_bufo       4095 AAAAGAAGGAGGCAAGGTAACGCTTACAACTGACTTGCTTAGCACCAGTG   4144
+
+Homo_sapiens    4343 ACTTGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGCTCCC   4392
+                     |..|.|||||||||||||||.|.||.|||||.||||||||.||||||||.
+Bufo_bufo       4145 ATCTCAACAGTCCTGATGAACATTTAGTTTTCACCATCACAAGGGCTCCT   4194
+
+Homo_sapiens    4393 ATGCGAGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCACGTC   4442
+                     .|.||.||.||..||||.|||||.||||.|||.||.||..|||||||.||
+Bufo_bufo       4195 GTACGTGGACATTTGGAGTGCACAGATCTGCCAGGGGTTCCCATCACATC   4244
+
+Homo_sapiens    4443 TTTCACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCACACAG   4492
+                     .|||||.|||||||...|.|||||.||.||||||||.||||..||.|||.
+Bufo_bufo       4245 GTTCACCCAGCTGCTGTTAGCTGGTAATAAAATCTATTACACACATACAT   4294
+
+Homo_sapiens    4493 CTGATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGATGGA   4542
+                     |.|||||||||.|.||.||||||||.|||||.|||.|.|||||.|||||.
+Bufo_bufo       4295 CCGATGATGAAATAAAGATGGACAGCTTTGAATTTGAGGTCACTGATGGG   4344
+
+Homo_sapiens    4543 CGTAACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGGACAA   4592
+                     ..|||.||.||.||.||.||||||.|.||.|||||.|..|||||.||.||
+Bufo_bufo       4345 TATAATCCAGTTTTCCGCACATTCAGAATATCCATCACTGATGTTGATAA   4394
+
+Homo_sapiens    4593 TAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAA   4642
+                     .||.|||||.||..|.||||||||..|.|||...||.||.||.|||||.|
+Bufo_bufo       4395 CAAGAAGCCTGTTTTGACCATCCATGAACTGACCGTAAGAGAGAGTGAGA   4444
+
+Homo_sapiens    4643 ACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATACTCCT   4692
+                     |.|||.||||.||.||.|||||.||.||.||.||.|||||||||||.|..
+Bufo_bufo       4445 ATAAGTTGATCACCCCCTTTGAACTTACGGTGGAGGACAGAGATACACTA   4494
+
+Homo_sapiens    4693 GACAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCCATCT   4742
+                     ||.||.|..||.||.||||..|||||.||||||||..||||.||..|..|
+Bufo_bufo       4495 GATAAACGGCTTAAGTTCATCATCACTCAGGTGCCAGTTCACGGAAAGAT   4544
+
+Homo_sapiens    4743 CCTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGA   4792
+                     ||||||||||||||.||.|.|.||.|.....|||||.||.||.||..|.|
+Bufo_bufo       4545 CCTATTCAACAATAGCAAAACGGTAACCTCCTTTACAAAACAGGATCTCA   4594
+
+Homo_sapiens    4793 ATGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAGAT   4842
+                     ||||.|||.|.|||||.||.|||||...|||.|||||.||.|..||.||.
+Bufo_bufo       4595 ATGACAACCTCATCAGTTATAAACACATTGGTACTGAATCCACCGAGGAC   4644
+
+Homo_sapiens    4843 AGCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTTTT   4892
+                     ||||||||.|||||.|||||||||||.|.|||.||.||.||.|||||.||
+Bufo_bufo       4645 AGCTTCTCTTTCACTGTGACTGATGGAATCCACACTGAATTTTATGTCTT   4694
+
+Homo_sapiens    4893 TCCTGATACGGTGTTTGAAACAAGGAGA-CCCCAAGTGATGAAGATCCAG   4941
+                     ||||||.||.||.|.|||.|| ..||.| |||||..||||||||||.|.|
+Bufo_bufo       4695 TCCTGACACCGTCTATGAGAC-CCGACAGCCCCAGATGATGAAGATTCGG   4743
+
+Homo_sapiens    4942 GTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGC   4991
+                     .|..|.||||||||.||..|.||.||.||.||.|||||.|||||||||||
+Bufo_bufo       4744 ATTATCGCTGTTGATAATGGGGTGCCGCAGATTGCAGTAAATAAGGGGGC   4793
+
+Homo_sapiens    4992 CTCTACACTTCGCACTCT-AGCCACTGGCCACTTGGGGTTCATGATCACA   5040
+                     |.|.||.||.||||..|| || |||||||||.|||||.|||.|||||||.
+Bufo_bufo       4794 CCCAACTCTCCGCATCCTGAG-CACTGGCCATTTGGGCTTCTTGATCACT   4842
+
+Homo_sapiens    5041 AGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCT---   5087
+                     |.|||..|..|.||||..||.|||||.||||||...||.||.|||||   
+Bufo_bufo       4843 AACAAGGTCCTTAAAGCAGAAGACAGGGACAGCACCCAAATCTCTCTCCG   4892
+
+Homo_sapiens    5088 ----TAGATTTATCGTGACAGAGGCCCCTCAA--CATGGATATCTTCTCA   5131
+                         .|.|||..||      .|||||||   |  |||||||..|||.|||
+Bufo_bufo       4893 CATCCAAATTACTC------AAGGCCCC---AGTCATGGATTCCTTATCA   4933
+
+Homo_sapiens    5132 ACCTGGACAAAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATT   5181
+                     ||.|.|||||.||.||||.||||||||..||||||||||||||.||||||
+Bufo_bufo       4934 ACTTAGACAAGGGGAACCGCAGCATCAACCAGTTCACACAAGCGGACATT   4983
+
+Homo_sapiens    5182 GATGACATGAAAATATGCTATGTCTTA--AGAGAAGGGGCTAATGCCACA   5229
+                     ||.|||||||||||.|||||||..|||  |||.||||.|  ||.||.|||
+Bufo_bufo       4984 GACGACATGAAAATCTGCTATGCGTTACGAGACAAGGAG--AACGCAACA   5031
+
+Homo_sapiens    5230 AGTGATATGTTCTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAAC   5279
+                     ||||||||.|||.|||||.|.||||||||..||||||||||.||..|.|.
+Bufo_bufo       5032 AGTGATATTTTCCATTTTACTGTTGAAGACAGTGGTGGAAATAAACTGAA   5081
+
+Homo_sapiens    5280 GTACCAGAATTTTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAAT   5329
+                     |.|.|||.||||||||||.||.|||||.||||||||..|.||.|||||..
+Bufo_bufo       5082 GAATCAGCATTTTCGTCTCAACTGGGCTTGGATCTCTATAGAGAAGGAGC   5131
+
+Homo_sapiens    5330 ATTACCTGGTCAATGAGGACTCCAA--ATTTCTAGATGTTGTTCTTAAAC   5377
+                     |.||..||||.|||||.|||.||||  |||  ||||.|||.|.||.||||
+Bufo_bufo       5132 ACTATGTGGTGAATGAAGACGCCAAGCATT--TAGAGGTTATCCTGAAAC   5179
+
+Homo_sapiens    5378 GTAGAGGTTA-CTTGGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGA   5426
+                     |.|||||.|| ||| ||||||||.||.|||.|.|||||.|||||...|||
+Bufo_bufo       5180 GCAGAGGATATCTT-GGAGAAACCTCGTTTGTCAGTATCGGCACTGTAGA   5228
+
+Homo_sapiens    5427 CAGAACTGCAGAAAAAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAG   5476
+                     ..|.||.||||||||.|||||.|||||||..||.||.||.||||||||||
+Bufo_bufo       5229 TGGGACAGCAGAAAAGGACAAGGACTTCAGAGGAAAGGCCCAGAAACAAG   5278
+
+Homo_sapiens    5477 TGCAGTTCAACCCAGGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTG   5526
+                     |.|||||.||.||.||.|||||||.|||.||.|||.||||||||||||||
+Bufo_bufo       5279 TACAGTTTAATCCTGGGCAGACCACGGCGACTTGGAGAGTGCGGATCCTG   5328
+
+Homo_sapiens    5527 AGTGATGGGGAGCATGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGA   5576
+                     |||||.|||||..||||.|||||.||||||||.|||.|.||.||.|||||
+Bufo_bufo       5329 AGTGACGGGGAATATGAACAGTCCGAAACCTTCCAGATCGTCCTGTCAGA   5378
+
+Homo_sapiens    5577 GCCCGTGCTGGCTGCCTTGGAATTCCCCACA-GTCGCCACTGTTGAGATC   5625
+                     |||.||..||||.||..||||||| ||||.| ||.||.||.||.||||||
+Bufo_bufo       5379 GCCTGTCATGGCAGCACTGGAATT-CCCAGAGGTGGCAACAGTGGAGATC   5427
+
+Homo_sapiens    5626 GTTGATCCAGGAGATGAGCCAACTGTGTTTATTCCCCAGTCCAA-ATACT   5674
+                     .|.||.||.||||||||..||||.||||||||.|||.|| |||| ||| |
+Bufo_bufo       5428 ATCGACCCTGGAGATGAATCAACAGTGTTTATACCCGAG-CCAATATA-T   5475
+
+Homo_sapiens    5675 CCG-TTGAAGAAGATGTTGGTGAGCTGTTCATTCCCATCAGGAGGAGCGG   5723
+                     ..| ||||||||||..|.|||||||||||.||.||..|..||||.|||||
+Bufo_bufo       5476 AAGATTGAAGAAGACATCGGTGAGCTGTTTATACCGGTGCGGAGAAGCGG   5525
+
+Homo_sapiens    5724 AGATGTGAGCCAGGAGTTGATGGTGGTCTGTTATACCCAACAAGGAACAG   5773
+                     ||||||.|..||||||||||||||..|.||||.|||.||.|||||.||.|
+Bufo_bufo       5526 AGATGTCAATCAGGAGTTGATGGTTATATGTTTTACACATCAAGGTACGG   5575
+
+Homo_sapiens    5774 CAACTGGAACTGTGCCGACTTCCGTGTTGTCTTACTCTGATTACATATCC   5823
+                     |.||||||||.||.|||||.|||||.||.||.||.|||||||||||||||
+Bufo_bufo       5576 CTACTGGAACCGTCCCGACCTCCGTTTTATCCTATTCTGATTACATATCC   5625
+
+Homo_sapiens    5824 AGGCCTGAGGACCACACCAGTGTTGTCCGCTTTGACAAAGATGAACGGGA   5873
+                     ||.||||||||.||.|.|||.|||.|..|.|||||.||||..||...|||
+Bufo_bufo       5626 AGACCTGAGGAGCATAACAGCGTTTTGAGGTTTGATAAAGGCGAGAAGGA   5675
+
+Homo_sapiens    5874 GAAACTGTGTCGGATAGTCATAATTGATGACTCTTTGTACGAGGAGGAGG   5923
+                     |||..||||.|||.|.||.|||||.|||||.||.|||||.|||||||..|
+Bufo_bufo       5676 GAAGATGTGCCGGGTGGTTATAATAGATGATTCCTTGTATGAGGAGGCAG   5725
+
+Homo_sapiens    5924 AAACCTTCCATGTCCTTCTGAGCATGCCCATGGGGGGAAGAATCGGATCA   5973
+                     |..||||..|||||...||.||||||||.|||||.||||||.|.|||||.
+Bufo_bufo       5726 AGTCCTTTAATGTCACGCTCAGCATGCCTATGGGAGGAAGACTTGGATCT   5775
+
+Homo_sapiens    5974 GAGTTCCC----AGGGGCTCAAGTTACAATCGTTCCTGACAAAGATGATG   6019
+                     ||||||||    |    ||||.|||...||..|.||.|||||.|||||.|
+Bufo_bufo       5776 GAGTTCCCTTCTA----CTCAGGTTGTGATTTTACCGGACAAGGATGACG   5821
+
+Homo_sapiens    6020 AACCCATCTTTTACTTCGGTGATGTGGAA---TACTCTGTGGATGAGAGT   6066
+                     |.||....||||||||.||.|||||||||   |||   ||||||||.|||
+Bufo_bufo       5822 AGCCTGCTTTTTACTTTGGAGATGTGGAACTGTAC---GTGGATGAAAGT   5868
+
+Homo_sapiens    6067 GCTGGCTATGTGGAAGTGCAGGTGTGGAGAACGGGCACTGACCTGTCCAA   6116
+                     ||.||.||..|.|||||.|..||.|||||.||.||.|||||.|||||.||
+Bufo_bufo       5869 GCGGGATACATAGAAGTACGTGTATGGAGGACTGGTACTGATCTGTCAAA   5918
+
+Homo_sapiens    6117 GTCTTCTAGTGTCACAGTGAGGTCTCGGAAAACAGATCCTCCCTCTGCAG   6166
+                     ..||.|.|.||||||.|||.||||.|..||.||.||.||....||.|| .
+Bufo_bufo       5919 AACTGCCACTGTCACCGTGCGGTCACAAAAGACGGAGCCAGTGTCAGC-C   5967
+
+Homo_sapiens    6167 AT-GCTGGAACAGACTATGTGGGCATCAGCCGTAATTTAGATTTTGCACC   6215
+                     || |||||.|..||||||||.||.|||||..|.|||.|.||||||||.||
+Bufo_bufo       5968 ATAGCTGGCATTGACTATGTAGGTATCAGTAGGAATCTGGATTTTGCTCC   6017
+
+Homo_sapiens    6216 TGGAGTCAACATGCAGCCTGTTCGTGTTGTCATTCTGGATGACCTTGGAC   6265
+                     .||.||.|||||||||.||.|.|||||.|||||||||||||||.|.||||
+Bufo_bufo       6018 CGGCGTTAACATGCAGACTTTCCGTGTGGTCATTCTGGATGACTTGGGAC   6067
+
+Homo_sapiens    6266 AACCAGCGCTGGAGGGAATTGAGAAATTTGAACTGGTGCTTCGCATGCCT   6315
+                     |.||.|.|||||||||.||.|||||.||||||||.|||||.||.|||||.
+Bufo_bufo       6068 AGCCGGTGCTGGAGGGCATAGAGAAGTTTGAACTCGTGCTGCGTATGCCA   6117
+
+Homo_sapiens    6316 ATGAACGCAGCCCTTGGCGAGCCCAGCAAAGCCACAGTGTCCATAAATGA   6365
+                     ||||||||.|.|||.||.||||||||.|||||||.|||.|.|||.|||||
+Bufo_bufo       6118 ATGAACGCCGTCCTCGGGGAGCCCAGTAAAGCCATAGTATACATCAATGA   6167
+
+Homo_sapiens    6366 CTCTGTCTCCGATTTGCCTAAGATGCAATTCAAAGAACGAATATATAC--   6413
+                     |.|.|||||.||.|||||.|||.|.|||||||..||  |...||.|||  
+Bufo_bufo       6168 CACCGTCTCTGACTTGCCAAAGGTTCAATTCAGGGA--GGCCATGTACAT   6215
+
+Homo_sapiens    6414 -TGGCAGCGA-AAGTGATGGGCAGAT---AGTTACAATGATCCATAGGAC   6458
+                      .|||| ||| ||| ||||||.||||   ||   |.|||.|..|.||.|.
+Bufo_bufo       6216 GGGGCA-CGAGAAG-GATGGGAAGATCACAG---CCATGGTGTACAGAAG   6260
+
+Homo_sapiens    6459 TGGGGATGTCCAG-TACAGATCTTCAGTGAGATGCTACACCCGGCAGGGG   6507
+                     ||||||||| ||| ||||..|||.|.||..|.||.|||||.||.||.||.
+Bufo_bufo       6261 TGGGGATGT-CAGCTACAAGTCTACGGTTCGTTGTTACACTCGCCAAGGC   6309
+
+Homo_sapiens    6508 TCTGCACAGGTGATGATGGACTTTGAAGAACGCCCAAACACTGATACCTC   6557
+                     ||.|||||.|||||||||||||||||||||||.|||||.||.||||..||
+Bufo_bufo       6310 TCGGCACAAGTGATGATGGACTTTGAAGAACGACCAAATACAGATAGTTC   6359
+
+Homo_sapiens    6558 CATCATCACATTCCTCCCTGGTGAGACAGAAAAGCCCTGCATTCTTGA-G   6606
+                     .||||||||||||||.||.||||||||||||...||.|||.|| .||| |
+Bufo_bufo       6360 AATCATCACATTCCTTCCAGGTGAGACAGAACGTCCTTGCGTT-GTGACG   6408
+
+Homo_sapiens    6607 CTGATGGACGATGTGCTCTATGAGGAGGTAGAGGAGCTCCGCCTGGTACT   6656
+                     ||||||||||||....||.||||.||.|..||||||||.||.||.||.||
+Bufo_bufo       6409 CTGATGGACGATACCATCCATGAAGAAGAGGAGGAGCTGCGACTTGTCCT   6458
+
+Homo_sapiens    6657 CGGCACTCCACA-AAGCAACTCTCCCTTTGG-GGCTGCAGTTGGTGAACA   6704
+                     .||.||||| || |||..|.|||||.||||| |.||.|| |.||.||||.
+Bufo_bufo       6459 TGGAACTCC-CAGAAGTGAATCTCCTTTTGGAGCCTCCA-TAGGAGAACT   6506
+
+Homo_sapiens    6705 AAATGAAACTCTCATAAGGATCCGAGATGATGCTGATAAGACTGTTATTA   6754
+                     .|||||.||..|.||||.|||....||||||||.||.|||.|..|.||.|
+Bufo_bufo       6507 CAATGAGACCTTAATAAAGATTAAGGATGATGCAGACAAGGCAATAATAA   6556
+
+Homo_sapiens    6755 AATTTGGAGAAACCAAATTTAGTGTCACTGAACCCAAAGAACCTGGA-GA   6803
+                     |.|||||.||.|||||.||||||||.|..|||||.||.|||||.||| .|
+Bufo_bufo       6557 AGTTTGGTGACACCAAGTTTAGTGTGAGCGAACCGAAGGAACCCGGACAA   6606
+
+Homo_sapiens    6804 GTCGGTGGTTATAAGAATTCCAGTGATTCGCCAAGGAGACACTTCAAAGG   6853
+                     .|| |||||..|||.|||||||||..||||.||.||||||||.|||||||
+Bufo_bufo       6607 ATC-GTGGTAGTAAAAATTCCAGTTGTTCGTCAGGGAGACACATCAAAGG   6655
+
+Homo_sapiens    6854 TTTCCATTGTGAGAGTCCACACCAAGGATGGCTCGGCCACCTCTGGAGAA   6903
+                     |.|||||||||.|.||.||.||.|||||||||||.||.|||||.||.|||
+Bufo_bufo       6656 TCTCCATTGTGCGTGTGCATACAAAGGATGGCTCTGCTACCTCAGGGGAA   6705
+
+Homo_sapiens    6904 GACTACCACCCTGTGTCAGAAGAAATTGAGTTTAAGGAAGGGGAAACCCA   6953
+                     ||.||..||||||||||||||||.|||||.|||||.|||||.|||||.||
+Bufo_bufo       6706 GATTATAACCCTGTGTCAGAAGAGATTGAATTTAAAGAAGGTGAAACACA   6755
+
+Homo_sapiens    6954 GCACGTGGTTGAAATCGAAGTTACCTT---TGACGGGGTGAGAGAGATGA   7000
+                     ||||.|.||.||..|||||||   |||   |||.||.||.||.||.||||
+Bufo_bufo       6756 GCACATTGTGGAGGTCGAAGT---CTTGTATGATGGAGTTAGGGAAATGA   6802
+
+Homo_sapiens    7001 GAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAAATATGATAGCAGAG   7050
+                     ||||.||.||.|||.|.|||||.||.||||||||.||.|||.|.|||||.
+Bufo_bufo       6803 GAGAAGCTTTTACTATACACCTGAAGCCTGATGAGAACATGGTTGCAGAA   6852
+
+Homo_sapiens    7051 ATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAAATGAGCAGCATGGC   7100
+                     ||.|||.||||.||||||||.|||||.||.||||||||||.|||.|||||
+Bufo_bufo       6853 ATCCAGATGACCAAAGCCATAGTGTATATCGAAGAAATGAACAGTATGGC   6902
+
+Homo_sapiens    7101 AGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATCCCTGTTGATGTATG   7150
+                     .|||||.||.||.||.||.||.||||||.||.|.||.||.||.||.||||
+Bufo_bufo       6903 TGATGTGACATTCCCCTCGGTTCCTCAAGTTATCTCACTTTTTATATATG   6952
+
+Homo_sapiens    7151 ACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCCATGTCTGGCTATCCT   7200
+                     |.||||||||.|.|||||||||||...||.|.|||||..||||.||.||.
+Bufo_bufo       6953 ATGACACTTCAAGAGCTAAGGAGAACCCTAATCCCATTGCTGGTTACCCA   7002
+
+Homo_sapiens    7201 GTCATCTGTATCACAGCTTGCAACCCCAAATATTCAGACTACGATAAAAC   7250
+                     ||....||.|||||.|||||.|||||.|||||||||||.||.||.|||||
+Bufo_bufo       7003 GTTGCTTGCATCACGGCTTGTAACCCTAAATATTCAGATTATGACAAAAC   7052
+
+Homo_sapiens    7251 AGGCTCTATCTGTGCAAGTGAGAACATCAATGACACTTTGACGCGGTACC   7300
+                     .||.||.||.|||...|||||..|||||||.|||||.||.||.||.||||
+Bufo_bufo       7053 TGGATCAATATGTATCAGTGAACACATCAACGACACATTAACCCGTTACC   7102
+
+Homo_sapiens    7301 GGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTGTGACCAGCCCTATG   7350
+                     |.||||||.|.|||||.||...|||||..||.||.||.|||||.||||||
+Bufo_bufo       7103 GTTGGCTGGTCAGTGCCCCCAAGGGCCAGGATGGAGTCACCAGTCCTATG   7152
+
+Homo_sapiens    7351 AGAGAAGTGGACTTCGACACCTTTTTTACGTCATCCAAGATGGTCACACT   7400
+                     ||.||.||.||.||.|||||.||.||||||||.||.||.|||.||||.||
+Bufo_bufo       7153 AGGGAGGTTGATTTTGACACATTCTTTACGTCTTCAAAAATGATCACCCT   7202
+
+Homo_sapiens    7401 GGACTCCATATACTTTCAGCCTGGCTCCCGGGTACAGTGCGCAGCTCGTG   7450
+                     |||.||.||||||||.||..|.||.||.|||||.|||||.||.||.||||
+Bufo_bufo       7203 GGATTCAATATACTTCCATGCGGGTTCGCGGGTGCAGTGTGCGGCACGTG   7252
+
+Homo_sapiens    7451 CTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCATGAGCCCTATTGTA   7500
+                     ||||.|||.|..||||..|.|||||.|||||.||.|||||.||||||.||
+Bufo_bufo       7253 CTGTAAACTCAGATGGACAGGAAGGTCTGGAACTTATGAGTCCTATTATA   7302
+
+Homo_sapiens    7501 ACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGTGTACCTGGGGTTGT   7550
+                     |||||.||||.||||||||||||.||.||.||.||.||.||.||.||.||
+Bufo_bufo       7303 ACCATAAGCACAGAAGAAGGTCTCTGCCAACCTCGAGTGCCGGGAGTGGT   7352
+
+Homo_sapiens    7551 TGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACACAGGCCCTGAGGATG   7600
+                     .|||||.||.||||||||.|||||..||||.|||||.||..|.||.|||.
+Bufo_bufo       7353 CGGAGCTGAACCGTTCTCTGCTAAGATGCGATACACGGGGTCGGATGATC   7402
+
+Homo_sapiens    7601 CAGACTACACAAACCTTATCAAGCTCACTGTCACAATGCCACACATAGAT   7650
+                     |.||..|..||||.|||||.||..|.|||.|.||.|||||.||.||.|||
+Bufo_bufo       7403 CCGATCATCCAAATCTTATTAAAGTAACTATTACTATGCCTCATATTGAT   7452
+
+Homo_sapiens    7651 GGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCCAACTTTGAGCTCAC   7700
+                     ||||||||.||.|||||.||||||||.||||||||.||||||||||||||
+Bufo_bufo       7453 GGCATGCTTCCAGTGATATCCACTAGGGAGCTTTCTAACTTTGAGCTCAC   7502
+
+Homo_sapiens    7701 CCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAAGTGCTCCAACCTCC   7750
+                     .||.|||||||||||.|||.|.|..|||||||||||||||||.||.||.|
+Bufo_bufo       7503 ACTGAGCCCTGATGGTACACGGGCAGGAAACCACAAGTGCTCGAATCTTC   7552
+
+Homo_sapiens    7751 TGGATTATACTGAAGTGAAGACTCATTATGGTTTCTTGACTGATGCTACC   7800
+                     |||||||||.||||||||..||||.|||.||.||||||||||||||.|||
+Bufo_bufo       7553 TGGATTATAATGAAGTGAGAACTCGTTACGGGTTCTTGACTGATGCCACC   7602
+
+Homo_sapiens    7801 AAAAATCCAGAAATAATTGGAGAGACATATCCTTACCAGT-------ACA   7843
+                     ||.|||||..|..|.||.||.|||||.|.|||.|||||.|       |||
+Bufo_bufo       7603 AAGAATCCCAATGTCATAGGGGAGACCTCTCCCTACCAATATAATACACA   7652
+
+Homo_sapiens    7844 GCTTGTCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAACCTGAAC   7893
+                     ||       |.|||||.||.|.|.|.||.|||||||||.|.||.||.|||
+Bufo_bufo       7653 GC-------TGAGAGGGTCTAATGCTTTACGCTTCTACAGAAATCTTAAC   7695
+
+Homo_sapiens    7894 CTAGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGTCAGAACT   7943
+                     |||||||||||.||.|||||.||....|||||||||||||||||.||.||
+Bufo_bufo       7696 CTAGAGGCCTGCTTGTGGGACTTTACCAGCTACTATGACATGTCGGAGCT   7745
+
+Homo_sapiens    7944 CCTTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTCCTAAACC   7993
+                     ||||.||||.|||||||||||||||||.|||||.|||||||||.|.||||
+Bufo_bufo       7746 CCTTACTGAATGTGGTGGCACCATTGGCACAGACGGACAGGTCTTGAACC   7795
+
+Homo_sapiens    7994 TAGTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTCCTACGTG   8043
+                     |.||.||||||||.|||||.||.||.||.||.|||||.||.|||||.||.
+Bufo_bufo       7796 TTGTCCAGTCCTACGTGACGCTGCGGGTGCCGCTGTACGTGTCCTATGTC   7845
+
+Homo_sapiens    8044 TTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACTTGAAGTC   8093
+                     ||.||.||.||.|||||.||.||.||.||||||||.|||||..||.|.||
+Bufo_bufo       7846 TTTCACTCACCTGTGGGAGTTGGCGGGTGGCAGCACTTTGATCTGCACTC   7895
+
+Homo_sapiens    8094 AGAGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGGAATGATG   8143
+                     .|||||.||.||.||.|||||||||||.|||||||||||||||||.||||
+Bufo_bufo       7896 TGAGCTGCGCCTGACATTTGTGTACGATACCGCCATCTTGTGGAACGATG   7945
+
+Homo_sapiens    8144 GAATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTATCCAACC   8193
+                     |.|||||.|||||.|||||.||||||.|.|||||.||.|||||.||.|||
+Bufo_bufo       7946 GTATTGGGAGCCCTCCAGAAGCTGAATTACAAGGCTCCCTCTACCCGACC   7995
+
+Homo_sapiens    8194 AGCATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCAAGACAGA   8243
+                     ||||||||.||...|||.||.||.|||||||..||..|.||.||.|||||
+Bufo_bufo       7996 AGCATGCGTATAAATGAAGAAGGTCGCTTGGTTGTCAATTTTAAAACAGA   8045
+
+Homo_sapiens    8244 GGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCCTTTACA-   8292
+                     .||||..|||.||||..|||||||..||||||||||.|||      ||| 
+Bufo_bufo       8046 AGCTCGATTCTATGGTCTATTTGTAATGTCACATCCTGCA------ACAC   8089
+
+Homo_sapiens    8293 -----AGCTCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTCC   8337
+                          |.|||..|||||||||||||.||||||||||...|.||.|||.||
+Bufo_bufo       8090 TGCTGACCTCCATGATCATGTCAGCCGATCATCCAGAGTTAACCTTTACC   8139
+
+Homo_sapiens    8338 CTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGTG   8387
+                     ||....||..|..|||.||||||.|..|||||||||||.||.||||||||
+Bufo_bufo       8140 CTGAATCTTGTGCGGAATGAACCCAGTTATAACCAGCCCGTTCAGCAGTG   8189
+
+Homo_sapiens    8388 GAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATACTG   8437
+                     ||||||.||||||||.|||||.||..|.||.|||||.||.||.||.||.|
+Bufo_bufo       8190 GAGCTTCGTCTCTGATTTTGCTGTTAGAGATTACTCTGGCACTTACACAG   8239
+
+Homo_sapiens    8438 TGAAGCTGGTGCCATG---CACTGCCCCATCACATCAGGAATA-------   8477
+                     |.||.||..|.||.||   |||.|||||.|   |.||||||||       
+Bufo_bufo       8240 TTAAACTCATCCCCTGTACCACGGCCCCGT---ACCAGGAATACACTATA   8286
+
+Homo_sapiens    8478 -CCGC-CTGCCAGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCT   8525
+                      |||| .||         ||.||||||.|.||.||..|||.||||||..|
+Bufo_bufo       8287 CCCGCTGTG---------TGTAACCCCCGGGAGCCCATCAACTTTGATGT   8327
+
+Homo_sapiens    8526 TGACATCCGATTCCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCT   8575
+                     |||.|||.|||||||.|||||||||||.||.||.||.||.|||||.||.|
+Bufo_bufo       8328 TGATATCAGATTCCAGCAGGTCAGTGACCCCGTTGCGGCAGAGTTCAGTT   8377
+
+Homo_sapiens    8576 TGAACACCCAAATGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGAT   8625
+                     |.||.|||||.|||...||.||.||||||||....||.|||.||||||||
+Bufo_bufo       8378 TAAATACCCAGATGCTGCTTCTGTCTAAGAAATCGCTGTGGCTGTCTGAT   8427
+
+Homo_sapiens    8626 GGATCCATGGGATTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGA   8675
+                     |||||.|||||.||.||.|||||||||||..|..|.||..|.||||||||
+Bufo_bufo       8428 GGATCGATGGGTTTTGGACAAGAGAGTGACATCTCGTTCTCTGAAGGTGA   8477
+
+Homo_sapiens    8676 TATAATTTATGGTCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACT   8725
+                     ..|.||.||||||||.||.|||||.|||||.||||||||.||.||..|||
+Bufo_bufo       8478 AGTCATCTATGGTCGAGTGATGGTTGATCCAGTCCAGAACCTTGGAAACT   8527
+
+Homo_sapiens    8726 CCTTTTACTGCAGCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGC   8775
+                     |.||||||||||||||.|||||.||.||.||.|||||||||||.||||||
+Bufo_bufo       8528 CTTTTTACTGCAGCATCGAGAAAGTCTTCCTCTGCACTGGAGCCGATGGC   8577
+
+Homo_sapiens    8776 TATGTTCCCAAGTATAGTCC-------AATGAATGCAGAATATGGCTGCT   8818
+                     |||||.|||||.||||.|||       |||       |||||.||||||.
+Bufo_bufo       8578 TATGTACCCAAATATAATCCCTCCGATAAT-------GAATACGGCTGCC   8620
+
+Homo_sapiens    8819 TAGCCGACTCTCCTTCACTCTTATATAGATTTAAAATTGTGGACAAAGCT   8868
+                     |.|||||||||.|.||.|||.|.||...||||||.||..||||.|||||.
+Bufo_bufo       8621 TCGCCGACTCTACGTCTCTCCTCTACCAATTTAAGATATTGGATAAAGCA   8670
+
+Homo_sapiens    8869 CAGCCAGAGACACAAGCGACCAGTTTTGGAAATGTCCTATTTAATGCCAA   8918
+                     |||||.||.||.||.||.|..|..|||||.|...||.|.|||||.||||.
+Bufo_bufo       8671 CAGCCGGAAACTCAGGCTAGAAAATTTGGCAGCATCTTGTTTAACGCCAG   8720
+
+Homo_sapiens    8919 ACTAGCAGTGGATGACCCTGAAGCCATT----CTCTTAGTGAATCAGCCT   8964
+                     .||.||||.||||||.|| |.||.||||    |||   ||.|..||||||
+Bufo_bufo       8721 GCTGGCAGCGGATGATCC-GGAGGCATTACCGCTC---GTCAGACAGCCT   8766
+
+Homo_sapiens    8965 GGATCTGATGGATTTAAAGTCGACTCAACACCACTCTTTCAGGTCGCTCT   9014
+                     ||.||.||||||||||||||.|||||.||.||.||.||.|||.|..||..
+Bufo_bufo       8767 GGCTCGGATGGATTTAAAGTTGACTCCACTCCTCTGTTCCAGATTTCTAC   8816
+
+Homo_sapiens    9015 AGGCCGAGAATGGTATATACATACGATCTATACAGTGAGATCGAAAGACA   9064
+                     |||||||||.||||||||.|||.|.|||||.||..||||.||.|||||.|
+Bufo_bufo       8817 AGGCCGAGAGTGGTATATGCATGCAATCTACACCATGAGGTCCAAAGAAA   8866
+
+Homo_sapiens    9065 ATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG------AGTACCATTCT   9108
+                     |.|||||..||||.||.||.||.|||||..|.|      |||||||||||
+Bufo_bufo       8867 ACGCCAACAGAGGCATCGGAAAGAGAAGCTTAGAATACCAGTACCATTCT   8916
+
+Homo_sapiens    9109 CTGGTGAGTCA-AGGAA-------AGCCCCAATCCACCACCAAGAGC---   9147
+                     .|..|||| || |||.|       ||...||          ||||||   
+Bufo_bufo       8917 GTACTGAG-CACAGGGACTTTTGGAGAGTCA----------AAGAGCAGT   8955
+
+Homo_sapiens    9148 CGGAAGAAGAGAGAGATCA--GGAG-CACACCCTCACTGGCATGGGAGAT   9194
+                     ||.|||||||||||..|||  |.|| |   ||..||.|.||...|||.||
+Bufo_bufo       8956 CGTAAGAAGAGAGATGTCAATGAAGTC---CCAACAGTTGCTAAGGAAAT   9002
+
+Homo_sapiens    9195 TGG--TGCTGAA-AACAGTCGAGGAACAAACATCCAGCACATTGCCCTGG   9241
+                     |||  ||..||| ||||   |||||||.||.||.|||||.||.|...|.|
+Bufo_bufo       9003 TGGCATGGAGAACAACA---GAGGAACCAATATTCAGCATATCGTTTTAG   9049
+
+Homo_sapiens    9242 ACCGCACCAAGAGGCAGATCCCCCA-----TG----GGAGAGCACCTCCA   9282
+                     |.||.|.|||.|...|||     ||     ||    |||.|.||.| |||
+Bufo_bufo       9050 AACGTAACAACAAAAAGA-----CAATTTCTGAGAAGGAAATCATC-CCA   9093
+
+Homo_sapiens    9283 GATGGCATCCTCCCCTGGGAGCTCAACA-----GCCCCAGCTCTGCAGTC   9327
+                     |||||..|..|.||..|.|||.|.||.|     |          ..|||.
+Bufo_bufo       9094 GATGGGTTAATACCAAGAGAGGTGAATAATAAGG----------AAAGTG   9133
+
+Homo_sapiens    9328 AG-----CCTGG---TCACTGTGGTGGGAGGCACCACGGTAGGGTTACTC   9369
+                     ||     |.|||   |||.||||||.|                     ||
+Bufo_bufo       9134 AGATTAACGTGGTCATCATTGTGGTCG---------------------TC   9162
+
+Homo_sapiens    9370 ACCATCTGCCTCACTGTCATTGCAGTG--CTG------------------   9399
+                     |.| .|||||..|.|||.|||  ||||  |||                  
+Bufo_bufo       9163 ATC-GCTGCCATATTGTTATT--AGTGGTCTGTTTGATAGCGATCATTTT   9209
+
+Homo_sapiens    9400 ----ATGTGCAGGGGCAAGGAAAGTTTC-------AGGGGGAAGGATGCC   9438
+                         ||||.||.|.|.|||.|||..|.|       |.|..|||||     
+Bufo_bufo       9210 ATTCATGTTCAAGCGTAAGCAAAAGTCCAAAAAGAAAGAAGAAGG-----   9254
+
+Homo_sapiens    9439 CCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCCCACAGAGCCATCA   9488
+                       ||.||..||..|.|||||.|||||||||.||||.||.|.|.|  || |
+Bufo_bufo       9255 --GAGAGAGTCGGGAAGCAGCGAGCCCATGATGCCTCCTCGGGG--AT-A   9299
+
+Homo_sapiens    9489 CAAT---GACAGCTCAGAAGTT   9507
+                     ||.|   ||||||||.||.|||
+Bufo_bufo       9300 CAGTACAGACAGCTCTGAGGTT   9321
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,634 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:52:47
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Panthera_leo.fa
+#    -outfile Homo_sapiens-Panthera_leo.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Panthera_leo.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Panthera_leo
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7456
+# Identity:    6785/7456 (91.0%)
+# Similarity:  6785/7456 (91.0%)
+# Gaps:          71/7456 ( 1.0%)
+# Score: 31395.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCCCGCCCTGCGCCCCGCTCTGCTGT----GGGCGCTG------CTGG     40
+                                          .||.|.|    ||    ||      |||.
+Panthera_leo       1 ---------------------ATGATTTTACAGG----TGAAGAAACTGA     25
+
+Homo_sapiens      41 CGCTC----TGGCT--------------------GTGCTGCGCGG--CCC     64
+                     .||.|    |||.|                    |||..|| |.|  .||
+Panthera_leo      26 AGCACAAAGTGGATACAGAGACAGATAGTAAATGGTGGAGC-CAGAATCC     74
+
+Homo_sapiens      65 CCGCGCA-----TGCATTGCAGTGTCGAGATGGCTATGAACCCTGTGTAA    109
+                     ..||.||     |||||||||||||||.||..|||||||.||||||||||
+Panthera_leo      75 AAGCTCAGATGCTGCATTGCAGTGTCGGGACAGCTATGAGCCCTGTGTAA    124
+
+Homo_sapiens     110 ATGAAGGAATGTGTGTTACCTACCACAATGGCACAGGATACTGCAAATGT    159
+                     ||||||||||.||||||||||||||||||||.||||||||||||||||||
+Panthera_leo     125 ATGAAGGAATATGTGTTACCTACCACAATGGTACAGGATACTGCAAATGT    174
+
+Homo_sapiens     160 CCAGAAGGCTTCTTGGGGGAATATTGTCAACATCGAGACCCCTGTGAGAA    209
+                     |..||.|||||||||||.||||||||||||||||||||||||||||||||
+Panthera_leo     175 CTGGAGGGCTTCTTGGGAGAATATTGTCAACATCGAGACCCCTGTGAGAA    224
+
+Homo_sapiens     210 GAACCGCTGCCAGAATGGTGGGACTTGTGTGGCCCAGGCCATGCTGGGGA    259
+                     ||||||||||||||||||.|||||.||||||||||||||||||.||||||
+Panthera_leo     225 GAACCGCTGCCAGAATGGGGGGACGTGTGTGGCCCAGGCCATGTTGGGGA    274
+
+Homo_sapiens     260 AAGCCACGTGCCGATGTGCCTCAGGGTTTACAGGAGAGGACTGCCAGTAC    309
+                     |||||||.||||||||||||...|||||.|||||.||.|||||.||||||
+Panthera_leo     275 AAGCCACATGCCGATGTGCCCTGGGGTTCACAGGTGATGACTGTCAGTAC    324
+
+Homo_sapiens     310 TCAACATCTCATCCATGCTTTGTGTCTCGACCCTGCCTGAATGGCGGCAC    359
+                     |||||..||||.||.|||||||||||||..||||||||||||||.|||||
+Panthera_leo     325 TCAACTGCTCACCCCTGCTTTGTGTCTCACCCCTGCCTGAATGGAGGCAC    374
+
+Homo_sapiens     360 ATGCCATATGCTCAGCCGGGATACCTATGAGTGCACCTGTCAAGTCGGGT    409
+                     .||||||.|||..||||||||...|||||||||.|||||.|||||.||.|
+Panthera_leo     375 CTGCCATGTGCGTAGCCGGGACGACTATGAGTGTACCTGCCAAGTTGGTT    424
+
+Homo_sapiens     410 TTACAGGTAAGGAGTGCCAATGGACGGATGCCTGCCTGTCTCATCCCTGT    459
+                     |||||||||||..||||||||||||.|||||||||||.||||||||||||
+Panthera_leo     425 TTACAGGTAAGCTGTGCCAATGGACCGATGCCTGCCTATCTCATCCCTGT    474
+
+Homo_sapiens     460 GCAAATGGAAGTACCTGTACCACTGTGGCCAACCAGTTCTCCTGCAAATG    509
+                     |||||||||||||||||.||||||||.|||||||||||||||||||.|||
+Panthera_leo     475 GCAAATGGAAGTACCTGCACCACTGTAGCCAACCAGTTCTCCTGCAGATG    524
+
+Homo_sapiens     510 CCTCACAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCAATGAGTGTG    559
+                     ||||.|||||||||||||.|||||.|||||||||||||||||||||||||
+Panthera_leo     525 CCTCGCAGGCTTCACAGGACAGAAGTGTGAGACTGATGTCAATGAGTGTG    574
+
+Homo_sapiens     560 ACATTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAACCTGCCTGGT    609
+                     ||||.||||||||.||.|||||||||||||||||||||||.||.|..|||
+Panthera_leo     575 ACATCCCAGGACAGTGTCAGCATGGTGGCACCTGCCTCAATCTACTGGGT    624
+
+Homo_sapiens     610 TCCTACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTACTGTGACAG    659
+                     |||||.||||||||.|||||.||||||||||||||||||.||||||||||
+Panthera_leo     625 TCCTATCAGTGCCAATGCCCCCAGGGCTTCACAGGCCAGCACTGTGACAG    674
+
+Homo_sapiens     660 CCTGTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAGGCACCTGTC    709
+                     ||..||||||||||||||||||||.||.|||||.||||||||||||||.|
+Panthera_leo     675 CCCCTATGTGCCCTGTGCACCCTCCCCCTGTGTTAATGGAGGCACCTGCC    724
+
+Homo_sapiens     710 GGCAGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCAGGTTTTGAA    759
+                     |||||||||||||||||||.|||||.||||||||||||||||||||||||
+Panthera_leo     725 GGCAGACTGGTGACTTCACATTTGAATGCAACTGCCTTCCAGGTTTTGAA    774
+
+Homo_sapiens     760 GGGAGCACCTGTGAGAGGAATATTGATGACTGCCCTAACCACAGGTGTCA    809
+                     ||||.||||||||||.|||||||||||||||||||||||||||.||||||
+Panthera_leo     775 GGGATCACCTGTGAGCGGAATATTGATGACTGCCCTAACCACAAGTGTCA    824
+
+Homo_sapiens     810 GAATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAACTGCCGCTGTC    859
+                     |||||||||.|||||||||||.|||||.||.|||||||||||||||||.|
+Panthera_leo     825 GAATGGAGGAGTTTGTGTGGACGGGGTTAATACTTACAACTGCCGCTGCC    874
+
+Homo_sapiens     860 CCCCACAATGGACAGGACAGTTCTGCACAGAGGATGTGGATGAATGCCTG    909
+                     ||||.||.|||||||||||||||||||||||||||||.||.||.||.|||
+Panthera_leo     875 CCCCTCAGTGGACAGGACAGTTCTGCACAGAGGATGTAGACGAGTGTCTG    924
+
+Homo_sapiens     910 CTGCAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAACCGCAATGG    959
+                     |||||.||.||.||.|||||.||.||.||||||||..||||||||||.||
+Panthera_leo     925 CTGCAACCTAACGCTTGTCAGAACGGAGGCACCTGCACCAACCGCAACGG    974
+
+Homo_sapiens     960 AGGCTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATGACTGCAGTG   1009
+                     .|||||||||||.||.||||||||.||||||||||||||.||||||||||
+Panthera_leo     975 CGGCTATGGCTGCGTGTGTGTCAATGGCTGGAGTGGAGACGACTGCAGTG   1024
+
+Homo_sapiens    1010 AGAACATTGATGATTGTGCCTTCGCCTCCTGTACTCCAGGCTCCACCTGC   1059
+                     |||||||.|||||.||.||||||||||||||.|||||.||||||||.|||
+Panthera_leo    1025 AGAACATCGATGACTGCGCCTTCGCCTCCTGCACTCCCGGCTCCACGTGC   1074
+
+Homo_sapiens    1060 ATCGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAAGGCAGG   1109
+                     ||.|||||.||||||||||||||||||||||||||.||.||.||||||||
+Panthera_leo    1075 ATTGACCGCGTGGCCTCCTTCTCTTGCATGTGCCCTGAAGGAAAGGCAGG   1124
+
+Homo_sapiens    1110 TCTCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTTGCCACAAGG   1159
+                     ||||.||||||||.|||||||||||||||||||||||||||||||.||||
+Panthera_leo    1125 TCTCTTGTGTCATTTGGATGATGCATGCATCAGCAATCCTTGCCATAAGG   1174
+
+Homo_sapiens    1160 GGGCACTGTGTGACACCAACCCCCTAAATGGGCAATATATTTGCACCTGC   1209
+                     |||||||||||||.|||||||||||.||.|||||.|||||||||||||||
+Panthera_leo    1175 GGGCACTGTGTGATACCAACCCCCTGAACGGGCAGTATATTTGCACCTGC   1224
+
+Homo_sapiens    1210 CCACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGAATGTGC   1259
+                     ||.||||||||||||||.||||||||||||||||||||||||||||||||
+Panthera_leo    1225 CCCCAAGGCTACAAAGGCGCTGACTGCACAGAAGATGTGGATGAATGTGC   1274
+
+Homo_sapiens    1260 CATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAACACGG   1309
+                     |||||||||||||||||||||||||||||||||||||||||||||.||.|
+Panthera_leo    1275 CATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAATACAG   1324
+
+Homo_sapiens    1310 ATGGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCTCGTTGT   1359
+                     ||||.||||||||||||||.|||||||.|||.|||.||||.||||||||.
+Panthera_leo    1325 ATGGTGCCTTCCACTGTGAATGTCTGAGGGGCTATACAGGGCCTCGTTGC   1374
+
+Homo_sapiens    1360 GAGATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGATGCTAC   1409
+                     |||.||||.|||||||||||||||||.||||||||||||||.|||||.||
+Panthera_leo    1375 GAGTTGGATATCAATGAGTGCCATTCCGACCCCTGCCAGAACGATGCGAC   1424
+
+Homo_sapiens    1410 CTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAGGTTTCA   1459
+                     |||||||||||||||||||||||||||.||||||||||||||||||||||
+Panthera_leo    1425 CTGTCTGGATAAGATTGGAGGCTTCACGTGTCTGTGCATGCCAGGTTTCA   1474
+
+Homo_sapiens    1460 AAGGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGCAACCCTTGT   1509
+                     |||||||||||||||||||.||.|||||.|||||||||||||||||||||
+Panthera_leo    1475 AAGGTGTGCATTGTGAATTGGAGATAAACGAATGTCAGAGCAACCCTTGT   1524
+
+Homo_sapiens    1510 GTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCAGTGCCTGTG   1559
+                     |||||||||||.||||||||.||||||||||||||.||||||||.|||||
+Panthera_leo    1525 GTGAACAATGGTCAGTGTGTAGATAAAGTCAATCGCTTCCAGTGTCTGTG   1574
+
+Homo_sapiens    1560 TCCTCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGACTGTT   1609
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+Panthera_leo    1575 TCCGCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGACTGTT   1624
+
+Homo_sapiens    1610 CCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCCGAATGGC   1659
+                     ||||||||||||||||||||||||||||||||||.||||||||.||||||
+Panthera_leo    1625 CCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATTGATCACCCAAATGGC   1674
+
+Homo_sapiens    1660 TATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTGAGGAGAA   1709
+                     |||||||||||||||||||||||.|||||||||||||||||.||||||||
+Panthera_leo    1675 TATGAATGCCAGTGTGCCACAGGATTCACTGGTGTGTTGTGCGAGGAGAA   1724
+
+Homo_sapiens    1710 CATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGTCAGGATG   1759
+                     |||.||||||||||||||.|||||||||||||||||.|||||||||||||
+Panthera_leo    1725 CATCGACAACTGTGACCCTGATCCTTGCCACCATGGCCAGTGTCAGGATG   1774
+
+Homo_sapiens    1760 GTATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGGCGCCATC   1809
+                     |.||||||||||||||||||||||||||.||.|||||||||||.||||||
+Panthera_leo    1775 GGATTGATTCCTACACCTGCATCTGCAACCCGGGGTACATGGGTGCCATC   1824
+
+Homo_sapiens    1810 TGCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGAACGATGG   1859
+                     ||||||||||||||.|||||||||||||||||||||||||||||.|||||
+Panthera_leo    1825 TGCAGTGACCAGATAGATGAATGTTACAGCAGCCCTTGCCTGAATGATGG   1874
+
+Homo_sapiens    1860 TCGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAGCCAGGCA   1909
+                     |||||||||||||||.||.||||||||||||||||||||||||||.||||
+Panthera_leo    1875 TCGCTGCATTGACCTTGTAAATGGCTACCAGTGCAACTGCCAGCCGGGCA   1924
+
+Homo_sapiens    1910 CGTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAGTAACCCT   1959
+                     |||||||.||||||||||||||.|||||||||||||||||||||||||||
+Panthera_leo    1925 CGTCAGGTGTTAATTGTGAAATCAATTTTGATGACTGTGCAAGTAACCCT   1974
+
+Homo_sapiens    1960 TGTATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTTGTGTCTG   2009
+                     |||.||||.|||.||||||||||||||||||||||.||.|||||||||||
+Panthera_leo    1975 TGTGTCCACGGAGTCTGTATGGATGGCATTAATCGTTATAGTTGTGTCTG   2024
+
+Homo_sapiens    2010 CTCACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGATGAGTGTG   2059
+                     ||||||.||||||||||||||||||||||||||.||||||||||||||||
+Panthera_leo    2025 CTCACCGGGATTCACAGGGCAGAGATGTAACATCGACATTGATGAGTGTG   2074
+
+Homo_sapiens    2060 CCTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGTGAATGGT   2109
+                     |||||||||||||||||||||||||.||.||.|||||||..|||||||||
+Panthera_leo    2075 CCTCCAATCCCTGTCGCAAGGGTGCGACGTGCATCAACGACGTGAATGGT   2124
+
+Homo_sapiens    2110 TTCCGCTGTATATGCCCCGAGGGACCCCATCACCCCAGCTGCTACTCACA   2159
+                     |||||||||.|||||||||||||.|||||||||||||||||||||||.||
+Panthera_leo    2125 TTCCGCTGTCTATGCCCCGAGGGGCCCCATCACCCCAGCTGCTACTCGCA   2174
+
+Homo_sapiens    2160 GGTGAACGAATGCCTGAGCAATCCCTGCATCCATGGAAACTGTACTGGAG   2209
+                     |||||||||.||||||||||.||||||||||||.||.||||||||.||||
+Panthera_leo    2175 GGTGAACGAGTGCCTGAGCAGTCCCTGCATCCACGGGAACTGTACCGGAG   2224
+
+Homo_sapiens    2210 GTCTCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGTTGGCATCAAC   2259
+                     |.|||||.|||||.||||||||||||||||||||||||||||||||||||
+Panthera_leo    2225 GCCTCAGCGGATACAAGTGTCTCTGTGATGCAGGCTGGGTTGGCATCAAC   2274
+
+Homo_sapiens    2260 TGTGAAGTGGACAAAAATGAATGCCTTTCGAATCCATGCCAGAATGGAGG   2309
+                     ||.||||||||||||||||||||.|||||.||.|||||||||||||||||
+Panthera_leo    2275 TGCGAAGTGGACAAAAATGAATGTCTTTCTAACCCATGCCAGAATGGAGG   2324
+
+Homo_sapiens    2310 AACTTGTGACAATCTGGTGAATGGATACAGGTGTACTTGCAAGAAGGGCT   2359
+                     |||||||||||||||||||||.||||||||||||||||||||||||||||
+Panthera_leo    2325 AACTTGTGACAATCTGGTGAACGGATACAGGTGTACTTGCAAGAAGGGCT   2374
+
+Homo_sapiens    2360 TTAAAGGCTATAACTGCCAGGTGAATATTGATGAATGTGCCTCAAATCCA   2409
+                     ||||||||||||||||.|||||||||||||||||||||||.||||||||.
+Panthera_leo    2375 TTAAAGGCTATAACTGTCAGGTGAATATTGATGAATGTGCTTCAAATCCC   2424
+
+Homo_sapiens    2410 TGCCTGAACCAAGGAACCTGCTTTGATGACATAAGTGGCTACACTTGCCA   2459
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Panthera_leo    2425 TGCCTGAACCAAGGAACCTGCTTTGATGACATAAGTGGCTACACTTGCCA   2474
+
+Homo_sapiens    2460 CTGTGTGCTGCCATACACAGGCAAGAATTGTCAGACAGTATTGGCTCCCT   2509
+                     ||||||||||||||||||||||||||||||||||||.||.||||||||||
+Panthera_leo    2475 CTGTGTGCTGCCATACACAGGCAAGAATTGTCAGACTGTGTTGGCTCCCT   2524
+
+Homo_sapiens    2510 GTTCCCCAAACCCTTGTGAGAATGCTGCTGTTTGCAAAGAGTCACCAAAT   2559
+                     |||||||||||||.|||||||||||||||||||||||||||.||||||||
+Panthera_leo    2525 GTTCCCCAAACCCATGTGAGAATGCTGCTGTTTGCAAAGAGGCACCAAAT   2574
+
+Homo_sapiens    2560 TTTGAGAGTTATACTTGCTTGTGTGCTCCTGGCTGGCAAGGTCAGCGGTG   2609
+                     ||||||||.||.||.|||.|||||||.|||||||||||||||||||||||
+Panthera_leo    2575 TTTGAGAGCTACACCTGCCTGTGTGCCCCTGGCTGGCAAGGTCAGCGGTG   2624
+
+Homo_sapiens    2610 TACCATTGACATTGACGAGTGTATCTCCAAGCCCTGCATGAACCATGGTC   2659
+                     |||..||||||||||.||||||.||||||||||.|||||||||||.||||
+Panthera_leo    2625 TACAGTTGACATTGATGAGTGTGTCTCCAAGCCTTGCATGAACCACGGTC   2674
+
+Homo_sapiens    2660 TCTGCCATAACACCCAGGGCAGCTACATGTGTGAATGTCCACCAGGCTTC   2709
+                     ||||||||||||||||||||||||||||||||||.|||||.|||||||||
+Panthera_leo    2675 TCTGCCATAACACCCAGGGCAGCTACATGTGTGAGTGTCCTCCAGGCTTC   2724
+
+Homo_sapiens    2710 AGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGCCAATCCTTG   2759
+                     ||.|||||||||||||||||||||||.|||||||||||||||||||||||
+Panthera_leo    2725 AGCGGTATGGACTGTGAGGAGGACATCGATGACTGCCTTGCCAATCCTTG   2774
+
+Homo_sapiens    2760 CCAGAATGGAGGTTCCTGTATGGATGGAGTGAATACTTTCTCCTGCCTCT   2809
+                     |||||||||||||||||||.|.||||||||.||||||||||||||.||.|
+Panthera_leo    2775 CCAGAATGGAGGTTCCTGTGTAGATGGAGTAAATACTTTCTCCTGTCTGT   2824
+
+Homo_sapiens    2810 GCCTTCCGGGTTTCACTGGGGATAAGTGCCAGACAGACATGAATGAGTGT   2859
+                     |||...|.||.||.|.||||||||||||.|||||||||||||||||||||
+Panthera_leo    2825 GCCACGCTGGCTTTATTGGGGATAAGTGTCAGACAGACATGAATGAGTGT   2874
+
+Homo_sapiens    2860 CTGAGTGAACCCTGTAAGAATGGAGGGACCTGCTCTGACTACGTCAACAG   2909
+                     |||||||||||.|||||||||||||||||||||||.|||||.||||||||
+Panthera_leo    2875 CTGAGTGAACCGTGTAAGAATGGAGGGACCTGCTCCGACTATGTCAACAG   2924
+
+Homo_sapiens    2910 TTACACTTGCAAGTGCCAGGCAGGATTTGATGGAGTCCATTGTGAGAACA   2959
+                     |||||||||||||||||||||.|||||||||||||||||.||||||||||
+Panthera_leo    2925 TTACACTTGCAAGTGCCAGGCGGGATTTGATGGAGTCCACTGTGAGAACA   2974
+
+Homo_sapiens    2960 ACATCAATGAGTGCACTGAGAGCTCCTGTTTCAATGGTGGCACATGTGTT   3009
+                     |||||.|||||||||||||||||||||||||||||||||||||.|||||.
+Panthera_leo    2975 ACATCGATGAGTGCACTGAGAGCTCCTGTTTCAATGGTGGCACGTGTGTC   3024
+
+Homo_sapiens    3010 GATGGGATTAACTCCTTCTCTTGCTTGTGCCCTGTGGGTTTCACTGGATC   3059
+                     ||.|||||||||||||||||||||||||||||||||||.||||||||..|
+Panthera_leo    3025 GACGGGATTAACTCCTTCTCTTGCTTGTGCCCTGTGGGCTTCACTGGCCC   3074
+
+Homo_sapiens    3060 CTTCTGCCTCCATGAGATCAATGAATGCAGCTCTCATCCATGCCTGAATG   3109
+                     |||||||||||||||||||||||||||||.|||||||||||||||.||||
+Panthera_leo    3075 CTTCTGCCTCCATGAGATCAATGAATGCAACTCTCATCCATGCCTAAATG   3124
+
+Homo_sapiens    3110 AGGGAACGTGTGTTGATGGCCTGGGTACCTACCGCTGCAGCTGCCCCCTG   3159
+                     |.|||...|||||||||||||||||||||||||||||||.|||||||.||
+Panthera_leo    3125 AAGGAGTATGTGTTGATGGCCTGGGTACCTACCGCTGCACCTGCCCCTTG   3174
+
+Homo_sapiens    3160 GGCTACACTGGGAAAAACTGTCAGACCCTGGTGAATCTCTGCAGTCGGTC   3209
+                     |||||||||||.|||||||||||||||||||||||.|||||.||||||||
+Panthera_leo    3175 GGCTACACTGGCAAAAACTGTCAGACCCTGGTGAACCTCTGTAGTCGGTC   3224
+
+Homo_sapiens    3210 TCCATGTAAAAACAAAGGTACTTGCGTTCAGAAAAAAGCAGAGTCCCAGT   3259
+                     |||||||||||||||||||||||||||||||.|||||||||||||||.||
+Panthera_leo    3225 TCCATGTAAAAACAAAGGTACTTGCGTTCAGGAAAAAGCAGAGTCCCGGT   3274
+
+Homo_sapiens    3260 GCCTATGTCCATCTGGATGGGCTGGTGCCTATTGTGACGTGCCCAATGTC   3309
+                     |.||.|||||.|||||||||||||||||.||.|||||.|||||||||||.
+Panthera_leo    3275 GTCTGTGTCCGTCTGGATGGGCTGGTGCTTACTGTGATGTGCCCAATGTA   3324
+
+Homo_sapiens    3310 TCTTGTGACATAGCAGC-CTCCA-GGAGAGGTGTGCTTGTTGAACACTTG   3357
+                     ||.|||||..|.||.|| .|||| .|||.|||||.|  .||||.|||.||
+Panthera_leo    3325 TCCTGTGAGGTGGCGGCTTTCCACAGAGGGGTGTCC--ATTGACCACCTG   3372
+
+Homo_sapiens    3358 TGCCAGCACTCAGGTGTCTGCATCAATGCTGGCAACACGCATTACTGTCA   3407
+                     |||||||||||.||..||||||||||||||||.|||.|||||.||||.||
+Panthera_leo    3373 TGCCAGCACTCTGGCATCTGCATCAATGCTGGAAACTCGCATCACTGCCA   3422
+
+Homo_sapiens    3408 GTGCCCCCTGGGCTATACTGGGAGCTACTGTGAGGAGCAACTCGATGAGT   3457
+                     |||||||||||||||.|||||||||||||||||||||||.||||||||||
+Panthera_leo    3423 GTGCCCCCTGGGCTACACTGGGAGCTACTGTGAGGAGCAGCTCGATGAGT   3472
+
+Homo_sapiens    3458 GTGCGTCCAACCCCTGCCAGCACGGGGCAACATGCAGTGACTTCATTGGT   3507
+                     |..|.||||||||||||||||||||.||.||.|||||.||||||||.||.
+Panthera_leo    3473 GCTCATCCAACCCCTGCCAGCACGGAGCCACTTGCAGGGACTTCATCGGC   3522
+
+Homo_sapiens    3508 GGATACAGATGCGAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTA   3557
+                     ||.||.|||||.||||||||||||||.||||||||||||||.||||||||
+Panthera_leo    3523 GGGTATAGATGTGAGTGTGTCCCAGGATATCAGGGTGTCAATTGTGAGTA   3572
+
+Homo_sapiens    3558 TGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTA   3607
+                     |||||||||||||||||||||||||||.|||||||||||||||||||||.
+Panthera_leo    3573 TGAAGTGGATGAGTGCCAGAATCAGCCATGCCAGAATGGAGGCACCTGTG   3622
+
+Homo_sapiens    3608 TTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGC   3657
+                     |.||||||||||||||||||||||||||.||.||||||||||||||.|||
+Panthera_leo    3623 TCGACCTTGTGAACCATTTCAAGTGCTCCTGTCCACCAGGCACTCGAGGC   3672
+
+Homo_sapiens    3658 CTACTCTGTGAAGAGAACATTGATGACTGTGCCCGGGGTCCCCATTGCCT   3707
+                     ||.|||||.|||||||||.||||.|||||||||.|.||||||||.|||||
+Panthera_leo    3673 CTGCTCTGCGAAGAGAACGTTGACGACTGTGCCGGCGGTCCCCACTGCCT   3722
+
+Homo_sapiens    3708 TAATGGTGGTCAGTGCATGGATAGGATTGGAGGCTACAGTTGTCGCTGCT   3757
+                     |||||||||||||||..|||||||||||||.|||||||||||.|||||||
+Panthera_leo    3723 TAATGGTGGTCAGTGTGTGGATAGGATTGGGGGCTACAGTTGCCGCTGCT   3772
+
+Homo_sapiens    3758 TGCCTGGCTTTGCTGGGGAGCGTTGTGAGGGAGACATCAACGAGTGCCTC   3807
+                     ||||.||||||||.||.||.||.||||||||.||||||||.|||||||||
+Panthera_leo    3773 TGCCCGGCTTTGCAGGAGAACGGTGTGAGGGGGACATCAATGAGTGCCTC   3822
+
+Homo_sapiens    3808 TCCAACCCCTGCAGCTCTGAGGGCAGCCTGGACTGTATACAGCTCACCAA   3857
+                     |||||||||||||||||||||||||||||||||||.||||||||.|||||
+Panthera_leo    3823 TCCAACCCCTGCAGCTCTGAGGGCAGCCTGGACTGCATACAGCTGACCAA   3872
+
+Homo_sapiens    3858 TGACTACCTGTGTGTTTGCCGTAGTGCCTTTACTGGCCGGCACTGTGAAA   3907
+                     .||||||||||||||.|||||.||||||||.|||||.||.||||||||||
+Panthera_leo    3873 CGACTACCTGTGTGTCTGCCGCAGTGCCTTCACTGGTCGTCACTGTGAAA   3922
+
+Homo_sapiens    3908 CCTTCGTCGATGTGTGTCCCCAGATGCCCTGCCTGAATGGAGGGACTTGT   3957
+                     |.|||||||||||||||||.||.|||||.|||||||||||.|||||||||
+Panthera_leo    3923 CTTTCGTCGATGTGTGTCCACATATGCCTTGCCTGAATGGGGGGACTTGT   3972
+
+Homo_sapiens    3958 GCTGTGGCCAGTAACATGCCTGATGGTTTCATTTGCCGTTGTCCCCCGGG   4007
+                     |||||||||||.||||||||.||||||||||||||.||||||||||||||
+Panthera_leo    3973 GCTGTGGCCAGCAACATGCCCGATGGTTTCATTTGTCGTTGTCCCCCGGG   4022
+
+Homo_sapiens    4008 ATTTTCCGGGGCAAGGTGCCAGAGCAGCTGTGGACAAGTGAAATGTAGGA   4057
+                     |||.|||||||||||.||||||||||||||||||||||||||.||.||||
+Panthera_leo    4023 ATTCTCCGGGGCAAGATGCCAGAGCAGCTGTGGACAAGTGAAGTGCAGGA   4072
+
+Homo_sapiens    4058 AGGGGGAGCAGTGTGTGCACACCGCCTCTGGACCCCGCTGCTTCTGCCCC   4107
+                     ..||||||||||||||||||||.|||||.|||||||||||||||||||||
+Panthera_leo    4073 GAGGGGAGCAGTGTGTGCACACGGCCTCAGGACCCCGCTGCTTCTGCCCC   4122
+
+Homo_sapiens    4108 AGTCCCCGGGACTGCGAGTCAGGCTGTGCCAGTAGCCCCTGCCAGCACGG   4157
+                     |..||||.|||||||||||||||||||||||||||||||||||||||.||
+Panthera_leo    4123 AACCCCCAGGACTGCGAGTCAGGCTGTGCCAGTAGCCCCTGCCAGCATGG   4172
+
+Homo_sapiens    4158 GGGCAGCTGCCACCCTCAGCGCCAGCCTCCTTATTACTCCTGCCAGTGTG   4207
+                     |||.||||||.|||||||||||||||||||||||||||.||||||||||.
+Panthera_leo    4173 GGGTAGCTGCTACCCTCAGCGCCAGCCTCCTTATTACTTCTGCCAGTGTT   4222
+
+Homo_sapiens    4208 CCCCACCATTCTCGGGTAGCCGCTGTGAACTCTACACGGCACCCCCCAGC   4257
+                     |.||||||||||.|||.||||.||||||.||.||||||||.|||.|||||
+Panthera_leo    4223 CTCCACCATTCTGGGGCAGCCACTGTGAGCTTTACACGGCCCCCACCAGC   4272
+
+Homo_sapiens    4258 ACCCCTCCTGCCACCTGTCTGAGCCAGTATTGTGCCGACAAAGCTCGGGA   4307
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Panthera_leo    4273 ACCCCTCCTGCCACCTGTCTGAGCCAGTATTGTGCCGACAAAGCTCGGGA   4322
+
+Homo_sapiens    4308 TGGCGTCTGTGATGAGGCCTGCAACAGCCATGCCTGCCAGTGGGATGGGG   4357
+                     .||||||||.||||||||.|||||||||||||||||||||||||||||||
+Panthera_leo    4323 CGGCGTCTGCGATGAGGCATGCAACAGCCATGCCTGCCAGTGGGATGGGG   4372
+
+Homo_sapiens    4358 GTGACTGTTCTCTCACCATGGAGAACCCCTGGGCCAACTGCTCCTCCCCA   4407
+                     ||||||||||.||.||||||.||||||||||||||||||||||.||||||
+Panthera_leo    4373 GTGACTGTTCCCTGACCATGAAGAACCCCTGGGCCAACTGCTCTTCCCCA   4422
+
+Homo_sapiens    4408 CTTCCCTGCTGGGATTATATCAACAACCAGTGTGATGAGCTGTGCAACAC   4457
+                     |||||||||||||||||.||||||||||||||||||||||||||.|||||
+Panthera_leo    4423 CTTCCCTGCTGGGATTACATCAACAACCAGTGTGATGAGCTGTGTAACAC   4472
+
+Homo_sapiens    4458 GGTCGAGTGCCTGTTTGACAACTTTGAATGCCAGGGGAACAGCAAGACAT   4507
+                     .|.|||||||||.||||||||||||||||||||.||||||||||||||.|
+Panthera_leo    4473 AGCCGAGTGCCTTTTTGACAACTTTGAATGCCAAGGGAACAGCAAGACGT   4522
+
+Homo_sapiens    4508 GCAAGTATGACAAATACTGTGCAGACCACTTCAAAGACAACCACTGTGAC   4557
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Panthera_leo    4523 GCAAGTATGACAAATACTGTGCAGACCACTTCAAAGACAACCACTGTGAC   4572
+
+Homo_sapiens    4558 CAGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGGCTGGACTGTGCTGC   4607
+                     |||||.||||||||||||||||||||.|||||||||.|||||||||||||
+Panthera_leo    4573 CAGGGATGCAACAGTGAGGAGTGTGGCTGGGATGGGTTGGACTGTGCTGC   4622
+
+Homo_sapiens    4608 TGACCAACCTGAGAACCTGGCAGAAGGTACCCTGGTTATTGTGGTATTGA   4657
+                     |||||..||.|||||||||||.||.||.|||||||||||.|||||..|.|
+Panthera_leo    4623 TGACCGGCCGGAGAACCTGGCGGAGGGGACCCTGGTTATAGTGGTGCTCA   4672
+
+Homo_sapiens    4658 TGCCACCTGAACAACTGCTCCAGGATGCTCGCAGCTTCTTGCGGGCACTG   4707
+                     ||||.||.||.||.||.|||||||||||.||||||||.||||||||||||
+Panthera_leo    4673 TGCCCCCGGAGCAGCTTCTCCAGGATGCCCGCAGCTTTTTGCGGGCACTG   4722
+
+Homo_sapiens    4708 GGTACCCTGCTCCACACCAACCTGCGCATTAAGCGGGACTCCCAGGGGGA   4757
+                     ||.||||||||||..||||||||||..|||||.||||||||||||||||.
+Panthera_leo    4723 GGCACCCTGCTCCGTACCAACCTGCAGATTAAACGGGACTCCCAGGGGGC   4772
+
+Homo_sapiens    4758 ACTCATGGTGTACCCCTATTATGGTGAGAAGTCAGCTGCTATGAAGAAAC   4807
+                     |.|||||||.|||||||||||||||||||||||.|||||.||||||||.|
+Panthera_leo    4773 ATTCATGGTCTACCCCTATTATGGTGAGAAGTCGGCTGCCATGAAGAAGC   4822
+
+Homo_sapiens    4808 AGAGGATGACACGCAGATCCCTTCCTGGTGAACAAGAACAGGAGGTGGCT   4857
+                     |||||||||.||||||.||||||||||||||.||||||||||||||||.|
+Panthera_leo    4823 AGAGGATGATACGCAGGTCCCTTCCTGGTGACCAAGAACAGGAGGTGGTT   4872
+
+Homo_sapiens    4858 GGCTCTAAAGTCTTTCTGGAAATTGACAACCGCCAGTGTGTTCAAGACTC   4907
+                     ||||||||.||.|||||||||||||||||||||||.|||||||||||.||
+Panthera_leo    4873 GGCTCTAAGGTGTTTCTGGAAATTGACAACCGCCAATGTGTTCAAGATTC   4922
+
+Homo_sapiens    4908 AGACCACTGCTTCAAGAACACGGATGCAGCAGCAGCTCTCCTGGCCTCTC   4957
+                     ||||||.||.|||||||||||||||||||||||||||||.||||||||||
+Panthera_leo    4923 AGACCAGTGTTTCAAGAACACGGATGCAGCAGCAGCTCTTCTGGCCTCTC   4972
+
+Homo_sapiens    4958 ACGCCATACAGGGGACCCTGTCATACCCTCTTGTGTCTGTCGTCAGTGAA   5007
+                     |||||||.|||||||||.|.||.||||||||||||||.||||||||||||
+Panthera_leo    4973 ACGCCATCCAGGGGACCTTATCCTACCCTCTTGTGTCCGTCGTCAGTGAA   5022
+
+Homo_sapiens    5008 TCCCTGACTCCAGAACGCACTCAGCTCCTCTATCTCCTTGCTGTTGCTGT   5057
+                     ||.|||.|||||.||.|.||.|||||.||||||||.|||||||||||.||
+Panthera_leo    5023 TCTCTGGCTCCAAAAGGTACCCAGCTTCTCTATCTACTTGCTGTTGCCGT   5072
+
+Homo_sapiens    5058 TGTCATCATTCTGTTTATTATTCTGCTGGGGGTAATCATGGCAAAACGAA   5107
+                     ||||||.||.|||||||||||..|||||||.||.||||||||.|||||||
+Panthera_leo    5073 TGTCATTATCCTGTTTATTATCTTGCTGGGAGTTATCATGGCGAAACGAA   5122
+
+Homo_sapiens    5108 AGCGTAAGCATGGCTCTCTCTGGCTGCCTGAAGGTTTCACTCTTCGCCGA   5157
+                     ||||||||||||||||.|||||||||||||||||||||||.|||||||||
+Panthera_leo    5123 AGCGTAAGCATGGCTCCCTCTGGCTGCCTGAAGGTTTCACCCTTCGCCGA   5172
+
+Homo_sapiens    5158 GATGCAAGCAATCACAAGCGTCGTGAGCCAGTGGGACAGGATGCTGTGGG   5207
+                     ||..|.||||||||||||||.|||||||||||||||||||||||.|||||
+Panthera_leo    5173 GACTCCAGCAATCACAAGCGCCGTGAGCCAGTGGGACAGGATGCCGTGGG   5222
+
+Homo_sapiens    5208 GCTGAAAAATCTCTCAGTGCAAGTCTCAGAAGCTAACCTAATTGGTACTG   5257
+                     ||||||||||||||||||||||||||||||.|||||||||||||||.|||
+Panthera_leo    5223 GCTGAAAAATCTCTCAGTGCAAGTCTCAGAGGCTAACCTAATTGGTTCTG   5272
+
+Homo_sapiens    5258 GAACAAGTGAACACTGGGTCGATGATGAAGGGCCCCAGCCAAAGAAAGTA   5307
+                     |||||||||||||.|||||.||||||||||||||||||||||||||||..
+Panthera_leo    5273 GAACAAGTGAACATTGGGTTGATGATGAAGGGCCCCAGCCAAAGAAAGCC   5322
+
+Homo_sapiens    5308 AAGGCTGAAGATGAGGCCTTACTCTCAGAAGAAGATGACCCCATTGATCG   5357
+                     |||||||||||||||||.||.|||||||||||||||||..||||||||||
+Panthera_leo    5323 AAGGCTGAAGATGAGGCTTTGCTCTCAGAAGAAGATGATGCCATTGATCG   5372
+
+Homo_sapiens    5358 ACGGCCATGGACACAGCAGCACCTTGAAGCTGCAGACATCCGTAGGACAC   5407
+                     |||.|||||||||||||||||||||||.||||||||.|||||.|||||.|
+Panthera_leo    5373 ACGTCCATGGACACAGCAGCACCTTGAGGCTGCAGATATCCGCAGGACGC   5422
+
+Homo_sapiens    5408 CATCGCTGGCTCTCACCCCTCCTCAGGCAGAGCAGGAGGTGGATGTGTTA   5457
+                     ||||||||||.|||||.|||||.|||||.||||||||||||||||||||.
+Panthera_leo    5423 CATCGCTGGCACTCACTCCTCCACAGGCGGAGCAGGAGGTGGATGTGTTG   5472
+
+Homo_sapiens    5458 GATGTGAATGTCCGTGGCCCAGATGGCTGCACCCCATTGATGTTGGCTTC   5507
+                     ||.|||||||||||||||||||||||.|||||||||.|||||.|||||||
+Panthera_leo    5473 GACGTGAATGTCCGTGGCCCAGATGGGTGCACCCCACTGATGCTGGCTTC   5522
+
+Homo_sapiens    5508 TCTCCGAGGAGGCAGCTCAGATTTGAGTGATGAAGATGAAGATGCAGAGG   5557
+                     .|||||||||||||||||||||.|||||||||||||||||||||.|||||
+Panthera_leo    5523 CCTCCGAGGAGGCAGCTCAGATATGAGTGATGAAGATGAAGATGGAGAGG   5572
+
+Homo_sapiens    5558 ACTCTTCTGCTAACATCATCACAGACTTGGTCTACCAGGGTGCCAGCCTC   5607
+                     ||||||||||.||||||||||||||||||||||||||||||||||||||.
+Panthera_leo    5573 ACTCTTCTGCCAACATCATCACAGACTTGGTCTACCAGGGTGCCAGCCTG   5622
+
+Homo_sapiens    5608 CAGGCCCAGACAGACCGGACTGGTGAGATGGCCCTGCACCTTGCAGCCCG   5657
+                     ||||||||||||||||||||||||||||||||.||||||||||||||.||
+Panthera_leo    5623 CAGGCCCAGACAGACCGGACTGGTGAGATGGCTCTGCACCTTGCAGCGCG   5672
+
+Homo_sapiens    5658 CTACTCACGGGCTGATGCTGCCAAGCGTCTCCTGGATGCAGGTGCAGATG   5707
+                     |||||||.||||||||||||||||||||||||||||||||||||||||.|
+Panthera_leo    5673 CTACTCAAGGGCTGATGCTGCCAAGCGTCTCCTGGATGCAGGTGCAGACG   5722
+
+Homo_sapiens    5708 CCAATGCCCAGGACAACATGGGCCGCTGTCCACTCCATGCTGCAGTGGCA   5757
+                     ||||.|||||||||||||||||||||||.||.||||||||||||||||||
+Panthera_leo    5723 CCAACGCCCAGGACAACATGGGCCGCTGCCCTCTCCATGCTGCAGTGGCA   5772
+
+Homo_sapiens    5758 GCTGATGCCCAAGGTGTCTTCCAGATTCTGATTCGCAACCGAGTAACTGA   5807
+                     |||||||||||.||.|||||||||||||||||.|||||||||||||||||
+Panthera_leo    5773 GCTGATGCCCAGGGGGTCTTCCAGATTCTGATCCGCAACCGAGTAACTGA   5822
+
+Homo_sapiens    5808 TCTAGATGCCAGGATGAATGATGGTACTACACCCCTGATCCTGGCTGCCC   5857
+                     |||.||.|||||||||||.|||||.||||||||.||||||||||||||||
+Panthera_leo    5823 TCTGGACGCCAGGATGAACGATGGCACTACACCACTGATCCTGGCTGCCC   5872
+
+Homo_sapiens    5858 GCCTGGCTGTGGAGGGAATGGTGGCAGAACTGATCAACTGCCAAGCGGAT   5907
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+Panthera_leo    5873 GCCTGGCTGTGGAGGGAATGGTGGCAGAACTGATCAACTGCCAAGCAGAT   5922
+
+Homo_sapiens    5908 GTGAATGCAGTGGATGACCATGGAAAATCTGCTCTTCACTGGGCAGCTGC   5957
+                     |||||||||||.||.||||||||||||||.||.|||||||||||||||||
+Panthera_leo    5923 GTGAATGCAGTAGACGACCATGGAAAATCCGCCCTTCACTGGGCAGCTGC   5972
+
+Homo_sapiens    5958 TGTCAATAATGTGGAGGCAACTCTTTTGTTGTTGAAAAATGGGGCCAACC   6007
+                     |||||||||.|||||||||||.||||||.||||||||||.||||||||||
+Panthera_leo    5973 TGTCAATAACGTGGAGGCAACCCTTTTGCTGTTGAAAAACGGGGCCAACC   6022
+
+Homo_sapiens    6008 GAGACATGCAGGACAACAAGGAAGAGACACCTCTGTTTCTTGCTGCCCGG   6057
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||||
+Panthera_leo    6023 GAGACATGCAAGACAACAAGGAAGAGACACCTCTGTTTCTTGCTGCCCGG   6072
+
+Homo_sapiens    6058 GAGGGGAGCTATGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCG   6107
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+Panthera_leo    6073 GAGGGAAGCTATGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCAATCG   6122
+
+Homo_sapiens    6108 AGACATCACAGACCATATGGATCGTCTTCCCCGGGATGTGGCTCGGGATC   6157
+                     .||.|||||||||||.||||||||||||||||||||||||||||||||.|
+Panthera_leo    6123 GGATATCACAGACCACATGGATCGTCTTCCCCGGGATGTGGCTCGGGACC   6172
+
+Homo_sapiens    6158 GCATGCACCATGACATTGTGCGCCTTCTGGATGAATACAATGTGACCCCA   6207
+                     ||||||||||||||||.||||||||.||.||.||.|||||||||||.||.
+Panthera_leo    6173 GCATGCACCATGACATCGTGCGCCTCCTAGACGAGTACAATGTGACACCG   6222
+
+Homo_sapiens    6208 AGCCCTCCAGGCACCGTGTTGACTTCTGCTCTCTCACCTGTCATCTGTGG   6257
+                     ||||||||||||||.|||.|||||||.||.||||||||||||||||||||
+Panthera_leo    6223 AGCCCTCCAGGCACTGTGCTGACTTCGGCCCTCTCACCTGTCATCTGTGG   6272
+
+Homo_sapiens    6258 GCCCAACAGATCTTTCCTCAGCCTGAAGCACACCCCAATGGGCAAGAAGT   6307
+                     ||||||||||||||||||||||||.||||||||||||||||||||||||.
+Panthera_leo    6273 GCCCAACAGATCTTTCCTCAGCCTAAAGCACACCCCAATGGGCAAGAAGC   6322
+
+Homo_sapiens    6308 CTAGACGGCCCAGTGCCAAGAGTACCATGCCTACTAGCCTCCCTAACCTT   6357
+                     ||||||||||||.|.||||||||.|||||||.||||||||||||||||||
+Panthera_leo    6323 CTAGACGGCCCAATACCAAGAGTGCCATGCCCACTAGCCTCCCTAACCTT   6372
+
+Homo_sapiens    6358 GCCAAGGAGGCAAAGGATGCCAAGGGTAGTAGGAGGAAGAAGTCTCTGAG   6407
+                     |||||||||||.||||||||||||||||.|||||||||||||||||||||
+Panthera_leo    6373 GCCAAGGAGGCCAAGGATGCCAAGGGTAATAGGAGGAAGAAGTCTCTGAG   6422
+
+Homo_sapiens    6408 TGAGAAGGTCCAACTGTCTGAGAGTTCAGTAACTTTATCCCCTGTTGATT   6457
+                     |||.||||..||.|||||||||||||||||.|||||||||||.|||||||
+Panthera_leo    6423 TGACAAGGGTCAGCTGTCTGAGAGTTCAGTGACTTTATCCCCAGTTGATT   6472
+
+Homo_sapiens    6458 CCCTAGAATCTCCTCACACGTATGTTTCCGACACCACATCCTCTCCAATG   6507
+                     ||.||||.|||||||||||.||||||||.|||||||||||||||||||||
+Panthera_leo    6473 CCTTAGAGTCTCCTCACACATATGTTTCTGACACCACATCCTCTCCAATG   6522
+
+Homo_sapiens    6508 ATTACATCCCCTGGGATCTTACAGGCCTCACCCAACCCTATGTTGGCCAC   6557
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+Panthera_leo    6523 ATTACATCCCCTGGAATCTTACAGGCCTCACCCAACCCTATGTTGGCCAC   6572
+
+Homo_sapiens    6558 TGCCGCCCCTCCTGCCCCAGTCCATGCCCAGCATGCACTATCTTTTTCTA   6607
+                     |||.||.||.|||||||||||||||||.|||||||||||.|||||.||||
+Panthera_leo    6573 TGCTGCACCCCCTGCCCCAGTCCATGCACAGCATGCACTGTCTTTCTCTA   6622
+
+Homo_sapiens    6608 ACCTTCATGAAATGCAGCCTTTGGCACATGGGGCCAGCACTGTGCTTCCC   6657
+                     ||||.||||||||||||||||||||.||.|||||||.|.|||||||||||
+Panthera_leo    6623 ACCTGCATGAAATGCAGCCTTTGGCTCACGGGGCCAACCCTGTGCTTCCC   6672
+
+Homo_sapiens    6658 TCAGTGAGCCAGTTGCTATCCCACCACCACATTGTGTCTCCAGGCAGTGG   6707
+                     ||||||||||||.||||||||||||||||||||||..|.|||||||||.|
+Panthera_leo    6673 TCAGTGAGCCAGCTGCTATCCCACCACCACATTGTTCCCCCAGGCAGTAG   6722
+
+Homo_sapiens    6708 CAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCCAGTCCCAGCAGATT   6757
+                     ||||.|.||.||||||.|||||||||||||||||.|.||.||||||||||
+Panthera_leo    6723 CAGTACGGGGAGCTTGGGTAGGCTCCATCCAGTCACTGTTCCAGCAGATT   6772
+
+Homo_sapiens    6758 GGATGAACCGCATGGAGGTGAATGAGACCCAGTACAATGAGATGTTTGGT   6807
+                     |||||||||||||||||.|||||||||||||||||||||||||||||.||
+Panthera_leo    6773 GGATGAACCGCATGGAGATGAATGAGACCCAGTACAATGAGATGTTTAGT   6822
+
+Homo_sapiens    6808 ATGGTCCTGGCTCCAGCTGAGGGCACCCATCCTGGCATAGCTCCCCAGAG   6857
+                     |||||.||||||||||||||||||||.||.||||||||||||||||||||
+Panthera_leo    6823 ATGGTTCTGGCTCCAGCTGAGGGCACGCACCCTGGCATAGCTCCCCAGAG   6872
+
+Homo_sapiens    6858 CAGGCCACCTGAAGGGAAGCACATAACCACCCCTCGGGAGCCCTTGCCCC   6907
+                     |||.|||||||||||||||||.|||||.||||||||||||||||||||||
+Panthera_leo    6873 CAGACCACCTGAAGGGAAGCATATAACTACCCCTCGGGAGCCCTTGCCCC   6922
+
+Homo_sapiens    6908 CCATTGTGACTTTCCAGCTCATCCCTAAAGGCAGTATTGCCCAACCAGCG   6957
+                     |||||||||||||||||||.|||||.||||||||||||.||||||||||.
+Panthera_leo    6923 CCATTGTGACTTTCCAGCTAATCCCCAAAGGCAGTATTTCCCAACCAGCA   6972
+
+Homo_sapiens    6958 GGGGCTCCCCAGCCTCAGTCCACCTGCCCTCCAGCTGTTGCGGGCCCCCT   7007
+                     |||.||||||||||||||||||.||||||.|||.|||||.|.|||||..|
+Panthera_leo    6973 GGGACTCCCCAGCCTCAGTCCAACTGCCCCCCACCTGTTACAGGCCCTGT   7022
+
+Homo_sapiens    7008 GCCCACCATGTACCAGATTCCAGAAATGGCCCGTTTGCCCAGTGTGGCTT   7057
+                     ||||||||||||||||||||||||||||||.||||||||.|.|.||||||
+Panthera_leo    7023 GCCCACCATGTACCAGATTCCAGAAATGGCTCGTTTGCCTAATATGGCTT   7072
+
+Homo_sapiens    7058 TCCCCACTGCCATGATGCCCCAGCAGGACGGGCAGGTAGCTCAGACCATT   7107
+                     |.||||||||||||||||||||||||||.||||||||.||||||||||||
+Panthera_leo    7073 TTCCCACTGCCATGATGCCCCAGCAGGATGGGCAGGTTGCTCAGACCATT   7122
+
+Homo_sapiens    7108 CTCCCAGCCTATCATCCTTTCCCAGCCTCTGTGGGCAAGTACCCCACACC   7157
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+Panthera_leo    7123 CTCCCAGCCTATCATCCTTTCCCAGCCTCTGTGGGCAAGTATCCCACACC   7172
+
+Homo_sapiens    7158 CCCTTCACAGCACAGTTATGCTTCCTCAAATGCTGCTGAGCGAACACCCA   7207
+                     .|||||||||||.|||||||||||||||||||||||||||||||||||||
+Panthera_leo    7173 ACCTTCACAGCATAGTTATGCTTCCTCAAATGCTGCTGAGCGAACACCCA   7222
+
+Homo_sapiens    7208 GTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCA   7257
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Panthera_leo    7223 GTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTGACACCATCCCCA   7272
+
+Homo_sapiens    7258 GAGTCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTG   7307
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Panthera_leo    7273 GAGTCTCCTGACCAGTGGTCAAGTTCATCACCCCACTCTGCTTCTGACTG   7322
+
+Homo_sapiens    7308 GTCAGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGAGGTCAGC   7357
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+Panthera_leo    7323 GTCAGATGTGACCACCAGCCCTACCCCTGGGGGTGCTGGAGGAGGTCAAC   7372
+
+Homo_sapiens    7358 GGGGACCTGGGACACACATGTCTGAGCCACCACACAACAACATGCAGGTT   7407
+                     ||||||||||.||||||||||||||||||||.|.||.||||||||||||.
+Panthera_leo    7373 GGGGACCTGGAACACACATGTCTGAGCCACCGCGCAGCAACATGCAGGTG   7422
+
+Homo_sapiens    7408 TATGCG   7413
+                     |||||.
+Panthera_leo    7423 TATGCA   7428
+
+
+#---------------------------------------
+#---------------------------------------

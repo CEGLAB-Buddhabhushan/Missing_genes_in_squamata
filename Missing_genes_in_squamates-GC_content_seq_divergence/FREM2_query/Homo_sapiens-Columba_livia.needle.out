@@ -1,0 +1,818 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:34:24
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Columba_livia.fa
+#    -outfile Homo_sapiens-Columba_livia.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Columba_livia.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Columba_livia
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9784
+# Identity:    7148/9784 (73.1%)
+# Similarity:  7148/9784 (73.1%)
+# Gaps:         575/9784 ( 5.9%)
+# Score: 25471.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTCGCGCCGGACAGGCAACTC     50
+                                                              |.|||    
+Columba_livia      1 -----------------------------------------ATGCA----      5
+
+Homo_sapiens      51 CACCAGCTTTCAACCAGGACCGCCACCGCCGCCCCGGCTGCTG------C     94
+                         .||||||       .||||| .||||||..|||||||||      .
+Columba_livia      6 ----GGCTTTC-------CCCGCC-GCGCCGCGGCGGCTGCTGGCCGGTT     43
+
+Homo_sapiens      95 TGCTGCTGCT-----GCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCAC    139
+                     ||||||||||     |||||..||||....||      |||||.|.|   
+Columba_livia     44 TGCTGCTGCTCGCCGGCTTCGTCTGTGTGGGG------GCGTCGCAG---     84
+
+Homo_sapiens     140 AGCCCGCTGCCTTCGGCAGGGCGTTGCTGTCCCCTGGTC-TCGCGGGGGC    188
+                        ||||.|||  .||||  |||..||.|||.||   || |||.||..||
+Columba_livia     85 ---CCGCCGCC--AGGCA--GCGCCGCCGTCTCC---TCATCGTGGACGC    124
+
+Homo_sapiens     189 TGCAGG-GGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTC    237
+                     .|.||| ||  |||          ||.|.|||.||||.|||||||||||.
+Columba_livia    125 CGGAGGCGG--CCT----------CCGTCGTGGTGGCCAACCGCGGACTG    162
+
+Homo_sapiens     238 CGGGTGCCTTTCGGCCG-TGAAGTCTGGCTGGATCCCCTGCA--TGACCT    284
+                     ||||||||..|.||||| |..| .|||||||||  |||.|||  .|||||
+Columba_livia    163 CGGGTGCCCCTGGGCCGCTCCA-CCTGGCTGGA--CCCCGCACGGGACCT    209
+
+Homo_sapiens     285 GGTGTTGCAGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACA    334
+                     ||||.|.|||||||||||.||.|||||.|||....|..|.||.||.|||.
+Columba_livia    210 GGTGCTACAGGTGCAGCCGGGTGACCGGTGCCACCTCACCGTGCTGGACG    259
+
+Homo_sapiens     335 ACGACGCACTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCG    384
+                     |.|||.|.|||...|||||.||||||||||||||.||||.|||||||||.
+Columba_livia    260 AGGACCCGCTGTGGCAGCGCCCGGGCCGCCTGAGCCCCAGGCGCTTCCCC    309
+
+Homo_sapiens     385 TGCGACTT--TGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGC    432
+                     ||||||||  .|||||  .|||||||||.||||..||||||||||..|||
+Columba_livia    310 TGCGACTTCGGGGCCC--ACGAGGTGCGGTACTGGCACCTGGGCGGCCGC    357
+
+Homo_sapiens     433 AGCCCGTCTCGGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGG    482
+                     |||||..|.||||||||||||||.||||||||||||||.||  |.|||.|
+Columba_livia    358 AGCCCCGCGCGGGACCGCGTCCGCCTGCAGCTGCGCTACGA--CTCCCCG    405
+
+Homo_sapiens     483 AG--GGGCAGTAGTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCAC    530
+                     ||  |.||..|.|||||.||.|||||.|||||||||||||||.|.|||||
+Columba_livia    406 AGCCGCGCCCTGGTGCTGCCCCTGGTGCTGGAGGTGGAGGTGCTGTTCAC    455
+
+Homo_sapiens     531 CCAGCTGGAGGTTGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGC    580
+                     ||||||||||.|.||.||.||.|||.||||.||...|||||||...||||
+Columba_livia    456 CCAGCTGGAGATCGTCACCCGCAACCTGCCGCTTACCGTGGAACGCCTGC    505
+
+Homo_sapiens     581 TGGGGACCAGCAATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAG    630
+                     .|||.||||||||..|.||||||||.||.||||||||||||||||||.||
+Columba_livia    506 GGGGCACCAGCAACCCTCTGGACGCCCGCAGCCTGGAGTTCGCCTTCGAG    555
+
+Homo_sapiens     631 CCCG--AGACAGAGGAGTGCCGCGTGGGCATCCTGTCCG--GCTTGGGCG    676
+                     ||.|  .|.|||.|  .|||||.||||||.|.||| |||  || |||.||
+Columba_livia    556 CCGGGCCGGCAGCG--CTGCCGGGTGGGCCTGCTG-CCGCCGC-TGGCCG    601
+
+Homo_sapiens     677 CGCTGCCTCGCTATGGAGAACTCCTCCACTACCCGCAGG--------TC-    717
+                     .||||||.|||||.|||||..|||||.|||.|||.|.||        || 
+Columba_livia    602 GGCTGCCCCGCTACGGAGAGATCCTCAACTTCCCCCCGGCGGCGGCATCG    651
+
+Homo_sapiens     718 ----CC-----TGGAGGAGCCAGAGAGGGAGGCGCCCCGGAGACTCTCC-    757
+                         ||     ||| ||||.|  .|.|||.||||.||||| .||.|.|| 
+Columba_livia    652 GCGGCCGCGGGTGG-GGAGGC--GGCGGGGGGCGGCCCGG-TACCCGCCG    697
+
+Homo_sapiens     758 TGAT---GGACTGCAAAGCTTTCCAGGAACTAGGCGTGCGCTATCGCCAC    804
+                     ||||   |||||||.|||..||||.|...||.||..|||||||.||.|||
+Columba_livia    698 TGATGTGGGACTGCGAAGAGTTCCTGCGCCTGGGGCTGCGCTACCGGCAC    747
+
+Homo_sapiens     805 ACAGCCGCCAGTCGCTCACCAAACAGGGA-CTGGATACCCATGGTGGTGG    853
+                     ||.||.|.|.|..||||.||.|||.|.|| |||| |.||..||||||..|
+Columba_livia    748 ACGGCAGGCGGCGGCTCCCCCAACCGTGACCTGG-TGCCGCTGGTGGCAG    796
+
+Homo_sapiens     854 AGCTGCGTTCACGAGG-GGCTCCT-----GTGGGCAGCCCTGCTTTGAAA    897
+                     |||||.|    .|||| |||         |||||  ||.||||  ||||.
+Columba_livia    797 AGCTGTG----GGAGGCGGC----GGGAGGTGGG--GCACTGC--TGAAG    834
+
+Homo_sapiens     898 CGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAGAACAC    947
+                     ||||||.||||||||||.||.|||.|.|||||.|..|||.|.|||||...
+Columba_livia    835 CGCGAGTACTTCCAGGTGCTTGTGCGAATCCGGGCCGGGACTGAGAATGT    884
+
+Homo_sapiens     948 TGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGACCAGT    997
+                     .||.|||||.||.||.|||.||||||||.|.|||||||||||||||||||
+Columba_livia    885 GGCCCCCAAACCTAGCTTCCTGGCCATGCTCATGATGGAGGTGGACCAGT    934
+
+Homo_sapiens     998 TTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATGCTGAG   1047
+                     ||||.||.||.|||||.||.||.||.|||||||||||.|||||||||||.
+Columba_livia    935 TTGTCCTCACCGCCCTCACACCTGATATGCTGGCAGCTGAGGATGCTGAA    984
+
+Homo_sapiens    1048 TCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAGCCTGG   1097
+                     ||.||..|.||||||.||.||||||||.|.||.|||||.||....|||||
+Columba_livia    985 TCACCACCAGACCTGCTGCTCTTCAACATCACCTCTCCCTTTGGCCCTGG   1034
+
+Homo_sapiens    1098 CCAGGGCTACTTGGTGAGCACCGATGATCGCAG----CCTGCCCCTTTCC   1143
+                     |||||||.||.||||.|||||.||.||.||.||    ||||    |.|||
+Columba_livia   1035 CCAGGGCCACATGGTCAGCACAGACGACCGGAGTTTACCTG----TCTCC   1080
+
+Homo_sapiens    1144 TCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCCC   1193
+                     |||||||..|||.|||||.||..|...|||...||||||||||||||.||
+Columba_livia   1081 TCCTTCAGCCAGCGGGATGTGAAGGAGCTGCGCATTGCCTACCAGCCACC   1130
+
+Homo_sapiens    1194 TTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTAG   1243
+                     ..|.||.||||||||.|.|||.||.||||||||.||.||..|||||||..
+Columba_livia   1131 CACGGAGGACTCTGATCGGGAACGACTCTTTGAGCTCGAGCTGGAGGTGT   1180
+
+Homo_sapiens    1244 TGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGTG   1293
+                     ||||.|.||||||.||.||.|||||.||.||||||||..||.|.||||||
+Columba_livia   1181 TGGACCCAGAAGGTGCTGCCTCAGAGCCCTTTGCCTTTGTGATTGTGGTG   1230
+
+Homo_sapiens    1294 AAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTAT   1343
+                     ||.||||||||.||..||||.||.|||||.|||||.||.||.||.||..|
+Columba_livia   1231 AAACCCATGAATACTCTGGCACCTGTGGTGACCCGCAACACTGGCCTCGT   1280
+
+Homo_sapiens    1344 TCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGTC   1393
+                     .|||||||||||.|||||.|||||.|||.|||||||         |||||
+Columba_livia   1281 GCTCTATGAGGGGCAGTCGCGGCCTCTCTCAGGCCC---------TGGTC   1321
+
+Homo_sapiens    1394 CGCA----AAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCA-GTGC   1438
+                     | ||    .|||.||||.|||||.||||||||||||.|.| |||| ||||
+Columba_livia   1322 C-CAGCCCCAACCTGGTGATCAGTGATGAGGATGACATTG-AGCAGGTGC   1369
+
+Homo_sapiens    1439 GGCTAGAG-GTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGG   1487
+                     ||.| ||| ||||||||.|||||..|||||||..|||   |||.||    
+Columba_livia   1370 GGGT-GAGTGTGGTGGCAGGGCTGAGGCATGGCTACC---TCACTC----   1411
+
+Homo_sapiens    1488 TGCT---------TCCAGTGGCAGCT-CTGCTCCC-----AAGAGCTTTA   1522
+                     ||||         .|||||   |.|| |||| |||     ||.| |||.|
+Columba_livia   1412 TGCTGGAGGACACGCCAGT---ACCTGCTGC-CCCTCGTAAACA-CTTCA   1456
+
+Homo_sapiens    1523 CAGTGGCTGAGCTGGCAGCCGGCCAGGTGGTCTACCAGCATGATGACAGA   1572
+                     |||||||||||||.|||||.||||.|||..|.|||||||||||||.|||.
+Columba_livia   1457 CAGTGGCTGAGCTAGCAGCAGGCCGGGTCATTTACCAGCATGATGGCAGC   1506
+
+Homo_sapiens    1573 GACGGCT-CGCTGAGCGACAACCTGGTGCTTCGCATGGTGGATGGAGGAG   1621
+                     || |.|| |.||.||.||||||.|||||||.||..|||..|||||.||..
+Columba_livia   1507 GA-GTCTCCACTCAGTGACAACTTGGTGCTGCGGCTGGAAGATGGTGGCT   1555
+
+Homo_sapiens    1622 GCAGGCACCAGGTACAGTTTCTGTTCCCCATCACCTTAGTGCCTGTGGAT   1671
+                     ...|.|||||.||..|.||.||.||||||||.||..|.|||||....|||
+Columba_livia   1556 CTCGCCACCATGTTGAATTCCTTTTCCCCATTACTCTGGTGCCCACTGAT   1605
+
+Homo_sapiens    1672 GACCAGCCACCTGTTCTCAATGCCAACACGGGGCTGACACTGGCAGAGGG   1721
+                     ||||||||.||..|.||||||||.|||||.||||||.|..||||.|||||
+Columba_livia   1606 GACCAGCCGCCCCTACTCAATGCTAACACAGGGCTGGCCATGGCTGAGGG   1655
+
+Homo_sapiens    1722 TGAAACAGTGCCCAT--CCTGCCCCTTTCCCTGAGTGCAACTGACATGGA   1769
+                     |||||||||||||||  ||  .|||.|.|.||.|||||.||||||||.||
+Columba_livia   1656 TGAAACAGTGCCCATTACC--ACCCGTGCTCTTAGTGCCACTGACATTGA   1703
+
+Homo_sapiens    1770 TTCAGATGATTCTCTGCTGCTTTTTGTGC----TGGAGTC---ACCCTTC   1812
+                     .|||.|.|||.|..|.|||||.||    |    |||||||   .|||   
+Columba_livia   1704 CTCACAGGATGCCATCCTGCTCTT----CACAGTGGAGTCTGGCCCC---   1746
+
+Homo_sapiens    1813 TTAACTACGGGGCATCTGCTTCTCCGCCAAACTCACCCTCCCC-------   1855
+                        |||.|.|||||.||.||.|||||.|||.|.||.||.||.|       
+Columba_livia   1747 ---ACTGCTGGGCAGCTCCTCCTCCGTCAAGCACAGCCACCTCCTGGCTG   1793
+
+Homo_sapiens    1856 --ATGAGAAGCAGGAACTTCTCAGAGGCCT----TTGGAGGAAGGAGGGG   1899
+                       |.|||.||.|.|||..|    ||||.||    ||||    |||||||.
+Columba_livia   1794 GGAAGAGGAGGAAGAAGAT----GAGGGCTTTTCTTGG----AGGAGGGT   1835
+
+Homo_sapiens    1900 GC--ATTTTATGAG----------------CGAA----CAGTGACAGAGT   1927
+                     ||  |.||||..||                ||||    ||||||.|||||
+Columba_livia   1836 GCCGAGTTTAGCAGGGAGCTCCCTAATCTACGAAAAGCCAGTGAGAGAGT   1885
+
+Homo_sapiens    1928 GGCAGCAGCAGGACAT-----AACAGAGGGCAGGCTGT-TCTAT----AG   1967
+                     |||..|||||||||||     |    |||||     || |||||    | 
+Columba_livia   1886 GGCTACAGCAGGACATTGTGGA----AGGGC-----GTCTCTATTACCA-   1925
+
+Homo_sapiens    1968 ACACTCTGGGCCCCATAGTCCTGGGCC------AGTCACAGACCAGTTCA   2011
+                     .||||..|||||.||.||.|||||.||      .||....||||||||..
+Columba_livia   1926 CCACTTCGGGCCTCACAGCCCTGGCCCTGGGGTTGTGTTGGACCAGTTTG   1975
+
+Homo_sapiens    2012 CATTTAGAGTCCAGGATAACCATGACCCTCCTAATCAGTCCGGGCTACAG   2061
+                     ..||.||||||||||||.||.|||||||.||.||.|..||.||.|.||||
+Columba_livia   1976 TCTTCAGAGTCCAGGATGACAATGACCCACCCAACCGCTCTGGACCACAG   2025
+
+Homo_sapiens    2062 CGGTTTGTGATTCGTATCCATCCTGTGGA-----TCGCCTCCCTCCGGAG   2106
+                     ...|||||||||||..|.||||||||.||     |.|||     ||.|||
+Columba_livia   2026 ACTTTTGTGATTCGGGTACATCCTGTTGACAGATTAGCC-----CCAGAG   2070
+
+Homo_sapiens    2107 CTGGGCAGTGGCTG-----TCCCCTTCGTA-TGGTGGTACAGGAATCCCA   2150
+                     |||...|||.||.|     |.|.|||..|| |.|.||.||||      ||
+Columba_livia   2071 CTGCATAGTAGCAGCAGCCTGCACTTAATAGTTGCGGAACAG------CA   2114
+
+Homo_sapiens    2151 GCTCACACCACT---GAGGAAGAAGTGGCTGCGCTACACTGACCTGGACA   2197
+                     |.|.||.|||||   |||||||.|.|   |..|.||||..||.|.|||..
+Columba_livia   2115 GGTGACCCCACTCCGGAGGAAGCACT---TATGTTACATAGATCAGGATT   2161
+
+Homo_sapiens    2198 CAGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAGACACA   2247
+                     |||..|||||.|||||.||.||||||.|.||.|||||||||||.|||||.
+Columba_livia   2162 CAGGGGACCGTGAACTCCGCTACACAATAACCCAGCCCCCCACTGACACT   2211
+
+Homo_sapiens    2248 GACGAAAATCACCTGCCAG-------------CCCCACTGGGTACCTTGG   2284
+                     ||....||.||||..||||             ||.|..|||.|.|||||.
+Columba_livia   2212 GATCCTAACCACCCTCCAGATGTGTATGGAGCCCGCCTTGGATCCCTTGT   2261
+
+Homo_sapiens    2285 TCTTGACTGACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAG   2334
+                     .||| |||||..|.|.|||.||.|..||.|||||.||.||||||||||||
+Columba_livia   2262 GCTT-ACTGAGGATCACTCTGTGGAAGTTACCCACTTCACCCAAGCCCAG   2310
+
+Homo_sapiens    2335 ATCAACCATCATAAAATTGCTTACAGACCCCC---GGGTCAAGAACTGGG   2381
+                     ||.||.|||||.||.||..|.|||.|||||||   ||   ||||.|||||
+Columba_livia   2311 ATAAATCATCACAAGATATCGTACCGACCCCCACAGG---AAGAGCTGGG   2357
+
+Homo_sapiens    2382 CGTGGCTACTC----GAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGA   2427
+                     .||||||.|||    ||.|    |||||.||||..||.|||.||||...|
+Columba_livia   2358 AGTGGCTCCTCATTTGATT----CAGTTTCAGTATCAAGTGCAAGATGCA   2403
+
+Homo_sapiens    2428 GCTGGGAATGTGGCTCCAGGTACCTTTACCCTTTACTTGCATCCCGTGGA   2477
+                     |||||.||||..||...|||.||.||.|||.|.|||.||||.||.|||||
+Columba_livia   2404 GCTGGCAATGCAGCCGAAGGGACTTTCACCATCTACCTGCAACCTGTGGA   2453
+
+Homo_sapiens    2478 CAACCAGCCACCTGAGATC-CTCAACACCGGCTTCACTATTCAGGAGAAG   2526
+                     .||||||||.|||||.||| || ||.||.|||||||||.|.|..|||  |
+Columba_livia   2454 TAACCAGCCTCCTGAAATCACT-AATACTGGCTTCACTTTGCCTGAG--G   2500
+
+Homo_sapiens    2527 G-GTCA-CCACATCCTGAGTGAGACAGAGTTGCACGTGAATGATGTAGAC   2574
+                     | |.|| |.|..||||.|||...||.|||.||.|.|..|.|||...||||
+Columba_livia   2501 GAGGCAGCTATGTCCTTAGTCCAACTGAGCTGGATGCTAGTGACACAGAC   2550
+
+Homo_sapiens    2575 ACTGATGTTGCCCATATCTCTTTCACTCTCACTCAGGCACCCAAACATGG   2624
+                     |||||..||||||.|.||...||.|..||.||.|||||.||.....||||
+Columba_livia   2551 ACTGAGCTTGCCCGTCTCAGATTTATCCTGACCCAGGCTCCTCGGTATGG   2600
+
+Homo_sapiens    2625 CCACATGAGAGTGTCTGG--ACAGATCCTGCATGTAGGGGGTCTCTTCCA   2672
+                     |||..||.||.|.|||||  ||||.|  ||..|..|||.|||.||||...
+Columba_livia   2601 CCAGTTGCGACTTTCTGGGTACAGTT--TGATTCCAGGAGGTGTCTTTGG   2648
+
+Homo_sapiens    2673 CTTGGAGGACATAAAACAGGGCCGAGT--TTCCTATGCCCATAATGGGGA   2720
+                     |.|||||||.||.|.|||.|||.|.||  ||  ||||..||.|.|||.|.
+Columba_livia   2649 CCTGGAGGATATCAGACAAGGCAGGGTGGTT--TATGTGCACAGTGGAGC   2696
+
+Homo_sapiens    2721 CAAGTCCCTGACTGATAGCTGC-TCCTTGGAAGTCAGTGACAGACATCAT   2769
+                     ..||.||...|.|||||.|||| ..||| ||.||.|||||..|...||||
+Columba_livia   2697 TGAGACCAACAGTGATACCTGCAGGCTT-GATGTGAGTGATGGGGTTCAT   2745
+
+Homo_sapiens    2770 GTGGTGCCCATCACTCTCAGAGTAAATGTCCGGCCAGTGGATGATGAAGT   2819
+                     .|.|||||||||||.||.|.|.|.||.||.|..|||||.||||||||.||
+Columba_livia   2746 TTTGTGCCCATCACACTGAAAATGAACGTGCACCCAGTTGATGATGAGGT   2795
+
+Homo_sapiens    2820 GCCCA---TACTG-AGCCATCCTACTGGCACTCTGGAGTCCTATCTAGAT   2865
+                     .||.|   |||.| .|||  ||  |.||||||||.|..|||||.||.|||
+Columba_livia   2796 TCCTACGCTACGGTTGCC--CC--CAGGCACTCTCGGTTCCTACCTGGAT   2841
+
+Homo_sapiens    2866 GTCTTAGAAAATGGGGCTACTGAAATCACTGCCAATGTTATTAAGGGGAC   2915
+                     ||..|.||.|||||.|||.|||||||||||||.|||||.|||.|.||.||
+Columba_livia   2842 GTGCTGGAGAATGGTGCTTCTGAAATCACTGCTAATGTCATTCAAGGCAC   2891
+
+Homo_sapiens    2916 CAATGAGGAAACTGATGACTTGATGTTGACTTTCCTCTTGGAAGATCCAC   2965
+                     ..|||||||.||.||||||||.||||||||||||.|..|.||.|.|||.|
+Columba_livia   2892 GGATGAGGATACAGATGACTTAATGTTGACTTTCATTGTAGAGGGTCCTC   2941
+
+Homo_sapiens    2966 CTTTGTATGGGGAAATCTTGGTCAATGGCATTCCAGCAGAG-CAGTTTAC   3014
+                     ||..|.|||||.|||||||||||.|.||..|.||.|||||| || |||.|
+Columba_livia   2942 CTCAGCATGGGAAAATCTTGGTCCAAGGGGTGCCTGCAGAGACA-TTTTC   2990
+
+Homo_sapiens    3015 TCAAAGGGACATCTTGGAGGGCTCTGTTGTATATACCCACACCAGTGGTG   3064
+                     .||.||.||..|..||||.||..||||.||||||.|.|||||..||||||
+Columba_livia   2991 CCAGAGAGATTTGCTGGATGGTGCTGTGGTATATGCTCACACTGGTGGTG   3040
+
+Homo_sapiens    3065 AGATAGGCCTATTGCCTAAAGCGGATTCTTTTAACCTGAGTCTGTCAGAT   3114
+                     |.||||||||..||||.||||..|||.|.||.||.||.|...||||.||.
+Columba_livia   3041 AAATAGGCCTTCTGCCCAAAGAAGATACCTTCAATCTTACCTTGTCTGAC   3090
+
+Homo_sapiens    3115 ATGTCTCAAGAA-TGGAGAATTGGTGGCAATACTATCCAAGGAGTTACTA   3163
+                     .||||| .|||| |||||..||.|.||||||..|.|.|||||..||.|..
+Columba_livia   3091 CTGTCT-GAGAAGTGGAGTGTTAGAGGCAATGTTGTTCAAGGTATTTCAG   3139
+
+Homo_sapiens    3164 TATGGGTGACCATCCTGCCTGTTGATAGCCAGGCCCCAGAAATCTTTGTA   3213
+                     |.|.|||||||||.||.||||||||.||.||.||||||||.||.|||.|.
+Columba_livia   3140 TCTTGGTGACCATTCTTCCTGTTGACAGTCAAGCCCCAGAGATTTTTATG   3189
+
+Homo_sapiens    3214 GGTGAACAGTTGATAGTAATGGAAGGTGATAAAAGTGTTATAACATCAGT   3263
+                     |..||.|||||.||.||||||||||||||.|||.|.||.||.||..|.|.
+Columba_livia   3190 GAGGAGCAGTTCATGGTAATGGAAGGTGACAAACGGGTCATTACTCCTGC   3239
+
+Homo_sapiens    3264 GCATATAAGTGCTGAAGATGTCG---ACTCCCTGAATGATGACATCTTGT   3310
+                     .|||.|.||.|||.|||||| ||   |||||  .||||||||.||..|.|
+Columba_livia   3240 TCATCTCAGGGCTAAAGATG-CGGATACTCC--TAATGATGATATACTCT   3286
+
+Homo_sapiens    3311 GCACTATAGTTATTCAGCCTACTTCAGGTTATGTTGAAAACATTTCTCCA   3360
+                     ||||.||.|||..||||||.||.||.||.||.||.||.||.||.||||||
+Columba_livia   3287 GCACCATTGTTGCTCAGCCCACATCTGGGTACGTAGAGAATATCTCTCCA   3336
+
+Homo_sapiens    3361 GCACCAGGCTCTGAGAAATCAAGAGCAGGGATTGCCATAAGTGCTTTCAA   3410
+                     ||.|||||.|||||.|||||.||||||||..|.||.|||||||||||.|.
+Columba_livia   3337 GCCCCAGGATCTGAAAAATCCAGAGCAGGTGTCGCTATAAGTGCTTTTAC   3386
+
+Homo_sapiens    3411 CTTGAAAGATCTCAGGCAGGGCCACATAAACTATGTCCAGAGTGTCCATA   3460
+                     |.|||||||.|||.|.||.||.|||||....||||||||||||.|.||.|
+Columba_livia   3387 CCTGAAAGACCTCCGTCAAGGGCACATTTTTTATGTCCAGAGTATACACA   3436
+
+Homo_sapiens    3461 AAGGGGTGGAACCTGTGGAGGACCGATTTGTATTTCGTTGTTCTGATGGC   3510
+                     |.||.||.||||||||.||.|||..|||||..||.||.||||||||||||
+Columba_livia   3437 AGGGTGTAGAACCTGTTGAAGACAAATTTGCTTTCCGCTGTTCTGATGGC   3486
+
+Homo_sapiens    3511 ATTAACTTTTCAGAGAGACAGTTCTTCCCCATTGTAATCATTCCCACCAA   3560
+                     |||||||||||..|..|.||.||.|||||||||||.||.||.||.|.|||
+Columba_livia   3487 ATTAACTTTTCCCAACGGCACTTTTTCCCCATTGTCATTATGCCGATCAA   3536
+
+Homo_sapiens    3561 TGATGAACAGCCAGAGATGTTTATGAGAGAATTTATGGTGATGGAAGGCA   3610
+                     |||||||.||||.||.||.||||.|.||||.|||.|.|||||||||||||
+Columba_livia   3537 TGATGAAGAGCCTGAAATCTTTACGCGAGAGTTTGTTGTGATGGAAGGCA   3586
+
+Homo_sapiens    3611 TGAGTCTGGTAATTGATACACCCATTCTCAATGCTGCTGATGCTGATGTT   3660
+                     ||||.|||||.||||||||.||.||.|||||.||.||||||||.||..| 
+Columba_livia   3587 TGAGCCTGGTTATTGATACCCCTATCCTCAACGCAGCTGATGCGGACAT-   3635
+
+Homo_sapiens    3661 CCCCTG--GATGATTTAACTTTCACTATTACCCAATTCCCCACTCATGGT   3708
+                      |||||  |||||.|||||.|||||.||.|||....|.||||..|||||.
+Columba_livia   3636 -CCCTGCTGATGAGTTAACGTTCACAATCACCAGGCTTCCCAGGCATGGC   3684
+
+Homo_sapiens    3709 CACATCATGAATCAGCTGATAAATGGCACGGTTTTGGTCGAAAGCTTCAC   3758
+                     |||||..||||.||||||.|.|||||.|..||..|.||.||.||||||..
+Columba_livia   3685 CACATTGTGAACCAGCTGGTCAATGGAAGTGTCCTAGTGGAGAGCTTCGT   3734
+
+Homo_sapiens    3759 CTTGGATCAGATCATAGAGAGTTCCAGCATTATTTATGAGCATGATGACT   3808
+                     .|||||||||||.|.||||||.||||.|||..|.|||.|.||||||||||
+Columba_livia   3735 GTTGGATCAGATAACAGAGAGCTCCAACATACTCTATCAACATGATGACT   3784
+
+Homo_sapiens    3809 CCGAGACCCAGGAAGACAGTTTTGTGATTAAACTAACAGATGGGAAGCAC   3858
+                     |.|||||..||||.||||||||||.|.|.|||||.||||||||.||.||.
+Columba_livia   3785 CTGAGACAAAGGAGGACAGTTTTGAGGTGAAACTCACAGATGGTAAACAT   3834
+
+Homo_sapiens    3859 TCTGTGGAAAAGACGGTCCTCATTATAGTTATCCCTGTTGATGATGAGAC   3908
+                     .||||..|.||.|||||..||||.||.|||||.|||||.|||||||||||
+Columba_livia   3835 ACTGTTAAGAAAACGGTATTCATCATGGTTATTCCTGTAGATGATGAGAC   3884
+
+Homo_sapiens    3909 GCCCAGAATGACTATCAATAATGGACTAGAAATAGAAATTGGGGATACCA   3958
+                     ||||||||||.|.|||||..||||..|.|||||||||||.|||||.||.|
+Columba_livia   3885 GCCCAGAATGGCCATCAACGATGGCTTGGAAATAGAAATAGGGGAAACTA   3934
+
+Homo_sapiens    3959 AGATTATCAACAACAAAATATTAATGGCAACAGATTTAGATTCAGAAGAC   4008
+                     ..|.|||..|.||||.||||||.|.|||.||.||..|.|||||.||.|||
+Columba_livia   3935 GAACTATTCATAACAGAATATTGAAGGCTACTGACCTGGATTCTGAGGAC   3984
+
+Homo_sapiens    4009 AAATCTTTGGTTTATATTATTCGTTATGGGCCAGGACATGGCTTATTACA   4058
+                     |||.|.|||...||||||||..|.||||||||||||||.|||.|.||.||
+Columba_livia   3985 AAAACCTTGACGTATATTATAAGATATGGGCCAGGACAAGGCCTCTTGCA   4034
+
+Homo_sapiens    4059 GAGACGAAAACCTACTGGTGCCTTTGAAAATATCACACTGGGCATGAATT   4108
+                     ||||..|||.|||.|.||||...||||.||||||||..||||.|||||.|
+Columba_livia   4035 GAGAAAAAAGCCTTCAGGTGGAGTTGAGAATATCACTTTGGGGATGAACT   4084
+
+Homo_sapiens    4109 TTACCCAGGATGAAGTAGACAGAAACTTAATTCAGTATGTCCATTTGGGG   4158
+                     |.|||||.||||||||.||.|||||||||||||..|||.|.|||||.||.
+Columba_livia   4085 TCACCCAAGATGAAGTGGATAGAAACTTAATTCGATATATGCATTTTGGC   4134
+
+Homo_sapiens    4159 CAAGAGGGCATTCGGGACCTAATTAAATTTGATGTGACTGATGGAATAAA   4208
+                     |||||.||..||||.||.||.||.||.|||||||||||.|||||||||||
+Columba_livia   4135 CAAGAAGGAGTTCGTGATCTTATCAAGTTTGATGTGACAGATGGAATAAA   4184
+
+Homo_sapiens    4209 TCCCCTCATAGATCGTTACTTTTATGTGTCCATCGGGAGCATTGACATTG   4258
+                     |||.||.||.||.||.||||||||||||.|.||.||.||||||||.||||
+Columba_livia   4185 TCCTCTAATTGACCGCTACTTTTATGTGACAATTGGTAGCATTGATATTG   4234
+
+Homo_sapiens    4259 TCTTCCCTGATGTGATAAGTAAGGGAGTGTCCTTGAAAGAAGGTGGCAAA   4308
+                     |||||||.|||||.||.||.||.|||||.||.|||||.|||||.||.||.
+Columba_livia   4235 TCTTCCCAGATGTAATCAGCAAAGGAGTTTCTTTGAAGGAAGGAGGAAAG   4284
+
+Homo_sapiens    4309 GTCACTCTTACAACAGACCTACTAAGCACTAGTGACTTGAACAGTCCTGA   4358
+                     ||.||.|||||.||.||..|.||.|||||.||||||.||||.|||||.||
+Columba_livia   4285 GTAACCCTTACTACTGATTTGCTTAGCACCAGTGACCTGAATAGTCCAGA   4334
+
+Homo_sapiens    4359 TGAAAACTTGGTTTTTACCATCACCAGGGCTCCCATGCGAGGTCACCTGG   4408
+                     |||.|||||.|||||.||.||.|||||.||.||..|.||.||.||.||.|
+Columba_livia   4335 TGAGAACTTAGTTTTCACTATTACCAGAGCACCTGTTCGTGGCCATCTTG   4384
+
+Homo_sapiens    4409 AATGCACGGATCAGCCTGGTGTGTCCATCACGTCTTTCACTCAGCTGCAA   4458
+                     |||||||.|||||||||||.||..|||||.|..||||.|||||.||.|.|
+Columba_livia   4385 AATGCACAGATCAGCCTGGGGTACCCATCTCCACTTTTACTCAACTCCTA   4434
+
+Homo_sapiens    4459 CTGGCTGGAAACAAAATCTACTACATCCACACAGCTGATGATGAAGTGAA   4508
+                     .|.||.||.||.|||.||||.|||||.|||||..|.||.|||||||||||
+Columba_livia   4435 TTAGCAGGCAATAAAGTCTATTACATTCACACTTCAGAAGATGAAGTGAA   4484
+
+Homo_sapiens    4509 AATGGACAGTTTTGAGTTTCAAGTCACCGATGGACGTAACCCTGTCTTTC   4558
+                     |||||||||.||||||||..|.||.||.|||||...|||||||||.||||
+Columba_livia   4485 AATGGACAGCTTTGAGTTCGAGGTGACTGATGGCTATAACCCTGTATTTC   4534
+
+Homo_sapiens    4559 GGACATTCCGTATCTCCATTAGCGATGTGGACAATAAAAAGCCAGTGGTC   4608
+                     |.||.|||.|.||.||.||.||.||||||||||||||.|||||..|.|||
+Columba_livia   4535 GTACTTTCAGAATTTCTATCAGTGATGTGGACAATAAGAAGCCCATTGTC   4584
+
+Homo_sapiens    4609 ACCATCCACAAGCTGGTTGTCAGTGAAAGTGAAAACAAGCTGATTACTCC   4658
+                     ||.|||||.||.|||||.||.||.||||.||||.||||.|||||.||.||
+Columba_livia   4585 ACAATCCATAACCTGGTGGTGAGCGAAAATGAACACAAACTGATAACCCC   4634
+
+Homo_sapiens    4659 TTTTGAGCTCACTGTCGAAGACAGAGATACTCCTGA--CAAGCTCCTGAA   4706
+                     .|||||.||.||||..||.|||||||||||.|||||  ||  .|.||.||
+Columba_livia   4635 ATTTGAACTGACTGCAGAGGACAGAGATACACCTGATGCA--TTGCTAAA   4682
+
+Homo_sapiens    4707 ATTCACTATCACCCAGGTGCCTATTCATGGCCATCTCCTATTCAACAATA   4756
+                     |||.|..|||||.||..|.||..|||||||.||..||.|.|||||.|||.
+Columba_livia   4683 ATTTATCATCACTCAAATACCAGTTCATGGTCAGATCATGTTCAATAATT   4732
+
+Homo_sapiens    4757 CCAGACCTGTCATGGTTTTTACCAAGCAAGACTTGAATGAAAACTTAATC   4806
+                     ||||.||.||||.....||.|||||.|||||..|.||||||||..|||||
+Columba_livia   4733 CCAGGCCAGTCACCACCTTCACCAAACAAGATCTAAATGAAAATCTAATC   4782
+
+Homo_sapiens    4807 AGCTACAAACATGATGGCACTGAGTCAAGTGAAGATAGCTTCTCCTTCAC   4856
+                     ||||||||.|||||.|||||.||.||...|||.||.||||||||.|||||
+Columba_livia   4783 AGCTACAAGCATGACGGCACAGACTCGGTTGAGGACAGCTTCTCTTTCAC   4832
+
+Homo_sapiens    4857 AGTGACTGATGGCACCCATACAGACTTCTATGTTTTTCCTGATACGGTGT   4906
+                     .||.||.||||||||.|||||.||.||||||||.||.||..|.||.||||
+Columba_livia   4833 TGTTACAGATGGCACTCATACTGATTTCTATGTCTTCCCCAACACTGTGT   4882
+
+Homo_sapiens    4907 TTGAAACAAGGAGACCCCAAGTGATGAAGATCCAGGTCTTGGCTGTTGAC   4956
+                     |||||||.||||.|||.|||...||||||||.|...|..|||||||.|||
+Columba_livia   4883 TTGAAACGAGGAAACCTCAAACTATGAAGATTCGAATAATGGCTGTGGAC   4932
+
+Homo_sapiens    4957 AACAGTGTCCCCCAAATCGCAGTGAATAAGGGGGCCTC-TACACTTCGCA   5005
+                     ||||||||.||.|||.|.|.|.|.||||||||.| ||| .||.||.||.|
+Columba_livia   4933 AACAGTGTACCTCAAGTTGTAATAAATAAGGGTG-CTCAGACTCTCCGTA   4981
+
+Homo_sapiens    5006 CTCTAGCCACTGGCCAC-TTGGGGTTCATGATCACAAGCAAAATATTGAA   5054
+                     .|.|.|||||.||.||| ||||..||| |.||.||.|.|||..|..|.||
+Columba_livia   4982 TTTTGGCCACAGGTCACATTGGATTTC-TAATTACCAACAAGGTGCTTAA   5030
+
+Homo_sapiens    5055 AGTGGAGGACAGAGACAGCTTACACATTTCTCTT-AGAT--TTATCGTGA   5101
+                     ||||||.|||||.||||||..|||..||.||||| ||||  ..|||   |
+Columba_livia   5031 AGTGGAAGACAGGGACAGCGCACATGTTACTCTTAAGATCAGAATC---A   5077
+
+Homo_sapiens    5102 CAGAGGCCCCTCAACATGGATATCTTC----TCAACCTGGACAAAGGCAA   5147
+                     ||||||..||.|..|||||    ||||    ||.||||||..||||||||
+Columba_livia   5078 CAGAGGGTCCGCGCCATGG----CTTCCTGATCCACCTGGGGAAAGGCAA   5123
+
+Homo_sapiens    5148 CCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACATGAAAATAT   5197
+                     |||.|||||||..||||||||.||||||||.||||||||.|||||.||||
+Columba_livia   5124 CCATAGCATCAGCCAGTTCACCCAAGCTGATATTGATGATATGAAGATAT   5173
+
+Homo_sapiens    5198 GCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATGTTCTATTTT   5247
+                     |||||||.|||.|||..||.|..||||||||.|||||.||.||..|||| 
+Columba_livia   5174 GCTATGTTTTACGAGGGGGTGACAATGCCACCAGTGACATTTTTCATTT-   5222
+
+Homo_sapiens    5248 GCA--GTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAATTTTCGT   5295
+                      ||  ||||||||..||||.||.||.|||.|.|.|.|.||..||||||||
+Columba_livia   5223 -CATGGTTGAAGACAGTGGAGGCAATAAGCTGAAGAATCAACATTTTCGT   5271
+
+Homo_sapiens    5296 CTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGGTCAATGA   5345
+                     ||.||.|||||||||||||||||.||||||||.|||||..|.||.|||||
+Columba_livia   5272 CTAAACTGGGCATGGATCTCCTTAGAAAAGGAGTATTATTTAGTAAATGA   5321
+
+Homo_sapiens    5346 GGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTACTTGGGAG   5395
+                     .||||||||||.|||.||||||||||||||.||.|||||||||.||||||
+Columba_livia   5322 AGACTCCAAATATCTTGATGTTGTTCTTAAGCGGAGAGGTTACCTGGGAG   5371
+
+Homo_sapiens    5396 AAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGAAAAAGAC   5445
+                     |||||||||||||||||||||||||.|.|||..|.|||||..|.||||||
+Columba_livia   5372 AAACTTCTTTTATAAGTATTGGCACCAAAGATGGCACTGCCAAGAAAGAC   5421
+
+Homo_sapiens    5446 AAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACCCAGGCCA   5495
+                     |||||.|||||.||.|||||.|||||.||.||||||||.||.||.|||||
+Columba_livia   5422 AAAGATTTCAAAGGAAAAGCCCAGAAGCAGGTGCAGTTTAATCCTGGCCA   5471
+
+Homo_sapiens    5496 GACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAGCATGAGC   5545
+                     .||....||.||.||||||||.|||||..||||||||||.||.|||||.|
+Columba_livia   5472 AACTTTAGCTACCTGGCGAGTACGGATTTTGAGTGATGGTGAACATGAAC   5521
+
+Homo_sapiens    5546 AGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGCTGCCTTG   5595
+                     ||||.||..|||||||..|.||.||.||.||||||||..||||.|...||
+Columba_livia   5522 AGTCCGAGTCCTTTCAAATTGTTCTTTCTGAGCCCGTCATGGCAGTTCTG   5571
+
+Homo_sapiens    5596 GAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAGATGAGCC   5645
+                     ||||||||....||..||||.||.||.||.||.||.|||||||||||..|
+Columba_livia   5572 GAATTCCCTGATGTATCCACGGTGGAAATTGTAGACCCAGGAGATGAATC   5621
+
+Homo_sapiens    5646 AACTGTGTTTATTCCCCAGTCCAA---ATACTCCGTTGAAGAAGATGTTG   5692
+                     ||||||.|.||||||.|||| |||   |||||  .|||||||||||||.|
+Columba_livia   5622 AACTGTCTATATTCCTCAGT-CAACCTATACT--ATTGAAGAAGATGTAG   5668
+
+Homo_sapiens    5693 GTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGAGTTG   5742
+                     ||||..|.||.|||||..||||.||.||.|||||||||||||||||..||
+Columba_livia   5669 GTGAATTATTTATTCCAGTCAGAAGAAGTGGAGATGTGAGCCAGGAACTG   5718
+
+Homo_sapiens    5743 ATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGCCGAC   5792
+                     |||||..||||.||.||.|||||||||||||||.||||.||||..||.||
+Columba_livia   5719 ATGGTTATCTGCTACACACAACAAGGAACAGCATCTGGCACTGCCCCAAC   5768
+
+Homo_sapiens    5793 TTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCACACCA   5842
+                     .||.|||.|.|||||||||||.||||||||||||||||||||.||||.||
+Columba_livia   5769 CTCTGTGCTTTCTTACTCTGACTACATATCCAGGCCTGAGGATCACAACA   5818
+
+Homo_sapiens    5843 GTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGATAGTC   5892
+                     |||||.|.||.|||||||||||||||||.||.|||.||||||||||||||
+Columba_livia   5819 GTGTTCTACGTTTTGACAAAGATGAACGAGAAAAAATGTGTCGGATAGTC   5868
+
+Homo_sapiens    5893 ATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCCTTCT   5942
+                     ||.||.|||||.||.||.||.||.||||..||.|||||..||||..|.||
+Columba_livia   5869 ATCATAGATGATTCCTTATATGAAGAGGCTGAGACCTTTGATGTTTTGCT   5918
+
+Homo_sapiens    5943 GAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCTCAAG   5992
+                     |||||||||.|||||.||||||||.||..||||.||||||.|..|||.|.
+Columba_livia   5919 GAGCATGCCGATGGGCGGAAGAATTGGTGCAGAATTCCCAAGCACTCGAA   5968
+
+Homo_sapiens    5993 TTACAATCGTTCCTGACAAAGATGATGAACC--CATCTTTTACTTCGGTG   6040
+                     ||||.||.||.|||||||.||||||||||||  ||  ||.|||||.||..
+Columba_livia   5969 TTACCATTGTACCTGACAGAGATGATGAACCAGCA--TTCTACTTTGGAA   6016
+
+Homo_sapiens    6041 ATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGGTG   6090
+                     |||..|||||||..||.||||||||||||||||||||.||.||.||.||.
+Columba_livia   6017 ATGATGAATACTACGTTGATGAGAGTGCTGGCTATGTTGAGGTACATGTC   6066
+
+Homo_sapiens    6091 TGGAGAACGGGCACTGACCTGTCCAA---GTCTTCTAGTGTCACAGTGAG   6137
+                     |||||..|.||.|||||.|||||.||   |.|.||   ||||||||||||
+Columba_livia   6067 TGGAGGGCTGGAACTGATCTGTCTAAAGTGGCATC---TGTCACAGTGAG   6113
+
+Homo_sapiens    6138 GTCTCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAACAGACTATGTGG   6187
+                     ||||||.||..|.||.||.....||||.||.|||||...|||.|||||.|
+Columba_livia   6114 GTCTCGCAAGTCTGAACCAATAACTGCGGAGGCTGGTGTAGATTATGTAG   6163
+
+Homo_sapiens    6188 GCATCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTGTT   6237
+                     |||||||.||||||||.||||||.|.|||||||||||.||||||.|..||
+Columba_livia   6164 GCATCAGTCGTAATTTGGATTTTTCCCCTGGAGTCAATATGCAGACGTTT   6213
+
+Homo_sapiens    6238 CGTGTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAATTGA   6287
+                     ||.||.||.||||||||||||||||||||.||.|.|.||||.||||..||
+Columba_livia   6214 CGCGTGGTAATTCTGGATGACCTTGGACAGCCGGTGTTGGAAGGAACGGA   6263
+
+Homo_sapiens    6288 GAAATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGAGC   6337
+                     .||.|||||.||.|||||..|.|||||.||||||||.||||||||.||.|
+Columba_livia   6264 AAAGTTTGAGCTTGTGCTAAGGATGCCAATGAACGCTGCCCTTGGAGAAC   6313
+
+Homo_sapiens    6338 CCAGCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTAAG   6387
+                     |||||||..||||..|.|.|||.||||||||..||||.||.|||||||||
+Columba_livia   6314 CCAGCAAGACCACCATCTTCATTAATGACTCAATCTCTGACTTGCCTAAG   6363
+
+Homo_sapiens    6388 ATGCAATTCAAAGAA--CGAATATATACTGGCAGCGAAAGTGATGGGCAG   6435
+                     |||||.||.||||||  .|.|.||.||  ||||..||||.||||||.|||
+Columba_livia   6364 ATGCAGTTTAAAGAATCTGTACATGTA--GGCAATGAAAATGATGGACAG   6411
+
+Homo_sapiens    6436 ATAGTTACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCTTCAGT   6485
+                     ||...|.|.|||||..|.||||.|||.|||.|||..||||.|||..|.||
+Columba_livia   6412 ATTTCTGCCATGATATACAGGAGTGGAGATATCCGATACACATCCACTGT   6461
+
+Homo_sapiens    6486 GAGATGCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAG   6535
+                     ||||||||||||..||||.||.||.||.|||||.|||||||||||.||||
+Columba_livia   6462 GAGATGCTACACAAGGCAAGGTTCAGCTCAGGTAATGATGGACTTCGAAG   6511
+
+Homo_sapiens    6536 AACGCCCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTGAGACA   6585
+                     |.||.||.||.|||||.|..|||||||||||||||||.||||||||.||.
+Columba_livia   6512 AGCGTCCTAATACTGACAGTTCCATCATCACATTCCTTCCTGGTGAAACT   6561
+
+Homo_sapiens    6586 GAAAAGCCCTGCATTCTTGAGCTGATGGACGATGTGC----TCTATGAGG   6631
+                     ||.|||||.||.|..||.|.|||.|||||.||    |    ||.||||.|
+Columba_livia   6562 GAGAAGCCTTGTACACTGGTGCTTATGGATGA----CACTTTCCATGAAG   6607
+
+Homo_sapiens    6632 AGGTAGAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCC   6681
+                     |.|..||.||.||.||.|||||.||.||||||.||...||..|.|||.||
+Columba_livia   6608 AAGAGGAAGAACTACGTCTGGTTCTTGGCACTGCAAGGAGTGATTCTTCC   6657
+
+Homo_sapiens    6682 TTTGGGGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAGA   6731
+                     |||||.||..|..||||.|||||||||||.||.||.||||.|||.||.||
+Columba_livia   6658 TTTGGTGCCTCTATTGGCGAACAAAATGAGACCCTGATAAAGATTCGGGA   6707
+
+Homo_sapiens    6732 TGATGCTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCA   6781
+                     |||||..||.|||.||.|||||||.|||||.||.||.|||||||||||.|
+Columba_livia   6708 TGATGAAGACAAGTCTATTATTAAGTTTGGTGAGACTAAATTTAGTGTGA   6757
+
+Homo_sapiens    6782 CTGAACCCAAAGA--ACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGA   6829
+                     .|||| |||.|||  ||..||..|.| .|..|||.|||.|||.||.|||.
+Columba_livia   6758 GTGAA-CCAGAGAACACAAGGCAAAT-AGCAGTTGTAAAAATCCCTGTGC   6805
+
+Homo_sapiens    6830 TTCGCCAAGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAG   6879
+                     ||||.|..|||||||||||.||||||||..|.||||||||.||.||.||.
+Columba_livia   6806 TTCGTCTGGGAGACACTTCCAAGGTTTCTGTCGTGAGAGTTCATACAAAA   6855
+
+Homo_sapiens    6880 GATGGCTCGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAAT   6929
+                     |||||.||.||.||.||||||||||||||.||||||.|.|||||||||||
+Columba_livia   6856 GATGGATCTGCTACTTCTGGAGAAGACTATCACCCTATATCAGAAGAAAT   6905
+
+Homo_sapiens    6930 TGAGTTTAAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACCT   6979
+                     |||||||||||||||.|||||.||||||.|.||.||.||.||||||..||
+Columba_livia   6906 TGAGTTTAAGGAAGGTGAAACACAGCACTTTGTGGAGATTGAAGTTCTCT   6955
+
+Homo_sapiens    6980 TTGACGGGGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCT   7029
+                     ||||.||.||.||.|||||||||||||||||||||||||||||.|..|||
+Columba_livia   6956 TTGATGGAGTAAGGGAGATGAGAGAGGCCTTCACTGTTCACCTGAGGCCT   7005
+
+Homo_sapiens    7030 GATGAAAATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACAT   7079
+                     |||||.||.|||.|.|||||.||.|||....|.||.||||||||.|||||
+Columba_livia   7006 GATGAGAACATGGTTGCAGAAATACAGACAGCCAAGGCCATTGTTTACAT   7055
+
+Homo_sapiens    7080 AGAAGAAATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAA   7129
+                     .||.|||||||.||||||||||||||||||.|||||.|||||.||||||.
+Columba_livia   7056 TGAGGAAATGAACAGCATGGCAGATGTCACCTTTCCCTCTGTTCCTCAAG   7105
+
+Homo_sapiens    7130 TTGTATCCCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTGCT   7179
+                     |||.|||.||.|||||.|||||.||.|||||.|.|||.||.||      |
+Columba_livia   7106 TTGCATCTCTTTTGATATATGATGATACTTCTAGAGCCAAAGA------T   7149
+
+Homo_sapiens    7180 GAA------CCCATGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAA   7223
+                     .||      |||||..||||||||||||||||||||||.||.||||||||
+Columba_livia   7150 AAAACCAGTCCCATAGCTGGCTATCCTGTCATCTGTATTACTGCTTGCAA   7199
+
+Homo_sapiens    7224 CCCCAAATATTCAGACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGA   7273
+                     .||.||||||..|||||..||.||.||.||.||.||.|||||.|||||||
+Columba_livia   7200 TCCTAAATATGAAGACTTTGAAAAGACTGGTTCAATATGTGCCAGTGAGA   7249
+
+Homo_sapiens    7274 ACATCAATGACACTTTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCG   7323
+                     ||||||||.|.|||.||||.||.|||||||||||..|.||||||||..|.
+Columba_livia   7250 ACATCAATAATACTCTGACACGATACCGGTGGCTTGTGAGTGCACCCACT   7299
+
+Homo_sapiens    7324 GGCCCTGACGGTGTGACCAGCCCTATGA--GAGAAGTGGACTTCGACACC   7371
+                     ||.||||||||||||||.|||||.||||  ||||  |.|||||.||.|||
+Columba_livia   7300 GGTCCTGACGGTGTGACTAGCCCCATGAAGGAGA--TTGACTTTGATACC   7347
+
+Homo_sapiens    7372 TTTTTTACGTCATCCAAGATGGTCACACTGGACTCCATATACTTTCAGCC   7421
+                     ||.||.||.||.|||||||||.|.||.||.||||||||.||||||||..|
+Columba_livia   7348 TTCTTCACTTCCTCCAAGATGATTACGCTTGACTCCATTTACTTTCAAGC   7397
+
+Homo_sapiens    7422 TGGCTCCCGGGTACAGTGCGCAGCTCGTGCTGTGAACACCAATGGGGATG   7471
+                     |||.||.||.||.|||||.|||||||||||||||||..|..||||..|||
+Columba_livia   7398 TGGTTCTCGAGTCCAGTGTGCAGCTCGTGCTGTGAATTCAGATGGAAATG   7447
+
+Homo_sapiens    7472 AAGGCCTGGAGCTCATGAGCCCTATTGTAACCATCAGCAGAGAAGAAGGT   7521
+                     |.||.||.|||||.|||||||||||||||||.||.||||.|..|||||||
+Columba_livia   7448 AGGGTCTTGAGCTTATGAGCCCTATTGTAACTATAAGCACATCAGAAGGT   7497
+
+Homo_sapiens    7522 CTTTGTCAGCCCCGTGTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGC   7571
+                     ||||||||.||.|||.|..|.||.||.||.||||||||.||.|||||.||
+Columba_livia   7498 CTTTGTCAACCTCGTATGTCAGGAGTAGTAGGAGCAGAACCATTCTCTGC   7547
+
+Homo_sapiens    7572 TAAATTGCGCTACACAGGCCCTGAGGATGCAGACTACACAAACCTTATCA   7621
+                     .|||||||||||.||.|||.|.||.|||.|.||.||..|.||.||.||||
+Columba_livia   7548 CAAATTGCGCTATACTGGCTCAGAAGATCCTGATTATGCCAATCTCATCA   7597
+
+Homo_sapiens    7622 AGCTCACTGTCACAATGCCACACATAGATGGCATGCTCCCCGTGATCTCC   7671
+                     |..|.||.|||||.||||||||.||.|||||||||||.||.||.||.||.
+Columba_livia   7598 AATTGACAGTCACTATGCCACATATTGATGGCATGCTGCCTGTTATTTCT   7647
+
+Homo_sapiens    7672 ACTAGAGAGCTTTCCAACTTTGAGCTCACCCTCAGCCCTGATGGCACAAG   7721
+                     ||.||||||||.||||||||||||||.||.||.|||||||||||.||.||
+Columba_livia   7648 ACAAGAGAGCTCTCCAACTTTGAGCTGACACTTAGCCCTGATGGAACTAG   7697
+
+Homo_sapiens    7722 AGTTGGAAACCACAAGTGCTCCAACCTCCTGGATTATACTGAAGTGAAGA   7771
+                     ||||||||||||.||.|||||||||||..|||||||.||.||||||||||
+Columba_livia   7698 AGTTGGAAACCATAAATGCTCCAACCTGTTGGATTACACAGAAGTGAAGA   7747
+
+Homo_sapiens    7772 CTCATTATGGTTTCTTGACTGATGCTACCAAAAATCCAGAAATAATTGGA   7821
+                     |.||..||||||||||||||||||||||||||||||||||..|.||||||
+Columba_livia   7748 CCCACCATGGTTTCTTGACTGATGCTACCAAAAATCCAGATGTGATTGGA   7797
+
+Homo_sapiens    7822 GAGA-CATATCCTTACCAGTACAGCTTGTCC----ATCAGAGGTTCCACT   7866
+                     |||| ||| |||.||.||.||||||    ||    ||.|||||.|.||.|
+Columba_livia   7798 GAGACCAT-TCCCTATCAATACAGC----CCAACAATTAGAGGCTTCAAT   7842
+
+Homo_sapiens    7867 ACCTTGCGCTTCTACCGGAACCTGAACCTAGAGGCCTGTTTATGGGAGTT   7916
+                     ||.||.||||||||.||.||.|||||.||.||.||||||.|.||||||||
+Columba_livia   7843 ACTTTACGCTTCTATCGCAATCTGAATCTGGAAGCCTGTCTGTGGGAGTT   7892
+
+Homo_sapiens    7917 CGTTAGCTACTATGACATGTCAGAACTCCTTGCTGACTGTGGTGGCACCA   7966
+                     |||||||||.|||||||||||.||.|||||..|.||.|||||.|||||||
+Columba_livia   7893 CGTTAGCTATTATGACATGTCTGAGCTCCTCACAGATTGTGGAGGCACCA   7942
+
+Homo_sapiens    7967 TTGGAACAGATGGACAGGTCCTAAACCTAGTGCAGTCCTATGTGACCCTT   8016
+                     ||||.||||||||||||||.||.|||.||||||||||||||||.||.||.
+Columba_livia   7943 TTGGGACAGATGGACAGGTTCTCAACTTAGTGCAGTCCTATGTCACGCTG   7992
+
+Homo_sapiens    8017 CGAGTCCCTCTGTATGTTTCCTACGTGTTCCATTCCCCCGTGGGGGTAGG   8066
+                     .||||||||.|.||.||.||.|||||.|||||.||.||.|||||.|.|||
+Columba_livia   7993 AGAGTCCCTTTATACGTCTCTTACGTCTTCCACTCTCCGGTGGGCGCAGG   8042
+
+Homo_sapiens    8067 AGGCTGGCAGCATTTTGACTTGAAGTCAGAGCTTCGTCTAACTTTTGTGT   8116
+                     |||.|||||||||||||||.||.||||||||||.||.||.||||||||||
+Columba_livia   8043 AGGTTGGCAGCATTTTGACCTGCAGTCAGAGCTCCGGCTGACTTTTGTGT   8092
+
+Homo_sapiens    8117 ACGACACCGCCATCTTGTGGAATGATGGAATTGGCAGCCCCCCAGAGGCT   8166
+                     |.|||||.||||||.||||||..||.||.||.||.|||||.||.||.||.
+Columba_livia   8093 ATGACACTGCCATCCTGTGGAGGGACGGCATCGGTAGCCCACCTGAAGCA   8142
+
+Homo_sapiens    8167 GAACTTCAAGGTTCTCTCTATCCAACCAGCATGCGCATCGGTGATGAGGG   8216
+                     ||.||.||||||||.||.||.||||||||||||||.||...|||.|||||
+Columba_livia   8143 GAGCTCCAAGGTTCCCTGTACCCAACCAGCATGCGAATTAATGAAGAGGG   8192
+
+Homo_sapiens    8217 GCGCTTGGCCGTGCACTTCAAGACAGAGGCTCAGTTCCATGGCTTATTTG   8266
+                     ||||||||..||..||||||||||.||.||.|..||.|||||..|.||||
+Columba_livia   8193 GCGCTTGGTTGTCAACTTCAAGACTGAAGCCCGATTTCATGGTCTCTTTG   8242
+
+Homo_sapiens    8267 TGCTGTCACATCCCGCATCCTTTACAAGCT--CAGTGATCATGTCAGCTG   8314
+                     ||.||||.|||||.||.||.|.| |.||||  || ||.|.|||||||..|
+Columba_livia   8243 TGATGTCCCATCCTGCTTCATCT-CTAGCTTCCA-TGGTTATGTCAGTCG   8290
+
+Homo_sapiens    8315 ATCATCCAGGCCTGACATTTTCCCTCCGCCTCATAAGGAGTGAACCAACC   8364
+                     ||||.||.||||||||||||..||||.|.|||||..|.|||||.|||||.
+Columba_livia   8291 ATCACCCGGGCCTGACATTTAGCCTCAGTCTCATCCGAAGTGAGCCAACG   8340
+
+Homo_sapiens    8365 TATAACCAGCCAGTACAGCAGTGGAGCTTTGTCTCTGACTTTGCCGTACG   8414
+                     ||.|||||||||||.|||||||||||||||||.||.||.|||||.||.||
+Columba_livia   8341 TACAACCAGCCAGTGCAGCAGTGGAGCTTTGTTTCAGATTTTGCGGTTCG   8390
+
+Homo_sapiens    8415 TGACTACTCAGGGACCTATACTGTGAAGCTGGTGCCATG---CACTGCCC   8461
+                     .|||||.||.||.||.||.||||||||||||.|..|.||   ||||||.|
+Columba_livia   8391 AGACTATTCTGGAACATACACTGTGAAGCTGATAGCTTGTACCACTGCTC   8440
+
+Homo_sapiens    8462 CATCACATCAGGAATACCGCCTGCCAGTCACCTGCAACCCCAGAGAACCT   8511
+                        ||||||||||.|||.||||||||||.|.||||||.||.|||||.||.
+Columba_livia   8441 ---CACATCAGGAGTACAGCCTGCCAGTGATCTGCAATCCTAGAGAGCCA   8487
+
+Homo_sapiens    8512 GTCACCTTTGACCTTGACATCCGATTCCAACAGGTCAGTGATCCAGTGGC   8561
+                     .||||.|||||.||.||.|||||||||||.|||||||||||.||||||||
+Columba_livia   8488 ATCACATTTGATCTGGATATCCGATTCCAGCAGGTCAGTGACCCAGTGGC   8537
+
+Homo_sapiens    8562 TGCTGAGTTTAGCTTGAACACCCAAATGTACCTGCTCTCTAAGAAGAG-T   8610
+                     |||.||.||.||||||||||||||.||||.|||.|||||.|| ||.|| .
+Columba_livia   8538 TGCCGAATTCAGCTTGAACACCCAGATGTTCCTCCTCTCCAA-AAAAGCA   8586
+
+Homo_sapiens    8611 CTCTGGTTGTCTGATGGATCCATGGGATTCGGGCAAGAGAGTGATGTTGC   8660
+                     ||.|||.|.||||||||.||.|||||.||.||||||||.|||||||||||
+Columba_livia   8587 CTTTGGCTATCTGATGGCTCAATGGGCTTTGGGCAAGAAAGTGATGTTGC   8636
+
+Homo_sapiens    8661 TTTTGCAGAAGGTGATATAATTTATGGTCGTGTCATGGTGGATCCTGTCC   8710
+                     |||..|||||||||||||.||.||||||||.||.|||||||||||.||.|
+Columba_livia   8637 TTTCTCAGAAGGTGATATCATATATGGTCGGGTGATGGTGGATCCAGTGC   8686
+
+Homo_sapiens    8711 AGAATCTGGGTGACTCCTTTTACTGCAGCATTGAGAAGGTGTTTCTATGC   8760
+                     |||||.|||||||.||.||.|||||.|||||.||||||||.||.||.|||
+Columba_livia   8687 AGAATTTGGGTGATTCATTCTACTGTAGCATCGAGAAGGTTTTCCTGTGC   8736
+
+Homo_sapiens    8761 ACTGGAGCTGATGGCTATGTTCCCAAGTATAGTCCAATGAATGCAGAATA   8810
+                     ||.|||||||||||.|||||.|||||.||||.||||...||..|.|||||
+Columba_livia   8737 ACAGGAGCTGATGGATATGTACCCAAATATAATCCATCCAACACTGAATA   8786
+
+Homo_sapiens    8811 TGGCTGCTTAGCCGACTCTCCTTCACTCTTATATAGATTTAAAATTGTGG   8860
+                     |||.|||.|.||.||.|||||.||.||..|.||.||.|||||.|||||||
+Columba_livia   8787 TGGGTGCCTTGCTGATTCTCCGTCCCTTCTGTACAGGTTTAAGATTGTGG   8836
+
+Homo_sapiens    8861 ACAAAGCTCAGCCAGAGACACAAGCGACCAGTTTTGGAAATGTCCTATTT   8910
+                     |||||||||||||||||||||||||.||.||.|||||||||||.||.|||
+Columba_livia   8837 ACAAAGCTCAGCCAGAGACACAAGCCACAAGCTTTGGAAATGTGCTTTTT   8886
+
+Homo_sapiens    8911 AATGCCAAACTAGCAGTGGATGACCCTGAAGCCATTCTCTTAGTGAATCA   8960
+                     |||||.|||||.|||.|.|||||.||||||||.|||...|||||.||.||
+Columba_livia   8887 AATGCAAAACTTGCAATAGATGATCCTGAAGCAATTGCATTAGTTAAACA   8936
+
+Homo_sapiens    8961 GCCTGGATCTGATGGATTTAAAGTCGACTCAACACCACTCTTTCAGGTCG   9010
+                     |||.||.|||||||||||||||||.||||||||.||.||.||||||||..
+Columba_livia   8937 GCCAGGCTCTGATGGATTTAAAGTAGACTCAACTCCTCTATTTCAGGTAT   8986
+
+Homo_sapiens    9011 CTCTAGGCCGAGAATGGTATATACATACGATCTATACAGTGAGATCGAAA   9060
+                     ||.|.||..|.||.||||||.|.|||||.|||||.||.||..|.||.|||
+Columba_livia   8987 CTTTGGGTAGGGAGTGGTATGTCCATACAATCTACACTGTACGTTCAAAA   9036
+
+Homo_sapiens    9061 GACAATGCCAATCGAGGTATTGGCAAAAGAAGTGTGG------AGTACCA   9104
+                     ||.|||||.||.||.||.|||||||||||.|||||||      |||||||
+Columba_livia   9037 GAGAATGCTAACCGTGGAATTGGCAAAAGGAGTGTGGAGCATCAGTACCA   9086
+
+Homo_sapiens    9105 TTCTC-------TGGTGAGTCAAGGAAAGCCCC----AATCCACCACCAA   9143
+                     .||.|       |||||.|        ||||||    .||||| |||  |
+Columba_livia   9087 CTCGCTCTTTAGTGGTGGG--------AGCCCCGGAGCATCCA-CAC--A   9125
+
+Homo_sapiens    9144 GAGCCGGAAGAAGAGAGAGATCAGGAGCACACCCTC---ACTGGCATGGG   9190
+                     |||.||..|||||||.|..||  .|||||..||| |   |||.|||...|
+Columba_livia   9126 GAGACGTCAGAAGAGGGGAAT--TGAGCAGGCCC-CAGAACTTGCAAAAG   9172
+
+Homo_sapiens    9191 AGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCACATTGCCCTG   9240
+                     ..|||||.||.||||||||.||||||||||||||.||||||||.||.||.
+Columba_livia   9173 GCATTGGAGCAGAAAACAGCCGAGGAACAAACATACAGCACATAGCACTA   9222
+
+Homo_sapiens    9241 GACCGCACCAAGAGGCA-GATCCCCCATGGGAGAGCACCTCCAGATGGCA   9289
+                     ||.||||.|||||..|| |.|||.|.|.|||.|...||...|| |||||.
+Columba_livia   9223 GATCGCAACAAGAAACAGGCTCCTCAAAGGGGGGTTACAGTCA-ATGGCG   9271
+
+Homo_sapiens    9290 TCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCA---GTCAGCCTGGTC   9336
+                     |.||||||.||||.||.||.|.||..||   ||||   ||||||.|.|||
+Columba_livia   9272 TTCTCCCCAGGGAACTGAATAACCAAAG---TGCAGGGGTCAGCATAGTC   9318
+
+Homo_sapiens    9337 ACTGTGGTGGGAGGCACCACGGTAGGGTTACTCACCATCTGCCTCACTG-   9385
+                     ||..|..|.||.||..|..|.|..|..||.||..||||||||.|.|.|| 
+Columba_livia   9319 ACAATCATTGGCGGAGCTGCTGCCGTTTTGCTTGCCATCTGCTTAATTGC   9368
+
+Homo_sapiens    9386 --TCA-----TTGCAGTGCTGATGTGCAGGGGCAAGGAAAGTTTCAGGGG   9428
+                       |||     ||||  ||||.|     |..||.||..|||.|.|    |.
+Columba_livia   9369 AATCATCATTTTGC--TGCTAA-----AACGGAAACAAAATTCT----GA   9407
+
+Homo_sapiens    9429 GAAG-GATGCCCCGAAAGG-CTCCAGCAGCAGTGAGCCCATGGTGCCCCC   9476
+                     .||| || |||.| ||||| .||..||||||.|||.||.|||.||||.||
+Columba_livia   9408 CAAGAGA-GCCAC-AAAGGAGTCGGGCAGCAATGAACCAATGATGCCACC   9455
+
+Homo_sapiens    9477 ACAGAGCCATCA---CAATGACAGCTCAGAAGTT   9507
+                     |.|.|   ||.|   ||..||||||||.||.|||
+Columba_livia   9456 ATATA---ATTACACCAGCGACAGCTCGGAGGTT   9486
+
+
+#---------------------------------------
+#---------------------------------------

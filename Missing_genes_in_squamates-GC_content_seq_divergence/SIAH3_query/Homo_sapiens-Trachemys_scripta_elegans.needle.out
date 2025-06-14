@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 10:02:32
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Trachemys_scripta_elegans.fa
+#    -outfile Homo_sapiens-Trachemys_scripta_elegans.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Trachemys_scripta_elegans.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Trachemys_scripta_elegans
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 826
+# Identity:     584/826 (70.7%)
+# Similarity:   584/826 (70.7%)
+# Gaps:         119/826 (14.4%)
+# Score: 2197.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCTTTTCTTTACCCAGTGCTTTGGGGCTGTATTAGATCTCATTCATCT     50
+                     |||||||||||||||||||||||||||||||||||||||||.|||||.||
+Trachemys_scr      1 ATGCTTTTCTTTACCCAGTGCTTTGGGGCTGTATTAGATCTTATTCACCT     50
+
+Homo_sapiens      51 CCGGTTTCAGCACTACAAGGCTAAACGGGTTTTCTCCGCTGCCGGGCAAC    100
+                     ..|||||||.||||||||||||||..|||||||.||.|||||.|||||||
+Trachemys_scr     51 TAGGTTTCAACACTACAAGGCTAAGAGGGTTTTTTCAGCTGCTGGGCAAC    100
+
+Homo_sapiens     101 TTGTCTGTGTCGTCAACCCCACACACAACCTAAAGTATGTGTC-------    143
+                     ||||||||||.||.|||||.|||||||.|||||||||||||||       
+Trachemys_scr    101 TTGTCTGTGTTGTAAACCCAACACACAGCCTAAAGTATGTGTCAAACAGG    150
+
+Homo_sapiens     144 ----CAGTCGGCGCGCCGTCACTCAGAGCGCTCCAGAGCAAGGCAG-CTT    188
+                         |||||||           |||||.|.|..||||||||||||| |||
+Trachemys_scr    151 CATACAGTCGG-----------TCAGACCTCCACAGAGCAAGGCAGCCTT    189
+
+Homo_sapiens     189 CCACCCTCACCATCTCTCCCACCA-CCACTGCCACCACCGCCACCACCAC    237
+                               |||   |||||||| ||                       
+Trachemys_scr    190 ----------CAT---TCCCACCATCC-----------------------    203
+
+Homo_sapiens     238 CACCTCCGCCACCACGCCCACCCCCACCACCTTCACCACCAGGAGGCGGG    287
+                       ||||                                    |||.|.| 
+Trachemys_scr    204 --CCTC------------------------------------GAGACAG-    214
+
+Homo_sapiens     288 GCTGCACGCCAACCCG---GTGACGCCCTGCCTGTGCATGTGTCCCT-TG    333
+                       ||||.|   |||||   .|||     |.||| |||||||| |||| ||
+Trachemys_scr    215 --TGCATG---ACCCGCAACTGA-----TTCCT-TGCATGTG-CCCTCTG    252
+
+Homo_sapiens     334 TTCTCCTGCCAGTGGGAAGGCCGCCTGGAGGTGGTGGTGCCCCACCTGCG    383
+                     ||.|||||.||.||||||||||...|.||.||||||||..|.||.|||.|
+Trachemys_scr    253 TTTTCCTGTCAATGGGAAGGCCATGTAGAAGTGGTGGTATCACATCTGAG    302
+
+Homo_sapiens     384 GCAGATCCATAGGGTTGACATCCTCCAGGGAGCCGAGATCGTCTTCCTGG    433
+                     .||||..|||.||.|..|||||||.||.||.||.|||||.||.|||||||
+Trachemys_scr    303 ACAGACGCATCGGATCAACATCCTTCATGGGGCAGAGATTGTTTTCCTGG    352
+
+Homo_sapiens     434 CCACGGACATGCACCTCCCCGCGCCGGCTGATTGGATCATCATGCACTCC    483
+                     ||||.||||||||||||||.||.||..|.||||||||.||.|||||.||.
+Trachemys_scr    353 CCACAGACATGCACCTCCCTGCACCAACAGATTGGATAATAATGCATTCT    402
+
+Homo_sapiens     484 TGCCTTGGCCACCACTTTCTGTTGGTGCTGAGGAAACAGGAGAGGCATGA    533
+                     |||||.||||||||.|||.||.|.|||||.|||||.|||||||...|.||
+Trachemys_scr    403 TGCCTGGGCCACCATTTTTTGCTTGTGCTCAGGAAGCAGGAGAAATACGA    452
+
+Homo_sapiens     534 AGGGCACCCCCAGTTCTTTGCCACCATGATGCTGATTGGGACCCCCACCC    583
+                     |||.|||||||||||||||||||||||||||.|||||||.||||||||.|
+Trachemys_scr    453 AGGCCACCCCCAGTTCTTTGCCACCATGATGTTGATTGGCACCCCCACAC    502
+
+Homo_sapiens     584 AGGCCGACTGCTTCACCTATCGCCTGGAGCTCAACAGAAACCATCGGCGC    633
+                     |.|||||...|||||||||..|.||.|||||||||||.||.||..|||||
+Trachemys_scr    503 AAGCCGATAACTTCACCTACAGGCTTGAGCTCAACAGGAATCAGAGGCGC    552
+
+Homo_sapiens     634 CTCAAGTGGGAGGCCACGCCCCGGTCTGTTCTTGAGTGCGTGGACTCGGT    683
+                     ||.||||||||.||.||.||..|.|||||.||.||||||||.|||||.||
+Trachemys_scr    553 CTGAAGTGGGAAGCTACCCCAAGATCTGTACTGGAGTGCGTTGACTCTGT    602
+
+Homo_sapiens     684 GATTACGGACGGGGACTGCCTCGTCCTCAACACCTCGCTGGCACAGCTCT    733
+                     .||..|.|||||.||.|||||.|||||.||||||||.|||||.|||||||
+Trachemys_scr    603 CATATCAGACGGCGATTGCCTTGTCCTTAACACCTCACTGGCCCAGCTCT    652
+
+Homo_sapiens     734 TCTCTGACAACGGCAGCCTTGCCATTGGGATTGCCATCACCGCGA-CAGA    782
+                     |||||||.||.||.|||||.||.||.||.|||||.||.||.|||| ||.|
+Trachemys_scr    653 TCTCTGATAATGGAAGCCTGGCTATAGGAATTGCAATAACTGCGAGCAAA    702
+
+Homo_sapiens     783 GGTCCTCCCCT-CAGAAGCTGAAATG    807
+                     |.||  .|.|| |.|||||.||||||
+Trachemys_scr    703 GTTC--ACGCTGCTGAAGCAGAAATG    726
+
+
+#---------------------------------------
+#---------------------------------------

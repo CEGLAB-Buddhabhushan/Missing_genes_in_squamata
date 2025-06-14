@@ -1,0 +1,426 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 06:00:01
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Pan_troglodytes.fa
+#    -outfile Homo_sapiens-Pan_troglodytes.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Pan_troglodytes.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Pan_troglodytes
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4893
+# Identity:    4716/4893 (96.4%)
+# Similarity:  4716/4893 (96.4%)
+# Gaps:         150/4893 ( 3.1%)
+# Score: 23368.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt      1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+
+Homo_sapiens      51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt     51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+
+Homo_sapiens     101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+
+Homo_sapiens     151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+
+Homo_sapiens     201 TGGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGTCTCGGC    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    201 TGGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGTCTCGGC    250
+
+Homo_sapiens     251 CCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAGCCAATG    300
+                     ||||||||||||||||||||||||||||||||                  
+Pan_troglodyt    251 CCACCGCCTCGAGGGATGAGCGCTTCCGGTCA------------------    282
+
+Homo_sapiens     301 TTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTATTTGGAC    350
+                                                                       
+Pan_troglodyt    282 --------------------------------------------------    282
+
+Homo_sapiens     351 CCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCCACACTG    400
+                                                          |||||||||||||
+Pan_troglodyt    283 -------------------------------------GATGTCCACACTG    295
+
+Homo_sapiens     401 AAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTATG    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    296 AAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTATG    345
+
+Homo_sapiens     451 CCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTACAC    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    346 CCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTACAC    395
+
+Homo_sapiens     501 CCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    396 CCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    445
+
+Homo_sapiens     551 CCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGCCC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    446 CCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGCCC    495
+
+Homo_sapiens     601 TGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCCTC    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    496 TGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCCTC    545
+
+Homo_sapiens     651 CACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGCAG    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    546 CACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGCAG    595
+
+Homo_sapiens     701 CCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCCAC    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    596 CCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCCAC    645
+
+Homo_sapiens     751 ACCCACAT---AGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGCCT    797
+                     ||||||||   |||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    646 ACCCACATAGCAGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGCCT    695
+
+Homo_sapiens     798 CGTGGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGAAGTG    847
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    696 CGTGGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGAAGTG    745
+
+Homo_sapiens     848 TTCCTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGAT---------    888
+                     |||||||||||||||||||||||||||||||||||||||||         
+Pan_troglodyt    746 TTCCTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGATGTGTCC    795
+
+Homo_sapiens     889 ---------------------------------GGTGTCCCTGTGAACAG    905
+                                                      |||||||||||||||||
+Pan_troglodyt    796 TGGCCTCAGTGCTCCTCTGTCCTTCCCGTGACAGGTGTCCCTGTGAACAG    845
+
+Homo_sapiens     906 CAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCCTGAAGAGGCCAA    955
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    846 CAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCCTGAAGAGGCCAA    895
+
+Homo_sapiens     956 AGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTTGAGGAATTGTTG   1005
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    896 AGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTTGAGGAATTGTTG    945
+
+Homo_sapiens    1006 GAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGAGGGAAGCGAGAC   1055
+                     |||||||||||||||||||||||||||||.||||||||||||||||||||
+Pan_troglodyt    946 GAAGTTCAGCAACCAGATCCAAATCAGCCGAAGCCTGAGGGAAGCGAGAC    995
+
+Homo_sapiens    1056 GAGTGTGCTGAGAGGGGAGCCTCTCACTGCAGGTGTCCCCCGACCGCCGT   1105
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt    996 GAGTGTGCTGAGAGGGGAGCCTCTCACTGCAGGTGTCCCCCGACCGCCGT   1045
+
+Homo_sapiens    1106 CGCTGTTGGCCACCTTGCAGCGCTGGGGCACAACACAGCCCAAATCCCCC   1155
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1046 CGCTGTTGGCCACCTTGCAGCGCTGGGGCACAACACAGCCCAAATCCCCC   1095
+
+Homo_sapiens    1156 TGTCTGACTGCCTTGGATACAACTGGGAAAGCCGTCTACACTCTCACCTA   1205
+                     |||||||||||||||||||||||||||||||||.||||||||||||||||
+Pan_troglodyt   1096 TGTCTGACTGCCTTGGATACAACTGGGAAAGCCATCTACACTCTCACCTA   1145
+
+Homo_sapiens    1206 TGGTAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATACTCTACTTAATA   1255
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1146 TGGTAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATACTCTACTTAATA   1195
+
+Homo_sapiens    1256 AACTGACAAGTAAGAATGAACCTCTACTTAAACCTGGAGACAGAGTGGCG   1305
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1196 AACTGACAAGTAAGAATGAACCTCTACTTAAACCTGGAGACAGAGTGGCG   1245
+
+Homo_sapiens    1306 CTCGTGTTTCCGAATAGTGACCCTGTGATGTTCATGGTTGCATTTTATGG   1355
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1246 CTCGTGTTTCCGAATAGTGACCCTGTGATGTTCATGGTTGCATTTTATGG   1295
+
+Homo_sapiens    1356 GTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGTGCCATTAACAA   1405
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1296 GTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGTGCCATTAACAA   1345
+
+Homo_sapiens    1406 GAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTCTGCTGGGCAGCTGTGGA   1455
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1346 GAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTCTGCTGGGCAGCTGTGGA   1395
+
+Homo_sapiens    1456 GTCTTCTTGGCCCTGACCACAGACGCTTGTCAGAAAGGCCTCCCCAAGGC   1505
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1396 GTCTTCTTGGCCCTAACCACAGACGCTTGTCAGAAAGGCCTCCCCAAGGC   1445
+
+Homo_sapiens    1506 ACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTGGCCCCCGCTCTCCTGGC   1555
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1446 ACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTGGCCCCCGCTCTCCTGGC   1495
+
+Homo_sapiens    1556 TAGTGATTGATGGGAAGCATCTAGCCAAGCCCCCAAAGGACTGGCACCCT   1605
+                     ||||||||||||||||||||||.|||||||||||||||||||||||||||
+Pan_troglodyt   1496 TAGTGATTGATGGGAAGCATCTGGCCAAGCCCCCAAAGGACTGGCACCCT   1545
+
+Homo_sapiens    1606 CTGGCCCAGGACACAGGGACTGGGACTGCCTACATTGAGTATAAAACCAG   1655
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+Pan_troglodyt   1546 CTGGCCCAGGACACAGGGACTGGGACCGCCTACATTGAGTATAAAACCAG   1595
+
+Homo_sapiens    1656 CAAAGAAGGCAGTACGGTGGGGGTCACAGTGTCCCACGCATCCCTGCTGG   1705
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1596 CAAAGAAGGCAGTACGGTGGGGGTCACAGTGTCCCACGCATCCCTGCTGG   1645
+
+Homo_sapiens    1706 CACAGTGCCGGGCTCTGACCCAGGCGTGCGGGTACTCAGAAGCTGAAACA   1755
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1646 CACAGTGCCGGGCTCTGACCCAGGCGTGCGGGTACTCAGAAGCTGAAACA   1695
+
+Homo_sapiens    1756 TTAACAAACGTGCTGGATTTCAAAAGGGATGCTGGTCTGTGGCATGGCGT   1805
+                     ||||||||.||||||||||||||||||||||||||||||||||||||.||
+Pan_troglodyt   1696 TTAACAAATGTGCTGGATTTCAAAAGGGATGCTGGTCTGTGGCATGGAGT   1745
+
+Homo_sapiens    1806 GTTAACAAGCGTCATGAACAGGATGCACGTGGTCAGCGTCCCCTACGCGC   1855
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1746 GTTAACAAGCGTCATGAACAGGATGCACGTGGTCAGCGTCCCCTACGCGC   1795
+
+Homo_sapiens    1856 TGATGAAGGCGAACCCACTCTCCTGGATCCAGAAAGTGTGCTTCTATAAA   1905
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+Pan_troglodyt   1796 TGATGAAGGCGAACCCGCTCTCCTGGATCCAGAAAGTGTGCTTCTATAAA   1845
+
+Homo_sapiens    1906 GCTCGGGCCGCGCTGGTGAAGTCGCGAGACATGCACTGGTCTCTCCTAGC   1955
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1846 GCTCGGGCCGCGCTGGTGAAGTCGCGAGACATGCACTGGTCTCTCCTAGC   1895
+
+Homo_sapiens    1956 TCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTCACTGCGCATGCTGATTG   2005
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1896 TCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTCACTGCGCATGCTGATTG   1945
+
+Homo_sapiens    2006 TGGCCGATGGTGCCAACCCGTGGTCGATCTCCTCCTGTGACGCCTTCCTC   2055
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1946 TGGCCGATGGCGCCAACCCGTGGTCGATCTCCTCCTGTGACGCCTTCCTC   1995
+
+Homo_sapiens    2056 AACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGTCATCTGTCCTTGTGC   2105
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   1996 AACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGTCATCTGTCCTTGTGC   2045
+
+Homo_sapiens    2106 AAGTTCTCCTGAGGCGCTGACTGTCGCCATCCGCAGGCCACCTGATCTGG   2155
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2046 AAGTTCTCCTGAGGCGCTGACTGTCGCCATCCGCAGGCCACCTGATCTGG   2095
+
+Homo_sapiens    2156 GAGGACCACCTCCAAGAAAAGCAGTCCTGTCGATGAACGGTCTAAGTTAT   2205
+                     ||||||||||||||||||||||||||||.|||||||||||||||||||||
+Pan_troglodyt   2096 GAGGACCACCTCCAAGAAAAGCAGTCCTATCGATGAACGGTCTAAGTTAT   2145
+
+Homo_sapiens    2206 GGTGTTATCAGAGTGGATACTGAAGAAAAGTTGTCAGTCCTTACTGTTCA   2255
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2146 GGTGTTATCAGAGTGGATACTGAAGAAAAGTTGTCAGTCCTTACTGTTCA   2195
+
+Homo_sapiens    2256 GGACGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGTTGTGAAGTTAG   2305
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2196 GGACGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGTTGTGAAGTTAG   2245
+
+Homo_sapiens    2306 AAGGTACCCCTTATCTTTGTAAAACTGATGAAGTGGGAGAAATATGCGTC   2355
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2246 AAGGTACCCCTTATCTTTGTAAAACTGATGAAGTGGGAGAAATATGCGTC   2295
+
+Homo_sapiens    2356 AGTTCCAGTGCAACTGGCACAGCGTACTATGGATTGCTTGGAATCACGAA   2405
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2296 AGTTCCAGTGCAACTGGCACAGCGTACTATGGATTGCTTGGAATCACGAA   2345
+
+Homo_sapiens    2406 GAATGTGTTTGAGGCAGTTCCGGTCACCACAGGAGGAGCACCCATCTTTG   2455
+                     |||||||||||||||.||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2346 GAATGTGTTTGAGGCTGTTCCGGTCACCACAGGAGGAGCACCCATCTTTG   2395
+
+Homo_sapiens    2456 ACAGGCCATTCACCAGGACAGGCCTGCTGGGCTTCATCGGGCCTGACAAC   2505
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+Pan_troglodyt   2396 ACAGGCCATTCACCAGGACGGGCCTGCTGGGCTTCATCGGGCCTGACAAC   2445
+
+Homo_sapiens    2506 CTGGTCTTCATCGTGGGCAAACTGGACGGGCTGATGGTCACTGGAGTTCG   2555
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2446 CTGGTCTTCATCGTGGGCAAACTGGACGGGCTGATGGTCACTGGAGTTCG   2495
+
+Homo_sapiens    2556 CAGACACAATGCAGATGACGTTGTGGCCACCGCACTGGCCGTGGAGCCCA   2605
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2496 CAGACACAATGCAGATGACGTTGTGGCCACCGCACTGGCCGTGGAGCCCA   2545
+
+Homo_sapiens    2606 TGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTTCTCTGTGACCGTGCTG   2655
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2546 TGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTTCTCTGTGACCGTGCTG   2595
+
+Homo_sapiens    2656 CACGACGACCGGATTGTCCTGGTGGCTGAGCAGCGGCCGGATGCCTCGGA   2705
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2596 CACGACGACCGGATTGTCCTGGTGGCTGAGCAGCGGCCGGATGCCTCGGA   2645
+
+Homo_sapiens    2706 GGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTGCAGGCCATTGATAGCA   2755
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||||
+Pan_troglodyt   2646 GGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTGCAGGCCATCGATAGCA   2695
+
+Homo_sapiens    2756 TCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTGCCAACACCTTG   2805
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2696 TCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTGCCAACACCTTG   2745
+
+Homo_sapiens    2806 CCCAAGGCTCCTCTCGGAGGGATTCACATTTCTGAAACCAAACAGCGCTT   2855
+                     ||.|||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2746 CCGAAGGCTCCTCTCGGAGGGATTCACATTTCTGAAACCAAACAGCGCTT   2795
+
+Homo_sapiens    2856 TCTGGAAGGGACGCTGCACCCGTGTAATGTGCTGATGTGCCCTCACACCT   2905
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2796 TCTGGAAGGGACACTGCACCCGTGTAATGTGCTGATGTGCCCTCACACCT   2845
+
+Homo_sapiens    2906 GTGTTACCAACCTCCCCAAACCTCGTCAGAAACAACCAGAGGTTGGACCA   2955
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2846 GTGTTACCAACCTCCCCAAACCTCGTCAGAAACAACCAGAGGTTGGACCA   2895
+
+Homo_sapiens    2956 GCCTCAATGATCGTGGGGAACCTGGTTGCTGGGAAGAGAATCGCTCAGGC   3005
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2896 GCCTCAATGATCGTGGGGAACCTGGTTGCTGGGAAGAGAATCGCTCAGGC   2945
+
+Homo_sapiens    3006 TTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGCGACCAGGCACGGAAGT   3055
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2946 TTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGCGACCAGGCACGGAAGT   2995
+
+Homo_sapiens    3056 TCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGCCCACACCACTCCTGAC   3105
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   2996 TCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGCCCACACCACTCCTGAC   3045
+
+Homo_sapiens    3106 CACCCGCTGTTCTTGCTGCTGAACGCCAAGGGCACCGTCACAAGCACTGC   3155
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+Pan_troglodyt   3046 CACCCGCTGTTCTTGCTACTGAACGCCAAGGGCACCGTCACAAGCACTGC   3095
+
+Homo_sapiens    3156 AACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGAGTGGCCGCGGCTCTGA   3205
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3096 AACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGAGTGGCCGCGGCTCTGA   3145
+
+Homo_sapiens    3206 TGGAGAAGGGAAGACTGAGTGTTGGGGACCATGTGGCTCTGGTCTACCCA   3255
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3146 TGGAGAAGGGAAGACTGAGTGTTGGGGACCATGTGGCTCTGGTCTACCCA   3195
+
+Homo_sapiens    3256 CCAGGGGTGGACCTCATTGCCGCGTTCTATGGCTGCTTGTACTGTGGCTG   3305
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3196 CCAGGGGTGGACCTCATTGCCGCGTTCTATGGCTGCTTGTACTGTGGCTG   3245
+
+Homo_sapiens    3306 CGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAGAACCTCGGCACCACAC   3355
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3246 CGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAGAACCTCGGCACCACAC   3295
+
+Homo_sapiens    3356 TGCCCACCGTCAAGATGATCGTGGAGGTCAGCAAGTCTGCATGCGTCCTC   3405
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3296 TGCCCACCGTCAAGATGATCGTGGAGGTCAGCAAGTCTGCATGCGTCCTC   3345
+
+Homo_sapiens    3406 ACCACGCAGGCTGTCACACGGCTGCTCAGGTCCAAGGAGGCTGCTGCTGC   3455
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+Pan_troglodyt   3346 ACCACGCAGGCTGTCACACGGCTGCTCAGGTCCAAGGAGGCTGCTGCCGC   3395
+
+Homo_sapiens    3456 CGTGGACATCAGGACCTGGCCCACCATCCTAGACACAGATGACATCCCAA   3505
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+Pan_troglodyt   3396 CGTGGACATCAGGACCTGGCCCACCATCCTAGACACAGATGACATCCCGA   3445
+
+Homo_sapiens    3506 AAAAGAAGATAGCAAGCGTTTTCAGGCCCCCCTCCCCCGATGTCCTCGCA   3555
+                     ||||||||.||||.|||.|||||||||||||||||||.||.|||||||||
+Pan_troglodyt   3446 AAAAGAAGGTAGCGAGCATTTTCAGGCCCCCCTCCCCTGACGTCCTCGCA   3495
+
+Homo_sapiens    3556 TACTTGGACTTCAGCGTGTCAACCACTGGGATATTAGCGGGAGTGAAGAT   3605
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3496 TACTTGGACTTCAGCGTGTCAACCACTGGGATATTAGCGGGAGTGAAGAT   3545
+
+Homo_sapiens    3606 GTCGCACGCGGCCACAAGCGCCTTATGCCGCTCCATAAAGCTGCAGTGTG   3655
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3546 GTCACACGCGGCCACAAGCGCCTTATGCCGCTCCATAAAGCTGCAGTGTG   3595
+
+Homo_sapiens    3656 AGCTGTACCCCTCGCGGCAGATCGCCATCTGCCTCGACCCCTACTGTGGC   3705
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3596 AGCTGTACCCCTCGCGGCAGATCGCCATCTGCCTCGACCCCTACTGTGGC   3645
+
+Homo_sapiens    3706 CTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCGGGACACCAATC   3755
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3646 CTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCGGGACACCAATC   3695
+
+Homo_sapiens    3756 AGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTCCCTGTGGCTGT   3805
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3696 AGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTCCCTGTGGCTGT   3745
+
+Homo_sapiens    3806 CGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTTCTGCTCCTACTCTGTG   3855
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3746 CGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTTCTGCTCCTACTCTGTG   3795
+
+Homo_sapiens    3856 ATGGAGATGTGCACCAAGGGCCTAGGCGCACAGACGGGTGTCCTCAGGAT   3905
+                     |||||||||||||||||||||||.||||||||||||||||||||||||||
+Pan_troglodyt   3796 ATGGAGATGTGCACCAAGGGCCTGGGCGCACAGACGGGTGTCCTCAGGAT   3845
+
+Homo_sapiens    3906 GAAGGGGGTGAACCTGTCATGTGTGCGCACGTGCATGGTGGTCGCCGAGG   3955
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3846 GAAGGGGGTGAACCTGTCATGTGTGCGCACGTGCATGGTGGTCGCCGAGG   3895
+
+Homo_sapiens    3956 AGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTCCAAGCTCTTCAAGGAC   4005
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3896 AGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTCCAAGCTCTTCAAGGAC   3945
+
+Homo_sapiens    4006 CTGGGCCTGCCGGCCCGCGCCGTAAGCACCACGTTCGGGTGCAGGGTCAA   4055
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
+Pan_troglodyt   3946 CTGGGCCTGCCGGCCCGCGCTGTAAGCACCACGTTCGGGTGCAGGGTCAA   3995
+
+Homo_sapiens    4056 CGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCTGGCTGAGCAGG   4105
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   3996 CGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCTGGCTGAGCAGG   4045
+
+Homo_sapiens    4106 GCACAGCTGGCCCGGACCCCACAACCGTCTACGTGGACATGCGGGCACTG   4155
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4046 GCACAGCTGGCCCGGACCCCACAACCGTCTACGTGGACATGCGGGCACTG   4095
+
+Homo_sapiens    4156 CGCCATGACAGGGTTCGTTTGGTAGAACGGGGTTCTCCGCACAGCCTGCC   4205
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4096 CGCCATGACAGGGTTCGTTTGGTAGAACGGGGTTCTCCGCACAGCCTGCC   4145
+
+Homo_sapiens    4206 ATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTGAAGGTCATCATCGCAC   4255
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4146 ATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTGAAGGTCATCATCGCAC   4195
+
+Homo_sapiens    4256 ACACCGAGACCAAAGGACCCTTGGGAGACTCACACCTGGGAGAGATCTGG   4305
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4196 ACACCGAGACCAAAGGACCCTTGGGAGACTCACACCTGGGAGAGATCTGG   4245
+
+Homo_sapiens    4306 GTAAGCAGCCCCCACAATGCCACCGGGTACTACACCGTTTACGGGGAGGA   4355
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4246 GTAAGCAGCCCCCACAATGCCACCGGGTACTACACCGTTTACGGGGAGGA   4295
+
+Homo_sapiens    4356 GGCGCTTCATGCCGACCACTTCAGTGCCCGGCTGAGTTTTGGAGACACAC   4405
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4296 GGCGCTTCATGCCGACCACTTCAGTGCCCGGCTGAGTTTTGGAGACACAC   4345
+
+Homo_sapiens    4406 AGACCATCTGGGCAAGGACCGGCTACCTTGGCTTCCTTCGGCGAACAGAG   4455
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4346 AGACCATCTGGGCAAGGACCGGCTACCTTGGCTTCCTTCGGCGAACAGAG   4395
+
+Homo_sapiens    4456 CTCACTGATGCCAGTGGAGGGCGGCACGATGCACTGTATGTGGTTGGGTC   4505
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4396 CTCACTGATGCCAGTGGAGGGCGGCACGATGCACTGTATGTGGTTGGGTC   4445
+
+Homo_sapiens    4506 TCTGGATGAAACTCTGGAGCTCAGAGGCATGCGGTACCACCCCATCGACA   4555
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4446 TCTGGATGAAACTCTGGAGCTCAGAGGCATGCGGTACCACCCCATCGACA   4495
+
+Homo_sapiens    4556 TTGAGACCTCTGTCATCCGAGCACACAGGAGCATCGCTGAGTGTGCCGTA   4605
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4496 TTGAGACCTCTGTCATCCGAGCACACAGGAGCATCGCTGAGTGTGCCGTA   4545
+
+Homo_sapiens    4606 TTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTGGATGGGCTAGA   4655
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4546 TTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTGGATGGGCTAGA   4595
+
+Homo_sapiens    4656 GCAGGATGCCCTGGACCTGGTGGCCCTGGTGACCAACGTGGTGCTGGAGG   4705
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4596 GCAGGATGCCCTGGACCTGGTGGCCCTGGTGACCAACGTGGTGCTGGAGG   4645
+
+Homo_sapiens    4706 AGCACTACCTGGTCGTGGGAGTGGTGGTCATCGTGGACCCAGGGGTGATC   4755
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4646 AGCACTACCTGGTCGTGGGAGTGGTGGTCATCGTGGACCCAGGGGTGATC   4695
+
+Homo_sapiens    4756 CCTATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTGCGGGACGGCTT   4805
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Pan_troglodyt   4696 CCTATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTGCGGGACGGCTT   4745
+
+Homo_sapiens    4806 CCTGGCTGACCAGCTGGACCCCATCTATGTCGCCTACAACATG   4848
+                     ||||||||||||||||||||||||||||||.||||||||||||
+Pan_troglodyt   4746 CCTGGCTGACCAGCTGGACCCCATCTATGTGGCCTACAACATG   4788
+
+
+#---------------------------------------
+#---------------------------------------

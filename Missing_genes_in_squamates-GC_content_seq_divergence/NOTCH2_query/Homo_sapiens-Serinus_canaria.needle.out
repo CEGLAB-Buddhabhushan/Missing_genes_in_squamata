@@ -1,0 +1,658 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:55:20
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Serinus_canaria.fa
+#    -outfile Homo_sapiens-Serinus_canaria.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Serinus_canaria.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Serinus_canaria
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7774
+# Identity:    5470/7774 (70.4%)
+# Similarity:  5470/7774 (70.4%)
+# Gaps:         788/7774 (10.1%)
+# Score: 19334.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 AT-GCCCGCCCTGCG----CCCCGCTCTGCTGTGGGCGCTGCTGGCGCT-     44
+                     || |.||||...|||    ||.|||||..|     |||||.||.||.|| 
+Serinus_canar      1 ATGGACCGCGGAGCGGGGCCCGCGCTCGCC-----GCGCTCCTCGCCCTG     45
+
+Homo_sapiens      45 ---CTGGCTGTGCT-----GCGCGGCCCCCG-CGCATGCATTGCAGTGTC     85
+                        |||||.|||||     ||||.|..|||| ||| .||..||||||||.
+Serinus_canar     46 GTGCTGGCCGTGCTCCACCGCGCCGAGCCCGCCGC-CGCTCTGCAGTGTA     94
+
+Homo_sapiens      86 GAGATGGCTATGAACCCTGTGTAAATGAAGGAATGTGTGTTACCTACCAC    135
+                     ..||||.||...|.||.|||||.|||||.||||.|||..||.|.||.||.
+Serinus_canar     95 TGGATGACTCCAAGCCATGTGTTAATGAGGGAAAGTGCATTCCATATCAA    144
+
+Homo_sapiens     136 AATGGCACAGGATACTGCAAATGTCCAGAAGGCTTCTTGGGGGAATATTG    185
+                     |||||.||||||||.|||||.||.|.||||||||||.|.||.||.||.||
+Serinus_canar    145 AATGGTACAGGATATTGCAAGTGCCGAGAAGGCTTCCTTGGAGACTACTG    194
+
+Homo_sapiens     186 TCA--ACATCGAGACCCCTGTGAGAAGAACCGCTGCCAGAATGGTGGGAC    233
+                     |||  |||  ||.||||||||||||..||...|||..||||.||.||.||
+Serinus_canar    195 TCAGTACA--GAAACCCCTGTGAGAGCAATACCTGTAAGAACGGCGGTAC    242
+
+Homo_sapiens     234 TTGTGTGGCCCAGGC--CATGCTGG---GGAAAGCC-ACGTGCCGATGTG    277
+                     .||||      |.||  |||.|..|   |||||||| ||.|||...||||
+Serinus_canar    243 CTGTG------AAGCTGCATCCCTGATAGGAAAGCCGACCTGCAAGTGTG    286
+
+Homo_sapiens     278 CCTCAGGGTTTACAGGAGAGGACTGCCAGTACTCAACATCTCATCCATGC    327
+                     |..||||.||.||.||.|||||.||.|||||||||..||||||.|..|||
+Serinus_canar    287 CTCCAGGATTCACGGGGGAGGAGTGTCAGTACTCAGAATCTCACCTCTGC    336
+
+Homo_sapiens     328 TTTGTGTCTCGACCCTGCCTGAATGGCGGCACATGCCATATGCTCAGCCG    377
+                     |..|||||.|..|||||||||||.||.|||||.||.||....|.|.|||.
+Serinus_canar    337 TACGTGTCCCAGCCCTGCCTGAACGGGGGCACTTGTCACCCCCACGGCCA    386
+
+Homo_sapiens     378 GGATACCTATGAGTGCACCTGTCAAGTC--GGGTTTACAGGTAAGGAGTG    425
+                     |||.||.||.||||||..|||||  .||  ||.||.|||||.|||||.||
+Serinus_canar    387 GGACACGTACGAGTGCGTCTGTC--TTCCAGGCTTCACAGGAAAGGAATG    434
+
+Homo_sapiens     426 CCAATGGACGGATGCCTGCCTGTCTCATCCCTGTGCAAATGGAAGTACCT    475
+                     |||.||||..|||||||||..|||.||.||.|||||.|||||||||||.|
+Serinus_canar    435 CCAGTGGATTGATGCCTGCACGTCCCAACCGTGTGCCAATGGAAGTACGT    484
+
+Homo_sapiens     476 GTACCACTGTG---GCCAACCAGTTCTCCTGCAAATGCCTCACAGGCTTC    522
+                     |   |||.|||   |..||..||||||||||||..|||||..||||||.|
+Serinus_canar    485 G---CACCGTGTCTGGAAATAAGTTCTCCTGCACCTGCCTGGCAGGCTAC    531
+
+Homo_sapiens     523 ACAGGGCAGAAATGTGAGACTGATGTCAATGAGTGTGACATTCCAGGACA    572
+                     ||.||.||||..||.|||||.||.||.||||||||||.||..||.||.|.
+Serinus_canar    532 ACCGGCCAGAGGTGCGAGACAGACGTGAATGAGTGTGCCACGCCGGGGCT    581
+
+Homo_sapiens     573 CTGCCAGCATGGTGGCACCTGCCTCAACCTGCCTGGTTCCTACCAGTGCC    622
+                     .||||||||.|||||||||||..||||||||||.||.||..|||..||||
+Serinus_canar    582 GTGCCAGCACGGTGGCACCTGTGTCAACCTGCCCGGCTCGCACCGCTGCC    631
+
+Homo_sapiens     623 AGTGCCCTCAGGGCTTCACAGGCCAGTACTGTGACAGCCTGTATGTGCCC    672
+                     ||||||..|.|||||.|||.||||....|||.||.|||||.||.||||||
+Serinus_canar    632 AGTGCCGGCCGGGCTACACCGGCCCCCGCTGCGAGAGCCTCTACGTGCCC    681
+
+Homo_sapiens     673 TGTGCACCCTCACCTTGTGTCAATGGAGGCACCTGTCGGCAGACTGGTGA    722
+                     ||..|.||.|||||.||..|.||.||.||||||||.|..||.||..|.||
+Serinus_canar    682 TGCTCGCCGTCACCCTGCCTGAACGGGGGCACCTGCCACCAAACCAGCGA    731
+
+Homo_sapiens     723 CTTCACTTTTGAGTGCAACTGCCTTCCAGGTTTTGAAGGGAGCACCTGTG    772
+                     ||||||.||.||||||||||||||.||||||||.||.||.|||..|||.|
+Serinus_canar    732 CTTCACCTTCGAGTGCAACTGCCTGCCAGGTTTCGAGGGAAGCGTCTGCG    781
+
+Homo_sapiens     773 AGA-GGAATATTGATGACTGCCCTAACCACAGGTGTCAGAATGGAGGGGT    821
+                      || ..||..|.||.||||||||.|||||||.|||.|.|||.||.||.||
+Serinus_canar    782 -GACACAACGTGGACGACTGCCCCAACCACAAGTGCCTGAACGGGGGCGT    830
+
+Homo_sapiens     822 TTGTGTGGATGGGGTCAACACTTACAACTGCCGCTGTCCCCCACAATGGA    871
+                     .||.|||||.|||||.|||||.||||||||||||||.||.||.||.||||
+Serinus_canar    831 GTGCGTGGACGGGGTGAACACCTACAACTGCCGCTGCCCGCCCCAGTGGA    880
+
+Homo_sapiens     872 CAGGACAGTTCTGCACAGAGGATGTGGATGAATGCCTGCTGCAGCCCAAT    921
+                     ||||.|||||.|||||.||||||||||||||.||||.|||.|||||||||
+Serinus_canar    881 CAGGCCAGTTTTGCACCGAGGATGTGGATGAGTGCCAGCTCCAGCCCAAT    930
+
+Homo_sapiens     922 GCCTGTCAAAATGGGGGCACCTGTGCCAACCGCAATGGAGGCTATGGCTG    971
+                     |||||.||.||.|||||||||||..||||||.|||.||.|||||.|.|||
+Serinus_canar    931 GCCTGCCAGAACGGGGGCACCTGCACCAACCACAACGGGGGCTACGCCTG    980
+
+Homo_sapiens     972 TGTATGTGTCAACGGCTGGAGTGGAGATGACTGCAGTGAGAACATTGATG   1021
+                     |||.||.||||||||||||||.||.||.||||||||..|||||||.||.|
+Serinus_canar    981 TGTCTGCGTCAACGGCTGGAGCGGCGACGACTGCAGCAAGAACATCGACG   1030
+
+Homo_sapiens    1022 ATTGTGCCTTC---GCCTCCTGTACTCCA--GGCTCCACCTGCATCGACC   1066
+                     |.||   ||||   |||||||||  .|||  ||||||||||||||||||.
+Serinus_canar   1031 ACTG---CTTCACTGCCTCCTGT--GCCAACGGCTCCACCTGCATCGACA   1075
+
+Homo_sapiens    1067 GTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGGGAAGGCAGGTCTCCTG   1116
+                     |.|||||.||||||||.|||||.||.||||||||||||||||||||.|||
+Serinus_canar   1076 GGGTGGCTTCCTTCTCCTGCATTTGTCCAGAGGGGAAGGCAGGTCTTCTG   1125
+
+Homo_sapiens    1117 TGTCATCTGGATGATGCATGCATCAGCAATCCTTGCCACAAGGGGGCACT   1166
+                     ||.||..||||||||||.||..|.||||||||.|||||.||.||.||.||
+Serinus_canar   1126 TGCCACTTGGATGATGCCTGTGTTAGCAATCCGTGCCAGAAAGGTGCTCT   1175
+
+Homo_sapiens    1167 GTGTGACACCAACCCCCTAAATGGGCAATATATTTGCACCTGCCCACAAG   1216
+                     .||||||||||||||..|.|||||..|.||.||.||||||||.||.||.|
+Serinus_canar   1176 CTGTGACACCAACCCTGTGAATGGAAACTACATCTGCACCTGTCCCCAGG   1225
+
+Homo_sapiens    1217 GCTACAAAGGGGCTGACTGCACAGAAGATGTGGATGAATGTGCCATGGCC   1266
+                     ||.|.||.||.||.||||||||.||.|||||||||||||||||.|||||.
+Serinus_canar   1226 GCCATAAGGGAGCAGACTGCACTGAGGATGTGGATGAATGTGCAATGGCA   1275
+
+Homo_sapiens    1267 AATAGCAATCCTTGTGAGCATGCAGGAAAATGTGTGAACACGGATGGCGC   1316
+                     ||.||||||||.||||||||.||.||.||||||||.|||||.||.|||.|
+Serinus_canar   1276 AACAGCAATCCGTGTGAGCACGCCGGGAAATGTGTCAACACCGAGGGCTC   1325
+
+Homo_sapiens    1317 CTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGACCTCGTTGTGAGATGG   1366
+                     .||||||||||||||.||||||||.||..||||.|||||.||||||||||
+Serinus_canar   1326 TTTCCACTGTGAGTGCCTGAAGGGCTACACAGGGCCTCGCTGTGAGATGG   1375
+
+Homo_sapiens    1367 ACATCAATGAGTGCCATTCAGACCCCTGCCAGAATGATGCTACCTGTCTG   1416
+                     ||||||||||.|||||.|||.||||.||||||||.|||||.|||||.|||
+Serinus_canar   1376 ACATCAATGAATGCCACTCAAACCCGTGCCAGAACGATGCCACCTGCCTG   1425
+
+Homo_sapiens    1417 GATAAGATTGGAGGCTTCACATGTCTGTGCATGCCAGGTTTCAAAGGTGT   1466
+                     |||||.||||||||.|||||.|||||.||.|||||||||||.|||||.||
+Serinus_canar   1426 GATAAAATTGGAGGATTCACCTGTCTCTGTATGCCAGGTTTTAAAGGAGT   1475
+
+Homo_sapiens    1467 GCATTGTGAATTAGAAATAAATGAATGTCAGAGCAACCCTTGTGTGAACA   1516
+                     .||.||||||..|||.||..|||||||.|.|||.||.||.||||||||||
+Serinus_canar   1476 TCACTGTGAAGAAGATATTGATGAATGCCTGAGTAATCCCTGTGTGAACA   1525
+
+Homo_sapiens    1517 ATGGGCAGTGTG--TGGATAAAGTCAATCGTTTCCAGTGCCTGTGT----   1560
+                     ||||  ||||||  |.||||||||||||||.||||    .||||||    
+Serinus_canar   1526 ATGG--AGTGTGTCTTGATAAAGTCAATCGCTTCC----TCTGTGTCTGC   1569
+
+Homo_sapiens    1561 CCTCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTGATGACTGTTC   1610
+                     ||||||||.||||.||||.|.||.|||||||||||.||.||.||||||||
+Serinus_canar   1570 CCTCCTGGGTTCAGTGGGGCCGTGTGCCAGATTGACATAGACGACTGTTC   1619
+
+Homo_sapiens    1611 CAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCACCCGAATGGCT   1660
+                     |||.||.||||||||.|||||.||.|||||.||.||.|||||.|||||||
+Serinus_canar   1620 CAGCACGCCGTGTCTCAATGGAGCCAAGTGCATTGACCACCCCAATGGCT   1669
+
+Homo_sapiens    1661 ATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTGTGAGGAGAAC   1710
+                     |.||.||||||||||||||||||||.|||||..|..||||||||||||||
+Serinus_canar   1670 ACGAGTGCCAGTGTGCCACAGGTTTTACTGGCCTTCTGTGTGAGGAGAAC   1719
+
+Homo_sapiens    1711 ATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGTGTCAGGATGG   1760
+                     ||..|||||||||||||.|||||.||||||||.||..|.||.||||||||
+Serinus_canar   1720 ATCAACAACTGTGACCCTGATCCCTGCCACCACGGGGAATGCCAGGATGG   1769
+
+Homo_sapiens    1761 TATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATGGGCGCCATCT   1810
+                     .||.|||||.|||||||||||||||||.||.||.||||||||.|||||.|
+Serinus_canar   1770 CATAGATTCATACACCTGCATCTGCAACCCTGGCTACATGGGTGCCATAT   1819
+
+Homo_sapiens    1811 GCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCTGAACGATGGT   1860
+                     |||||||.||||||||.||.||..|||||||.||||||||.|||.|.||.
+Serinus_canar   1820 GCAGTGAGCAGATTGACGAGTGCCACAGCAGTCCTTGCCTCAACCAAGGG   1869
+
+Homo_sapiens    1861 CGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCCAGCCAGGCAC   1910
+                     ||||||||.|||||||||||||||||||||||||||||||.||..|||||
+Serinus_canar   1870 CGCTGCATCGACCTGGTCAATGGCTACCAGTGCAACTGCCTGCTGGGCAC   1919
+
+Homo_sapiens    1911 GTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCAAGTAACCCTT   1960
+                     .|||||..|.||.|||||.|.|||.|||||.||||||||.||||||||.|
+Serinus_canar   1920 CTCAGGAATAAACTGTGAGAATAACTTTGACGACTGTGCCAGTAACCCGT   1969
+
+Homo_sapiens    1961 GTATCCATGGAATCTGTATGGATGGCATTAATCGCTACAGTTGTGTCTGC   2010
+                     |..|.|.|||.|.||||.|.|||||||||||||||||||..||...|||.
+Serinus_canar   1970 GCGTGCGTGGGACCTGTGTAGATGGCATTAATCGCTACAACTGCACCTGT   2019
+
+Homo_sapiens    2011 TCACCAGGATTCACAGGGCAGAGATGTAACATTGACATTGATGAGTGTGC   2060
+                     ..|||.|||||.|||||.|...||||.|||.|.|||||.||||||||..|
+Serinus_canar   2020 GAACCTGGATTTACAGGCCCCCGATGCAACGTGGACATCGATGAGTGCAC   2069
+
+Homo_sapiens    2061 CTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGTGTGAATGGTT   2110
+                     .||||..|||||.|.|||.||.|..||.||.|||||||..|||||.||.|
+Serinus_canar   2070 GTCCAGCCCCTGCCACAACGGCGGCACGTGCATCAACGAGGTGAACGGCT   2119
+
+Homo_sapiens    2111 TCCGCTGTATATGCCCCGAGGGACCCCATCACCC-CAGCTGCTACTCACA   2159
+                     |||||||..|.|||||||||||...|||.||||| || ||||.|..|.||
+Serinus_canar   2120 TCCGCTGCGTGTGCCCCGAGGGCTTCCACCACCCGCA-CTGCCAGCCCCA   2168
+
+Homo_sapiens    2160 GGTGAACGAATGCCTGAGCAATCCCTGCATCCATGGAAACTG------TA   2203
+                     ||...|||..|||||.||||..|||||..|.||.||.|||||      .|
+Serinus_canar   2169 GGCCGACGGCTGCCTCAGCAGCCCCTGTGTGCACGGCAACTGCACACCCA   2218
+
+Homo_sapiens    2204 CTGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGTTGGC   2253
+                     |||      .||..||.||.||||||.|||||||..||||||||.|.|| 
+Serinus_canar   2219 CTG------CCACCGGGTACAAGTGTGTCTGTGACCCAGGCTGGATAGG-   2261
+
+Homo_sapiens    2254 A---------TCAACTGTGAAGTGGACAAAAATGAATGCCTTTCGAATCC   2294
+                     |         |||||  .||||.|      ||||||||....||.||.||
+Serinus_canar   2262 AGATTATTGTTCAAC--AGAAGGG------AATGAATGTAAATCAAACCC   2303
+
+Homo_sapiens    2295 ATGCCAGAATGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGTGTA   2344
+                     ||||||||||||||||||.|||||..|||||.|||||||||||||.||||
+Serinus_canar   2304 ATGCCAGAATGGAGGAACATGTGAGGATCTGTTGAATGGATACAGATGTA   2353
+
+Homo_sapiens    2345 CTTGCAAGAAGGGCTTTAAAGGCTAT-AACTGCCAGGTGAATATTGATGA   2393
+                     |.||||.||||||.||.||||| |.| |||||||||||            
+Serinus_canar   2354 CCTGCAGGAAGGGATTCAAAGG-TGTGAACTGCCAGGT------------   2390
+
+Homo_sapiens    2394 ATGTGCCTCAAATCCATGCCTGAACCAAGGAACCTGCTTTGATGACATAA   2443
+                                                                      |
+Serinus_canar   2391 -------------------------------------------------A   2391
+
+Homo_sapiens    2444 GTGGCTACACTTGCCACTGTGTGCTGCCATACACAGGCAAGAATTGTCAG   2493
+                     ||||                                              
+Serinus_canar   2392 GTGG----------------------------------------------   2395
+
+Homo_sapiens    2494 ACAGTATTGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGTTTG   2543
+                            |..||||.||||||||.||.|||||.|||||..|.|...|.||
+Serinus_canar   2396 -------TTTCTCCTTGTTCCCCTAATCCTTGCGAGAACTCGGGAATCTG   2438
+
+Homo_sapiens    2544 CAAAGAGTCACCAAATTTTGAGAGTTATACTTGCTTGTGTGCTCCTGGCT   2593
+                     |.||||.||.||..|.|.|||..|.||.||.|||..||||||||||||||
+Serinus_canar   2439 CCAAGAATCTCCTGACTCTGAAGGCTACACCTGCCAGTGTGCTCCTGGCT   2488
+
+Homo_sapiens    2594 GGCAAGGTCAGCGGTGTACCATTGACATTGACGAGTGTATCTCCAAGCCC   2643
+                     ||.||||..|..|.||.||..|.||.|||||.||||||.|||||||||||
+Serinus_canar   2489 GGGAAGGGGAAAGATGCACAGTGGATATTGATGAGTGTCTCTCCAAGCCC   2538
+
+Homo_sapiens    2644 TGCATGAACCATGGTCTCTGCCATAACACCCAGGGCAGCTACATGTGTGA   2693
+                     ||||.||||||.|..||.|||||.||||.|||||||||.|||.||||.||
+Serinus_canar   2539 TGCAAGAACCACGCCCTGTGCCACAACATCCAGGGCAGTTACCTGTGCGA   2588
+
+Homo_sapiens    2694 ATGTCCACCAGGCTTCAGTGGTATGGACTGTG--AGGAGGACATTGATGA   2741
+                     .||.|..||.|||||||..||....|||||.|  ||.|  ||||.||.||
+Serinus_canar   2589 GTGCCGGCCCGGCTTCACCGGCGGCGACTGCGACAGCA--ACATCGACGA   2636
+
+Homo_sapiens    2742 CTGCCTTGCCAA--TCCTTGCC------AGAATGGAGGTTCCTGTATG--   2781
+                     ||||||.|||||  ||  .|||      |||..|.||.|||..|.|||  
+Serinus_canar   2637 CTGCCTGGCCAAATTC--AGCCCCCAAGAGAGAGCAGCTTCTGGGATGAG   2684
+
+Homo_sapiens    2782 -------------GATG----GAGTGAATACT---TTCTCCTGCCTC--T   2809
+                                  ||||    |.|| |.|.||   .||| |||||||  |
+Serinus_canar   2685 CAGTTTAGTGTTTGATGAGCAGGGT-AGTGCTGGCATCT-CTGCCTCATT   2732
+
+Homo_sapiens    2810 GCCTTCCGGG---------------------TTTCACTG----GGGA---   2831
+                     ||..||  ||                     ||||.|||    ||||   
+Serinus_canar   2733 GCAGTC--GGAATTTCGATATTTCAAGCTCATTTCCCTGCTCTGGGAGTT   2780
+
+Homo_sapiens    2832 ---TAAGTGC-----CAGACAGACATGAATGAGTGTCTGAGTGA------   2867
+                        ..|||||     |||.||||        ||| |...|||||      
+Serinus_canar   2781 CAGGGAGTGCTTCTTCAGCCAGA--------AGT-TAGCAGTGATCAAAA   2821
+
+Homo_sapiens    2868 -ACCCTGTAAGAATGGAGGGACCTGCTCTGACTACGTCAACAGTTACACT   2916
+                      |.|||||           .|.|||||.|              |..|.||
+Serinus_canar   2822 GATCCTGT-----------TATCTGCTTT--------------TCTCCCT   2846
+
+Homo_sapiens    2917 TGCAAGTGCCAGGCAGGATT-TGATGGAGTCCATTGTGAGAACAACATCA   2965
+                     |   ||| .|||.||.|.|| ||     .|||.||.||         ||.
+Serinus_canar   2847 T---AGT-TCAGTCATGTTTCTG-----TTCCCTTTTG---------TCT   2878
+
+Homo_sapiens    2966 ATGAG-----TGCA------CTGAG-------------------------   2979
+                     .||||     ||||      ||.||                         
+Serinus_canar   2879 GTGAGCTAATTGCATTTTGTCTCAGCTTACCTTTCTTGCTCCTGCCTTGC   2928
+
+Homo_sapiens    2980 AGCTCCTGTTTCAATGGTGGCACATGTGTTGATGGGATTAACTCCTTCTC   3029
+                     |||||||||||||||||.|||||.|||||.|||||..|.||.||||||.|
+Serinus_canar   2929 AGCTCCTGTTTCAATGGAGGCACTTGTGTGGATGGAGTCAATTCCTTCAC   2978
+
+Homo_sapiens    3030 TTGCTTGTGCCCTGTGGGTTTCACTGGATCCTTCTGCCT-CCATGAGATC   3078
+                     .|||..||||||..||||.|||||.||..|||||||||| .|| ||.|||
+Serinus_canar   2979 CTGCCAGTGCCCCCTGGGCTTCACGGGCCCCTTCTGCCTGACA-GAAATC   3027
+
+Homo_sapiens    3079 AATGAATGCAGCTCTCATCCATGCCTGAATGAGGGAACGTGTGTTGATGG   3128
+                     ||.||.||...|||.||.||.|||||.||...|||.||.|||||.||..|
+Serinus_canar   3028 AACGAGTGTGACTCCCACCCCTGCCTCAACAGGGGCACCTGTGTGGACAG   3077
+
+Homo_sapiens    3129 CCTGGGTACCTACCGCTGCAGCTGCCCCCTGGGCTACACTGGGAAAAACT   3178
+                     ||||||.||.|||.|.||.|.|||.|||.|||||||||||||.||.||||
+Serinus_canar   3078 CCTGGGCACATACAGGTGTATCTGTCCCTTGGGCTACACTGGCAAGAACT   3127
+
+Homo_sapiens    3179 GTCAGACCCTGGTGAATCTCTGCAGTCGGTCTCCATGTAAAAACAAAGGT   3228
+                     |..||.|.||||||.||||.|||||...||||||.||.||.|||||.||.
+Serinus_canar   3128 GCAAGTCTCTGGTGGATCTGTGCAGCAAGTCTCCCTGCAAGAACAAGGGC   3177
+
+Homo_sapiens    3229 ACTTGCGTTCAGAAAAAAGCAGA----GTCCCAG------TGCCTAT---   3265
+                     ||.||.||          |||||    |.|||||      |||||.|   
+Serinus_canar   3178 ACCTGTGT----------GCAGACTCTGGCCCAGACCCGCTGCCTGTGCC   3217
+
+Homo_sapiens    3266 -GTCCATCTGGATGGGCTGGTGCCTATTGTGACGTGCCCAATGTCTCTTG   3314
+                      |.|||.|||||    |.||.|||||.||.|||||||||||.|||||  |
+Serinus_canar   3218 CGCCCAGCTGGA----CCGGCGCCTACTGCGACGTGCCCAACGTCTC--G   3261
+
+Homo_sapiens    3315 TGACA--TAGCAGCCTC-CAGGAGAGGTGTGCTTGTTGAACACTTGTGCC   3361
+                     ||.||  |.|||||.|| || ||||||.||.|..||.||.||..||||||
+Serinus_canar   3262 TGCCAGGTGGCAGCTTCACA-GAGAGGAGTCCCCGTGGACCAGCTGTGCC   3310
+
+Homo_sapiens    3362 AGCACTCAGGTGTCTGCATCAATGCTGGCAACACGCATTACTGTCAGTGC   3411
+                     |||||||.|||..||||.||||.|..||.||||..||..||||.||||||
+Serinus_canar   3311 AGCACTCTGGTCACTGCCTCAACGTGGGGAACAGCCACCACTGCCAGTGC   3360
+
+Homo_sapiens    3412 CCCCTGGGCTATACTGGGAGCTACTGTGAGGAGCAACTCGATGAGTGTGC   3461
+                     |...|||||||.||.||.||||||||.||||.|||.||.||||||||||.
+Serinus_canar   3361 CAGGTGGGCTACACGGGCAGCTACTGCGAGGTGCAGCTGGATGAGTGTGA   3410
+
+Homo_sapiens    3462 GTCCAACCCCTGCCAGCACGGGGCAACATGCAGTGACTTCATTGGTGGAT   3511
+                     .||||.||||||||||.||||.||.||.|||.|.|||..|.|.||.||||
+Serinus_canar   3411 CTCCAGCCCCTGCCAGAACGGAGCCACCTGCCGGGACCACCTGGGCGGAT   3460
+
+Homo_sapiens    3512 A-CAGATGCGAGTGTGTCCCAGGCTATCAGGGTGTCAACTGTGAGTATGA   3560
+                     | ||| |||||||||||..|.||.||.|||||.||||||||.|||||.||
+Serinus_canar   3461 ACCAG-TGCGAGTGTGTGGCTGGATACCAGGGGGTCAACTGCGAGTACGA   3509
+
+Homo_sapiens    3561 AGTGGATGAGTGCCAGAATCAGCCCTGCCAGAATGGAGGCACCTGTATTG   3610
+                     .|||||||||||||||...||||||||||||||||||||||||||.||.|
+Serinus_canar   3510 GGTGGATGAGTGCCAGTTCCAGCCCTGCCAGAATGGAGGCACCTGCATCG   3559
+
+Homo_sapiens    3611 ACCTTGTGAACCATTTCAAGTGCTCTTGCCCACCAGGCACTCGGGGCCTA   3660
+                     ||||.||.||.||.|||||||||||.|||||||||||.||.|||||||..
+Serinus_canar   3560 ACCTGGTCAATCACTTCAAGTGCTCCTGCCCACCAGGAACCCGGGGCCGG   3609
+
+Homo_sapiens    3661 CTCTGTGAAGAGAACATTGATGACT-------GTGCCCGGGG--TCCCCA   3701
+                     ||||||||.||||||.|.|||||||       |..|.|||||  |||.|.
+Serinus_canar   3610 CTCTGTGAGGAGAACGTGGATGACTGCATCTCGGACTCGGGGGCTCCACG   3659
+
+Homo_sapiens    3702 TTGCCTTAATGGTGGTCAGTGCATGGATAGGATTGGAGGCTACAGTTGTC   3751
+                     .|||.|.||.||.||.||||||.|.||...|||.||.||.|.||      
+Serinus_canar   3660 CTGCTTCAACGGGGGGCAGTGCCTTGACCAGATCGGGGGGTTCA------   3703
+
+Homo_sapiens    3752 GCTGCTTG------CCTGGCTTTGCTGGGGAGCGTTGTGAGGGAGACATC   3795
+                     |||||.||      |..||||||||.||||||||.||.|||||.||||||
+Serinus_canar   3704 GCTGCCTGTGTCCCCAGGGCTTTGCGGGGGAGCGCTGCGAGGGCGACATC   3753
+
+Homo_sapiens    3796 AACGAGTGCCTCTCCAACCCCTGCAGCTC-TGAGGGCAGCCTGGACTGTA   3844
+                     |||||||||||||||||||||||||||.| .|.||| |||||||||||..
+Serinus_canar   3754 AACGAGTGCCTCTCCAACCCCTGCAGCCCACGCGGG-AGCCTGGACTGCG   3802
+
+Homo_sapiens    3845 TACAGCTCACCAATGACTACCTGTGTGTTTGCCGTAGTGCCTTTACTGGC   3894
+                     |.|||||||..|||||||||..|||..|.|||||.||.||.||.||||||
+Serinus_canar   3803 TGCAGCTCAGAAATGACTACAGGTGCATCTGCCGAAGCGCTTTCACTGGC   3852
+
+Homo_sapiens    3895 CGGCACTGTGAAACCTTCGTCGATGTGTGTCCCCAGATGCCCTGCCTGAA   3944
+                     ||.||||||||.|...||.||||.||||||||.|..|.|||.||||.|||
+Serinus_canar   3853 CGTCACTGTGAGAGTGTCATCGACGTGTGTCCGCGCAAGCCGTGCCAGAA   3902
+
+Homo_sapiens    3945 TGGAGGGACTTGTGCTGTGGCCAGTAACATGCCTGATGGTTTCATTTGCC   3994
+                     .||.||.||.||.||.||||||||.||||||||.|||||.|||||.||||
+Serinus_canar   3903 CGGTGGCACCTGCGCGGTGGCCAGCAACATGCCCGATGGCTTCATCTGCC   3952
+
+Homo_sapiens    3995 GTTGTCCCCCGGGATTTTCCGGGGC--AAGGT----------GCCAGAGC   4032
+                     ..||.||||||||.|.|||.||.||  ||.||          ||||.||.
+Serinus_canar   3953 AGTGCCCCCCGGGTTATTCTGGAGCCAAATGTGAGTTCAACAGCCACAGT   4002
+
+Homo_sapiens    4033 AGCTGTGGACAAGTGAAATGTAGGAAGGGGGAGCAGTGTGTGCACACCGC   4082
+                     |.||||||||||||||||||.|.||||||.||||||||..|.||.||..|
+Serinus_canar   4003 ACCTGTGGACAAGTGAAATGCAAGAAGGGAGAGCAGTGCATCCAAACGTC   4052
+
+Homo_sapiens    4083 CTCTGGACCCCGCTGCTTCTGCCCCA----GTCCCCG-----GGACTGCG   4123
+                     .|||||.||.||.||||..|||||||    |||...|     |||.|||.
+Serinus_canar   4053 TTCTGGTCCTCGGTGCTATTGCCCCAAGCTGTCTGTGGGAGAGGAATGCC   4102
+
+Homo_sapiens    4124 AG------TCAGGCTGTGCCAGTAGCCCCTGCCAGCACGGGGGCAGCTGC   4167
+                     ||      .||||||||||||||..||||||||||.||||||||||||||
+Serinus_canar   4103 AGACACACCCAGGCTGTGCCAGTGCCCCCTGCCAGAACGGGGGCAGCTGC   4152
+
+Homo_sapiens    4168 CACCCTCAGCGCCAGCCTCCTTATTACTCCTGCCAGTG---TGC-----C   4209
+                     ||||||||....|||||||||||.||.|.|||||||||   |||     |
+Serinus_canar   4153 CACCCTCATTCTCAGCCTCCTTACTATTACTGCCAGTGCCCTGCTCACAC   4202
+
+Homo_sapiens    4210 CCACCATTCTCGGGTAGCCGCTGTGAACTCTACACGGCACCCC-------   4252
+                     |||        |||.||||.||||||          |||.|||       
+Serinus_canar   4203 CCA--------GGGCAGCCACTGTGA----------GCAGCCCGTAACGT   4234
+
+Homo_sapiens    4253 ----CCAGCACCCCTCCTGCCA-----CCTG---TCTGAGCCAGTATTGT   4290
+                         ||.|.|.|||     |.|     ||||   ||    ||||   |||
+Serinus_canar   4235 TCAGCCCGGAGCCC-----CGAAGATGCCTGGATTC----CCAG---TGT   4272
+
+Homo_sapiens    4291 GCCGACAAAGCTCGGGATGGCGTCTGTGATGAGGCCTGCAACAGCCATGC   4340
+                     ||.||.|||||..||||||||...||||||||||.|||.||||.||||||
+Serinus_canar   4273 GCAGAAAAAGCCAGGGATGGCTATTGTGATGAGGACTGTAACACCCATGC   4322
+
+Homo_sapiens    4341 CTGCCAGTGGGATGGGGGTGACTGTTCTCTCACCATGGAGAACCCCTGGG   4390
+                     .||||||||||||||.||.|||||.||.||.||..|||||.|.||.||||
+Serinus_canar   4323 GTGCCAGTGGGATGGAGGCGACTGCTCCCTGACTGTGGAGGATCCTTGGG   4372
+
+Homo_sapiens    4391 CCAACTGCTCCTCCCCACTTCCCTGCTGG--GATTATATCAACAACCAGT   4438
+                     ||||||||||||||.|.||.|||||||||  |.|  |.||||....||||
+Serinus_canar   4373 CCAACTGCTCCTCCTCCCTGCCCTGCTGGATGCT--TTTCAATGGGCAGT   4420
+
+Homo_sapiens    4439 GTGATGAGCTGTGCAACACGGTCGAGTGCCTGTTTGACAACTTTGAATGC   4488
+                     ||||.|||.|.|||||||||..||||||||||||||||||||||||.||.
+Serinus_canar   4421 GTGACGAGTTCTGCAACACGCCCGAGTGCCTGTTTGACAACTTTGAGTGT   4470
+
+Homo_sapiens    4489 CAGGGGAACAGCAAGACATGCAAGTATGACAAATACTGTGCAGACCACTT   4538
+                     |||...||.||||.|||.||||||||||||||.||||||||.||.||||.
+Serinus_canar   4471 CAGCAAAATAGCAGGACGTGCAAGTATGACAAGTACTGTGCGGATCACTA   4520
+
+Homo_sapiens    4539 CAAAGACAACCACTGTGACCAGGGGTGCAACAGTGAGGAGTGTGGTTGGG   4588
+                     |...|||...|.|||.||||||||.||||||||.||||||||.||.||||
+Serinus_canar   4521 CGCGGACGGGCGCTGCGACCAGGGCTGCAACAGCGAGGAGTGCGGCTGGG   4570
+
+Homo_sapiens    4589 ATGGGCTGGACTGTGCTGCTGACCAACCTGAGAACCTGGCAGAAGGTACC   4638
+                     |.|||||||||||.||.|..|||.|..|.|||||.|||||.||.||.|||
+Serinus_canar   4571 ACGGGCTGGACTGCGCCGGCGACAAGGCCGAGAAGCTGGCGGAGGGCACC   4620
+
+Homo_sapiens    4639 CTGGTTATTGTGGTATTGATGCCACCTGAACAACTGCTCCAGGATGCTCG   4688
+                     ||..|.||.|||||..|||||||.|||||..|.|||||..||||....||
+Serinus_canar   4621 CTCATCATCGTGGTCCTGATGCCCCCTGATGAGCTGCTGGAGGACATCCG   4670
+
+Homo_sapiens    4689 CAGCTTCTTGCGGGCACTGGGTACCCTGCTCCACACCAACCTGCGCATTA   4738
+                     |||||||.||||..|.|||||.||.|||||.||||||||||||.|.||||
+Serinus_canar   4671 CAGCTTCCTGCGCACCCTGGGGACGCTGCTGCACACCAACCTGAGGATTA   4720
+
+Homo_sapiens    4739 AGCGGGACTCCCAGGGGGAACTCATGGTGTACCCCTATTATGGTGAGAAG   4788
+                     |||.|||||||||||||.|.|.||||||||.|||.||.|||||.|||||.
+Serinus_canar   4721 AGCTGGACTCCCAGGGGAACCCCATGGTGTTCCCGTACTATGGGGAGAAA   4770
+
+Homo_sapiens    4789 TCAGCTGCTATGAAGAAACAGAGGATGACACGCAGATCCCT-------TC   4831
+                     ||.||.|                       |||.||.||.|       ||
+Serinus_canar   4771 TCGGCGG-----------------------CGCGGAGCCGTCGGTCGCTC   4797
+
+Homo_sapiens    4832 CTGGTG---AACAAGAACAG-------------GAGGTGGCTGGCTCTAA   4865
+                     .|||||   ..||||.||||             |||||...||||.|.||
+Serinus_canar   4798 GTGGTGGTTCGCAAGCACAGAGAGCTGGAGCAAGAGGTCATTGGCACCAA   4847
+
+Homo_sapiens    4866 AGTCTTTCTGGAAATTGACAACCGCCAGTGTGTTCAAGACTCAGACCACT   4915
+                     .||.||.|||||.||.||||||||||||||||...|.||||||||.||.|
+Serinus_canar   4848 GGTGTTCCTGGAGATCGACAACCGCCAGTGTGCAGAGGACTCAGAGCAAT   4897
+
+Homo_sapiens    4916 GCTTCAAGAACACGGATGCAGCAGCAGCTCTCCTGGCCTCTCACGCCATA   4965
+                     ||||..|.|||||.||.||.||.|||||||||.|.||..||||.|||||.
+Serinus_canar   4898 GCTTTCACAACACAGAAGCTGCTGCAGCTCTCTTAGCTGCTCAGGCCATC   4947
+
+Homo_sapiens    4966 CAGGGGACCCTGTCATACCCTCTTGTGTCTGTCGTCAGTGAATCCCTGAC   5015
+                     .||||.|..|||.|.||.|||.|||||||||||...|||||..||.||..
+Serinus_canar   4948 AAGGGCATGCTGCCCTATCCTTTTGTGTCTGTCCAAAGTGAGCCCTTGTT   4997
+
+Homo_sapiens    5016 TCCA-GAACGCACTCAGCTCCTCTATCTCCTTGCTGTTGCTGTTGTCATC   5064
+                     .||| .||.| ||.|||||.||.||.||.||||||||.||.|.|.|.|||
+Serinus_canar   4998 ACCACCAAAG-ACCCAGCTGCTTTACCTGCTTGCTGTGGCAGCTTTGATC   5046
+
+Homo_sapiens    5065 ATTCTGTTTATTATTCTGCTGGGGGTAATCATGGCAAAACGAAAGCGTAA   5114
+                     ||.|||.|.||..|.|||||||||||.||.|||||.||.||.|||||.||
+Serinus_canar   5047 ATCCTGCTGATCCTCCTGCTGGGGGTGATGATGGCCAAGCGCAAGCGCAA   5096
+
+Homo_sapiens    5115 GCATGGCTCTCTCTGGCTGCCTGAAGGTTTCACTCTTCGCCGAGATGCAA   5164
+                     |||.|||||.||.|||||.|||||.||.||||..||.|||.|.|||.|.|
+Serinus_canar   5097 GCACGGCTCCCTGTGGCTCCCTGAGGGCTTCATCCTGCGCAGGGATCCCA   5146
+
+Homo_sapiens    5165 GCAATCACAAGCGTCGTGAGCCAGTGGGACAGGATGCTGTGGGGCTGAAA   5214
+                     ||||.|||||.||..|.|||||.||.||..||||.|||||.||.||.|||
+Serinus_canar   5147 GCAACCACAAACGCAGGGAGCCTGTTGGGGAGGACGCTGTCGGACTCAAA   5196
+
+Homo_sapiens    5215 AATCTCTCAGTGCAAGTCTCAGAAGCTAACCTAATTGG----TACTGGAA   5260
+                     |||.|.|||||.||..|..||||.|.|||||    |||    ..||||.|
+Serinus_canar   5197 AATTTGTCAGTCCAGATACCAGAGGGTAACC----TGGCCGACCCTGGGA   5242
+
+Homo_sapiens    5261 CAAGTGAACACTGGGTCGATGATGAAGGGCCCCAGCCAAAGAAAGTAAAG   5310
+                     |||.|||.|||||||..|.|||||..||.||.||||||||||.||..|||
+Serinus_canar   5243 CAACTGAGCACTGGGCAGGTGATGGTGGACCTCAGCCAAAGAGAGCCAAG   5292
+
+Homo_sapiens    5311 GCTGAAGATGAGGCCTTACTCTCAGAAGAAGATGACCCCATTGATCGAC-   5359
+                     |||||.||..|||||||.||..||||||..||.||.|    .||||||| 
+Serinus_canar   5293 GCTGAGGACCAGGCCTTGCTGCCAGAAGGGGACGAGC----AGATCGACC   5338
+
+Homo_sapiens    5360 --GGCCA-TGGACACAGCAGCACCTTGAAGCTGCAGACATCCGTAGGA-C   5405
+                       .|||| |||||||||||||||||.|||||.|||||..||.|..|.| |
+Serinus_canar   5339 AGCGCCAGTGGACACAGCAGCACCTGGAAGCAGCAGATGTCTGCGGCAGC   5388
+
+Homo_sapiens    5406 ACCATCGCTGGCTCTCACCCCTCCTCAGGCAGAGCAGGAGGTGGATGTGT   5455
+                     ||| ||.||||||||||||||.||||||||.||.|||||.|||||||||.
+Serinus_canar   5389 ACC-TCCCTGGCTCTCACCCCCCCTCAGGCTGATCAGGAAGTGGATGTGC   5437
+
+Homo_sapiens    5456 TAGATGTGAATGTCCGTGGCCCAGATGGCTGCACCCCATTGATGTTGGCT   5505
+                     |.|||||.||.|||.|.||.|||||.||||||||.||..|||||.||||.
+Serinus_canar   5438 TGGATGTCAACGTCAGGGGGCCAGACGGCTGCACTCCGCTGATGCTGGCA   5487
+
+Homo_sapiens    5506 TCTCTCCGAGGAGGCAGCTCAGATTTGAGTGATGAAGATGAAGATGCAGA   5555
+                     |||||.||.|..|||.||||.||..|.||.||.||.|||||.||.|..||
+Serinus_canar   5488 TCTCTGCGTGCGGGCGGCTCCGACATCAGCGAGGATGATGAGGACGGGGA   5537
+
+Homo_sapiens    5556 GGACTCTTCTGCTAACATCATCACAGACTTGGTCTACCAGGGTGCCAGCC   5605
+                     ||||||.||.||.||||||||||||||..||.||||||||||.||||.||
+Serinus_canar   5538 GGACTCCTCAGCAAACATCATCACAGATCTGATCTACCAGGGGGCCAACC   5587
+
+Homo_sapiens    5606 TCCAGGCCCAGACAGACCGGACTGGTGAGATGGCCCTGCACCTTGCAGCC   5655
+                     |.|||||.|||||||||||.||.||.||||||||.||||||||.||||||
+Serinus_canar   5588 TGCAGGCGCAGACAGACCGCACCGGGGAGATGGCTCTGCACCTGGCAGCC   5637
+
+Homo_sapiens    5656 CGCTACTCACGGGCTGATGCTGCCAAGCGTCTCCTGGATGCAGGTGCAGA   5705
+                     ||||||||.||.||.||.|||||||||||.|||||||||||.||.||.||
+Serinus_canar   5638 CGCTACTCCCGAGCCGACGCTGCCAAGCGGCTCCTGGATGCCGGGGCCGA   5687
+
+Homo_sapiens    5706 TGCCAATGCCCAGGACAACATGGGCCGCTGTCCACTC--CATGCTGCAGT   5753
+                     |||||||||||..|||||||||||.||  |.||.|||  ||.||.||.||
+Serinus_canar   5688 TGCCAATGCCCGAGACAACATGGGACG--GACCCCTCTGCACGCAGCCGT   5735
+
+Homo_sapiens    5754 GGCAGCTGATGCCCAAGGTGTCTTCCAGATTCTGATTCGCAACCGAGTAA   5803
+                     |||.|||||.|||||.||.||.||||||||.|||||.||.|||.||||.|
+Serinus_canar   5736 GGCTGCTGACGCCCAGGGGGTTTTCCAGATCCTGATCCGTAACAGAGTGA   5785
+
+Homo_sapiens    5804 CTGATCTAGATGCCAGGATGAATGATGGTACTACACCCCTGATCCTGGCT   5853
+                     |.||..|.||.||..|||||||.|||||.||.||.||..||||.||||||
+Serinus_canar   5786 CAGACTTGGACGCTCGGATGAACGATGGGACGACCCCGTTGATTCTGGCT   5835
+
+Homo_sapiens    5854 GCCCGCCTGGCTGTGGAGGGAATGGTGGCAGAACTGATCAACTGCCAAGC   5903
+                     ||.||.|||||||||||.||.||||||||.||.||.|||||.|||||.||
+Serinus_canar   5836 GCACGTCTGGCTGTGGAAGGGATGGTGGCCGAGCTCATCAATTGCCAGGC   5885
+
+Homo_sapiens    5904 GGATGTGAATGCAGTGGATGACCATGGAAAATCTGCTCTTCACTGGGCAG   5953
+                     .|||||.||.||.|||||||||||.||.||||||||||||||||||||.|
+Serinus_canar   5886 TGATGTCAACGCCGTGGATGACCACGGTAAATCTGCTCTTCACTGGGCTG   5935
+
+Homo_sapiens    5954 CTGCTGTCAATAATGTGGAGGCAACTCTTTTGTTGTTGAAAAATGGGGCC   6003
+                     ||||||||||.||||||||.|||||.||..|..||.||||||||||.|||
+Serinus_canar   5936 CTGCTGTCAACAATGTGGAAGCAACACTAGTACTGCTGAAAAATGGAGCC   5985
+
+Homo_sapiens    6004 AACCGAGACATGCAGGACAACAAGGAAGAGACACCTCTGTTTCTTGCTGC   6053
+                     |||.|||||||||||||.||||||||.|||||.||.||.||.||.|||||
+Serinus_canar   5986 AACAGAGACATGCAGGATAACAAGGAGGAGACTCCACTCTTCCTCGCTGC   6035
+
+Homo_sapiens    6054 CCGGGAGGGGAGCTATGAAGCAGCCAAGATCCTGTTAGACCATTTTGCCA   6103
+                     .|||||.||.||||.|||||||||.||.|||.||.|.|||||||||||||
+Serinus_canar   6036 TCGGGAAGGCAGCTTTGAAGCAGCAAAAATCTTGCTGGACCATTTTGCCA   6085
+
+Homo_sapiens    6104 ATCGAGACATCACAGACCATATGGATCGTCTTCCCCGGGATGTGGCTCGG   6153
+                     |.|||||||||||.|||||.|||||.||.||.||||||||.|||||.|.|
+Serinus_canar   6086 ACCGAGACATCACGGACCACATGGACCGGCTGCCCCGGGACGTGGCCCAG   6135
+
+Homo_sapiens    6154 GATCGCATGCACCATGACATTGTGCGCCTTCTGGATGAATACAATGTGAC   6203
+                     ||.||.||||||||||||||.||||..||.||..|.||.|||||.|||.|
+Serinus_canar   6136 GACCGGATGCACCATGACATCGTGCAGCTCCTCAACGAGTACAACGTGGC   6185
+
+Homo_sapiens    6204 CCCAAGCCC---------TCCAGGCACCGTGTTGACTTCTGCTCTCTCAC   6244
+                     ||..|||||         .||.||..||.||.|||..|||||.|||||.|
+Serinus_canar   6186 CCACAGCCCCGCTGGGCACCCCGGGGCCATGCTGAACTCTGCCCTCTCCC   6235
+
+Homo_sapiens    6245 CTGTCATCTGTGGGCCCAACAGATCTTTCCTCAGCCTGAAGCACACCCCA   6294
+                     |||||||||||||.||||||.|.||.|||||||.||||||.|||.|..||
+Serinus_canar   6236 CTGTCATCTGTGGCCCCAACCGGTCCTTCCTCAACCTGAAACACGCGTCA   6285
+
+Homo_sapiens    6295 ATGGGCAAGAAGTCTAGACGGCCCAGTGCCAAGAGTACCATGCCTACTAG   6344
+                     .|..||||||||||..||...||.|.||||||..|   ||||||..|.||
+Serinus_canar   6286 CTAAGCAAGAAGTCACGAAAACCGAATGCCAAAGG---CATGCCCGCCAG   6332
+
+Homo_sapiens    6345 CCTCCCTAACCTTGCCAAGGAGGCAAAGGATGCCAAGGGTAGTAGGAGGA   6394
+                     ||||         .||||.||.||||||            ||.||.||||
+Serinus_canar   6333 CCTC---------ACCAAAGATGCAAAG------------AGGAGAAGGA   6361
+
+Homo_sapiens    6395 AGAAGTCTCTGAGTGAG----AAGGTCCAACTGTCTGAGAGTTCAGTAAC   6440
+                     |||||||.||.||.|||    |||| .||..|.||.|||||.||.||.||
+Serinus_canar   6362 AGAAGTCCCTCAGCGAGGGCAAAGG-GCAGTTTTCAGAGAGCTCCGTGAC   6410
+
+Homo_sapiens    6441 TTTATCCCCTGTTGATTCCCTAGAATCTCCTCACACGTATGTTTCCGACA   6490
+                     ..|.||.||.||.||||||||.||.|||||.|||.|.|.||..||.|| |
+Serinus_canar   6411 CCTGTCACCGGTGGATTCCCTGGAGTCTCCCCACGCTTTTGCATCTGA-A   6459
+
+Homo_sapiens    6491 CC-ACATCCTCTCCAATGATTACATCCCCTGGGATCTTACAGGCCTCACC   6539
+                     || ||.||||||||..||||..|.||.||.|||.|..|.||..|.||.||
+Serinus_canar   6460 CCAACCTCCTCTCCTGTGATGCCGTCACCGGGGGTGCTGCACTCGTCGCC   6509
+
+Homo_sapiens    6540 CAACCCTATGTTGGCCACTGCCGCCCCTCC-----TGCCCCAGTCCATGC   6584
+                     ||       |.|.||..|||.||  .||||     ||   |||.|  |||
+Serinus_canar   6510 CA-------GCTCGCTGCTGACG--GCTCCGTCGGTG---CAGGC--TGC   6545
+
+Homo_sapiens    6585 CCAGCATGCAC--TATCTTTTTCTAACCTTCATGAAATGCAGCCTTTGGC   6632
+                     |||     |||  |.||.||.||.|||||.|||||.||||||||..|||.
+Serinus_canar   6546 CCA-----CACCATGTCCTTCTCCAACCTGCATGAGATGCAGCCCCTGGG   6590
+
+Homo_sapiens    6633 ACATGGGGCCAGCACTGTGCTTCCCTCAGTGAGCCAGTTGCTATCCCACC   6682
+                     .|.|||..|||||||.|||||.|||||.||.||||||.||||.||.||.|
+Serinus_canar   6591 CCGTGGCTCCAGCACGGTGCTCCCCTCCGTCAGCCAGCTGCTGTCTCAGC   6640
+
+Homo_sapiens    6683 -----ACCACATTGTGTCTCCAGGCAGTGGCAGTGCTGGAAGCTTGAGTA   6727
+                          |||||     ..||||...|||.||           ||||| |.|
+Serinus_canar   6641 ACAGAACCAC-----CCCTCCCAACAGCGG-----------GCTTG-GCA   6673
+
+Homo_sapiens    6728 GGCTCCATCCAGTC--CCAGTCCCAGCAGATTGGATGAACCGCATGGAGG   6775
+                     ||||.|..||||.|  |..||||  .|.||.|||||||||||||||||||
+Serinus_canar   6674 GGCTGCGGCCAGGCAACGTGTCC--ACCGAGTGGATGAACCGCATGGAGG   6721
+
+Homo_sapiens    6776 TGAATGAGACCCAGTACAATGAGATGTTTGGTATGGTCCTGGCTCCAGCT   6825
+                     ||||.|||.||||||||||.||||||||.||.|||||    ||.||||.|
+Serinus_canar   6722 TGAACGAGTCCCAGTACAACGAGATGTTCGGCATGGT----GCCCCAGGT   6767
+
+Homo_sapiens    6826 GAGGGCA--CCCATCCTGGCATAGCTCCCCAGAGCAGG-------CCACC   6866
+                     || .|||  ||||.||..||.|..|||..|||||| ||       |.|.|
+Serinus_canar   6768 GA-TGCATTCCCACCCCAGCGTTTCTCAGCAGAGC-GGCTTGGTTCAAGC   6815
+
+Homo_sapiens    6867 TGAAGGGAAGCAC------ATAACCACCCCTCGGGAGCCCTTGCCCCCCA   6910
+                     .||.|.|||||||      .|..|||      |||||.|.||||||||||
+Serinus_canar   6816 GGACGCGAAGCACCTGGGGGTGTCCA------GGGAGTCTTTGCCCCCCA   6859
+
+Homo_sapiens    6911 TTGTGACTTTCCAGCTCATCCCTAAAGGCAGTATTGCCCAACCAGCGGGG   6960
+                     |..|||||||||||||..|.||.||.|||||.||    .|||||||..|.
+Serinus_canar   6860 TCATGACTTTCCAGCTGGTTCCCAAGGGCAGCAT----AAACCAGCAAGC   6905
+
+Homo_sapiens    6961 GCTCCC----CAGCCTCAGTCCACCTGCCCTC----CAGCTGTTGCGGGC   7002
+                     .||.||    |||.|.|||||.|.||||.|||    ||    |.||.|||
+Serinus_canar   6906 ACTGCCGCAGCAGGCCCAGTCAAACTGCGCTCAGAACA----TGGCTGGC   6951
+
+Homo_sapiens    7003 CCCCTGCCCACCATGTACCAGATTCCAGAAATGGCCCGTTTGCCCAGTGT   7052
+                     ||.||...|.|||||||||||||.|||||..|.||||...|||||||.|.
+Serinus_canar   6952 CCTCTTAGCTCCATGTACCAGATCCCAGATCTAGCCCAGCTGCCCAGCGC   7001
+
+Homo_sapiens    7053 GGCTTTCCCCA---CTGCCATGATGCCC-CAGCAGGACGGGCAGGTAGCT   7098
+                     ..|.|||.|||   |||||||    ||| |||||||||||.|||||.|||
+Serinus_canar   7002 CTCGTTCTCCATGGCTGCCAT----CCCTCAGCAGGACGGCCAGGTGGCT   7047
+
+Homo_sapiens    7099 CAGACCATTCTCCCAGCCTATCATCCTTTCCCAG-CCTCTGTGGGCAAGT   7147
+                     |||||..|.|||||.|||||.|| ||..|.|||| .|||..||||.||||
+Serinus_canar   7048 CAGACGGTCCTCCCGGCCTACCA-CCAGTTCCAGAGCTCAATGGGGAAGT   7096
+
+Homo_sapiens    7148 ACCCCACACCCCCTTCACAGCACAGTTATGCT--TCCTCAAATGCTGCTG   7195
+                     |||||||.||.||.||.||||||||  .||||  |||||   .||..|.|
+Serinus_canar   7097 ACCCCACGCCTCCCTCCCAGCACAG--CTGCTACTCCTC---GGCCACAG   7141
+
+Homo_sapiens    7196 AGCGAACACCCAGTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACCTG   7245
+                     |.||.||.||.||.||||...|.|||.|.||.||.|||||.||.||||||
+Serinus_canar   7142 AACGGACTCCTAGCCACAACCGGCACTTACAAGGGGAGCACCCGTACCTG   7191
+
+Homo_sapiens    7246 ACACCATCCCCAGAGTCTCCTGACCAGTGGTCAAGTTCATCACCCCACTC   7295
+                     ||.||.||.||.||.|||||.||||||||||||||.||.||.||||||||
+Serinus_canar   7192 ACTCCGTCGCCCGAATCTCCGGACCAGTGGTCAAGCTCTTCCCCCCACTC   7241
+
+Homo_sapiens    7296 TGCTTCTGACTGGTCAGATGTGACCACCAGCCCTACC-----CCTGGGGG   7340
+                     |||.|||||||||||.||.|||.|.||||||||.|.|     ||.|.|.|
+Serinus_canar   7242 TGCCTCTGACTGGTCTGACGTGGCGACCAGCCCCAGCAACAACCAGCGCG   7291
+
+Homo_sapiens    7341 TGCTGGAGGAGGTCAGCGGGGACCTGGGACACACATGTCTGAGCCACCA-   7389
+                               ||.||||||...||       ||||||.|.||| ||.|| 
+Serinus_canar   7292 ----------GGCCAGCGGCCGCC-------CACATGCCGGAG-CAGCAG   7323
+
+Homo_sapiens    7390 CACAACAACATGCAGGTTTATGCG   7413
+                     |..||||||||||||||.||.||.
+Serinus_canar   7324 CGGAACAACATGCAGGTGTACGCC   7347
+
+
+#---------------------------------------
+#---------------------------------------

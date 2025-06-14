@@ -1,0 +1,798 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 11:37:01
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Equus_quagga.fa
+#    -outfile Homo_sapiens-Equus_quagga.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Equus_quagga.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Equus_quagga
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9531
+# Identity:    8556/9531 (89.8%)
+# Similarity:  8556/9531 (89.8%)
+# Gaps:          33/9531 ( 0.3%)
+# Score: 38872.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCACTCAGCCGGGACTCCCGGGTTATCCTC------GCGCCGGACAGG     44
+                     ||||||..|||||||||.||.|.|.|.|||||      |||||...|||.
+Equus_quagga       1 ATGCACGGAGCCGGGACCCCTGCGATCTCCTCCCGCGTGCGCCATGCAGC     50
+
+Homo_sapiens      45 CAACTCCACCAGCTTTCAACCAGGA--CCGCCACCGCCGCCCCGGCTGCT     92
+                     ||||.|||||||.|||||.||  ||  ||.|..|||||.|||||||||||
+Equus_quagga      51 CAACCCCACCAGTTTTCAGCC--GATGCCTCTGCCGCCACCCCGGCTGCT     98
+
+Homo_sapiens      93 GCTGCTGCTGCTGCTTCTCCTGTCACTGGTAAGCCGCGTCCCGGCACAGC    142
+                     ||||.|||||||||||||||||||||||||||||.|||||||.|||||||
+Equus_quagga      99 GCTGGTGCTGCTGCTTCTCCTGTCACTGGTAAGCTGCGTCCCCGCACAGC    148
+
+Homo_sapiens     143 CCGCTGCCTTCGGCAGGGCGTTGCTGTCCCCTGGTCTCGCGGGGGCTGCA    192
+                     .|.|.|||..||||..|||||||||.|||||.|.||||||||||..||||
+Equus_quagga     149 TCCCGGCCCCCGGCCTGGCGTTGCTATCCCCGGATCTCGCGGGGATTGCA    198
+
+Homo_sapiens     193 GGGGTCCCTGCTGAGGAGGCCATAGTGCTGGCGAACCGCGGACTCCGGGT    242
+                     ||||||||.||.||||||||||||||||||||||||||.||.|||||.||
+Equus_quagga     199 GGGGTCCCCGCCGAGGAGGCCATAGTGCTGGCGAACCGTGGGCTCCGTGT    248
+
+Homo_sapiens     243 GCCTTTCGGCCGTGAAGTCTGGCTGGATCCCCTGCATGACCTGGTGTTGC    292
+                     .||.|||||||||||.||||||||||||||..||||.|||||||||||||
+Equus_quagga     249 ACCCTTCGGCCGTGAGGTCTGGCTGGATCCGTTGCACGACCTGGTGTTGC    298
+
+Homo_sapiens     293 AGGTGCAGCCCGGGGACCGCTGCGCGGTTTCGGTACTAGACAACGACGCA    342
+                     ||||||||||.||||||||||||.||||..|.||.|||||||||||.||.
+Equus_quagga     299 AGGTGCAGCCGGGGGACCGCTGCACGGTGGCCGTGCTAGACAACGATGCG    348
+
+Homo_sapiens     343 CTGGCCCAGCGACCGGGCCGCCTGAGTCCCAAGCGCTTCCCGTGCGACTT    392
+                     ||||||||||||||.||||||||||||||||||||||||||.||||||||
+Equus_quagga     349 CTGGCCCAGCGACCCGGCCGCCTGAGTCCCAAGCGCTTCCCCTGCGACTT    398
+
+Homo_sapiens     393 TGGCCCTGGCGAGGTGCGCTACTCTCACCTGGGCGCGCGCAGCCCGTCTC    442
+                     .||||||||.||||||||||||||.||||||||||||||||||||.||.|
+Equus_quagga     399 CGGCCCTGGAGAGGTGCGCTACTCGCACCTGGGCGCGCGCAGCCCATCGC    448
+
+Homo_sapiens     443 GGGACCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCCGGAGGGGCAGTA    492
+                     ||||.||||||||||||||||||||||||||||||||.||.|||||.|.|
+Equus_quagga     449 GGGATCGCGTCCGGCTGCAGCTGCGCTATGACGCGCCGGGTGGGGCGGCA    498
+
+Homo_sapiens     493 GTGCTACCACTGGTACTGGAGGTGGAGGTGGTCTTCACCCAGCTGGAGGT    542
+                     ||||||||..||||.|||||||||||||||||.|||||||||||||||||
+Equus_quagga     499 GTGCTACCCTTGGTGCTGGAGGTGGAGGTGGTTTTCACCCAGCTGGAGGT    548
+
+Homo_sapiens     543 TGTGACTCGGAACTTGCCTCTGGTCGTGGAAGAGCTGCTGGGGACCAGCA    592
+                     ||||||||||||||||||.|||||||||||.|||||||||||.|.|||||
+Equus_quagga     549 TGTGACTCGGAACTTGCCCCTGGTCGTGGAGGAGCTGCTGGGAATCAGCA    598
+
+Homo_sapiens     593 ATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTTCCAGCCCGAGACAGAG    642
+                     |||||||||||||||||||||||||||||||||.||||||||||||.|||
+Equus_quagga     599 ATGCCCTGGACGCGCGGAGCCTGGAGTTCGCCTACCAGCCCGAGACGGAG    648
+
+Homo_sapiens     643 GAGTGCCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTATGG    692
+                     |||||.|||||||||||||||||||||||||||||||||||||||||.||
+Equus_quagga     649 GAGTGTCGCGTGGGCATCCTGTCCGGCTTGGGCGCGCTGCCTCGCTACGG    698
+
+Homo_sapiens     693 AGAACTCCTCCACTACCCGCAGGTCCCTGGAGGAGCCAGAGAGGGAGGCG    742
+                     .||||||||.|||||||||||||||||.|||.|||||||.|||||.||||
+Equus_quagga     699 GGAACTCCTGCACTACCCGCAGGTCCCGGGACGAGCCAGCGAGGGGGGCG    748
+
+Homo_sapiens     743 CCCCGGAGACTCTCCTGATGGACTGCAAAGCTTTCCAGGAACTAGGCGTG    792
+                     |||.||||.|||||.|||||||||||||||||||||||||.||||||||.
+Equus_quagga     749 CCCAGGAGCCTCTCTTGATGGACTGCAAAGCTTTCCAGGAGCTAGGCGTC    798
+
+Homo_sapiens     793 CGCTATCGCCACACAGCCGCCAGTCGCTCACCAAACAGGGACTGGATACC    842
+                     |||||.||||||||||||.||||.||.|||||.||||||||||||.|.||
+Equus_quagga     799 CGCTACCGCCACACAGCCCCCAGCCGTTCACCCAACAGGGACTGGGTGCC    848
+
+Homo_sapiens     843 CATGGTGGTGGAGCTGCGTTCACGAGGGGCTCCTGTGGGCAGCCCTGCTT    892
+                     ||||||||||||||||||..|.|||||..|||||.|||||||||||||||
+Equus_quagga     849 CATGGTGGTGGAGCTGCGCGCTCGAGGATCTCCTCTGGGCAGCCCTGCTT    898
+
+Homo_sapiens     893 TGAAACGCGAGCACTTCCAGGTTCTGGTGAGGATCCGAGGAGGGGCCGAG    942
+                     |||||||.||||||||||||||.||.||.||.|||.|||||||.||||||
+Equus_quagga     899 TGAAACGTGAGCACTTCCAGGTGCTAGTCAGAATCAGAGGAGGAGCCGAG    948
+
+Homo_sapiens     943 AACACTGCACCCAAGCCCAGTTTCGTGGCCATGATGATGATGGAGGTGGA    992
+                     |||||.||||||||.||||||||.||||||||||||||||||||||||||
+Equus_quagga     949 AACACCGCACCCAAACCCAGTTTTGTGGCCATGATGATGATGGAGGTGGA    998
+
+Homo_sapiens     993 CCAGTTTGTACTGACGGCCCTGACCCCAGACATGCTGGCAGCCGAGGATG   1042
+                     ||||||||||||.||.||||||||.||||||||||||||.||.|||||||
+Equus_quagga     999 CCAGTTTGTACTCACCGCCCTGACACCAGACATGCTGGCCGCTGAGGATG   1048
+
+Homo_sapiens    1043 CTGAGTCTCCCTCTGACCTGTTGATCTTCAACCTTACTTCTCCATTCCAG   1092
+                     ||||||||.|..|.|||||||||||||||||.||.||.|||||.||||||
+Equus_quagga    1049 CTGAGTCTACTCCGGACCTGTTGATCTTCAATCTCACCTCTCCGTTCCAG   1098
+
+Homo_sapiens    1093 CCTGGCCAGGGCTACTTGGTGAGCACCGATGATCGCAGCCTGCCCCTTTC   1142
+                     |||||||||||||||.|.||||||||.||||||||||||||||||||.||
+Equus_quagga    1099 CCTGGCCAGGGCTACCTAGTGAGCACTGATGATCGCAGCCTGCCCCTCTC   1148
+
+Homo_sapiens    1143 CTCCTTCACTCAGAGGGATCTGCGGCTCCTGAAGATTGCCTACCAGCCCC   1192
+                     ||||||||||||||||||||||||..||||||||||||||||||||||||
+Equus_quagga    1149 CTCCTTCACTCAGAGGGATCTGCGCTTCCTGAAGATTGCCTACCAGCCCC   1198
+
+Homo_sapiens    1193 CTTCTGAAGACTCTGACCAGGAGCGCCTCTTTGAACTGGAATTGGAGGTA   1242
+                     |.|||||.|||||||||||||||||.||||||||||||||.||||||||.
+Equus_quagga    1199 CCTCTGAGGACTCTGACCAGGAGCGTCTCTTTGAACTGGAGTTGGAGGTG   1248
+
+Homo_sapiens    1243 GTGGATCTAGAAGGAGCAGCTTCAGACCCTTTTGCCTTCATGGTAGTGGT   1292
+                     |||||.|..|||||||||||.|||||.|||||||||||||||||||||||
+Equus_quagga    1249 GTGGACCCGGAAGGAGCAGCCTCAGATCCTTTTGCCTTCATGGTAGTGGT   1298
+
+Homo_sapiens    1293 GAAGCCCATGAACACAATGGCTCCGGTGGTCACCCGGAATACCGGTCTTA   1342
+                     |||||||||||||||||||||.||.||||||||||||||.||.|||||.|
+Equus_quagga    1299 GAAGCCCATGAACACAATGGCGCCAGTGGTCACCCGGAACACAGGTCTCA   1348
+
+Homo_sapiens    1343 TTCTCTATGAGGGTCAGTCTCGGCCCCTCACAGGCCCTGCAGGCAGTGGT   1392
+                     ||||.||.||.||.|||||||||||||||||.|||||||||||||.|||.
+Equus_quagga    1349 TTCTTTACGAAGGCCAGTCTCGGCCCCTCACGGGCCCTGCAGGCAATGGA   1398
+
+Homo_sapiens    1393 CCGCAAAACTTGGTCATCAGCGATGAGGATGACCTAGAAGCAGTGCGGCT   1442
+                     ||.||||||||.|||||||||||||||||.|||.||||.|||||||.|||
+Equus_quagga    1399 CCACAAAACTTAGTCATCAGCGATGAGGACGACTTAGAGGCAGTGCAGCT   1448
+
+Homo_sapiens    1443 AGAGGTGGTGGCTGGGCTCCGGCATGGTCACCTTGTCATTCTGGGTGCTT   1492
+                     .||||||||.|||||||||||||||||||||||||||.||||||||||.|
+Equus_quagga    1449 GGAGGTGGTAGCTGGGCTCCGGCATGGTCACCTTGTCCTTCTGGGTGCCT   1498
+
+Homo_sapiens    1493 CCAGTGGCAGCTCTGCTCCCAAGAGCTTTACAGTGGCTGAGCTGGCAGCC   1542
+                     ||||||||||||||||.||.||||..|||||.||.||||||||.|||||.
+Equus_quagga    1499 CCAGTGGCAGCTCTGCCCCTAAGACGTTTACGGTAGCTGAGCTAGCAGCT   1548
+
+Homo_sapiens    1543 GGCCAGGTGGTCTACCAGCATGATGACAGAGACGGCTCGCTGAGCGACAA   1592
+                     ||||||||.||||||||.||.|||||||.|||.|||||.|||||.|||||
+Equus_quagga    1549 GGCCAGGTCGTCTACCATCACGATGACAAAGATGGCTCACTGAGTGACAA   1598
+
+Homo_sapiens    1593 CCTGGTGCTTCGCATGGTGGATGGAGGAGGCAGGCACCAGGTACAGTTTC   1642
+                     |||.||.|||||.|||||||||||||||.|||||||||||||.||.||.|
+Equus_quagga    1599 CCTCGTACTTCGAATGGTGGATGGAGGACGCAGGCACCAGGTGCAATTCC   1648
+
+Homo_sapiens    1643 TGTTCCCCATCACCTTAGTGCCTGTGGATGACCAGCCACCTGTTCTCAAT   1692
+                     |||||||.||||||||||||||||||||||||||||||||.||.||||||
+Equus_quagga    1649 TGTTCCCTATCACCTTAGTGCCTGTGGATGACCAGCCACCAGTCCTCAAT   1698
+
+Homo_sapiens    1693 GCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTGCC   1742
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Equus_quagga    1699 GCCAACACGGGGCTGACACTGGCAGAGGGTGAAACAGTGCCCATCCTGCC   1748
+
+Homo_sapiens    1743 CCTTTCCCTGAGTGCAACTGACATGGATTCAGATGATTCTCTGCTGCTTT   1792
+                     .||..|.||.|||||||||||||||||.||||||||.||||||||.||||
+Equus_quagga    1749 ACTCGCTCTAAGTGCAACTGACATGGACTCAGATGACTCTCTGCTACTTT   1798
+
+Homo_sapiens    1793 TTGTGCTGGAGTCACCCTTCTTAACTACGGGGCATCTGCTTCTCCGCCAA   1842
+                     |||||||.||||||||||.||.|||.||.|||||||||||||||||||||
+Equus_quagga    1799 TTGTGCTAGAGTCACCCTCCTCAACCACAGGGCATCTGCTTCTCCGCCAA   1848
+
+Homo_sapiens    1843 ACTCACCCTCCCCATGAGAAGCAGGAACTTCTCAGAGGCCTTTGGAGGAA   1892
+                     ||.||.||||||||||||.||.||||.|||.||||.||||.|||||||||
+Equus_quagga    1849 ACCCATCCTCCCCATGAGGAGGAGGAGCTTGTCAGGGGCCGTTGGAGGAA   1898
+
+Homo_sapiens    1893 GGAGGGGGCATTTTATGAGCGAACAGTGACAGAGTGGCAGCAGCAGGACA   1942
+                     ..||||.|.|||.||||||..|||||||||||||||||.|||||||||||
+Equus_quagga    1899 ACAGGGAGAATTCTATGAGAAAACAGTGACAGAGTGGCGGCAGCAGGACA   1948
+
+Homo_sapiens    1943 TAACAGAGGGCAGGCTGTTCTATAGACACTCTGGGCCCCATAGTCCTGGG   1992
+                     |||..|||||.|||||||||||.||.||||||||||||||||||||||||
+Equus_quagga    1949 TAAGGGAGGGGAGGCTGTTCTACAGGCACTCTGGGCCCCATAGTCCTGGG   1998
+
+Homo_sapiens    1993 CCAGTCACAGACCAGTTCACATTTAGAGTCCAGGATAACCATGACCCTCC   2042
+                     |||||.|..||||||||||||||..||||||||||||||||||||||.||
+Equus_quagga    1999 CCAGTGATGGACCAGTTCACATTCCGAGTCCAGGATAACCATGACCCCCC   2048
+
+Homo_sapiens    2043 TAATCAGTCCGGGCTACAGCGGTTTGTGATTCGTATCCATCCTGTGGATC   2092
+                     .||||||||.||.||||||.||||||||||.|||||.|||||.|||||||
+Equus_quagga    2049 AAATCAGTCTGGCCTACAGAGGTTTGTGATACGTATTCATCCCGTGGATC   2098
+
+Homo_sapiens    2093 GCCTCCCTCCGGAGCTGGGCAGTGGCTGTCCCCTTCGTATGGTGGTACAG   2142
+                     ||||||||||.|||.||||||||||||||||||||||.||||||||.|||
+Equus_quagga    2099 GCCTCCCTCCAGAGTTGGGCAGTGGCTGTCCCCTTCGGATGGTGGTGCAG   2148
+
+Homo_sapiens    2143 GAATCCCAGCTCACACCACTGAGGAAGAAGTGGCTGCGCTACACTGACCT   2192
+                     |||||||||||||||||.|||||||||||||||||||||||.||||||||
+Equus_quagga    2149 GAATCCCAGCTCACACCGCTGAGGAAGAAGTGGCTGCGCTATACTGACCT   2198
+
+Homo_sapiens    2193 GGACACAGATGACCGAGAACTACGTTACACAGTGACTCAGCCCCCCACAG   2242
+                     ||||||||||||||||||||||||||||||.||||||||||||||||..|
+Equus_quagga    2199 GGACACAGATGACCGAGAACTACGTTACACTGTGACTCAGCCCCCCATGG   2248
+
+Homo_sapiens    2243 ACACAGACGAAAATCACCTGCCAGCCCCACTGGGTACCTTGGTCTTGACT   2292
+                     |||||||.|||||.|||...|||||||||.||||.|||||||||.|||||
+Equus_quagga    2249 ACACAGATGAAAACCACTCACCAGCCCCATTGGGCACCTTGGTCCTGACT   2298
+
+Homo_sapiens    2293 GACAACCCCTCAGTCGTGGTGACCCATTTTACCCAAGCCCAGATCAACCA   2342
+                     ||.|||||.|||||.||||||.||||||||||.|||||||||||||||||
+Equus_quagga    2299 GATAACCCTTCAGTTGTGGTGGCCCATTTTACACAAGCCCAGATCAACCA   2348
+
+Homo_sapiens    2343 TCATAAAATTGCTTACAGACCCCCGGGTCAAGAACTGGGCGTGGCTACTC   2392
+                     .||||||||||||||||||||.||.|.||||||||||||.|||||..|.|
+Equus_quagga    2349 CCATAAAATTGCTTACAGACCTCCAGATCAAGAACTGGGAGTGGCAGCCC   2398
+
+Homo_sapiens    2393 GAGTGGCCCAGTTCCAGTTCCAGGTGGAAGACCGAGCTGGGAATGTGGCT   2442
+                     ||||||||||||||||.|||||.||.||.|||||||||||||||||||||
+Equus_quagga    2399 GAGTGGCCCAGTTCCAATTCCAAGTCGAGGACCGAGCTGGGAATGTGGCT   2448
+
+Homo_sapiens    2443 CCAGGTACCTTTACCCTTTACTTGCATCCCGTGGACAACCAGCCACCTGA   2492
+                     |||||.|||||.|||||||||.|.||.||.|||||||||||.||||||||
+Equus_quagga    2449 CCAGGAACCTTCACCCTTTACCTTCAGCCAGTGGACAACCAACCACCTGA   2498
+
+Homo_sapiens    2493 GATCCTCAACACCGGCTTCACTATTCAGGAGAAGGGTCACCACATCCTGA   2542
+                     ||||||||||||||||||||||.||||.||||||||..||||||||||||
+Equus_quagga    2499 GATCCTCAACACCGGCTTCACTGTTCAAGAGAAGGGCTACCACATCCTGA   2548
+
+Homo_sapiens    2543 GTGAGACAGAGTTGCACGTGAATGATGTAGACACTGATGTTGCCCATATC   2592
+                     |||||||.|||||||..|||||||||||.|||||||||||.|||||.|||
+Equus_quagga    2549 GTGAGACTGAGTTGCGTGTGAATGATGTGGACACTGATGTAGCCCACATC   2598
+
+Homo_sapiens    2593 TCTTTCACTCTCACTCAGGCACCCAAACATGGCCACATGAGAGTGTCTGG   2642
+                     ||||||||||||||.||||..|||||||||||||||||.|..||.|||||
+Equus_quagga    2599 TCTTTCACTCTCACACAGGTGCCCAAACATGGCCACATAAAGGTATCTGG   2648
+
+Homo_sapiens    2643 ACAGATCCTGCATGTAGGGGGTCTCTTCCACTTGGAGGACATAAAACAGG   2692
+                     |||.||..||||||||||.||..|.|||||||||||||||||||||||||
+Equus_quagga    2649 ACAAATATTGCATGTAGGTGGGATTTTCCACTTGGAGGACATAAAACAGG   2698
+
+Homo_sapiens    2693 GCCGAG-TTTCCTATGCCCATAATGGGGACAAGTCCCTGACTGATAGCTG   2741
+                     | ..|| ||||.||||||||||||||||.|.||||.||||||||.|||||
+Equus_quagga    2699 G-TAAGATTTCTTATGCCCATAATGGGGGCGAGTCTCTGACTGACAGCTG   2747
+
+Homo_sapiens    2742 CTCCTTGGAAGTCAGTGACAGACATCATGTGGTGCCCATCACTCTCAGAG   2791
+                     |||||||||.|||||.||||||||.||.||||||||||||||||||||||
+Equus_quagga    2748 CTCCTTGGAGGTCAGCGACAGACACCACGTGGTGCCCATCACTCTCAGAG   2797
+
+Homo_sapiens    2792 TAAATGTCCGGCCAGTGGATGATGAAGTGCCCATACTGAGCCATCCTACT   2841
+                     |.|||||.|||||||||||.||.||..|||||||.|.|.|||.||||.||
+Equus_quagga    2798 TGAATGTTCGGCCAGTGGAGGAGGAGATGCCCATGCAGCGCCTTCCTGCT   2847
+
+Homo_sapiens    2842 GGCACTCTGGAGTCCTATCTAGATGTCTTAGAAAATGGGGCTACTGAAAT   2891
+                     ||||||||||.|||||||||||||||.|||||||||||||||||||||||
+Equus_quagga    2848 GGCACTCTGGGGTCCTATCTAGATGTTTTAGAAAATGGGGCTACTGAAAT   2897
+
+Homo_sapiens    2892 CACTGCCAATGTTATTAAGGGGACCAATGAGGAAACTGATGACTTGATGT   2941
+                     ||||||||.||||||.|||||.||..|||||||.||||||||||||||||
+Equus_quagga    2898 CACTGCCAGTGTTATCAAGGGCACTGATGAGGACACTGATGACTTGATGT   2947
+
+Homo_sapiens    2942 TGACTTTCCTCTTGGAAGATCCACCTTTGTATGGGGAAATCTTGGTCAAT   2991
+                     |||||||||||||||||||||||||.||.|||||.||||||.|.|||||.
+Equus_quagga    2948 TGACTTTCCTCTTGGAAGATCCACCCTTATATGGAGAAATCCTAGTCAAC   2997
+
+Homo_sapiens    2992 GGCATTCCAGCAGAGCAGTTTACTCAAAGGGACATCTTGGAGGGCTCTGT   3041
+                     ||..|||||||||||||||||||.||||||||||||||||||||.|||||
+Equus_quagga    2998 GGAGTTCCAGCAGAGCAGTTTACCCAAAGGGACATCTTGGAGGGTTCTGT   3047
+
+Homo_sapiens    3042 TGTATATACCCACACCAGTGGTGAGATAGGCCTATTGCCTAAAGCGGATT   3091
+                     .||.|||.|||||||.||||||||||||||.||.|||||.||||.|||.|
+Equus_quagga    3048 CGTCTATGCCCACACTAGTGGTGAGATAGGTCTGTTGCCCAAAGAGGACT   3097
+
+Homo_sapiens    3092 CTTTTAACCTGAGTCTGTCAGATATGTCTCAAGAATGGAGAATTGGTGGC   3141
+                     ||||.|||||.||||||||.|||||||||||||||||||||||.|||||.
+Equus_quagga    3098 CTTTCAACCTAAGTCTGTCGGATATGTCTCAAGAATGGAGAATAGGTGGT   3147
+
+Homo_sapiens    3142 AATACTATCCAAGGAGTTACTATATGGGTGACCATCCTGCCTGTTGATAG   3191
+                     ||||||||||||||||||||..|.||||||||||||||.|||||.||.|.
+Equus_quagga    3148 AATACTATCCAAGGAGTTACCGTGTGGGTGACCATCCTCCCTGTCGACAA   3197
+
+Homo_sapiens    3192 CCAGGCCCCAGAAATCTTTGTAGGTGAACAGTTGATAGTAATGGAAGGTG   3241
+                     |||||||||||||||.|.|.|||||||.|.|||..|||||||||||||||
+Equus_quagga    3198 CCAGGCCCCAGAAATTTCTTTAGGTGAGCGGTTTCTAGTAATGGAAGGTG   3247
+
+Homo_sapiens    3242 ATAAAAGTGTTATAACATCAGTGCATATAAGTGCTGAAGATGTCGACTCC   3291
+                     |.||||||||||||||.||||||||||||||||||||||||.|.||.|||
+Equus_quagga    3248 ACAAAAGTGTTATAACCTCAGTGCATATAAGTGCTGAAGATATTGATTCC   3297
+
+Homo_sapiens    3292 CTGAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACTTCAGGTTA   3341
+                     ||.||||||||||||||||||||||||||||||||||||||.||||||||
+Equus_quagga    3298 CTAAATGATGACATCTTGTGCACTATAGTTATTCAGCCTACCTCAGGTTA   3347
+
+Homo_sapiens    3342 TGTTGAAAACATTTCTCCAGCACCAGGCTCTGAGAAATCAAGAGCAGGGA   3391
+                     |||||||||||||||.|||||||||||||||||.|||||.||||||||||
+Equus_quagga    3348 TGTTGAAAACATTTCACCAGCACCAGGCTCTGAAAAATCCAGAGCAGGGA   3397
+
+Homo_sapiens    3392 TTGCCATAAGTGCTTTCAACT-TGAAAGATCTCAGGCAGGGCCACATAAA   3440
+                     |||||.|||||||.||| ||| |||||||||||||||||||.||.||.||
+Equus_quagga    3398 TTGCCGTAAGTGCCTTC-ACTCTGAAAGATCTCAGGCAGGGTCATATTAA   3446
+
+Homo_sapiens    3441 CTATGTCCAGAGTGTCCATAAAGGGGTGGAACCTGTGGAGGACCGATTTG   3490
+                     |||||||||||||||.||.|||||.||||||||||||||||||||.|||.
+Equus_quagga    3447 CTATGTCCAGAGTGTTCACAAAGGAGTGGAACCTGTGGAGGACCGGTTTA   3496
+
+Homo_sapiens    3491 TATTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACAGTTCTTCCCC   3540
+                     |.||||||||||||||||||||||||||||||||||||||.||.|||||.
+Equus_quagga    3497 TCTTTCGTTGTTCTGATGGCATTAACTTTTCAGAGAGACATTTTTTCCCG   3546
+
+Homo_sapiens    3541 ATTGTAATCATTCCCACCAATGATGAACAGCCAGAGATGTTTATGAGAGA   3590
+                     |||.||||||||||.|||||||||||||||||||||||.|||||||||||
+Equus_quagga    3547 ATTATAATCATTCCTACCAATGATGAACAGCCAGAGATATTTATGAGAGA   3596
+
+Homo_sapiens    3591 ATTTATGGTGATGGAAGGCATGAGTCTGGTAATTGATACACCCATTCTCA   3640
+                     ||||||||||||||||||||||||||||||.|||||.||.|||||.||||
+Equus_quagga    3597 ATTTATGGTGATGGAAGGCATGAGTCTGGTGATTGACACGCCCATCCTCA   3646
+
+Homo_sapiens    3641 ATGCTGCTGATGCTGATGTTCCCCTGGATGATTTAACTTTCACTATTACC   3690
+                     ||||||||||||||||..||||||..|||||||||||||||||.||||||
+Equus_quagga    3647 ATGCTGCTGATGCTGACATTCCCCCAGATGATTTAACTTTCACGATTACC   3696
+
+Homo_sapiens    3691 CAATTCCCCACTCATGGTCACATCATGAATCAGCTGATAAATGGCACGGT   3740
+                     ||.||.||.||||||||||||||||||||.|||||||||||||||||.||
+Equus_quagga    3697 CAGTTTCCTACTCATGGTCACATCATGAACCAGCTGATAAATGGCACAGT   3746
+
+Homo_sapiens    3741 TTTGGTCGAAAGCTTCACCTTGGATCAGATCATAGAGAGTTCCAGCATTA   3790
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+Equus_quagga    3747 TTTGGTCGAAAGCTTCACCTTGGACCAGATCATAGAGAGTTCCAGCATTA   3796
+
+Homo_sapiens    3791 TTTATGAGCATGATGACTCCGAGACCCAGGAAGACAGTTTTGTGATTAAA   3840
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+Equus_quagga    3797 TTTATGAGCATGATGACTCTGAGACCCAGGAAGACAGTTTTGTGATTAAA   3846
+
+Homo_sapiens    3841 CTAACAGATGGGAAGCACTCTGTGGAAAAGACGGTCCTCATTATAGTTAT   3890
+                     |||||||||||.|||||||||||||||||||.||||||||||||.|||||
+Equus_quagga    3847 CTAACAGATGGTAAGCACTCTGTGGAAAAGATGGTCCTCATTATTGTTAT   3896
+
+Homo_sapiens    3891 CCCTGTTGATGATGAGACGCCCAGAATGACTATCAATAATGGACTAGAAA   3940
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+Equus_quagga    3897 CCCTGTTGATGATGAGACCCCCAGAATGACTATCAATAATGGACTAGAAA   3946
+
+Homo_sapiens    3941 TAGAAATTGGGGATACCAAGATTATCAACAACAAAATATTAATGGCAACA   3990
+                     |||||||||||||.|||||.|||||||||||||||||||||||||||||.
+Equus_quagga    3947 TAGAAATTGGGGAAACCAAAATTATCAACAACAAAATATTAATGGCAACT   3996
+
+Homo_sapiens    3991 GATTTAGATTCAGAAGACAAATCTTTGGTTTATATTATTCGTTATGGGCC   4040
+                     |||||||||||.|||||||||||..|||||||||||||||||||||||||
+Equus_quagga    3997 GATTTAGATTCTGAAGACAAATCCCTGGTTTATATTATTCGTTATGGGCC   4046
+
+Homo_sapiens    4041 AGGACATGGCTTATTACAGAGACGAAAACCTACTGGTGCCTTTGAAAATA   4090
+                     |||||||||||||||||||||||.|||||||||.||||||||||||||||
+Equus_quagga    4047 AGGACATGGCTTATTACAGAGACAAAAACCTACAGGTGCCTTTGAAAATA   4096
+
+Homo_sapiens    4091 TCACACTGGGCATGAATTTTACCCAGGATGAAGTAGACAGAAACTTAATT   4140
+                     ||||||||||||||||||||||||||||||||||.|||.|||||||||||
+Equus_quagga    4097 TCACACTGGGCATGAATTTTACCCAGGATGAAGTGGACCGAAACTTAATT   4146
+
+Homo_sapiens    4141 CAGTATGTCCATTTGGGGCAAGAGGGCATTCGGGACCTAATTAAATTTGA   4190
+                     ||.|||||||||||.||||||||||||||||||||.||||||||||||||
+Equus_quagga    4147 CAATATGTCCATTTTGGGCAAGAGGGCATTCGGGATCTAATTAAATTTGA   4196
+
+Homo_sapiens    4191 TGTGACTGATGGAATAAATCCCCTCATAGATCGTTACTTTTATGTGTCCA   4240
+                     |||||||||||||||||||||||||||||||||.||||||||||||||.|
+Equus_quagga    4197 TGTGACTGATGGAATAAATCCCCTCATAGATCGCTACTTTTATGTGTCTA   4246
+
+Homo_sapiens    4241 TCGGGAGCATTGACATTGTCTTCCCTGATGTGATAAGTAAGGGAGTGTCC   4290
+                     |.||.||||||||||||||.||||||||||||||||||||||||||||||
+Equus_quagga    4247 TTGGAAGCATTGACATTGTTTTCCCTGATGTGATAAGTAAGGGAGTGTCC   4296
+
+Homo_sapiens    4291 TTGAAAGAAGGTGGCAAAGTCACTCTTACAACAGACCTACTAAGCACTAG   4340
+                     ||||||||||||||.||.|||||.||.|||||||||||..||||||||||
+Equus_quagga    4297 TTGAAAGAAGGTGGTAAGGTCACCCTCACAACAGACCTCTTAAGCACTAG   4346
+
+Homo_sapiens    4341 TGACTTGAACAGTCCTGATGAAAACTTGGTTTTTACCATCACCAGGGCTC   4390
+                     |||||||||||||||||||||||||||.||||||||||||||||||||||
+Equus_quagga    4347 TGACTTGAACAGTCCTGATGAAAACTTAGTTTTTACCATCACCAGGGCTC   4396
+
+Homo_sapiens    4391 CCATGCGAGGTCACCTGGAATGCACGGATCAGCCTGGTGTGTCCATCACG   4440
+                     |.|||.||||||||.||||||||||.|||||.|||||.||||||||..|.
+Equus_quagga    4397 CTATGAGAGGTCACTTGGAATGCACAGATCAACCTGGAGTGTCCATTGCA   4446
+
+Homo_sapiens    4441 TCTTTCACTCAGCTGCAACTGGCTGGAAACAAAATCTACTACATCCACAC   4490
+                     ||.||.||||||||.||.||||||||.|||||||||||||||||||||||
+Equus_quagga    4447 TCATTTACTCAGCTCCAGCTGGCTGGCAACAAAATCTACTACATCCACAC   4496
+
+Homo_sapiens    4491 AGCTGATGATGAAGTGAAAATGGACAGTTTTGAGTTTCAAGTCACCGATG   4540
+                     ||||||||||||.|||||.||||||||||||||||||||||||||.||||
+Equus_quagga    4497 AGCTGATGATGAGGTGAAGATGGACAGTTTTGAGTTTCAAGTCACTGATG   4546
+
+Homo_sapiens    4541 GACGTAACCCTGTCTTTCGGACATTCCGTATCTCCATTAGCGATGTGGAC   4590
+                     |||.||||||||||||.||||||||.|||||.||||||||.|||||||||
+Equus_quagga    4547 GACATAACCCTGTCTTCCGGACATTTCGTATTTCCATTAGTGATGTGGAC   4596
+
+Homo_sapiens    4591 AATAAAAAGCCAGTGGTCACCATCCACAAGCTGGTTGTCAGTGAAAGTGA   4640
+                     ||.|||||||||||||||||||||||.||.|||||||||||.|||.||||
+Equus_quagga    4597 AACAAAAAGCCAGTGGTCACCATCCATAACCTGGTTGTCAGCGAAGGTGA   4646
+
+Homo_sapiens    4641 AAACAAGCTGATTACTCCTTTTGAGCTCACTGTCGAAGACAGAGATACTC   4690
+                     ||||||||||||.|||||||||||.|||||||||||||||||||||||.|
+Equus_quagga    4647 AAACAAGCTGATCACTCCTTTTGAACTCACTGTCGAAGACAGAGATACAC   4696
+
+Homo_sapiens    4691 CTGACAAGCTCCTGAAATTCACTATCACCCAGGTGCCTATTCATGGCCAT   4740
+                     |||||||.||||||||||||||..||||.|||||||||.|||||||.||.
+Equus_quagga    4697 CTGACAAACTCCTGAAATTCACCGTCACTCAGGTGCCTGTTCATGGTCAA   4746
+
+Homo_sapiens    4741 CTCCTATTCAACAATACCAGACCTGTCATGGTTTTTACCAAGCAAGACTT   4790
+                     |||.||||||||||.||.|||||||.|||||||||.||||||||||||||
+Equus_quagga    4747 CTCTTATTCAACAACACTAGACCTGCCATGGTTTTCACCAAGCAAGACTT   4796
+
+Homo_sapiens    4791 GAATGAAAACTTAATCAGCTACAAACATGATGGCACTGAGTCAAGTGAAG   4840
+                     |||||||||.|||||||||||||..|||||||||.|||||||||||||||
+Equus_quagga    4797 GAATGAAAATTTAATCAGCTACAGGCATGATGGCTCTGAGTCAAGTGAAG   4846
+
+Homo_sapiens    4841 ATAGCTTCTCCTTCACAGTGACTGATGGCACCCATACAGACTTCTATGTT   4890
+                     |.||||||||||||||||||||||||||..||||||||||.|||||||||
+Equus_quagga    4847 ACAGCTTCTCCTTCACAGTGACTGATGGTTCCCATACAGAGTTCTATGTT   4896
+
+Homo_sapiens    4891 TTTCCTGATACGGTGTTTGAAACAAGGAGACCCCAAGTGATGAAGATCCA   4940
+                     ||||||||.||.||.|||||||||||.|||||||||||||||||||||||
+Equus_quagga    4897 TTTCCTGACACAGTATTTGAAACAAGAAGACCCCAAGTGATGAAGATCCA   4946
+
+Homo_sapiens    4941 GGTCTTGGCTGTTGACAACAGTGTCCCCCAAATCGCAGTGAATAAGGGGG   4990
+                     ||||||.||..|||||||.|||||||||||.||.||||||||.||.||||
+Equus_quagga    4947 GGTCTTAGCCATTGACAATAGTGTCCCCCAGATTGCAGTGAACAAAGGGG   4996
+
+Homo_sapiens    4991 CCTCTACACTTCGCACTCTAGCCACTGGCCACTTGGGGTTCATGATCACA   5040
+                     ||||||||||.||.|||||.||||||||||||||||||||||||||||||
+Equus_quagga    4997 CCTCTACACTCCGTACTCTGGCCACTGGCCACTTGGGGTTCATGATCACA   5046
+
+Homo_sapiens    5041 AGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACACATTTCTCTTAG   5090
+                     |||||||||||||||||||||||||||||||||||||...||||||||||
+Equus_quagga    5047 AGCAAAATATTGAAAGTGGAGGACAGAGACAGCTTACGTTTTTCTCTTAG   5096
+
+Homo_sapiens    5091 ATTTATCGTGACAGAGGCCCCTCAACATGGATATCTTCTCAACCTGGACA   5140
+                     .|||||.||||||||||||||||.|||||||.|.||.||||||||||.||
+Equus_quagga    5097 GTTTATTGTGACAGAGGCCCCTCGACATGGAGACCTCCTCAACCTGGGCA   5146
+
+Homo_sapiens    5141 AAGGCAACCACAGCATCACTCAGTTCACACAAGCTGACATTGATGACATG   5190
+                     |||||||||||||..||||||||||.||||||||||||||||||||||||
+Equus_quagga    5147 AAGGCAACCACAGTGTCACTCAGTTTACACAAGCTGACATTGATGACATG   5196
+
+Homo_sapiens    5191 AAAATATGCTATGTCTTAAGAGAAGGGGCTAATGCCACAAGTGATATGTT   5240
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+Equus_quagga    5197 AAAATATGCTATGTTTTAAGAGAAGGGGCTAATGCCACAAGTGATATGTT   5246
+
+Homo_sapiens    5241 CTATTTTGCAGTTGAAGATGGTGGTGGAAACAAGTTAACGTACCAGAATT   5290
+                     |.|||||.||||||||||||||||.|||||||.||||||..|.|||.|||
+Equus_quagga    5247 CCATTTTACAGTTGAAGATGGTGGCGGAAACAGGTTAACCAAGCAGCATT   5296
+
+Homo_sapiens    5291 TTCGTCTGAATTGGGCATGGATCTCCTTTGAAAAGGAATATTACCTGGTC   5340
+                     ||||||||||||||||||||||||||||.||||||||||||||||||.||
+Equus_quagga    5297 TTCGTCTGAATTGGGCATGGATCTCCTTCGAAAAGGAATATTACCTGATC   5346
+
+Homo_sapiens    5341 AATGAGGACTCCAAATTTCTAGATGTTGTTCTTAAACGTAGAGGTTACTT   5390
+                     ||||||||||||||||||||||||||.|||.|.||||||||||||||.||
+Equus_quagga    5347 AATGAGGACTCCAAATTTCTAGATGTCGTTTTGAAACGTAGAGGTTATTT   5396
+
+Homo_sapiens    5391 GGGAGAAACTTCTTTTATAAGTATTGGCACAAGAGACAGAACTGCAGAAA   5440
+                     ||||||.|||||.|||||||||||||.|||||||||..||||||||||||
+Equus_quagga    5397 GGGAGAGACTTCATTTATAAGTATTGCCACAAGAGATGGAACTGCAGAAA   5446
+
+Homo_sapiens    5441 AAGACAAAGACTTCAAGGGCAAAGCACAGAAACAAGTGCAGTTCAACCCA   5490
+                     ||||||||||.|||||||||||||||||||||||||||||.|||||||||
+Equus_quagga    5447 AAGACAAAGATTTCAAGGGCAAAGCACAGAAACAAGTGCAATTCAACCCA   5496
+
+Homo_sapiens    5491 GGCCAGACCAGGGCCACATGGCGAGTGCGGATCCTGAGTGATGGGGAGCA   5540
+                     |||||||||||||||||||||.|||||||||||.|.|||||.||.||.||
+Equus_quagga    5497 GGCCAGACCAGGGCCACATGGAGAGTGCGGATCATCAGTGACGGAGAACA   5546
+
+Homo_sapiens    5541 TGAGCAGTCTGAAACCTTTCAGGTGGTACTCTCAGAGCCCGTGCTGGCTG   5590
+                     |||.||||||||.|||||.||||||||.||||||||||||||||||||||
+Equus_quagga    5547 TGAACAGTCTGAGACCTTCCAGGTGGTTCTCTCAGAGCCCGTGCTGGCTG   5596
+
+Homo_sapiens    5591 CCTTGGAATTCCCCACAGTCGCCACTGTTGAGATCGTTGATCCAGGAGAT   5640
+                     ||.||||||||||..||||..||||.||.|||||||||||.|||||||||
+Equus_quagga    5597 CCCTGGAATTCCCTGCAGTGACCACGGTGGAGATCGTTGACCCAGGAGAT   5646
+
+Homo_sapiens    5641 GAGCCAACTGTGTTTATTCCCCAGTCCAAATACTCCGTTGAAGAAGATGT   5690
+                     ||..|||||||.||||||||||||||..|||||.||.|||||||||||||
+Equus_quagga    5647 GAATCAACTGTATTTATTCCCCAGTCTGAATACGCCATTGAAGAAGATGT   5696
+
+Homo_sapiens    5691 TGGTGAGCTGTTCATTCCCATCAGGAGGAGCGGAGATGTGAGCCAGGAGT   5740
+                     ||||||.||||||||||||||.|||||.||.|||||.|..|||||||||.
+Equus_quagga    5697 TGGTGAACTGTTCATTCCCATTAGGAGAAGTGGAGACGCCAGCCAGGAGC   5746
+
+Homo_sapiens    5741 TGATGGTGGTCTGTTATACCCAACAAGGAACAGCAACTGGAACTGTGCCG   5790
+                     ||||||||.|||||||.||.||.|||||||||||||..|||||||||||.
+Equus_quagga    5747 TGATGGTGATCTGTTACACGCAGCAAGGAACAGCAAGCGGAACTGTGCCC   5796
+
+Homo_sapiens    5791 ACTTCCGTGTTGTCTTACTCTGATTACATATCCAGGCCTGAGGACCACAC   5840
+                     ||.||||||.||||.||.|||||||||||||||||.||||||||||||||
+Equus_quagga    5797 ACATCCGTGCTGTCCTATTCTGATTACATATCCAGACCTGAGGACCACAC   5846
+
+Homo_sapiens    5841 CAGTGTTGTCCGCTTTGACAAAGATGAACGGGAGAAACTGTGTCGGATAG   5890
+                     |||.|||||.|||||.||||||||.||.|||||||||.||||.||.||.|
+Equus_quagga    5847 CAGCGTTGTTCGCTTCGACAAAGACGAGCGGGAGAAAATGTGCCGCATTG   5896
+
+Homo_sapiens    5891 TCATAATTGATGACTCTTTGTACGAGGAGGAGGAAACCTTCCATGTCCTT   5940
+                     ||||.|||||||||||.|||||.||.|||||||||||.||||||||||.|
+Equus_quagga    5897 TCATTATTGATGACTCCTTGTATGAAGAGGAGGAAACATTCCATGTCCAT   5946
+
+Homo_sapiens    5941 CTGAGCATGCCCATGGGGGGAAGAATCGGATCAGAGTTCCCAGGGGCTCA   5990
+                     |||||||||||||||||.||.|||||.||||||||||||||||.|||||.
+Equus_quagga    5947 CTGAGCATGCCCATGGGCGGGAGAATTGGATCAGAGTTCCCAGAGGCTCG   5996
+
+Homo_sapiens    5991 AGTTACAATCGTTCCTGACAAAGATGATGAACCCATCTTTTACTTCGGTG   6040
+                     .|||||||||||||||||||||||.||||||||..||||.|||||.||.|
+Equus_quagga    5997 GGTTACAATCGTTCCTGACAAAGACGATGAACCAGTCTTCTACTTTGGCG   6046
+
+Homo_sapiens    6041 ATGTGGAATACTCTGTGGATGAGAGTGCTGGCTATGTGGAAGTGCAGGTG   6090
+                     ||||..|.||||||||||||||||||||.||||||||||||||||.||||
+Equus_quagga    6047 ATGTCCAGTACTCTGTGGATGAGAGTGCCGGCTATGTGGAAGTGCGGGTG   6096
+
+Homo_sapiens    6091 TGGAGAACGGGCACTGACCTGTCCAAGTCTTCTAGTGTCACAGTGAGGTC   6140
+                     |||||.|||||.||||||.||||||.|||||||||||||||||||||.||
+Equus_quagga    6097 TGGAGGACGGGGACTGACTTGTCCAGGTCTTCTAGTGTCACAGTGAGATC   6146
+
+Homo_sapiens    6141 TCGGAAAACAGATCCTCCCTCTGCAGATGCTGGAACAGACTATGTGGGCA   6190
+                     ||||||||||||||||||||||||.||.||||||||||||||||||||.|
+Equus_quagga    6147 TCGGAAAACAGATCCTCCCTCTGCTGAAGCTGGAACAGACTATGTGGGAA   6196
+
+Homo_sapiens    6191 TCAGCCGTAATTTAGATTTTGCACCTGGAGTCAACATGCAGCCTGTTCGT   6240
+                     ||||.|..||.||.|||||||||||||||||||||||||||.||||||||
+Equus_quagga    6197 TCAGTCTAAACTTGGATTTTGCACCTGGAGTCAACATGCAGACTGTTCGT   6246
+
+Homo_sapiens    6241 GTTGTCATTCTGGATGACCTTGGACAACCAGCGCTGGAGGGAATTGAGAA   6290
+                     |||..||||||||||||.|||||||||||||.||||||||||||||||||
+Equus_quagga    6247 GTTACCATTCTGGATGATCTTGGACAACCAGTGCTGGAGGGAATTGAGAA   6296
+
+Homo_sapiens    6291 ATTTGAACTGGTGCTTCGCATGCCTATGAACGCAGCCCTTGGCGAGCCCA   6340
+                     ||||||||||||||||||.|||||||||||.||.|||||.||||||||||
+Equus_quagga    6297 ATTTGAACTGGTGCTTCGTATGCCTATGAATGCCGCCCTCGGCGAGCCCA   6346
+
+Homo_sapiens    6341 GCAAAGCCACAGTGTCCATAAATGACTCTGTCTCCGATTTGCCTAAGATG   6390
+                     ||||||||||.|||||||||||||||||||||||.||.||||||||||||
+Equus_quagga    6347 GCAAAGCCACGGTGTCCATAAATGACTCTGTCTCAGACTTGCCTAAGATG   6396
+
+Homo_sapiens    6391 CAATTCAAAGAACGAATATATACTGGCAGCGAAAGTGATGGGCAGATAGT   6440
+                     |||||||||||||||.||||||||||.|..||||.|||||||||||||||
+Equus_quagga    6397 CAATTCAAAGAACGAGTATATACTGGAAATGAAAATGATGGGCAGATAGT   6446
+
+Homo_sapiens    6441 TACAATGATCCATAGGACTGGGGATGTCCAGTACAGATCTTCAGTGAGAT   6490
+                     |.||||||||||.||||.|||.||||||||||||||.|||||||||||||
+Equus_quagga    6447 TGCAATGATCCACAGGAGTGGAGATGTCCAGTACAGGTCTTCAGTGAGAT   6496
+
+Homo_sapiens    6491 GCTACACCCGGCAGGGGTCTGCACAGGTGATGATGGACTTTGAAGAACGC   6540
+                     |||||||.||.||||||||||||||.||||||||||||||||||||||||
+Equus_quagga    6497 GCTACACGCGACAGGGGTCTGCACAAGTGATGATGGACTTTGAAGAACGC   6546
+
+Homo_sapiens    6541 CCAAACACTGATACCTCCATCATCACATTCCTCCCTGGTGAGACAGAAAA   6590
+                     |||||.|||||||.|||.|||||||||||||||||||||||||||||.||
+Equus_quagga    6547 CCAAATACTGATATCTCGATCATCACATTCCTCCCTGGTGAGACAGAGAA   6596
+
+Homo_sapiens    6591 GCCCTGCATTCTTGAGCTGATGGACGATGTGCTC----TATGAGGAGGTA   6636
+                     |||.||.||.|||||||||||||||||    |||    ||||||||||||
+Equus_quagga    6597 GCCTTGTATCCTTGAGCTGATGGACGA----CTCACTGTATGAGGAGGTA   6642
+
+Homo_sapiens    6637 GAGGAGCTCCGCCTGGTACTCGGCACTCCACAAAGCAACTCTCCCTTTGG   6686
+                     |||||.|||||||||||.||||||||.|||||.||||.||||||||||||
+Equus_quagga    6643 GAGGAACTCCGCCTGGTTCTCGGCACCCCACAGAGCAGCTCTCCCTTTGG   6692
+
+Homo_sapiens    6687 GGCTGCAGTTGGTGAACAAAATGAAACTCTCATAAGGATCCGAGATGATG   6736
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+Equus_quagga    6693 GGCTGCAGTTGGTGAACAAAATGAAACTCTGATAAGGATCCGAGATGATG   6742
+
+Homo_sapiens    6737 CTGATAAGACTGTTATTAAATTTGGAGAAACCAAATTTAGTGTCACTGAA   6786
+                     ||||||||||..|||||||.|||||||||||.|||||||||||||..|||
+Equus_quagga    6743 CTGATAAGACAATTATTAAGTTTGGAGAAACGAAATTTAGTGTCAGCGAA   6792
+
+Homo_sapiens    6787 CCCAAAGAACCTGGAGAGTCGGTGGTTATAAGAATTCCAGTGATTCGCCA   6836
+                     |||||||||||.|||.||||||||.||||||.||||||||||||||||||
+Equus_quagga    6793 CCCAAAGAACCAGGACAGTCGGTGATTATAAAAATTCCAGTGATTCGCCA   6842
+
+Homo_sapiens    6837 AGGAGACACTTCAAAGGTTTCCATTGTGAGAGTCCACACCAAGGATGGCT   6886
+                     |||||||||.||.||||||||||..|||||||||||||||||||||||||
+Equus_quagga    6843 AGGAGACACGTCGAAGGTTTCCACCGTGAGAGTCCACACCAAGGATGGCT   6892
+
+Homo_sapiens    6887 CGGCCACCTCTGGAGAAGACTACCACCCTGTGTCAGAAGAAATTGAGTTT   6936
+                     |.||||||||||||||||||||.||||||||.||||||||||||||.|||
+Equus_quagga    6893 CAGCCACCTCTGGAGAAGACTATCACCCTGTCTCAGAAGAAATTGAATTT   6942
+
+Homo_sapiens    6937 AAGGAAGGGGAAACCCAGCACGTGGTTGAAATCGAAGTTACCTTTGACGG   6986
+                     ||.|||||.||||||||||||.|.||||||||.|||||.|.|||.||.||
+Equus_quagga    6943 AAAGAAGGAGAAACCCAGCACATTGTTGAAATTGAAGTAATCTTCGATGG   6992
+
+Homo_sapiens    6987 GGTGAGAGAGATGAGAGAGGCCTTCACTGTTCACCTAAAACCTGATGAAA   7036
+                     |||.|||||||||||||||||||||||||||||.||||||||||||||||
+Equus_quagga    6993 GGTAAGAGAGATGAGAGAGGCCTTCACTGTTCATCTAAAACCTGATGAAA   7042
+
+Homo_sapiens    7037 ATATGATAGCAGAGATGCAGTTGACGAAAGCCATTGTGTACATAGAAGAA   7086
+                     |||||||||||||||.||||.||||.||||||||||||||.|||||||||
+Equus_quagga    7043 ATATGATAGCAGAGACGCAGATGACCAAAGCCATTGTGTATATAGAAGAA   7092
+
+Homo_sapiens    7087 ATGAGCAGCATGGCAGATGTCACTTTTCCTTCTGTCCCTCAAATTGTATC   7136
+                     ||||.|||.||||||||||||||||||||||||||||||.|||||||.||
+Equus_quagga    7093 ATGAACAGTATGGCAGATGTCACTTTTCCTTCTGTCCCTGAAATTGTGTC   7142
+
+Homo_sapiens    7137 CCTGTTGATGTATGACGACACTTCCAAAGCTAAGGAGAGTGCTGAACCCA   7186
+                     |.|..||||||||||.||||||||||.||||||.||||||||||.|||||
+Equus_quagga    7143 CTTACTGATGTATGATGACACTTCCAGAGCTAAAGAGAGTGCTGGACCCA   7192
+
+Homo_sapiens    7187 TGTCTGGCTATCCTGTCATCTGTATCACAGCTTGCAACCCCAAATATTCA   7236
+                     |||||||||||||||||.||||||||||||||||||||||.|||||||||
+Equus_quagga    7193 TGTCTGGCTATCCTGTCGTCTGTATCACAGCTTGCAACCCTAAATATTCA   7242
+
+Homo_sapiens    7237 GACTACGATAAAACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACAC   7286
+                     |||||.||.||.||||||||||||||||||||||||||||||||||||||
+Equus_quagga    7243 GACTATGACAAGACAGGCTCTATCTGTGCAAGTGAGAACATCAATGACAC   7292
+
+Homo_sapiens    7287 TTTGACGCGGTACCGGTGGCTGATTAGTGCACCTGCGGGCCCTGACGGTG   7336
+                     ||||||||.||||||.||||||||||||||.||.||.||||||||.||||
+Equus_quagga    7293 TTTGACGCAGTACCGATGGCTGATTAGTGCTCCCGCTGGCCCTGATGGTG   7342
+
+Homo_sapiens    7337 TGACCAGCCCTATGAGAGAAGTGGACTTCGACACCTTTTTTACGTCATCC   7386
+                     ||||||||||.|||||||||||||||||.||||||||||||||.||||||
+Equus_quagga    7343 TGACCAGCCCCATGAGAGAAGTGGACTTTGACACCTTTTTTACATCATCC   7392
+
+Homo_sapiens    7387 AAGATGGTCACACTGGACTCCATATACTTTCAGCCTGGCTCCCGGGTACA   7436
+                     ||||||.||||..|.||||||||||||||||||||||||||||||||.||
+Equus_quagga    7393 AAGATGATCACTTTAGACTCCATATACTTTCAGCCTGGCTCCCGGGTGCA   7442
+
+Homo_sapiens    7437 GTGCGCAGCTCGTGCTGTGAACACCAATGGGGATGAAGGCCTGGAGCTCA   7486
+                     |||.||.|||||.||.|||||..|||||||..||||.|||||||||||.|
+Equus_quagga    7443 GTGTGCGGCTCGCGCCGTGAATGCCAATGGCAATGAGGGCCTGGAGCTGA   7492
+
+Homo_sapiens    7487 TGAGCCCTATTGTAACCATCAGCAGAGAAGAAGGTCTTTGTCAGCCCCGT   7536
+                     ||||.||||||.||||||||.||||||||||||||||||||||||||||.
+Equus_quagga    7493 TGAGTCCTATTATAACCATCGGCAGAGAAGAAGGTCTTTGTCAGCCCCGG   7542
+
+Homo_sapiens    7537 GTACCTGGGGTTGTTGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACAC   7586
+                     ||.||.|||.|.||.|||||||||||||||||||||||||||||||||||
+Equus_quagga    7543 GTGCCAGGGATAGTGGGAGCAGAGCCGTTCTCAGCTAAATTGCGCTACAC   7592
+
+Homo_sapiens    7587 AGGCCCTGAGGATGCAGACTACACAAACCTTATCAAGCTCACTGTCACAA   7636
+                     ||||||.|||||..|.||.|||.||||||||||||||||.||||||||.|
+Equus_quagga    7593 AGGCCCCGAGGACCCGGAGTACGCAAACCTTATCAAGCTAACTGTCACGA   7642
+
+Homo_sapiens    7637 TGCCACACATAGATGGCATGCTCCCCGTGATCTCCACTAGAGAGCTTTCC   7686
+                     ||||||||||.||||||||||||||.|||||||||||.|..|||||.|||
+Equus_quagga    7643 TGCCACACATTGATGGCATGCTCCCTGTGATCTCCACCAAGGAGCTGTCC   7692
+
+Homo_sapiens    7687 AACTTTGAGCTCACCCTCAGCCCTGATGGCACAAGAGTTGGAAACCACAA   7736
+                     ||||||||||||||||||||.|.|||||||||.||.||||||||||||||
+Equus_quagga    7693 AACTTTGAGCTCACCCTCAGTCTTGATGGCACGAGGGTTGGAAACCACAA   7742
+
+Homo_sapiens    7737 GTGCTCCAACCTCCTGGATTATACTGAAGTGAAGACTCATTATGGTTTCT   7786
+                     ||||||||||||||||||||||||||||||||||||.||..|.|||||||
+Equus_quagga    7743 GTGCTCCAACCTCCTGGATTATACTGAAGTGAAGACCCACCACGGTTTCT   7792
+
+Homo_sapiens    7787 TGACTGATGCTACCAAAAATCCAGAAATAATTGGAGAGACATATCCTTAC   7836
+                     |||||||||||||.|||||||||||||||.||||||||||||||||||||
+Equus_quagga    7793 TGACTGATGCTACAAAAAATCCAGAAATAGTTGGAGAGACATATCCTTAC   7842
+
+Homo_sapiens    7837 CAGTACAGCTTGTCCATCAGAGGTTCCACTACCTTGCGCTTCTACCGGAA   7886
+                     ||||||||||..||.|||||.|||||||.|||.||.|||||||||||.||
+Equus_quagga    7843 CAGTACAGCTCATCTATCAGGGGTTCCAGTACGTTACGCTTCTACCGAAA   7892
+
+Homo_sapiens    7887 CCTGAACCTAGAGGCCTGTTTATGGGAGTTCGTTAGCTACTATGACATGT   7936
+                     ||||||||||||||||||||||||||||||.|||||||||||.|||||||
+Equus_quagga    7893 CCTGAACCTAGAGGCCTGTTTATGGGAGTTTGTTAGCTACTACGACATGT   7942
+
+Homo_sapiens    7937 CAGAACTCCTTGCTGACTGTGGTGGCACCATTGGAACAGATGGACAGGTC   7986
+                     |.|||||.||..|||||||.||.||||||||.|||||||||||.||||||
+Equus_quagga    7943 CGGAACTTCTCACTGACTGCGGAGGCACCATCGGAACAGATGGGCAGGTC   7992
+
+Homo_sapiens    7987 CTAAACCTAGTGCAGTCCTATGTGACCCTTCGAGTCCCTCTGTATGTTTC   8036
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+Equus_quagga    7993 CTAAACCTAGTGCAGTCCTATGTGACTCTTCGAGTCCCTCTGTATGTTTC   8042
+
+Homo_sapiens    8037 CTACGTGTTCCATTCCCCCGTGGGGGTAGGAGGCTGGCAGCATTTTGACT   8086
+                     |||||||||||||||||||||.||||||||||||||||||||||||||||
+Equus_quagga    8043 CTACGTGTTCCATTCCCCCGTTGGGGTAGGAGGCTGGCAGCATTTTGACT   8092
+
+Homo_sapiens    8087 TGAAGTCAGAGCTTCGTCTAACTTTTGTGTACGACACCGCCATCTTGTGG   8136
+                     ||||||||||||||||||||||.||||||||.|||||.||||||||||||
+Equus_quagga    8093 TGAAGTCAGAGCTTCGTCTAACGTTTGTGTATGACACTGCCATCTTGTGG   8142
+
+Homo_sapiens    8137 AATGATGGAATTGGCAGCCCCCCAGAGGCTGAACTTCAAGGTTCTCTCTA   8186
+                     ||||||||||||||||||||.|||||.||.|||||.||||||||||||||
+Equus_quagga    8143 AATGATGGAATTGGCAGCCCACCAGAAGCAGAACTCCAAGGTTCTCTCTA   8192
+
+Homo_sapiens    8187 TCCAACCAGCATGCGCATCGGTGATGAGGGGCGCTTGGCCGTGCACTTCA   8236
+                     |||.|||||||||||||||||.||.|||||.|||||||.|||..||||||
+Equus_quagga    8193 TCCGACCAGCATGCGCATCGGGGAAGAGGGTCGCTTGGTCGTTAACTTCA   8242
+
+Homo_sapiens    8237 AGACAGAGGCTCAGTTCCATGGCTTATTTGTGCTGTCACATCCCGCATCC   8286
+                     ||||.||||||||.|||||.|||||.|||||||||||||||||.||.|||
+Equus_quagga    8243 AGACCGAGGCTCAATTCCACGGCTTGTTTGTGCTGTCACATCCTGCGTCC   8292
+
+Homo_sapiens    8287 TTTACAAGCTCAGTGATCATGTCAGCTGATCATCCAGGCCTGACATTTTC   8336
+                     ||.|||||||||.|||||||.|||||||||||||||||||||||||||||
+Equus_quagga    8293 TTCACAAGCTCAATGATCATCTCAGCTGATCATCCAGGCCTGACATTTTC   8342
+
+Homo_sapiens    8337 CCTCCGCCTCATAAGGAGTGAACCAACCTATAACCAGCCAGTACAGCAGT   8386
+                     |||.||.|||.||||||||||||||||||||||||||||..|.|||||.|
+Equus_quagga    8343 CCTGCGTCTCTTAAGGAGTGAACCAACCTATAACCAGCCCATCCAGCAAT   8392
+
+Homo_sapiens    8387 GGAGCTTTGTCTCTGACTTTGCCGTACGTGACTACTCAGGGACCTATACT   8436
+                     ||||||||||.|||||||||||.|||||||||||||||||||||||||||
+Equus_quagga    8393 GGAGCTTTGTGTCTGACTTTGCAGTACGTGACTACTCAGGGACCTATACT   8442
+
+Homo_sapiens    8437 GTGAAGCTGGTGCCATGCACTGCCCCATCACATCAGGAATACCGCCTGCC   8486
+                     ||.||.|||.||||||||||..|.||||||||||||||.|||||||||||
+Equus_quagga    8443 GTCAAACTGCTGCCATGCACCACTCCATCACATCAGGAGTACCGCCTGCC   8492
+
+Homo_sapiens    8487 AGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGAT   8536
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Equus_quagga    8493 AGTCACCTGCAACCCCAGAGAACCTGTCACCTTTGACCTTGACATCCGAT   8542
+
+Homo_sapiens    8537 TCCAACAGGTCAGTGATCCAGTGGCTGCTGAGTTTAGCTTGAACACCCAA   8586
+                     |||||||||||||||||||||||||.||||||||||||||||||||||||
+Equus_quagga    8543 TCCAACAGGTCAGTGATCCAGTGGCAGCTGAGTTTAGCTTGAACACCCAA   8592
+
+Homo_sapiens    8587 ATGTACCTGCTCTCTAAGAAGAGTCTCTGGTTGTCTGATGGATCCATGGG   8636
+                     ||||||||.|||||.|||||||||||.|||||||||||.|||||||||||
+Equus_quagga    8593 ATGTACCTCCTCTCCAAGAAGAGTCTTTGGTTGTCTGACGGATCCATGGG   8642
+
+Homo_sapiens    8637 ATTCGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGATATAATTTATG   8686
+                     |||.|||||||||||||||||||||||||||||||||||.||||||||||
+Equus_quagga    8643 ATTTGGGCAAGAGAGTGATGTTGCTTTTGCAGAAGGTGACATAATTTATG   8692
+
+Homo_sapiens    8687 GTCGTGTCATGGTGGATCCTGTCCAGAATCTGGGTGACTCCTTTTACTGC   8736
+                     |||||||||||||.|||||||||||||||||.|||||.||||||||||||
+Equus_quagga    8693 GTCGTGTCATGGTAGATCCTGTCCAGAATCTAGGTGATTCCTTTTACTGC   8742
+
+Homo_sapiens    8737 AGCATTGAGAAGGTGTTTCTATGCACTGGAGCTGATGGCTATGTTCCCAA   8786
+                     |||||||||||||||||.||.||||||||||||||.||||||||||||||
+Equus_quagga    8743 AGCATTGAGAAGGTGTTCCTGTGCACTGGAGCTGACGGCTATGTTCCCAA   8792
+
+Homo_sapiens    8787 GTATAGTCCAATGAATGCAGAATATGGCTGCTTAGCCGACTCTCCTTCAC   8836
+                     |||||||||||.||||||.||.||||||||||||||.||.||.|||||.|
+Equus_quagga    8793 GTATAGTCCAACGAATGCCGAGTATGGCTGCTTAGCTGATTCCCCTTCGC   8842
+
+Homo_sapiens    8837 TCTTATATAGATTTAAAATTGTGGACAAAGCTCAGCCAGAGACACAAGCG   8886
+                     |||||||||||||||||||||||||.|||||||||||||||||||||||.
+Equus_quagga    8843 TCTTATATAGATTTAAAATTGTGGATAAAGCTCAGCCAGAGACACAAGCC   8892
+
+Homo_sapiens    8887 ACCAGTTTTGGAAATGTCCTATTTAATGCCAAACTAGCAGTGGATGACCC   8936
+                     ||.|||||.|||||..|.||.||||||||||||||.||||||||||||||
+Equus_quagga    8893 ACGAGTTTCGGAAACATTCTGTTTAATGCCAAACTGGCAGTGGATGACCC   8942
+
+Homo_sapiens    8937 TGAAGCCATTCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTCG   8986
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||.|
+Equus_quagga    8943 TGAAGCTATTCTCTTAGTGAATCAGCCTGGATCTGATGGATTTAAAGTTG   8992
+
+Homo_sapiens    8987 ACTCAACACCACTCTTTCAGGTCGCTCTAGGCCGAGAATGGTATATACAT   9036
+                     |||||||.||.|||||||||||.|||||.|||.||||||||||.|||||.
+Equus_quagga    8993 ACTCAACGCCCCTCTTTCAGGTTGCTCTGGGCAGAGAATGGTACATACAC   9042
+
+Homo_sapiens    9037 ACGATCTATACAGTGAGATCGAAAGACAATGCCAATCGAGGTATTGGCAA   9086
+                     ||||||||.|||||.||.||.||||||||..||||.|||||.||||||||
+Equus_quagga    9043 ACGATCTACACAGTAAGGTCAAAAGACAACACCAACCGAGGCATTGGCAA   9092
+
+Homo_sapiens    9087 AAGAAGTGTGG------AGTACCATTCTCTGGTGAGTCAAGGAAAGCCCC   9130
+                     |||||||||||      |||||||.||.|||||||.||||||.|||||||
+Equus_quagga    9093 AAGAAGTGTGGAAGACCAGTACCACTCGCTGGTGACTCAAGGGAAGCCCC   9142
+
+Homo_sapiens    9131 AATCCACCACCAAGAGCCGGAAGAAGAGAGAGATCAGGAGCACACCCTCA   9180
+                     ...|.|.|||||||||||||||||.|||.|||||..|||||||||||.|.
+Equus_quagga    9143 CGGCAAACACCAAGAGCCGGAAGAGGAGGGAGATGCGGAGCACACCCCCG   9192
+
+Homo_sapiens    9181 CTGGCATGGGAGATTGGTGCTGAAAACAGTCGAGGAACAAACATCCAGCA   9230
+                     .||||||||||.||||||||||||||||..||||||||.|||||||||||
+Equus_quagga    9193 TTGGCATGGGAAATTGGTGCTGAAAACAACCGAGGAACGAACATCCAGCA   9242
+
+Homo_sapiens    9231 CATTGCCCTGGACCGCAC---CAAGAGGCAGATCCCCCATGGGAGAGCAC   9277
+                     ||||||||||||||||||   |||||.||||||||||||.|||.|||..|
+Equus_quagga    9243 CATTGCCCTGGACCGCACCAACAAGAAGCAGATCCCCCAAGGGCGAGTTC   9292
+
+Homo_sapiens    9278 CTCCAGATGGCATCCTCCCCTGGGAGCTCAACAGCCCCAGCTCTGCAGTC   9327
+                     ||||.|||||..||||||||.||||||||||||||||||||||||..|||
+Equus_quagga    9293 CTCCTGATGGTGTCCTCCCCCGGGAGCTCAACAGCCCCAGCTCTGAGGTC   9342
+
+Homo_sapiens    9328 AGCCTGGTCACTG-TGGTGGGAGGCACCACGGTAGGGTTACTCACCATCT   9376
+                     |||||||||| || |.||||||||||.|.|.||.||.|||||||||.|||
+Equus_quagga    9343 AGCCTGGTCA-TGATCGTGGGAGGCATCGCTGTGGGATTACTCACCCTCT   9391
+
+Homo_sapiens    9377 GCCTCACTGTCATTGCAGTGCTGATGTGCAGGGGCAAGGAAAGTTTCAGG   9426
+                     |||||||||.|.|..|||||.|||||||||.|.|||||.|.|||..||||
+Equus_quagga    9392 GCCTCACTGCCCTCCCAGTGATGATGTGCAAGAGCAAGAAGAGTGCCAGG   9441
+
+Homo_sapiens    9427 GGGAAGGATGCCCCGAAAGGCTCCAGCAGCAGTGAGCCCATGGTGCCCCC   9476
+                     .|||||||.||.|||||.|||||..|||||||.|||||||||.|||.|.|
+Equus_quagga    9442 AGGAAGGAAGCTCCGAAGGGCTCAGGCAGCAGCGAGCCCATGATGCTCGC   9491
+
+Homo_sapiens    9477 ACAGAGCCATCACAATGACAGCTCAGAAGTT   9507
+                     .||||||||.|.||..|||||||||||.|||
+Equus_quagga    9492 GCAGAGCCACCCCAGCGACAGCTCAGAGGTT   9522
+
+
+#---------------------------------------
+#---------------------------------------

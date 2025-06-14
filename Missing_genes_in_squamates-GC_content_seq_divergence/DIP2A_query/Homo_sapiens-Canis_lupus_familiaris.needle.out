@@ -1,0 +1,426 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 05:56:51
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Canis_lupus_familiaris.fa
+#    -outfile Homo_sapiens-Canis_lupus_familiaris.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Canis_lupus_familiaris.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Canis_lupus_familiaris
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4851
+# Identity:    4195/4851 (86.5%)
+# Similarity:  4195/4851 (86.5%)
+# Gaps:         129/4851 ( 2.7%)
+# Score: 18726.5
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGCTGACCGCGGGTGCCCGCTGGAGGCGGCGCCGCTGCCTGCCGAGGT     50
+                     |||||.|.|||||||||..||||||||||||.|||||||||..|||||||
+Canis_lupus_f      1 ATGGCCGCCCGCGGGTGTGCGCTGGAGGCGGTGCCGCTGCCCCCCGAGGT     50
+
+Homo_sapiens      51 GCGGGAGAGCCTGGCTGAGCTGGAGCTGGAGCTGTCGGAAGGTGACATCA    100
+                     |||||||||||||||.|||||||||||||||||||||||.||||||||||
+Canis_lupus_f     51 GCGGGAGAGCCTGGCCGAGCTGGAGCTGGAGCTGTCGGAGGGTGACATCA    100
+
+Homo_sapiens     101 CTCAAAAAGGATATGAAAAGAAAAGGGCAAAGCTGCTTGCACGTTATATA    150
+                     |||||||||||||||||||||||.|||||||||||||||||||.||.||.
+Canis_lupus_f    101 CTCAAAAAGGATATGAAAAGAAACGGGCAAAGCTGCTTGCACGCTACATC    150
+
+Homo_sapiens     151 CCGCTTATTCAAGGAATAGACCCATCTCTGCAAGCAGAGAATAGAATTCC    200
+                     ||.|||.||||||||.||||.||.||.||.|||||||||||.||..||.|
+Canis_lupus_f    151 CCACTTCTTCAAGGAGTAGATCCGTCCCTACAAGCAGAGAACAGGGTTTC    200
+
+Homo_sapiens     201 TGGGCCCTCACAAACCACGGCCGCTGCACCCAAGCAGCAGAAGTCTCGGC    250
+                     |||.|||.|.||.||..|.||.|..||.|||||||||||||||.|.||||
+Canis_lupus_f    201 TGGCCCCGCGCAGACGTCAGCTGTGGCGCCCAAGCAGCAGAAGCCGCGGC    250
+
+Homo_sapiens     251 CCACCGCCTCGAGGGATGAGCGCTTCCGGTCAGCAAATATTCAGCCAATG    300
+                     |..||..|||..|.||.|||||||||||.|||                  
+Canis_lupus_f    251 CGGCCAACTCCCGAGACGAGCGCTTCCGCTCA------------------    282
+
+Homo_sapiens     301 TTCATATGGCTTTTGCTCGTATGGCTTCTAAGGAACAAGTTTATTTGGAC    350
+                                                                       
+Canis_lupus_f    282 --------------------------------------------------    282
+
+Homo_sapiens     351 CCAGGATTCAAATAAGAGCTACACATTGCAGTTGGTTGATGTCCACACTG    400
+                                                          |||||.|||||.|
+Canis_lupus_f    283 -------------------------------------GATGTTCACACGG    295
+
+Homo_sapiens     401 AAGCCGTGCAAGCAGCTTTGGCCAAATACAAAGAGAGGAAGATGCCTATG    450
+                     |.||.||||||||||||.|||||||.|||||.||||||||||||||||||
+Canis_lupus_f    296 AGGCGGTGCAAGCAGCTCTGGCCAAGTACAAGGAGAGGAAGATGCCTATG    345
+
+Homo_sapiens     451 CCTTCGAAGAGACGTTCTGTCCTTGTGCATTCGTCTGTGGAAACCTACAC    500
+                     |||||.||.|||||||||||.||.||.||.||||||||||||||||||||
+Canis_lupus_f    346 CCTTCCAAAAGACGTTCTGTTCTCGTACACTCGTCTGTGGAAACCTACAC    395
+
+Homo_sapiens     501 CCCTCCAGACACGTCGTCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    550
+                     .||||||||||||||.||||||||||||||||||||||||||||||||||
+Canis_lupus_f    396 GCCTCCAGACACGTCATCTGCCTCAGAAGATGAGGGCTCTTTACGGCGAC    445
+
+Homo_sapiens     551 CCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAGCGTCGAGCCC    600
+                     |||||||||||||||||||||||||||||||||||||||.|.||||||||
+Canis_lupus_f    446 CCGGGCGACTCACCTCCACTCCGCTCCAGAGCCATTCCAACATCGAGCCC    495
+
+Homo_sapiens     601 TGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCCTC    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Canis_lupus_f    496 TGGCTCGACCGGGTCATTCAGGGCTCGTCCACCTCATCCTCTGCATCCTC    545
+
+Homo_sapiens     651 CACCTCATCTCACCCGGGAGGGAGACCCACCACTGCTCCCAGTGCTGCAG    700
+                     ||||||||||||||||||||||||||||.||.|.|||||||||       
+Canis_lupus_f    546 CACCTCATCTCACCCGGGAGGGAGACCCGCCGCCGCTCCCAGT-------    588
+
+Homo_sapiens     701 CCACGCCGGGGGCCGCCGCTACCACTGCACTCGCAGGCCTCGAGGCCCAC    750
+                                ||||||||.|||.|..|.|||.||||||.||.|||||||
+Canis_lupus_f    589 -----------GCCGCCGCCACCGCCACGCTCACAGGCCCCGCGGCCCAC    627
+
+Homo_sapiens     751 ACCCACATAGATCTGCATTCTGCCCCTCCTGATGTCACCACGGGCCTCGT    800
+                     .||||||||||||||||.|||||||||||.||||||||||||||||||||
+Canis_lupus_f    628 GCCCACATAGATCTGCACTCTGCCCCTCCGGATGTCACCACGGGCCTCGT    677
+
+Homo_sapiens     801 GGAGCATTCGTACTTTGAGCGTCCACAGGTGGCTTCTGTGAGAAGTGTTC    850
+                     |||||..||..|||..||.|||||||||.|||||||||||||..||||.|
+Canis_lupus_f    678 GGAGCTCTCCCACTGCGAACGTCCACAGCTGGCTTCTGTGAGGGGTGTCC    727
+
+Homo_sapiens     851 CTCGGGGGTGCAGCGGGAGCATGCTGGAAACAGCAGATGGTGTCCCTGTG    900
+                     |||||||.|.||||||||||.|.||||||||.||.|.|||||||||||||
+Canis_lupus_f    728 CTCGGGGCTACAGCGGGAGCGTCCTGGAAACGGCCGGTGGTGTCCCTGTG    777
+
+Homo_sapiens     901 AACAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTGAACACCCTGAAGAG    950
+                     |.|||||||||||||||||||||||||||||||||.||||||||||||||
+Canis_lupus_f    778 AGCAGCAGAGTGTCCTCCAAAATCCAGCAGCTTCTCAACACCCTGAAGAG    827
+
+Homo_sapiens     951 GCCAAAGCGCCCTCCACTGAAGGAGTTCTTTGTGGATGATTTTGAGGAAT   1000
+                     |||.|||||||||||.||||||||||||||||||||||||||||||||..
+Canis_lupus_f    828 GCCCAAGCGCCCTCCGCTGAAGGAGTTCTTTGTGGATGATTTTGAGGAGC    877
+
+Homo_sapiens    1001 TGTTGGAAGTTCAGCAACCAGATCCAAATCAGCCAAAGCCTGAGGGAAGC   1050
+                     ||||||||||.|||||.|||||||||||||||||||||||.|||||||||
+Canis_lupus_f    878 TGTTGGAAGTGCAGCAGCCAGATCCAAATCAGCCAAAGCCGGAGGGAAGC    927
+
+Homo_sapiens    1051 GAGACGAGT-GTGCTGAGAGGGGAGCCTCTCACTGCAGGTGTCCCCCGAC   1099
+                     .|||.| || |||||||.||||||||||||..|.|..||..|.|||.|.|
+Canis_lupus_f    928 CAGATG-GTGGTGCTGAAAGGGGAGCCTCTGGCCGTGGGGATTCCCTGGC    976
+
+Homo_sapiens    1100 CGCCGTCGCTGTTGGCCACCTTGCAGCGCTGGGGCACAACACAGCCCAAA   1149
+                     |.|||||.|||.|||||.||||||||||.|||||.||.||.|||||||||
+Canis_lupus_f    977 CACCGTCCCTGCTGGCCGCCTTGCAGCGGTGGGGTACGACGCAGCCCAAA   1026
+
+Homo_sapiens    1150 TCCCCCTGTCTGACTGCCTTGGATACAACTGGGAAAGCCGTCTACACTCT   1199
+                     .|||||||||||||.|||||.||.|||.|||||||.|||||||||||.||
+Canis_lupus_f   1027 GCCCCCTGTCTGACCGCCTTAGACACAGCTGGGAAGGCCGTCTACACCCT   1076
+
+Homo_sapiens    1200 CACCTATGGTAAACTTTGGAGTCGGAGTTTAAAACTAGCTTATACTCTAC   1249
+                     |||||||||.|||||.||||||||||||||||||||||||||||||||||
+Canis_lupus_f   1077 CACCTATGGCAAACTATGGAGTCGGAGTTTAAAACTAGCTTATACTCTAC   1126
+
+Homo_sapiens    1250 TTAATAAACTGACAAGTAAGAATGAACCTCTACTTAAACCTGGAGACAGA   1299
+                     |||||||||||||.||||||||||||||.||||||||.||||||||||||
+Canis_lupus_f   1127 TTAATAAACTGACTAGTAAGAATGAACCACTACTTAACCCTGGAGACAGA   1176
+
+Homo_sapiens    1300 GTGGCGCTCGTGTTTCCGAATAGTGACCCTGTGATGTTCATGGTTGCATT   1349
+                     |||||.||.||||||||.||.||||||||.||||||||||||||.|||||
+Canis_lupus_f   1177 GTGGCCCTGGTGTTTCCAAACAGTGACCCCGTGATGTTCATGGTGGCATT   1226
+
+Homo_sapiens    1350 TTATGGGTGTCTCCTGGCAGAGCTGGTTCCTGTCCCCATAGAAGTGCCAT   1399
+                     ||||||||||||.|||||||||||||||||||||||||||||.|||||.|
+Canis_lupus_f   1227 TTATGGGTGTCTGCTGGCAGAGCTGGTTCCTGTCCCCATAGAGGTGCCGT   1276
+
+Homo_sapiens    1400 TAACAAGAAAGGATGCAGGCAGCCAGCAGGTTGGGTTTCTGCTGGGCAGC   1449
+                     ||||.||||||||.||.|||||||||||||||||.|||||||||||||||
+Canis_lupus_f   1277 TAACGAGAAAGGACGCTGGCAGCCAGCAGGTTGGCTTTCTGCTGGGCAGC   1326
+
+Homo_sapiens    1450 TGTGGAGTCTTCTTGGCCCTGACCACAGACGCTTGTCAGAAAGGCCTCCC   1499
+                     ||.||.|||..|.|||||||||||||.||||||||||||||.|||||.||
+Canis_lupus_f   1327 TGCGGCGTCACCCTGGCCCTGACCACGGACGCTTGTCAGAAGGGCCTGCC   1376
+
+Homo_sapiens    1500 CAAGGCACAGACAGGAGAGGTGGCAGCTTTCAAAGGTTGGCCCCCGCTCT   1549
+                     ||||||||||||.|||||||||||..||||||||||.||||||||||||.
+Canis_lupus_f   1377 CAAGGCACAGACCGGAGAGGTGGCGACTTTCAAAGGATGGCCCCCGCTCG   1426
+
+Homo_sapiens    1550 CCTGGCTAGTGATTGATGGGAAGCATCTAGCCAAGCCCCCAAAGGACTGG   1599
+                     |||||||||||||.||.|||||||||||..||||||||||.||.||.|||
+Canis_lupus_f   1427 CCTGGCTAGTGATCGACGGGAAGCATCTGACCAAGCCCCCCAAAGATTGG   1476
+
+Homo_sapiens    1600 CACCCTCTGGCCCAGGACACAGGGACTGGGACTGCCTACATTGAGTATAA   1649
+                     |||||.|.|||.||||||.|||||.|.|||||.||||||||.||||||||
+Canis_lupus_f   1477 CACCCGCAGGCACAGGACGCAGGGGCCGGGACGGCCTACATCGAGTATAA   1526
+
+Homo_sapiens    1650 AACCAGCAAAGAAGGCAGTACGGTGGGGGTCACAGTGTCCCACGCATCCC   1699
+                     ||||||||||||||||||.||.|||||||||||.||||||||.|||||.|
+Canis_lupus_f   1527 AACCAGCAAAGAAGGCAGCACTGTGGGGGTCACGGTGTCCCATGCATCGC   1576
+
+Homo_sapiens    1700 TGCTGGCACAGTGCCGGGCTCTGACCCAGGCGTGCGGGTACTCAGAAGCT   1749
+                     |||||||||||||||||||||||||.|||||.||.||.||||||||||||
+Canis_lupus_f   1577 TGCTGGCACAGTGCCGGGCTCTGACGCAGGCTTGTGGCTACTCAGAAGCT   1626
+
+Homo_sapiens    1750 GAAACATTAACAAACGTGCTGGATTTCAAAAGGGATGCTGGTCTGTGGCA   1799
+                     ||.|||||||||||.|||||||||||||||||||||||||||||||||||
+Canis_lupus_f   1627 GAGACATTAACAAATGTGCTGGATTTCAAAAGGGATGCTGGTCTGTGGCA   1676
+
+Homo_sapiens    1800 TGGCGTGTTAACAAGCGTCATGAACAGGATGCACGTGGTCAGCGTCCCCT   1849
+                     |||.||||||||||||||||||||||||||||||||..|||||.||||||
+Canis_lupus_f   1677 TGGAGTGTTAACAAGCGTCATGAACAGGATGCACGTCATCAGCATCCCCT   1726
+
+Homo_sapiens    1850 ACGCGCTGATGAAGGCGAACCCACTCTCCTGGATCCAGAAAGTGTGCTTC   1899
+                     ||||.||||||||||..|||||.||.||||||||.||||||||||| |||
+Canis_lupus_f   1727 ACGCACTGATGAAGGTCAACCCGCTGTCCTGGATTCAGAAAGTGTG-TTC   1775
+
+Homo_sapiens    1900 -TATAAAGCTCGGGCCGCGCTGGTGAAGTCGCGAGACATGCACTGGTCTC   1948
+                      ||.|||||.|||||.||||||||||||||.||.||||||||||||||||
+Canis_lupus_f   1776 GTACAAAGCCCGGGCTGCGCTGGTGAAGTCCCGCGACATGCACTGGTCTC   1825
+
+Homo_sapiens    1949 TCCTAGCTCAGCGGGGCCAGAGGGACGTCAGCCTCAGCTCACTGCGCATG   1998
+                     ||||||||||||||||.||||||||.||||||||||||||.|||||||||
+Canis_lupus_f   1826 TCCTAGCTCAGCGGGGTCAGAGGGATGTCAGCCTCAGCTCCCTGCGCATG   1875
+
+Homo_sapiens    1999 CTGATTGTGGCCGATGGTGCCAACCCGTGGTCGATCTCCTCCTGTGACGC   2048
+                     |||||.||||||||.||.||.|||||.|||||.||.||||||||||||||
+Canis_lupus_f   1876 CTGATCGTGGCCGACGGCGCTAACCCCTGGTCCATATCCTCCTGTGACGC   1925
+
+Homo_sapiens    2049 CTTCCTCAACGTCTTCCAGTCCAGAGGTCTGAGGCCAGAGGTCATCTGTC   2098
+                     .||||||||.|||||||||||||||||.|||||||||||||||||.||||
+Canis_lupus_f   1926 GTTCCTCAATGTCTTCCAGTCCAGAGGCCTGAGGCCAGAGGTCATTTGTC   1975
+
+Homo_sapiens    2099 CTTGTGCAAGTTCTCCTGAGGCGCTGACTGTCGCCATCCGCAGGCCACCT   2148
+                     |.||.||.|.||||||||||||||||||.||.||||||||||||||.||.
+Canis_lupus_f   1976 CCTGCGCCACTTCTCCTGAGGCGCTGACAGTTGCCATCCGCAGGCCGCCG   2025
+
+Homo_sapiens    2149 GATCTGGGAGGACCACCTCCAAGAAAAGCAGTCCTGTCGATGAACGGTCT   2198
+                     ||.|||||||||||.||.||.||.|||||.|||||.||.|||||||||||
+Canis_lupus_f   2026 GACCTGGGAGGACCTCCACCCAGGAAAGCTGTCCTCTCCATGAACGGTCT   2075
+
+Homo_sapiens    2199 AAGTTATGGTGTTATCAGAGTGGATACTGAAGAAAAGTTGTCAGTCCTTA   2248
+                     .||||.||||||.||||||||.||||||||||||||||||||.||.||||
+Canis_lupus_f   2076 CAGTTTTGGTGTGATCAGAGTTGATACTGAAGAAAAGTTGTCGGTTCTTA   2125
+
+Homo_sapiens    2249 CTGTTCAGGACGTTGGTCAGGTGATGCCTGGAGCTAATGTATGTGTTGTG   2298
+                     |.||||||||||||||.||||||.|.||||||||..|.||.|||||||||
+Canis_lupus_f   2126 CCGTTCAGGACGTTGGCCAGGTGCTCCCTGGAGCGGACGTTTGTGTTGTG   2175
+
+Homo_sapiens    2299 AAGTTAGAAGGTACCCCTTATCTTTGTAAAACTGATGAAGTGGGAGAAAT   2348
+                     |||.||||||||.||||||||||.|||||.||.||.|||||.||||||||
+Canis_lupus_f   2176 AAGGTAGAAGGTGCCCCTTATCTCTGTAAGACCGACGAAGTTGGAGAAAT   2225
+
+Homo_sapiens    2349 ATGCGTCAGTTCCAGTGCAACTGGCACAGCGTACTATGGATTGCTTGGAA   2398
+                     |||.|||..||||||.||.||.|||||.||||||||.||..||||.||.|
+Canis_lupus_f   2226 ATGTGTCCATTCCAGCGCCACGGGCACGGCGTACTACGGGCTGCTCGGCA   2275
+
+Homo_sapiens    2399 TCACGAAGAATGTGTTTGAGGCAGTTCCGGTCACCACAGGAGGAGCACCC   2448
+                     ||||.||||.|||.||||||.|.||.|||.||||..|||||||.||.|||
+Canis_lupus_f   2276 TCACTAAGAGTGTCTTTGAGACCGTCCCGCTCACGGCAGGAGGGGCGCCC   2325
+
+Homo_sapiens    2449 ATCTTTGACAGGCCATTCACCAGGACAGGCCTGCTGGGCTTCATCGGGCC   2498
+                     .|.|.|||..||||.|||||||||||.||.||||||||||||.|||||||
+Canis_lupus_f   2326 GTGTCTGAGCGGCCTTTCACCAGGACGGGGCTGCTGGGCTTCGTCGGGCC   2375
+
+Homo_sapiens    2499 TGACAACCTGGTCTTCATCGTGGGCAAACTGGACGGGCTGATGGTCACTG   2548
+                     .|||.|||||||.||..||||||||||.|||||||||||||||||...||
+Canis_lupus_f   2376 GGACGACCTGGTGTTTGTCGTGGGCAAGCTGGACGGGCTGATGGTGGTTG   2425
+
+Homo_sapiens    2549 GAGTTCGCAGACACAATGCAGATGACGTTGTGGCCACCGCACTGGCCGTG   2598
+                     |||||||..|||||||.||.||.|||||.|||||||||||.|||||||||
+Canis_lupus_f   2426 GAGTTCGTCGACACAACGCGGACGACGTCGTGGCCACCGCGCTGGCCGTG   2475
+
+Homo_sapiens    2599 GAGCCCATGAAGTTTGTCTACAGAGGCAGGATCGCTGTGTTCTCTGTGAC   2648
+                     ||||||||||||||||||||||||||||||||.||.||||||||.|||||
+Canis_lupus_f   2476 GAGCCCATGAAGTTTGTCTACAGAGGCAGGATTGCCGTGTTCTCCGTGAC   2525
+
+Homo_sapiens    2649 CGTGCTGCACGACGACCGGATTGTCCTGGTGGCTGAGCAGCGGCCGGATG   2698
+                     .|||.||||||||||||||||.||.||.|||||.|||||||||||.||.|
+Canis_lupus_f   2526 GGTGTTGCACGACGACCGGATCGTGCTCGTGGCGGAGCAGCGGCCCGACG   2575
+
+Homo_sapiens    2699 CCTCGGAGGAGGACAGCTTCCAGTGGATGAGCCGTGTGCTGCAGGCCATT   2748
+                     ||||.|||||||||||||||||||||||||||||.||||||||||||||.
+Canis_lupus_f   2576 CCTCCGAGGAGGACAGCTTCCAGTGGATGAGCCGCGTGCTGCAGGCCATC   2625
+
+Homo_sapiens    2749 GATAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTGCCAA   2798
+                     ||.|||||||||||||||||||||||||||||||||||||||||||||||
+Canis_lupus_f   2626 GACAGCATCCACCAGGTGGGCGTGTACTGTCTGGCCCTGGTTCCTGCCAA   2675
+
+Homo_sapiens    2799 CACCTTGCCCAAGGCTCCTCTCGGAGGGATTCACATTTCTGAAACCAAAC   2848
+                     |||||||||||||||||||||.||||||||||||||||||||||||||.|
+Canis_lupus_f   2676 CACCTTGCCCAAGGCTCCTCTTGGAGGGATTCACATTTCTGAAACCAAGC   2725
+
+Homo_sapiens    2849 AGCGCTTTCTGGAAGGGACGCTGCACCCGTGTAATGTGCTGATGTGCCCT   2898
+                     ||||.||.|||||.||||.|||||||||.|||||||||||.|||||.|||
+Canis_lupus_f   2726 AGCGTTTCCTGGAGGGGATGCTGCACCCATGTAATGTGCTCATGTGTCCT   2775
+
+Homo_sapiens    2899 CACACCTGTGTTACCAACCTCCCCAAACCTCGTCAGAAACAACCAGAGGT   2948
+                     ||||||||||||||||||||.|||||||||||.|||||||||||||||||
+Canis_lupus_f   2776 CACACCTGTGTTACCAACCTTCCCAAACCTCGCCAGAAACAACCAGAGGT   2825
+
+Homo_sapiens    2949 TGGACCAGCCTCAATGATCGTGGGGAACCTGGTTGCTGGGAAGAGAATCG   2998
+                     .||.||.|||||.|||||||||||||||||||||||.||||||||.||||
+Canis_lupus_f   2826 GGGGCCGGCCTCCATGATCGTGGGGAACCTGGTTGCCGGGAAGAGGATCG   2875
+
+Homo_sapiens    2999 CTCAGGCTTCCGGGAGAGAGCTCGCCCACCTGGAGGACAGCGACCAGGCA   3048
+                     |.|||||.||.||..|.|||||.||.||.||||||||||||||||||||.
+Canis_lupus_f   2876 CACAGGCCTCGGGCCGGGAGCTGGCTCATCTGGAGGACAGCGACCAGGCC   2925
+
+Homo_sapiens    3049 CGGAAGTTCCTGTTCCTGGCTGACGTGCTGCAGTGGCGTGCCCACACCAC   3098
+                     .|||||||||||||||||.|.|||||||||||||||||.||.||||||||
+Canis_lupus_f   2926 AGGAAGTTCCTGTTCCTGCCCGACGTGCTGCAGTGGCGGGCGCACACCAC   2975
+
+Homo_sapiens    3099 TCCTGACCACCCGCTGTTCTTGCTGCTGAACGCCAAGGGCACCGTCACAA   3148
+                     |||||||||||||||||||.|||||||.||||||||||||||||||||.|
+Canis_lupus_f   2976 TCCTGACCACCCGCTGTTCCTGCTGCTCAACGCCAAGGGCACCGTCACCA   3025
+
+Homo_sapiens    3149 GCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCTGAGAGAGTGGCCGCG   3198
+                     ||||||||||||||||||||||||||||||||||.||.||.||.|||||.
+Canis_lupus_f   3026 GCACTGCAACCTGTGTCCAGCTGCACAAAAGGGCAGAAAGGGTCGCCGCC   3075
+
+Homo_sapiens    3199 GCTCTGATGGAGAAGGGAAGACTGAGTGTTGGGGACCATGTGGCTCTGGT   3248
+                     ||||||||||||||||.||||||||..||||||||||||||||||.||||
+Canis_lupus_f   3076 GCTCTGATGGAGAAGGCAAGACTGAACGTTGGGGACCATGTGGCTTTGGT   3125
+
+Homo_sapiens    3249 CTACCCACCAGGGGTGGACCTCATTGCCGCGTTCTATGGCTGCTTGTACT   3298
+                     |||.||.|||||||||||||||||||||||.|||||.|||||..||||||
+Canis_lupus_f   3126 CTATCCCCCAGGGGTGGACCTCATTGCCGCCTTCTACGGCTGTCTGTACT   3175
+
+Homo_sapiens    3299 GTGGCTGCGTGCCTGTCACCGTGCGGCCCCCGCACCCTCAGAACCTCGGC   3348
+                     |||||||||||||||||||.|||||||||||.|||||.||||||||||.|
+Canis_lupus_f   3176 GTGGCTGCGTGCCTGTCACGGTGCGGCCCCCACACCCCCAGAACCTCGCC   3225
+
+Homo_sapiens    3349 ACCACACTGCCCACCGTCAAGATGATCGTGGAGGTCAGCAAGTCTGCATG   3398
+                     |||||.|||||.||||||||||||||||||||||||||||||||.||.||
+Canis_lupus_f   3226 ACCACGCTGCCTACCGTCAAGATGATCGTGGAGGTCAGCAAGTCCGCCTG   3275
+
+Homo_sapiens    3399 CGTCCTCACCACGCAGGCTGTCACACGGCTGCTCAGGTCCAAGGAGGCTG   3448
+                     |||||||||.||.|||||..|||..||||||||||.||||||.||.||.|
+Canis_lupus_f   3276 CGTCCTCACGACACAGGCCATCATGCGGCTGCTCAAGTCCAAAGATGCAG   3325
+
+Homo_sapiens    3449 CTGCTGCCGTGGACATCAGGACCTGGCCCACCATCCTAGACACAGATGAC   3498
+                     ..||.||.||||||.|||||||||||||.|||||..|.||.|||||||||
+Canis_lupus_f   3326 GGGCCGCTGTGGACGTCAGGACCTGGCCAACCATTGTGGATACAGATGAC   3375
+
+Homo_sapiens    3499 ATCCCAAAAAAGAAGATAGCAAGCGTTTTCAGGCCCCCCTCCCCCGATGT   3548
+                     ||.||||||||||||.|.||.|||.||||||||||.||.||.||.||.||
+Canis_lupus_f   3376 ATACCAAAAAAGAAGGTGGCGAGCATTTTCAGGCCACCGTCTCCAGACGT   3425
+
+Homo_sapiens    3549 CCTCGCATACTTGGACTTCAGCGTGTCAACCACTGGGATATTAGCGGGAG   3598
+                     .|||||.||||||||||||||||||||||||||.|||||.|||||.||.|
+Canis_lupus_f   3426 GCTCGCCTACTTGGACTTCAGCGTGTCAACCACGGGGATTTTAGCAGGCG   3475
+
+Homo_sapiens    3599 TGAAGATGTCGCACGCGGCCACAAGCGCCTTATGCCGCTCCATAAAGCTG   3648
+                     ||||||||||||||||.||||||||.|||||.||||||||||||||||||
+Canis_lupus_f   3476 TGAAGATGTCGCACGCAGCCACAAGTGCCTTGTGCCGCTCCATAAAGCTG   3525
+
+Homo_sapiens    3649 CAGTGTGAGCTGTACCCCTCGCGGCAGATCGCCATCTGCCTCGACCCCTA   3698
+                     |||||||||.|||||||||||.|||||||||||||||||||.||||||||
+Canis_lupus_f   3526 CAGTGTGAGTTGTACCCCTCGAGGCAGATCGCCATCTGCCTTGACCCCTA   3575
+
+Homo_sapiens    3699 CTGTGGCCTTGGTTTTGCCCTGTGGTGTCTGTGCAGTGTCTACTCGGGAC   3748
+                     |||||||||.||.||.||||||||||||||||||||.||||||||.||||
+Canis_lupus_f   3576 CTGTGGCCTCGGCTTCGCCCTGTGGTGTCTGTGCAGCGTCTACTCAGGAC   3625
+
+Homo_sapiens    3749 ACCAATCAGTGCTGGTGCCCCCGCTGGAGCTGGAGAGCAACGTGTCCCTG   3798
+                     ||||.||.||.|||||.||.|||||.||||||||||||||||||||||||
+Canis_lupus_f   3626 ACCAGTCTGTCCTGGTCCCTCCGCTCGAGCTGGAGAGCAACGTGTCCCTG   3675
+
+Homo_sapiens    3799 TGGCTGTCGGCCGTCAGCCAGTACAAGGCCCGCGTCACCTTCTGCTCCTA   3848
+                     ||||||||.||.||||||||||||||||||||.|||||||||||||||||
+Canis_lupus_f   3676 TGGCTGTCCGCGGTCAGCCAGTACAAGGCCCGGGTCACCTTCTGCTCCTA   3725
+
+Homo_sapiens    3849 CTCTGTGATGGAGATGTGCACCAAGGGCCTAGGCGCACAGACGGGTGTCC   3898
+                     |||.||||||||.||||||||||.||||||.||..|.|||||||||||||
+Canis_lupus_f   3726 CTCGGTGATGGAAATGTGCACCAGGGGCCTGGGAACGCAGACGGGTGTCC   3775
+
+Homo_sapiens    3899 TCAGGATGAAGGGGGTGAACCTGTCATGTGTGCGCACGTGCATGGTGGTC   3948
+                     |||||||||||||||||||||||||.||.||||||||.||||||||.||.
+Canis_lupus_f   3776 TCAGGATGAAGGGGGTGAACCTGTCCTGCGTGCGCACCTGCATGGTCGTG   3825
+
+Homo_sapiens    3949 GCCGAGGAGCGGCCCAGGATTGCGCTGACCCAGTCCTTCTCCAAGCTCTT   3998
+                     ||||||||||||||||||||.|||||.||.|||||||||||||||||.||
+Canis_lupus_f   3826 GCCGAGGAGCGGCCCAGGATCGCGCTCACGCAGTCCTTCTCCAAGCTGTT   3875
+
+Homo_sapiens    3999 CAAGGACCTGGGCCTGCCGGCCCGCGCCGTAAGCACCACGTTCGGGTGCA   4048
+                     |||||||||||||||||||||.||||||||.||||||||.||||||||||
+Canis_lupus_f   3876 CAAGGACCTGGGCCTGCCGGCGCGCGCCGTGAGCACCACATTCGGGTGCA   3925
+
+Homo_sapiens    4049 GGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGAAAGCTGGCT   4098
+                     ||||||||||||||||||||||||||||||||||||||||.|||||||||
+Canis_lupus_f   3926 GGGTCAACGTGGCCATCTGCCTCCAGCCCAACAGGCTGGGGAAGCTGGCT   3975
+
+Homo_sapiens    4099 GAGCAGGGCACAGCTGGCCCGGACCCCACAACCGTCTACGTGGACATGCG   4148
+                     |||||||||||.|||||||||||||||||.|||||.||||||||||||.|
+Canis_lupus_f   3976 GAGCAGGGCACGGCTGGCCCGGACCCCACCACCGTGTACGTGGACATGAG   4025
+
+Homo_sapiens    4149 GGCACTGCGCCATGACAGGGTTCGTTTGGTAGAACGGGGTTCTCCGCACA   4198
+                     |||.||||||||.||||||||.|||.|||||||||||||.||||||||||
+Canis_lupus_f   4026 GGCGCTGCGCCACGACAGGGTCCGTCTGGTAGAACGGGGATCTCCGCACA   4075
+
+Homo_sapiens    4199 GCCTGCCATTGATGGAGTCTGGAAAGATCCTCCCCGGCGTGAAGGTCATC   4248
+                     |||||||.||||.||||||.|||||||||||||||||.|||||||||||.
+Canis_lupus_f   4076 GCCTGCCGTTGACGGAGTCCGGAAAGATCCTCCCCGGGGTGAAGGTCATT   4125
+
+Homo_sapiens    4249 ATCGCACACACCGAGACCAAA-GGACCCTTGGGAGACTCACACCTGGGAG   4297
+                     ||.||.|||||.||||||||| ||.|||||||| ||||||||||||||.|
+Canis_lupus_f   4126 ATTGCGCACACTGAGACCAAAGGGCCCCTTGGG-GACTCACACCTGGGCG   4174
+
+Homo_sapiens    4298 AGATCTGGGTAAGCAGCCCCCACAATGCCACCGGGTACTACACCGTTTAC   4347
+                     ||||||||||.||||||||||||||.|||||||||||||||||.||.|||
+Canis_lupus_f   4175 AGATCTGGGTGAGCAGCCCCCACAACGCCACCGGGTACTACACGGTCTAC   4224
+
+Homo_sapiens    4348 GGGGAGGAGGCGCTTCATGCCGACCACTTCAGTGCCCGGCTGAGTTTTGG   4397
+                     ||||||||||||||.||.|||||||||||.||.||||||||||||||.||
+Canis_lupus_f   4225 GGGGAGGAGGCGCTCCACGCCGACCACTTTAGCGCCCGGCTGAGTTTCGG   4274
+
+Homo_sapiens    4398 AGACACACAGACCATCTGGGCAAGGACCGGCTACCTTGGCTTCCTTCGGC   4447
+                     ||||||.||||||||||||||||||||.||.|||||.||.||||||||..
+Canis_lupus_f   4275 AGACACGCAGACCATCTGGGCAAGGACTGGGTACCTGGGTTTCCTTCGAA   4324
+
+Homo_sapiens    4448 GAACAGAGCTCACTGATGCCAGTGGAGGGCGGCACGATGCACTGTATGTG   4497
+                     |.||.||||||||.|||||||||||||.|||.|||||.||||||||.|||
+Canis_lupus_f   4325 GGACGGAGCTCACCGATGCCAGTGGAGAGCGACACGACGCACTGTACGTG   4374
+
+Homo_sapiens    4498 GTTGGGTCTCTGGATGAAACTCTGGAGCTCAGAGGCATGCGGTACCACCC   4547
+                     ||.|||||.||||||||.||.||||||||.||.||||||||.||||||||
+Canis_lupus_f   4375 GTCGGGTCCCTGGATGAGACGCTGGAGCTGAGGGGCATGCGATACCACCC   4424
+
+Homo_sapiens    4548 CATCGACATTGAGACCTCTGTCATCCGAGCACACAGGAGCATCGCTGAGT   4597
+                     ||||||.||.|||||.||.||..|||||||.|||||||||||||||||||
+Canis_lupus_f   4425 CATCGATATCGAGACGTCCGTGGTCCGAGCGCACAGGAGCATCGCTGAGT   4474
+
+Homo_sapiens    4598 GTGCCGTATTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTGGAT   4647
+                     |.||.||.|||||||||||||||||||||||||||||||||||||||||.
+Canis_lupus_f   4475 GCGCTGTGTTCACCTGGACCAACCTGCTGGTGGTGGTGGTGGAGCTGGAC   4524
+
+Homo_sapiens    4648 GGGCTAGAGCAGGATGCCCTGGACCTGGTGGCCCTGGTGACCAACGTGGT   4697
+                     |||||.|||||||||||.||.||||||||||||||||||||.||||||||
+Canis_lupus_f   4525 GGGCTCGAGCAGGATGCGCTCGACCTGGTGGCCCTGGTGACAAACGTGGT   4574
+
+Homo_sapiens    4698 GCTGGAGGAGCACTACCTGGTCGTGGGAGTGGTGGTCATCGTGGACCCAG   4747
+                     ||||||||||||..|||||||||||||.||||||||.|||||||||||.|
+Canis_lupus_f   4575 GCTGGAGGAGCATCACCTGGTCGTGGGCGTGGTGGTGATCGTGGACCCCG   4624
+
+Homo_sapiens    4748 GGGTGATCCCTATCAACTCTCGGGGTGAGAAGCAGCGCATGCACCTGCGG   4797
+                     |.||||||||.||||||||.|||||.||||||||||||||||||||||||
+Canis_lupus_f   4625 GCGTGATCCCCATCAACTCACGGGGCGAGAAGCAGCGCATGCACCTGCGG   4674
+
+Homo_sapiens    4798 GACGGCTTCCTGGCTGACCAGCTGGACCCCATCTATGTCGCCTACAACAT   4847
+                     ||||||||||||||.||||||||||||||||||||.||||||||||||||
+Canis_lupus_f   4675 GACGGCTTCCTGGCCGACCAGCTGGACCCCATCTACGTCGCCTACAACAT   4724
+
+Homo_sapiens    4848 G   4848
+                     |
+Canis_lupus_f   4725 G   4725
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,334 @@
+########################################
+# Program: needle
+# Rundate: Mon 21 Apr 2025 02:31:21
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Cricetulus_griseus.fa
+#    -outfile Homo_sapiens-Cricetulus_griseus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Cricetulus_griseus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Cricetulus_griseus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3743
+# Identity:    2603/3743 (69.5%)
+# Similarity:  2603/3743 (69.5%)
+# Gaps:         655/3743 (17.5%)
+# Score: 10149.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGGGAAATTGATCAGGATGGGGCCGCAAGAGAGGTGGTTACTCCG--G     48
+                     |||||||||.||||||||||.|||.|.||.||||||.||||..||||  |
+Cricetulus_gr      1 ATGGGGAAACTGATCAGGATAGGGACACAGGAGAGGCGGTTGTTCCGACG     50
+
+Homo_sapiens      49 A-CAAAGCGGCTTCATTGGAGTCGCCTCCTCTTCTTACTGGGAATGTTGA     97
+                     | |||||.||||||||||||||||||||||.|||.|.|||||||||||||
+Cricetulus_gr     51 ACCAAAGAGGCTTCATTGGAGTCGCCTCCTTTTCCTCCTGGGAATGTTGA    100
+
+Homo_sapiens      98 TCATCGGTTCTACTTATCAGCACCTTAGGAGACCCCGGGG-------CCT    140
+                     ||||||||||.||.|||||||||||.||||||||||           || 
+Cricetulus_gr    101 TCATCGGTTCCACCTATCAGCACCTGAGGAGACCCC----AAAACTCCC-    145
+
+Homo_sapiens     141 TTCCTCATTGTGGGCAGCAGTCTCTTCTCATCAGCCTATAAAACTGGCCA    190
+                       |||||.|||||.||..|||.|||||.||.||||.|||.|||.||||||
+Cricetulus_gr    146 --CCTCAATGTGGACAAAAGTTTCTTCCCAACAGCTTATTAAATTGGCCA    193
+
+Homo_sapiens     191 GTCGGGACCTCTCCAGTGAAGAGATGATGATGATGAGCAGCAGCCCTTCA    240
+                     |..||||||||.|||||||.|||||||...||.||.|.||...||||.||
+Cricetulus_gr    194 GCAGGGACCTCCCCAGTGACGAGATGACAGTGGTGGGAAGTGACCCTCCA    243
+
+Homo_sapiens     241 AAACCTAGCTCCGAAATGGGGGGTAAGATGCTGGTACCCCAAGCCTCAGT    290
+                     .|...||||||.|||.|||..|||.|||||||||.|||||||..|.||||
+Cricetulus_gr    244 GAGGGTAGCTCTGAAGTGGATGGTGAGATGCTGGCACCCCAAAACACAGT    293
+
+Homo_sapiens     291 GGGCAGTGATGAAGCAACACTGAGCATGACAGTGGAGAATATCCCCAGTA    340
+                     |..|||.|||||||||||||..|||.|.|||.|||||.|.|.|||||   
+Cricetulus_gr    294 GATCAGGGATGAAGCAACACCTAGCCTAACAATGGAGGACACCCCCA---    340
+
+Homo_sapiens     341 TGCCTA-AAAGAACAGCCAAGATGATCCCAACAACAACCAAGAATAATTA    389
+                      .||.| ..||||||.||.||||.|..||||.|.||.|.|||||||||||
+Cricetulus_gr    341 -ACCCACCCAGAACAACCGAGATCACTCCAATATCACCAAAGAATAATTA    389
+
+Homo_sapiens     390 CAGCCCAACAGCAGCAGGTACAGAAAGAAGGAAGGAAGACACCCCAACAT    439
+                     .|||||.|.|||.||.||                           .||||
+Cricetulus_gr    390 TAGCCCTATAGCTGCTGG---------------------------CACAT    412
+
+Homo_sapiens     440 CCAGTAGA-----ACACTGACTTACTACACCTCAACTTCAAGCAGACAAA    484
+                     |.||.|||     |.||     .|||.||.|||||..|||.|||||.|.|
+Cricetulus_gr    413 CTAGCAGAGCGTCAAAC-----CACTTCATCTCAATGTCAGGCAGAGAGA    457
+
+Homo_sapiens     485 TAGTAAAAAAGTATACCCCAACACCCAGGGGAGAAATGAAGAGCTACAGC    534
+                     .|.|||||||.|||||||||..||||||||||||||.||.||.||.||.|
+Cricetulus_gr    458 GAATAAAAAACTATACCCCAGTACCCAGGGGAGAAAGGAGGAACTCCACC    507
+
+Homo_sapiens     535 CCAACTCAAGTGAGGGAAAAGG---TGAAGTATACTCCTTCCCCA-CGTG    580
+                     |||.||||....|||||.||||   .||||||||||||.|||||| || |
+Cricetulus_gr    508 CCAGCTCACTCCAGGGAGAAGGGAAGGAAGTATACTCCATCCCCAGCG-G    556
+
+Homo_sapiens     581 GTAGAAGAGTAGGCACTTACGTGCCGTCCACATTCATGACAATGGAAACA    630
+                     ||          ||||              |||                 
+Cricetulus_gr    557 GT----------GCAC--------------CAT-----------------    565
+
+Homo_sapiens     631 AGCCATGCGATCACCCCCAGGACAACAGTGAAAGACAGTGACATTACAGC    680
+                         .|||.|.||||||||..||.||||.|||||||||..|.|..|..||
+Cricetulus_gr    566 ----CTGCTACCACCCCCATAACGACAGAGAAAGACAGCAAAACCATGGC    611
+
+Homo_sapiens     681 AACCTATAAAATACTCGAAACCA-ACTCTCTTAAGAGAATAATGGAGGAA    729
+                     ||||||||...||.|.||.|||| || |||.|.||||||.|.||||.|||
+Cricetulus_gr    612 AACCTATAGGCTATTGGAGACCAGAC-CTCCTGAGAGAACAGTGGAAGAA    660
+
+Homo_sapiens     730 ACCACCCCAACCACTCTCAAGGGAATGTTTGATAGCACCCCAACTTTTCT    779
+                     |||||..||.|..||||||||.||.||.||...|.|||.|..|||||..|
+Cricetulus_gr    661 ACCACTGCAGCTTCTCTCAAGAGAGTGGTTCCAAACACTCTGACTTTCTT    710
+
+Homo_sapiens     780 GACACATGAGGTAGAAGCAAACGTCTTGACTTCTCCAA----GGAGCGTC    825
+                     .||||.|||.|.||||.|||...|||||.|||||||||    ||      
+Cricetulus_gr    711 AACACGTGAAGCAGAAACAAGTCTCTTGTCTTCTCCAAGTTTGG------    754
+
+Homo_sapiens     826 ATGGAAAAAAACAACCT------GTTTCCCCCCAGAAGAGTGGAAAGTAA    869
+                      |||||.|.||| ||||      ||     ||.|||||||..|||...||
+Cricetulus_gr    755 -TGGAAGAGAAC-ACCTTGGGCAGT-----CCTAGAAGAGAAGAACAAAA    797
+
+Homo_sapiens     870 CAGCTCAGCCCATCCCTGGGGGTTAGTGGGAAAGAGCAACCCGAAGACTC    919
+                     ||||||..||                                    |.||
+Cricetulus_gr    798 CAGCTCTACC------------------------------------AGTC    811
+
+Homo_sapiens     920 CCCAGGGAACAGTCCTGTT----GCATACCCCAGCCACCTCTGAGGGGCA    965
+                     .|||||||.|||||    |    |||.||.|||||.||||||||||.|||
+Cricetulus_gr    812 TCCAGGGAGCAGTC----TCACAGCACACTCCAGCTACCTCTGAGGAGCA    857
+
+Homo_sapiens     966 GGTGACAATAAGCACCATGACAGGCAGCAGCCCAGCAGAAACCA---AAG   1012
+                     .|||||.|.|||..|||.||..||.||||.||   |.|||||||   .||
+Cricetulus_gr    858 AGTGACCAGAAGAGCCAGGATGGGTAGCAACC---CTGAAACCATCGGAG    904
+
+Homo_sapiens    1013 CCTTC-ACTGCTGCCTGGAGTCTTAGGAATCCTTCACCCAGGACCAGTGT   1061
+                      .||| ||||.||||.||||..||||.|||||.|...||||.|||||||.
+Cricetulus_gr    905 -TTTCTACTGTTGCCAGGAGAATTAGCAATCCCTTGTCCAGAACCAGTGC    953
+
+Homo_sapiens    1062 ATCAGCCATCAAAACAGCCCCAGCCATAGTCT-----GGAGGCTGGCAAA   1106
+                     |.||.||||.|..|..|||.||||||    ||     ||| |.|||||||
+Cricetulus_gr    954 ACCAACCATTAGGATTGCCTCAGCCA----CTAACAGGGA-GTTGGCAAA    998
+
+Homo_sapiens    1107 GAAACCTTCCACAGCACCCAGCACCTCAACAACCCCTACGGTCAGGGCAA   1156
+                     ||.|||.||||||||||.|||..||.||..|||..|.|..||||.|||||
+Cricetulus_gr    999 GAGACCGTCCACAGCACACAGGGCCCCAGTAACTTCCAAAGTCAAGGCAA   1048
+
+Homo_sapiens    1157 AGCTGACCATGCAGGTCCATCACTGTGTGGTTGTGAAGCCAACCCCAG--   1204
+                     ..|||||||..||||||||.|.||||||||||.||.|||||..|||||  
+Cricetulus_gr   1049 TCCTGACCACACAGGTCCACCGCTGTGTGGTTATGGAGCCAGTCCCAGCT   1098
+
+Homo_sapiens    1205 ----CCATGCTCACCACTCCCTCCCCAAGCCTCAC-AACA--GCCCTGCT   1247
+                         ||||| ||.|||     ||.||||||.|.|| ||||  |   ||.|
+Cricetulus_gr   1099 GTACCCATG-TCCCCA-----TCTCCAAGCATAACAAACATTG---TGTT   1139
+
+Homo_sapiens    1248 CCCAGAGGAGCTCAGTCCTAGTCCCTCAG-TGCTGCCTCCCAGCTTGCCA   1296
+                     |||||.||..|.||||||.|||||.|||| |.| .||.||..|||.||||
+Cricetulus_gr   1140 CCCAGGGGCACCCAGTCCCAGTCCTTCAGATTC-ACCACCTGGCTGGCCA   1188
+
+Homo_sapiens    1297 GACCTCCACCCCAAGGGAGAGTACCCCCCAGATCTGTTCAGTGTGGAGGA   1346
+                     .|.||||||.||||||.|||||||||||||||.||.||||||||||||||
+Cricetulus_gr   1189 AAACTCCACGCCAAGGCAGAGTACCCCCCAGACCTATTCAGTGTGGAGGA   1238
+
+Homo_sapiens    1347 GCGGCGGCAGGGCTGGGTGGTCCTGCACGTTTTTGGCATGATGTATGTGT   1396
+                     .||.||.|||||||||||||..||||||.|.|||||||||||||||||||
+Cricetulus_gr   1239 TCGCCGACAGGGCTGGGTGGCTCTGCACATCTTTGGCATGATGTATGTGT   1288
+
+Homo_sapiens    1397 TTGTGGCCTTGGCCATTGTTTGCGACGAGTACTTCGTTCCAGCCCTGGGT   1446
+                     |||||||||||||||||||.||.||.||.|||||.||.|||||||||||.
+Cricetulus_gr   1289 TTGTGGCCTTGGCCATTGTGTGTGATGAATACTTTGTCCCAGCCCTGGGA   1338
+
+Homo_sapiens    1447 GTCATCACAGACAAGCTGCAGATCTCCGAGGATGTGGCAGGCGCCACATT   1496
+                     ||||||||||||||||||||||||||.||||||||||||||.||||||||
+Cricetulus_gr   1339 GTCATCACAGACAAGCTGCAGATCTCTGAGGATGTGGCAGGAGCCACATT   1388
+
+Homo_sapiens    1497 CATGGCTGCTGGAGGCTCTGCTCCTGAGCTCTTCACCTCCCTCATCGGTG   1546
+                     |||||||||.||||||||.||.|||||||||||||||||.|||||.||||
+Cricetulus_gr   1389 CATGGCTGCCGGAGGCTCAGCCCCTGAGCTCTTCACCTCTCTCATTGGTG   1438
+
+Homo_sapiens    1547 TCTTCATTTCCCACAGCAACGTGGGCATTGGTACCATTGTGGGCTCTGCT   1596
+                     ||||.||.|||||||||||.|||||.||||||||||||||||||||||||
+Cricetulus_gr   1439 TCTTTATCTCCCACAGCAATGTGGGTATTGGTACCATTGTGGGCTCTGCT   1488
+
+Homo_sapiens    1597 GTGTTCAACATTCTCTTTGTCATTGGCACTTGTTCCCTCTTCTCCCGAGA   1646
+                     |||||||||||.||.||.|||||||||||.|||.||||.||||||||.||
+Cricetulus_gr   1489 GTGTTCAACATCCTTTTCGTCATTGGCACCTGTGCCCTTTTCTCCCGGGA   1538
+
+Homo_sapiens    1647 GATCCTCAACCTCACCTGGTGGCCCTTATTCCGTGATGTCTCCTTCTACA   1696
+                     |||||||||.||.||||||||||||||.||||||||||||||||||||||
+Cricetulus_gr   1539 GATCCTCAATCTTACCTGGTGGCCCTTGTTCCGTGATGTCTCCTTCTACA   1588
+
+Homo_sapiens    1697 TCCTTGACCTGATAATGCTCATCCTCTTCTTCCTGGACAGCCTCATTGCC   1746
+                     ||||||||.||...||||||||..|||||||||||||.||||||||||||
+Cricetulus_gr   1589 TCCTTGACTTGTCCATGCTCATTGTCTTCTTCCTGGATAGCCTCATTGCC   1638
+
+Homo_sapiens    1747 TGGTGGGAGAGCCTGCTGCTGCTGCTGGCCTATGCCTTCTATGTGTTCAC   1796
+                     |||||||||||||||||||||||.||||||||||||.|||||||||||||
+Cricetulus_gr   1639 TGGTGGGAGAGCCTGCTGCTGCTCCTGGCCTATGCCCTCTATGTGTTCAC   1688
+
+Homo_sapiens    1797 CATGAAGTGGAACAAGCATATCGAGGTCTGGGTGAAGGAGCAGCTCAGCA   1846
+                     |||||||||||||||.||.||.|||.|.||||||||.|||||||||||||
+Cricetulus_gr   1689 CATGAAGTGGAACAAACAGATTGAGCTTTGGGTGAAAGAGCAGCTCAGCA   1738
+
+Homo_sapiens    1847 GGAGGCCAGTGGCCAAGGTCATGGCCTTAGAAGACCTCAGCAAGCCGGGC   1896
+                     ||||||||||.|||||||||||||||.|.|..||||||||||||||..|.
+Cricetulus_gr   1739 GGAGGCCAGTAGCCAAGGTCATGGCCCTTGGGGACCTCAGCAAGCCCAGT   1788
+
+Homo_sapiens    1897 GATGGGGCCATTGCGGTGGATGAGCTACAGGATAACAAGAAGCTGAAGCT   1946
+                     |||||.|||||||.||...|||||..||||||||||||||||||.|||||
+Cricetulus_gr   1789 GATGGTGCCATTGAGGAAAATGAGTCACAGGATAACAAGAAGCTCAAGCT   1838
+
+Homo_sapiens    1947 CCCGTCCTTGCTGACCCGAGGGAGCAGCTCGACCTCTCTGCACAACAGCA   1996
+                     ||||||..|||||||||||||||||||||||.||||.||.||||||||||
+Cricetulus_gr   1839 CCCGTCTGTGCTGACCCGAGGGAGCAGCTCGGCCTCACTACACAACAGCA   1888
+
+Homo_sapiens    1997 CCATCCGCAGCACCATCTACCAGCTCATGCTCCACAGCCTGGACCCCCTG   2046
+                     .|||||||||||||||||||||.|||||||||||||||||||||||||||
+Cricetulus_gr   1889 TCATCCGCAGCACCATCTACCATCTCATGCTCCACAGCCTGGACCCCCTG   1938
+
+Homo_sapiens    2047 AGGGAAGTTCGCCTTGCCAAGGAGAAGGAGGAGGAGAGCTTGAATCAAGG   2096
+                     .||||||..||||...|||||||.|   ||.|||||||.||||||||.|.
+Cricetulus_gr   1939 GGGGAAGCCCGCCCCTCCAAGGACA---AGCAGGAGAGTTTGAATCAGGA   1985
+
+Homo_sapiens    2097 GGCCAGAGCCCAACCCCAGGCCAAAGCAGAAAGCAAACCAGAAGAGGAGG   2146
+                     ||||||||.|||.||||||.||||||||||.||||..||.||.|||||||
+Cricetulus_gr   1986 GGCCAGAGTCCACCCCCAGACCAAAGCAGAGAGCAGTCCTGACGAGGAGG   2035
+
+Homo_sapiens    2147 AGCCAGCCAAGCTCCCTGCGGTCACGGTCACACCAGCCCCTGTTCCAGAC   2196
+                     ||||||||.||||||||||||||||||||||.||||||||||.|||||||
+Cricetulus_gr   2036 AGCCAGCCCAGCTCCCTGCGGTCACGGTCACTCCAGCCCCTGCTCCAGAC   2085
+
+Homo_sapiens    2197 ATCAAGGGAGATCAGAAGGAGAATCCAGGCGGTCAGGAAGATGTGGCTGA   2246
+                     ..|||||||||||||.|||||.||||||||.|.||||||||.||||.|||
+Cricetulus_gr   2086 GCCAAGGGAGATCAGGAGGAGGATCCAGGCTGCCAGGAAGAAGTGGGTGA   2135
+
+Homo_sapiens    2247 GGCCGAGAGCACAGGTGAAATGCCAGGCGAAGAGGGCGAAACT---GCTG   2293
+                     |||.||....|||||.||.|||.||||.||||||||.||||||   .|.|
+Cricetulus_gr   2136 GGCTGACCAAACAGGAGATATGACAGGTGAAGAGGGTGAAACTCAACCAG   2185
+
+Homo_sapiens    2294 GTGAAGGTGAAACT------GAAGAGAAAAG----TGGAGGTGAAACTCA   2333
+                     |.|||.|.||||||      |||| ||||||    ||.|||.||||||.|
+Cricetulus_gr   2186 GCGAAAGGGAAACTGAGGCCGAAG-GAAAAGAAGATGAAGGGGAAACTGA   2234
+
+Homo_sapiens    2334 ACCAGAAGG------------TGAAGGTGAAACTGA--------------   2357
+                     ..|.|||||            .|||||.||||||||              
+Cricetulus_gr   2235 GGCCGAAGGAAAAGAAGATGAAGAAGGGGAAACTGAGGTAGAAGGAAAAG   2284
+
+Homo_sapiens    2358 ---AACAC-------------------AAGGAAAAGGAGAAGAATGTGAA   2385
+                        |||||                   |||||||||||||.|||   |||
+Cricetulus_gr   2285 ATGAACACAAAGGGGAAACTGAGGTAGAAGGAAAAGGAGATGAA---GAA   2331
+
+Homo_sapiens    2386 GATGAAAATGAAGCAGAAGGAAAAGGAGACAATGAAGGTGA---------   2426
+                     |..||||.|||.|||||||||||||.|||.||.|||||.||         
+Cricetulus_gr   2332 GGAGAAACTGAGGCAGAAGGAAAAGAAGATAAAGAAGGGGAAACTGAGGC   2381
+
+Homo_sapiens    2426 --------------------------------------------------   2426
+                                                                       
+Cricetulus_gr   2382 AGAAGGAAAAGAAGATGAAGAAGGGGAGGGGGAAACTGAGGTAGAAAGAA   2431
+
+Homo_sapiens    2427 ----AGATGAG------GGTGAAATCCACGC------------------A   2448
+                         |||||||      ||.|||||..|.||                  |
+Cricetulus_gr   2432 AAGGAGATGAGCAAGAAGGGGAAATTGAGGCAGAAGGAAAAGAAGATGAA   2481
+
+Homo_sapiens    2449 GAAGATGGTGAAA----------------------TGAA-----------   2465
+                     |||||.||.||||                      ||||           
+Cricetulus_gr   2482 GAAGAAGGGGAAACTGAGGCAGAAGGAAAAGGAGCTGAAGAAGGGGAAAC   2531
+
+Homo_sapiens    2466 ------------------AGGTAATGAAGGTGAAACTGA-----------   2486
+                                       ||.|.|.|||||.||||||||           
+Cricetulus_gr   2532 TGAGGCAGAAGGAAAAGGAGCTGAAGAAGGGGAAACTGAGGCAGAAGGAA   2581
+
+Homo_sapiens    2486 --------------------------------------------------   2486
+                                                                       
+Cricetulus_gr   2582 AAGGAGCTGAAGAAGGGGAAACTGAGGCAGAAGGAAAAGGAGATGAAGAA   2631
+
+Homo_sapiens    2487 -------------------------------------AAGCCAGGAACTC   2499
+                                                          ||| .||.||||.
+Cricetulus_gr   2632 GGGGAAACTGAGGCAGAAGGAAAAGGAGATGAGCAAGAAG-GAGAAACTG   2680
+
+Homo_sapiens    2500 AG--------------------------------TGCTGAAAATCACGGT   2517
+                     ||                                .|||||||.|||.|||
+Cricetulus_gr   2681 AGGCAGAAGGAAAAGAAGATGAACTGGAAGGGCAAGCTGAAATTCAAGGT   2730
+
+Homo_sapiens    2518 ---------------------------------------GAAGCCA----   2524
+                                                            |||||||    
+Cricetulus_gr   2731 GACAACAACACAGAGGTAAAAGATGGTGAAGGTGAAACAGAAGCCAACGC   2780
+
+Homo_sapiens    2525 --AAAAT------------------GATGAGAAAGGTGTAGAAGATGGAG   2554
+                       |||||                  |.|||||||||||.||..||||.||
+Cricetulus_gr   2781 TGAAAATCCATGTGAGACCACCCAAGGTGAGAAAGGTGCAGGTGATGAAG   2830
+
+Homo_sapiens    2555 GGGGAAGTGATGGAGGGGATAGCGAAGAGGAGGAAGAGGAGGAGGAAGAG   2604
+                     ||||.||||||||||||||.||.|.|||.||||||               
+Cricetulus_gr   2831 GGGGGAGTGATGGAGGGGACAGTGGAGAAGAGGAA---------------   2865
+
+Homo_sapiens    2605 CAGGAGGAAGAGGAGGAGGAGGAAGAGCAGGAGGAAGAGGAGGAGGAGGA   2654
+                           ||.|||||.||||||||||||.||||.||||||||.||.|||||
+Cricetulus_gr   2866 ------GATGAGGAAGAGGAGGAAGAGGAGGAAGAAGAGGAAGATGAGGA   2909
+
+Homo_sapiens    2655 GGAGGAAGAGGAGGAGAAGGGAAATGAAGAGCCTCTGTCCCTGGACTGGC   2704
+                     ||||                  ||.||.||||||||||||.||||.||||
+Cricetulus_gr   2910 GGAG------------------AACGAGGAGCCTCTGTCCTTGGAATGGC   2941
+
+Homo_sapiens    2705 CTGAAACCAGGCAGAAGCAGGCCATTTACCTCTTCCTTCTGCCCATCGTG   2754
+                     ||||.|.|||||||||||||||||||||||||||.||.||||||||.|||
+Cricetulus_gr   2942 CTGAGAGCAGGCAGAAGCAGGCCATTTACCTCTTTCTCCTGCCCATTGTG   2991
+
+Homo_sapiens    2755 TTCCCACTGTGGCTGACAGTCCCCGACGTCCGAAGGCAGGAGTCTAGGAA   2804
+                     |||||||||||||||||.||||||||.||.||.|||||||||||.|||||
+Cricetulus_gr   2992 TTCCCACTGTGGCTGACGGTCCCCGATGTACGGAGGCAGGAGTCCAGGAA   3041
+
+Homo_sapiens    2805 GTTTTTTGTTTTCACCTTCCTGGGATCTATCATGTGGATAGCCATGTTCT   2854
+                     |||||||||..||||||||||||||||.|||||.||||||||||||||||
+Cricetulus_gr   3042 GTTTTTTGTCATCACCTTCCTGGGATCCATCATCTGGATAGCCATGTTCT   3091
+
+Homo_sapiens    2855 CATACCTCATGGTGTGGTGGGCTCACCAGGTTGGTGAAACAATAGGGATT   2904
+                     |||||||||||||.|||||||||||||||||.||||||||.||.||||||
+Cricetulus_gr   3092 CATACCTCATGGTATGGTGGGCTCACCAGGTCGGTGAAACCATTGGGATT   3141
+
+Homo_sapiens    2905 TCTGAAGAGATCATGGGCCTGACAATCCTTGCAGCAGGCACATCAATTCC   2954
+                     ||.||||||||||||||..||||||||||.|||||||||||.||||||||
+Cricetulus_gr   3142 TCGGAAGAGATCATGGGTTTGACAATCCTAGCAGCAGGCACTTCAATTCC   3191
+
+Homo_sapiens    2955 TGACCTCATCACCAGTGTGATTGTCGCTCGAAAAGGCCTGGGAGACATGG   3004
+                     |||||||||||||||.|||||.||.||.||.|||||||||||||||||||
+Cricetulus_gr   3192 TGACCTCATCACCAGCGTGATCGTTGCCCGGAAAGGCCTGGGAGACATGG   3241
+
+Homo_sapiens    3005 CTGTGTCAAGCTCTGTGGGCAGTAACATATTTGATATCACTGTGGGCTTG   3054
+                     |.|||||||||||.||||||||.|||||||||||||||||.||||||||.
+Cricetulus_gr   3242 CCGTGTCAAGCTCAGTGGGCAGCAACATATTTGATATCACAGTGGGCTTA   3291
+
+Homo_sapiens    3055 CCTGTTCCTTGGTTGCTTTTCTCTCTTATCAATGGATTACAGCCAGTTCC   3104
+                     |||||.||||||.|.||.||||||||.|||||...|||.|||||.|||||
+Cricetulus_gr   3292 CCTGTCCCTTGGCTCCTCTTCTCTCTCATCAACACATTGCAGCCTGTTCC   3341
+
+Homo_sapiens    3105 AGTCAGCAGCAATGGCTTGTTTTGTGCAATTGTTTTGCTTTTTCTCATGC   3154
+                     ||||||||||||||||.||||.|||||||||||.|||||.||||||||||
+Cricetulus_gr   3342 AGTCAGCAGCAATGGCCTGTTCTGTGCAATTGTCTTGCTGTTTCTCATGC   3391
+
+Homo_sapiens    3155 TTCTGTTTGTGATCTCTTCAATTGCGTCATGTAAATGGAGAATGAACAAG   3204
+                     |.|||||||||||||..|||||.||.||||||||||||||||||||||||
+Cricetulus_gr   3392 TCCTGTTTGTGATCTTCTCAATCGCATCATGTAAATGGAGAATGAACAAG   3441
+
+Homo_sapiens    3205 ATCCTGGGCTTCACAATGTTCCTCCTTTACTTTGTATTCCTGATAATCAG   3254
+                     |||||||||||||||||||||||.|||||||||||||||.||||||||||
+Cricetulus_gr   3442 ATCCTGGGCTTCACAATGTTCCTTCTTTACTTTGTATTCTTGATAATCAG   3491
+
+Homo_sapiens    3255 TGTGATGTTAGAAGATCGAATCATATCCTGTCCTGTATCTGTC   3297
+                     ||||||||||||||||||||||||||||||||||||||||||.
+Cricetulus_gr   3492 TGTGATGTTAGAAGATCGAATCATATCCTGTCCTGTATCTGTT   3534
+
+
+#---------------------------------------
+#---------------------------------------

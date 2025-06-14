@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:44
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Cavia_porcellus.fa
+#    -outfile Homo_sapiens-Cavia_porcellus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Cavia_porcellus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Cavia_porcellus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 385
+# Identity:     346/385 (89.9%)
+# Similarity:   346/385 (89.9%)
+# Gaps:          14/385 ( 3.6%)
+# Score: 1585.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     |||||..||||||||||||||||.||.|||||||||||.||.|||||.||
+Cavia_porcell      1 ATGGATACAGTGGCTGTGTATCACGGTAAAATCAGCAGAGAGACCGGAGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     ||||||||||||.||.||.|||.||||.||||||||||||||||||||||
+Cavia_porcell     51 GAAGCTCCTGCTCGCGACAGGGTTGGACGGCAGCTATTTGCTGAGGGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGTGCTGTATCACGGTTAC    150
+                     |||||||.||.||.||||||||||||||.||||||||||||||.||||||
+Cavia_porcell    101 GCGAGAGTGTTCCGGGCGTGTACTGCCTGTGTGTGCTGTATCAAGGTTAC    150
+
+Homo_sapiens     151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTGCTGA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+Cavia_porcell    151 ATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGCGCTGA    200
+
+Homo_sapiens     201 GACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAATCTCA    250
+                     |||.||||||||.|||||||||||||.|||||||||||||||||||||||
+Cavia_porcell    201 GACGGCACCTGGAGTACATAAAAGATTTTTCCGGAAAATAAAAAATCTCA    250
+
+Homo_sapiens     251 TTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTCTGCAGTAT    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Cavia_porcell    251 TTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTCTGCAGTAT    300
+
+Homo_sapiens     301 CCAGTTGAGAAGAAGTCCTCAGCTAGAAGTACACAAGGTACTACAGGGAT    350
+                     ||||||||||||||||||||||||.||||||||||         |||||.
+Cavia_porcell    301 CCAGTTGAGAAGAAGTCCTCAGCTCGAAGTACACA---------AGGGAG    341
+
+Homo_sapiens     351 AAGAGAAGATCCTGATG-TCTGCCTGAAAGCCCCA    384
+                     |||   ||||.|||||| ||| |||||||||.|||
+Cavia_porcell    342 AAG---AGATTCTGATGTTCT-CCTGAAAGCACCA    372
+
+
+#---------------------------------------
+#---------------------------------------

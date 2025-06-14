@@ -1,0 +1,630 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 14:51:26
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Myotis_davidii.fa
+#    -outfile Homo_sapiens-Myotis_davidii.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Myotis_davidii.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Myotis_davidii
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7420
+# Identity:    6322/7420 (85.2%)
+# Similarity:  6322/7420 (85.2%)
+# Gaps:         266/7420 ( 3.6%)
+# Score: 28226.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGCCCGCCCTGCGCCCCGCTCTGCTGTGGGCGCTGCTGGCGCTCTGGCT     50
+                                                                       
+Myotis_davidi      0 --------------------------------------------------      0
+
+Homo_sapiens      51 GTGCTGCGCGGCCCCCGCGCATGCATTGCAGTGTCGAGATGGCTATGAAC    100
+                                                                       
+Myotis_davidi      0 --------------------------------------------------      0
+
+Homo_sapiens     101 CCTGTGTAAATGAAGGAATGTGTGTTACCTACCACAATGGCACAGGATAC    150
+                                                                       
+Myotis_davidi      0 --------------------------------------------------      0
+
+Homo_sapiens     151 TGCAAATGTCCAGAAGGCTTCTTGGGGGAATATTGTCAACATCGAGACCC    200
+                                                                       
+Myotis_davidi      0 --------------------------------------------------      0
+
+Homo_sapiens     201 CTGTGAGAAGAACCGCTGCCAGAATGGTGGGACTTGTGTGGCCCAGGCCA    250
+                                                                      |
+Myotis_davidi      1 -------------------------------------------------A      1
+
+Homo_sapiens     251 TGCTGGGGAAAGCCACGTGCCGATGTGCCTCAGGGTTTACAGGAGAGGAC    300
+                     ||.|||||||.||||||||||..||.||..|.|||||.||.||.||||||
+Myotis_davidi      2 TGTTGGGGAAGGCCACGTGCCAGTGCGCTCCGGGGTTCACGGGCGAGGAC     51
+
+Homo_sapiens     301 TGCCAGTACTCAACATCTCATCCATGCTTTGTGTCTCGACCCTGCCTGAA    350
+                     ||||||.||||.||..|.||.||.||||.||..||||...||||.|||||
+Myotis_davidi     52 TGCCAGCACTCGACCACGCACCCCTGCTATGCATCTCCTTCCTGTCTGAA    101
+
+Homo_sapiens     351 TGGCGGCACATGCCATATGCTCAGCCGGGATACCTATGAGTGCACCTGTC    400
+                     |||.|||||.||||||.|||||||||.||||...||.|||||||||||.|
+Myotis_davidi    102 TGGAGGCACCTGCCATGTGCTCAGCCAGGATGATTACGAGTGCACCTGCC    151
+
+Homo_sapiens     401 AAGTCGGGTTTACAGGTAAGGAGTGCCAATGGACGGATGCCTGCCTGTCT    450
+                     ||||.||.||.|||||||||..||||||||||||||||||||||||.|||
+Myotis_davidi    152 AAGTTGGTTTCACAGGTAAGCTGTGCCAATGGACGGATGCCTGCCTATCT    201
+
+Homo_sapiens     451 CATCCCTGTGCAAATGGAAGTACCTGTACCACTGTGGCCAACCAGTTCTC    500
+                     ||||||||||||||||||||.|||||||||||.|||||||||||||||||
+Myotis_davidi    202 CATCCCTGTGCAAATGGAAGCACCTGTACCACCGTGGCCAACCAGTTCTC    251
+
+Homo_sapiens     501 CTGCAAATGCCTCACAGGCTTCACAGGGCAGAAATGTGAGACTGATGTCA    550
+                     |||||||||||...|||||||||||||||||||||||||||||||..|||
+Myotis_davidi    252 CTGCAAATGCCCGCCAGGCTTCACAGGGCAGAAATGTGAGACTGACATCA    301
+
+Homo_sapiens     551 ATGAGTGTGACATTCCAGGACACTGCCAGCATGGTGGCACCTGCCTCAAC    600
+                     |||||||||||.||||.|||||.|||||||||||||||||||||||||||
+Myotis_davidi    302 ATGAGTGTGACGTTCCTGGACAATGCCAGCATGGTGGCACCTGCCTCAAC    351
+
+Homo_sapiens     601 CTGCCTGGTTCCTACCAGTGCCAGTGCCCTCAGGGCTTCACAGGCCAGTA    650
+                     ||.||.||.|||||.||||||||.|||||.|||||||||||.||||||.|
+Myotis_davidi    352 CTCCCGGGCTCCTATCAGTGCCAATGCCCCCAGGGCTTCACCGGCCAGCA    401
+
+Homo_sapiens     651 CTGTGACAGCCTGTATGTGCCCTGTGCACCCTCACCTTGTGTCAATGGAG    700
+                     |||.|||||||..||.|||||.|||||||||||.||.|||||.|||||||
+Myotis_davidi    402 CTGCGACAGCCCCTACGTGCCATGTGCACCCTCGCCCTGTGTTAATGGAG    451
+
+Homo_sapiens     701 GCACCTGTCGGCAGACTGGTGACTTCACTTTTGAGTGCAACTGCCTTCCA    750
+                     |||||||.||||||||.||.||||||||||||||||||||||||||||||
+Myotis_davidi    452 GCACCTGCCGGCAGACCGGCGACTTCACTTTTGAGTGCAACTGCCTTCCA    501
+
+Homo_sapiens     751 GGTTTTGAAGGGAGCACCTGTGAGAGGAATATTGATGACTGCCCTAACCA    800
+                     |||||||||||.||||||||||||.|||||||||||||||||||.|||||
+Myotis_davidi    502 GGTTTTGAAGGCAGCACCTGTGAGCGGAATATTGATGACTGCCCCAACCA    551
+
+Homo_sapiens     801 CAGGTGTCAGAATGGAGGGGTTTGTGTGGATGGGGTCAACACTTACAACT    850
+                     |.||||||||||.||||||||||||||||||||||||||.||.|||||||
+Myotis_davidi    552 CCGGTGTCAGAACGGAGGGGTTTGTGTGGATGGGGTCAATACCTACAACT    601
+
+Homo_sapiens     851 GCCGCTGTCCCCCACAATGGACAGGACAGTTCTGCACAGAGGATGTGGAT    900
+                     |||||||.|||||.||.||||||||||||||||||||.|||||||||||.
+Myotis_davidi    602 GCCGCTGCCCCCCTCAGTGGACAGGACAGTTCTGCACGGAGGATGTGGAC    651
+
+Homo_sapiens     901 GAATGCCTGCTGCAGCCCAATGCCTGTCAAAATGGGGGCACCTGTGCCAA    950
+                     ||.|||||||||||||||||.||||||||.||.||.|||||||||.||||
+Myotis_davidi    652 GAGTGCCTGCTGCAGCCCAACGCCTGTCAGAACGGAGGCACCTGTACCAA    701
+
+Homo_sapiens     951 CCGCAATGGAGGCTATGGCTGTGTATGTGTCAACGGCTGGAGTGGAGATG   1000
+                     |||||||||||||||.|||||.||.||.|||||.||||||||||||||.|
+Myotis_davidi    702 CCGCAATGGAGGCTACGGCTGCGTGTGCGTCAATGGCTGGAGTGGAGACG    751
+
+Homo_sapiens    1001 ACTGCAGTGAGAACATTGATGATTGTGCCTTCGCCTCCTGTACTCCAGGC   1050
+                     ||||||||||||||||.||.||.|||||||||||||||||.|||||.|||
+Myotis_davidi    752 ACTGCAGTGAGAACATCGACGACTGTGCCTTCGCCTCCTGCACTCCGGGC    801
+
+Homo_sapiens    1051 TCCACCTGCATCGACCGTGTGGCCTCCTTCTCTTGCATGTGCCCAGAGGG   1100
+                     |||||||||||.|||||.|||||||||||.||.|||||||||||.|||||
+Myotis_davidi    802 TCCACCTGCATTGACCGCGTGGCCTCCTTTTCATGCATGTGCCCCGAGGG    851
+
+Homo_sapiens    1101 GAAGGCAGGTCTCCTGTGTCATCTGGATGATGCATGCATCAGCAATCCTT   1150
+                     .|||.||||.|||.||||||||||||||||||||||||||||||||||.|
+Myotis_davidi    852 AAAGACAGGACTCTTGTGTCATCTGGATGATGCATGCATCAGCAATCCGT    901
+
+Homo_sapiens    1151 GCCACAAGGGGGCACTGTGTGACACCAACCCCCTAAATGGGCAATATATT   1200
+                     ||||||||||||||||||||||.|||||||||||.||.|||||.|||||.
+Myotis_davidi    902 GCCACAAGGGGGCACTGTGTGATACCAACCCCCTGAACGGGCAGTATATC    951
+
+Homo_sapiens    1201 TGCACCTGCCCACAAGGCTACAAAGGGGCTGACTGCACAGAAGATGTGGA   1250
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+Myotis_davidi    952 TGCACCTGCCCACAAGGCTACAAAGGGGCTGACTGCACAGAAGACGTGGA   1001
+
+Homo_sapiens    1251 TGAATGTGCCATGGCCAATAGCAATCCTTGTGAGCATGCAGGAAAATGTG   1300
+                     |||.||..||||||||||||||||||||||||||||.|||||.|||||||
+Myotis_davidi   1002 TGAGTGCACCATGGCCAATAGCAATCCTTGTGAGCACGCAGGGAAATGTG   1051
+
+Homo_sapiens    1301 TGAACACGGATGGCGCCTTCCACTGTGAGTGTCTGAAGGGTTATGCAGGA   1350
+                     |||||||.||.|||||||||||||||||||||||||||||.||||||||.
+Myotis_davidi   1052 TGAACACAGACGGCGCCTTCCACTGTGAGTGTCTGAAGGGCTATGCAGGG   1101
+
+Homo_sapiens    1351 CCTCGTTGTGAGATGGACATCAATGAGTGCCATTCAGACCCCTGCCAGAA   1400
+                     |||||.||.||||||||||||||.|||||||||||.||||||||||||||
+Myotis_davidi   1102 CCTCGCTGCGAGATGGACATCAACGAGTGCCATTCCGACCCCTGCCAGAA   1151
+
+Homo_sapiens    1401 TGATGCTACCTGTCTGGATAAGATTGGAGGCTTCACATGTCTGTGCATGC   1450
+                     .||.||.|||||.|||||||||||.||.|||||||||||.||||||||||
+Myotis_davidi   1152 CGACGCCACCTGCCTGGATAAGATCGGGGGCTTCACATGCCTGTGCATGC   1201
+
+Homo_sapiens    1451 CAGGTTTCAAAGGTGTGCATTGTGAATTAGAAATAAATGAATGTCAGAGC   1500
+                     |||||||||||||||||||||||||.||.||.|||||.||.|||||||||
+Myotis_davidi   1202 CAGGTTTCAAAGGTGTGCATTGTGAGTTGGAGATAAACGAGTGTCAGAGC   1251
+
+Homo_sapiens    1501 AACCCTTGTGTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGTTTCCA   1550
+                     |||||.||||||||||||||||||||||||||||||||||||||.|||||
+Myotis_davidi   1252 AACCCCTGTGTGAACAATGGGCAGTGTGTGGATAAAGTCAATCGCTTCCA   1301
+
+Homo_sapiens    1551 GTGCCTGTGTCCTCCTGGTTTCACTGGGCCAGTTTGCCAGATTGATATTG   1600
+                     |||.||||||||.|||||.|||||.|||||.|||||||||||.|||||||
+Myotis_davidi   1302 GTGTCTGTGTCCCCCTGGCTTCACCGGGCCCGTTTGCCAGATCGATATTG   1351
+
+Homo_sapiens    1601 ATGACTGTTCCAGTACTCCGTGTCTGAATGGGGCAAAGTGTATCGATCAC   1650
+                     |||||||||||||.||.|||||||||||.||.||.|||||.|||||||||
+Myotis_davidi   1352 ATGACTGTTCCAGCACCCCGTGTCTGAACGGCGCCAAGTGCATCGATCAC   1401
+
+Homo_sapiens    1651 CCGAATGGCTATGAATGCCAGTGTGCCACAGGTTTCACTGGTGTGTTGTG   1700
+                     ||.||.||.||||||||||||||||||||.||.||||||||.||||||||
+Myotis_davidi   1402 CCCAACGGTTATGAATGCCAGTGTGCCACGGGATTCACTGGCGTGTTGTG   1451
+
+Homo_sapiens    1701 TGAGGAGAACATTGACAACTGTGACCCCGATCCTTGCCACCATGGTCAGT   1750
+                     ||||||||||||||||||||||||||||||.||.|||||||||||.||||
+Myotis_davidi   1452 TGAGGAGAACATTGACAACTGTGACCCCGACCCCTGCCACCATGGCCAGT   1501
+
+Homo_sapiens    1751 GTCAGGATGGTATTGATTCCTACACCTGCATCTGCAATCCCGGGTACATG   1800
+                     |||||||.||.||||||||||||||||||||||||||.||||||||||||
+Myotis_davidi   1502 GTCAGGACGGGATTGATTCCTACACCTGCATCTGCAACCCCGGGTACATG   1551
+
+Homo_sapiens    1801 GGCGCCATCTGCAGTGACCAGATTGATGAATGTTACAGCAGCCCTTGCCT   1850
+                     ||||||||||||||.||||||||.||.||.||||||||||||||.|||||
+Myotis_davidi   1552 GGCGCCATCTGCAGCGACCAGATAGACGAGTGTTACAGCAGCCCCTGCCT   1601
+
+Homo_sapiens    1851 GAACGATGGTCGCTGCATTGACCTGGTCAATGGCTACCAGTGCAACTGCC   1900
+                     ||||||.||.||||||||.||||||||.||.|||||||||||||||||||
+Myotis_davidi   1602 GAACGAGGGCCGCTGCATCGACCTGGTGAACGGCTACCAGTGCAACTGCC   1651
+
+Homo_sapiens    1901 AGCCAGGCACGTCAGGGGTTAATTGTGAAATTAATTTTGATGACTGTGCA   1950
+                     ||||.||||||||.||.|||||||||||.||.|||||||||||||||||.
+Myotis_davidi   1652 AGCCCGGCACGTCGGGTGTTAATTGTGAGATCAATTTTGATGACTGTGCG   1701
+
+Homo_sapiens    1951 AGTAACCCTTGTATCCATGGAATCTGTATGGATGGCATTAATCGCTACAG   2000
+                     ||||||||.|||.|||||||..|||||||||||||..|||||||.|||||
+Myotis_davidi   1702 AGTAACCCGTGTGTCCATGGCGTCTGTATGGATGGAGTTAATCGTTACAG   1751
+
+Homo_sapiens    2001 TTGTGTCTGCTCACCAGGATTCACAGGGCAGAGATGTAACATTGACATTG   2050
+                     |||||||||||||||.||||||||||||||||||||||||||||||||||
+Myotis_davidi   1752 TTGTGTCTGCTCACCGGGATTCACAGGGCAGAGATGTAACATTGACATTG   1801
+
+Homo_sapiens    2051 ATGAGTGTGCCTCCAATCCCTGTCGCAAGGGTGCAACATGTATCAACGGT   2100
+                     |.|||||||||||||||||||||||||||||||||||.||.|||||||.|
+Myotis_davidi   1802 ACGAGTGTGCCTCCAATCCCTGTCGCAAGGGTGCAACGTGCATCAACGAT   1851
+
+Homo_sapiens    2101 GTGAATGGTTTCCGCTGTATATGCCCCGAGGGACCCCATCACCCCAGCTG   2150
+                     |||||||||||.||||||||||||||||||||.|||||||||||||||||
+Myotis_davidi   1852 GTGAATGGTTTTCGCTGTATATGCCCCGAGGGTCCCCATCACCCCAGCTG   1901
+
+Homo_sapiens    2151 CTACTCACAGGTGAACGAATGCCTGAGCAATCCCTGCATCCATGGAAACT   2200
+                     ||.|||.|||||||||||.||.||||||||||||||||||||.||.||||
+Myotis_davidi   1902 CTTCTCGCAGGTGAACGAGTGTCTGAGCAATCCCTGCATCCACGGGAACT   1951
+
+Homo_sapiens    2201 GTACTGGAGGTCTCAGTGGATATAAGTGTCTCTGTGATGCAGGCTGGGTT   2250
+                     ||||.||.||.|||||.|||||.|||||.||||||||||||||||||||.
+Myotis_davidi   1952 GTACCGGGGGCCTCAGCGGATACAAGTGCCTCTGTGATGCAGGCTGGGTC   2001
+
+Homo_sapiens    2251 GGCATCAACTGTGAAGTGGACAAAAATGAATGCCTTTCGAATCCATGCCA   2300
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+Myotis_davidi   2002 GGCATCAACTGTGAAGTGGACAAAAATGAATGCCTTTCCAATCCATGCCA   2051
+
+Homo_sapiens    2301 GAATGGAGGAACTTGTGACAATCTGGTGAATGGATACAGGTGTACTTGCA   2350
+                     ||||||||||||.||||||||.||||||||||||||||||||||||||||
+Myotis_davidi   2052 GAATGGAGGAACCTGTGACAACCTGGTGAATGGATACAGGTGTACTTGCA   2101
+
+Homo_sapiens    2351 AGAAGGGCTTTAAAGGCTATAACTGCCAGGTGAATATTGATGAATGTGCC   2400
+                     |||||||||||||||||.|||||||.|||||||||||..|.||||||||.
+Myotis_davidi   2102 AGAAGGGCTTTAAAGGCCATAACTGTCAGGTGAATATCAACGAATGTGCT   2151
+
+Homo_sapiens    2401 TCAAATCCATGCCTGAACCAAGGAACCTGCTTTGATGACATAAGTGGCTA   2450
+                     ||||||||.|||||||||||||||||||||.|||||||||||||||||||
+Myotis_davidi   2152 TCAAATCCGTGCCTGAACCAAGGAACCTGCCTTGATGACATAAGTGGCTA   2201
+
+Homo_sapiens    2451 CACTTGCCACTGTGTGCTGCCATACACAGGCAAGAATTGTCAGACAGTAT   2500
+                     |||.||||.|||.||||||||.||||||||||||||.||||||||.||..
+Myotis_davidi   2202 CACCTGCCGCTGCGTGCTGCCCTACACAGGCAAGAACTGTCAGACGGTGC   2251
+
+Homo_sapiens    2501 TGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGTTTGCAAAGAG   2550
+                     ||||||||||||||||||||||||||||||||||||||||.||||.||||
+Myotis_davidi   2252 TGGCTCCCTGTTCCCCAAACCCTTGTGAGAATGCTGCTGTGTGCAGAGAG   2301
+
+Homo_sapiens    2551 TCACCAAATTTTGAGAGTTATACTTGCTTGTGTGCTCCTGGCTGGCAAGG   2600
+                     .|.||.|||||.|||||||||||.|||.|||||||.||||||||||||||
+Myotis_davidi   2302 GCGCCCAATTTCGAGAGTTATACCTGCCTGTGTGCCCCTGGCTGGCAAGG   2351
+
+Homo_sapiens    2601 TCAGCGGTGTACCATTGACATTGACGAGTGTATCTCCAAGCCCTGCATGA   2650
+                     |||||||||||||||||||||||||||||||.||||||||||||||.|||
+Myotis_davidi   2352 TCAGCGGTGTACCATTGACATTGACGAGTGTGTCTCCAAGCCCTGCCTGA   2401
+
+Homo_sapiens    2651 ACCATGGTCTCTGCCATAACACCCAGGGCAGCTACATGTGTGAATGTCCA   2700
+                     |||.||||||||||||||||||||||||||||||||||||.||.|||||.
+Myotis_davidi   2402 ACCGTGGTCTCTGCCATAACACCCAGGGCAGCTACATGTGCGAGTGTCCT   2451
+
+Homo_sapiens    2701 CCAGGCTTCAGTGGTATGGACTGTGAGGAGGACATTGATGACTGCCTTGC   2750
+                     ||.||||||||.|||||||||||||||||||||||.|||||.|||||.||
+Myotis_davidi   2452 CCGGGCTTCAGCGGTATGGACTGTGAGGAGGACATCGATGATTGCCTCGC   2501
+
+Homo_sapiens    2751 CAATCCTTGCCAGAATGGAGGTTCCTGTATGGATGGAGTGAATACTTTCT   2800
+                     |||||||||||||||||||||.||||||.|.||||||||||||||.||||
+Myotis_davidi   2502 CAATCCTTGCCAGAATGGAGGCTCCTGTGTCGATGGAGTGAATACGTTCT   2551
+
+Homo_sapiens    2801 CCTGCCTCTGCCTTCCGGGTTTCACTGGGGATAAGTGCCAGACAGACATG   2850
+                     |||||||.||||||.||||.|||||.|||||.|||||||||||||||||.
+Myotis_davidi   2552 CCTGCCTGTGCCTTGCGGGCTTCACCGGGGACAAGTGCCAGACAGACATT   2601
+
+Homo_sapiens    2851 AATGAGTGTCTGAGTGAACCCTGTAAGAATGGAGGGACCTGCTCTGACTA   2900
+                     ||.|||||.|||||.||||||||||||||.||||||||||||||.|||||
+Myotis_davidi   2602 AACGAGTGCCTGAGCGAACCCTGTAAGAACGGAGGGACCTGCTCCGACTA   2651
+
+Homo_sapiens    2901 CGTCAACAGTTACACTTGCAAGTGCCAGGCAGGATTTGATGGAGTCCATT   2950
+                     |||||||||.|||||.||||||||||.|||.||||||||.||||||||.|
+Myotis_davidi   2652 CGTCAACAGCTACACGTGCAAGTGCCCGGCGGGATTTGAAGGAGTCCACT   2701
+
+Homo_sapiens    2951 GTGAGAACAACATCAATGAGTGCACTGAGAGCTCCTGTTTCAATGGTGGC   3000
+                     |.||||||||||||.|.||||||||||||||||||||||||||.||.||.
+Myotis_davidi   2702 GCGAGAACAACATCGACGAGTGCACTGAGAGCTCCTGTTTCAACGGGGGT   2751
+
+Homo_sapiens    3001 ACATGTGTTGATGGGATTAACTCCTTCTCTTGCTTGTGCCCTGTGGGTTT   3050
+                     ||.|||||.||.||.||||||||||||||||||||||||||||||||.||
+Myotis_davidi   2752 ACGTGTGTCGACGGAATTAACTCCTTCTCTTGCTTGTGCCCTGTGGGCTT   2801
+
+Homo_sapiens    3051 CACTGGATCCTTCTGCCTCCATGAGATCAATGAATGCAGCTCTCATCCAT   3100
+                     ||||||..|.|.|||||||||||||||||||||.||||.|||||||||.|
+Myotis_davidi   2802 CACTGGCCCATACTGCCTCCATGAGATCAATGAGTGCAACTCTCATCCGT   2851
+
+Homo_sapiens    3101 GCCTGAATGAGGGAACGTGTGTTGATGGCCTGGGTACCTACCGCTGCAGC   3150
+                     ||||||||||.||||..|||||.|||||||||||||||||||||||||.|
+Myotis_davidi   2852 GCCTGAATGAAGGAATATGTGTGGATGGCCTGGGTACCTACCGCTGCACC   2901
+
+Homo_sapiens    3151 TGCCCCCTGGGCTACACTGGGAAAAACTGTCAGACCCTGGTGAATCTCTG   3200
+                     ||||||.|||||||||||||||||||||||||||||||||||||.||.||
+Myotis_davidi   2902 TGCCCCTTGGGCTACACTGGGAAAAACTGTCAGACCCTGGTGAACCTGTG   2951
+
+Homo_sapiens    3201 CAGTCGGTCTCCATGTAAAAACAAAGGTACTTGCGTTCAGAAAAAAGCAG   3250
+                     |||||||||||||||||||||||||||.||.|||.||||..|.|||||..
+Myotis_davidi   2952 CAGTCGGTCTCCATGTAAAAACAAAGGCACCTGCATTCAAGAGAAAGCGC   3001
+
+Homo_sapiens    3251 AGTCCCAGTGCCTATGTCCATCTGGATGGGCTGGTGCCTATTGTGACGTG   3300
+                     |.|||..|||||..||||||.||||.||||||||||||||.||.||||||
+Myotis_davidi   3002 ACTCCTGGTGCCGGTGTCCACCTGGGTGGGCTGGTGCCTACTGCGACGTG   3051
+
+Homo_sapiens    3301 CCCAATGTCTCTTGTGACATAGCAGCCTCCAGG--AGAGGTGTG-----C   3343
+                     |||||||||||.|||||..|.||.||  |.|||  |||||.|||     |
+Myotis_davidi   3052 CCCAATGTCTCCTGTGAGGTGGCGGC--CAAGGGAAGAGGGGTGACCCCC   3099
+
+Homo_sapiens    3344 TTGTTGAACACTTGTGCCAGCACTCAGGTGTCTGCATCAATGCTGGCAAC   3393
+                          ||.|.|||||||||||||||.||.||||||||||||||.||||||
+Myotis_davidi   3100 -----GACCGCTTGTGCCAGCACTCGGGCGTCTGCATCAATGCCGGCAAC   3144
+
+Homo_sapiens    3394 ACGCATTACTGTCAGTGCCCCCTGGGCTATACTGGGAGCTACTGTGAGGA   3443
+                     .||||..||||.|||||||||||||||||.||.||.||||||||.|||.|
+Myotis_davidi   3145 TCGCACCACTGCCAGTGCCCCCTGGGCTACACCGGAAGCTACTGCGAGCA   3194
+
+Homo_sapiens    3444 GCAACTCGATGAGTGTGCGTCCAACCCCTGCCAGCACGGGGCAACATGCA   3493
+                     |||.||.||.||||||||||||||.||||||||||||||.||.||.||||
+Myotis_davidi   3195 GCAGCTGGACGAGTGTGCGTCCAATCCCTGCCAGCACGGAGCCACCTGCA   3244
+
+Homo_sapiens    3494 GTGACTTCATTGGTGGATACAGATGCGAGTGTGTCCCAGGCTATCAGGGT   3543
+                     |.||||||||||||||||||.||||.||||||||||||||.||.||||||
+Myotis_davidi   3245 GGGACTTCATTGGTGGATACCGATGTGAGTGTGTCCCAGGATACCAGGGT   3294
+
+Homo_sapiens    3544 GTCAACTGTGAGTATGAAGTGGATGAGTGCCAGAATCAGCCCTGCCAGAA   3593
+                     ||||||||.|||||.||.|||||||||||||||||.|||||.||||||||
+Myotis_davidi   3295 GTCAACTGCGAGTACGAGGTGGATGAGTGCCAGAACCAGCCATGCCAGAA   3344
+
+Homo_sapiens    3594 TGGAGGCACCTGTATTGACCTTGTGAACCATTTCAAGTGCTCTTGCCCAC   3643
+                     .||||||||||||.|.|||||.||||||||||||||||||||.|||||.|
+Myotis_davidi   3345 CGGAGGCACCTGTGTCGACCTGGTGAACCATTTCAAGTGCTCCTGCCCGC   3394
+
+Homo_sapiens    3644 CAGGCACTCGGGGCCTACTCTGTGAAGAGAACATTGATGACTGTGCCCGG   3693
+                     |||||||.||.|||||.||.|||||||||||||||||.|||||||||.||
+Myotis_davidi   3395 CAGGCACCCGCGGCCTGCTTTGTGAAGAGAACATTGACGACTGTGCCAGG   3444
+
+Homo_sapiens    3694 GGTCCCCATTGCCTTAATGGTGGTCAGTGCATGGATAGGATTGGAGGCTA   3743
+                     ||.|||||.|||||.||.|||||.|||||..||||||.|||.||.|||||
+Myotis_davidi   3445 GGGCCCCACTGCCTCAACGGTGGGCAGTGTGTGGATAAGATCGGGGGCTA   3494
+
+Homo_sapiens    3744 CAGTTGTCGCTGCTTGCCTGGCTTTGCTGGGGAGCGTTGTGAGGGAGACA   3793
+                     |||.||.||||||.|||||||||||||.||.|||||.||||||||.||||
+Myotis_davidi   3495 CAGCTGCCGCTGCCTGCCTGGCTTTGCCGGAGAGCGGTGTGAGGGGGACA   3544
+
+Homo_sapiens    3794 TCAACGAGTGCCTCTCCAACCCCTGCAGCTCTGAGGGCAGCCTGGACTGT   3843
+                     |||||||||||||.|||||||||||||||||.|||||||||||||||||.
+Myotis_davidi   3545 TCAACGAGTGCCTGTCCAACCCCTGCAGCTCGGAGGGCAGCCTGGACTGC   3594
+
+Homo_sapiens    3844 ATACAGCTCACCAATGACTACCTGTGTGTTTGCCGTAGTGCCTTTACTGG   3893
+                     .|||||||||||||.||||||..|||.||.|||||.||.|||||.||.||
+Myotis_davidi   3595 GTACAGCTCACCAACGACTACAAGTGCGTCTGCCGCAGCGCCTTCACAGG   3644
+
+Homo_sapiens    3894 CCGGCACTGTGAAACCTTCGTCGATGTGTGTCCCCAGATGCCCTGCCTGA   3943
+                     .||.|||||||||||.||||||||.|||||||||||||||||.|||.|||
+Myotis_davidi   3645 TCGTCACTGTGAAACTTTCGTCGACGTGTGTCCCCAGATGCCTTGCTTGA   3694
+
+Homo_sapiens    3944 ATGGAGGGACTTGTGCTGTGGCCAGTAACATGCCTGATGGTTTCATTTGC   3993
+                     ||||||||||||||||.||||||||.||||||||||||||||||||||||
+Myotis_davidi   3695 ATGGAGGGACTTGTGCCGTGGCCAGCAACATGCCTGATGGTTTCATTTGC   3744
+
+Homo_sapiens    3994 CGTTGTCCCCCGGGATTTTCCGGGGCAAGGTGCCAGAGCAGCTGTGGACA   4043
+                     ||||||||||||||.||.||||||||.||.||||||||||||||||||||
+Myotis_davidi   3745 CGTTGTCCCCCGGGGTTCTCCGGGGCGAGATGCCAGAGCAGCTGTGGACA   3794
+
+Homo_sapiens    4044 AGTGAAATGTAGGAAGGGGGAGCAGTGTGTGCACACCGCCTCTGGACCCC   4093
+                     .|||||.||||||...||||||||||||||.|||||..||||.|||||||
+Myotis_davidi   3795 CGTGAAGTGTAGGCGAGGGGAGCAGTGTGTCCACACGCCCTCAGGACCCC   3844
+
+Homo_sapiens    4094 GCTGCTTCTGCCCCAGTCCCCGGGACTGCGAGTCAGGCTGTGCCAGTAGC   4143
+                     |||||||||||||||..||||.|||.||||||...|||||||||||.|||
+Myotis_davidi   3845 GCTGCTTCTGCCCCAACCCCCAGGAGTGCGAGCTGGGCTGTGCCAGCAGC   3894
+
+Homo_sapiens    4144 CCCTGCCAGCACGGGGGCAGCTGCCACCCTCAGCGCCAGCCTCCTTATTA   4193
+                     |||||||||||||||||.|||||||.|||.|||||||||||.||.|||||
+Myotis_davidi   3895 CCCTGCCAGCACGGGGGGAGCTGCCTCCCGCAGCGCCAGCCCCCATATTA   3944
+
+Homo_sapiens    4194 CTCCTGCCAGTGTGCCCCACCATTCTCGGGTAGCCGCTGTGAACTCTACA   4243
+                     ||||||||||||..|.||.||.|||..|||.|||||||||||.|||.|||
+Myotis_davidi   3945 CTCCTGCCAGTGCCCTCCGCCGTTCCGGGGCAGCCGCTGTGAGCTCCACA   3994
+
+Homo_sapiens    4244 CGGCACCCCCCAGCACCCCTCCTGCCACCTGTCTGAGCCAGTATTGTGCC   4293
+                     .|||.|||.||||||||||.|||||||||||||..||||||||.||||||
+Myotis_davidi   3995 TGGCCCCCACCAGCACCCCACCTGCCACCTGTCACAGCCAGTACTGTGCC   4044
+
+Homo_sapiens    4294 GACAAAGCTCGGGATGGCGTCTGTGATGAGGCCTGCAACAGCCATGCCTG   4343
+                     ||||||||||||||.||||||||.||||||||||||||||||||||||||
+Myotis_davidi   4045 GACAAAGCTCGGGACGGCGTCTGCGATGAGGCCTGCAACAGCCATGCCTG   4094
+
+Homo_sapiens    4344 CCAGTGGGATGGGGGTGACTGTTCTCTCACCATGGAGAACCCCTGGGCCA   4393
+                     |||||||||.|||||||||||.||.|||||||||||||||||||||||||
+Myotis_davidi   4095 CCAGTGGGACGGGGGTGACTGCTCCCTCACCATGGAGAACCCCTGGGCCA   4144
+
+Homo_sapiens    4394 ACTGCTCCTCCCCACTTCCCTGCTGGGATTATATCAACAACCAGTGTGAT   4443
+                     ||||||||||||||||.||||||||||||||.||||||||||||||||||
+Myotis_davidi   4145 ACTGCTCCTCCCCACTGCCCTGCTGGGATTACATCAACAACCAGTGTGAT   4194
+
+Homo_sapiens    4444 GAGCTGTGCAACACGGTCGAGTGCCTGTTTGACAACTTTGAATGCCAGGG   4493
+                     ||||||||||||||||.|||||||||||||||||||||.||.||||||||
+Myotis_davidi   4195 GAGCTGTGCAACACGGCCGAGTGCCTGTTTGACAACTTCGAGTGCCAGGG   4244
+
+Homo_sapiens    4494 GAACAGCAAGACATGCAAGTATGACAAATACTGTGCAGACCACTTCAAAG   4543
+                     ||||||||||||.||||||||.||||..|||||.|||||||||||||..|
+Myotis_davidi   4245 GAACAGCAAGACGTGCAAGTACGACACGTACTGCGCAGACCACTTCAGGG   4294
+
+Homo_sapiens    4544 ACAACCACTGTGACCAGGGGTGCAACAGTGAGGAGTGTGGTTGGGATGGG   4593
+                     ||.|||||||.||||||||.||||||||.||||||||.||.|||||.|||
+Myotis_davidi   4295 ACGACCACTGCGACCAGGGCTGCAACAGCGAGGAGTGCGGCTGGGACGGG   4344
+
+Homo_sapiens    4594 CTGGACTGTGCTGCTGACCAACCTGAGAACCTGGCAGAAGGTACCCTGGT   4643
+                     ||||||||.||||||||||..||.|||||||||||.||.||.||||||||
+Myotis_davidi   4345 CTGGACTGCGCTGCTGACCGGCCGGAGAACCTGGCCGAGGGGACCCTGGT   4394
+
+Homo_sapiens    4644 TATTGTGGTATTGATGCCACCTGAACAACTGCTCCAGGATGCTCGCAGCT   4693
+                     .||.|||||..|||||||.||.||.||.|||||.|||||.||.|||||||
+Myotis_davidi   4395 GATCGTGGTGCTGATGCCCCCCGAGCAGCTGCTGCAGGACGCGCGCAGCT   4444
+
+Homo_sapiens    4694 TCTTGCGGGCACTGGGTACCCTGCTCCACACCAACCTGCGCATTAAGCGG   4743
+                     ||||||||||.|||||.||||||||.|||||||||||||||||.||||.|
+Myotis_davidi   4445 TCTTGCGGGCCCTGGGCACCCTGCTGCACACCAACCTGCGCATCAAGCAG   4494
+
+Homo_sapiens    4744 GACTCCCAGGGGGAACTCATGGTGTACCCCTATTATGGTGAGAAGTCAGC   4793
+                     |||.||||||||.|.||||||||.||||||||.||.||.||||||.||||
+Myotis_davidi   4495 GACCCCCAGGGGCACCTCATGGTTTACCCCTACTACGGCGAGAAGCCAGC   4544
+
+Homo_sapiens    4794 TGCTATGAAGAAACAGAGGATGACACGCAGATCCCTTCCTGGTGAACAAG   4843
+                     |||..|||||||.|.||||.||.|||||||.||||||||||..||.|.||
+Myotis_davidi   4545 TGCCCTGAAGAATCCGAGGCTGGCACGCAGGTCCCTTCCTGAGGATCCAG   4594
+
+Homo_sapiens    4844 AACAGGAGGTGGCTGGCTCTAAAGTCTTTCTGGAAATTGACAACCGCCAG   4893
+                     |.|||||||||||.||||||||.||.|||||||||||.||||||||||||
+Myotis_davidi   4595 ACCAGGAGGTGGCCGGCTCTAAGGTATTTCTGGAAATCGACAACCGCCAG   4644
+
+Homo_sapiens    4894 TGTGTTCAAGACTCAGACCACTGCTTCAAGAACACGGATGCAGCAGCAGC   4943
+                     |||||||||||.||||||||.||||||||||.||||||||||||.|||||
+Myotis_davidi   4645 TGTGTTCAAGATTCAGACCAGTGCTTCAAGACCACGGATGCAGCTGCAGC   4694
+
+Homo_sapiens    4944 TCTCCTGGCCTCTCACGCCATACAGGGGACCCTGTCATACCCTCTTGTGT   4993
+                     |||.||||||||||||||.||.|||||.||||||||.|||||.|||||.|
+Myotis_davidi   4695 TCTTCTGGCCTCTCACGCTATCCAGGGCACCCTGTCCTACCCGCTTGTCT   4744
+
+Homo_sapiens    4994 CTGTCGTCAGTGAATCCCTGACTCCAGAACGCACTCAGCTCCTCTATCTC   5043
+                     ||||||||||||||||||||..|||..|||.|||.|||||.|||||||||
+Myotis_davidi   4745 CTGTCGTCAGTGAATCCCTGGGTCCCAAACCCACCCAGCTGCTCTATCTC   4794
+
+Homo_sapiens    5044 CTTGCTGTTGCTGTTGTCATCATTCTGTTTATTATTCTGCTGGGGGTAAT   5093
+                     |||||.||.||.|||||||||||.|||||..||.|.|||||||.|||.||
+Myotis_davidi   4795 CTTGCCGTCGCCGTTGTCATCATCCTGTTCCTTCTGCTGCTGGTGGTCAT   4844
+
+Homo_sapiens    5094 CATGGCAAAACGAAAGCGTAAGCATGGCTCTCTCTGGCTGCCTGAAGGTT   5143
+                     ||||||||||||.|||||.|||||.|||||.|||||||||||.|||||.|
+Myotis_davidi   4845 CATGGCAAAACGGAAGCGGAAGCACGGCTCCCTCTGGCTGCCCGAAGGCT   4894
+
+Homo_sapiens    5144 TCACTCTTCGCCGAGATGCAAGCAATCACAAGCGTCGTGAGCCAGTGGGA   5193
+                     ||||.||||||||.||..|.||||||||||||||.||.|||||.||||||
+Myotis_davidi   4895 TCACCCTTCGCCGGGAGTCCAGCAATCACAAGCGCCGCGAGCCGGTGGGA   4944
+
+Homo_sapiens    5194 CAGGATGCTGTGGGGCTGAAAAATCTCTCAGTGCAAGTCTCAGAAGCTAA   5243
+                     ||||||||.|||||||||||.||||||||...||||||||||||.|||||
+Myotis_davidi   4945 CAGGATGCCGTGGGGCTGAAGAATCTCTCCACGCAAGTCTCAGAGGCTAA   4994
+
+Homo_sapiens    5244 CCTAATTGGTACTGGAACAAGTGAACACTGGGTCGATGATGAAGGGCCCC   5293
+                     |||.||.|||.|||||||||||||.||.||||||||.|||||||||||||
+Myotis_davidi   4995 CCTGATAGGTTCTGGAACAAGTGAGCATTGGGTCGACGATGAAGGGCCCC   5044
+
+Homo_sapiens    5294 AGCCAAAGAAAGTAAAGGCTGAAGATGAGGCCTTACTCTCAGAAGAAGAT   5343
+                     ||||||||||||..||||||||||..|||||.||.|||||   ||||||.
+Myotis_davidi   5045 AGCCAAAGAAAGCCAAGGCTGAAGCCGAGGCTTTGCTCTC---AGAAGAC   5091
+
+Homo_sapiens    5344 GACCCCATTGATCGACGGCCATGGACACAGCAGCACCTTGAAGCTGCAGA   5393
+                     ||||||||.||||||||.||.|||||||||||||||||.||.||.|||||
+Myotis_davidi   5092 GACCCCATCGATCGACGCCCGTGGACACAGCAGCACCTCGAGGCCGCAGA   5141
+
+Homo_sapiens    5394 CATCCGTAGGACACCATCGCTGGCTCTCACCCCTCCTCAGGCAGAGCAGG   5443
+                     ||||||.|||||.||.||||||||.|||||.||.||.|||||.|||||||
+Myotis_davidi   5142 CATCCGCAGGACCCCGTCGCTGGCCCTCACGCCCCCGCAGGCGGAGCAGG   5191
+
+Homo_sapiens    5444 AGGTGGATGTGTTAGATGTGAATGTCCGTGGCCCAGATGGCTGCACCCCA   5493
+                     |||||||.|||.|.||.|||||.|||||.|||||||||||.||||||||.
+Myotis_davidi   5192 AGGTGGACGTGCTGGACGTGAACGTCCGGGGCCCAGATGGGTGCACCCCG   5241
+
+Homo_sapiens    5494 TTGATGTTGGCTTCTCTCCGAGGAGGCAGCTCAGATTTGAGTGATGAAGA   5543
+                     .|||||.|||||||.|||||||||||||||||||||.|||||||.|||||
+Myotis_davidi   5242 CTGATGCTGGCTTCCCTCCGAGGAGGCAGCTCAGATGTGAGTGAGGAAGA   5291
+
+Homo_sapiens    5544 TGAAGATGCAGAGGACTCTTCTGCTAACATCATCACAGACTTGGTCTACC   5593
+                     |||.||.|||||||||||.|||||.|||||||||||||||||||||||||
+Myotis_davidi   5292 TGAGGACGCAGAGGACTCGTCTGCCAACATCATCACAGACTTGGTCTACC   5341
+
+Homo_sapiens    5594 AGGGTGCCAGCCTCCAGGCCCAGACAGACCGGACTGGTGAGATGGCCCTG   5643
+                     ||||.||||||||.||||||||||||||||||||.||.||||||||||||
+Myotis_davidi   5342 AGGGGGCCAGCCTGCAGGCCCAGACAGACCGGACCGGCGAGATGGCCCTG   5391
+
+Homo_sapiens    5644 CACCTTGCAGCCCGCTACTCACGGGCTGATGCTGCCAAGCGTCTCCTGGA   5693
+                     |||||.||.||.||||||||..||||.|||||.|||||||||||||||||
+Myotis_davidi   5392 CACCTGGCCGCACGCTACTCCAGGGCAGATGCCGCCAAGCGTCTCCTGGA   5441
+
+Homo_sapiens    5694 TGCAGGTGCAGATGCCAATGCCCAGGACAACATGGGCCGCTGTCCACTCC   5743
+                     .|||||||||||.|||||.|||||||||||||||||||||||.||.||||
+Myotis_davidi   5442 CGCAGGTGCAGACGCCAACGCCCAGGACAACATGGGCCGCTGCCCTCTCC   5491
+
+Homo_sapiens    5744 ATGCTGCAGTGGCAGCTGATGCCCAAGGTGTCTTCCAGATTCTGATTCGC   5793
+                     |||||||||||||.|||||||||||||||||.||||||||.|||||.|||
+Myotis_davidi   5492 ATGCTGCAGTGGCGGCTGATGCCCAAGGTGTTTTCCAGATCCTGATCCGC   5541
+
+Homo_sapiens    5794 AACCGAGTAACTGATCTAGATGCCAGGATGAATGATGGTACTACACCCCT   5843
+                     ||||||||.||.|||||.||||||||||||||.|||||.||.||||||||
+Myotis_davidi   5542 AACCGAGTGACCGATCTGGATGCCAGGATGAACGATGGCACCACACCCCT   5591
+
+Homo_sapiens    5844 GATCCTGGCTGCCCGCCTGGCTGTGGAGGGAATGGTGGCAGAACTGATCA   5893
+                     ||||||||||||.|||||||||||||||||.||||||||.||.|||||||
+Myotis_davidi   5592 GATCCTGGCTGCGCGCCTGGCTGTGGAGGGGATGGTGGCGGAGCTGATCA   5641
+
+Homo_sapiens    5894 ACTGCCAAGCGGATGTGAATGCAGTGGATGACCATGGAAAATCTGCTCTT   5943
+                     ||||||||||.||.|||||.||.|||||||||||.|||||||||||||||
+Myotis_davidi   5642 ACTGCCAAGCAGACGTGAACGCGGTGGATGACCACGGAAAATCTGCTCTT   5691
+
+Homo_sapiens    5944 CACTGGGCAGCTGCTGTCAATAATGTGGAGGCAACTCTTTTGTTGTTGAA   5993
+                     |||||||||||.||||||||.||.||||||||.||.||||||.||.||||
+Myotis_davidi   5692 CACTGGGCAGCGGCTGTCAACAACGTGGAGGCGACGCTTTTGCTGCTGAA   5741
+
+Homo_sapiens    5994 AAATGGGGCCAACCGAGACATGCAGGACAACAAGGAAGAGACACCTCTGT   6043
+                     ||||||||||||||||||||||||||||||||||||.|||||.||.||||
+Myotis_davidi   5742 AAATGGGGCCAACCGAGACATGCAGGACAACAAGGAGGAGACGCCGCTGT   5791
+
+Homo_sapiens    6044 TTCTTGCTGCCCGGGAGGGGAGCTATGAAGCAGCCAAGATCCTGTTAGAC   6093
+                     |.||||||||||||||||||||||||||.||.|||||||||||.||||||
+Myotis_davidi   5792 TCCTTGCTGCCCGGGAGGGGAGCTATGAGGCCGCCAAGATCCTCTTAGAC   5841
+
+Homo_sapiens    6094 CATTTTGCCAATCGAGACATCACAGACCATATGGATCGTCTTCCCCGGGA   6143
+                     |||||||||||.||.||||||||||||||.|||||.||.||.||||||||
+Myotis_davidi   5842 CATTTTGCCAACCGGGACATCACAGACCACATGGACCGCCTGCCCCGGGA   5891
+
+Homo_sapiens    6144 TGTGGCTCGGGATCGCATGCACCATGACATTGTGCGCCTTCTGGATGAAT   6193
+                     .|||||||||||.|||||||||||.|||||.||||||||.|||||.||.|
+Myotis_davidi   5892 CGTGGCTCGGGAGCGCATGCACCACGACATCGTGCGCCTGCTGGACGAGT   5941
+
+Homo_sapiens    6194 ACAATGTGACCCCAAGCCCTCCAGGCACCGTGTTGACTTCTGCTCTCTCA   6243
+                     ||||.|||.|.||.||||||||.|||.|||||.||||.|||||.|||||.
+Myotis_davidi   5942 ACAACGTGGCGCCGAGCCCTCCGGGCTCCGTGCTGACCTCTGCCCTCTCC   5991
+
+Homo_sapiens    6244 CCTGTCATCTGTGGGCCCAACAGATCTTTCCTCAGCCTGAAGCACACCCC   6293
+                     ||.||||||||.|||||||||.|..|.|||||||||||.||.|||||.||
+Myotis_davidi   5992 CCCGTCATCTGCGGGCCCAACCGGCCCTTCCTCAGCCTCAAACACACTCC   6041
+
+Homo_sapiens    6294 AATGGGCAAGAAGTCTAGACGGCCCAGTGCCAAGAGTACCATGCCTACTA   6343
+                     .||||||||||||.|.||||||||||..||||||||..||.||||.||.|
+Myotis_davidi   6042 GATGGGCAAGAAGCCCAGACGGCCCAACGCCAAGAGCGCCGTGCCCACCA   6091
+
+Homo_sapiens    6344 GCCTCCCTAACCTTGCCAAGGAGGCAAAGGATGCCAAGGGTAGTAGGAGG   6393
+                     |||||||||||||.|||||||||||.|||||.|.|||||||.|.||||||
+Myotis_davidi   6092 GCCTCCCTAACCTGGCCAAGGAGGCCAAGGAGGTCAAGGGTGGCAGGAGG   6141
+
+Homo_sapiens    6394 AAGAAGTCTCTGAGTGAGAAGGTCCAACTGTCTGAGAGTTCAGTAACTTT   6443
+                     ||||||||.||||||||.||||.|||.|||||.|||||.||.||.|||.|
+Myotis_davidi   6142 AAGAAGTCGCTGAGTGACAAGGCCCAGCTGTCGGAGAGCTCCGTGACTCT   6191
+
+Homo_sapiens    6444 ATCCCCTGTTGATTCCCTAGAATCTCCTCACACGTATGTTTCCGACACCA   6493
+                     .|||||.||.||||||||.||.||.||||||||.||.|||||||||||||
+Myotis_davidi   6192 GTCCCCCGTCGATTCCCTCGAGTCCCCTCACACCTACGTTTCCGACACCA   6241
+
+Homo_sapiens    6494 CATCCTCTCCAATGATTACATCCCCTGGGATCTTACAGGCCTCACCCAAC   6543
+                     |.|||||.||||||||.|||||||||||..||.||||||||||.||||||
+Myotis_davidi   6242 CCTCCTCCCCAATGATCACATCCCCTGGCCTCCTACAGGCCTCGCCCAAC   6291
+
+Homo_sapiens    6544 CCTATGTTGGCCACTGCCGCCCCTCCTGCCCCAGTCCATGCCCAGCATGC   6593
+                     ||.|||.|||||.|.|||||..|.||.|||||.|||||.||.||||||||
+Myotis_davidi   6292 CCCATGCTGGCCGCGGCCGCGGCCCCCGCCCCCGTCCACGCACAGCATGC   6341
+
+Homo_sapiens    6594 ACTATCTTTTTCTAACCTTCATGAAATGCAGCCTTTGGCACATGGGGCCA   6643
+                     |||.||.||.||||||||.|.|||.||.|||||||||||.||.|||.||.
+Myotis_davidi   6342 ACTGTCCTTCTCTAACCTCCGTGAGATCCAGCCTTTGGCCCACGGGCCCG   6391
+
+Homo_sapiens    6644 GCACTGTGCTTCCCTCAGTGAGCCAGTTGCTATCCCACCACCACATTGTG   6693
+                     |||.|||.||||||||.|||||||||.||||.||||||||||||||.|||
+Myotis_davidi   6392 GCAATGTCCTTCCCTCGGTGAGCCAGCTGCTGTCCCACCACCACATGGTG   6441
+
+Homo_sapiens    6694 TCTCCAGGCAGTGGCAGTGCTGGAAGCTTGAGTAGGCTCCATCCAGTCCC   6743
+                     .|.||||||||.||||||||.||.|||.||.|.|||||.|||||.|||||
+Myotis_davidi   6442 CCCCCAGGCAGCGGCAGTGCGGGCAGCGTGGGGAGGCTGCATCCGGTCCC   6491
+
+Homo_sapiens    6744 AGTCCCAGCAGATTGGATGAACCGCATGGAGGTGAATGAGACCCAGTACA   6793
+                     .|||||.|||||.||||||||||||||||||.|||||||||.||||||||
+Myotis_davidi   6492 TGTCCCGGCAGACTGGATGAACCGCATGGAGATGAATGAGAGCCAGTACA   6541
+
+Homo_sapiens    6794 ATGAGATGTTTGGTATGGTCCTGGCTCCAGCTGAGGGCACCCATCCTGGC   6843
+                     |||||||||||||||||||.|||||.||||||||||||||||.|||||||
+Myotis_davidi   6542 ATGAGATGTTTGGTATGGTACTGGCACCAGCTGAGGGCACCCCTCCTGGC   6591
+
+Homo_sapiens    6844 ATAGCTCCCCAGAGCAGGCCACCTGAAGGGAAGCACATAACCACCCCTCG   6893
+                     ||||||||.|||||||||||.||.|||||||||||.||.|||.||||.||
+Myotis_davidi   6592 ATAGCTCCTCAGAGCAGGCCGCCGGAAGGGAAGCATATGACCGCCCCCCG   6641
+
+Homo_sapiens    6894 GGAGCCCTTGCCCCCCATTGTGACTTTCCAGCTCATCCCTAAAGGCAGTA   6943
+                     ||||||||||||||||||.||||||||||||||.|||||.||||||.|.|
+Myotis_davidi   6642 GGAGCCCTTGCCCCCCATCGTGACTTTCCAGCTAATCCCCAAAGGCGGGA   6691
+
+Homo_sapiens    6944 TTGCCCAACCAGCGGGGGCTCCCCAGCCTCAGTCCACCTGCCCTCCAGCT   6993
+                     ||||||||||.||.|||||.||||||||||||.|||.|||||||||.|||
+Myotis_davidi   6692 TTGCCCAACCCGCCGGGGCACCCCAGCCTCAGACCAGCTGCCCTCCGGCT   6741
+
+Homo_sapiens    6994 GTTGCGGGCCCCCTGCCCACCATGTACCAGATTCCAGAAATGGCCCGTTT   7043
+                     |.|||.|||.||.|||||||||||||||||||||||||||||||.|||||
+Myotis_davidi   6742 GCTGCAGGCTCCATGCCCACCATGTACCAGATTCCAGAAATGGCTCGTTT   6791
+
+Homo_sapiens    7044 GCCCAGTGTGGCTTTCCCCACTGCCATGATGCCCCAGCAGGACGGGCAGG   7093
+                     ||||||..||||.||||||.|||||.||||||||||||||||||||||||
+Myotis_davidi   6792 GCCCAGCATGGCGTTCCCCGCTGCCGTGATGCCCCAGCAGGACGGGCAGG   6841
+
+Homo_sapiens    7094 TAGCTCAGACCATTCTCCCAGCCTATCATCCTTTCCCAGCCTCTGTGGGC   7143
+                     |.|.|||||||||.|||||..||||.||.||||||||||||||.||||||
+Myotis_davidi   6842 TCGTTCAGACCATCCTCCCCACCTACCACCCTTTCCCAGCCTCCGTGGGC   6891
+
+Homo_sapiens    7144 AAGTACCCCACACCCCCTTCACAGCACAGTTATGCTTCCTCAAATGCTGC   7193
+                     |||||||||||.||||||||||||||.|||||.||||||||.|||||.||
+Myotis_davidi   6892 AAGTACCCCACGCCCCCTTCACAGCATAGTTACGCTTCCTCCAATGCCGC   6941
+
+Homo_sapiens    7194 TGAGCGAACACCCAGTCACAGTGGTCACCTCCAGGGTGAGCATCCCTACC   7243
+                     .||||||||.|||||.||||||||||||||.|||||.|||||||||||||
+Myotis_davidi   6942 CGAGCGAACGCCCAGCCACAGTGGTCACCTGCAGGGGGAGCATCCCTACC   6991
+
+Homo_sapiens    7244 TGACACCATCCCCAGAGTCTCCTGACCAGTGGTCAAGTTCATCACCCCAC   7293
+                     ||||.|||||||||||||||||||||||||||||||||||.|||||||||
+Myotis_davidi   6992 TGACCCCATCCCCAGAGTCTCCTGACCAGTGGTCAAGTTCGTCACCCCAC   7041
+
+Homo_sapiens    7294 TCTGCTTCTGACTGGTCAGATGTGACCACCAGCCCTACCCCTGGGGGTGC   7343
+                     ||||||||||||||||||||.||||||||||||||.||.||.|||||.||
+Myotis_davidi   7042 TCTGCTTCTGACTGGTCAGACGTGACCACCAGCCCCACTCCCGGGGGGGC   7091
+
+Homo_sapiens    7344 TGGAGGAGGTCAGCGGGGACCTGGGACACACATGTCTGAGCCACCACACA   7393
+                     .||||||||||.|||||||||.|||||||||||||||||||||.|||.||
+Myotis_davidi   7092 CGGAGGAGGTCCGCGGGGACCGGGGACACACATGTCTGAGCCAGCACGCA   7141
+
+Homo_sapiens    7394 ACAACATGCAGGTTTATGCG   7413
+                     .|||||||||||||||.|||
+Myotis_davidi   7142 GCAACATGCAGGTTTACGCG   7161
+
+
+#---------------------------------------
+#---------------------------------------

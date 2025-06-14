@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 13:38:55
+# Commandline: needle
+#    -asequence Homo_sapiens.fa
+#    -bsequence Mus_musculus.fa
+#    -outfile Homo_sapiens-Mus_musculus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Homo_sapiens-Mus_musculus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Homo_sapiens
+# 2: Mus_musculus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 438
+# Identity:     328/438 (74.9%)
+# Similarity:   328/438 (74.9%)
+# Gaps:          60/438 (13.7%)
+# Score: 1372.0
+# 
+#
+#=======================================
+
+Homo_sapiens       1 ATGGACGCAGTGGCTGTGTATCATGGCAAAATCAGCAGGGAAACCGGCGA     50
+                     |||||.||||||.|||||||.||.|||||||||||||||||.|||||.||
+Mus_musculus       1 ATGGATGCAGTGACTGTGTACCACGGCAAAATCAGCAGGGAGACCGGGGA     50
+
+Homo_sapiens      51 GAAGCTCCTGCTTGCCACTGGGCTGGATGGCAGCTATTTGCTGAGGGACA    100
+                     |||||||.|.||.||.||.|||||||||||.||||||.|||||.|.||||
+Mus_musculus      51 GAAGCTCTTACTCGCTACCGGGCTGGATGGAAGCTATCTGCTGCGAGACA    100
+
+Homo_sapiens     101 GCGAGAGCGTGCCAGGCGTGTACTGCCTATGTGT----------------    134
+                     |||||||.||.||.||||||||||||||.|||||                
+Mus_musculus     101 GCGAGAGTGTCCCTGGCGTGTACTGCCTGTGTGTTTTTGTGCATAGCGCC    150
+
+Homo_sapiens     135 ---------------------------------GCT-----GTATCACGG    146
+                                                      |||     ||||||.||
+Mus_musculus     151 TTCCAGCACTATGGATTAGCCTATGTAGATGAAGCTTCCAGGTATCAAGG    200
+
+Homo_sapiens     147 TTACATTTATACATACCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTG    196
+                     ||||||.||.|||||.||||||||||||||||||||||||||||||||||
+Mus_musculus     201 TTACATCTACACATATCGAGTGTCCCAGACAGAAACAGGTTCTTGGAGTG    250
+
+Homo_sapiens     197 CTGAGACAGCACCTGGGGTACATAAAAGATATTTCCGGAAAATAAAAAAT    246
+                     |.||||||||||||||.|||||||||||||.||||||||||.||||||||
+Mus_musculus     251 CCGAGACAGCACCTGGAGTACATAAAAGATTTTTCCGGAAAGTAAAAAAT    300
+
+Homo_sapiens     247 CTCATTTCAGCATTTCAGAAGCCAGATCAAGGCATTGTAATACCTCTGCA    296
+                     |||||.|||||.|||||||||||.|||||||||||.||.|..||||||||
+Mus_musculus     301 CTCATCTCAGCGTTTCAGAAGCCGGATCAAGGCATCGTGACGCCTCTGCA    350
+
+Homo_sapiens     297 GTATCCAGTTGAGAAGAAGTCCTCAGCTAGAAGTACACAAGGTACTACAG    346
+                     |||||||||||   |.||||||||.|..||..|..||||||.|.|.||||
+Mus_musculus     351 GTATCCAGTTG---AAAAGTCCTCTGGCAGGGGCCCACAAGCTCCCACAG    397
+
+Homo_sapiens     347 GGATAAGAGAAGATCCTGATGTCTGCCTGAAAGCCCCA    384
+                     |||.|||   ||||.|||||.||||||||||.||.|||
+Mus_musculus     398 GGAGAAG---AGATTCTGATATCTGCCTGAATGCACCA    432
+
+
+#---------------------------------------
+#---------------------------------------
