@@ -1,0 +1,165 @@
+setwd("./../CDS_filtered/")
+getwd()
+library(ggplot2)
+library(reshape2)
+library(pheatmap)
+
+# Read the dataset
+df <- read.table("final_output_with_status.filtered.tsv", header = TRUE, sep = "\t", check.names = FALSE)
+colnames(df)[4:9]
+df<-df[df$Num_Gaps == 0, ]
+################## HEATMAPS ####################
+df$Gene_status <- as.factor(df$Gene_status)
+pairwise_cols <- colnames(df)[4:9]
+
+
+p_values_matrix <- matrix(NA, nrow = length(pairwise_cols), ncol = length(pairwise_cols), 
+                          dimnames = list(pairwise_cols, pairwise_cols))
+
+# Compute Wilcoxon test p-values for ratios
+for (i in 1:length(pairwise_cols)) {
+  for (j in 1:length(pairwise_cols)) {
+    if (i != j) {  # Avoid self-ratios
+      ratio_values <- df[[pairwise_cols[i]]] / df[[pairwise_cols[j]]]  # Compute ratio
+      ratio_values[is.infinite(ratio_values) | is.nan(ratio_values)] <- NA  # Handle division errors
+      
+      # Perform Wilcoxon test
+      test <- wilcox.test(ratio_values ~ df$Gene_status, na.action = na.omit, alternative = "less")
+      p_values_matrix[i, j] <- test$p.value
+    }
+  }
+}
+p_values_adj_matrix <- matrix(p.adjust(as.vector(p_values_matrix), method = "fdr"), 
+                              nrow = nrow(p_values_matrix), 
+                              ncol = ncol(p_values_matrix), 
+                              dimnames = dimnames(p_values_matrix))
+
+
+
+# Plot heatmap of p-values
+png("Heatmap_of_deletion_plot.png",height=6,width=10,units = "in",res=600)
+pheatmap(p_values_adj_matrix, 
+         color = colorRampPalette(c("yellow","skyblue","lightblue", "lightcyan", "white", "pink", "lightpink"))(50), 
+         display_numbers = TRUE, 
+         cluster_rows = F, 
+         cluster_cols = F, 
+         na_col = "grey") 
+dev.off()
+png("Heatmap_of_deletion_plot_MAIN.png",height=4,width=4,units = "in",res=600)
+pheatmap(p_values_adj_matrix, 
+         color = colorRampPalette(c("yellow","skyblue","lightblue", "lightcyan", "white", "pink", "lightpink"))(50), 
+         display_numbers = TRUE,
+         fontsize = 15,
+         cluster_rows = F, 
+         cluster_cols = F, 
+         na_col = "grey",fontsize_row = 8, fontsize_col = 8) 
+dev.off()
+################## Phylogenetic signal ####################
+library(phylolm)
+library(ape)
+
+head(df,3)
+str(df)
+df <- df[,c(2,4,7,9,10)]
+df$Gene_status <- as.character(df$Gene_status)
+
+# Replace "Intact" with 1 and "Loss" with 2
+df$Gene_status[df$Gene_status == "Intact"] <- 1
+df$Gene_status[df$Gene_status == "Loss"] <- 0
+
+# Convert to numeric if needed
+df$Gene_status <- as.numeric(df$Gene_status)
+#View(df)
+colnames(df)
+row_sums <- rowSums(df[, colnames(df)[2:4]])
+
+# Compute percentages
+df[[2]] <- (df[[2]] / row_sums) * 100
+df[[3]] <- (df[[3]] / row_sums) * 100
+df[[4]] <- (df[[4]] / row_sums) * 100
+head(df,5)
+
+tree=read.tree("species_tree.nwk")
+rownames(df)=df[,1]
+head(df)
+colnames(df)
+str(df)
+
+# Identify tips with zero branch length
+zero_length_tips <- tree$tip.label[
+  tree$edge.length[match(1:length(tree$tip.label), tree$edge[,2])] == 0
+]
+
+# Drop those tips from the tree
+tree <- drop.tip(tree, zero_length_tips)
+
+# Also remove them from the df
+df <- df[!rownames(df) %in% zero_length_tips, ]
+keep_species <- rownames(df)
+
+# Drop tips that are NOT in your data
+pruned_tree <- drop.tip(tree, setdiff(tree$tip.label, keep_species))
+
+# Confirm the tree has only your focal species
+num_tips<-length(pruned_tree$tip.label) 
+head(df,4)
+
+
+#num_tips <- length(tree$tip.label)
+#num_internal_nodes <- Nnode(tree)
+#total_nodes <- num_tips + num_internal_nodes
+#total_nodes
+# Extract row names and tree tip labels
+data_species <- rownames(df)
+tree_species <- pruned_tree$tip.label
+
+# Check for mismatches
+setdiff(data_species, tree_species)  # Species in df but not in tree
+setdiff(tree_species, data_species)  # Species in tree but not in df
+focal_gene <- colnames(df)[3] 
+gene1 <- colnames(df)[2] 
+gene3 <- colnames(df)[4] 
+formula <- as.formula(paste("Gene_status ~", focal_gene))
+###############MPLE###############
+fitwmple=phyloglm(formula ,df,pruned_tree, method = c("logistic_MPLE"), btol = 10, log.alpha.bound = 4,start.beta=NULL, start.alpha=NULL,boot = 2000, full.matrix = TRUE)
+cc1=coef(fitwmple)
+summary(fitwmple)
+mpleinter=round(cc1[1],2)
+mplew=round(cc1[2],2)
+summary_fit_mple <- summary(fitwmple)
+mplepvals <- summary_fit_mple$coefficients[, "p.value"][2]
+#####################IG10#########
+fitwig10=phyloglm(formula ,df,pruned_tree, method = c("logistic_IG10"), btol = 20, log.alpha.bound = 4,start.beta=NULL, start.alpha=NULL,boot = 2000, full.matrix = TRUE)
+cc2=coef(fitwig10)
+summary(fitwig10)
+ig10inter=round(cc2[1],2)
+ig10w=round(cc2[2],2)
+summary_fit_ig10 <- summary(fitwig10)
+ig10pvals <- summary_fit_ig10$coefficients[, "p.value"][2]
+####################################
+t(table(df$Gene_status,df[[focal_gene]]))->focal
+first_col_vector <- as.numeric(rownames(focal))
+x_vals <- rep(first_col_vector, 2) 
+y_vals <- c(rep(1, length(first_col_vector)), rep(0, length(first_col_vector)))
+cex_vals <- c(as.vector(focal[,2]), as.vector(focal[,1])) / 3
+##plot
+png("Phylogenetic_signal_of_deletion_plot.png",height=9,width=10,units = "in",res=600)
+plot(x_vals, y_vals, cex=cex_vals, pch=19, xlab="", ylab="", xlim=c(0,100), axes=FALSE)
+axis(1)
+axis(2, at = seq(0,1,by=1), las = 1)
+box()
+mtext("Loss",side=2,line=1.5,at=0)
+mtext(bquote("Relative distance (in %): " ~ 
+               frac(italic(.(focal_gene)), 
+                    italic(.(gene1)) + italic(.(focal_gene)) + italic(.(gene3))) ~ "× 100"),
+      side = 1, line = 4, at = 50)
+mtext(substitute(paste(italic(STAP1), " gene status")),side=2,line=2,at=0.5)
+mtext("Intact",side=2,line=1.5,at=1)
+curve(plogis(cc1[1]+cc1[2]*x),col="red",add=TRUE,lwd=2)
+textleg=paste("logistic_MPLE\nIntercept = ",mpleinter,"\nSlope = ",mplew,"\np = ",mplepvals,"\nn = ",length(first_col_vector))
+legend(85,0.8,textleg,xjust = 0.5,yjust = 0.5,x.intersp = 0.2,y.intersp = 0.8,adj = c(0, 0.5),bty='n', text.col = "red")
+curve(plogis(cc2[1]+cc2[2]*x),col="blue",add=TRUE,lwd=2)
+text2leg=paste("logistic_IG10\nIntercept = ",ig10inter,"\nSlope = ",ig10w,"\np = ",ig10pvals,"\nn = ",length(first_col_vector))
+legend(40,0.4,text2leg,xjust = 0.5,yjust = 0.5,x.intersp = 0.2,y.intersp = 0.8,adj = c(0, 0.5),bty='n', text.col = "blue")
+dev.off()
+
