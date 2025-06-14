@@ -12,8 +12,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________
 **Folder Structure**
-CEGLAB-Buddhabhushan/
-│
+
 ├── CSF1R-Selection_analysis/                          # Selection analysis of CSF1R **Fig. 7**
 
 ├── GC_content_of_IL34-LAPTM5-STAP1-TNIP2/             # GC content analysis **Fig. 3**
