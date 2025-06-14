@@ -1,4 +1,4 @@
-<p align="center"><b>🦎"Missing genes in squamata"</span></b></p>
+#Missing genes in squamata 🦎 🐍
 
 
 This GitHub repository contains the data for the paper **"Gene loss through chromosomal rearrangements and segmental deletions in squamates"**
