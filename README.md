@@ -1,7 +1,7 @@
 # Missing genes in squamata 🦎 🐍
 
 
-This GitHub repository contains the data for the paper **"Gene loss through chromosomal rearrangements and segmental deletions in squamates"**
+This GitHub repository contains the data for the paper **"Chromosomal rearrangements and segmental deletions drive gene loss in squamates"**
 
 Buddhabhushan Girish Salve, Sonal H, Nagarjun Vijay
 
